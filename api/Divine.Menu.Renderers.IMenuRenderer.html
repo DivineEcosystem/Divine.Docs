@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineSharp/Divine/new/main/apiSpec/new?filename=Divine_Menu_Renderers_IMenuRenderer.md&amp;value=---%0Auid%3A%20Divine.Menu.Renderers.IMenuRenderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Menu_Renderers_IMenuRenderer.md&amp;value=---%0Auid%3A%20Divine.Menu.Renderers.IMenuRenderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Menu_Renderers_IMenuRenderer" data-uid="Divine.Menu.Renderers.IMenuRenderer" class="text-break">
-Interface IMenuRenderer  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Interface IMenuRenderer  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -124,6 +124,15 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
   <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
   </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
   </dd></dl>
 
 
@@ -138,7 +147,7 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Divine_Menu_Renderers_IMenuRenderer_Clear" data-uid="Divine.Menu.Renderers.IMenuRenderer.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,23 +171,23 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_CreateTextLayout_" data-uid="Divine.Menu.Renderers.IMenuRenderer.CreateTextLayout*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_CreateTextLayout_System_String_Divine_Numerics_SizeF_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.CreateTextLayout(System.String,Divine.Numerics.SizeF,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
-  CreateTextLayout(string, SizeF, float, FontFlags, FontWeight)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_CreateTextLayout_System_String_Divine_Numerics_Size_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.CreateTextLayout(System.String,Divine.Numerics.Size,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
+  CreateTextLayout(string, Size, float, FontFlags, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDWriteTextLayout* CreateTextLayout(string text, SizeF size, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+    <pre><code class="lang-csharp hljs">IDWriteTextLayout* CreateTextLayout(string text, Size size, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>size</code> <a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></dt>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
     <dd></dd>
     <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -206,21 +215,21 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawBackground_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawBackground*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawBackground_Divine_Numerics_RoundedRectangle_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawBackground(Divine.Numerics.RoundedRectangle,Divine.Numerics.Color)">
-  DrawBackground(RoundedRectangle, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawBackground_Divine_Numerics_RoundedRect_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawBackground(Divine.Numerics.RoundedRect,Divine.Numerics.Color)">
+  DrawBackground(RoundedRect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawBackground(RoundedRectangle rect, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawBackground(RoundedRect rect, Color color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
     <dd></dd>
     <dt><code>color</code> <a class="xref" href="Divine.Numerics.Color.html">Color</a></dt>
     <dd></dd>
@@ -239,21 +248,21 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRectangle_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRectangle*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRectangle_Divine_Numerics_RectangleF_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRectangle(Divine.Numerics.RectangleF,Divine.Numerics.Color)">
-  DrawFilledRectangle(RectangleF, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRectangle_Divine_Numerics_Rect_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRectangle(Divine.Numerics.Rect,Divine.Numerics.Color)">
+  DrawFilledRectangle(Rect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawFilledRectangle(RectangleF rect, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawFilledRectangle(Rect rect, Color color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
     <dd></dd>
     <dt><code>color</code> <a class="xref" href="Divine.Numerics.Color.html">Color</a></dt>
     <dd></dd>
@@ -272,21 +281,21 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRoundedRectangle_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRoundedRectangle*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRoundedRectangle_Divine_Numerics_RoundedRectangle_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRoundedRectangle(Divine.Numerics.RoundedRectangle,Divine.Numerics.Color)">
-  DrawFilledRoundedRectangle(RoundedRectangle, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawFilledRoundedRectangle_Divine_Numerics_RoundedRect_Divine_Numerics_Color_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawFilledRoundedRectangle(Divine.Numerics.RoundedRect,Divine.Numerics.Color)">
+  DrawFilledRoundedRectangle(RoundedRect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawFilledRoundedRectangle(RoundedRectangle rect, Color color)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawFilledRoundedRectangle(RoundedRect rect, Color color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
     <dd></dd>
     <dt><code>color</code> <a class="xref" href="Divine.Numerics.Color.html">Color</a></dt>
     <dd></dd>
@@ -305,23 +314,23 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawImage_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawImage*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawImage_Divine_Menu_Components_MenuImageKey_Divine_Numerics_RectangleF_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawImage(Divine.Menu.Components.MenuImageKey,Divine.Numerics.RectangleF,System.Single)">
-  DrawImage(MenuImageKey, RectangleF, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawImage_Divine_Menu_Components_MenuImageKey_Divine_Numerics_Rect_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawImage(Divine.Menu.Components.MenuImageKey,Divine.Numerics.Rect,System.Single)">
+  DrawImage(MenuImageKey, Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawImage(MenuImageKey imageKey, RectangleF rect, float opacity = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawImage(MenuImageKey imageKey, Rect rect, float opacity = 1)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>imageKey</code> <a class="xref" href="Divine.Menu.Components.MenuImageKey.html">MenuImageKey</a></dt>
     <dd></dd>
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
     <dd></dd>
     <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -340,9 +349,9 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawLine_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawLine*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawLine_Divine_Numerics_Vector2_Divine_Numerics_Vector2_Divine_Numerics_Color_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawLine(Divine.Numerics.Vector2,Divine.Numerics.Vector2,Divine.Numerics.Color,System.Single)">
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawLine_System_Numerics_Vector2_System_Numerics_Vector2_Divine_Numerics_Color_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawLine(System.Numerics.Vector2,System.Numerics.Vector2,Divine.Numerics.Color,System.Single)">
   DrawLine(Vector2, Vector2, Color, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -354,9 +363,9 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>start</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
     <dd></dd>
-    <dt><code>end</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
     <dd></dd>
     <dt><code>color</code> <a class="xref" href="Divine.Numerics.Color.html">Color</a></dt>
     <dd></dd>
@@ -377,23 +386,23 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawRoundedImage_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawRoundedImage*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawRoundedImage_Divine_Menu_Components_MenuImageKey_Divine_Numerics_RoundedRectangle_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawRoundedImage(Divine.Menu.Components.MenuImageKey,Divine.Numerics.RoundedRectangle,System.Single)">
-  DrawRoundedImage(MenuImageKey, RoundedRectangle, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawRoundedImage_Divine_Menu_Components_MenuImageKey_Divine_Numerics_RoundedRect_System_Single_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawRoundedImage(Divine.Menu.Components.MenuImageKey,Divine.Numerics.RoundedRect,System.Single)">
+  DrawRoundedImage(MenuImageKey, RoundedRect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawRoundedImage(MenuImageKey imageKey, RoundedRectangle rect, float opacity = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawRoundedImage(MenuImageKey imageKey, RoundedRect rect, float opacity = 1)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>imageKey</code> <a class="xref" href="Divine.Menu.Components.MenuImageKey.html">MenuImageKey</a></dt>
     <dd></dd>
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
     <dd></dd>
     <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -412,23 +421,23 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_DrawText_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawText*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawText_System_String_Divine_Numerics_RectangleF_Divine_Numerics_Color_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawText(System.String,Divine.Numerics.RectangleF,Divine.Numerics.Color,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
-  DrawText(string, RectangleF, Color, float, FontFlags, FontWeight)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_DrawText_System_String_Divine_Numerics_Rect_Divine_Numerics_Color_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.DrawText(System.String,Divine.Numerics.Rect,Divine.Numerics.Color,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
+  DrawText(string, Rect, Color, float, FontFlags, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void DrawText(string text, RectangleF rect, Color color, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+    <pre><code class="lang-csharp hljs">void DrawText(string text, Rect rect, Color color, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></dt>
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
     <dd></dd>
     <dt><code>color</code> <a class="xref" href="Divine.Numerics.Color.html">Color</a></dt>
     <dd></dd>
@@ -453,23 +462,23 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <a id="Divine_Menu_Renderers_IMenuRenderer_GetTextMetrics_" data-uid="Divine.Menu.Renderers.IMenuRenderer.GetTextMetrics*"></a>
 
-  <h3 id="Divine_Menu_Renderers_IMenuRenderer_GetTextMetrics_System_String_Divine_Numerics_SizeF_System_Single_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.GetTextMetrics(System.String,Divine.Numerics.SizeF,System.Single,Divine.Renderer.FontWeight)">
-  GetTextMetrics(string, SizeF, float, FontWeight)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Menu_Renderers_IMenuRenderer_GetTextMetrics_System_String_Divine_Numerics_Size_System_Single_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.IMenuRenderer.GetTextMetrics(System.String,Divine.Numerics.Size,System.Single,Divine.Renderer.FontWeight)">
+  GetTextMetrics(string, Size, float, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TextMetrics GetTextMetrics(string text, SizeF size, float fontSize, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+    <pre><code class="lang-csharp hljs">TextMetrics GetTextMetrics(string text, Size size, float fontSize, FontWeight fontWeight = FontWeight.Bold)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>size</code> <a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></dt>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
     <dd></dd>
     <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -497,7 +506,7 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Divine_Menu_Renderers_IMenuRenderer_Initialize_Divine_Menu_Styles_IGeneralStyle_Divine_Menu_Styles_StyleDebugger_Divine_Menu_Items_MenuContext_" data-uid="Divine.Menu.Renderers.IMenuRenderer.Initialize(Divine.Menu.Styles.IGeneralStyle,Divine.Menu.Styles.StyleDebugger,Divine.Menu.Items.MenuContext)">
   Initialize(IGeneralStyle, StyleDebugger, MenuContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -532,7 +541,7 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Divine_Menu_Renderers_IMenuRenderer_OnDraw" data-uid="Divine.Menu.Renderers.IMenuRenderer.OnDraw">
   OnDraw()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -558,7 +567,7 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Divine_Menu_Renderers_IMenuRenderer_OnRender" data-uid="Divine.Menu.Renderers.IMenuRenderer.OnRender">
   OnRender()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -584,7 +593,7 @@ Interface IMenuRenderer  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineSharp/Divine/blob/main/Menu/Renderers/IMenuRenderer.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Menu/Renderers/IMenuRenderer.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

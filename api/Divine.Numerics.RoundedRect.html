@@ -1,0 +1,3140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct RoundedRect | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct RoundedRect | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RoccoZero/Divine.System/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRect.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Numerics.RoundedRect">
+
+
+
+  <h1 id="Divine_Numerics_RoundedRect" data-uid="Divine.Numerics.RoundedRect" class="text-break">
+Struct RoundedRect  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Numerics.html">Numerics</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Member.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct RoundedRect : IEquatable&lt;RoundedRect&gt;, IMultiplyOperators&lt;RoundedRect, CornerRadius, RoundedRect&gt;, IMultiplyOperators&lt;RoundedRect, RoundedRect, RoundedRect&gt;, IMultiplyOperators&lt;RoundedRect, float, RoundedRect&gt;, IMultiplyOperators&lt;RoundedRect, Size, RoundedRect&gt;, IMultiplyOperators&lt;RoundedRect, Vector2, RoundedRect&gt;</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="Divine.Numerics.Size.html">Size</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a>, <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_ClearFlags__1___0___0_">EnumerableExtensions.ClearFlags&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlagDescription__1___0_">EnumerableExtensions.GetFlagDescription&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlags__1___0_">EnumerableExtensions.GetFlags&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_SetFlags__1___0___0_System_Boolean_">EnumerableExtensions.SetFlags&lt;T&gt;(T, T, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_Divine_Numerics_Rect_" data-uid="Divine.Numerics.RoundedRect.#ctor(Divine.Numerics.Rect)">
+  RoundedRect(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_Divine_Numerics_Rect_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.#ctor(Divine.Numerics.Rect,Divine.Numerics.CornerRadius)">
+  RoundedRect(Rect, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Rect rect, CornerRadius cornerRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>cornerRadius</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_Divine_Numerics_Rect_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(Divine.Numerics.Rect,System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(Rect, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Rect rect, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Numerics_Vector2_Divine_Numerics_Size_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Numerics.Vector2,Divine.Numerics.Size,Divine.Numerics.CornerRadius)">
+  RoundedRect(Vector2, Size, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Vector2 location, Size size, CornerRadius cornerRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+    <dt><code>cornerRadius</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Numerics_Vector2_Divine_Numerics_Size_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Numerics.Vector2,Divine.Numerics.Size,System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(Vector2, Size, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Vector2 location, Size size, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Numerics_Vector2_System_Single_System_Single_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Numerics.Vector2,System.Single,System.Single,Divine.Numerics.CornerRadius)">
+  RoundedRect(Vector2, float, float, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(Vector2 location, float width, float height, CornerRadius cornerRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cornerRadius</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_Divine_Numerics_Size_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,Divine.Numerics.Size,Divine.Numerics.CornerRadius)">
+  RoundedRect(float, float, Size, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float x, float y, Size size, CornerRadius cornerRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+    <dt><code>cornerRadius</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_System_Single_System_Single_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,System.Single,System.Single,Divine.Numerics.CornerRadius)">
+  RoundedRect(float, float, float, float, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float x, float y, float width, float height, CornerRadius cornerRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cornerRadius</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float x, float y, float width, float height, float uniformRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>uniformRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect__ctor_" data-uid="Divine.Numerics.RoundedRect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  RoundedRect(float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRect(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Numerics_RoundedRect_CornerRadius" data-uid="Divine.Numerics.RoundedRect.CornerRadius">
+  CornerRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CornerRadius CornerRadius</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_RoundedRect_Rect" data-uid="Divine.Numerics.RoundedRect.Rect">
+  Rect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect Rect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Numerics_RoundedRect_Bottom_" data-uid="Divine.Numerics.RoundedRect.Bottom*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Bottom" data-uid="Divine.Numerics.RoundedRect.Bottom">
+  Bottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Bottom { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_BottomLeft_" data-uid="Divine.Numerics.RoundedRect.BottomLeft*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_BottomLeft" data-uid="Divine.Numerics.RoundedRect.BottomLeft">
+  BottomLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 BottomLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_BottomLeftRadius_" data-uid="Divine.Numerics.RoundedRect.BottomLeftRadius*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_BottomLeftRadius" data-uid="Divine.Numerics.RoundedRect.BottomLeftRadius">
+  BottomLeftRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BottomLeftRadius { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_BottomRight_" data-uid="Divine.Numerics.RoundedRect.BottomRight*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_BottomRight" data-uid="Divine.Numerics.RoundedRect.BottomRight">
+  BottomRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 BottomRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_BottomRightRadius_" data-uid="Divine.Numerics.RoundedRect.BottomRightRadius*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_BottomRightRadius" data-uid="Divine.Numerics.RoundedRect.BottomRightRadius">
+  BottomRightRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BottomRightRadius { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Center_" data-uid="Divine.Numerics.RoundedRect.Center*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Center" data-uid="Divine.Numerics.RoundedRect.Center">
+  Center
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 Center { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Height_" data-uid="Divine.Numerics.RoundedRect.Height*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Height" data-uid="Divine.Numerics.RoundedRect.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Height { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Left_" data-uid="Divine.Numerics.RoundedRect.Left*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Left" data-uid="Divine.Numerics.RoundedRect.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Left { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Position_" data-uid="Divine.Numerics.RoundedRect.Position*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Position" data-uid="Divine.Numerics.RoundedRect.Position">
+  Position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Position { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Right_" data-uid="Divine.Numerics.RoundedRect.Right*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Right" data-uid="Divine.Numerics.RoundedRect.Right">
+  Right
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Right { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Size_" data-uid="Divine.Numerics.RoundedRect.Size*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Size" data-uid="Divine.Numerics.RoundedRect.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size Size { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Top_" data-uid="Divine.Numerics.RoundedRect.Top*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Top" data-uid="Divine.Numerics.RoundedRect.Top">
+  Top
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Top { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_TopLeft_" data-uid="Divine.Numerics.RoundedRect.TopLeft*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_TopLeft" data-uid="Divine.Numerics.RoundedRect.TopLeft">
+  TopLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 TopLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_TopLeftRadius_" data-uid="Divine.Numerics.RoundedRect.TopLeftRadius*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_TopLeftRadius" data-uid="Divine.Numerics.RoundedRect.TopLeftRadius">
+  TopLeftRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TopLeftRadius { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_TopRight_" data-uid="Divine.Numerics.RoundedRect.TopRight*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_TopRight" data-uid="Divine.Numerics.RoundedRect.TopRight">
+  TopRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 TopRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_TopRightRadius_" data-uid="Divine.Numerics.RoundedRect.TopRightRadius*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_TopRightRadius" data-uid="Divine.Numerics.RoundedRect.TopRightRadius">
+  TopRightRadius
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TopRightRadius { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Width_" data-uid="Divine.Numerics.RoundedRect.Width*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Width" data-uid="Divine.Numerics.RoundedRect.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Width { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_X_" data-uid="Divine.Numerics.RoundedRect.X*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_X" data-uid="Divine.Numerics.RoundedRect.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float X { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Y_" data-uid="Divine.Numerics.RoundedRect.Y*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Y" data-uid="Divine.Numerics.RoundedRect.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Y { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Numerics_RoundedRect_Add_" data-uid="Divine.Numerics.RoundedRect.Add*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Add_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.Add(Divine.Numerics.RoundedRect)">
+  Add(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Add(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Add_" data-uid="Divine.Numerics.RoundedRect.Add*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Add_System_Single_" data-uid="Divine.Numerics.RoundedRect.Add(System.Single)">
+  Add(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Add(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Add_" data-uid="Divine.Numerics.RoundedRect.Add*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Add_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Add(System.Single,System.Single,System.Single,System.Single)">
+  Add(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Add(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Add_" data-uid="Divine.Numerics.RoundedRect.Add*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Add_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Add(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Add(float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Add(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Ceiling_" data-uid="Divine.Numerics.RoundedRect.Ceiling*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Ceiling" data-uid="Divine.Numerics.RoundedRect.Ceiling">
+  Ceiling()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Ceiling()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Divide_" data-uid="Divine.Numerics.RoundedRect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Divide_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.Divide(Divine.Numerics.RoundedRect)">
+  Divide(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Divide(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Divide_" data-uid="Divine.Numerics.RoundedRect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Divide_System_Single_" data-uid="Divine.Numerics.RoundedRect.Divide(System.Single)">
+  Divide(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Divide(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Divide_" data-uid="Divine.Numerics.RoundedRect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Divide_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Divide(System.Single,System.Single,System.Single,System.Single)">
+  Divide(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Divide(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Divide_" data-uid="Divine.Numerics.RoundedRect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Divide_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Divide(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Divide(float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Divide(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Equals_" data-uid="Divine.Numerics.RoundedRect.Equals*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Equals_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.Equals(Divine.Numerics.RoundedRect)">
+  Equals(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(RoundedRect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Equals_" data-uid="Divine.Numerics.RoundedRect.Equals*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Equals_System_Object_" data-uid="Divine.Numerics.RoundedRect.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether this instance and a specified object are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current instance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Floor_" data-uid="Divine.Numerics.RoundedRect.Floor*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Floor" data-uid="Divine.Numerics.RoundedRect.Floor">
+  Floor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Floor()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_GetHashCode_" data-uid="Divine.Numerics.RoundedRect.GetHashCode*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_GetHashCode" data-uid="Divine.Numerics.RoundedRect.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A 32-bit signed integer that is the hash code for this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Lerp_" data-uid="Divine.Numerics.RoundedRect.Lerp*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Lerp_Divine_Numerics_RoundedRect_System_Single_" data-uid="Divine.Numerics.RoundedRect.Lerp(Divine.Numerics.RoundedRect,System.Single)">
+  Lerp(RoundedRect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Lerp(RoundedRect rect, float amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Multiply_" data-uid="Divine.Numerics.RoundedRect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Multiply_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.Multiply(Divine.Numerics.RoundedRect)">
+  Multiply(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Multiply(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Multiply_" data-uid="Divine.Numerics.RoundedRect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Multiply_System_Single_" data-uid="Divine.Numerics.RoundedRect.Multiply(System.Single)">
+  Multiply(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Multiply(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Multiply_" data-uid="Divine.Numerics.RoundedRect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Multiply_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Multiply(System.Single,System.Single,System.Single,System.Single)">
+  Multiply(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Multiply(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Multiply_" data-uid="Divine.Numerics.RoundedRect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Multiply_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Multiply(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Multiply(float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Multiply(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Round_" data-uid="Divine.Numerics.RoundedRect.Round*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Round" data-uid="Divine.Numerics.RoundedRect.Round">
+  Round()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Round()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Subtract_" data-uid="Divine.Numerics.RoundedRect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Subtract_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.Subtract(Divine.Numerics.RoundedRect)">
+  Subtract(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Subtract(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Subtract_" data-uid="Divine.Numerics.RoundedRect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Subtract_System_Single_" data-uid="Divine.Numerics.RoundedRect.Subtract(System.Single)">
+  Subtract(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Subtract(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Subtract_" data-uid="Divine.Numerics.RoundedRect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Subtract_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Subtract(System.Single,System.Single,System.Single,System.Single)">
+  Subtract(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Subtract(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_Subtract_" data-uid="Divine.Numerics.RoundedRect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_Subtract_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRect.Subtract(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Subtract(float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRect Subtract(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>topRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomRightRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottomLeftRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_ToString_" data-uid="Divine.Numerics.RoundedRect.ToString*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_ToString" data-uid="Divine.Numerics.RoundedRect.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the fully qualified type name of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The fully qualified type name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Addition_" data-uid="Divine.Numerics.RoundedRect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Addition_Divine_Numerics_RoundedRect_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.op_Addition(Divine.Numerics.RoundedRect,Divine.Numerics.CornerRadius)">
+  operator +(RoundedRect, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L434"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator +(RoundedRect left, CornerRadius right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Addition_" data-uid="Divine.Numerics.RoundedRect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Addition_Divine_Numerics_RoundedRect_Divine_Numerics_Margin_" data-uid="Divine.Numerics.RoundedRect.op_Addition(Divine.Numerics.RoundedRect,Divine.Numerics.Margin)">
+  operator +(RoundedRect, Margin)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator +(RoundedRect left, Margin right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Margin.html">Margin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Addition_" data-uid="Divine.Numerics.RoundedRect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Addition_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Addition(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator +(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator +(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Addition_" data-uid="Divine.Numerics.RoundedRect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Addition_Divine_Numerics_RoundedRect_Divine_Numerics_Size_" data-uid="Divine.Numerics.RoundedRect.op_Addition(Divine.Numerics.RoundedRect,Divine.Numerics.Size)">
+  operator +(RoundedRect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator +(RoundedRect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Addition_" data-uid="Divine.Numerics.RoundedRect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Addition_Divine_Numerics_RoundedRect_System_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRect.op_Addition(Divine.Numerics.RoundedRect,System.Numerics.Vector2)">
+  operator +(RoundedRect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator +(RoundedRect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Division_" data-uid="Divine.Numerics.RoundedRect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Division_Divine_Numerics_RoundedRect_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.op_Division(Divine.Numerics.RoundedRect,Divine.Numerics.CornerRadius)">
+  operator /(RoundedRect, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L504"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator /(RoundedRect left, CornerRadius right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Division_" data-uid="Divine.Numerics.RoundedRect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Division_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Division(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator /(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L509"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator /(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Division_" data-uid="Divine.Numerics.RoundedRect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Division_Divine_Numerics_RoundedRect_Divine_Numerics_Size_" data-uid="Divine.Numerics.RoundedRect.op_Division(Divine.Numerics.RoundedRect,Divine.Numerics.Size)">
+  operator /(RoundedRect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator /(RoundedRect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Division_" data-uid="Divine.Numerics.RoundedRect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Division_Divine_Numerics_RoundedRect_System_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRect.op_Division(Divine.Numerics.RoundedRect,System.Numerics.Vector2)">
+  operator /(RoundedRect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator /(RoundedRect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Division_" data-uid="Divine.Numerics.RoundedRect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Division_Divine_Numerics_RoundedRect_System_Single_" data-uid="Divine.Numerics.RoundedRect.op_Division(Divine.Numerics.RoundedRect,System.Single)">
+  operator /(RoundedRect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator /(RoundedRect left, float right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Equality_" data-uid="Divine.Numerics.RoundedRect.op_Equality*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Equality_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Equality(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator ==(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L514"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Implicit_" data-uid="Divine.Numerics.RoundedRect.op_Implicit*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Implicit_Divine_Numerics_RoundedRect__Divine_Numerics_CornerRadius" data-uid="Divine.Numerics.RoundedRect.op_Implicit(Divine.Numerics.RoundedRect)~Divine.Numerics.CornerRadius">
+  implicit operator CornerRadius(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator CornerRadius(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Implicit_" data-uid="Divine.Numerics.RoundedRect.op_Implicit*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Implicit_Divine_Numerics_RoundedRect__Divine_Numerics_Rect" data-uid="Divine.Numerics.RoundedRect.op_Implicit(Divine.Numerics.RoundedRect)~Divine.Numerics.Rect">
+  implicit operator Rect(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L524"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Rect(RoundedRect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Inequality_" data-uid="Divine.Numerics.RoundedRect.op_Inequality*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Inequality_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Inequality(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator !=(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L519"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Multiply_" data-uid="Divine.Numerics.RoundedRect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Multiply_Divine_Numerics_RoundedRect_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.op_Multiply(Divine.Numerics.RoundedRect,Divine.Numerics.CornerRadius)">
+  operator *(RoundedRect, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L479"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator *(RoundedRect left, CornerRadius right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Multiply_" data-uid="Divine.Numerics.RoundedRect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Multiply_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Multiply(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator *(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator *(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Multiply_" data-uid="Divine.Numerics.RoundedRect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Multiply_Divine_Numerics_RoundedRect_Divine_Numerics_Size_" data-uid="Divine.Numerics.RoundedRect.op_Multiply(Divine.Numerics.RoundedRect,Divine.Numerics.Size)">
+  operator *(RoundedRect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator *(RoundedRect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Multiply_" data-uid="Divine.Numerics.RoundedRect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Multiply_Divine_Numerics_RoundedRect_System_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRect.op_Multiply(Divine.Numerics.RoundedRect,System.Numerics.Vector2)">
+  operator *(RoundedRect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator *(RoundedRect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Multiply_" data-uid="Divine.Numerics.RoundedRect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Multiply_Divine_Numerics_RoundedRect_System_Single_" data-uid="Divine.Numerics.RoundedRect.op_Multiply(Divine.Numerics.RoundedRect,System.Single)">
+  operator *(RoundedRect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L464"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator *(RoundedRect left, float right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Subtraction_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Subtraction_Divine_Numerics_RoundedRect_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction(Divine.Numerics.RoundedRect,Divine.Numerics.CornerRadius)">
+  operator -(RoundedRect, CornerRadius)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator -(RoundedRect left, CornerRadius right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Subtraction_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Subtraction_Divine_Numerics_RoundedRect_Divine_Numerics_RoundedRect_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction(Divine.Numerics.RoundedRect,Divine.Numerics.RoundedRect)">
+  operator -(RoundedRect, RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L459"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator -(RoundedRect left, RoundedRect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Subtraction_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Subtraction_Divine_Numerics_RoundedRect_Divine_Numerics_Size_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction(Divine.Numerics.RoundedRect,Divine.Numerics.Size)">
+  operator -(RoundedRect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator -(RoundedRect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_RoundedRect_op_Subtraction_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_RoundedRect_op_Subtraction_Divine_Numerics_RoundedRect_System_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRect.op_Subtraction(Divine.Numerics.RoundedRect,System.Numerics.Vector2)">
+  operator -(RoundedRect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRect operator -(RoundedRect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/RoundedRect.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

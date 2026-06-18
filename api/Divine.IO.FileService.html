@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FileService | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FileService | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.IO.FileService">
+
+
+
+  <h1 id="Divine_IO_FileService" data-uid="Divine.IO.FileService" class="text-break">
+Class FileService  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.IO.html">IO</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Common.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FileService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FileService</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_IO_FileService__ctor_" data-uid="Divine.IO.FileService.#ctor*"></a>
+
+  <h3 id="Divine_IO_FileService__ctor_Microsoft_Extensions_Logging_ILogger_Divine_IO_FileService__Divine_IO_DirectoryService_" data-uid="Divine.IO.FileService.#ctor(Microsoft.Extensions.Logging.ILogger{Divine.IO.FileService},Divine.IO.DirectoryService)">
+  FileService(ILogger&lt;FileService&gt;, DirectoryService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileService(ILogger&lt;FileService&gt; logger, DirectoryService directoryService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Divine.IO.FileService.html">FileService</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>directoryService</code> <a class="xref" href="Divine.IO.DirectoryService.html">DirectoryService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_IO_FileService_Client_" data-uid="Divine.IO.FileService.Client*"></a>
+
+  <h3 id="Divine_IO_FileService_Client" data-uid="Divine.IO.FileService.Client">
+  Client
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Client { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Common_" data-uid="Divine.IO.FileService.Common*"></a>
+
+  <h3 id="Divine_IO_FileService_Common" data-uid="Divine.IO.FileService.Common">
+  Common
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Common { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Core_" data-uid="Divine.IO.FileService.Core*"></a>
+
+  <h3 id="Divine_IO_FileService_Core" data-uid="Divine.IO.FileService.Core">
+  Core
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Core { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_CoreSteam_" data-uid="Divine.IO.FileService.CoreSteam*"></a>
+
+  <h3 id="Divine_IO_FileService_CoreSteam" data-uid="Divine.IO.FileService.CoreSteam">
+  CoreSteam
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CoreSteam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_CoreSteamX86_" data-uid="Divine.IO.FileService.CoreSteamX86*"></a>
+
+  <h3 id="Divine_IO_FileService_CoreSteamX86" data-uid="Divine.IO.FileService.CoreSteamX86">
+  CoreSteamX86
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CoreSteamX86 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Dependencies_" data-uid="Divine.IO.FileService.Dependencies*"></a>
+
+  <h3 id="Divine_IO_FileService_Dependencies" data-uid="Divine.IO.FileService.Dependencies">
+  Dependencies
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Dependencies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Divine_" data-uid="Divine.IO.FileService.Divine*"></a>
+
+  <h3 id="Divine_IO_FileService_Divine" data-uid="Divine.IO.FileService.Divine">
+  Divine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Divine { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Interop_" data-uid="Divine.IO.FileService.Interop*"></a>
+
+  <h3 id="Divine_IO_FileService_Interop" data-uid="Divine.IO.FileService.Interop">
+  Interop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Interop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Loader_" data-uid="Divine.IO.FileService.Loader*"></a>
+
+  <h3 id="Divine_IO_FileService_Loader" data-uid="Divine.IO.FileService.Loader">
+  Loader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Loader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Member_" data-uid="Divine.IO.FileService.Member*"></a>
+
+  <h3 id="Divine_IO_FileService_Member" data-uid="Divine.IO.FileService.Member">
+  Member
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Member { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Protobufs_" data-uid="Divine.IO.FileService.Protobufs*"></a>
+
+  <h3 id="Divine_IO_FileService_Protobufs" data-uid="Divine.IO.FileService.Protobufs">
+  Protobufs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Protobufs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Sandbox_" data-uid="Divine.IO.FileService.Sandbox*"></a>
+
+  <h3 id="Divine_IO_FileService_Sandbox" data-uid="Divine.IO.FileService.Sandbox">
+  Sandbox
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Sandbox { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_SourceGenerator_" data-uid="Divine.IO.FileService.SourceGenerator*"></a>
+
+  <h3 id="Divine_IO_FileService_SourceGenerator" data-uid="Divine.IO.FileService.SourceGenerator">
+  SourceGenerator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SourceGenerator { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Toolkit_" data-uid="Divine.IO.FileService.Toolkit*"></a>
+
+  <h3 id="Divine_IO_FileService_Toolkit" data-uid="Divine.IO.FileService.Toolkit">
+  Toolkit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Toolkit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_Win32_" data-uid="Divine.IO.FileService.Win32*"></a>
+
+  <h3 id="Divine_IO_FileService_Win32" data-uid="Divine.IO.FileService.Win32">
+  Win32
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Win32 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_IO_FileService_CopyFile_" data-uid="Divine.IO.FileService.CopyFile*"></a>
+
+  <h3 id="Divine_IO_FileService_CopyFile_System_String_System_String_System_Boolean_" data-uid="Divine.IO.FileService.CopyFile(System.String,System.String,System.Boolean)">
+  CopyFile(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyFile(string sourceFile, string destFile, bool overwrite = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sourceFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>destFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>overwrite</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_CopyLibrary_" data-uid="Divine.IO.FileService.CopyLibrary*"></a>
+
+  <h3 id="Divine_IO_FileService_CopyLibrary_System_String_System_String_" data-uid="Divine.IO.FileService.CopyLibrary(System.String,System.String)">
+  CopyLibrary(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CopyLibrary(string sourceFile, string destDirectory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sourceFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>destDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileService_GetFileByName_" data-uid="Divine.IO.FileService.GetFileByName*"></a>
+
+  <h3 id="Divine_IO_FileService_GetFileByName_System_String_" data-uid="Divine.IO.FileService.GetFileByName(System.String)">
+  GetFileByName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetFileByName(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/IO/FileService.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

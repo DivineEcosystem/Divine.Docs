@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/RoccoZero/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/O9K/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell" class="text-break">
-Class KrakenShell  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class KrakenShell  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class KrakenShell  <a class="header-action link-secondary" title="View source" h
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AbilityId(AbilityId.tidehunter_kraken_shell)]
-public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHasDamageBlock</code></pre>
+public class KrakenShell : ActiveAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHasDamageBlock, IBuff, IShield, IActiveAbility</code></pre>
   </div>
 
 
@@ -114,7 +114,7 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html">Ability9</a></div>
-      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.PassiveAbility.html">PassiveAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html">ActiveAbility</a></div>
       <div><span class="xref">KrakenShell</span></div>
     </dd>
   </dl>
@@ -125,6 +125,9 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IHasDamageBlock.html">IHasDamageBlock</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.IBuff.html">IBuff</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.IShield.html">IShield</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.Base.IActiveAbility.html">IActiveAbility</a></div>
     </dd>
   </dl>
 
@@ -133,7 +136,100 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PassiveAbility.html#O9K_Core_Entities_Abilities_Base_PassiveAbility_CanBeCasted_System_Boolean_">PassiveAbility.CanBeCasted(bool)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SpeedData">ActiveAbility.SpeedData</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_BreaksLinkens">ActiveAbility.BreaksLinkens</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileChanneling">ActiveAbility.CanBeCastedWhileChanneling</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CollisionTypes">ActiveAbility.CollisionTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_HasAreaOfEffect">ActiveAbility.HasAreaOfEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_IsImmediateCasting">ActiveAbility.IsImmediateCasting</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_NoTargetCast">ActiveAbility.NoTargetCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_PositionCast">ActiveAbility.PositionCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SkillShotType">ActiveAbility.SkillShotType</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_Speed">ActiveAbility.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_TargetsAlly">ActiveAbility.TargetsAlly</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UnitTargetCast">ActiveAbility.UnitTargetCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_ActionSleeper">ActiveAbility.ActionSleeper</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileRooted">ActiveAbility.CanBeCastedWhileRooted</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileStunned">ActiveAbility.CanBeCastedWhileStunned</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCasted_System_Boolean_">ActiveAbility.CanBeCasted(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanHit_O9K_Core_Entities_Units_Unit9_">ActiveAbility.CanHit(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanHit_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__System_Int32_">ActiveAbility.CanHit(Unit9, List&lt;Unit9&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetCastDelay(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_System_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay">ActiveAbility.GetCastDelay()</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetHitTime(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_System_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionInput_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__">ActiveAbility.GetPredictionInput(Unit9, List&lt;Unit9&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionOutput_O9K_Core_Prediction_Data_PredictionInput9_">ActiveAbility.GetPredictionOutput(PredictionInput9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__O9K_Core_Prediction_Data_HitChance_System_Int32_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Unit9, List&lt;Unit9&gt;, HitChance, int, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_O9K_Core_Entities_Units_Unit9_O9K_Core_Prediction_Data_HitChance_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Unit9, HitChance, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Unit9, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Tree, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_System_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Rune, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_ActivationDelayData">Ability9.ActivationDelayData</a>
@@ -188,6 +284,9 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_DisplayName">Ability9.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_TextureName">Ability9.TextureName</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Duration">Ability9.Duration</a>
@@ -304,9 +403,6 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Owner">Entity9.Owner</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_TextureName">Entity9.TextureName</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Equals_O9K_Core_Entities_Entity9_">Entity9.Equals(Entity9)</a>
     </div>
     <div>
@@ -354,7 +450,22 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
       <a class="xref" href="O9K.Core.Extensions.AbilityExtensions.html#O9K_Core_Extensions_AbilityExtensions_IsPureDamageBlock_O9K_Core_Entities_Abilities_Base_Components_IHasDamageBlock_">AbilityExtensions.IsPureDamageBlock(IHasDamageBlock)</a>
   </div>
   <div>
+      <a class="xref" href="O9K.Core.Extensions.AbilityExtensions.html#O9K_Core_Extensions_AbilityExtensions_IsDebuffImmune_O9K_Core_Entities_Abilities_Base_Types_IShield_">AbilityExtensions.IsDebuffImmune(IShield)</a>
+  </div>
+  <div>
+      <a class="xref" href="O9K.Core.Extensions.AbilityExtensions.html#O9K_Core_Extensions_AbilityExtensions_IsMagicImmunity_O9K_Core_Entities_Abilities_Base_Types_IShield_">AbilityExtensions.IsMagicImmunity(IShield)</a>
+  </div>
+  <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
   </div>
   </dd></dl>
 
@@ -370,7 +481,7 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell__ctor_Divine_Entity_Entities_Abilities_Ability_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.#ctor(Divine.Entity.Entities.Abilities.Ability)">
   KrakenShell(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -401,11 +512,42 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 </h2>
 
 
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_AppliesUnitState_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.AppliesUnitState*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_AppliesUnitState" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.AppliesUnitState">
+  AppliesUnitState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnitState AppliesUnitState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Units.Components.UnitState.html">UnitState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BlockDamageType_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BlockDamageType*"></a>
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BlockDamageType" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BlockDamageType">
   BlockDamageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -436,7 +578,7 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BlockModifierName" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BlockModifierName">
   BlockModifierName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -467,7 +609,7 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BlocksDamageAfterReduction" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BlocksDamageAfterReduction">
   BlocksDamageAfterReduction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -494,11 +636,104 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
 
 
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffModifierName_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffModifierName*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffModifierName" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffModifierName">
+  BuffModifierName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BuffModifierName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffsAlly_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffsAlly*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffsAlly" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffsAlly">
+  BuffsAlly
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BuffsAlly { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffsOwner_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffsOwner*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BuffsOwner" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BuffsOwner">
+  BuffsOwner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BuffsOwner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_IsDamageBlockPermanent_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.IsDamageBlockPermanent*"></a>
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_IsDamageBlockPermanent" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.IsDamageBlockPermanent">
   IsDamageBlockPermanent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -506,6 +741,130 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsDamageBlockPermanent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldModifierName_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldModifierName*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldModifierName" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldModifierName">
+  ShieldModifierName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ShieldModifierName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldsAlly_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldsAlly*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldsAlly" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldsAlly">
+  ShieldsAlly
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShieldsAlly { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldsOwner_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldsOwner*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_ShieldsOwner" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.ShieldsOwner">
+  ShieldsOwner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShieldsOwner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_TargetsEnemy_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.TargetsEnemy*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_TargetsEnemy" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.TargetsEnemy">
+  TargetsEnemy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool TargetsEnemy { get; }</code></pre>
   </div>
 
 
@@ -533,7 +892,7 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_BlockValue_O9K_Core_Entities_Units_Unit9_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.BlockValue(O9K.Core.Entities.Units.Unit9)">
   BlockValue(Unit9)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -565,11 +924,135 @@ public class KrakenShell : PassiveAbility, IEquatable&lt;Entity9&gt;, IDisposabl
 
 
 
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetActiveDuration_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetActiveDuration*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetActiveDuration" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetActiveDuration">
+  GetActiveDuration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetActiveDuration()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetBonusReductionPerKill_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetBonusReductionPerKill*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetBonusReductionPerKill" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetBonusReductionPerKill">
+  GetBonusReductionPerKill()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetBonusReductionPerKill()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetDoubledBlockValue_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetDoubledBlockValue*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetDoubledBlockValue" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetDoubledBlockValue">
+  GetDoubledBlockValue()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDoubledBlockValue()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetMovementPenalty_" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetMovementPenalty*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Tidehunter_KrakenShell_GetMovementPenalty" data-uid="O9K.Core.Entities.Abilities.Heroes.Tidehunter.KrakenShell.GetMovementPenalty">
+  GetMovementPenalty()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetMovementPenalty()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Tidehunter/KrakenShell.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

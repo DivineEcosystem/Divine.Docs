@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/RoccoZero/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/O9K/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel" class="text-break">
-Class GuardianAngel  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class GuardianAngel  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class GuardianAngel  <a class="header-action link-secondary" title="View source"
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AbilityId(AbilityId.omniknight_guardian_angel)]
-public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHasDamageAmplify, IShield, IActiveAbility</code></pre>
+public class GuardianAngel : CircleAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHasRadius, IHasDamageAmplify, IShield, IActiveAbility</code></pre>
   </div>
 
 
@@ -116,6 +116,8 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html">Ability9</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html">ActiveAbility</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html">RangedAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html">PredictionAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.CircleAbility.html">CircleAbility</a></div>
       <div><span class="xref">GuardianAngel</span></div>
     </dd>
   </dl>
@@ -125,6 +127,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IHasRadius.html">IHasRadius</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IHasDamageAmplify.html">IHasDamageAmplify</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.IShield.html">IShield</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.Base.IActiveAbility.html">IActiveAbility</a></div>
@@ -136,22 +139,28 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.CircleAbility.html#O9K_Core_Entities_Abilities_Base_CircleAbility_SkillShotType">CircleAbility.SkillShotType</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html#O9K_Core_Entities_Abilities_Base_PredictionAbility_Range">PredictionAbility.Range</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html#O9K_Core_Entities_Abilities_Base_PredictionAbility_CanHit_O9K_Core_Entities_Units_Unit9_">PredictionAbility.CanHit(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html#O9K_Core_Entities_Abilities_Base_PredictionAbility_CanHit_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__System_Int32_">PredictionAbility.CanHit(Unit9, List&lt;Unit9&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html#O9K_Core_Entities_Abilities_Base_PredictionAbility_UseAbility_O9K_Core_Entities_Units_Unit9_O9K_Core_Prediction_Data_HitChance_System_Boolean_System_Boolean_">PredictionAbility.UseAbility(Unit9, HitChance, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.PredictionAbility.html#O9K_Core_Entities_Abilities_Base_PredictionAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__O9K_Core_Prediction_Data_HitChance_System_Int32_System_Boolean_System_Boolean_">PredictionAbility.UseAbility(Unit9, List&lt;Unit9&gt;, HitChance, int, bool, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_RangeData">RangedAbility.RangeData</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_BaseCastRange">RangedAbility.BaseCastRange</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CanHit_O9K_Core_Entities_Units_Unit9_">RangedAbility.CanHit(Unit9)</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CanHit_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__System_Int32_">RangedAbility.CanHit(Unit9, List&lt;Unit9&gt;, int)</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_UseAbility_O9K_Core_Entities_Units_Unit9_O9K_Core_Prediction_Data_HitChance_System_Boolean_System_Boolean_">RangedAbility.UseAbility(Unit9, HitChance, bool, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__O9K_Core_Prediction_Data_HitChance_System_Int32_System_Boolean_System_Boolean_">RangedAbility.UseAbility(Unit9, List&lt;Unit9&gt;, HitChance, int, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SpeedData">ActiveAbility.SpeedData</a>
@@ -178,9 +187,6 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_PositionCast">ActiveAbility.PositionCast</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SkillShotType">ActiveAbility.SkillShotType</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_Speed">ActiveAbility.Speed</a>
     </div>
     <div>
@@ -205,7 +211,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetCastDelay(Unit9)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_Divine_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_System_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay">ActiveAbility.GetCastDelay()</a>
@@ -214,7 +220,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetHitTime(Unit9)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_Divine_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_System_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionInput_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__">ActiveAbility.GetPredictionInput(Unit9, List&lt;Unit9&gt;)</a>
@@ -232,7 +238,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Tree, bool, bool)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_System_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Rune, bool, bool)</a>
@@ -287,6 +293,9 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_DisplayName">Ability9.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_TextureName">Ability9.TextureName</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Duration">Ability9.Duration</a>
@@ -358,9 +367,6 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Radius">Ability9.Radius</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Range">Ability9.Range</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_RemainingCooldown">Ability9.RemainingCooldown</a>
     </div>
     <div>
@@ -398,9 +404,6 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Owner">Entity9.Owner</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_TextureName">Entity9.TextureName</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Equals_O9K_Core_Entities_Entity9_">Entity9.Equals(Entity9)</a>
@@ -461,6 +464,15 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
   <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
   </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
   </dd></dl>
 
 
@@ -475,7 +487,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel__ctor_Divine_Entity_Entities_Abilities_Ability_" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.#ctor(Divine.Entity.Entities.Abilities.Ability)">
   GuardianAngel(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -510,7 +522,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_AmplifierDamageType" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.AmplifierDamageType">
   AmplifierDamageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -541,7 +553,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_AmplifierModifierNames" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.AmplifierModifierNames">
   AmplifierModifierNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -572,7 +584,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_AmplifiesDamage" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.AmplifiesDamage">
   AmplifiesDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -603,7 +615,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_AppliesUnitState" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.AppliesUnitState">
   AppliesUnitState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -634,7 +646,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_CastRange" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.CastRange">
   CastRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -665,7 +677,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_IsAmplifierAddedToStats" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.IsAmplifierAddedToStats">
   IsAmplifierAddedToStats
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -696,7 +708,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_IsAmplifierPermanent" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.IsAmplifierPermanent">
   IsAmplifierPermanent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -727,7 +739,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_ShieldModifierName" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.ShieldModifierName">
   ShieldModifierName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -758,7 +770,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_ShieldsAlly" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.ShieldsAlly">
   ShieldsAlly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -789,7 +801,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_ShieldsOwner" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.ShieldsOwner">
   ShieldsOwner
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -820,7 +832,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_TargetsEnemy" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.TargetsEnemy">
   TargetsEnemy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -855,7 +867,7 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_AmplifierValue_O9K_Core_Entities_Units_Unit9_O9K_Core_Entities_Units_Unit9_" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.AmplifierValue(O9K.Core.Entities.Units.Unit9,O9K.Core.Entities.Units.Unit9)">
   AmplifierValue(Unit9, Unit9)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -889,11 +901,42 @@ public class GuardianAngel : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposab
 
 
 
+  <a id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_GetDuration_" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.GetDuration*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_GuardianAngel_GetDuration" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.GuardianAngel.GetDuration">
+  GetDuration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDuration()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/GuardianAngel.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

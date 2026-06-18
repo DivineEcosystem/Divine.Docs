@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineSharp/Divine/new/main/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Entity_Entities_Abilities_Ability" data-uid="Divine.Entity.Entities.Abilities.Ability" class="text-break">
-Class Ability  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class Ability  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -142,6 +142,9 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationChanged">Entity.AnimationChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Native">Entity.Native</a>
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetClassIdByNetworkName_System_String_">Entity.GetClassIdByNetworkName(string)</a>
@@ -223,6 +226,12 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_LifeState">Entity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IdentityFlags">Entity.IdentityFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Flags">Entity.Flags</a>
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassId">Entity.ClassId</a>
@@ -317,7 +326,13 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
       <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySlotInfo_Divine_Entity_Entities_Abilities_Ability_">AbilityExtensions.GetAbilitySlotInfo(Ability)</a>
   </div>
   <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialData_Divine_Entity_Entities_Abilities_Ability_System_String_">AbilityExtensions.GetAbilitySpecialData(Ability, string)</a>
+  </div>
+  <div>
       <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialData_Divine_Entity_Entities_Abilities_Ability_System_String_System_UInt32_">AbilityExtensions.GetAbilitySpecialData(Ability, string, uint)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialDataValue_Divine_Entity_Entities_Abilities_Ability_System_String_System_UInt32_">AbilityExtensions.GetAbilitySpecialDataValue(Ability, string, uint)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialDataWithTalent_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_String_Divine_Entity_Entities_Abilities_Components_AbilityId_System_UInt32_">AbilityExtensions.GetAbilitySpecialDataWithTalent(Ability, Unit, string, AbilityId, uint)</a>
@@ -335,13 +350,13 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance(Entity, Entity)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_">EntityExtensions.Distance(Entity, Vector3)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance(Entity, Vector3)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance2D(Entity, Entity)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_">EntityExtensions.IsAlly(Entity)</a>
@@ -356,10 +371,19 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_System_Single_">EntityExtensions.IsInRange(Entity, Entity, float)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, float)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, float)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, float)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
   </div>
   </dd></dl>
 
@@ -375,7 +399,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilityBehavior" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityBehavior">
   AbilityBehavior
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L332"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -406,7 +430,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilityData" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityData">
   AbilityData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -437,7 +461,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilityIndex" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityIndex">
   AbilityIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L404"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -468,7 +492,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilitySlot" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySlot">
   AbilitySlot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L481"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -499,7 +523,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilitySpecialData" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySpecialData">
   AbilitySpecialData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L454"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -530,7 +554,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilityState" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityState">
   AbilityState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L437"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -561,7 +585,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_AbilityType" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityType">
   AbilityType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L324"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -592,7 +616,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_BaseCastRange" data-uid="Divine.Entity.Entities.Abilities.Ability.BaseCastRange">
   BaseCastRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L521"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -623,7 +647,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastPoint" data-uid="Divine.Entity.Entities.Abilities.Ability.CastPoint">
   CastPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L489"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -654,7 +678,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastRange" data-uid="Divine.Entity.Entities.Abilities.Ability.CastRange">
   CastRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L513"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -685,7 +709,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastStartTime" data-uid="Divine.Entity.Entities.Abilities.Ability.CastStartTime">
   CastStartTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -716,7 +740,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ChannelMaximumTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelMaximumTime">
   ChannelMaximumTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L497"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -747,7 +771,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ChannelStartTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelStartTime">
   ChannelStartTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L250"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -778,7 +802,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ChannelTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelTime">
   ChannelTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -809,7 +833,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTime">
   ChargeRestoreTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L545"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -840,7 +864,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTimeRemaining" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTimeRemaining">
   ChargeRestoreTimeRemaining
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -871,7 +895,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Charges" data-uid="Divine.Entity.Entities.Abilities.Ability.Charges">
   Charges
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L537"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -902,7 +926,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cooldown" data-uid="Divine.Entity.Entities.Abilities.Ability.Cooldown">
   Cooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -933,7 +957,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CooldownInFog" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownInFog">
   CooldownInFog
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -964,7 +988,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CooldownLength" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownLength">
   CooldownLength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -995,7 +1019,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CurrentCharges" data-uid="Divine.Entity.Entities.Abilities.Ability.CurrentCharges">
   CurrentCharges
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1026,7 +1050,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Damage" data-uid="Divine.Entity.Entities.Abilities.Ability.Damage">
   Damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L505"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L505"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1057,7 +1081,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_DamageType" data-uid="Divine.Entity.Entities.Abilities.Ability.DamageType">
   DamageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L364"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1088,7 +1112,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_DispellableType" data-uid="Divine.Entity.Entities.Abilities.Ability.DispellableType">
   DispellableType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L380"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1119,7 +1143,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Duration" data-uid="Divine.Entity.Entities.Abilities.Ability.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L529"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1150,7 +1174,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_EnemyLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.EnemyLevel">
   EnemyLevel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1181,7 +1205,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_HasAltCastState" data-uid="Divine.Entity.Entities.Abilities.Ability.HasAltCastState">
   HasAltCastState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1212,7 +1236,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Id" data-uid="Divine.Entity.Entities.Abilities.Ability.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L316"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1243,7 +1267,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsActivated" data-uid="Divine.Entity.Entities.Abilities.Ability.IsActivated">
   IsActivated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1274,7 +1298,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsAutoCastEnabled" data-uid="Divine.Entity.Entities.Abilities.Ability.IsAutoCastEnabled">
   IsAutoCastEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1305,7 +1329,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsChanneling" data-uid="Divine.Entity.Entities.Abilities.Ability.IsChanneling">
   IsChanneling
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L473"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1336,7 +1360,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsCooldownFrozen" data-uid="Divine.Entity.Entities.Abilities.Ability.IsCooldownFrozen">
   IsCooldownFrozen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1367,7 +1391,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsGrantedByScepter" data-uid="Divine.Entity.Entities.Abilities.Ability.IsGrantedByScepter">
   IsGrantedByScepter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L388"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1398,7 +1422,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsHidden" data-uid="Divine.Entity.Entities.Abilities.Ability.IsHidden">
   IsHidden
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1429,7 +1453,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsInAbilityPhase" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInAbilityPhase">
   IsInAbilityPhase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1460,7 +1484,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsInIndefiniteCooldown" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInIndefiniteCooldown">
   IsInIndefiniteCooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1491,7 +1515,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsInnate" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInnate">
   IsInnate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L553"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L553"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1522,7 +1546,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsReplicated" data-uid="Divine.Entity.Entities.Abilities.Ability.IsReplicated">
   IsReplicated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1553,7 +1577,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsStolen" data-uid="Divine.Entity.Entities.Abilities.Ability.IsStolen">
   IsStolen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1584,7 +1608,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_IsToggled" data-uid="Divine.Entity.Entities.Abilities.Ability.IsToggled">
   IsToggled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1615,7 +1639,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_KeyValue" data-uid="Divine.Entity.Entities.Abilities.Ability.KeyValue">
   KeyValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L428"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1646,7 +1670,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_LastCastClickTime" data-uid="Divine.Entity.Entities.Abilities.Ability.LastCastClickTime">
   LastCastClickTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L242"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1677,7 +1701,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Level" data-uid="Divine.Entity.Entities.Abilities.Ability.Level">
   Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1708,7 +1732,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_LevelsBeetweenUpgrades" data-uid="Divine.Entity.Entities.Abilities.Ability.LevelsBeetweenUpgrades">
   LevelsBeetweenUpgrades
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L412"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1739,7 +1763,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_ManaCost" data-uid="Divine.Entity.Entities.Abilities.Ability.ManaCost">
   ManaCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1770,7 +1794,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_MaximumLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.MaximumLevel">
   MaximumLevel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1801,7 +1825,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Name" data-uid="Divine.Entity.Entities.Abilities.Ability.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1832,7 +1856,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_NetworkActivity" data-uid="Divine.Entity.Entities.Abilities.Ability.NetworkActivity">
   NetworkActivity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L308"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L308"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1863,7 +1887,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_NeutralTierIndex" data-uid="Divine.Entity.Entities.Abilities.Ability.NeutralTierIndex">
   NeutralTierIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1894,7 +1918,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_OverrideCastPoint" data-uid="Divine.Entity.Entities.Abilities.Ability.OverrideCastPoint">
   OverrideCastPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1925,7 +1949,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_RequiredLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.RequiredLevel">
   RequiredLevel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L396"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1956,7 +1980,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_SharedCooldownName" data-uid="Divine.Entity.Entities.Abilities.Ability.SharedCooldownName">
   SharedCooldownName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L299"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1987,7 +2011,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_SpellPierceImmunityType" data-uid="Divine.Entity.Entities.Abilities.Ability.SpellPierceImmunityType">
   SpellPierceImmunityType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L372"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2018,7 +2042,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_TargetFlags" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetFlags">
   TargetFlags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L348"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2049,7 +2073,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_TargetTeamType" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetTeamType">
   TargetTeamType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L340"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2080,7 +2104,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_TargetType" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetType">
   TargetType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L356"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2111,7 +2135,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_TextureName" data-uid="Divine.Entity.Entities.Abilities.Ability.TextureName">
   TextureName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L290"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2146,7 +2170,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Announce" data-uid="Divine.Entity.Entities.Abilities.Ability.Announce">
   Announce()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L691"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L691"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2177,7 +2201,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast">
   Cast()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L561"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2208,7 +2232,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune)">
   Cast(Rune)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L636"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L636"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2244,7 +2268,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune,System.Boolean)">
   Cast(Rune, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L641"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L641"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2282,7 +2306,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune,System.Boolean,System.Boolean)">
   Cast(Rune, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L646"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L646"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2322,7 +2346,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree)">
   Cast(Tree)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L651"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L651"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2358,7 +2382,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree,System.Boolean)">
   Cast(Tree, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L656"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L656"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2396,7 +2420,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree,System.Boolean,System.Boolean)">
   Cast(Tree, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L661"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L661"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2436,7 +2460,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit)">
   Cast(Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L606"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L606"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2470,129 +2494,9 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
-  Cast(Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L621"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L626"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Unit, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L631"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Cast(Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L611"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L611"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2630,7 +2534,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Boolean,System.Boolean)">
   Cast(Unit, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L616"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2668,21 +2572,23 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3)">
-  Cast(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L576"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
+  Cast(Unit, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L621"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -2704,61 +2610,23 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
-  Cast(Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L591"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
+  Cast(Unit, Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L626"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Vector3, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L596"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -2782,101 +2650,23 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Vector3, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Unit, Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L631"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L581"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L586"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued, bool bypassOrderAdding)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -2904,7 +2694,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean)">
   Cast(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L566"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L566"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2940,7 +2730,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean,System.Boolean)">
   Cast(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L571"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L571"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2974,11 +2764,245 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
 
 
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3)">
+  Cast(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L576"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3,System.Boolean)">
+  Cast(Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L581"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L586"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3,System.Numerics.Vector3)">
+  Cast(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L591"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3,System.Numerics.Vector3,System.Boolean)">
+  Cast(Vector3, Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L596"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Numerics_Vector3_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Numerics.Vector3,System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Vector3, Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Divine_Entity_Entities_Abilities_Ability_CastToggle_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle*"></a>
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastToggle" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle">
   CastToggle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L666"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L666"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3009,7 +3033,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean)">
   CastToggle(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L671"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L671"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3045,7 +3069,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean,System.Boolean)">
   CastToggle(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L676"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L676"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3083,7 +3107,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_CastToggleAutocast" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggleAutocast">
   CastToggleAutocast()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L681"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L681"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3114,7 +3138,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataById(Divine.Entity.Entities.Abilities.Components.AbilityId)">
   GetAbilityDataById(AbilityId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3150,7 +3174,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByIndex_System_UInt16_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByIndex(System.UInt16)">
   GetAbilityDataByIndex(ushort)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3186,7 +3210,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByName(System.String)">
   GetAbilityDataByName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3222,7 +3246,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIdByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIdByName(System.String)">
   GetAbilityIdByName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3258,7 +3282,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexById(Divine.Entity.Entities.Abilities.Components.AbilityId)">
   GetAbilityIndexById(AbilityId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3294,7 +3318,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexByName(System.String)">
   GetAbilityIndexByName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3330,7 +3354,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityNameById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityNameById(Divine.Entity.Entities.Abilities.Components.AbilityId)">
   GetAbilityNameById(AbilityId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3366,7 +3390,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueById(Divine.Entity.Entities.Abilities.Components.AbilityId)">
   GetKeyValueById(AbilityId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3402,7 +3426,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueByName(System.String)">
   GetKeyValueByName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3438,7 +3462,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Divine_Entity_Entities_Abilities_Ability_Upgrade" data-uid="Divine.Entity.Entities.Abilities.Ability.Upgrade">
   Upgrade()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L686"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L686"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3469,7 +3493,7 @@ Class Ability  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Abilities/Ability.cs/#L19" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Abilities/Ability.cs/#L19" class="edit-link">Edit this page</a>
         </div>
 
 

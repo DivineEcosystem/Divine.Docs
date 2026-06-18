@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/RoccoZero/Divine.System/blob/main/Divine.Docfx/docs/getting-started.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/RoccoZero/Divine.System/blob/dev/artifacts/bin/Divine.DocFx/Debug/DocFx/docs/getting-started.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -87,11 +87,58 @@
         <article data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
+<h2 id="local-plugins">Local plugins</h2>
+<p>Follow these steps to create, add, build, and reload a local Divine plugin.</p>
+<h3 id="step-1-install-the-required-tools">Step 1. Install the required tools</h3>
+<p>Install the required development tools:</p>
+<ul>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/10.0">.NET 10 SDK</a></li>
+<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022 or Visual Studio 2026</a> with a .NET development workload, or <a href="https://www.jetbrains.com/rider/download/">JetBrains Rider</a></li>
+</ul>
+<h3 id="step-2-create-a-plugin-project">Step 2. Create a plugin project</h3>
+<p>Use the sample plugin project template from GitHub:</p>
+<p><a href="https://github.com/DivinePlugins/Samples">DivinePlugins/Samples</a></p>
+<p>Clone the repository and open the solution or project <code>.csproj</code> in Visual Studio or Rider.</p>
+<h3 id="step-3-check-the-project-files">Step 3. Check the project files</h3>
+<p>The project must include a <code>global.json</code> file:</p>
+<pre><code class="lang-json">{
+  &quot;sdk&quot;: {
+    &quot;version&quot;: &quot;10.0.300&quot;,
+    &quot;rollForward&quot;: &quot;disable&quot;
+  },
+  &quot;msbuild-sdks&quot;: {
+    &quot;Divine.Sdk&quot;: &quot;1.3.5&quot;
+  }
+}
+</code></pre>
+<p>The plugin <code>.csproj</code> file must use <code>Divine.Sdk</code>:</p>
+<pre><code class="lang-xml">&lt;Project Sdk=&quot;Divine.Sdk&quot; /&gt;
+</code></pre>
+<h3 id="step-4-add-the-plugin-in-divine">Step 4. Add the plugin in Divine</h3>
+<p>Open the local plugins page:</p>
+<p><a href="https://divine.wtf/local-plugins">https://divine.wtf/local-plugins</a></p>
+<p>Fill in the form:</p>
+<ul>
+<li><code>Plugin name</code>: the plugin name shown in the local plugins list.</li>
+<li><code>Path to .csproj file</code>: the full path to the plugin <code>.csproj</code> file.</li>
+</ul>
+<p><img src="../images/local-plugins-add.png" alt="Add local plugin form"></p>
+<p>Click <code>Add</code>.</p>
+<h3 id="step-5-enable-the-plugin">Step 5. Enable the plugin</h3>
+<p>After the plugin is added, it appears in the local plugins list.</p>
+<p>Click the plugin status button so it shows <code>Enabled</code>.</p>
+<p><img src="../images/local-plugins-enable.png" alt="Enabled local plugin"></p>
+<h3 id="step-6-build-the-plugin">Step 6. Build the plugin</h3>
+<p>Build the plugin project in Visual Studio or Rider.</p>
+<p>Wait until the build finishes successfully.</p>
+<h3 id="step-7-reload-the-plugin-in-game">Step 7. Reload the plugin in game</h3>
+<p>After the build succeeds, go back to the game and press <code>F5</code> to reload local plugins.</p>
+<p>If the plugin is enabled and the build output is valid, Divine loads the updated plugin build.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RoccoZero/Divine.System/blob/main/Divine.Docfx/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RoccoZero/Divine.System/blob/dev/artifacts/bin/Divine.DocFx/Debug/DocFx/docs/getting-started.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

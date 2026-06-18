@@ -1,0 +1,3125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct Rect | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct Rect | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RoccoZero/Divine.System/new/dev/apiSpec/new?filename=Divine_Numerics_Rect.md&amp;value=---%0Auid%3A%20Divine.Numerics.Rect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Numerics.Rect">
+
+
+
+  <h1 id="Divine_Numerics_Rect" data-uid="Divine.Numerics.Rect" class="text-break">
+Struct Rect  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Numerics.html">Numerics</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Member.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct Rect : IEquatable&lt;Rect&gt;, IMultiplyOperators&lt;Rect, Rect, Rect&gt;, IMultiplyOperators&lt;Rect, float, Rect&gt;, IMultiplyOperators&lt;Rect, Size, Rect&gt;, IMultiplyOperators&lt;Rect, Vector2, Rect&gt;</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Numerics.Rect.html">Rect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.Rect.html">Rect</a>, <a class="xref" href="Divine.Numerics.Rect.html">Rect</a>, <a class="xref" href="Divine.Numerics.Rect.html">Rect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.Rect.html">Rect</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="Divine.Numerics.Rect.html">Rect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.Rect.html">Rect</a>, <a class="xref" href="Divine.Numerics.Size.html">Size</a>, <a class="xref" href="Divine.Numerics.Rect.html">Rect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.imultiplyoperators-3">IMultiplyOperators</a>&lt;<a class="xref" href="Divine.Numerics.Rect.html">Rect</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a>, <a class="xref" href="Divine.Numerics.Rect.html">Rect</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_ClearFlags__1___0___0_">EnumerableExtensions.ClearFlags&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlagDescription__1___0_">EnumerableExtensions.GetFlagDescription&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlags__1___0_">EnumerableExtensions.GetFlags&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_SetFlags__1___0___0_System_Boolean_">EnumerableExtensions.SetFlags&lt;T&gt;(T, T, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_Divine_Numerics_Size_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.#ctor(Divine.Numerics.Size,Divine.Numerics.Size)">
+  Rect(Size, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(Size position, Size size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_Divine_Numerics_Size_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.#ctor(Divine.Numerics.Size,System.Single,System.Single)">
+  Rect(Size, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(Size position, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Numerics_Vector2_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.#ctor(System.Numerics.Vector2,Divine.Numerics.Size)">
+  Rect(Vector2, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(Vector2 position, Size size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Numerics_Vector2_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.#ctor(System.Numerics.Vector2,System.Numerics.Vector2)">
+  Rect(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(Vector2 position, Vector2 size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Numerics_Vector2_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.#ctor(System.Numerics.Vector2,System.Single,System.Single)">
+  Rect(Vector2, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(Vector2 position, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.#ctor(System.Single,System.Single)">
+  Rect(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Single_System_Single_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.#ctor(System.Single,System.Single,Divine.Numerics.Size)">
+  Rect(float, float, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(float x, float y, Size size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Single_System_Single_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.#ctor(System.Single,System.Single,System.Numerics.Vector2)">
+  Rect(float, float, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(float x, float y, Vector2 size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect__ctor_" data-uid="Divine.Numerics.Rect.#ctor*"></a>
+
+  <h3 id="Divine_Numerics_Rect__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.#ctor(System.Single,System.Single,System.Single,System.Single)">
+  Rect(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Numerics_Rect_Bottom" data-uid="Divine.Numerics.Rect.Bottom">
+  Bottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonInclude]
+public float Bottom</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_Rect_Empty" data-uid="Divine.Numerics.Rect.Empty">
+  Empty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Rect Empty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_Rect_Infinite" data-uid="Divine.Numerics.Rect.Infinite">
+  Infinite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Rect Infinite</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_Rect_Left" data-uid="Divine.Numerics.Rect.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonInclude]
+public float Left</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_Rect_Right" data-uid="Divine.Numerics.Rect.Right">
+  Right
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonInclude]
+public float Right</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Numerics_Rect_Top" data-uid="Divine.Numerics.Rect.Top">
+  Top
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonInclude]
+public float Top</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Numerics_Rect_BottomLeft_" data-uid="Divine.Numerics.Rect.BottomLeft*"></a>
+
+  <h3 id="Divine_Numerics_Rect_BottomLeft" data-uid="Divine.Numerics.Rect.BottomLeft">
+  BottomLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly Vector2 BottomLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_BottomRight_" data-uid="Divine.Numerics.Rect.BottomRight*"></a>
+
+  <h3 id="Divine_Numerics_Rect_BottomRight" data-uid="Divine.Numerics.Rect.BottomRight">
+  BottomRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly Vector2 BottomRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Center_" data-uid="Divine.Numerics.Rect.Center*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Center" data-uid="Divine.Numerics.Rect.Center">
+  Center
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly Vector2 Center { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Height_" data-uid="Divine.Numerics.Rect.Height*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Height" data-uid="Divine.Numerics.Rect.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public float Height { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_IsEmpty_" data-uid="Divine.Numerics.Rect.IsEmpty*"></a>
+
+  <h3 id="Divine_Numerics_Rect_IsEmpty" data-uid="Divine.Numerics.Rect.IsEmpty">
+  IsEmpty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly bool IsEmpty { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Position_" data-uid="Divine.Numerics.Rect.Position*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Position" data-uid="Divine.Numerics.Rect.Position">
+  Position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public Vector2 Position { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Size_" data-uid="Divine.Numerics.Rect.Size*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Size" data-uid="Divine.Numerics.Rect.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public Size Size { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_TopLeft_" data-uid="Divine.Numerics.Rect.TopLeft*"></a>
+
+  <h3 id="Divine_Numerics_Rect_TopLeft" data-uid="Divine.Numerics.Rect.TopLeft">
+  TopLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly Vector2 TopLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_TopRight_" data-uid="Divine.Numerics.Rect.TopRight*"></a>
+
+  <h3 id="Divine_Numerics_Rect_TopRight" data-uid="Divine.Numerics.Rect.TopRight">
+  TopRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public readonly Vector2 TopRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Width_" data-uid="Divine.Numerics.Rect.Width*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Width" data-uid="Divine.Numerics.Rect.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public float Width { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_X_" data-uid="Divine.Numerics.Rect.X*"></a>
+
+  <h3 id="Divine_Numerics_Rect_X" data-uid="Divine.Numerics.Rect.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public float X { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Y_" data-uid="Divine.Numerics.Rect.Y*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Y" data-uid="Divine.Numerics.Rect.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public float Y { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Numerics_Rect_Add_" data-uid="Divine.Numerics.Rect.Add*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Add_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Add(Divine.Numerics.Rect)">
+  Add(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Add(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Add_" data-uid="Divine.Numerics.Rect.Add*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Add_System_Single_" data-uid="Divine.Numerics.Rect.Add(System.Single)">
+  Add(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Add(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Add_" data-uid="Divine.Numerics.Rect.Add*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Add_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Add(System.Single,System.Single,System.Single,System.Single)">
+  Add(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Add(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Ceiling_" data-uid="Divine.Numerics.Rect.Ceiling*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Ceiling" data-uid="Divine.Numerics.Rect.Ceiling">
+  Ceiling()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Ceiling()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Contains_" data-uid="Divine.Numerics.Rect.Contains*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Contains_Divine_Numerics_Rect__System_Boolean__" data-uid="Divine.Numerics.Rect.Contains(Divine.Numerics.Rect@,System.Boolean@)">
+  Contains(ref Rect, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly void Contains(ref Rect value, out bool result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Contains_" data-uid="Divine.Numerics.Rect.Contains*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Contains_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.Contains(System.Numerics.Vector2)">
+  Contains(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Contains(Vector2 vector2D)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector2D</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Contains_" data-uid="Divine.Numerics.Rect.Contains*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Contains_System_Numerics_Vector2__System_Boolean__" data-uid="Divine.Numerics.Rect.Contains(System.Numerics.Vector2@,System.Boolean@)">
+  Contains(ref Vector2, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly void Contains(ref Vector2 value, out bool result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Contains_" data-uid="Divine.Numerics.Rect.Contains*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Contains_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Contains(System.Single,System.Single)">
+  Contains(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Contains(float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Divide_" data-uid="Divine.Numerics.Rect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Divide_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Divide(Divine.Numerics.Rect)">
+  Divide(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Divide(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Divide_" data-uid="Divine.Numerics.Rect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Divide_System_Single_" data-uid="Divine.Numerics.Rect.Divide(System.Single)">
+  Divide(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Divide(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Divide_" data-uid="Divine.Numerics.Rect.Divide*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Divide_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Divide(System.Single,System.Single,System.Single,System.Single)">
+  Divide(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Divide(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Equals_" data-uid="Divine.Numerics.Rect.Equals*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Equals_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Equals(Divine.Numerics.Rect)">
+  Equals(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(Rect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Equals_" data-uid="Divine.Numerics.Rect.Equals*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Equals_Divine_Numerics_Rect__" data-uid="Divine.Numerics.Rect.Equals(Divine.Numerics.Rect@)">
+  Equals(ref Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(ref Rect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Equals_" data-uid="Divine.Numerics.Rect.Equals*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Equals_System_Object_" data-uid="Divine.Numerics.Rect.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether this instance and a specified object are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current instance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Floor_" data-uid="Divine.Numerics.Rect.Floor*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Floor" data-uid="Divine.Numerics.Rect.Floor">
+  Floor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Floor()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_FromLTRB_" data-uid="Divine.Numerics.Rect.FromLTRB*"></a>
+
+  <h3 id="Divine_Numerics_Rect_FromLTRB_System_Numerics_Vector2_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.FromLTRB(System.Numerics.Vector2,System.Numerics.Vector2)">
+  FromLTRB(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect FromLTRB(Vector2 leftTop, Vector2 rightBottom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>leftTop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>rightBottom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_FromLTRB_" data-uid="Divine.Numerics.Rect.FromLTRB*"></a>
+
+  <h3 id="Divine_Numerics_Rect_FromLTRB_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.FromLTRB(System.Single,System.Single,System.Single,System.Single)">
+  FromLTRB(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect FromLTRB(float left, float top, float right, float bottom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>top</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_GetHashCode_" data-uid="Divine.Numerics.Rect.GetHashCode*"></a>
+
+  <h3 id="Divine_Numerics_Rect_GetHashCode" data-uid="Divine.Numerics.Rect.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L431"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A 32-bit signed integer that is the hash code for this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Inflate_" data-uid="Divine.Numerics.Rect.Inflate*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Inflate_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Inflate(System.Single,System.Single)">
+  Inflate(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Inflate(float horizontalAmount, float verticalAmount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>horizontalAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>verticalAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Intersect_" data-uid="Divine.Numerics.Rect.Intersect*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Intersect_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Intersect(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  Intersect(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Intersect(Rect value1, Rect value2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value1</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>value2</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Intersect_" data-uid="Divine.Numerics.Rect.Intersect*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Intersect_Divine_Numerics_Rect__Divine_Numerics_Rect__Divine_Numerics_Rect__" data-uid="Divine.Numerics.Rect.Intersect(Divine.Numerics.Rect@,Divine.Numerics.Rect@,Divine.Numerics.Rect@)">
+  Intersect(ref Rect, ref Rect, out Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Intersect(ref Rect value1, ref Rect value2, out Rect result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value1</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>value2</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Intersects_" data-uid="Divine.Numerics.Rect.Intersects*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Intersects_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Intersects(Divine.Numerics.Rect)">
+  Intersects(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Intersects(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Intersects_" data-uid="Divine.Numerics.Rect.Intersects*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Intersects_Divine_Numerics_Rect__System_Boolean__" data-uid="Divine.Numerics.Rect.Intersects(Divine.Numerics.Rect@,System.Boolean@)">
+  Intersects(ref Rect, out bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly void Intersects(ref Rect value, out bool result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Lerp_" data-uid="Divine.Numerics.Rect.Lerp*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Lerp_Divine_Numerics_Rect_System_Single_" data-uid="Divine.Numerics.Rect.Lerp(Divine.Numerics.Rect,System.Single)">
+  Lerp(Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Lerp(Rect rect, float amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Multiply_" data-uid="Divine.Numerics.Rect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Multiply_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Multiply(Divine.Numerics.Rect)">
+  Multiply(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Multiply(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Multiply_" data-uid="Divine.Numerics.Rect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Multiply_System_Single_" data-uid="Divine.Numerics.Rect.Multiply(System.Single)">
+  Multiply(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Multiply(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Multiply_" data-uid="Divine.Numerics.Rect.Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Multiply_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Multiply(System.Single,System.Single,System.Single,System.Single)">
+  Multiply(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Multiply(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Offset_" data-uid="Divine.Numerics.Rect.Offset*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Offset_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.Offset(System.Numerics.Vector2)">
+  Offset(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Offset(Vector2 amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Offset_" data-uid="Divine.Numerics.Rect.Offset*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Offset_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Offset(System.Single,System.Single)">
+  Offset(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Offset(float offsetX, float offsetY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offsetX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>offsetY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Round_" data-uid="Divine.Numerics.Rect.Round*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Round" data-uid="Divine.Numerics.Rect.Round">
+  Round()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Round()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Subtract_" data-uid="Divine.Numerics.Rect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Subtract_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Subtract(Divine.Numerics.Rect)">
+  Subtract(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Subtract(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Subtract_" data-uid="Divine.Numerics.Rect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Subtract_System_Single_" data-uid="Divine.Numerics.Rect.Subtract(System.Single)">
+  Subtract(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Subtract(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Subtract_" data-uid="Divine.Numerics.Rect.Subtract*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Subtract_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.Rect.Subtract(System.Single,System.Single,System.Single,System.Single)">
+  Subtract(float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Rect Subtract(float x, float y, float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_ToString_" data-uid="Divine.Numerics.Rect.ToString*"></a>
+
+  <h3 id="Divine_Numerics_Rect_ToString" data-uid="Divine.Numerics.Rect.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the fully qualified type name of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The fully qualified type name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Union_" data-uid="Divine.Numerics.Rect.Union*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Union_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.Union(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  Union(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Union(Rect value1, Rect value2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value1</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>value2</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_Union_" data-uid="Divine.Numerics.Rect.Union*"></a>
+
+  <h3 id="Divine_Numerics_Rect_Union_Divine_Numerics_Rect__Divine_Numerics_Rect__Divine_Numerics_Rect__" data-uid="Divine.Numerics.Rect.Union(Divine.Numerics.Rect@,Divine.Numerics.Rect@,Divine.Numerics.Rect@)">
+  Union(ref Rect, ref Rect, out Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Union(ref Rect value1, ref Rect value2, out Rect result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value1</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>value2</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Divine_Numerics_Rect_op_Addition_" data-uid="Divine.Numerics.Rect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Addition_Divine_Numerics_Rect_Divine_Numerics_Margin_" data-uid="Divine.Numerics.Rect.op_Addition(Divine.Numerics.Rect,Divine.Numerics.Margin)">
+  operator +(Rect, Margin)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L472"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator +(Rect left, Margin right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Margin.html">Margin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Addition_" data-uid="Divine.Numerics.Rect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Addition_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Addition(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator +(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator +(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Addition_" data-uid="Divine.Numerics.Rect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Addition_Divine_Numerics_Rect_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.op_Addition(Divine.Numerics.Rect,Divine.Numerics.Size)">
+  operator +(Rect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L482"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator +(Rect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Addition_" data-uid="Divine.Numerics.Rect.op_Addition*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Addition_Divine_Numerics_Rect_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.op_Addition(Divine.Numerics.Rect,System.Numerics.Vector2)">
+  operator +(Rect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator +(Rect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Division_" data-uid="Divine.Numerics.Rect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Division_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Division(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator /(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L542"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator /(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Division_" data-uid="Divine.Numerics.Rect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Division_Divine_Numerics_Rect_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.op_Division(Divine.Numerics.Rect,Divine.Numerics.Size)">
+  operator /(Rect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator /(Rect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Division_" data-uid="Divine.Numerics.Rect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Division_Divine_Numerics_Rect_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.op_Division(Divine.Numerics.Rect,System.Numerics.Vector2)">
+  operator /(Rect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L532"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator /(Rect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Division_" data-uid="Divine.Numerics.Rect.op_Division*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Division_Divine_Numerics_Rect_System_Single_" data-uid="Divine.Numerics.Rect.op_Division(Divine.Numerics.Rect,System.Single)">
+  operator /(Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L527"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator /(Rect left, float right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Equality_" data-uid="Divine.Numerics.Rect.op_Equality*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Equality_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Equality(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator ==(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L441"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Implicit_" data-uid="Divine.Numerics.Rect.op_Implicit*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Implicit_Divine_Numerics_Rect__System_Drawing_RectangleF" data-uid="Divine.Numerics.Rect.op_Implicit(Divine.Numerics.Rect)~System.Drawing.RectangleF">
+  implicit operator RectangleF(Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L547"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RectangleF(Rect value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Implicit_" data-uid="Divine.Numerics.Rect.op_Implicit*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Implicit_System_Drawing_RectangleF__Divine_Numerics_Rect" data-uid="Divine.Numerics.Rect.op_Implicit(System.Drawing.RectangleF)~Divine.Numerics.Rect">
+  implicit operator Rect(RectangleF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Rect(RectangleF value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Inequality_" data-uid="Divine.Numerics.Rect.op_Inequality*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Inequality_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Inequality(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator !=(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Multiply_" data-uid="Divine.Numerics.Rect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Multiply_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Multiply(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator *(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator *(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Multiply_" data-uid="Divine.Numerics.Rect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Multiply_Divine_Numerics_Rect_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.op_Multiply(Divine.Numerics.Rect,Divine.Numerics.Size)">
+  operator *(Rect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L517"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator *(Rect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Multiply_" data-uid="Divine.Numerics.Rect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Multiply_Divine_Numerics_Rect_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.op_Multiply(Divine.Numerics.Rect,System.Numerics.Vector2)">
+  operator *(Rect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator *(Rect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Multiply_" data-uid="Divine.Numerics.Rect.op_Multiply*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Multiply_Divine_Numerics_Rect_System_Single_" data-uid="Divine.Numerics.Rect.op_Multiply(Divine.Numerics.Rect,System.Single)">
+  operator *(Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies two values together to compute their product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator *(Rect left, float right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The value that <code class="paramref">right</code> multiplies.</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value that multiplies <code class="paramref">left</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd><p>The product of <code class="paramref">left</code> multiplied by <code class="paramref">right</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Subtraction_" data-uid="Divine.Numerics.Rect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Subtraction_Divine_Numerics_Rect_Divine_Numerics_Rect_" data-uid="Divine.Numerics.Rect.op_Subtraction(Divine.Numerics.Rect,Divine.Numerics.Rect)">
+  operator -(Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator -(Rect left, Rect right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Subtraction_" data-uid="Divine.Numerics.Rect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Subtraction_Divine_Numerics_Rect_Divine_Numerics_Size_" data-uid="Divine.Numerics.Rect.op_Subtraction(Divine.Numerics.Rect,Divine.Numerics.Size)">
+  operator -(Rect, Size)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator -(Rect left, Size right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Divine.Numerics.Size.html">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Numerics_Rect_op_Subtraction_" data-uid="Divine.Numerics.Rect.op_Subtraction*"></a>
+
+  <h3 id="Divine_Numerics_Rect_op_Subtraction_Divine_Numerics_Rect_System_Numerics_Vector2_" data-uid="Divine.Numerics.Rect.op_Subtraction(Divine.Numerics.Rect,System.Numerics.Vector2)">
+  operator -(Rect, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect operator -(Rect left, Vector2 right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Rect.html">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RoccoZero/Divine.System/blob/dev/src/Divine.Member/Numerics/Rect.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

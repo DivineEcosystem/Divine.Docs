@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineSharp/Divine/new/main/apiSpec/new?filename=Divine_Entity_Entities_Players_Player.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Players.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Players_Player.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Players.Player%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Entity_Entities_Players_Player" data-uid="Divine.Entity.Entities.Players.Player" class="text-break">
-Class Player  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L26"><i class="bi bi-code-slash"></i></a>
+Class Player  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -142,6 +142,9 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationChanged">Entity.AnimationChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Native">Entity.Native</a>
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetClassIdByNetworkName_System_String_">Entity.GetClassIdByNetworkName(string)</a>
@@ -223,6 +226,12 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_LifeState">Entity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IdentityFlags">Entity.IdentityFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Flags">Entity.Flags</a>
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassId">Entity.ClassId</a>
@@ -317,13 +326,13 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance(Entity, Entity)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_">EntityExtensions.Distance(Entity, Vector3)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance(Entity, Vector3)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance2D(Entity, Entity)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_">EntityExtensions.IsAlly(Entity)</a>
@@ -338,13 +347,22 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
       <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_System_Single_">EntityExtensions.IsInRange(Entity, Entity, float)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, float)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, float)</a>
   </div>
   <div>
-      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, float)</a>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, float)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
   </div>
   </dd></dl>
 
@@ -360,7 +378,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_AllPlayerData" data-uid="Divine.Entity.Entities.Players.Player.AllPlayerData">
   AllPlayerData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -391,7 +409,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Assists" data-uid="Divine.Entity.Entities.Players.Player.Assists">
   Assists
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -422,7 +440,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_BattleBonusRate" data-uid="Divine.Entity.Entities.Players.Player.BattleBonusRate">
   BattleBonusRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L357"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -453,7 +471,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_BuybackCooldownTime" data-uid="Divine.Entity.Entities.Players.Player.BuybackCooldownTime">
   BuybackCooldownTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L501"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -484,7 +502,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_BuybackCostTime" data-uid="Divine.Entity.Entities.Players.Player.BuybackCostTime">
   BuybackCostTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L517"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -515,7 +533,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_BuybackGoldLimitTime" data-uid="Divine.Entity.Entities.Players.Player.BuybackGoldLimitTime">
   BuybackGoldLimitTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L505"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L509"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -546,7 +564,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CampsStacked" data-uid="Divine.Entity.Entities.Players.Player.CampsStacked">
   CampsStacked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L585"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L589"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -577,7 +595,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CanBuyback" data-uid="Divine.Entity.Entities.Players.Player.CanBuyback">
   CanBuyback
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -608,7 +626,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CanRepick" data-uid="Divine.Entity.Entities.Players.Player.CanRepick">
   CanRepick
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L333"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -639,7 +657,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_ClaimedDenyCount" data-uid="Divine.Entity.Entities.Players.Player.ClaimedDenyCount">
   ClaimedDenyCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L477"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -670,7 +688,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_ClaimedMissCount" data-uid="Divine.Entity.Entities.Players.Player.ClaimedMissCount">
   ClaimedMissCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L485"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -701,7 +719,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Color" data-uid="Divine.Entity.Entities.Players.Player.Color">
   Color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -732,7 +750,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CompendiumLevel" data-uid="Divine.Entity.Entities.Players.Player.CompendiumLevel">
   CompendiumLevel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L325"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -763,7 +781,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_ConnectionState" data-uid="Divine.Entity.Entities.Players.Player.ConnectionState">
   ConnectionState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -794,7 +812,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CreepKillGold" data-uid="Divine.Entity.Entities.Players.Player.CreepKillGold">
   CreepKillGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L413"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -825,7 +843,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CreepsStacked" data-uid="Divine.Entity.Entities.Players.Player.CreepsStacked">
   CreepsStacked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L577"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L581"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -856,7 +874,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_CustomBuybackCooldown" data-uid="Divine.Entity.Entities.Players.Player.CustomBuybackCooldown">
   CustomBuybackCooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L525"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -887,7 +905,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Deaths" data-uid="Divine.Entity.Entities.Players.Player.Deaths">
   Deaths
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -918,7 +936,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_DenyCount" data-uid="Divine.Entity.Entities.Players.Player.DenyCount">
   DenyCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L437"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -949,7 +967,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Gold" data-uid="Divine.Entity.Entities.Players.Player.Gold">
   Gold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L429"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -980,7 +998,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_GoldSpentOnSupport" data-uid="Divine.Entity.Entities.Players.Player.GoldSpentOnSupport">
   GoldSpentOnSupport
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L605"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1011,7 +1029,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_HasRandomed" data-uid="Divine.Entity.Entities.Players.Player.HasRandomed">
   HasRandomed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L341"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1042,7 +1060,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Healing" data-uid="Divine.Entity.Entities.Players.Player.Healing">
   Healing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L541"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1073,7 +1091,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Hero" data-uid="Divine.Entity.Entities.Players.Player.Hero">
   Hero
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1104,14 +1122,15 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_HeroDamage" data-uid="Divine.Entity.Entities.Players.Player.HeroDamage">
   HeroDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L609"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L613"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int HeroDamage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This removed by Valve (11.11.2025)&quot;)]
+public int HeroDamage { get; }</code></pre>
   </div>
 
 
@@ -1135,7 +1154,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_HeroKillGold" data-uid="Divine.Entity.Entities.Players.Player.HeroKillGold">
   HeroKillGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L405"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1166,7 +1185,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_Id" data-uid="Divine.Entity.Entities.Players.Player.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1197,7 +1216,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IncomeGold" data-uid="Divine.Entity.Entities.Players.Player.IncomeGold">
   IncomeGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L421"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1228,7 +1247,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsAFK" data-uid="Divine.Entity.Entities.Players.Player.IsAFK">
   IsAFK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L308"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1259,7 +1278,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsBattleBonusActive" data-uid="Divine.Entity.Entities.Players.Player.IsBattleBonusActive">
   IsBattleBonusActive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L349"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1290,7 +1309,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsBroadcaster" data-uid="Divine.Entity.Entities.Players.Player.IsBroadcaster">
   IsBroadcaster
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1321,7 +1340,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsFakeClient" data-uid="Divine.Entity.Entities.Players.Player.IsFakeClient">
   IsFakeClient
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1352,7 +1371,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsFullyJoinedServer" data-uid="Divine.Entity.Entities.Players.Player.IsFullyJoinedServer">
   IsFullyJoinedServer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1383,7 +1402,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsPredictingVictory" data-uid="Divine.Entity.Entities.Players.Player.IsPredictingVictory">
   IsPredictingVictory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L365"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1414,7 +1433,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsSpectator" data-uid="Divine.Entity.Entities.Players.Player.IsSpectator">
   IsSpectator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1445,7 +1464,7 @@ Class Player  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Divine_Entity_Entities_Players_Player_IsVoiceChatBanned" data-uid="Divine.Entity.Entities.Players.Player.IsVoiceChatBanned">
   IsVoiceChatBanned
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L316"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1477,7 +1496,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_KillStreak" data-uid="Divine.Entity.Entities.Players.Player.KillStreak">
   KillStreak
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1508,7 +1527,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Kills" data-uid="Divine.Entity.Entities.Players.Player.Kills">
   Kills
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1539,7 +1558,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_LastBuybackTime" data-uid="Divine.Entity.Entities.Players.Player.LastBuybackTime">
   LastBuybackTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L300"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1570,7 +1589,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_LastHitCount" data-uid="Divine.Entity.Entities.Players.Player.LastHitCount">
   LastHitCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L441"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1601,7 +1620,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_LastHitMultikill" data-uid="Divine.Entity.Entities.Players.Player.LastHitMultikill">
   LastHitMultikill
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L461"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1632,7 +1651,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_LastHitStreak" data-uid="Divine.Entity.Entities.Players.Player.LastHitStreak">
   LastHitStreak
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L453"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1663,7 +1682,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Level" data-uid="Divine.Entity.Entities.Players.Player.Level">
   Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L284"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1694,7 +1713,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_MissCount" data-uid="Divine.Entity.Entities.Players.Player.MissCount">
   MissCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L493"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1725,7 +1744,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Name" data-uid="Divine.Entity.Entities.Players.Player.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1756,7 +1775,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_NearbyCreepDeathCount" data-uid="Divine.Entity.Entities.Players.Player.NearbyCreepDeathCount">
   NearbyCreepDeathCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L469"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1787,7 +1806,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_ObserverWardsPlaced" data-uid="Divine.Entity.Entities.Players.Player.ObserverWardsPlaced">
   ObserverWardsPlaced
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L565"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1818,7 +1837,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PlayerData" data-uid="Divine.Entity.Entities.Players.Player.PlayerData">
   PlayerData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1849,7 +1868,7 @@ public bool IsVoiceChatBanned { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PlayerSteamId" data-uid="Divine.Entity.Entities.Players.Player.PlayerSteamId">
   PlayerSteamId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1881,7 +1900,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_QueryUnit" data-uid="Divine.Entity.Entities.Players.Player.QueryUnit">
   QueryUnit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1908,18 +1927,18 @@ public uint PlayerSteamId { get; }</code></pre>
 
 
 
-  <a id="Divine_Entity_Entities_Players_Player_QuickBuyItems_" data-uid="Divine.Entity.Entities.Players.Player.QuickBuyItems*"></a>
+  <a id="Divine_Entity_Entities_Players_Player_QuickBuySlots_" data-uid="Divine.Entity.Entities.Players.Player.QuickBuySlots*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_QuickBuyItems" data-uid="Divine.Entity.Entities.Players.Player.QuickBuyItems">
-  QuickBuyItems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Players_Player_QuickBuySlots" data-uid="Divine.Entity.Entities.Players.Player.QuickBuySlots">
+  QuickBuySlots
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;AbilityId&gt; QuickBuyItems { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;QuickBuySlot&gt; QuickBuySlots { get; }</code></pre>
   </div>
 
 
@@ -1928,7 +1947,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Players.Components.QuickBuySlot.html">QuickBuySlot</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1943,7 +1962,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_ReliableGold" data-uid="Divine.Entity.Entities.Players.Player.ReliableGold">
   ReliableGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1974,7 +1993,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_RespawnSeconds" data-uid="Divine.Entity.Entities.Players.Player.RespawnSeconds">
   RespawnSeconds
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L292"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2005,7 +2024,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_RoshanKills" data-uid="Divine.Entity.Entities.Players.Player.RoshanKills">
   RoshanKills
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L553"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L557"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2036,7 +2055,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_RunePickups" data-uid="Divine.Entity.Entities.Players.Player.RunePickups">
   RunePickups
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L593"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L597"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2067,7 +2086,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_SelectedHeroId" data-uid="Divine.Entity.Entities.Players.Player.SelectedHeroId">
   SelectedHeroId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2098,7 +2117,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_SelectedUnits" data-uid="Divine.Entity.Entities.Players.Player.SelectedUnits">
   SelectedUnits
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2129,7 +2148,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_SentryWardsPlaced" data-uid="Divine.Entity.Entities.Players.Player.SentryWardsPlaced">
   SentryWardsPlaced
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L569"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L573"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2160,7 +2179,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_SharedGold" data-uid="Divine.Entity.Entities.Players.Player.SharedGold">
   SharedGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L397"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2191,7 +2210,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_SteamId" data-uid="Divine.Entity.Entities.Players.Player.SteamId">
   SteamId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2218,18 +2237,18 @@ public uint PlayerSteamId { get; }</code></pre>
 
 
 
-  <a id="Divine_Entity_Entities_Players_Player_StickyItemId_" data-uid="Divine.Entity.Entities.Players.Player.StickyItemId*"></a>
+  <a id="Divine_Entity_Entities_Players_Player_StickyItemSlot_" data-uid="Divine.Entity.Entities.Players.Player.StickyItemSlot*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_StickyItemId" data-uid="Divine.Entity.Entities.Players.Player.StickyItemId">
-  StickyItemId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Players_Player_StickyItemSlot" data-uid="Divine.Entity.Entities.Players.Player.StickyItemSlot">
+  StickyItemSlot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AbilityId StickyItemId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public QuickBuySlot? StickyItemSlot { get; }</code></pre>
   </div>
 
 
@@ -2238,7 +2257,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dt><a class="xref" href="Divine.Entity.Entities.Players.Components.QuickBuySlot.html">QuickBuySlot</a></dt>
     <dd></dd>
   </dl>
 
@@ -2253,7 +2272,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stuns" data-uid="Divine.Entity.Entities.Players.Player.Stuns">
   Stuns
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L533"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2284,7 +2303,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_TeamSlot" data-uid="Divine.Entity.Entities.Players.Player.TeamSlot">
   TeamSlot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L373"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2315,7 +2334,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_TotalEarnedGold" data-uid="Divine.Entity.Entities.Players.Player.TotalEarnedGold">
   TotalEarnedGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2346,7 +2365,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_TotalEarnedXP" data-uid="Divine.Entity.Entities.Players.Player.TotalEarnedXP">
   TotalEarnedXP
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2377,7 +2396,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_TowerKills" data-uid="Divine.Entity.Entities.Players.Player.TowerKills">
   TowerKills
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L549"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2408,7 +2427,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_UnreliableGold" data-uid="Divine.Entity.Entities.Players.Player.UnreliableGold">
   UnreliableGold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L389"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2439,7 +2458,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_WardsDestroyed" data-uid="Divine.Entity.Entities.Players.Player.WardsDestroyed">
   WardsDestroyed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L625"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L630"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2470,7 +2489,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_WardsPurchased" data-uid="Divine.Entity.Entities.Players.Player.WardsPurchased">
   WardsPurchased
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L617"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L622"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2505,7 +2524,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Announce_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_" data-uid="Divine.Entity.Entities.Players.Player.Announce(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability)">
   Announce(Unit, Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1077"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1082"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2543,7 +2562,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_PhysicalItems_PhysicalItem_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.PhysicalItems.PhysicalItem)">
   Attack(Unit, PhysicalItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L763"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L768"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2581,7 +2600,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_PhysicalItems_PhysicalItem_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.PhysicalItems.PhysicalItem,System.Boolean)">
   Attack(Unit, PhysicalItem, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L768"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L773"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2621,7 +2640,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Units.Unit)">
   Attack(Unit, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L773"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L778"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2659,7 +2678,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Attack(Unit, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L778"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L783"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2697,9 +2716,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Attack_" data-uid="Divine.Entity.Entities.Players.Player.Attack*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
   Attack(Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L783"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L788"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2713,7 +2732,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -2735,9 +2754,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Attack_" data-uid="Divine.Entity.Entities.Players.Player.Attack*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Attack_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
   Attack(Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L788"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L793"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2751,7 +2770,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -2777,7 +2796,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Entity.Entities.Units.Unit)">
   Attack(IEnumerable&lt;Unit&gt;, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L735"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L740"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2815,7 +2834,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Attack(IEnumerable&lt;Unit&gt;, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L749"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L754"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2853,9 +2872,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Attack_" data-uid="Divine.Entity.Entities.Players.Player.Attack*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Numerics.Vector3)">
   Attack(IEnumerable&lt;Unit&gt;, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L707"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L712"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2869,7 +2888,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>units</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a>&gt;</dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -2891,9 +2910,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Attack_" data-uid="Divine.Entity.Entities.Players.Player.Attack*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Attack_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Attack(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Numerics.Vector3,System.Boolean)">
   Attack(IEnumerable&lt;Unit&gt;, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L721"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L726"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2907,7 +2926,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>units</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a>&gt;</dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -2933,7 +2952,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Buy_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Players.Player.Buy(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Components.AbilityId)">
   Buy(Unit, AbilityId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1047"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1052"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2971,7 +2990,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Buyback" data-uid="Divine.Entity.Entities.Players.Player.Buyback">
   Buyback()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1062"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1067"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3002,7 +3021,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability)">
   Cast(Unit, Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L912"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L917"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3040,7 +3059,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Runes_Rune_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Runes.Rune)">
   Cast(Unit, Ability, Rune)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L987"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L992"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3080,7 +3099,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Runes_Rune_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Runes.Rune,System.Boolean)">
   Cast(Unit, Ability, Rune, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L992"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L997"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3122,7 +3141,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Runes.Rune,System.Boolean,System.Boolean)">
   Cast(Unit, Ability, Rune, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L997"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1002"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3166,7 +3185,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Trees_Tree_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Trees.Tree)">
   Cast(Unit, Ability, Tree)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1002"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1007"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3206,7 +3225,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Trees_Tree_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Trees.Tree,System.Boolean)">
   Cast(Unit, Ability, Tree, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1007"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1012"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3248,7 +3267,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Trees.Tree,System.Boolean,System.Boolean)">
   Cast(Unit, Ability, Tree, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1012"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1017"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3292,7 +3311,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit)">
   Cast(Unit, Ability, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L957"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L962"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3330,141 +3349,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
-  Cast(Unit, Ability, Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L972"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Unit, Ability, Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L977"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Unit, Ability, Unit, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L982"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Cast(Unit, Ability, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L962"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L967"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3506,7 +3393,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,System.Boolean,System.Boolean)">
   Cast(Unit, Ability, Unit, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L967"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L972"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3548,16 +3435,16 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3)">
-  Cast(Unit, Ability, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L927"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
+  Cast(Unit, Ability, Unit, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L977"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -3566,7 +3453,9 @@ public uint PlayerSteamId { get; }</code></pre>
     <dd></dd>
     <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -3588,16 +3477,16 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
-  Cast(Unit, Ability, Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L942"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
+  Cast(Unit, Ability, Unit, Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L982"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition, bool queued)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -3606,51 +3495,9 @@ public uint PlayerSteamId { get; }</code></pre>
     <dd></dd>
     <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
     <dd></dd>
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Unit, Ability, Vector3, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L947"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -3674,16 +3521,16 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Unit, Ability, Vector3, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L952"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Unit, Ability, Unit, Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L987"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Unit startTarget, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -3692,95 +3539,9 @@ public uint PlayerSteamId { get; }</code></pre>
     <dd></dd>
     <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
     <dd></dd>
-    <dt><code>startPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>startTarget</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>endPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3,System.Boolean)">
-  Cast(Unit, Ability, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L932"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position, bool queued)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
-    <dd></dd>
-    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
-
-  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
-  Cast(Unit, Ability, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L937"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position, bool queued, bool bypassOrderAdding)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
-    <dd></dd>
-    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
-    <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -3808,7 +3569,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Boolean)">
   Cast(Unit, Ability, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L917"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L922"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3848,7 +3609,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Boolean,System.Boolean)">
   Cast(Unit, Ability, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L922"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L927"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3886,11 +3647,269 @@ public uint PlayerSteamId { get; }</code></pre>
 
 
 
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3)">
+  Cast(Unit, Ability, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L932"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3,System.Boolean)">
+  Cast(Unit, Ability, Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L937"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position, bool queued)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Unit, Ability, Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L942"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 position, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3,System.Numerics.Vector3)">
+  Cast(Unit, Ability, Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L947"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3,System.Numerics.Vector3,System.Boolean)">
+  Cast(Unit, Ability, Vector3, Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L952"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition, bool queued)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Players_Player_Cast_" data-uid="Divine.Entity.Entities.Players.Player.Cast*"></a>
+
+  <h3 id="Divine_Entity_Entities_Players_Player_Cast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Numerics_Vector3_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Cast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Numerics.Vector3,System.Numerics.Vector3,System.Boolean,System.Boolean)">
+  Cast(Unit, Ability, Vector3, Vector3, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L957"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Cast(Unit unit, Ability ability, Vector3 startPosition, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>startPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>endPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>bypassOrderAdding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Divine_Entity_Entities_Players_Player_CastToggle_" data-uid="Divine.Entity.Entities.Players.Player.CastToggle*"></a>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CastToggle_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_" data-uid="Divine.Entity.Entities.Players.Player.CastToggle(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability)">
   CastToggle(Unit, Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1017"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1022"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3928,7 +3947,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CastToggle_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.CastToggle(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Boolean)">
   CastToggle(Unit, Ability, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1022"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1027"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3968,7 +3987,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CastToggle_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.CastToggle(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability,System.Boolean,System.Boolean)">
   CastToggle(Unit, Ability, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1027"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1032"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4010,7 +4029,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CastToggleAutocast_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_" data-uid="Divine.Entity.Entities.Players.Player.CastToggleAutocast(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability)">
   CastToggleAutocast(Unit, Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1032"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1037"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4048,7 +4067,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CombineLock_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.CombineLock(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item)">
   CombineLock(Unit, Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4086,7 +4105,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_CombineUnlock_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.CombineUnlock(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item)">
   CombineUnlock(Unit, Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4124,7 +4143,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Disassemble_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.Disassemble(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item)">
   Disassemble(Unit, Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1057"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1062"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4160,9 +4179,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Drop_" data-uid="Divine.Entity.Entities.Players.Player.Drop*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Drop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Drop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Drop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Drop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,System.Numerics.Vector3)">
   Drop(Unit, Item, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4178,7 +4197,7 @@ public uint PlayerSteamId { get; }</code></pre>
     <dd></dd>
     <dt><code>item</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Items.Item.html">Item</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -4200,9 +4219,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Drop_" data-uid="Divine.Entity.Entities.Players.Player.Drop*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Drop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Drop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Drop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Drop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,System.Numerics.Vector3,System.Boolean)">
   Drop(Unit, Item, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4218,7 +4237,7 @@ public uint PlayerSteamId { get; }</code></pre>
     <dd></dd>
     <dt><code>item</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Items.Item.html">Item</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -4244,7 +4263,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_DropFromStash_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.DropFromStash(Divine.Entity.Entities.Abilities.Items.Item)">
   DropFromStash(Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1042"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1047"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4280,7 +4299,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Follow_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Follow(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Units.Unit)">
   Follow(Unit, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L821"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L826"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4318,7 +4337,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Follow_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Follow(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Follow(Unit, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L826"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L831"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4358,7 +4377,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Follow_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Follow(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Entity.Entities.Units.Unit)">
   Follow(IEnumerable&lt;Unit&gt;, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L793"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L798"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4396,7 +4415,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Follow_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Follow(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Follow(IEnumerable&lt;Unit&gt;, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L812"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4436,7 +4455,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_GetPlayerDataById_System_Int32_" data-uid="Divine.Entity.Entities.Players.Player.GetPlayerDataById(System.Int32)">
   GetPlayerDataById(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L633"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L638"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4472,7 +4491,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Give_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Give(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,Divine.Entity.Entities.Units.Unit)">
   Give(Unit, Item, Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4512,7 +4531,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Give_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Give(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Give(Unit, Item, Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4554,7 +4573,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Glyph" data-uid="Divine.Entity.Entities.Players.Player.Glyph">
   Glyph()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1067"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1072"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4585,7 +4604,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_HiddenDrop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.HiddenDrop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item)">
   HiddenDrop(Unit, Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4623,7 +4642,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_HiddenDrop_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.HiddenDrop(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,System.Boolean)">
   HiddenDrop(Unit, Item, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4663,7 +4682,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Hold_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Hold(Divine.Entity.Entities.Units.Unit)">
   Hold(Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L859"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L864"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4699,7 +4718,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Hold_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Hold(Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Hold(Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L864"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L869"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4737,7 +4756,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Hold_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__" data-uid="Divine.Entity.Entities.Players.Player.Hold(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit})">
   Hold(IEnumerable&lt;Unit&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L831"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L836"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4773,7 +4792,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Hold_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Hold(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Boolean)">
   Hold(IEnumerable&lt;Unit&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L845"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L850"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4811,7 +4830,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_Divine_Entity_Entities_Abilities_Items_Components_ItemSlot_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item,Divine.Entity.Entities.Abilities.Items.Components.ItemSlot)">
   Move(Unit, Item, ItemSlot)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L667"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L672"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4849,9 +4868,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Move_" data-uid="Divine.Entity.Entities.Players.Player.Move*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
   Move(Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L672"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L677"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4865,7 +4884,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -4887,9 +4906,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Move_" data-uid="Divine.Entity.Entities.Players.Player.Move*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
   Move(Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L677"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L682"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4903,7 +4922,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -4927,9 +4946,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Move_" data-uid="Divine.Entity.Entities.Players.Player.Move*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Move_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean,System.Boolean)">
   Move(Unit, Vector3, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L682"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L687"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4943,7 +4962,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -4969,9 +4988,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Move_" data-uid="Divine.Entity.Entities.Players.Player.Move*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Move_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Move(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Move_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Move(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Numerics.Vector3)">
   Move(IEnumerable&lt;Unit&gt;, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L639"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L644"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -4985,7 +5004,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>units</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a>&gt;</dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -5007,9 +5026,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Move_" data-uid="Divine.Entity.Entities.Players.Player.Move*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Move_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Move_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Move(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Numerics.Vector3,System.Boolean)">
   Move(IEnumerable&lt;Unit&gt;, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L653"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L658"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5023,7 +5042,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>units</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a>&gt;</dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -5047,9 +5066,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_MoveToDirection_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_MoveToDirection_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_MoveToDirection_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
   MoveToDirection(Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L687"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L692"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5063,7 +5082,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -5085,9 +5104,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_MoveToDirection_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_MoveToDirection_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_MoveToDirection_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.MoveToDirection(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
   MoveToDirection(Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L692"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L697"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5101,7 +5120,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -5125,9 +5144,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Patrol_" data-uid="Divine.Entity.Entities.Players.Player.Patrol*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Patrol_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Patrol(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Patrol_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Patrol(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3)">
   Patrol(Unit, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L697"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L702"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5141,7 +5160,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -5163,9 +5182,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Patrol_" data-uid="Divine.Entity.Entities.Players.Player.Patrol*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Patrol_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Patrol(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Patrol_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Patrol(Divine.Entity.Entities.Units.Unit,System.Numerics.Vector3,System.Boolean)">
   Patrol(Unit, Vector3, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L702"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L707"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5179,7 +5198,7 @@ public uint PlayerSteamId { get; }</code></pre>
   <dl class="parameters">
     <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>queued</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -5205,7 +5224,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PickUp_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_PhysicalItems_PhysicalItem_" data-uid="Divine.Entity.Entities.Players.Player.PickUp(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.PhysicalItems.PhysicalItem)">
   PickUp(Unit, PhysicalItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1082"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1087"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5243,7 +5262,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PickUp_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_PhysicalItems_PhysicalItem_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.PickUp(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.PhysicalItems.PhysicalItem,System.Boolean)">
   PickUp(Unit, PhysicalItem, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1087"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1092"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5283,7 +5302,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PickUp_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Runes_Rune_" data-uid="Divine.Entity.Entities.Players.Player.PickUp(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Runes.Rune)">
   PickUp(Unit, Rune)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1092"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1097"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5321,7 +5340,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_PickUp_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Runes_Rune_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.PickUp(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Runes.Rune,System.Boolean)">
   PickUp(Unit, Rune, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1097"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5359,9 +5378,9 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <a id="Divine_Entity_Entities_Players_Player_Scan_" data-uid="Divine.Entity.Entities.Players.Player.Scan*"></a>
 
-  <h3 id="Divine_Entity_Entities_Players_Player_Scan_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Scan(Divine.Numerics.Vector3)">
+  <h3 id="Divine_Entity_Entities_Players_Player_Scan_System_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Players.Player.Scan(System.Numerics.Vector3)">
   Scan(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1072"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1077"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5373,7 +5392,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -5397,7 +5416,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Select_Divine_Entity_Entities_Entity_" data-uid="Divine.Entity.Entities.Players.Player.Select(Divine.Entity.Entities.Entity)">
   Select(Entity)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5433,7 +5452,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Select_Divine_Entity_Entities_Entity_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Select(Divine.Entity.Entities.Entity,System.Boolean)">
   Select(Entity, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5471,7 +5490,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Sell_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Items_Item_" data-uid="Divine.Entity.Entities.Players.Player.Sell(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Items.Item)">
   Sell(Unit, Item)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1052"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1057"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5509,7 +5528,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stop_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Players.Player.Stop(Divine.Entity.Entities.Units.Unit)">
   Stop(Unit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L897"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L902"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5545,7 +5564,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stop_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Stop(Divine.Entity.Entities.Units.Unit,System.Boolean)">
   Stop(Unit, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L902"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L907"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5583,7 +5602,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stop_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Stop(Divine.Entity.Entities.Units.Unit,System.Boolean,System.Boolean)">
   Stop(Unit, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L907"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L912"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5623,7 +5642,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stop_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__" data-uid="Divine.Entity.Entities.Players.Player.Stop(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit})">
   Stop(IEnumerable&lt;Unit&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L869"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L874"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5659,7 +5678,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Stop_System_Collections_Generic_IEnumerable_Divine_Entity_Entities_Units_Unit__System_Boolean_" data-uid="Divine.Entity.Entities.Players.Player.Stop(System.Collections.Generic.IEnumerable{Divine.Entity.Entities.Units.Unit},System.Boolean)">
   Stop(IEnumerable&lt;Unit&gt;, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L883"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L888"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5697,7 +5716,7 @@ public uint PlayerSteamId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Players_Player_Upgrade_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Ability_" data-uid="Divine.Entity.Entities.Players.Player.Upgrade(Divine.Entity.Entities.Units.Unit,Divine.Entity.Entities.Abilities.Ability)">
   Upgrade(Unit, Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L1037"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L1042"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -5735,7 +5754,7 @@ public uint PlayerSteamId { get; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineSharp/Divine/blob/main/Entity/Entities/Players/Player.cs/#L26" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Players/Player.cs/#L27" class="edit-link">Edit this page</a>
         </div>
 
 

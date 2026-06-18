@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AmphibianRhapsody | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AmphibianRhapsody | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/O9K/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody">
+
+
+
+  <h1 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody" class="text-break">
+Class AmphibianRhapsody  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="O9K.html">O9K</a>.<a class="xref" href="O9K.Core.html">Core</a>.<a class="xref" href="O9K.Core.Entities.html">Entities</a>.<a class="xref" href="O9K.Core.Entities.Abilities.html">Abilities</a>.<a class="xref" href="O9K.Core.Entities.Abilities.Heroes.html">Heroes</a>.<a class="xref" href="O9K.Core.Entities.Abilities.Heroes.Largo.html">Largo</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>O9K.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AbilityId(AbilityId.largo_amphibian_rhapsody)]
+public sealed class AmphibianRhapsody : ToggleAbility, IEquatable&lt;Entity9&gt;, IDisposable, IActiveAbility, IToggleable, IHasRadius</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html">Ability9</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html">ActiveAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.ToggleAbility.html">ToggleAbility</a></div>
+      <div><span class="xref">AmphibianRhapsody</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.Base.IActiveAbility.html">IActiveAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IToggleable.html">IToggleable</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IHasRadius.html">IHasRadius</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ToggleAbility.html#O9K_Core_Entities_Abilities_Base_ToggleAbility_Enabled">ToggleAbility.Enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ToggleAbility.html#O9K_Core_Entities_Abilities_Base_ToggleAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Boolean_System_Boolean_">ToggleAbility.UseAbility(Unit9, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ToggleAbility.html#O9K_Core_Entities_Abilities_Base_ToggleAbility_UseAbility_System_Boolean_System_Boolean_">ToggleAbility.UseAbility(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_BreaksLinkens">ActiveAbility.BreaksLinkens</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileChanneling">ActiveAbility.CanBeCastedWhileChanneling</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CollisionTypes">ActiveAbility.CollisionTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_HasAreaOfEffect">ActiveAbility.HasAreaOfEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_IsImmediateCasting">ActiveAbility.IsImmediateCasting</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_NoTargetCast">ActiveAbility.NoTargetCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_PositionCast">ActiveAbility.PositionCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SkillShotType">ActiveAbility.SkillShotType</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_Speed">ActiveAbility.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_TargetsAlly">ActiveAbility.TargetsAlly</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_TargetsEnemy">ActiveAbility.TargetsEnemy</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UnitTargetCast">ActiveAbility.UnitTargetCast</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCasted_System_Boolean_">ActiveAbility.CanBeCasted(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanHit_O9K_Core_Entities_Units_Unit9_">ActiveAbility.CanHit(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanHit_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__System_Int32_">ActiveAbility.CanHit(Unit9, List&lt;Unit9&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetCastDelay(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_System_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay">ActiveAbility.GetCastDelay()</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetHitTime(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_System_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionInput_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__">ActiveAbility.GetPredictionInput(Unit9, List&lt;Unit9&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionOutput_O9K_Core_Prediction_Data_PredictionInput9_">ActiveAbility.GetPredictionOutput(PredictionInput9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__O9K_Core_Prediction_Data_HitChance_System_Int32_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Unit9, List&lt;Unit9&gt;, HitChance, int, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_O9K_Core_Entities_Units_Unit9_O9K_Core_Prediction_Data_HitChance_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Unit9, HitChance, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Tree, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_System_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Rune, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_InputLag">Ability9.InputLag</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_AbilityBehavior">Ability9.AbilityBehavior</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_AbilitySlot">Ability9.AbilitySlot</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_ActivationDelay">Ability9.ActivationDelay</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_BaseAbility">Ability9.BaseAbility</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_BaseItem">Ability9.BaseItem</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CanHitSpellImmuneAlly">Ability9.CanHitSpellImmuneAlly</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CanHitSpellImmuneEnemy">Ability9.CanHitSpellImmuneEnemy</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CastPoint">Ability9.CastPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CastRange">Ability9.CastRange</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Charges">Ability9.Charges</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Cooldown">Ability9.Cooldown</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_DamageType">Ability9.DamageType</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_DisplayName">Ability9.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_TextureName">Ability9.TextureName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Duration">Ability9.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Id">Ability9.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IntelligenceAmplify">Ability9.IntelligenceAmplify</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsAvailable">Ability9.IsAvailable</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsCasting">Ability9.IsCasting</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsChanneling">Ability9.IsChanneling</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsControllable">Ability9.IsControllable</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsDisplayingCharges">Ability9.IsDisplayingCharges</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsFake">Ability9.IsFake</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsHidden">Ability9.IsHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsInvisibility">Ability9.IsInvisibility</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsItem">Ability9.IsItem</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsReady">Ability9.IsReady</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsStolen">Ability9.IsStolen</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsTalent">Ability9.IsTalent</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsUltimate">Ability9.IsUltimate</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsUsable">Ability9.IsUsable</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Level">Ability9.Level</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_ManaCost">Ability9.ManaCost</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_HasAltCastState">Ability9.HasAltCastState</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_MaximumLevel">Ability9.MaximumLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_PredictionManager">Ability9.PredictionManager</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Radius">Ability9.Radius</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Range">Ability9.Range</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_RemainingCooldown">Ability9.RemainingCooldown</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_TimeSinceCasted">Ability9.TimeSinceCasted</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_GetDamage_O9K_Core_Entities_Units_Unit9_">Ability9.GetDamage(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_GetRawDamage_O9K_Core_Entities_Units_Unit9_System_Nullable_System_Single__">Ability9.GetRawDamage(Unit9, float?)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_PiercesMagicImmunity_O9K_Core_Entities_Units_Unit9_">Ability9.PiercesMagicImmunity(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_BaseEntity">Entity9.BaseEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_DeathTime">Entity9.DeathTime</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_DefaultName">Entity9.DefaultName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Handle">Entity9.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_IsValid">Entity9.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Name">Entity9.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Owner">Entity9.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Equals_O9K_Core_Entities_Entity9_">Entity9.Equals(Entity9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Equals_System_Object_">Entity9.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_GetHashCode">Entity9.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_ToString">Entity9.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="O9K.Core.Extensions.AbilityExtensions.html#O9K_Core_Extensions_AbilityExtensions_IsDisable_O9K_Core_Entities_Abilities_Base_Ability9_">AbilityExtensions.IsDisable(Ability9)</a>
+  </div>
+  <div>
+      <a class="xref" href="O9K.Core.Extensions.AbilityExtensions.html#O9K_Core_Extensions_AbilityExtensions_IsShied_O9K_Core_Entities_Abilities_Base_Ability9_">AbilityExtensions.IsShied(Ability9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody__ctor_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.#ctor*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody__ctor_Divine_Entity_Entities_Abilities_Ability_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.#ctor(Divine.Entity.Entities.Abilities.Ability)">
+  AmphibianRhapsody(Ability)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmphibianRhapsody(Ability baseAbility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>baseAbility</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CanRhythm_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CanRhythm*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CanRhythm" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CanRhythm">
+  CanRhythm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRhythm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CurrentSecondSong_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CurrentSecondSong*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CurrentSecondSong" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CurrentSecondSong">
+  CurrentSecondSong
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityId? CurrentSecondSong { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CurrentSong_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CurrentSong*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_CurrentSong" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.CurrentSong">
+  CurrentSong
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityId? CurrentSong { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_HasSongTrack_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.HasSongTrack*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_HasSongTrack" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.HasSongTrack">
+  HasSongTrack
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSongTrack { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_Dispose_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.Dispose*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_Dispose" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_UseRhythm_" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.UseRhythm*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Largo_AmphibianRhapsody_UseRhythm_System_Func_System_Boolean__" data-uid="O9K.Core.Entities.Abilities.Heroes.Largo.AmphibianRhapsody.UseRhythm(System.Func{System.Boolean})">
+  UseRhythm(Func&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseRhythm(Func&lt;bool&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Largo/AmphibianRhapsody.cs/#L21" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

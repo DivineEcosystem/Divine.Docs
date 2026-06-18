@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/RoccoZero/new/main/apiSpec/new?filename=O9K_Core_Helpers_Particles_RadiusParticle.md&amp;value=---%0Auid%3A%20O9K.Core.Helpers.Particles.RadiusParticle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/O9K/new/main/apiSpec/new?filename=O9K_Core_Helpers_Particles_RadiusParticle.md&amp;value=---%0Auid%3A%20O9K.Core.Helpers.Particles.RadiusParticle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="O9K_Core_Helpers_Particles_RadiusParticle" data-uid="O9K.Core.Helpers.Particles.RadiusParticle" class="text-break">
-Class RadiusParticle  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class RadiusParticle  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -155,6 +155,15 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
   <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
   </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
   </dd></dl>
 
 
@@ -167,23 +176,23 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 
   <a id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor*"></a>
 
-  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Single_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Single)">
-  RadiusParticle(Vector3, Vector3, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_O9K_Core_Entities_Units_Unit9_System_Numerics_Vector3_System_Single_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor(O9K.Core.Entities.Units.Unit9,System.Numerics.Vector3,System.Single)">
+  RadiusParticle(Unit9, Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RadiusParticle(Vector3 position, Vector3 color, float radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public RadiusParticle(Unit9 unit, Vector3 color, float radius)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>unit</code> <a class="xref" href="O9K.Core.Entities.Units.Unit9.html">Unit9</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -202,23 +211,23 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 
   <a id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor*"></a>
 
-  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_O9K_Core_Entities_Units_Unit9_Divine_Numerics_Vector3_System_Single_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor(O9K.Core.Entities.Units.Unit9,Divine.Numerics.Vector3,System.Single)">
-  RadiusParticle(Unit9, Vector3, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle__ctor_System_Numerics_Vector3_System_Numerics_Vector3_System_Single_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.#ctor(System.Numerics.Vector3,System.Numerics.Vector3,System.Single)">
+  RadiusParticle(Vector3, Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RadiusParticle(Unit9 unit, Vector3 color, float radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public RadiusParticle(Vector3 position, Vector3 color, float radius)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>unit</code> <a class="xref" href="O9K.Core.Entities.Units.Unit9.html">Unit9</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
-    <dt><code>color</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
     <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
@@ -241,9 +250,9 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 
   <a id="O9K_Core_Helpers_Particles_RadiusParticle_ChangePosition_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.ChangePosition*"></a>
 
-  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle_ChangePosition_Divine_Numerics_Vector3_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.ChangePosition(Divine.Numerics.Vector3)">
+  <h3 id="O9K_Core_Helpers_Particles_RadiusParticle_ChangePosition_System_Numerics_Vector3_" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.ChangePosition(System.Numerics.Vector3)">
   ChangePosition(Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,7 +264,7 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>position</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
     <dd></dd>
   </dl>
 
@@ -274,7 +283,7 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 
   <h3 id="O9K_Core_Helpers_Particles_RadiusParticle_Dispose" data-uid="O9K.Core.Helpers.Particles.RadiusParticle.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -301,7 +310,7 @@ Class RadiusParticle  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Helpers/Particles/RadiusParticle.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

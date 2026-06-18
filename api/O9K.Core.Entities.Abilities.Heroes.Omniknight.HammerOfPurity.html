@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/RoccoZero/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivinePlugins/O9K/new/main/apiSpec/new?filename=O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity.md&amp;value=---%0Auid%3A%20O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity" class="text-break">
-Class HammerOfPurity  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class HammerOfPurity  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class HammerOfPurity  <a class="header-action link-secondary" title="View source
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AbilityId(AbilityId.omniknight_hammer_of_purity)]
-public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposable, IDebuff, IHarass, INuke, IActiveAbility</code></pre>
+public class HammerOfPurity : OrbAbility, IEquatable&lt;Entity9&gt;, IDisposable, IToggleable, IDebuff, IHarass, INuke, IActiveAbility</code></pre>
   </div>
 
 
@@ -116,6 +116,8 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html">Ability9</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html">ActiveAbility</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html">RangedAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.AutoCastAbility.html">AutoCastAbility</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html">OrbAbility</a></div>
       <div><span class="xref">HammerOfPurity</span></div>
     </dd>
   </dl>
@@ -125,6 +127,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="O9K.Core.Entities.Entity9.html">Entity9</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Components.IToggleable.html">IToggleable</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.IDebuff.html">IDebuff</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.IHarass.html">IHarass</a></div>
       <div><a class="xref" href="O9K.Core.Entities.Abilities.Base.Types.INuke.html">INuke</a></div>
@@ -137,16 +140,31 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html#O9K_Core_Entities_Abilities_Base_OrbAbility_CastPoint">OrbAbility.CastPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html#O9K_Core_Entities_Abilities_Base_OrbAbility_CastRange">OrbAbility.CastRange</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html#O9K_Core_Entities_Abilities_Base_OrbAbility_OrbModifier">OrbAbility.OrbModifier</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html#O9K_Core_Entities_Abilities_Base_OrbAbility_CanBeCasted_System_Boolean_">OrbAbility.CanBeCasted(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.OrbAbility.html#O9K_Core_Entities_Abilities_Base_OrbAbility_CanHit_O9K_Core_Entities_Units_Unit9_">OrbAbility.CanHit(Unit9)</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.AutoCastAbility.html#O9K_Core_Entities_Abilities_Base_AutoCastAbility_BreaksLinkens">AutoCastAbility.BreaksLinkens</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.AutoCastAbility.html#O9K_Core_Entities_Abilities_Base_AutoCastAbility_Enabled">AutoCastAbility.Enabled</a>
+    </div>
+    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_RangeData">RangedAbility.RangeData</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CastRange">RangedAbility.CastRange</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_BaseCastRange">RangedAbility.BaseCastRange</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CanHit_O9K_Core_Entities_Units_Unit9_">RangedAbility.CanHit(Unit9)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CanHit_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__System_Int32_">RangedAbility.CanHit(Unit9, List&lt;Unit9&gt;, int)</a>
@@ -159,9 +177,6 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SpeedData">ActiveAbility.SpeedData</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_BreaksLinkens">ActiveAbility.BreaksLinkens</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileChanneling">ActiveAbility.CanBeCastedWhileChanneling</a>
@@ -203,13 +218,10 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCastedWhileStunned">ActiveAbility.CanBeCastedWhileStunned</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_CanBeCasted_System_Boolean_">ActiveAbility.CanBeCasted(bool)</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetCastDelay(Unit9)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_Divine_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay_System_Numerics_Vector3_">ActiveAbility.GetCastDelay(Vector3)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetCastDelay">ActiveAbility.GetCastDelay()</a>
@@ -218,7 +230,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_O9K_Core_Entities_Units_Unit9_">ActiveAbility.GetHitTime(Unit9)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_Divine_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetHitTime_System_Numerics_Vector3_">ActiveAbility.GetHitTime(Vector3)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_GetPredictionInput_O9K_Core_Entities_Units_Unit9_System_Collections_Generic_List_O9K_Core_Entities_Units_Unit9__">ActiveAbility.GetPredictionInput(Unit9, List&lt;Unit9&gt;)</a>
@@ -236,7 +248,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Tree, bool, bool)</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_System_Numerics_Vector3_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Vector3, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_UseAbility_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_">ActiveAbility.UseAbility(Rune, bool, bool)</a>
@@ -278,9 +290,6 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CanHitSpellImmuneEnemy">Ability9.CanHitSpellImmuneEnemy</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_CastPoint">Ability9.CastPoint</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Charges">Ability9.Charges</a>
     </div>
     <div>
@@ -291,6 +300,9 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_DisplayName">Ability9.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_TextureName">Ability9.TextureName</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_Duration">Ability9.Duration</a>
@@ -401,9 +413,6 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Owner">Entity9.Owner</a>
     </div>
     <div>
-      <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_TextureName">Entity9.TextureName</a>
-    </div>
-    <div>
       <a class="xref" href="O9K.Core.Entities.Entity9.html#O9K_Core_Entities_Entity9_Equals_O9K_Core_Entities_Entity9_">Entity9.Equals(Entity9)</a>
     </div>
     <div>
@@ -441,6 +450,15 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
   <div>
       <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
   </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
   </dd></dl>
 
 
@@ -455,7 +473,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity__ctor_Divine_Entity_Entities_Abilities_Ability_" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity.#ctor(Divine.Entity.Entities.Abilities.Ability)">
   HammerOfPurity(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -490,7 +508,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity_DebuffModifierName" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity.DebuffModifierName">
   DebuffModifierName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -521,7 +539,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity_Speed" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity.Speed">
   Speed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -556,7 +574,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Omniknight_HammerOfPurity_GetRawDamage_O9K_Core_Entities_Units_Unit9_System_Nullable_System_Single__" data-uid="O9K.Core.Entities.Abilities.Heroes.Omniknight.HammerOfPurity.GetRawDamage(O9K.Core.Entities.Units.Unit9,System.Nullable{System.Single})">
   GetRawDamage(Unit9, float?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -594,7 +612,7 @@ public class HammerOfPurity : RangedAbility, IEquatable&lt;Entity9&gt;, IDisposa
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivinePlugins/RoccoZero/blob/main/O9K/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Omniknight/HammerOfPurity.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 
