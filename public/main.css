@@ -175,8 +175,29 @@ form.filter {
 }
 
 /* CODE HIGHLIGHT */
-code {
+:not(pre) > code {
   border-radius: var(--bs-border-radius);
   margin: 4px 2px;
   box-shadow: var(--card-box-shadow);
+}
+
+pre {
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  background-color: var(--bs-tertiary-bg);
+  box-shadow: var(--card-box-shadow);
+}
+
+pre > code {
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--bs-body-color);
+  background-color: transparent;
+}
+
+pre > code,
+pre > code span {
+  opacity: 1;
 }
