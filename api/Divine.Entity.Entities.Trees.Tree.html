@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Trees_Tree.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Trees.Tree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Entity_Entities_Trees_Tree.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Trees.Tree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Entity_Entities_Trees_Tree" data-uid="Divine.Entity.Entities.Trees.Tree" class="text-break">
-Class Tree  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Trees/Tree.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class Tree  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Trees/Tree.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Tree : Entity, IEquatable&lt;Entity&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Tree : Entity, IEquatable&lt;Entity&gt;, INative</code></pre>
   </div>
 
 
@@ -120,6 +120,7 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a>&gt;</div>
+      <div><a class="xref" href="Divine.Memory.INative.html">INative</a></div>
     </dd>
   </dl>
 
@@ -272,6 +273,9 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationName">Entity.AnimationName</a>
     </div>
     <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationSequence">Entity.AnimationSequence</a>
+    </div>
+    <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSequenceName_System_Int32_">Entity.GetSequenceName(int)</a>
     </div>
     <div>
@@ -279,9 +283,6 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Select_System_Boolean_">Entity.Select(bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Model">Entity.Model</a>
     </div>
     <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Scale">Entity.Scale</a>
@@ -377,7 +378,7 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Trees_Tree_BinaryIndex" data-uid="Divine.Entity.Entities.Trees.Tree.BinaryIndex">
   BinaryIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Trees/Tree.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Trees/Tree.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -408,7 +409,7 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Trees_Tree_IsAlive" data-uid="Divine.Entity.Entities.Trees.Tree.IsAlive">
   IsAlive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Trees/Tree.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Trees/Tree.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -435,11 +436,42 @@ Class Tree  <a class="header-action link-secondary" title="View source" href="ht
 
 
 
+  <a id="Divine_Entity_Entities_Trees_Tree_Model_" data-uid="Divine.Entity.Entities.Trees.Tree.Model*"></a>
+
+  <h3 id="Divine_Entity_Entities_Trees_Tree_Model" data-uid="Divine.Entity.Entities.Trees.Tree.Model">
+  Model
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Trees/Tree.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed string Model { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Trees/Tree.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Trees/Tree.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Extensions_HttpClientFactoryExtensions" data-uid="Divine.Extensions.HttpClientFactoryExtensions" class="text-break">
-Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -152,18 +152,61 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 </h2>
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T&gt;(IServiceCollection, RefitSettings?, Action&lt;IServiceProvider, HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings)">
+  AddRestClient&lt;T&gt;(IServiceCollection, RefitSettings?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd></dd>
+    <dt><code>settings</code> <span class="xref">RefitSettings</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.ihttpclientbuilder">IHttpClientBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
+
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
+  AddRestClient&lt;T&gt;(IServiceCollection, RefitSettings?, Action&lt;IServiceProvider, HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -197,18 +240,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T&gt;(IServiceCollection, RefitSettings?, Action&lt;HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.Net.Http.HttpClient})">
+  AddRestClient&lt;T&gt;(IServiceCollection, RefitSettings?, Action&lt;HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;HttpClient&gt; configureClient) where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;HttpClient&gt; configureClient) where T : class</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -242,18 +285,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.String)">
-  AddRefitClient&lt;T&gt;(IServiceCollection, RefitSettings?, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.String)">
+  AddRestClient&lt;T&gt;(IServiceCollection, RefitSettings?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, string baseAddress) where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, RefitSettings? settings, string baseAddress) where T : class</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -287,18 +330,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T&gt;(IServiceCollection, Action&lt;HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.Net.Http.HttpClient})">
+  AddRestClient&lt;T&gt;(IServiceCollection, Action&lt;HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T&gt;(this IServiceCollection services, Action&lt;HttpClient&gt; configureClient) where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, Action&lt;HttpClient&gt; configureClient) where T : class</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -330,18 +373,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
-  AddRefitClient&lt;T&gt;(IServiceCollection, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+  AddRestClient&lt;T&gt;(IServiceCollection, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T&gt;(this IServiceCollection services, string baseAddress) where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T&gt;(this IServiceCollection services, string baseAddress) where T : class</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -373,18 +416,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, Action&lt;IServiceProvider, HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, Action&lt;IServiceProvider, HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -420,18 +463,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, Action&lt;HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.Action{System.Net.Http.HttpClient})">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, Action&lt;HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, Action&lt;HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -467,18 +510,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.String)">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_Refit_RefitSettings_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,Refit.RefitSettings,System.String)">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, RefitSettings?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, string baseAddress) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, RefitSettings? settings, string baseAddress) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -514,18 +557,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, Action&lt;IServiceProvider, HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_IServiceProvider_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.IServiceProvider,System.Net.Http.HttpClient})">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, Action&lt;IServiceProvider, HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, Action&lt;IServiceProvider, HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -559,18 +602,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.Net.Http.HttpClient})">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, Action&lt;HttpClient&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_System_Net_Http_HttpClient__" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{System.Net.Http.HttpClient})">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, Action&lt;HttpClient&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, Action&lt;HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, Action&lt;HttpClient&gt; configureClient) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -604,18 +647,18 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 
 
 
-  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient*"></a>
+  <a id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient*"></a>
 
-  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRefitClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRefitClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
-  AddRefitClient&lt;T, TMessageHandler&gt;(IServiceCollection, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_Extensions_HttpClientFactoryExtensions_AddRestClient__2_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Divine.Extensions.HttpClientFactoryExtensions.AddRestClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+  AddRestClient&lt;T, TMessageHandler&gt;(IServiceCollection, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRefitClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, string baseAddress) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHttpClientBuilder AddRestClient&lt;T, TMessageHandler&gt;(this IServiceCollection services, string baseAddress) where T : class where TMessageHandler : notnull, DelegatingHandler</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -653,7 +696,7 @@ Class HttpClientFactoryExtensions  <a class="header-action link-secondary" title
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RoccoZero/Divine.System/blob/ec73d74a9e36ce0cbc6a9dbc8228b630aec315ac/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RoccoZero/Divine.System/blob/508aee9bc809f4d9a9b4ae8eb51bf24d25821859/src/Divine.Common/Extensions/HttpClientFactoryExtensions.cs" class="edit-link">Edit this page</a>
         </div>
 
 

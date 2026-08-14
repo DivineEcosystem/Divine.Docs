@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Modifier_ModifierManager.md&amp;value=---%0Auid%3A%20Divine.Modifier.ModifierManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Modifier_ModifierManager.md&amp;value=---%0Auid%3A%20Divine.Modifier.ModifierManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Modifier_ModifierManager" data-uid="Divine.Modifier.ModifierManager" class="text-break">
-Class ModifierManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
+Class ModifierManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.Patcher.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,7 +156,7 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Divine_Modifier_ModifierManager_ModifierNames" data-uid="Divine.Modifier.ModifierManager.ModifierNames">
   ModifierNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -187,7 +187,7 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Divine_Modifier_ModifierManager_Modifiers" data-uid="Divine.Modifier.ModifierManager.Modifiers">
   Modifiers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -214,6 +214,54 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Modifier_ModifierManager_AddModifier_" data-uid="Divine.Modifier.ModifierManager.AddModifier*"></a>
+
+  <h3 id="Divine_Modifier_ModifierManager_AddModifier_Divine_Entity_Entities_Units_Unit_System_String_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Abilities_Ability_Divine_Game_KeyValue_" data-uid="Divine.Modifier.ModifierManager.AddModifier(Divine.Entity.Entities.Units.Unit,System.String,Divine.Entity.Entities.Entity,Divine.Entity.Entities.Abilities.Ability,Divine.Game.KeyValue)">
+  AddModifier(Unit, string, Entity?, Ability?, KeyValue?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Modifier? AddModifier(Unit unit, string name, Entity? caster = null, Ability? ability = null, KeyValue? keyValues = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unit</code> <a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>caster</code> <a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a></dt>
+    <dd></dd>
+    <dt><code>ability</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Ability.html">Ability</a></dt>
+    <dd></dd>
+    <dt><code>keyValues</code> <a class="xref" href="Divine.Game.KeyValue.html">KeyValue</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Modifier.Modifiers.Modifier.html">Modifier</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -221,7 +269,7 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Divine_Modifier_ModifierManager_ModifierAdded" data-uid="Divine.Modifier.ModifierManager.ModifierAdded">
   ModifierAdded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -251,14 +299,14 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Divine_Modifier_ModifierManager_ModifierRemoved" data-uid="Divine.Modifier.ModifierManager.ModifierRemoved">
   ModifierRemoved
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event ModifierManager.ModifierRemovedEventHandler ModifierRemoved</code></pre>
+    <pre><code class="lang-csharp hljs">public static event ModifierManager.ModifierRemovedEventHandler? ModifierRemoved</code></pre>
   </div>
 
 
@@ -282,7 +330,7 @@ Class ModifierManager  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Modifier/ModifierManager.cs/#L33" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Modifier/ModifierManager.Patcher.cs/#L31" class="edit-link">Edit this page</a>
         </div>
 
 

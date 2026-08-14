@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Units_Heroes_Hero.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Units.Heroes.Hero%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Entity_Entities_Units_Heroes_Hero.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Units.Heroes.Hero%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_Entity_Entities_Units_Heroes_Hero" data-uid="Divine.Entity.Entities.Units.Heroes.Hero" class="text-break">
-Class Hero  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class Hero  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Hero : Unit, IEquatable&lt;Entity&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Hero : Unit, IEquatable&lt;Entity&gt;, INative</code></pre>
   </div>
 
 
@@ -121,6 +121,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a>&gt;</div>
+      <div><a class="xref" href="Divine.Memory.INative.html">INative</a></div>
     </dd>
   </dl>
 
@@ -613,6 +614,9 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationName">Entity.AnimationName</a>
     </div>
     <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationSequence">Entity.AnimationSequence</a>
+    </div>
+    <div>
       <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSequenceName_System_Int32_">Entity.GetSequenceName(int)</a>
     </div>
     <div>
@@ -732,6 +736,9 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAbilityById_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Components_AbilityId_">UnitExtensions.GetAbilityById(Unit, AbilityId)</a>
   </div>
   <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAngle_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_">UnitExtensions.GetAngle(Unit, Vector3)</a>
+  </div>
+  <div>
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAttackDamage_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Single_">UnitExtensions.GetAttackDamage(Unit, Unit, bool, float)</a>
   </div>
   <div>
@@ -784,6 +791,9 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsAttackImmune_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsAttackImmune(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsAttacking_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsAttacking(Unit)</a>
   </div>
   <div>
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsBlockingAbilities_Divine_Entity_Entities_Units_Unit_System_Boolean_">UnitExtensions.IsBlockingAbilities(Unit, bool)</a>
@@ -855,6 +865,9 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsStunned_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsStunned(Unit)</a>
   </div>
   <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsTargetAttacking_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsTargetAttacking(Unit, Unit)</a>
+  </div>
+  <div>
       <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsValidOrbwalkingTarget_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.IsValidOrbwalkingTarget(Unit, Unit, float)</a>
   </div>
   <div>
@@ -904,7 +917,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_AbilityPoints" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.AbilityPoints">
   AbilityPoints
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -935,7 +948,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Agility" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Agility">
   Agility
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -966,7 +979,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Armor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Armor">
   Armor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -997,7 +1010,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_BaseArmor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BaseArmor">
   BaseArmor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1028,7 +1041,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_BonusArmor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BonusArmor">
   BonusArmor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1059,7 +1072,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_CurrentXP" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.CurrentXP">
   CurrentXP
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1090,7 +1103,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_FacetKey" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetKey">
   FacetKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1121,7 +1134,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_FacetName" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetName">
   FacetName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1152,7 +1165,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Facets" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Facets">
   Facets
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1183,7 +1196,7 @@ Class Hero  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_HeroId" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.HeroId">
   HeroId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1215,7 +1228,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Id" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1246,7 +1259,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Intelligence" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Intelligence">
   Intelligence
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1277,7 +1290,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsBuybackDisabled" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsBuybackDisabled">
   IsBuybackDisabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1308,7 +1321,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsIllusion" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsIllusion">
   IsIllusion
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1339,7 +1352,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsReincarnating" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsReincarnating">
   IsReincarnating
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1370,7 +1383,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_LastHurtTime" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.LastHurtTime">
   LastHurtTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1401,7 +1414,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_PhysicalDamageResistance" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PhysicalDamageResistance">
   PhysicalDamageResistance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1432,7 +1445,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Player" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Player">
   Player
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1463,7 +1476,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_PrimaryAttribute" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PrimaryAttribute">
   PrimaryAttribute
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1494,7 +1507,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RecentDamage" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RecentDamage">
   RecentDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1525,7 +1538,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_ReplicateFrom" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.ReplicateFrom">
   ReplicateFrom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1556,7 +1569,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTime" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTime">
   RespawnTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1587,7 +1600,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTimePenalty" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTimePenalty">
   RespawnTimePenalty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1618,7 +1631,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_SpawnedAt" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.SpawnedAt">
   SpawnedAt
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1649,7 +1662,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Strength" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Strength">
   Strength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1680,7 +1693,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAgility" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAgility">
   TotalAgility
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1711,7 +1724,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAttributes" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAttributes">
   TotalAttributes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1742,7 +1755,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalIntelligence" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalIntelligence">
   TotalIntelligence
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1773,7 +1786,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalStrength" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalStrength">
   TotalStrength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1808,7 +1821,7 @@ public HeroId HeroId { get; }</code></pre>
 
   <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_GetKeyValueByName_System_String_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.GetKeyValueByName(System.String)">
   GetKeyValueByName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1844,7 +1857,7 @@ public HeroId HeroId { get; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/dev/apiSpec/new?filename=Divine_IO_FileManager.md&amp;value=---%0Auid%3A%20Divine.IO.FileManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_IO_FileManager.md&amp;value=---%0Auid%3A%20Divine.IO.FileManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_IO_FileManager" data-uid="Divine.IO.FileManager" class="text-break">
-Class FileManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class FileManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,29 +148,188 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Divine_IO_FileManager_AddOverrideFile_" data-uid="Divine.IO.FileManager.AddOverrideFile*"></a>
+  <a id="Divine_IO_FileManager_FileLoader_" data-uid="Divine.IO.FileManager.FileLoader*"></a>
 
-  <h3 id="Divine_IO_FileManager_AddOverrideFile_System_String_System_Byte___" data-uid="Divine.IO.FileManager.AddOverrideFile(System.String,System.Byte[])">
-  AddOverrideFile(string, byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_IO_FileManager_FileLoader" data-uid="Divine.IO.FileManager.FileLoader">
+  FileLoader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool AddOverrideFile(string fileName, byte[] buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static FileLoader FileLoader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.IO.FileLoader.html">FileLoader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_FileOverrides_" data-uid="Divine.IO.FileManager.FileOverrides*"></a>
+
+  <h3 id="Divine_IO_FileManager_FileOverrides" data-uid="Divine.IO.FileManager.FileOverrides">
+  FileOverrides
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IReadOnlyList&lt;string&gt; FileOverrides { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_Package_" data-uid="Divine.IO.FileManager.Package*"></a>
+
+  <h3 id="Divine_IO_FileManager_Package" data-uid="Divine.IO.FileManager.Package">
+  Package
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Package Package { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Package</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_PackageFile_" data-uid="Divine.IO.FileManager.PackageFile*"></a>
+
+  <h3 id="Divine_IO_FileManager_PackageFile" data-uid="Divine.IO.FileManager.PackageFile">
+  PackageFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PackageFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_PackageFileLoader_" data-uid="Divine.IO.FileManager.PackageFileLoader*"></a>
+
+  <h3 id="Divine_IO_FileManager_PackageFileLoader" data-uid="Divine.IO.FileManager.PackageFileLoader">
+  PackageFileLoader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameFileLoader PackageFileLoader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameFileLoader</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_IO_FileManager_AddFileOverride_" data-uid="Divine.IO.FileManager.AddFileOverride*"></a>
+
+  <h3 id="Divine_IO_FileManager_AddFileOverride_System_String_System_Span_System_Byte__" data-uid="Divine.IO.FileManager.AddFileOverride(System.String,System.Span{System.Byte})">
+  AddFileOverride(string, Span&lt;byte&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddFileOverride(string fileName, Span&lt;byte&gt; content)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -190,25 +349,25 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="Divine_IO_FileManager_AddOverrideFile_" data-uid="Divine.IO.FileManager.AddOverrideFile*"></a>
+  <a id="Divine_IO_FileManager_AddFileOverride_" data-uid="Divine.IO.FileManager.AddFileOverride*"></a>
 
-  <h3 id="Divine_IO_FileManager_AddOverrideFile_System_String_System_String_" data-uid="Divine.IO.FileManager.AddOverrideFile(System.String,System.String)">
-  AddOverrideFile(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_IO_FileManager_AddFileOverride_System_String_System_String_" data-uid="Divine.IO.FileManager.AddFileOverride(System.String,System.String)">
+  AddFileOverride(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool AddOverrideFile(string fileName, string overrideFileName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AddFileOverride(string fileName, string replacementFileName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
-    <dt><code>overrideFileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>replacementFileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -232,7 +391,7 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Divine_IO_FileManager_AddSearchPath_System_String_" data-uid="Divine.IO.FileManager.AddSearchPath(System.String)">
   AddSearchPath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -259,18 +418,18 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="Divine_IO_FileManager_ClearOverrideFiles_" data-uid="Divine.IO.FileManager.ClearOverrideFiles*"></a>
+  <a id="Divine_IO_FileManager_ClearFileOverrides_" data-uid="Divine.IO.FileManager.ClearFileOverrides*"></a>
 
-  <h3 id="Divine_IO_FileManager_ClearOverrideFiles" data-uid="Divine.IO.FileManager.ClearOverrideFiles">
-  ClearOverrideFiles()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_IO_FileManager_ClearFileOverrides" data-uid="Divine.IO.FileManager.ClearFileOverrides">
+  ClearFileOverrides()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ClearOverrideFiles()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ClearFileOverrides()</code></pre>
   </div>
 
 
@@ -285,18 +444,282 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="Divine_IO_FileManager_HasOverrideFile_" data-uid="Divine.IO.FileManager.HasOverrideFile*"></a>
+  <a id="Divine_IO_FileManager_EnumerateDirectories_" data-uid="Divine.IO.FileManager.EnumerateDirectories*"></a>
 
-  <h3 id="Divine_IO_FileManager_HasOverrideFile_System_String_" data-uid="Divine.IO.FileManager.HasOverrideFile(System.String)">
-  HasOverrideFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_IO_FileManager_EnumerateDirectories_System_String_" data-uid="Divine.IO.FileManager.EnumerateDirectories(System.String)">
+  EnumerateDirectories(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasOverrideFile(string fileName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateDirectories(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_EnumerateDirectories_" data-uid="Divine.IO.FileManager.EnumerateDirectories*"></a>
+
+  <h3 id="Divine_IO_FileManager_EnumerateDirectories_System_String_System_String_" data-uid="Divine.IO.FileManager.EnumerateDirectories(System.String,System.String)">
+  EnumerateDirectories(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateDirectories(string path, string searchPattern)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchPattern</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_EnumerateDirectories_" data-uid="Divine.IO.FileManager.EnumerateDirectories*"></a>
+
+  <h3 id="Divine_IO_FileManager_EnumerateDirectories_System_String_System_String_System_IO_SearchOption_" data-uid="Divine.IO.FileManager.EnumerateDirectories(System.String,System.String,System.IO.SearchOption)">
+  EnumerateDirectories(string, string, SearchOption)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateDirectories(string path, string searchPattern, SearchOption searchOption)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchPattern</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchOption</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.searchoption">SearchOption</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_EnumerateFiles_" data-uid="Divine.IO.FileManager.EnumerateFiles*"></a>
+
+  <h3 id="Divine_IO_FileManager_EnumerateFiles_System_String_" data-uid="Divine.IO.FileManager.EnumerateFiles(System.String)">
+  EnumerateFiles(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateFiles(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_EnumerateFiles_" data-uid="Divine.IO.FileManager.EnumerateFiles*"></a>
+
+  <h3 id="Divine_IO_FileManager_EnumerateFiles_System_String_System_String_" data-uid="Divine.IO.FileManager.EnumerateFiles(System.String,System.String)">
+  EnumerateFiles(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateFiles(string path, string searchPattern)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchPattern</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_EnumerateFiles_" data-uid="Divine.IO.FileManager.EnumerateFiles*"></a>
+
+  <h3 id="Divine_IO_FileManager_EnumerateFiles_System_String_System_String_System_IO_SearchOption_" data-uid="Divine.IO.FileManager.EnumerateFiles(System.String,System.String,System.IO.SearchOption)">
+  EnumerateFiles(string, string, SearchOption)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; EnumerateFiles(string path, string searchPattern, SearchOption searchOption)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchPattern</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchOption</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.searchoption">SearchOption</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_HasFileOverride_" data-uid="Divine.IO.FileManager.HasFileOverride*"></a>
+
+  <h3 id="Divine_IO_FileManager_HasFileOverride_System_String_" data-uid="Divine.IO.FileManager.HasFileOverride(System.String)">
+  HasFileOverride(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasFileOverride(string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_LoadResource_" data-uid="Divine.IO.FileManager.LoadResource*"></a>
+
+  <h3 id="Divine_IO_FileManager_LoadResource_System_String_" data-uid="Divine.IO.FileManager.LoadResource(System.String)">
+  LoadResource(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadResource(string fileName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -325,7 +748,7 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Divine_IO_FileManager_OpenFile_System_String_" data-uid="Divine.IO.FileManager.OpenFile(System.String)">
   OpenFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -357,18 +780,94 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <a id="Divine_IO_FileManager_RemoveOverrideFile_" data-uid="Divine.IO.FileManager.RemoveOverrideFile*"></a>
+  <a id="Divine_IO_FileManager_ReadResource_" data-uid="Divine.IO.FileManager.ReadResource*"></a>
 
-  <h3 id="Divine_IO_FileManager_RemoveOverrideFile_System_String_" data-uid="Divine.IO.FileManager.RemoveOverrideFile(System.String)">
-  RemoveOverrideFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_IO_FileManager_ReadResource_System_String_System_Boolean_" data-uid="Divine.IO.FileManager.ReadResource(System.String,System.Boolean)">
+  ReadResource(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool RemoveOverrideFile(string fileName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Resource? ReadResource(string fileName, bool compiled = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>compiled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Resource</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_ReadResourceRequired_" data-uid="Divine.IO.FileManager.ReadResourceRequired*"></a>
+
+  <h3 id="Divine_IO_FileManager_ReadResourceRequired_System_String_System_Boolean_" data-uid="Divine.IO.FileManager.ReadResourceRequired(System.String,System.Boolean)">
+  ReadResourceRequired(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Resource ReadResourceRequired(string fileName, bool compiled = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>compiled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Resource</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_IO_FileManager_RemoveFileOverride_" data-uid="Divine.IO.FileManager.RemoveFileOverride*"></a>
+
+  <h3 id="Divine_IO_FileManager_RemoveFileOverride_System_String_" data-uid="Divine.IO.FileManager.RemoveFileOverride(System.String)">
+  RemoveFileOverride(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveFileOverride(string fileName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -397,7 +896,7 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Divine_IO_FileManager_RemoveSearchPath_System_String_" data-uid="Divine.IO.FileManager.RemoveSearchPath(System.String)">
   RemoveSearchPath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -428,7 +927,7 @@ Class FileManager  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineEcosystem/Divine/blob/dev/src/Divine/IO/FileManager.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileManager.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

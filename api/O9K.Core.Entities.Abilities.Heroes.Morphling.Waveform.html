@@ -89,7 +89,7 @@
 
 
   <h1 id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform" class="text-break">
-Class Waveform  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class Waveform  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,9 +161,6 @@ public class Waveform : LineAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHa
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_CastRange">RangedAbility.CastRange</a>
-    </div>
-    <div>
-      <a class="xref" href="O9K.Core.Entities.Abilities.Base.RangedAbility.html#O9K_Core_Entities_Abilities_Base_RangedAbility_BaseCastRange">RangedAbility.BaseCastRange</a>
     </div>
     <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.ActiveAbility.html#O9K_Core_Entities_Abilities_Base_ActiveAbility_SpeedData">ActiveAbility.SpeedData</a>
@@ -325,6 +322,9 @@ public class Waveform : LineAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHa
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsControllable">Ability9.IsControllable</a>
     </div>
     <div>
+      <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsDisplayingCharges">Ability9.IsDisplayingCharges</a>
+    </div>
+    <div>
       <a class="xref" href="O9K.Core.Entities.Abilities.Base.Ability9.html#O9K_Core_Entities_Abilities_Base_Ability9_IsFake">Ability9.IsFake</a>
     </div>
     <div>
@@ -469,7 +469,7 @@ public class Waveform : LineAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHa
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform__ctor_Divine_Entity_Entities_Abilities_Ability_" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.#ctor(Divine.Entity.Entities.Abilities.Ability)">
   Waveform(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -500,11 +500,42 @@ public class Waveform : LineAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHa
 </h2>
 
 
+  <a id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_BaseCastRange_" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.BaseCastRange*"></a>
+
+  <h3 id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_BaseCastRange" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.BaseCastRange">
+  BaseCastRange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override float BaseCastRange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_BlinkType_" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.BlinkType*"></a>
 
   <h3 id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_BlinkType" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.BlinkType">
   BlinkType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -531,42 +562,11 @@ public class Waveform : LineAbility, IEquatable&lt;Entity9&gt;, IDisposable, IHa
 
 
 
-  <a id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_IsDisplayingCharges_" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.IsDisplayingCharges*"></a>
-
-  <h3 id="O9K_Core_Entities_Abilities_Heroes_Morphling_Waveform_IsDisplayingCharges" data-uid="O9K.Core.Entities.Abilities.Heroes.Morphling.Waveform.IsDisplayingCharges">
-  IsDisplayingCharges
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L27"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool IsDisplayingCharges { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivinePlugins/O9K/blob/main/src/O9K.Core/Entities/Abilities/Heroes/Morphling/Waveform.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 
