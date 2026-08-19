@@ -89,7 +89,7 @@
 
 
   <h1 id="Divine_IO_FileLoader" data-uid="Divine.IO.FileLoader" class="text-break">
-Class FileLoader  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class FileLoader  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -171,11 +171,50 @@ Class FileLoader  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
+  <a id="Divine_IO_FileLoader_GetFileStream_" data-uid="Divine.IO.FileLoader.GetFileStream*"></a>
+
+  <h3 id="Divine_IO_FileLoader_GetFileStream_System_String_" data-uid="Divine.IO.FileLoader.GetFileStream(System.String)">
+  GetFileStream(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Opens a stream for reading a raw (uncompiled) file, such as a loose script text file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream? GetFileStream(string file)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the file to read.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p>A readable stream, or null if not found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Divine_IO_FileLoader_LoadFile_" data-uid="Divine.IO.FileLoader.LoadFile*"></a>
 
   <h3 id="Divine_IO_FileLoader_LoadFile_System_String_" data-uid="Divine.IO.FileLoader.LoadFile(System.String)">
   LoadFile(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Loads a compiled resource file.</p>
@@ -217,7 +256,7 @@ Class FileLoader  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Divine_IO_FileLoader_LoadFileCompiled_System_String_" data-uid="Divine.IO.FileLoader.LoadFileCompiled(System.String)">
   LoadFileCompiled(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Same as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">LoadFile(string)</a> but appends <b>&quot;_c&quot;</b> to the end of the string.</p>
@@ -256,7 +295,7 @@ Class FileLoader  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/IO/FileLoader.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
