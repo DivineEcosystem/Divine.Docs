@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/",
+          "files": [
+            "Divine.Common/Release/Divine.Common.dll"
+          ]
+        },
+        {
+          "src": "{{DIVINE_SYSTEM_ROOT}}/src/",
+          "files": [
+            "Divine/src/Divine/*.csproj",
+            "Divine/src/Divine.Extensions/*.csproj"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/Divine.Dependencies/Release/",
+          "files": [
+            "System.CommandLine.dll",
+            "CommunityToolkit.Mvvm.dll",
+            "DistributedLock.FileSystem.dll",
+            "Refit.dll",
+            "Karambolo.Extensions.Logging.File.dll",
+            "CircularBuffer.dll",
+            "Reloaded.Memory.dll",
+            "System.Interactive.dll",
+            "Refit.HttpClientFactory.dll",
+            "Humanizer.dll",
+            "DistributedLock.Core.dll"
+          ]
+        }
+      ],
+      "dest": "_generated"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "src": "src/Divine.DocFx/DocFx/",
+        "files": "**/*.{md,yml}"
+      },
+      {
+        "src": "_generated/",
+        "files": "**/*.yml",
+        "dest": "api"
+      }
+    ],
+    "resource": [
+      {
+        "src": "src/Divine.DocFx/DocFx/",
+        "files": "images/**"
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Divine",
+      "_appTitle": "Divine",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
