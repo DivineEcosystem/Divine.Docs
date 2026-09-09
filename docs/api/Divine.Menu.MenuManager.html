@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MenuManager | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MenuManager | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Menu_MenuManager.md&amp;value=---%0Auid%3A%20Divine.Menu.MenuManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Menu.MenuManager">
+
+
+
+  <h1 id="Divine_Menu_MenuManager" data-uid="Divine.Menu.MenuManager" class="text-break">
+Class MenuManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.DivineButton.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Menu.html">Menu</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MenuManager</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MenuManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Menu_MenuManager_AbuseMenu_" data-uid="Divine.Menu.MenuManager.AbuseMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AbuseMenu" data-uid="Divine.Menu.MenuManager.AbuseMenu">
+  AbuseMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu AbuseMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AutoUsageMenu_" data-uid="Divine.Menu.MenuManager.AutoUsageMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AutoUsageMenu" data-uid="Divine.Menu.MenuManager.AutoUsageMenu">
+  AutoUsageMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu AutoUsageMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_BadGuyMenu_" data-uid="Divine.Menu.MenuManager.BadGuyMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_BadGuyMenu" data-uid="Divine.Menu.MenuManager.BadGuyMenu">
+  BadGuyMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu BadGuyMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_BotMenu_" data-uid="Divine.Menu.MenuManager.BotMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_BotMenu" data-uid="Divine.Menu.MenuManager.BotMenu">
+  BotMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu BotMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_ChangerMenu_" data-uid="Divine.Menu.MenuManager.ChangerMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_ChangerMenu" data-uid="Divine.Menu.MenuManager.ChangerMenu">
+  ChangerMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu ChangerMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_CreepsMenu_" data-uid="Divine.Menu.MenuManager.CreepsMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_CreepsMenu" data-uid="Divine.Menu.MenuManager.CreepsMenu">
+  CreepsMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu CreepsMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_DeveloperMenu_" data-uid="Divine.Menu.MenuManager.DeveloperMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_DeveloperMenu" data-uid="Divine.Menu.MenuManager.DeveloperMenu">
+  DeveloperMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu DeveloperMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_DodgerMenu_" data-uid="Divine.Menu.MenuManager.DodgerMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_DodgerMenu" data-uid="Divine.Menu.MenuManager.DodgerMenu">
+  DodgerMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu DodgerMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_HeroesMenu_" data-uid="Divine.Menu.MenuManager.HeroesMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_HeroesMenu" data-uid="Divine.Menu.MenuManager.HeroesMenu">
+  HeroesMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu HeroesMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_InformationMenu_" data-uid="Divine.Menu.MenuManager.InformationMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_InformationMenu" data-uid="Divine.Menu.MenuManager.InformationMenu">
+  InformationMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu InformationMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_Items_" data-uid="Divine.Menu.MenuManager.Items*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_Items" data-uid="Divine.Menu.MenuManager.Items">
+  Items
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MenuItem&gt; Items { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Menu.Items.MenuItem.html">MenuItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_Localization_" data-uid="Divine.Menu.MenuManager.Localization*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_Localization" data-uid="Divine.Menu.MenuManager.Localization">
+  Localization
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, string&gt; Localization { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MainMenu_" data-uid="Divine.Menu.MenuManager.MainMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MainMenu" data-uid="Divine.Menu.MenuManager.MainMenu">
+  MainMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MainMenu MainMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MainMenu.html">MainMenu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MainRenderer_" data-uid="Divine.Menu.MenuManager.MainRenderer*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MainRenderer" data-uid="Divine.Menu.MenuManager.MainRenderer">
+  MainRenderer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMenuRenderer MainRenderer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Renderers.IMenuRenderer.html">IMenuRenderer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MainStyle_" data-uid="Divine.Menu.MenuManager.MainStyle*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MainStyle" data-uid="Divine.Menu.MenuManager.MainStyle">
+  MainStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMainStyle MainStyle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Styles.IMainStyle.html">IMainStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuHoldKey_" data-uid="Divine.Menu.MenuManager.MenuHoldKey*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuHoldKey" data-uid="Divine.Menu.MenuManager.MenuHoldKey">
+  MenuHoldKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuHoldKey MenuHoldKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuHoldKey.html">MenuHoldKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuOpacitySlider_" data-uid="Divine.Menu.MenuManager.MenuOpacitySlider*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuOpacitySlider" data-uid="Divine.Menu.MenuManager.MenuOpacitySlider">
+  MenuOpacitySlider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSlider MenuOpacitySlider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSlider.html">MenuSlider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuScaleSlider_" data-uid="Divine.Menu.MenuManager.MenuScaleSlider*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuScaleSlider" data-uid="Divine.Menu.MenuManager.MenuScaleSlider">
+  MenuScaleSlider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSlider MenuScaleSlider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSlider.html">MenuSlider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuStyleSelector_" data-uid="Divine.Menu.MenuManager.MenuStyleSelector*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuStyleSelector" data-uid="Divine.Menu.MenuManager.MenuStyleSelector">
+  MenuStyleSelector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSelector MenuStyleSelector { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSelector.html">MenuSelector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuToggleKey_" data-uid="Divine.Menu.MenuManager.MenuToggleKey*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuToggleKey" data-uid="Divine.Menu.MenuManager.MenuToggleKey">
+  MenuToggleKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggleKey MenuToggleKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggleKey.html">MenuToggleKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MenuTooltip_" data-uid="Divine.Menu.MenuManager.MenuTooltip*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MenuTooltip" data-uid="Divine.Menu.MenuManager.MenuTooltip">
+  MenuTooltip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuTooltip MenuTooltip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuTooltip.html">MenuTooltip</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MiniMenu_" data-uid="Divine.Menu.MenuManager.MiniMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MiniMenu" data-uid="Divine.Menu.MenuManager.MiniMenu">
+  MiniMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MiniMenu MiniMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MiniMenu.html">MiniMenu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MiniRenderer_" data-uid="Divine.Menu.MenuManager.MiniRenderer*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MiniRenderer" data-uid="Divine.Menu.MenuManager.MiniRenderer">
+  MiniRenderer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMenuRenderer MiniRenderer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Renderers.IMenuRenderer.html">IMenuRenderer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_MiniStyle_" data-uid="Divine.Menu.MenuManager.MiniStyle*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_MiniStyle" data-uid="Divine.Menu.MenuManager.MiniStyle">
+  MiniStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMiniStyle MiniStyle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Styles.IMiniStyle.html">IMiniStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_OverwolfMenu_" data-uid="Divine.Menu.MenuManager.OverwolfMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_OverwolfMenu" data-uid="Divine.Menu.MenuManager.OverwolfMenu">
+  OverwolfMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu OverwolfMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_PluginsMenu_" data-uid="Divine.Menu.MenuManager.PluginsMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_PluginsMenu" data-uid="Divine.Menu.MenuManager.PluginsMenu">
+  PluginsMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu PluginsMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_ReloadCriticalExceptionSwitcher_" data-uid="Divine.Menu.MenuManager.ReloadCriticalExceptionSwitcher*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_ReloadCriticalExceptionSwitcher" data-uid="Divine.Menu.MenuManager.ReloadCriticalExceptionSwitcher">
+  ReloadCriticalExceptionSwitcher
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSwitcher ReloadCriticalExceptionSwitcher { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSwitcher.html">MenuSwitcher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_Roots_" data-uid="Divine.Menu.MenuManager.Roots*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_Roots" data-uid="Divine.Menu.MenuManager.Roots">
+  Roots
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;RootObject&gt; Roots { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Menu.Objects.RootObject.html">RootObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_SaveHandler_" data-uid="Divine.Menu.MenuManager.SaveHandler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_SaveHandler" data-uid="Divine.Menu.MenuManager.SaveHandler">
+  SaveHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UpdateHandler SaveHandler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Update.UpdateHandler.html">UpdateHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_SearcherItem_" data-uid="Divine.Menu.MenuManager.SearcherItem*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_SearcherItem" data-uid="Divine.Menu.MenuManager.SearcherItem">
+  SearcherItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSearcher SearcherItem { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSearcher.html">MenuSearcher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_SettingsMenu_" data-uid="Divine.Menu.MenuManager.SettingsMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_SettingsMenu" data-uid="Divine.Menu.MenuManager.SettingsMenu">
+  SettingsMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu SettingsMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_TooltipRenderer_" data-uid="Divine.Menu.MenuManager.TooltipRenderer*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_TooltipRenderer" data-uid="Divine.Menu.MenuManager.TooltipRenderer">
+  TooltipRenderer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMenuRenderer TooltipRenderer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Renderers.IMenuRenderer.html">IMenuRenderer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_TooltipStyle_" data-uid="Divine.Menu.MenuManager.TooltipStyle*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_TooltipStyle" data-uid="Divine.Menu.MenuManager.TooltipStyle">
+  TooltipStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITooltipStyle TooltipStyle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Styles.ITooltipStyle.html">ITooltipStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_UtilityMenu_" data-uid="Divine.Menu.MenuManager.UtilityMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_UtilityMenu" data-uid="Divine.Menu.MenuManager.UtilityMenu">
+  UtilityMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu UtilityMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_WidgetMenu_" data-uid="Divine.Menu.MenuManager.WidgetMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_WidgetMenu" data-uid="Divine.Menu.MenuManager.WidgetMenu">
+  WidgetMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu WidgetMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Menu_MenuManager_AddAbilityToggler_" data-uid="Divine.Menu.MenuManager.AddAbilityToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddAbilityToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerAbilities_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddAbilityToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerAbilities,System.Boolean)">
+  AddAbilityToggler(MenuName, MenuTogglerAbilities, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L633"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuAbilityToggler AddAbilityToggler(MenuName name, MenuTogglerAbilities values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerAbilities.html">MenuTogglerAbilities</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuAbilityToggler.html">MenuAbilityToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddAbilityToggler_" data-uid="Divine.Menu.MenuManager.AddAbilityToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddAbilityToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerOptions_Divine_Menu_Components_MenuTogglerAbilities_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddAbilityToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerOptions,Divine.Menu.Components.MenuTogglerAbilities,System.Boolean)">
+  AddAbilityToggler(MenuName, MenuTogglerOptions, MenuTogglerAbilities, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L638"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuAbilityToggler AddAbilityToggler(MenuName name, MenuTogglerOptions options, MenuTogglerAbilities values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerOptions.html">MenuTogglerOptions</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerAbilities.html">MenuTogglerAbilities</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuAbilityToggler.html">MenuAbilityToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddButton_" data-uid="Divine.Menu.MenuManager.AddButton*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddButton_Divine_Menu_Components_MenuName_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddButton(Divine.Menu.Components.MenuName,System.Boolean)">
+  AddButton(MenuName, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L586"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuButton AddButton(MenuName name, bool withoutInnerButton = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>withoutInnerButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuButton.html">MenuButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddHeroToggler_" data-uid="Divine.Menu.MenuManager.AddHeroToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddHeroToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerHeroes_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddHeroToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerHeroes,System.Boolean)">
+  AddHeroToggler(MenuName, MenuTogglerHeroes, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L623"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuHeroToggler AddHeroToggler(MenuName name, MenuTogglerHeroes values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerHeroes.html">MenuTogglerHeroes</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuHeroToggler.html">MenuHeroToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddHeroToggler_" data-uid="Divine.Menu.MenuManager.AddHeroToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddHeroToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerOptions_Divine_Menu_Components_MenuTogglerHeroes_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddHeroToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerOptions,Divine.Menu.Components.MenuTogglerHeroes,System.Boolean)">
+  AddHeroToggler(MenuName, MenuTogglerOptions, MenuTogglerHeroes, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L628"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuHeroToggler AddHeroToggler(MenuName name, MenuTogglerOptions options, MenuTogglerHeroes values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerOptions.html">MenuTogglerOptions</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerHeroes.html">MenuTogglerHeroes</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuHeroToggler.html">MenuHeroToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddHoldKey_" data-uid="Divine.Menu.MenuManager.AddHoldKey*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddHoldKey_Divine_Menu_Components_MenuName_Divine_Input_Key_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddHoldKey(Divine.Menu.Components.MenuName,Divine.Input.Key,System.Boolean)">
+  AddHoldKey(MenuName, Key, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L571"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuInputKey AddHoldKey(MenuName name, Key defaultKey = Key.None, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultKey</code> <a class="xref" href="Divine.Input.Key.html">Key</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuInputKey.html">MenuInputKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddInputKey_" data-uid="Divine.Menu.MenuManager.AddInputKey*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddInputKey_Divine_Menu_Components_MenuName_Divine_Input_Key_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddInputKey(Divine.Menu.Components.MenuName,Divine.Input.Key,System.Boolean)">
+  AddInputKey(MenuName, Key, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L581"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuInputKey AddInputKey(MenuName name, Key defaultKey = Key.None, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultKey</code> <a class="xref" href="Divine.Input.Key.html">Key</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuInputKey.html">MenuInputKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddInputText_" data-uid="Divine.Menu.MenuManager.AddInputText*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddInputText_Divine_Menu_Components_MenuName_System_String_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddInputText(Divine.Menu.Components.MenuName,System.String,System.Boolean)">
+  AddInputText(MenuName, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L566"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuInputText AddInputText(MenuName name, string? defaultText = null, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuInputText.html">MenuInputText</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddItemToggler_" data-uid="Divine.Menu.MenuManager.AddItemToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddItemToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerItems_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddItemToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerItems,System.Boolean)">
+  AddItemToggler(MenuName, MenuTogglerItems, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L643"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuItemToggler AddItemToggler(MenuName name, MenuTogglerItems values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerItems.html">MenuTogglerItems</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuItemToggler.html">MenuItemToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddItemToggler_" data-uid="Divine.Menu.MenuManager.AddItemToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddItemToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerOptions_Divine_Menu_Components_MenuTogglerItems_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddItemToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerOptions,Divine.Menu.Components.MenuTogglerItems,System.Boolean)">
+  AddItemToggler(MenuName, MenuTogglerOptions, MenuTogglerItems, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuItemToggler AddItemToggler(MenuName name, MenuTogglerOptions options, MenuTogglerItems values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerOptions.html">MenuTogglerOptions</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerItems.html">MenuTogglerItems</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuItemToggler.html">MenuItemToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddLinker_" data-uid="Divine.Menu.MenuManager.AddLinker*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddLinker_Divine_Menu_Components_MenuName_Divine_Menu_Items_MenuText_" data-uid="Divine.Menu.MenuManager.AddLinker(Divine.Menu.Components.MenuName,Divine.Menu.Items.MenuText)">
+  AddLinker(MenuName, MenuText)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L680"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuLinker AddLinker(MenuName name, MenuText text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="Divine.Menu.Items.MenuText.html">MenuText</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuLinker.html">MenuLinker</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddLinker_" data-uid="Divine.Menu.MenuManager.AddLinker*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddLinker_Divine_Menu_Items_MenuText_" data-uid="Divine.Menu.MenuManager.AddLinker(Divine.Menu.Items.MenuText)">
+  AddLinker(MenuText)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L675"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuLinker AddLinker(MenuText text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="Divine.Menu.Items.MenuText.html">MenuText</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuLinker.html">MenuLinker</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddMenu_" data-uid="Divine.Menu.MenuManager.AddMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddMenu_Divine_Menu_Components_MenuName_System_Boolean_System_Boolean_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddMenu(Divine.Menu.Components.MenuName,System.Boolean,System.Boolean,System.Boolean)">
+  AddMenu(MenuName, bool, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L556"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Menu AddMenu(MenuName name, bool withSwitcher = false, bool defaultValue = true, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>withSwitcher</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.Menu.html">Menu</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSearcher_" data-uid="Divine.Menu.MenuManager.AddSearcher*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSearcher_Divine_Menu_Components_MenuName_" data-uid="Divine.Menu.MenuManager.AddSearcher(Divine.Menu.Components.MenuName)">
+  AddSearcher(MenuName)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSearcher AddSearcher(MenuName name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSearcher.html">MenuSearcher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSelector_" data-uid="Divine.Menu.MenuManager.AddSelector*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSelector_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuSelectorValues_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSelector(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuSelectorValues,System.Boolean)">
+  AddSelector(MenuName, MenuSelectorValues, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSelector AddSelector(MenuName name, MenuSelectorValues values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuSelectorValues.html">MenuSelectorValues</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSelector.html">MenuSelector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSelector_" data-uid="Divine.Menu.MenuManager.AddSelector*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSelector_Divine_Menu_Components_MenuName_System_Int32_Divine_Menu_Components_MenuSelectorValues_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSelector(Divine.Menu.Components.MenuName,System.Int32,Divine.Menu.Components.MenuSelectorValues,System.Boolean)">
+  AddSelector(MenuName, int, MenuSelectorValues, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L606"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSelector AddSelector(MenuName name, int defaultIndex, MenuSelectorValues values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuSelectorValues.html">MenuSelectorValues</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSelector.html">MenuSelector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSelector_" data-uid="Divine.Menu.MenuManager.AddSelector*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSelector__1_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuSelectorValues___0__System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSelector``1(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuSelectorValues{``0},System.Boolean)">
+  AddSelector&lt;T&gt;(MenuName, MenuSelectorValues&lt;T&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L611"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSelector&lt;T&gt; AddSelector&lt;T&gt;(MenuName name, MenuSelectorValues&lt;T&gt; values = default, bool dontSave = false) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuSelectorValues-1.html">MenuSelectorValues</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSelector-1.html">MenuSelector</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSelector_" data-uid="Divine.Menu.MenuManager.AddSelector*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSelector__1_Divine_Menu_Components_MenuName_System_Int32_Divine_Menu_Components_MenuSelectorValues___0__System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSelector``1(Divine.Menu.Components.MenuName,System.Int32,Divine.Menu.Components.MenuSelectorValues{``0},System.Boolean)">
+  AddSelector&lt;T&gt;(MenuName, int, MenuSelectorValues&lt;T&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L617"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSelector&lt;T&gt; AddSelector&lt;T&gt;(MenuName name, int defaultIndex, MenuSelectorValues&lt;T&gt; values = default, bool dontSave = false) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuSelectorValues-1.html">MenuSelectorValues</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSelector-1.html">MenuSelector</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSlider_" data-uid="Divine.Menu.MenuManager.AddSlider*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSlider_Divine_Menu_Components_MenuName_System_Single_System_Int32_System_Int32_System_Boolean_System_Single_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSlider(Divine.Menu.Components.MenuName,System.Single,System.Int32,System.Int32,System.Boolean,System.Single,System.Boolean)">
+  AddSlider(MenuName, float, int, int, bool, float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L596"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSlider AddSlider(MenuName name, float value, int minValue, int maxValue, bool isFloatingPoint = false, float wheelStep = 1, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>minValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>maxValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>isFloatingPoint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>wheelStep</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSlider.html">MenuSlider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddSwitcher_" data-uid="Divine.Menu.MenuManager.AddSwitcher*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddSwitcher_Divine_Menu_Components_MenuName_System_Boolean_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddSwitcher(Divine.Menu.Components.MenuName,System.Boolean,System.Boolean)">
+  AddSwitcher(MenuName, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L591"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuSwitcher AddSwitcher(MenuName name, bool defaultValue = true, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuSwitcher.html">MenuSwitcher</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddText_" data-uid="Divine.Menu.MenuManager.AddText*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddText_Divine_Menu_Components_MenuName_" data-uid="Divine.Menu.MenuManager.AddText(Divine.Menu.Components.MenuName)">
+  AddText(MenuName)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuText AddText(MenuName name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuText.html">MenuText</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddToggleKey_" data-uid="Divine.Menu.MenuManager.AddToggleKey*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddToggleKey_Divine_Menu_Components_MenuName_Divine_Input_Key_System_Boolean_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddToggleKey(Divine.Menu.Components.MenuName,Divine.Input.Key,System.Boolean,System.Boolean)">
+  AddToggleKey(MenuName, Key, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L576"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggleKey AddToggleKey(MenuName name, Key defaultKey = Key.None, bool defaultValue = false, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>defaultKey</code> <a class="xref" href="Divine.Input.Key.html">Key</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggleKey.html">MenuToggleKey</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddToggler_" data-uid="Divine.Menu.MenuManager.AddToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerOptions_Divine_Menu_Components_MenuTogglerValues_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerOptions,Divine.Menu.Components.MenuTogglerValues,System.Boolean)">
+  AddToggler(MenuName, MenuTogglerOptions, MenuTogglerValues, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L658"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggler AddToggler(MenuName name, MenuTogglerOptions options, MenuTogglerValues values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerOptions.html">MenuTogglerOptions</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerValues.html">MenuTogglerValues</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggler.html">MenuToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddToggler_" data-uid="Divine.Menu.MenuManager.AddToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddToggler_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerValues_System_Boolean_" data-uid="Divine.Menu.MenuManager.AddToggler(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerValues,System.Boolean)">
+  AddToggler(MenuName, MenuTogglerValues, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L653"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggler AddToggler(MenuName name, MenuTogglerValues values = default, bool dontSave = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerValues.html">MenuTogglerValues</a></dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggler.html">MenuToggler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddToggler_" data-uid="Divine.Menu.MenuManager.AddToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddToggler__1_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerOptions_Divine_Menu_Components_MenuTogglerValues___0__System_Boolean_" data-uid="Divine.Menu.MenuManager.AddToggler``1(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerOptions,Divine.Menu.Components.MenuTogglerValues{``0},System.Boolean)">
+  AddToggler&lt;T&gt;(MenuName, MenuTogglerOptions, MenuTogglerValues&lt;T&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L669"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggler&lt;T&gt; AddToggler&lt;T&gt;(MenuName name, MenuTogglerOptions options, MenuTogglerValues&lt;T&gt; values = default, bool dontSave = false) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerOptions.html">MenuTogglerOptions</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerValues-1.html">MenuTogglerValues</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggler-1.html">MenuToggler</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_AddToggler_" data-uid="Divine.Menu.MenuManager.AddToggler*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_AddToggler__1_Divine_Menu_Components_MenuName_Divine_Menu_Components_MenuTogglerValues___0__System_Boolean_" data-uid="Divine.Menu.MenuManager.AddToggler``1(Divine.Menu.Components.MenuName,Divine.Menu.Components.MenuTogglerValues{``0},System.Boolean)">
+  AddToggler&lt;T&gt;(MenuName, MenuTogglerValues&lt;T&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L663"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MenuToggler&lt;T&gt; AddToggler&lt;T&gt;(MenuName name, MenuTogglerValues&lt;T&gt; values = default, bool dontSave = false) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="Divine.Menu.Components.MenuName.html">MenuName</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerValues-1.html">MenuTogglerValues</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>dontSave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuToggler-1.html">MenuToggler</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_HideMenu_" data-uid="Divine.Menu.MenuManager.HideMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_HideMenu" data-uid="Divine.Menu.MenuManager.HideMenu">
+  HideMenu()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HideMenu()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_MenuManager_ShowMenu_" data-uid="Divine.Menu.MenuManager.ShowMenu*"></a>
+
+  <h3 id="Divine_Menu_MenuManager_ShowMenu" data-uid="Divine.Menu.MenuManager.ShowMenu">
+  ShowMenu()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.cs/#L471"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShowMenu()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/MenuManager.DivineButton.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

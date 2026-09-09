@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MenuHeroToggler | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MenuHeroToggler | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Menu_Items_MenuHeroToggler.md&amp;value=---%0Auid%3A%20Divine.Menu.Items.MenuHeroToggler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Menu.Items.MenuHeroToggler">
+
+
+
+  <h1 id="Divine_Menu_Items_MenuHeroToggler" data-uid="Divine.Menu.Items.MenuHeroToggler" class="text-break">
+Class MenuHeroToggler  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Menu.html">Menu</a>.<a class="xref" href="Divine.Menu.Items.html">Items</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MenuHeroToggler : MenuTogglerBase&lt;HeroId&gt;, IDisposable, IMenuExpanderExtensions, IMenuTogglerExtensions, IMenuTextExtensions, IMenuItemExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.MenuItem.html">MenuItem</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.MenuText.html">MenuText</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.MenuExpander.html">MenuExpander</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html">MenuTogglerBase</a>&lt;<a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a>&gt;</div>
+      <div><span class="xref">MenuHeroToggler</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.IMenuExpanderExtensions.html">IMenuExpanderExtensions</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.IMenuTogglerExtensions.html">IMenuTogglerExtensions</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.IMenuTextExtensions.html">IMenuTextExtensions</a></div>
+      <div><a class="xref" href="Divine.Menu.Items.IMenuItemExtensions.html">IMenuItemExtensions</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_Item__0_">MenuTogglerBase&lt;HeroId&gt;.this[HeroId]</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_View">MenuTogglerBase&lt;HeroId&gt;.View</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_Options">MenuTogglerBase&lt;HeroId&gt;.Options</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_CanToggle">MenuTogglerBase&lt;HeroId&gt;.CanToggle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_CanChangePriority">MenuTogglerBase&lt;HeroId&gt;.CanChangePriority</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_IsExpandable">MenuTogglerBase&lt;HeroId&gt;.IsExpandable</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_DefaultValues">MenuTogglerBase&lt;HeroId&gt;.DefaultValues</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_ImageKeys">MenuTogglerBase&lt;HeroId&gt;.ImageKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_Values">MenuTogglerBase&lt;HeroId&gt;.Values</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_GetValue__0_">MenuTogglerBase&lt;HeroId&gt;.GetValue(HeroId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_TryGetValue__0_System_Boolean__">MenuTogglerBase&lt;HeroId&gt;.TryGetValue(HeroId, out bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_SetValue__0_System_Boolean_">MenuTogglerBase&lt;HeroId&gt;.SetValue(HeroId, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_AddValue_Divine_Menu_Components_MenuTogglerValue__0__">MenuTogglerBase&lt;HeroId&gt;.AddValue(MenuTogglerValue&lt;HeroId&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_RemoveValue__0_">MenuTogglerBase&lt;HeroId&gt;.RemoveValue(HeroId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_GetPriority__0_">MenuTogglerBase&lt;HeroId&gt;.GetPriority(HeroId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuTogglerBase-1.html#Divine_Menu_Items_MenuTogglerBase_1_SetPriority__0_System_Int32_">MenuTogglerBase&lt;HeroId&gt;.SetPriority(HeroId, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuExpander.html#Divine_Menu_Items_MenuExpander_IsExpanded">MenuExpander.IsExpanded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuExpander.html#Divine_Menu_Items_MenuExpander_Expanded">MenuExpander.Expanded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuExpander.html#Divine_Menu_Items_MenuExpander_Collapsed">MenuExpander.Collapsed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuText.html#Divine_Menu_Items_MenuText_DefaultDisplayText">MenuText.DefaultDisplayText</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuText.html#Divine_Menu_Items_MenuText_DisplayText">MenuText.DisplayText</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuText.html#Divine_Menu_Items_MenuText_DisplayTextFontColor">MenuText.DisplayTextFontColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Item_System_String_">MenuItem.this[string]</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Context">MenuItem.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Root">MenuItem.Root</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Parent">MenuItem.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_ContextStyle">MenuItem.ContextStyle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Views">MenuItem.Views</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Name">MenuItem.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_FullName">MenuItem.FullName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsContext">MenuItem.IsContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsRoot">MenuItem.IsRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsDisposed">MenuItem.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_CanSave">MenuItem.CanSave</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsHidden">MenuItem.IsHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_CanVisible">MenuItem.CanVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsVisible">MenuItem.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsDisabled">MenuItem.IsDisabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsSearcherMark">MenuItem.IsSearcherMark</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Flags">MenuItem.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Priority">MenuItem.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsSelected">MenuItem.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_ImageKey">MenuItem.ImageKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Tooltip">MenuItem.Tooltip</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_IsRequiresSave">MenuItem.IsRequiresSave</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_Dispose_System_Boolean_">MenuItem.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Items.MenuItem.html#Divine_Menu_Items_MenuItem_ToString">MenuItem.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Collapse__1___0_">MenuExtensions.Collapse&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Disable__1___0_">MenuExtensions.Disable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Enable__1___0_">MenuExtensions.Enable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Expand__1___0_">MenuExtensions.Expand&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Hide__1___0_">MenuExtensions.Hide&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Load__1___0_">MenuExtensions.Load&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Move__1___0_System_Int32_">MenuExtensions.Move&lt;T&gt;(T, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Refresh__1___0_System_Boolean_System_Boolean_">MenuExtensions.Refresh&lt;T&gt;(T, bool, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Reset__1___0_">MenuExtensions.Reset&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_ResetPriorities__1___0_">MenuExtensions.ResetPriorities&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_ResetValues__1___0_">MenuExtensions.ResetValues&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Save__1___0_Divine_Menu_Components_MenuSaveMode_">MenuExtensions.Save&lt;T&gt;(T, MenuSaveMode)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetDisplayTextFontColor__1___0_System_Nullable_Vortice_Mathematics_Color__">MenuExtensions.SetDisplayTextFontColor&lt;T&gt;(T, Color?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_Divine_Entity_Entities_Abilities_Components_AbilityId_">MenuExtensions.SetImage&lt;T&gt;(T, AbilityId)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_Divine_Entity_Entities_Abilities_Items_Components_ItemId_System_Boolean_">MenuExtensions.SetImage&lt;T&gt;(T, ItemId, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_Divine_Entity_Entities_Units_Heroes_Components_HeroId_System_Boolean_">MenuExtensions.SetImage&lt;T&gt;(T, HeroId, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_System_Nullable_Divine_Menu_Components_MenuImageKey__">MenuExtensions.SetImage&lt;T&gt;(T, MenuImageKey?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_System_String_Divine_Renderer_ImageType_">MenuExtensions.SetImage&lt;T&gt;(T, string, ImageType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImage__1___0_System_String_System_String_Divine_Renderer_ImageType_">MenuExtensions.SetImage&lt;T&gt;(T, string, string, ImageType)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImageFromResources__1___0_System_String_System_String_">MenuExtensions.SetImageFromResources&lt;T&gt;(T, string, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetImageFromResources__1___0_System_String_">MenuExtensions.SetImageFromResources&lt;T&gt;(T, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetSearchMark__1___0_System_Boolean_">MenuExtensions.SetSearchMark&lt;T&gt;(T, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_SetTooltip__1___0_System_String_">MenuExtensions.SetTooltip&lt;T&gt;(T, string?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Menu.MenuExtensions.html#Divine_Menu_MenuExtensions_Show__1___0_">MenuExtensions.Show&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Menu_Items_MenuHeroToggler_AddValue_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue*"></a>
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_AddValue_Divine_Entity_Entities_Units_Heroes_Components_HeroId_System_Boolean_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue(Divine.Entity.Entities.Units.Heroes.Components.HeroId,System.Boolean)">
+  AddValue(HeroId, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddValue(HeroId id, bool value = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Items_MenuHeroToggler_AddValue_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue*"></a>
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_AddValue_Divine_Entity_Entities_Units_Heroes_Hero_System_Boolean_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue(Divine.Entity.Entities.Units.Heroes.Hero,System.Boolean)">
+  AddValue(Hero, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddValue(Hero hero, bool value = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hero</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Hero.html">Hero</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Items_MenuHeroToggler_AddValue_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue*"></a>
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_AddValue_Divine_Menu_Components_MenuTogglerHero_" data-uid="Divine.Menu.Items.MenuHeroToggler.AddValue(Divine.Menu.Components.MenuTogglerHero)">
+  AddValue(MenuTogglerHero)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddValue(MenuTogglerHero togglerValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>togglerValue</code> <a class="xref" href="Divine.Menu.Components.MenuTogglerHero.html">MenuTogglerHero</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_FullValueChanged" data-uid="Divine.Menu.Items.MenuHeroToggler.FullValueChanged">
+  FullValueChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MenuHeroToggler, HeroTogglerChangedEventArgs&gt; FullValueChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-2">EventHandler</a>&lt;<a class="xref" href="Divine.Menu.Items.MenuHeroToggler.html">MenuHeroToggler</a>, <a class="xref" href="Divine.Menu.EventArgs.HeroTogglerChangedEventArgs.html">HeroTogglerChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_PriorityChanged" data-uid="Divine.Menu.Items.MenuHeroToggler.PriorityChanged">
+  PriorityChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MenuHeroToggler, HeroTogglerPriorityChangedEventArgs&gt; PriorityChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-2">EventHandler</a>&lt;<a class="xref" href="Divine.Menu.Items.MenuHeroToggler.html">MenuHeroToggler</a>, <a class="xref" href="Divine.Menu.EventArgs.HeroTogglerPriorityChangedEventArgs.html">HeroTogglerPriorityChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Menu_Items_MenuHeroToggler_ValueChanged" data-uid="Divine.Menu.Items.MenuHeroToggler.ValueChanged">
+  ValueChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MenuHeroToggler, HeroTogglerChangedEventArgs&gt; ValueChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-2">EventHandler</a>&lt;<a class="xref" href="Divine.Menu.Items.MenuHeroToggler.html">MenuHeroToggler</a>, <a class="xref" href="Divine.Menu.EventArgs.HeroTogglerChangedEventArgs.html">HeroTogglerChangedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Items/MenuHeroToggler.cs/#L5" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

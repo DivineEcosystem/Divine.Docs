@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MenuRenderer | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MenuRenderer | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Menu_Renderers_MenuRenderer.md&amp;value=---%0Auid%3A%20Divine.Menu.Renderers.MenuRenderer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Menu.Renderers.MenuRenderer">
+
+
+
+  <h1 id="Divine_Menu_Renderers_MenuRenderer" data-uid="Divine.Menu.Renderers.MenuRenderer" class="text-break">
+Class MenuRenderer  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Menu.html">Menu</a>.<a class="xref" href="Divine.Menu.Renderers.html">Renderers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MenuRenderer : IMenuRenderer, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MenuRenderer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Divine.Menu.Renderers.IMenuRenderer.html">IMenuRenderer</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_MenuPosition_" data-uid="Divine.Menu.Renderers.MenuRenderer.MenuPosition*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_MenuPosition" data-uid="Divine.Menu.Renderers.MenuRenderer.MenuPosition">
+  MenuPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 MenuPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_MenuStaticPosition_" data-uid="Divine.Menu.Renderers.MenuRenderer.MenuStaticPosition*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_MenuStaticPosition" data-uid="Divine.Menu.Renderers.MenuRenderer.MenuStaticPosition">
+  MenuStaticPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 MenuStaticPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_Window_" data-uid="Divine.Menu.Renderers.MenuRenderer.Window*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_Window" data-uid="Divine.Menu.Renderers.MenuRenderer.Window">
+  Window
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect Window { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_WindowPosition_" data-uid="Divine.Menu.Renderers.MenuRenderer.WindowPosition*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_WindowPosition" data-uid="Divine.Menu.Renderers.MenuRenderer.WindowPosition">
+  WindowPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 WindowPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_WindowSize_" data-uid="Divine.Menu.Renderers.MenuRenderer.WindowSize*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_WindowSize" data-uid="Divine.Menu.Renderers.MenuRenderer.WindowSize">
+  WindowSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size WindowSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Size.cs">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_Clear_" data-uid="Divine.Menu.Renderers.MenuRenderer.Clear*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_Clear" data-uid="Divine.Menu.Renderers.MenuRenderer.Clear">
+  Clear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_CreateRoundedRectangleGeometry_" data-uid="Divine.Menu.Renderers.MenuRenderer.CreateRoundedRectangleGeometry*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_CreateRoundedRectangleGeometry_Divine_Renderer_Numerics_RoundedRect_" data-uid="Divine.Menu.Renderers.MenuRenderer.CreateRoundedRectangleGeometry(Divine.Renderer.Numerics.RoundedRect)">
+  CreateRoundedRectangleGeometry(RoundedRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L556"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ID2D1Geometry* CreateRoundedRectangleGeometry(RoundedRect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Geometry</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_CreateTextLayout_" data-uid="Divine.Menu.Renderers.MenuRenderer.CreateTextLayout*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_CreateTextLayout_System_String_Vortice_Mathematics_Size_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.MenuRenderer.CreateTextLayout(System.String,Vortice.Mathematics.Size,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
+  CreateTextLayout(string, Size, float, FontFlags, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L522"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDWriteTextLayout* CreateTextLayout(string text, Size size, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Size.cs">Size</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IDWriteTextLayout</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_Dispose_" data-uid="Divine.Menu.Renderers.MenuRenderer.Dispose*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_Dispose" data-uid="Divine.Menu.Renderers.MenuRenderer.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawBackground_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawBackground*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawBackground_Divine_Renderer_Numerics_RoundedRect_Vortice_Mathematics_Color_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawBackground(Divine.Renderer.Numerics.RoundedRect,Vortice.Mathematics.Color)">
+  DrawBackground(RoundedRect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawBackground(RoundedRect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawDebugRectangle_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawDebugRectangle*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawDebugRectangle_System_Boolean_Vortice_Mathematics_Rect_System_Nullable_Vortice_Mathematics_Color__" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawDebugRectangle(System.Boolean,Vortice.Mathematics.Rect,System.Nullable{Vortice.Mathematics.Color})">
+  DrawDebugRectangle(bool, Rect, Color?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawDebugRectangle(bool isEnabled, Rect rect, Color? color = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isEnabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawFilledRectangle_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawFilledRectangle*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawFilledRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawFilledRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color)">
+  DrawFilledRectangle(Rect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawFilledRectangle(Rect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawFilledRoundedRectangle_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawFilledRoundedRectangle*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawFilledRoundedRectangle_Divine_Renderer_Numerics_RoundedRect_Vortice_Mathematics_Color_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawFilledRoundedRectangle(Divine.Renderer.Numerics.RoundedRect,Vortice.Mathematics.Color)">
+  DrawFilledRoundedRectangle(RoundedRect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawFilledRoundedRectangle(RoundedRect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawImage_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawImage*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawImage_Divine_Menu_Components_MenuImageKey_Vortice_Mathematics_Rect_System_Single_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawImage(Divine.Menu.Components.MenuImageKey,Vortice.Mathematics.Rect,System.Single)">
+  DrawImage(MenuImageKey, Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawImage(MenuImageKey imageKey, Rect rect, float opacity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="Divine.Menu.Components.MenuImageKey.html">MenuImageKey</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawLine_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawLine*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawLine_System_Numerics_Vector2_System_Numerics_Vector2_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawLine(System.Numerics.Vector2,System.Numerics.Vector2,Vortice.Mathematics.Color,System.Single)">
+  DrawLine(Vector2, Vector2, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawLine(Vector2 start, Vector2 end, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawRoundedImage_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawRoundedImage*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawRoundedImage_Divine_Menu_Components_MenuImageKey_Divine_Renderer_Numerics_RoundedRect_System_Single_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawRoundedImage(Divine.Menu.Components.MenuImageKey,Divine.Renderer.Numerics.RoundedRect,System.Single)">
+  DrawRoundedImage(MenuImageKey, RoundedRect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawRoundedImage(MenuImageKey imageKey, RoundedRect rect, float opacity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="Divine.Menu.Components.MenuImageKey.html">MenuImageKey</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawRoundedRectangle_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawRoundedRectangle*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawRoundedRectangle_Divine_Renderer_Numerics_RoundedRect_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawRoundedRectangle(Divine.Renderer.Numerics.RoundedRect,Vortice.Mathematics.Color,System.Single)">
+  DrawRoundedRectangle(RoundedRect, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawRoundedRectangle(RoundedRect rect, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_DrawText_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawText*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_Divine_Renderer_FontFlags_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.MenuRenderer.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single,Divine.Renderer.FontFlags,Divine.Renderer.FontWeight)">
+  DrawText(string, Rect, Color, float, FontFlags, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L431"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawText(string text, Rect rect, Color color, float fontSize, FontFlags fontFlags = FontFlags.Left, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_GetTextMetrics_" data-uid="Divine.Menu.Renderers.MenuRenderer.GetTextMetrics*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_GetTextMetrics_System_String_Vortice_Mathematics_Size_System_Single_Divine_Renderer_FontWeight_" data-uid="Divine.Menu.Renderers.MenuRenderer.GetTextMetrics(System.String,Vortice.Mathematics.Size,System.Single,Divine.Renderer.FontWeight)">
+  GetTextMetrics(string, Size, float, FontWeight)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L510"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMetrics GetTextMetrics(string text, Size size, float fontSize, FontWeight fontWeight = FontWeight.Bold)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Size.cs">Size</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TextMetrics</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Renderers_MenuRenderer_Invoke_" data-uid="Divine.Menu.Renderers.MenuRenderer.Invoke*"></a>
+
+  <h3 id="Divine_Menu_Renderers_MenuRenderer_Invoke_System_Action_" data-uid="Divine.Menu.Renderers.MenuRenderer.Invoke(System.Action)">
+  Invoke(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L504"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Invoke(Action callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Renderers/MenuRenderer.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

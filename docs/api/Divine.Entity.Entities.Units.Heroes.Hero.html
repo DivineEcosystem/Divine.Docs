@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Hero | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Hero | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Entity_Entities_Units_Heroes_Hero.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Units.Heroes.Hero%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Entity.Entities.Units.Heroes.Hero">
+
+
+
+  <h1 id="Divine_Entity_Entities_Units_Heroes_Hero" data-uid="Divine.Entity.Entities.Units.Heroes.Hero" class="text-break">
+Class Hero  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Entity.html">Entity</a>.<a class="xref" href="Divine.Entity.Entities.html">Entities</a>.<a class="xref" href="Divine.Entity.Entities.Units.html">Units</a>.<a class="xref" href="Divine.Entity.Entities.Units.Heroes.html">Heroes</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Hero : Unit, IEquatable&lt;Entity&gt;, INative</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a></div>
+      <div><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></div>
+      <div><span class="xref">Hero</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a>&gt;</div>
+      <div><a class="xref" href="Divine.Memory.INative.html">INative</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Abaddon.html">Abaddon</a></div>
+      <div><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Meepo.html">Meepo</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Name">Unit.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_LastVisibleTime">Unit.LastVisibleTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsDeniable">Unit.IsDeniable</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_SoundSet">Unit.SoundSet</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Label">Unit.Label</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Target">Unit.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsPhantom">Unit.IsPhantom</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_UnitType">Unit.UnitType</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Level">Unit.Level</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsAncient">Unit.IsAncient</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasStolenScepter">Unit.HasStolenScepter</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsNeutral">Unit.IsNeutral</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasSharedAbilities">Unit.HasSharedAbilities</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsSummoned">Unit.IsSummoned</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsDominatable">Unit.IsDominatable</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasUpgradeableAbilities">Unit.HasUpgradeableAbilities</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HealthRegeneration">Unit.HealthRegeneration</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BaseHealthRegeneration">Unit.BaseHealthRegeneration</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsControllable">Unit.IsControllable</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AttackRange">Unit.AttackRange</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MovementSpeed">Unit.MovementSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BaseMovementSpeed">Unit.BaseMovementSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BaseAttackTime">Unit.BaseAttackTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HealthBarOffset">Unit.HealthBarOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Mana">Unit.Mana</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MaximumMana">Unit.MaximumMana</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ManaRegeneration">Unit.ManaRegeneration</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BaseManaRegeneration">Unit.BaseManaRegeneration</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BKBChargesUsed">Unit.BKBChargesUsed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_InvisiblityLevel">Unit.InvisiblityLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HullRadius">Unit.HullRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_CollisionPadding">Unit.CollisionPadding</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_RingRadius">Unit.RingRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ProjectileCollisionSize">Unit.ProjectileCollisionSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_TauntCooldown">Unit.TauntCooldown</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ActiveShop">Unit.ActiveShop</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_DayVision">Unit.DayVision</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_NightVision">Unit.NightVision</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Vision">Unit.Vision</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MinimumDamage">Unit.MinimumDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MaximumDamage">Unit.MaximumDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BonusDamage">Unit.BonusDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_BonusCastRange">Unit.BonusCastRange</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_UnitState">Unit.UnitState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_DebuffState">Unit.DebuffState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasInventory">Unit.HasInventory</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AttackCapability">Unit.AttackCapability</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MoveCapability">Unit.MoveCapability</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MinimapIcon">Unit.MinimapIcon</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MinimapIconSize">Unit.MinimapIconSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_DeathTime">Unit.DeathTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasBaseStatsChanged">Unit.HasBaseStatsChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MagicalDamageResistance">Unit.MagicalDamageResistance</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsWaitingToSpawn">Unit.IsWaitingToSpawn</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_TotalDamageTaken">Unit.TotalDamageTaken</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasArcana">Unit.HasArcana</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_NetworkActivity">Unit.NetworkActivity</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsMoving">Unit.IsMoving</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AvailableShops">Unit.AvailableShops</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_RotationDifference">Unit.RotationDifference</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ModelFilename">Unit.ModelFilename</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AttackDamageType">Unit.AttackDamageType</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ArmorType">Unit.ArmorType</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_DamageAverage">Unit.DamageAverage</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_StatusResistance">Unit.StatusResistance</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Inventory">Unit.Inventory</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsMelee">Unit.IsMelee</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsRanged">Unit.IsRanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsSpawned">Unit.IsSpawned</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_LastVisibleToEnemiesTime">Unit.LastVisibleToEnemiesTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsVisibleToEnemies">Unit.IsVisibleToEnemies</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ModifierStatus">Unit.ModifierStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Modifiers">Unit.Modifiers</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Spellbook">Unit.Spellbook</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AttackSpeed">Unit.AttackSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_AttacksPerSecond">Unit.AttacksPerSecond</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_SecondsPerAttack">Unit.SecondsPerAttack</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasScepter">Unit.HasScepter</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_HasShard">Unit.HasShard</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ScepterUpgradeId">Unit.ScepterUpgradeId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_ShardUpgradeId">Unit.ShardUpgradeId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Wearables">Unit.Wearables</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_TryGetAttachment_System_String_System_Numerics_Vector3__">Unit.TryGetAttachment(string, out Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_GetSequenceByVariantForActivity_Divine_Entity_Entities_Components_NetworkActivity_System_Int32_">Unit.GetSequenceByVariantForActivity(NetworkActivity, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_IsControllableByPlayer_Divine_Entity_Entities_Players_Player_">Unit.IsControllableByPlayer(Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Move_System_Numerics_Vector3_">Unit.Move(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Move_System_Numerics_Vector3_System_Boolean_">Unit.Move(Vector3, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Move_System_Numerics_Vector3_System_Boolean_System_Boolean_">Unit.Move(Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MoveToDirection_System_Numerics_Vector3_">Unit.MoveToDirection(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_MoveToDirection_System_Numerics_Vector3_System_Boolean_">Unit.MoveToDirection(Vector3, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Patrol_System_Numerics_Vector3_">Unit.Patrol(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Patrol_System_Numerics_Vector3_System_Boolean_">Unit.Patrol(Vector3, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_System_Numerics_Vector3_">Unit.Attack(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_System_Numerics_Vector3_System_Boolean_">Unit.Attack(Vector3, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_Divine_Entity_Entities_Units_Unit_">Unit.Attack(Unit)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_Divine_Entity_Entities_Units_Unit_System_Boolean_">Unit.Attack(Unit, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_Divine_Entity_Entities_PhysicalItems_PhysicalItem_">Unit.Attack(PhysicalItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Attack_Divine_Entity_Entities_PhysicalItems_PhysicalItem_System_Boolean_">Unit.Attack(PhysicalItem, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Hold">Unit.Hold()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Hold_System_Boolean_">Unit.Hold(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Stop">Unit.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Stop_System_Boolean_">Unit.Stop(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Stop_System_Boolean_System_Boolean_">Unit.Stop(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Follow_Divine_Entity_Entities_Units_Unit_">Unit.Follow(Unit)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Follow_Divine_Entity_Entities_Units_Unit_System_Boolean_">Unit.Follow(Unit, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_PickUp_Divine_Entity_Entities_PhysicalItems_PhysicalItem_">Unit.PickUp(PhysicalItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_PickUp_Divine_Entity_Entities_PhysicalItems_PhysicalItem_System_Boolean_">Unit.PickUp(PhysicalItem, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_PickUp_Divine_Entity_Entities_Runes_Rune_">Unit.PickUp(Rune)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_PickUp_Divine_Entity_Entities_Runes_Rune_System_Boolean_">Unit.PickUp(Rune, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Drop_Divine_Entity_Entities_Abilities_Items_Item_System_Numerics_Vector3_">Unit.Drop(Item, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Drop_Divine_Entity_Entities_Abilities_Items_Item_System_Numerics_Vector3_System_Boolean_">Unit.Drop(Item, Vector3, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Give_Divine_Entity_Entities_Abilities_Items_Item_Divine_Entity_Entities_Units_Unit_">Unit.Give(Item, Unit)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Units.Unit.html#Divine_Entity_Entities_Units_Unit_Give_Divine_Entity_Entities_Abilities_Items_Item_Divine_Entity_Entities_Units_Unit_System_Boolean_">Unit.Give(Item, Unit, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkClassInfos">Entity.NetworkClassInfos</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkPropertyChanged">Entity.NetworkPropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationChanged">Entity.AnimationChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Native">Entity.Native</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetClassIdByNetworkName_System_String_">Entity.GetClassIdByNetworkName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkNameByClassId_Divine_Entity_Entities_Components_ClassId_">Entity.GetNetworkNameByClassId(ClassId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetStandartNetworkNameByClassId_System_Int32_">Entity.GetStandartNetworkNameByClassId(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsValid">Entity.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Type">Entity.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Handle">Entity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkHandle">Entity.NetworkHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Serial">Entity.Serial</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Index">Entity.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHandleByIndex_System_Int32_System_Int32_">Entity.GetHandleByIndex(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSerialByHandle_System_UInt32_">Entity.GetSerialByHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSerialByNetworkHandle_System_UInt32_">Entity.GetSerialByNetworkHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetIndexByHandle_System_UInt32_">Entity.GetIndexByHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetIndexByNetworkHandle_System_UInt32_">Entity.GetIndexByNetworkHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHandleByNetworkHandle_System_UInt32_">Entity.GetHandleByNetworkHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkHandleByHandle_System_UInt32_">Entity.GetNetworkHandleByHandle(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkHandleByIndex_System_Int32_System_Int32_">Entity.GetNetworkHandleByIndex(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_InternalName">Entity.InternalName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_DesignerName">Entity.DesignerName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_MaximumHealth">Entity.MaximumHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Health">Entity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_CreateTime">Entity.CreateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Speed">Entity.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Team">Entity.Team</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Owner">Entity.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkName">Entity.NetworkName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_LifeState">Entity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IdentityFlags">Entity.IdentityFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_WorldGroupId">Entity.WorldGroupId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsMainWorld">Entity.IsMainWorld</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsClientWorld">Entity.IsClientWorld</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Flags">Entity.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassId">Entity.ClassId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassNetworkId">Entity.ClassNetworkId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Position">Entity.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Angles">Entity.Angles</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkAngles">Entity.NetworkAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsAlive">Entity.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsVisible">Entity.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsDormant">Entity.IsDormant</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Rotation">Entity.Rotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_RotationRad">Entity.RotationRad</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkRotation">Entity.NetworkRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkRotationRad">Entity.NetworkRotationRad</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationName">Entity.AnimationName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationSequence">Entity.AnimationSequence</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Model">Entity.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Scale">Entity.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ColorTint">Entity.ColorTint</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Glow">Entity.Glow</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Particles">Entity.Particles</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSequenceName_System_Int32_">Entity.GetSequenceName(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Select">Entity.Select()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Select_System_Boolean_">Entity.Select(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_PlaySound_System_String_">Entity.PlaySound(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ToString">Entity.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Equals_System_Object_">Entity.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Equals_Divine_Entity_Entities_Entity_">Entity.Equals(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHashCode">Entity.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance(Entity, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance2D(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_System_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_">EntityExtensions.IsAlly(Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Components_Team_">EntityExtensions.IsAlly(Entity, Team)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.IsAlly(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsEnemy_Divine_Entity_Entities_Entity_">EntityExtensions.IsEnemy(Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsEnemy_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Components_Team_">EntityExtensions.IsEnemy(Entity, Team)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsEnemy_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.IsEnemy(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_System_Single_">EntityExtensions.IsInRange(Entity, Entity, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_System_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.HeroExtensions.html#Divine_Extensions_HeroExtensions_GetDisplayName_Divine_Entity_Entities_Units_Heroes_Hero_">HeroExtensions.GetDisplayName(Hero)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_CalculateSpellDamage_Divine_Entity_Entities_Units_Heroes_Hero_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Components_DamageType_System_Single_">UnitExtensions.CalculateSpellDamage(Hero, Unit, DamageType, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_">EntityExtensions.Distance2D(Unit, Unit, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_AttackPoint_Divine_Entity_Entities_Units_Unit_">UnitExtensions.AttackPoint(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_AttackRange_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.AttackRange(Unit, Unit?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_AttackSpeedValue_Divine_Entity_Entities_Units_Unit_">UnitExtensions.AttackSpeedValue(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_CanAttack_Divine_Entity_Entities_Units_Unit_">UnitExtensions.CanAttack(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_CanAttack_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.CanAttack(Unit, Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_Direction_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.Direction(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_Direction2D_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.Direction2D(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_FindRotationAngle_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_">UnitExtensions.FindRotationAngle(Unit, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAbilityById_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Components_AbilityId_">UnitExtensions.GetAbilityById(Unit, AbilityId)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAngle_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_">UnitExtensions.GetAngle(Unit, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAttackDamage_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Single_">UnitExtensions.GetAttackDamage(Unit, Unit, bool, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetAutoAttackArrivalTime_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Boolean_">UnitExtensions.GetAutoAttackArrivalTime(Unit, Unit, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetDisplayName_Divine_Entity_Entities_Units_Unit_">UnitExtensions.GetDisplayName(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetEnemiesInRange__1_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.GetEnemiesInRange&lt;TEntity&gt;(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetItemById_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Abilities_Components_AbilityId_">UnitExtensions.GetItemById(Unit, AbilityId)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetModifierByName_Divine_Entity_Entities_Units_Unit_System_String_">UnitExtensions.GetModifierByName(Unit, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetModifierByTextureName_Divine_Entity_Entities_Units_Unit_System_String_">UnitExtensions.GetModifierByTextureName(Unit, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetProjectileArrivalTime_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Single_System_Single_System_Boolean_">UnitExtensions.GetProjectileArrivalTime(Unit, Unit, float, float, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetSpellAmplification_Divine_Entity_Entities_Units_Unit_">UnitExtensions.GetSpellAmplification(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_GetUnitsInRange__1_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.GetUnitsInRange&lt;TEntity&gt;(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HasAghanimShard_Divine_Entity_Entities_Units_Unit_">UnitExtensions.HasAghanimShard(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HasAghanimsScepter_Divine_Entity_Entities_Units_Unit_">UnitExtensions.HasAghanimsScepter(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HasAnyModifiers_Divine_Entity_Entities_Units_Unit_System_String___">UnitExtensions.HasAnyModifiers(Unit, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HasModifier_Divine_Entity_Entities_Units_Unit_System_String_">UnitExtensions.HasModifier(Unit, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HasModifiers_Divine_Entity_Entities_Units_Unit_System_Collections_Generic_IEnumerable_System_String__System_Boolean_">UnitExtensions.HasModifiers(Unit, IEnumerable&lt;string&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_HealthPercent_Divine_Entity_Entities_Units_Unit_">UnitExtensions.HealthPercent(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_InFront_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.InFront(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsAttackImmune_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsAttackImmune(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsAttacking_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsAttacking(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsBlockingAbilities_Divine_Entity_Entities_Units_Unit_System_Boolean_">UnitExtensions.IsBlockingAbilities(Unit, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsBlockingDamage_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsBlockingDamage(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsChanneling_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsChanneling(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsDirectlyFacing_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsDirectlyFacing(Unit, Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsDirectlyFacing_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_">UnitExtensions.IsDirectlyFacing(Unit, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsDisarmed_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsDisarmed(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsHexed_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsHexed(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsInAttackRange_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.IsInAttackRange(Unit, Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsInRange_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Single_System_Boolean_">UnitExtensions.IsInRange(Unit, Unit, float, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsInvisible_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsInvisible(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsInvulnerable_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsInvulnerable(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsLinkensProtected_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsLinkensProtected(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsMagicImmune_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsMagicImmune(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsMuted_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsMuted(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsRealUnit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsRealUnit(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsReflectingAbilities_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsReflectingAbilities(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsReflectingDamage_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsReflectingDamage(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsRooted_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsRooted(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsRotating_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsRotating(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsSilenced_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsSilenced(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsSpellShieldProtected_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsSpellShieldProtected(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsStunned_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsStunned(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsTargetAttacking_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_">UnitExtensions.IsTargetAttacking(Unit, Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsValidOrbwalkingTarget_Divine_Entity_Entities_Units_Unit_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.IsValidOrbwalkingTarget(Unit, Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_IsValidTarget_Divine_Entity_Entities_Units_Unit_System_Single_System_Boolean_System_Nullable_System_Numerics_Vector3__System_Boolean_">UnitExtensions.IsValidTarget(Unit, float, bool, Vector3?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_ProjectileSpeed_Divine_Entity_Entities_Units_Unit_">UnitExtensions.ProjectileSpeed(Unit)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_TurnRate_Divine_Entity_Entities_Units_Unit_System_Boolean_">UnitExtensions.TurnRate(Unit, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_TurnTime_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector2_">UnitExtensions.TurnTime(Unit, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_TurnTime_Divine_Entity_Entities_Units_Unit_System_Numerics_Vector3_">UnitExtensions.TurnTime(Unit, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_TurnTime_Divine_Entity_Entities_Units_Unit_System_Single_">UnitExtensions.TurnTime(Unit, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_Vector2FromPolarAngle_Divine_Entity_Entities_Units_Unit_System_Single_System_Single_">UnitExtensions.Vector2FromPolarAngle(Unit, float, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.UnitExtensions.html#Divine_Extensions_UnitExtensions_Vector3FromPolarAngle_Divine_Entity_Entities_Units_Unit_System_Single_System_Single_">UnitExtensions.Vector3FromPolarAngle(Unit, float, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_AbilityPoints_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.AbilityPoints*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_AbilityPoints" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.AbilityPoints">
+  AbilityPoints
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AbilityPoints { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Agility_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Agility*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Agility" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Agility">
+  Agility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Agility { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Armor_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Armor*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Armor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Armor">
+  Armor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Armor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_BaseArmor_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BaseArmor*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_BaseArmor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BaseArmor">
+  BaseArmor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float BaseArmor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_BonusArmor_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BonusArmor*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_BonusArmor" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.BonusArmor">
+  BonusArmor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float BonusArmor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_CurrentXP_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.CurrentXP*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_CurrentXP" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.CurrentXP">
+  CurrentXP
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CurrentXP { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_FacetKey_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetKey*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_FacetKey" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetKey">
+  FacetKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FacetKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_FacetName_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetName*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_FacetName" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.FacetName">
+  FacetName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? FacetName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Facets_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Facets*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Facets" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Facets">
+  Facets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; Facets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_HeroId_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.HeroId*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_HeroId" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.HeroId">
+  HeroId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Id&quot;)]
+public HeroId HeroId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Id_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Id*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Id" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeroId Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Intelligence_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Intelligence*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Intelligence" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Intelligence">
+  Intelligence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Intelligence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_IsBuybackDisabled_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsBuybackDisabled*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsBuybackDisabled" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsBuybackDisabled">
+  IsBuybackDisabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBuybackDisabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_IsIllusion_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsIllusion*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsIllusion" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsIllusion">
+  IsIllusion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsIllusion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_IsReincarnating_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsReincarnating*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_IsReincarnating" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.IsReincarnating">
+  IsReincarnating
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReincarnating { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_LastHurtTime_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.LastHurtTime*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_LastHurtTime" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.LastHurtTime">
+  LastHurtTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LastHurtTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_PhysicalDamageResistance_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PhysicalDamageResistance*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_PhysicalDamageResistance" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PhysicalDamageResistance">
+  PhysicalDamageResistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float PhysicalDamageResistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Player_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Player*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Player" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Player">
+  Player
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player? Player { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Players.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_PrimaryAttribute_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PrimaryAttribute*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_PrimaryAttribute" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.PrimaryAttribute">
+  PrimaryAttribute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeroAttribute PrimaryAttribute { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroAttribute.html">HeroAttribute</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_RecentDamage_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RecentDamage*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RecentDamage" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RecentDamage">
+  RecentDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RecentDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_ReplicateFrom_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.ReplicateFrom*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_ReplicateFrom" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.ReplicateFrom">
+  ReplicateFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hero? ReplicateFrom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Entity.Entities.Units.Heroes.Hero.html">Hero</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTime_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTime*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTime" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTime">
+  RespawnTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RespawnTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTimePenalty_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTimePenalty*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_RespawnTimePenalty" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.RespawnTimePenalty">
+  RespawnTimePenalty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RespawnTimePenalty { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_SpawnedAt_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.SpawnedAt*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_SpawnedAt" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.SpawnedAt">
+  SpawnedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpawnedAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_Strength_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Strength*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_Strength" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.Strength">
+  Strength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Strength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAgility_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAgility*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAgility" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAgility">
+  TotalAgility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TotalAgility { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAttributes_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAttributes*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalAttributes" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalAttributes">
+  TotalAttributes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TotalAttributes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_TotalIntelligence_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalIntelligence*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalIntelligence" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalIntelligence">
+  TotalIntelligence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TotalIntelligence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_TotalStrength_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalStrength*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_TotalStrength" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.TotalStrength">
+  TotalStrength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TotalStrength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Entity_Entities_Units_Heroes_Hero_GetKeyValueByName_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.GetKeyValueByName*"></a>
+
+  <h3 id="Divine_Entity_Entities_Units_Heroes_Hero_GetKeyValueByName_System_String_" data-uid="Divine.Entity.Entities.Units.Heroes.Hero.GetKeyValueByName(System.String)">
+  GetKeyValueByName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyValue? GetKeyValueByName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Game.KeyValue.html">KeyValue</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Entity/Entities/Units/Heroes/Hero.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

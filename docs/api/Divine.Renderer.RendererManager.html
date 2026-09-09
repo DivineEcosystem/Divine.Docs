@@ -1,0 +1,4516 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RendererManager | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RendererManager | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Renderer_RendererManager.md&amp;value=---%0Auid%3A%20Divine.Renderer.RendererManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Renderer.RendererManager">
+
+
+
+  <h1 id="Divine_Renderer_RendererManager" data-uid="Divine.Renderer.RendererManager" class="text-break">
+Class RendererManager  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Renderer.html">Renderer</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class RendererManager</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RendererManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Renderer_RendererManager_DefaultFontFamilyName" data-uid="Divine.Renderer.RendererManager.DefaultFontFamilyName">
+  DefaultFontFamilyName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string DefaultFontFamilyName = &quot;Calibri&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Renderer_RendererManager_AspectRatio_" data-uid="Divine.Renderer.RendererManager.AspectRatio*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_AspectRatio" data-uid="Divine.Renderer.RendererManager.AspectRatio">
+  AspectRatio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 AspectRatio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_D2D1Factory_" data-uid="Divine.Renderer.RendererManager.D2D1Factory*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_D2D1Factory" data-uid="Divine.Renderer.RendererManager.D2D1Factory">
+  D2D1Factory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1Factory7* D2D1Factory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Factory7</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_D3D11BackBuffer_" data-uid="Divine.Renderer.RendererManager.D3D11BackBuffer*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_D3D11BackBuffer" data-uid="Divine.Renderer.RendererManager.D3D11BackBuffer">
+  D3D11BackBuffer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID3D11Texture2D* D3D11BackBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID3D11Texture2D</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_D3D11Device_" data-uid="Divine.Renderer.RendererManager.D3D11Device*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_D3D11Device" data-uid="Divine.Renderer.RendererManager.D3D11Device">
+  D3D11Device
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID3D11Device5* D3D11Device { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID3D11Device5</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_D3D11DeviceContext_" data-uid="Divine.Renderer.RendererManager.D3D11DeviceContext*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_D3D11DeviceContext" data-uid="Divine.Renderer.RendererManager.D3D11DeviceContext">
+  D3D11DeviceContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID3D11DeviceContext3* D3D11DeviceContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID3D11DeviceContext3</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DWriteFactory_" data-uid="Divine.Renderer.RendererManager.DWriteFactory*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DWriteFactory" data-uid="Divine.Renderer.RendererManager.DWriteFactory">
+  DWriteFactory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDWriteFactory* DWriteFactory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IDWriteFactory</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DeviceContext_" data-uid="Divine.Renderer.RendererManager.DeviceContext*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DeviceContext" data-uid="Divine.Renderer.RendererManager.DeviceContext">
+  DeviceContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1DeviceContext6* DeviceContext { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1DeviceContext6</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_Ratio_" data-uid="Divine.Renderer.RendererManager.Ratio*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_Ratio" data-uid="Divine.Renderer.RendererManager.Ratio">
+  Ratio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Ratio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_RatioScaling_" data-uid="Divine.Renderer.RendererManager.RatioScaling*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_RatioScaling" data-uid="Divine.Renderer.RendererManager.RatioScaling">
+  RatioScaling
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 RatioScaling { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_Scale_" data-uid="Divine.Renderer.RendererManager.Scale*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_Scale" data-uid="Divine.Renderer.RendererManager.Scale">
+  Scale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Scale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_ScreenSize_" data-uid="Divine.Renderer.RendererManager.ScreenSize*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_ScreenSize" data-uid="Divine.Renderer.RendererManager.ScreenSize">
+  ScreenSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ScreenSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_SwapChain_" data-uid="Divine.Renderer.RendererManager.SwapChain*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_SwapChain" data-uid="Divine.Renderer.RendererManager.SwapChain">
+  SwapChain
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDXGISwapChain* SwapChain { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IDXGISwapChain</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_WICImagingFactory_" data-uid="Divine.Renderer.RendererManager.WICImagingFactory*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_WICImagingFactory" data-uid="Divine.Renderer.RendererManager.WICImagingFactory">
+  WICImagingFactory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IWICImagingFactory* WICImagingFactory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IWICImagingFactory</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Renderer_RendererManager_AddImageKey_" data-uid="Divine.Renderer.RendererManager.AddImageKey*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_AddImageKey_System_String_" data-uid="Divine.Renderer.RendererManager.AddImageKey(System.String)">
+  AddImageKey(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddImageKey(string imageKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_AddImageKey_" data-uid="Divine.Renderer.RendererManager.AddImageKey*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_AddImageKey_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.AddImageKey(System.String,Divine.Renderer.ImageType)">
+  AddImageKey(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddImageKey(string imageKey, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_BeginUnsafeDraw_" data-uid="Divine.Renderer.RendererManager.BeginUnsafeDraw*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_BeginUnsafeDraw" data-uid="Divine.Renderer.RendererManager.BeginUnsafeDraw">
+  BeginUnsafeDraw()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BeginUnsafeDraw()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_Capture_" data-uid="Divine.Renderer.RendererManager.Capture*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_Capture" data-uid="Divine.Renderer.RendererManager.Capture">
+  Capture()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1Bitmap* Capture()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Bitmap</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_CreateOrGetBrush_" data-uid="Divine.Renderer.RendererManager.CreateOrGetBrush*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_CreateOrGetBrush_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.CreateOrGetBrush(Vortice.Mathematics.Color)">
+  CreateOrGetBrush(Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1Brush* CreateOrGetBrush(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Brush</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_CreateOrGetTextFormat_" data-uid="Divine.Renderer.RendererManager.CreateOrGetTextFormat*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_CreateOrGetTextFormat_System_String_Divine_Renderer_FontWeight_System_Single_" data-uid="Divine.Renderer.RendererManager.CreateOrGetTextFormat(System.String,Divine.Renderer.FontWeight,System.Single)">
+  CreateOrGetTextFormat(string, FontWeight, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDWriteTextFormat* CreateOrGetTextFormat(string fontFamilyName, FontWeight fontWeight, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IDWriteTextFormat</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_CreateStrokeStyle_" data-uid="Divine.Renderer.RendererManager.CreateStrokeStyle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_CreateStrokeStyle_Divine_Renderer_CapStyle_Divine_Renderer_CapStyle_Divine_Renderer_CapStyle_Divine_Renderer_LineJoin_System_Single_Divine_Renderer_DashStyle_System_Single_System_Single___" data-uid="Divine.Renderer.RendererManager.CreateStrokeStyle(Divine.Renderer.CapStyle,Divine.Renderer.CapStyle,Divine.Renderer.CapStyle,Divine.Renderer.LineJoin,System.Single,Divine.Renderer.DashStyle,System.Single,System.Single[])">
+  CreateStrokeStyle(CapStyle, CapStyle, CapStyle, LineJoin, float, DashStyle, float, float[]?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StrokeStyle CreateStrokeStyle(CapStyle startCap = CapStyle.Flat, CapStyle endCap = CapStyle.Flat, CapStyle dashCap = CapStyle.Flat, LineJoin lineJoin = LineJoin.Miter, float miterLimit = 10, DashStyle dashStyle = DashStyle.Solid, float dashOffset = 0, float[]? dashes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startCap</code> <a class="xref" href="Divine.Renderer.CapStyle.html">CapStyle</a></dt>
+    <dd></dd>
+    <dt><code>endCap</code> <a class="xref" href="Divine.Renderer.CapStyle.html">CapStyle</a></dt>
+    <dd></dd>
+    <dt><code>dashCap</code> <a class="xref" href="Divine.Renderer.CapStyle.html">CapStyle</a></dt>
+    <dd></dd>
+    <dt><code>lineJoin</code> <a class="xref" href="Divine.Renderer.LineJoin.html">LineJoin</a></dt>
+    <dd></dd>
+    <dt><code>miterLimit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>dashStyle</code> <a class="xref" href="Divine.Renderer.DashStyle.html">DashStyle</a></dt>
+    <dd></dd>
+    <dt><code>dashOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>dashes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Renderer.StrokeStyle.html">StrokeStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawCircle_" data-uid="Divine.Renderer.RendererManager.DrawCircle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawCircle_System_Numerics_Vector2_System_Single_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.DrawCircle(System.Numerics.Vector2,System.Single,Vortice.Mathematics.Color)">
+  DrawCircle(Vector2, float, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vector2 center, float radius, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawCircle_" data-uid="Divine.Renderer.RendererManager.DrawCircle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawCircle_System_Numerics_Vector2_System_Single_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawCircle(System.Numerics.Vector2,System.Single,Vortice.Mathematics.Color,System.Single)">
+  DrawCircle(Vector2, float, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vector2 center, float radius, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawCircle_" data-uid="Divine.Renderer.RendererManager.DrawCircle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawCircle_System_Numerics_Vector2_System_Single_Vortice_Mathematics_Color_System_Single_Divine_Renderer_StrokeStyle_" data-uid="Divine.Renderer.RendererManager.DrawCircle(System.Numerics.Vector2,System.Single,Vortice.Mathematics.Color,System.Single,Divine.Renderer.StrokeStyle)">
+  DrawCircle(Vector2, float, Color, float, StrokeStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vector2 center, float radius, Color color, float width, StrokeStyle strokeStyle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>strokeStyle</code> <a class="xref" href="Divine.Renderer.StrokeStyle.html">StrokeStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color)">
+  DrawFilledRectangle(Rect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRectangle(Rect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,Vortice.Mathematics.Color,System.Single)">
+  DrawFilledRectangle(Rect, Color, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRectangle(Rect rect, Color color, Color backgroundColor, float borderWidth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>backgroundColor</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>borderWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_Vortice_Mathematics_Color_System_Single_Divine_Renderer_StrokeStyle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,Vortice.Mathematics.Color,System.Single,Divine.Renderer.StrokeStyle)">
+  DrawFilledRectangle(Rect, Color, Color, float, StrokeStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRectangle(Rect rect, Color color, Color backgroundColor, float borderWidth, StrokeStyle strokeStyle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>backgroundColor</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>borderWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>strokeStyle</code> <a class="xref" href="Divine.Renderer.StrokeStyle.html">StrokeStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_Divine_Renderer_Numerics_RoundedRect_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle(Divine.Renderer.Numerics.RoundedRect,Vortice.Mathematics.Color)">
+  DrawFilledRoundedRectangle(RoundedRect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRoundedRectangle(RoundedRect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Numerics_Vector2_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Numerics.Vector2)">
+  DrawFilledRoundedRectangle(Rect, Color, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRoundedRectangle(Rect rect, Color color, Vector2 radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawFilledRoundedRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawFilledRoundedRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single)">
+  DrawFilledRoundedRectangle(Rect, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawFilledRoundedRectangle(Rect rect, Color color, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect)">
+  DrawImage(AbilityId, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_Divine_Renderer_AbilityImageType_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,Divine.Renderer.AbilityImageType)">
+  DrawImage(AbilityId, Rect, AbilityImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, AbilityImageType abilityImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>abilityImageType</code> <a class="xref" href="Divine.Renderer.AbilityImageType.html">AbilityImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_Divine_Renderer_AbilityImageType_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,Divine.Renderer.AbilityImageType,System.Boolean)">
+  DrawImage(AbilityId, Rect, AbilityImageType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, AbilityImageType abilityImageType, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>abilityImageType</code> <a class="xref" href="Divine.Renderer.AbilityImageType.html">AbilityImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_Divine_Renderer_AbilityImageType_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,Divine.Renderer.AbilityImageType,System.Boolean,System.Single)">
+  DrawImage(AbilityId, Rect, AbilityImageType, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, AbilityImageType abilityImageType, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>abilityImageType</code> <a class="xref" href="Divine.Renderer.AbilityImageType.html">AbilityImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_Divine_Renderer_AbilityImageType_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,Divine.Renderer.AbilityImageType,System.Single)">
+  DrawImage(AbilityId, Rect, AbilityImageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, AbilityImageType abilityImageType, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>abilityImageType</code> <a class="xref" href="Divine.Renderer.AbilityImageType.html">AbilityImageType</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,System.Boolean)">
+  DrawImage(AbilityId, Rect, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,System.Boolean,System.Single)">
+  DrawImage(AbilityId, Rect, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Vortice_Mathematics_Rect_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Vortice.Mathematics.Rect,System.Single)">
+  DrawImage(AbilityId, Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(AbilityId abilityId, Rect rect, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect)">
+  DrawImage(HeroId, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType)">
+  DrawImage(HeroId, Rect, UnitImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, UnitImageType unitImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Boolean)">
+  DrawImage(HeroId, Rect, UnitImageType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, UnitImageType unitImageType, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Boolean,System.Single)">
+  DrawImage(HeroId, Rect, UnitImageType, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, UnitImageType unitImageType, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Single)">
+  DrawImage(HeroId, Rect, UnitImageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, UnitImageType unitImageType, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,System.Boolean)">
+  DrawImage(HeroId, Rect, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,System.Boolean,System.Single)">
+  DrawImage(HeroId, Rect, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Vortice_Mathematics_Rect_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Vortice.Mathematics.Rect,System.Single)">
+  DrawImage(HeroId, Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(HeroId heroId, Rect rect, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect)">
+  DrawImage(string, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L426"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.ImageType)">
+  DrawImage(string, Rect, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_ImageType_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.ImageType,System.Boolean)">
+  DrawImage(string, Rect, ImageType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L466"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, ImageType imageType, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_ImageType_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.ImageType,System.Boolean,System.Single)">
+  DrawImage(string, Rect, ImageType, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, ImageType imageType, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_ImageType_System_Boolean_System_Single_System_Numerics_Matrix3x2_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.ImageType,System.Boolean,System.Single,System.Numerics.Matrix3x2)">
+  DrawImage(string, Rect, ImageType, bool, float, Matrix3x2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, ImageType imageType, bool loadImage, float opacity, Matrix3x2 matrix)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>matrix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.matrix3x2">Matrix3x2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_ImageType_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.ImageType,System.Single)">
+  DrawImage(string, Rect, ImageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, ImageType imageType, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType)">
+  DrawImage(string, Rect, UnitImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string unitName, Rect rect, UnitImageType unitImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unitName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Boolean_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Boolean)">
+  DrawImage(string, Rect, UnitImageType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string unitName, Rect rect, UnitImageType unitImageType, bool loadImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unitName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Boolean_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Boolean,System.Single)">
+  DrawImage(string, Rect, UnitImageType, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string unitName, Rect rect, UnitImageType unitImageType, bool loadImage, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unitName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>loadImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Divine_Renderer_UnitImageType_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Divine.Renderer.UnitImageType,System.Single)">
+  DrawImage(string, Rect, UnitImageType, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string unitName, Rect rect, UnitImageType unitImageType, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unitName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,System.Single)">
+  DrawImage(string, Rect, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect rect, float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawImage_" data-uid="Divine.Renderer.RendererManager.DrawImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawImage_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Rect_" data-uid="Divine.Renderer.RendererManager.DrawImage(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Rect)">
+  DrawImage(string, Rect, Rect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawImage(string imageKey, Rect window, Rect rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>window</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawLine_" data-uid="Divine.Renderer.RendererManager.DrawLine*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawLine_System_Numerics_Vector2_System_Numerics_Vector2_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.DrawLine(System.Numerics.Vector2,System.Numerics.Vector2,Vortice.Mathematics.Color)">
+  DrawLine(Vector2, Vector2, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vector2 start, Vector2 end, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawLine_" data-uid="Divine.Renderer.RendererManager.DrawLine*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawLine_System_Numerics_Vector2_System_Numerics_Vector2_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawLine(System.Numerics.Vector2,System.Numerics.Vector2,Vortice.Mathematics.Color,System.Single)">
+  DrawLine(Vector2, Vector2, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vector2 start, Vector2 end, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawLine_" data-uid="Divine.Renderer.RendererManager.DrawLine*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawLine_System_Numerics_Vector2_System_Numerics_Vector2_Vortice_Mathematics_Color_System_Single_Divine_Renderer_StrokeStyle_" data-uid="Divine.Renderer.RendererManager.DrawLine(System.Numerics.Vector2,System.Numerics.Vector2,Vortice.Mathematics.Color,System.Single,Divine.Renderer.StrokeStyle)">
+  DrawLine(Vector2, Vector2, Color, float, StrokeStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vector2 start, Vector2 end, Color color, float width, StrokeStyle strokeStyle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>strokeStyle</code> <a class="xref" href="Divine.Renderer.StrokeStyle.html">StrokeStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_" data-uid="Divine.Renderer.RendererManager.DrawRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color)">
+  DrawRectangle(Rect, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRectangle(Rect rect, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single)">
+  DrawRectangle(Rect, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRectangle(Rect rect, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_Divine_Renderer_StrokeStyle_" data-uid="Divine.Renderer.RendererManager.DrawRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single,Divine.Renderer.StrokeStyle)">
+  DrawRectangle(Rect, Color, float, StrokeStyle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRectangle(Rect rect, Color color, float width, StrokeStyle strokeStyle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>strokeStyle</code> <a class="xref" href="Divine.Renderer.StrokeStyle.html">StrokeStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRoundedRectangle_Divine_Renderer_Numerics_RoundedRect_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle(Divine.Renderer.Numerics.RoundedRect,Vortice.Mathematics.Color,System.Single)">
+  DrawRoundedRectangle(RoundedRect, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRoundedRectangle(RoundedRect rect, Color color, float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRoundedRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Numerics_Vector2_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Numerics.Vector2)">
+  DrawRoundedRectangle(Rect, Color, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRoundedRectangle(Rect rect, Color color, Vector2 radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRoundedRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_System_Numerics_Vector2_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single,System.Numerics.Vector2)">
+  DrawRoundedRectangle(Rect, Color, float, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRoundedRectangle(Rect rect, Color color, float width, Vector2 radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawRoundedRectangle_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawRoundedRectangle_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawRoundedRectangle(Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single,System.Single)">
+  DrawRoundedRectangle(Rect, Color, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRoundedRectangle(Rect rect, Color color, float width, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_System_Numerics_Vector2_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,System.Numerics.Vector2,Vortice.Mathematics.Color,System.Single)">
+  DrawText(string, Vector2, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Vector2 position, Color color, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_System_Numerics_Vector2_Vortice_Mathematics_Color_System_String_Divine_Renderer_FontWeight_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,System.Numerics.Vector2,Vortice.Mathematics.Color,System.String,Divine.Renderer.FontWeight,System.Single)">
+  DrawText(string, Vector2, Color, string, FontWeight, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Vector2 position, Color color, string fontFamilyName, FontWeight fontWeight, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_System_Numerics_Vector2_Vortice_Mathematics_Color_System_String_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,System.Numerics.Vector2,Vortice.Mathematics.Color,System.String,System.Single)">
+  DrawText(string, Vector2, Color, string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Vector2 position, Color color, string fontFamilyName, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_Divine_Renderer_FontFlags_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,Divine.Renderer.FontFlags,System.Single)">
+  DrawText(string, Rect, Color, FontFlags, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, FontFlags fontFlags, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.Single)">
+  DrawText(string, Rect, Color, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_String_Divine_Renderer_FontFlags_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.String,Divine.Renderer.FontFlags,System.Single)">
+  DrawText(string, Rect, Color, string, FontFlags, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, string fontFamilyName, FontFlags fontFlags, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_String_Divine_Renderer_FontWeight_Divine_Renderer_FontFlags_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.String,Divine.Renderer.FontWeight,Divine.Renderer.FontFlags,System.Single)">
+  DrawText(string, Rect, Color, string, FontWeight, FontFlags, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, string fontFamilyName, FontWeight fontWeight, FontFlags fontFlags, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_String_Divine_Renderer_FontWeight_Divine_Renderer_FontFlags_System_Single_System_Numerics_Matrix3x2_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.String,Divine.Renderer.FontWeight,Divine.Renderer.FontFlags,System.Single,System.Numerics.Matrix3x2)">
+  DrawText(string, Rect, Color, string, FontWeight, FontFlags, float, Matrix3x2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, string fontFamilyName, FontWeight fontWeight, FontFlags fontFlags, float fontSize, Matrix3x2 matrix)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+    <dt><code>fontFlags</code> <a class="xref" href="Divine.Renderer.FontFlags.html">FontFlags</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>matrix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.matrix3x2">Matrix3x2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_DrawText_" data-uid="Divine.Renderer.RendererManager.DrawText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_DrawText_System_String_Vortice_Mathematics_Rect_Vortice_Mathematics_Color_System_String_System_Single_" data-uid="Divine.Renderer.RendererManager.DrawText(System.String,Vortice.Mathematics.Rect,Vortice.Mathematics.Color,System.String,System.Single)">
+  DrawText(string, Rect, Color, string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.Draw.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(string text, Rect rect, Color color, string fontFamilyName, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rect</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Color.cs">Color</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_ForceLoadImage_" data-uid="Divine.Renderer.RendererManager.ForceLoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_ForceLoadImage_System_String_System_Byte___" data-uid="Divine.Renderer.RendererManager.ForceLoadImage(System.String,System.Byte[])">
+  ForceLoadImage(string, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ForceLoadImage(string imageKey, byte[] buffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_ForceLoadImage_" data-uid="Divine.Renderer.RendererManager.ForceLoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_ForceLoadImage_System_String_System_IO_Stream_" data-uid="Divine.Renderer.RendererManager.ForceLoadImage(System.String,System.IO.Stream)">
+  ForceLoadImage(string, Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ForceLoadImage(string imageKey, Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_GetImage_" data-uid="Divine.Renderer.RendererManager.GetImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_GetImage_System_String_" data-uid="Divine.Renderer.RendererManager.GetImage(System.String)">
+  GetImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1Bitmap* GetImage(string imageKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Bitmap</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_GetImage_" data-uid="Divine.Renderer.RendererManager.GetImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_GetImage_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.GetImage(System.String,Divine.Renderer.ImageType)">
+  GetImage(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ID2D1Bitmap* GetImage(string imageKey, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ID2D1Bitmap</span>*</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_GetImage_" data-uid="Divine.Renderer.RendererManager.GetImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_GetImage_System_String_System_Action_System_IntPtr__Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.GetImage(System.String,System.Action{System.IntPtr},Divine.Renderer.ImageType)">
+  GetImage(string, Action&lt;nint&gt;, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetImage(string imageKey, Action&lt;nint&gt; action, ImageType imageType = ImageType.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_GetImageAsync_" data-uid="Divine.Renderer.RendererManager.GetImageAsync*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_GetImageAsync_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.GetImageAsync(System.String,Divine.Renderer.ImageType)">
+  GetImageAsync(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;nint&gt; GetImageAsync(string imageKey, ImageType imageType = ImageType.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_HasImage_" data-uid="Divine.Renderer.RendererManager.HasImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_HasImage_System_String_" data-uid="Divine.Renderer.RendererManager.HasImage(System.String)">
+  HasImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasImage(string imageKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_HasImage_" data-uid="Divine.Renderer.RendererManager.HasImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_HasImage_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.HasImage(System.String,Divine.Renderer.ImageType)">
+  HasImage(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasImage(string imageKey, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_Invoke_" data-uid="Divine.Renderer.RendererManager.Invoke*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_Invoke_System_Action_" data-uid="Divine.Renderer.RendererManager.Invoke(System.Action)">
+  Invoke(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Invoke(Action callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_IsImageLoading_" data-uid="Divine.Renderer.RendererManager.IsImageLoading*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_IsImageLoading_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.IsImageLoading(System.String,Divine.Renderer.ImageType)">
+  IsImageLoading(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsImageLoading(string imageKey, ImageType imageType = ImageType.Default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadFont_" data-uid="Divine.Renderer.RendererManager.LoadFont*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadFont_System_Byte___" data-uid="Divine.Renderer.RendererManager.LoadFont(System.Byte[])">
+  LoadFont(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadFont(byte[] buffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadFont_" data-uid="Divine.Renderer.RendererManager.LoadFont*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadFont_System_IO_Stream_" data-uid="Divine.Renderer.RendererManager.LoadFont(System.IO.Stream)">
+  LoadFont(Stream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L328"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadFont(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Renderer.RendererManager.LoadImage(Divine.Entity.Entities.Abilities.Components.AbilityId)">
+  LoadImage(AbilityId)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(AbilityId abilityId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_Divine_Entity_Entities_Abilities_Components_AbilityId_Divine_Renderer_AbilityImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(Divine.Entity.Entities.Abilities.Components.AbilityId,Divine.Renderer.AbilityImageType)">
+  LoadImage(AbilityId, AbilityImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(AbilityId abilityId, AbilityImageType abilityImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityId</code> <a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></dt>
+    <dd></dd>
+    <dt><code>abilityImageType</code> <a class="xref" href="Divine.Renderer.AbilityImageType.html">AbilityImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_" data-uid="Divine.Renderer.RendererManager.LoadImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId)">
+  LoadImage(HeroId)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(HeroId heroId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_Divine_Entity_Entities_Units_Heroes_Components_HeroId_Divine_Renderer_UnitImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(Divine.Entity.Entities.Units.Heroes.Components.HeroId,Divine.Renderer.UnitImageType)">
+  LoadImage(HeroId, UnitImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(HeroId heroId, UnitImageType unitImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>heroId</code> <a class="xref" href="Divine.Entity.Entities.Units.Heroes.Components.HeroId.html">HeroId</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String)">
+  LoadImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,Divine.Renderer.ImageType)">
+  LoadImage(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_Divine_Renderer_UnitImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,Divine.Renderer.UnitImageType)">
+  LoadImage(string, UnitImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string unitName, UnitImageType unitImageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unitName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>unitImageType</code> <a class="xref" href="Divine.Renderer.UnitImageType.html">UnitImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_Byte___System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.Byte[],System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImage(string, byte[], ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, byte[] buffer, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>buffer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_IO_Stream_System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.IO.Stream,System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImage(string, Stream, ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, Stream stream, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_String_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.String)">
+  LoadImage(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, string fileName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_String_Divine_Renderer_ImageProperties_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.String,Divine.Renderer.ImageProperties)">
+  LoadImage(string, string, ImageProperties)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, string fileName, ImageProperties imageProperties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_String_Divine_Renderer_ImageProperties_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.String,Divine.Renderer.ImageProperties,Divine.Renderer.ImageType)">
+  LoadImage(string, string, ImageProperties, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, string fileName, ImageProperties imageProperties, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImage_" data-uid="Divine.Renderer.RendererManager.LoadImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImage_System_String_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.LoadImage(System.String,System.String,Divine.Renderer.ImageType)">
+  LoadImage(string, string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImage(string imageKey, string fileName, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromAssembly_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromAssembly_System_String_Divine_Renderer_ImageProperties_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly(System.String,Divine.Renderer.ImageProperties)">
+  LoadImageFromAssembly(string, ImageProperties)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromAssembly(string imageKey, ImageProperties imageProperties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromAssembly_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromAssembly_System_String_System_String_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly(System.String,System.String)">
+  LoadImageFromAssembly(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromAssembly(string imageKey, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromAssembly_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromAssembly_System_String_System_String_Divine_Renderer_ImageProperties_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly(System.String,System.String,Divine.Renderer.ImageProperties)">
+  LoadImageFromAssembly(string, string, ImageProperties)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromAssembly(string imageKey, string name, ImageProperties imageProperties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromAssembly_" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromAssembly_System_String_System_String_System_Reflection_Assembly_System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImageFromAssembly(System.String,System.String,System.Reflection.Assembly,System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImageFromAssembly(string, string?, Assembly?, ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromAssembly(string imageKey, string? name = null, Assembly? assembly = null, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromBitmap_" data-uid="Divine.Renderer.RendererManager.LoadImageFromBitmap*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromBitmap_System_String_SkiaSharp_SKBitmap_System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImageFromBitmap(System.String,SkiaSharp.SKBitmap,System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImageFromBitmap(string, SKBitmap, ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromBitmap(string imageKey, SKBitmap bitmap, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>bitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/skiasharp.skbitmap">SKBitmap</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromFile_" data-uid="Divine.Renderer.RendererManager.LoadImageFromFile*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromFile_System_String_System_String_System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImageFromFile(System.String,System.String,System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImageFromFile(string, string, ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromFile(string imageKey, string file, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_LoadImageFromResources_" data-uid="Divine.Renderer.RendererManager.LoadImageFromResources*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_LoadImageFromResources_System_String_System_String_System_Nullable_Divine_Renderer_ImageProperties__" data-uid="Divine.Renderer.RendererManager.LoadImageFromResources(System.String,System.String,System.Nullable{Divine.Renderer.ImageProperties})">
+  LoadImageFromResources(string, string?, ImageProperties?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LoadImageFromResources(string imageKey, string? fileName = null, ImageProperties? imageProperties = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageProperties</code> <a class="xref" href="Divine.Renderer.ImageProperties.html">ImageProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_MeasureText_" data-uid="Divine.Renderer.RendererManager.MeasureText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_MeasureText_System_String_System_Single_" data-uid="Divine.Renderer.RendererManager.MeasureText(System.String,System.Single)">
+  MeasureText(string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 MeasureText(string text, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_MeasureText_" data-uid="Divine.Renderer.RendererManager.MeasureText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_MeasureText_System_String_System_String_Divine_Renderer_FontWeight_System_Single_" data-uid="Divine.Renderer.RendererManager.MeasureText(System.String,System.String,Divine.Renderer.FontWeight,System.Single)">
+  MeasureText(string, string, FontWeight, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 MeasureText(string text, string fontFamilyName, FontWeight fontWeight, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontWeight</code> <a class="xref" href="Divine.Renderer.FontWeight.html">FontWeight</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_MeasureText_" data-uid="Divine.Renderer.RendererManager.MeasureText*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_MeasureText_System_String_System_String_System_Single_" data-uid="Divine.Renderer.RendererManager.MeasureText(System.String,System.String,System.Single)">
+  MeasureText(string, string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 MeasureText(string text, string fontFamilyName, float fontSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontFamilyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_RemoveImage_" data-uid="Divine.Renderer.RendererManager.RemoveImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_RemoveImage_System_String_" data-uid="Divine.Renderer.RendererManager.RemoveImage(System.String)">
+  RemoveImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveImage(string imageKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_RemoveImage_" data-uid="Divine.Renderer.RendererManager.RemoveImage*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_RemoveImage_System_String_Divine_Renderer_ImageType_" data-uid="Divine.Renderer.RendererManager.RemoveImage(System.String,Divine.Renderer.ImageType)">
+  RemoveImage(string, ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveImage(string imageKey, ImageType imageType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageType</code> <a class="xref" href="Divine.Renderer.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_WorldToScreen_" data-uid="Divine.Renderer.RendererManager.WorldToScreen*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_WorldToScreen_System_Numerics_Vector3_" data-uid="Divine.Renderer.RendererManager.WorldToScreen(System.Numerics.Vector3)">
+  WorldToScreen(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WorldToScreen(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Renderer_RendererManager_WorldToScreen_" data-uid="Divine.Renderer.RendererManager.WorldToScreen*"></a>
+
+  <h3 id="Divine_Renderer_RendererManager_WorldToScreen_System_Numerics_Vector3_System_Boolean_" data-uid="Divine.Renderer.RendererManager.WorldToScreen(System.Numerics.Vector3,System.Boolean)">
+  WorldToScreen(Vector3, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WorldToScreen(Vector3 position, bool inScreen)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector3">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>inScreen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Divine_Renderer_RendererManager_Draw" data-uid="Divine.Renderer.RendererManager.Draw">
+  Draw
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event RendererManager.DrawEventHandler? Draw</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Renderer.RendererManager.html">RendererManager</a>.<a class="xref" href="Divine.Renderer.RendererManager.DrawEventHandler.html">DrawEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Renderer_RendererManager_Present" data-uid="Divine.Renderer.RendererManager.Present">
+  Present
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event RendererManager.PresentEventHandler? Present</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Renderer.RendererManager.html">RendererManager</a>.<a class="xref" href="Divine.Renderer.RendererManager.PresentEventHandler.html">PresentEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Renderer_RendererManager_PresentMenu" data-uid="Divine.Renderer.RendererManager.PresentMenu">
+  PresentMenu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event RendererManager.PresentEventHandler? PresentMenu</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Renderer.RendererManager.html">RendererManager</a>.<a class="xref" href="Divine.Renderer.RendererManager.PresentEventHandler.html">PresentEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Renderer/RendererManager.LoadImage.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

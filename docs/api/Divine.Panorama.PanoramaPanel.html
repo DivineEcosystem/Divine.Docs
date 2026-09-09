@@ -1,0 +1,3787 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PanoramaPanel | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PanoramaPanel | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Panorama_PanoramaPanel.md&amp;value=---%0Auid%3A%20Divine.Panorama.PanoramaPanel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Panorama.PanoramaPanel">
+
+
+
+  <h1 id="Divine_Panorama_PanoramaPanel" data-uid="Divine.Panorama.PanoramaPanel" class="text-break">
+Class PanoramaPanel  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Panorama.html">Panorama</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PanoramaPanel : PanoramaNode, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></div>
+      <div><span class="xref">PanoramaPanel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_Kind">PanoramaNode.Kind</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_TypeName">PanoramaNode.TypeName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_ConstructorName">PanoramaNode.ConstructorName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_IsPanel">PanoramaNode.IsPanel</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_IsObject">PanoramaNode.IsObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_IsArray">PanoramaNode.IsArray</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_IsNull">PanoramaNode.IsNull</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_Dispose">PanoramaNode.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_GetValue__1">PanoramaNode.GetValue&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_GetValue__1_System_String_">PanoramaNode.GetValue&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_SetValue__1_System_String___0_">PanoramaNode.SetValue&lt;T&gt;(string, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_Get_System_String_">PanoramaNode.Get(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_GetMembers">PanoramaNode.GetMembers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_Invoke__1_System_String_System_Object___">PanoramaNode.Invoke&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_Invoke_System_String_System_Object___">PanoramaNode.Invoke(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_ToJson_System_Boolean_System_Boolean_">PanoramaNode.ToJson(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_ToJsonNode_System_Boolean_">PanoramaNode.ToJsonNode(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Panorama.PanoramaNode.html#Divine_Panorama_PanoramaNode_ToString">PanoramaNode.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Panorama_PanoramaPanel_AcceptsFocus_" data-uid="Divine.Panorama.PanoramaPanel.AcceptsFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_AcceptsFocus" data-uid="Divine.Panorama.PanoramaPanel.AcceptsFocus">
+  AcceptsFocus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AcceptsFocus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_AcceptsInput_" data-uid="Divine.Panorama.PanoramaPanel.AcceptsInput*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_AcceptsInput" data-uid="Divine.Panorama.PanoramaPanel.AcceptsInput">
+  AcceptsInput
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AcceptsInput { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualLayoutHeight_" data-uid="Divine.Panorama.PanoramaPanel.ActualLayoutHeight*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualLayoutHeight" data-uid="Divine.Panorama.PanoramaPanel.ActualLayoutHeight">
+  ActualLayoutHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualLayoutHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualLayoutWidth_" data-uid="Divine.Panorama.PanoramaPanel.ActualLayoutWidth*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualLayoutWidth" data-uid="Divine.Panorama.PanoramaPanel.ActualLayoutWidth">
+  ActualLayoutWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualLayoutWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualUiScaleX_" data-uid="Divine.Panorama.PanoramaPanel.ActualUiScaleX*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualUiScaleX" data-uid="Divine.Panorama.PanoramaPanel.ActualUiScaleX">
+  ActualUiScaleX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualUiScaleX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualUiScaleY_" data-uid="Divine.Panorama.PanoramaPanel.ActualUiScaleY*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualUiScaleY" data-uid="Divine.Panorama.PanoramaPanel.ActualUiScaleY">
+  ActualUiScaleY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualUiScaleY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualXOffset_" data-uid="Divine.Panorama.PanoramaPanel.ActualXOffset*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualXOffset" data-uid="Divine.Panorama.PanoramaPanel.ActualXOffset">
+  ActualXOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualXOffset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ActualYOffset_" data-uid="Divine.Panorama.PanoramaPanel.ActualYOffset*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ActualYOffset" data-uid="Divine.Panorama.PanoramaPanel.ActualYOffset">
+  ActualYOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActualYOffset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Checked_" data-uid="Divine.Panorama.PanoramaPanel.Checked*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Checked" data-uid="Divine.Panorama.PanoramaPanel.Checked">
+  Checked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Checked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ContentHeight_" data-uid="Divine.Panorama.PanoramaPanel.ContentHeight*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ContentHeight" data-uid="Divine.Panorama.PanoramaPanel.ContentHeight">
+  ContentHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ContentHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ContentWidth_" data-uid="Divine.Panorama.PanoramaPanel.ContentWidth*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ContentWidth" data-uid="Divine.Panorama.PanoramaPanel.ContentWidth">
+  ContentWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ContentWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_DefaultFocus_" data-uid="Divine.Panorama.PanoramaPanel.DefaultFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_DefaultFocus" data-uid="Divine.Panorama.PanoramaPanel.DefaultFocus">
+  DefaultFocus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DefaultFocus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_DesiredLayoutHeight_" data-uid="Divine.Panorama.PanoramaPanel.DesiredLayoutHeight*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_DesiredLayoutHeight" data-uid="Divine.Panorama.PanoramaPanel.DesiredLayoutHeight">
+  DesiredLayoutHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DesiredLayoutHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_DesiredLayoutWidth_" data-uid="Divine.Panorama.PanoramaPanel.DesiredLayoutWidth*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_DesiredLayoutWidth" data-uid="Divine.Panorama.PanoramaPanel.DesiredLayoutWidth">
+  DesiredLayoutWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DesiredLayoutWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Enabled_" data-uid="Divine.Panorama.PanoramaPanel.Enabled*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Enabled" data-uid="Divine.Panorama.PanoramaPanel.Enabled">
+  Enabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HitTest_" data-uid="Divine.Panorama.PanoramaPanel.HitTest*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HitTest" data-uid="Divine.Panorama.PanoramaPanel.HitTest">
+  HitTest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HitTest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HitTestChildren_" data-uid="Divine.Panorama.PanoramaPanel.HitTestChildren*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HitTestChildren" data-uid="Divine.Panorama.PanoramaPanel.HitTestChildren">
+  HitTestChildren
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HitTestChildren { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Id_" data-uid="Divine.Panorama.PanoramaPanel.Id*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Id" data-uid="Divine.Panorama.PanoramaPanel.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_InputNamespace_" data-uid="Divine.Panorama.PanoramaPanel.InputNamespace*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_InputNamespace" data-uid="Divine.Panorama.PanoramaPanel.InputNamespace">
+  InputNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string InputNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_IsDraggable_" data-uid="Divine.Panorama.PanoramaPanel.IsDraggable*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_IsDraggable" data-uid="Divine.Panorama.PanoramaPanel.IsDraggable">
+  IsDraggable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDraggable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_LayoutFile_" data-uid="Divine.Panorama.PanoramaPanel.LayoutFile*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_LayoutFile" data-uid="Divine.Panorama.PanoramaPanel.LayoutFile">
+  LayoutFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LayoutFile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_PanelType_" data-uid="Divine.Panorama.PanoramaPanel.PanelType*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_PanelType" data-uid="Divine.Panorama.PanoramaPanel.PanelType">
+  PanelType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PanelType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ReadyForDisplay_" data-uid="Divine.Panorama.PanoramaPanel.ReadyForDisplay*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ReadyForDisplay" data-uid="Divine.Panorama.PanoramaPanel.ReadyForDisplay">
+  ReadyForDisplay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadyForDisplay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RememberChildFocus_" data-uid="Divine.Panorama.PanoramaPanel.RememberChildFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RememberChildFocus" data-uid="Divine.Panorama.PanoramaPanel.RememberChildFocus">
+  RememberChildFocus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RememberChildFocus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollOffsetX_" data-uid="Divine.Panorama.PanoramaPanel.ScrollOffsetX*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollOffsetX" data-uid="Divine.Panorama.PanoramaPanel.ScrollOffsetX">
+  ScrollOffsetX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ScrollOffsetX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollOffsetY_" data-uid="Divine.Panorama.PanoramaPanel.ScrollOffsetY*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollOffsetY" data-uid="Divine.Panorama.PanoramaPanel.ScrollOffsetY">
+  ScrollOffsetY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ScrollOffsetY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollParentToFitWhenFocused_" data-uid="Divine.Panorama.PanoramaPanel.ScrollParentToFitWhenFocused*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollParentToFitWhenFocused" data-uid="Divine.Panorama.PanoramaPanel.ScrollParentToFitWhenFocused">
+  ScrollParentToFitWhenFocused
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ScrollParentToFitWhenFocused { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SelectionPositionX_" data-uid="Divine.Panorama.PanoramaPanel.SelectionPositionX*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SelectionPositionX" data-uid="Divine.Panorama.PanoramaPanel.SelectionPositionX">
+  SelectionPositionX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float? SelectionPositionX { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SelectionPositionY_" data-uid="Divine.Panorama.PanoramaPanel.SelectionPositionY*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SelectionPositionY" data-uid="Divine.Panorama.PanoramaPanel.SelectionPositionY">
+  SelectionPositionY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float? SelectionPositionY { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Style_" data-uid="Divine.Panorama.PanoramaPanel.Style*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Style" data-uid="Divine.Panorama.PanoramaPanel.Style">
+  Style
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode Style { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_TabIndex_" data-uid="Divine.Panorama.PanoramaPanel.TabIndex*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_TabIndex" data-uid="Divine.Panorama.PanoramaPanel.TabIndex">
+  TabIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float? TabIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Type_" data-uid="Divine.Panorama.PanoramaPanel.Type*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Type" data-uid="Divine.Panorama.PanoramaPanel.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Visible_" data-uid="Divine.Panorama.PanoramaPanel.Visible*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Visible" data-uid="Divine.Panorama.PanoramaPanel.Visible">
+  Visible
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Visible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Panorama_PanoramaPanel_AddClass_" data-uid="Divine.Panorama.PanoramaPanel.AddClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_AddClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.AddClass(System.String)">
+  AddClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_AddClasses_" data-uid="Divine.Panorama.PanoramaPanel.AddClasses*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_AddClasses_System_String___" data-uid="Divine.Panorama.PanoramaPanel.AddClasses(System.String[])">
+  AddClasses(params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddClasses(params string[] classNames)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>classNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ApplyStyles_" data-uid="Divine.Panorama.PanoramaPanel.ApplyStyles*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ApplyStyles_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.ApplyStyles(System.Boolean)">
+  ApplyStyles(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyStyles(bool immediate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>immediate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_AscendantHasClass_" data-uid="Divine.Panorama.PanoramaPanel.AscendantHasClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_AscendantHasClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.AscendantHasClass(System.String)">
+  AscendantHasClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AscendantHasClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_CanSeeInParentScroll_" data-uid="Divine.Panorama.PanoramaPanel.CanSeeInParentScroll*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_CanSeeInParentScroll" data-uid="Divine.Panorama.PanoramaPanel.CanSeeInParentScroll">
+  CanSeeInParentScroll()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanSeeInParentScroll()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Children_" data-uid="Divine.Panorama.PanoramaPanel.Children*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Children" data-uid="Divine.Panorama.PanoramaPanel.Children">
+  Children()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode Children()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ClearPanelEvent_" data-uid="Divine.Panorama.PanoramaPanel.ClearPanelEvent*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ClearPanelEvent_System_String_" data-uid="Divine.Panorama.PanoramaPanel.ClearPanelEvent(System.String)">
+  ClearPanelEvent(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPanelEvent(string eventName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ClearPropertyFromCode_" data-uid="Divine.Panorama.PanoramaPanel.ClearPropertyFromCode*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ClearPropertyFromCode_System_String_" data-uid="Divine.Panorama.PanoramaPanel.ClearPropertyFromCode(System.String)">
+  ClearPropertyFromCode(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPropertyFromCode(string property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_Data_" data-uid="Divine.Panorama.PanoramaPanel.Data*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_Data_System_Object___" data-uid="Divine.Panorama.PanoramaPanel.Data(System.Object[])">
+  Data(params object?[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode Data(params object?[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_DeleteAsync_" data-uid="Divine.Panorama.PanoramaPanel.DeleteAsync*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_DeleteAsync_System_Single_" data-uid="Divine.Panorama.PanoramaPanel.DeleteAsync(System.Single)">
+  DeleteAsync(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAsync(float delay)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindAncestor_" data-uid="Divine.Panorama.PanoramaPanel.FindAncestor*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindAncestor_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindAncestor(System.String)">
+  FindAncestor(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? FindAncestor(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindChild_" data-uid="Divine.Panorama.PanoramaPanel.FindChild*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindChild_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindChild(System.String)">
+  FindChild(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? FindChild(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindChildInLayoutFile_" data-uid="Divine.Panorama.PanoramaPanel.FindChildInLayoutFile*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindChildInLayoutFile_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindChildInLayoutFile(System.String)">
+  FindChildInLayoutFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? FindChildInLayoutFile(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindChildTraverse_" data-uid="Divine.Panorama.PanoramaPanel.FindChildTraverse*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindChildTraverse_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindChildTraverse(System.String)">
+  FindChildTraverse(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? FindChildTraverse(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindChildrenWithAttributeTraverse_" data-uid="Divine.Panorama.PanoramaPanel.FindChildrenWithAttributeTraverse*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindChildrenWithAttributeTraverse_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindChildrenWithAttributeTraverse(System.String)">
+  FindChildrenWithAttributeTraverse(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode FindChildrenWithAttributeTraverse(string attributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindChildrenWithClassTraverse_" data-uid="Divine.Panorama.PanoramaPanel.FindChildrenWithClassTraverse*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindChildrenWithClassTraverse_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindChildrenWithClassTraverse(System.String)">
+  FindChildrenWithClassTraverse(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode FindChildrenWithClassTraverse(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_FindPanelInThisOrParentLayoutFile_" data-uid="Divine.Panorama.PanoramaPanel.FindPanelInThisOrParentLayoutFile*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_FindPanelInThisOrParentLayoutFile_System_String_" data-uid="Divine.Panorama.PanoramaPanel.FindPanelInThisOrParentLayoutFile(System.String)">
+  FindPanelInThisOrParentLayoutFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? FindPanelInThisOrParentLayoutFile(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetAttributeInt_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeInt*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetAttributeInt_System_String_System_Int32_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeInt(System.String,System.Int32)">
+  GetAttributeInt(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetAttributeInt(string name, int defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetAttributeString_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeString*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetAttributeString_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeString(System.String,System.String)">
+  GetAttributeString(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetAttributeString(string name, string defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetAttributeUInt32_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeUInt32*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetAttributeUInt32_System_String_System_UInt32_" data-uid="Divine.Panorama.PanoramaPanel.GetAttributeUInt32(System.String,System.UInt32)">
+  GetAttributeUInt32(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetAttributeUInt32(string name, uint defaultValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetChild_" data-uid="Divine.Panorama.PanoramaPanel.GetChild*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetChild_System_Int32_" data-uid="Divine.Panorama.PanoramaPanel.GetChild(System.Int32)">
+  GetChild(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? GetChild(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetChildCount_" data-uid="Divine.Panorama.PanoramaPanel.GetChildCount*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetChildCount" data-uid="Divine.Panorama.PanoramaPanel.GetChildCount">
+  GetChildCount()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetChildCount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetChildIndex_" data-uid="Divine.Panorama.PanoramaPanel.GetChildIndex*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetChildIndex_Divine_Panorama_PanoramaPanel_" data-uid="Divine.Panorama.PanoramaPanel.GetChildIndex(Divine.Panorama.PanoramaPanel)">
+  GetChildIndex(PanoramaPanel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetChildIndex(PanoramaPanel child)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>child</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetParent_" data-uid="Divine.Panorama.PanoramaPanel.GetParent*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetParent" data-uid="Divine.Panorama.PanoramaPanel.GetParent">
+  GetParent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaPanel? GetParent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetPosition_" data-uid="Divine.Panorama.PanoramaPanel.GetPosition*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetPosition_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.GetPosition(System.Boolean)">
+  GetPosition(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode GetPosition(bool includeScroll)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>includeScroll</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetPositionWithinAncestor_" data-uid="Divine.Panorama.PanoramaPanel.GetPositionWithinAncestor*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetPositionWithinAncestor_Divine_Panorama_PanoramaPanel_" data-uid="Divine.Panorama.PanoramaPanel.GetPositionWithinAncestor(Divine.Panorama.PanoramaPanel)">
+  GetPositionWithinAncestor(PanoramaPanel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode GetPositionWithinAncestor(PanoramaPanel ancestor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ancestor</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetPositionWithinWindow_" data-uid="Divine.Panorama.PanoramaPanel.GetPositionWithinWindow*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetPositionWithinWindow" data-uid="Divine.Panorama.PanoramaPanel.GetPositionWithinWindow">
+  GetPositionWithinWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode GetPositionWithinWindow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_GetSnippetNames_" data-uid="Divine.Panorama.PanoramaPanel.GetSnippetNames*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_GetSnippetNames" data-uid="Divine.Panorama.PanoramaPanel.GetSnippetNames">
+  GetSnippetNames()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode GetSnippetNames()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HasClass_" data-uid="Divine.Panorama.PanoramaPanel.HasClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HasClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.HasClass(System.String)">
+  HasClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HasDescendantKeyFocus_" data-uid="Divine.Panorama.PanoramaPanel.HasDescendantKeyFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HasDescendantKeyFocus" data-uid="Divine.Panorama.PanoramaPanel.HasDescendantKeyFocus">
+  HasDescendantKeyFocus()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDescendantKeyFocus()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HasHoverStyle_" data-uid="Divine.Panorama.PanoramaPanel.HasHoverStyle*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HasHoverStyle" data-uid="Divine.Panorama.PanoramaPanel.HasHoverStyle">
+  HasHoverStyle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHoverStyle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HasKeyFocus_" data-uid="Divine.Panorama.PanoramaPanel.HasKeyFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HasKeyFocus" data-uid="Divine.Panorama.PanoramaPanel.HasKeyFocus">
+  HasKeyFocus()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasKeyFocus()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_HasLayoutSnippet_" data-uid="Divine.Panorama.PanoramaPanel.HasLayoutSnippet*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_HasLayoutSnippet_System_String_" data-uid="Divine.Panorama.PanoramaPanel.HasLayoutSnippet(System.String)">
+  HasLayoutSnippet(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLayoutSnippet(string snippet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>snippet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_IsSelected_" data-uid="Divine.Panorama.PanoramaPanel.IsSelected*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_IsSelected" data-uid="Divine.Panorama.PanoramaPanel.IsSelected">
+  IsSelected()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSelected()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_IsSizeValid_" data-uid="Divine.Panorama.PanoramaPanel.IsSizeValid*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_IsSizeValid" data-uid="Divine.Panorama.PanoramaPanel.IsSizeValid">
+  IsSizeValid()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSizeValid()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_IsTransparent_" data-uid="Divine.Panorama.PanoramaPanel.IsTransparent*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_IsTransparent" data-uid="Divine.Panorama.PanoramaPanel.IsTransparent">
+  IsTransparent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTransparent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_IsValid_" data-uid="Divine.Panorama.PanoramaPanel.IsValid*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_IsValid" data-uid="Divine.Panorama.PanoramaPanel.IsValid">
+  IsValid()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValid()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_LoadLayout_" data-uid="Divine.Panorama.PanoramaPanel.LoadLayout*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_LoadLayout_System_String_System_Boolean_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.LoadLayout(System.String,System.Boolean,System.Boolean)">
+  LoadLayout(string, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoadLayout(string path, bool overrideExisting, bool partial)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>overrideExisting</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>partial</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_LoadLayoutSnippet_" data-uid="Divine.Panorama.PanoramaPanel.LoadLayoutSnippet*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_LoadLayoutSnippet_System_String_" data-uid="Divine.Panorama.PanoramaPanel.LoadLayoutSnippet(System.String)">
+  LoadLayoutSnippet(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LoadLayoutSnippet(string snippet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>snippet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_MoveChildAfter_" data-uid="Divine.Panorama.PanoramaPanel.MoveChildAfter*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_MoveChildAfter_Divine_Panorama_PanoramaPanel_Divine_Panorama_PanoramaPanel_" data-uid="Divine.Panorama.PanoramaPanel.MoveChildAfter(Divine.Panorama.PanoramaPanel,Divine.Panorama.PanoramaPanel)">
+  MoveChildAfter(PanoramaPanel, PanoramaPanel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveChildAfter(PanoramaPanel child, PanoramaPanel after)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>child</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+    <dt><code>after</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_MoveChildBefore_" data-uid="Divine.Panorama.PanoramaPanel.MoveChildBefore*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_MoveChildBefore_Divine_Panorama_PanoramaPanel_Divine_Panorama_PanoramaPanel_" data-uid="Divine.Panorama.PanoramaPanel.MoveChildBefore(Divine.Panorama.PanoramaPanel,Divine.Panorama.PanoramaPanel)">
+  MoveChildBefore(PanoramaPanel, PanoramaPanel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveChildBefore(PanoramaPanel child, PanoramaPanel before)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>child</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+    <dt><code>before</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_PlayPanelSound_" data-uid="Divine.Panorama.PanoramaPanel.PlayPanelSound*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_PlayPanelSound_System_String_" data-uid="Divine.Panorama.PanoramaPanel.PlayPanelSound(System.String)">
+  PlayPanelSound(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayPanelSound(string sound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RegisterForReadyEvents_" data-uid="Divine.Panorama.PanoramaPanel.RegisterForReadyEvents*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RegisterForReadyEvents_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.RegisterForReadyEvents(System.Boolean)">
+  RegisterForReadyEvents(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterForReadyEvents(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RemoveAndDeleteChildren_" data-uid="Divine.Panorama.PanoramaPanel.RemoveAndDeleteChildren*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RemoveAndDeleteChildren" data-uid="Divine.Panorama.PanoramaPanel.RemoveAndDeleteChildren">
+  RemoveAndDeleteChildren()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAndDeleteChildren()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RemoveClass_" data-uid="Divine.Panorama.PanoramaPanel.RemoveClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RemoveClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.RemoveClass(System.String)">
+  RemoveClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RemoveClasses_" data-uid="Divine.Panorama.PanoramaPanel.RemoveClasses*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RemoveClasses_System_String___" data-uid="Divine.Panorama.PanoramaPanel.RemoveClasses(System.String[])">
+  RemoveClasses(params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveClasses(params string[] classNames)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>classNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_RunScriptInPanelContext_" data-uid="Divine.Panorama.PanoramaPanel.RunScriptInPanelContext*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_RunScriptInPanelContext_System_Object___" data-uid="Divine.Panorama.PanoramaPanel.RunScriptInPanelContext(System.Object[])">
+  RunScriptInPanelContext(params object?[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanoramaNode RunScriptInPanelContext(params object?[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollParentToMakePanelFit_" data-uid="Divine.Panorama.PanoramaPanel.ScrollParentToMakePanelFit*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollParentToMakePanelFit_Divine_Panorama_PanoramaPanel_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.ScrollParentToMakePanelFit(Divine.Panorama.PanoramaPanel,System.Boolean)">
+  ScrollParentToMakePanelFit(PanoramaPanel, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollParentToMakePanelFit(PanoramaPanel panel, bool immediate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>panel</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+    <dt><code>immediate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollToBottom_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToBottom*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollToBottom" data-uid="Divine.Panorama.PanoramaPanel.ScrollToBottom">
+  ScrollToBottom()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollToBottom()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollToFitRegion_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToFitRegion*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollToFitRegion_System_Single_System_Single_System_Single_System_Single_Divine_Panorama_PanoramaNode_System_Boolean_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToFitRegion(System.Single,System.Single,System.Single,System.Single,Divine.Panorama.PanoramaNode,System.Boolean,System.Boolean)">
+  ScrollToFitRegion(float, float, float, float, PanoramaNode?, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollToFitRegion(float x, float y, float width, float height, PanoramaNode? alignment, bool immediate, bool direct)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>alignment</code> <a class="xref" href="Divine.Panorama.PanoramaNode.html">PanoramaNode</a></dt>
+    <dd></dd>
+    <dt><code>immediate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>direct</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollToLeftEdge_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToLeftEdge*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollToLeftEdge" data-uid="Divine.Panorama.PanoramaPanel.ScrollToLeftEdge">
+  ScrollToLeftEdge()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollToLeftEdge()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollToRightEdge_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToRightEdge*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollToRightEdge" data-uid="Divine.Panorama.PanoramaPanel.ScrollToRightEdge">
+  ScrollToRightEdge()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollToRightEdge()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ScrollToTop_" data-uid="Divine.Panorama.PanoramaPanel.ScrollToTop*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ScrollToTop" data-uid="Divine.Panorama.PanoramaPanel.ScrollToTop">
+  ScrollToTop()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ScrollToTop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetAttributeInt_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeInt*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetAttributeInt_System_String_System_Int32_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeInt(System.String,System.Int32)">
+  SetAttributeInt(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAttributeInt(string name, int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetAttributeString_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeString*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetAttributeString_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeString(System.String,System.String)">
+  SetAttributeString(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAttributeString(string name, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetAttributeUInt32_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeUInt32*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetAttributeUInt32_System_String_System_UInt32_" data-uid="Divine.Panorama.PanoramaPanel.SetAttributeUInt32(System.String,System.UInt32)">
+  SetAttributeUInt32(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAttributeUInt32(string name, uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetCompositionLayerTextureName_" data-uid="Divine.Panorama.PanoramaPanel.SetCompositionLayerTextureName*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetCompositionLayerTextureName_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SetCompositionLayerTextureName(System.String)">
+  SetCompositionLayerTextureName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCompositionLayerTextureName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDialogVariable_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariable*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDialogVariable_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariable(System.String,System.String)">
+  SetDialogVariable(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDialogVariable(string name, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDialogVariableInt_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableInt*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDialogVariableInt_System_String_System_Int32_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableInt(System.String,System.Int32)">
+  SetDialogVariableInt(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDialogVariableInt(string name, int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDialogVariableLocString_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableLocString*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDialogVariableLocString_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableLocString(System.String,System.String)">
+  SetDialogVariableLocString(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDialogVariableLocString(string name, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDialogVariableLocStringNested_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableLocStringNested*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDialogVariableLocStringNested_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableLocStringNested(System.String,System.String)">
+  SetDialogVariableLocStringNested(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDialogVariableLocStringNested(string name, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDialogVariableTime_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableTime*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDialogVariableTime_System_String_System_Int64_" data-uid="Divine.Panorama.PanoramaPanel.SetDialogVariableTime(System.String,System.Int64)">
+  SetDialogVariableTime(string, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDialogVariableTime(string name, long value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetDisableFocusOnMouseDown_" data-uid="Divine.Panorama.PanoramaPanel.SetDisableFocusOnMouseDown*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetDisableFocusOnMouseDown_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.SetDisableFocusOnMouseDown(System.Boolean)">
+  SetDisableFocusOnMouseDown(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDisableFocusOnMouseDown(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetFocus_" data-uid="Divine.Panorama.PanoramaPanel.SetFocus*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetFocus" data-uid="Divine.Panorama.PanoramaPanel.SetFocus">
+  SetFocus()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFocus()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetHasClass_" data-uid="Divine.Panorama.PanoramaPanel.SetHasClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetHasClass_System_String_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.SetHasClass(System.String,System.Boolean)">
+  SetHasClass(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHasClass(string className, bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetHeightInPixels_" data-uid="Divine.Panorama.PanoramaPanel.SetHeightInPixels*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetHeightInPixels_System_Single_" data-uid="Divine.Panorama.PanoramaPanel.SetHeightInPixels(System.Single)">
+  SetHeightInPixels(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHeightInPixels(float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetPanelEvent_" data-uid="Divine.Panorama.PanoramaPanel.SetPanelEvent*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetPanelEvent_System_Object___" data-uid="Divine.Panorama.PanoramaPanel.SetPanelEvent(System.Object[])">
+  SetPanelEvent(params object?[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPanelEvent(params object?[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetParent_" data-uid="Divine.Panorama.PanoramaPanel.SetParent*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetParent_Divine_Panorama_PanoramaPanel_" data-uid="Divine.Panorama.PanoramaPanel.SetParent(Divine.Panorama.PanoramaPanel)">
+  SetParent(PanoramaPanel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetParent(PanoramaPanel parent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <a class="xref" href="Divine.Panorama.PanoramaPanel.html">PanoramaPanel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetPositionInPixels_" data-uid="Divine.Panorama.PanoramaPanel.SetPositionInPixels*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetPositionInPixels_System_Single_System_Single_System_Single_" data-uid="Divine.Panorama.PanoramaPanel.SetPositionInPixels(System.Single,System.Single,System.Single)">
+  SetPositionInPixels(float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPositionInPixels(float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetSendScrollPositionChangedEvents_" data-uid="Divine.Panorama.PanoramaPanel.SetSendScrollPositionChangedEvents*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetSendScrollPositionChangedEvents_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.SetSendScrollPositionChangedEvents(System.Boolean)">
+  SetSendScrollPositionChangedEvents(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSendScrollPositionChangedEvents(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetTopOfInputContext_" data-uid="Divine.Panorama.PanoramaPanel.SetTopOfInputContext*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetTopOfInputContext_System_Boolean_" data-uid="Divine.Panorama.PanoramaPanel.SetTopOfInputContext(System.Boolean)">
+  SetTopOfInputContext(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTopOfInputContext(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SetWidthInPixels_" data-uid="Divine.Panorama.PanoramaPanel.SetWidthInPixels*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SetWidthInPixels_System_Single_" data-uid="Divine.Panorama.PanoramaPanel.SetWidthInPixels(System.Single)">
+  SetWidthInPixels(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWidthInPixels(float width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_SwitchClass_" data-uid="Divine.Panorama.PanoramaPanel.SwitchClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_SwitchClass_System_String_System_String_" data-uid="Divine.Panorama.PanoramaPanel.SwitchClass(System.String,System.String)">
+  SwitchClass(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchClass(string attributeName, string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_ToggleClass_" data-uid="Divine.Panorama.PanoramaPanel.ToggleClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_ToggleClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.ToggleClass(System.String)">
+  ToggleClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_TriggerClass_" data-uid="Divine.Panorama.PanoramaPanel.TriggerClass*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_TriggerClass_System_String_" data-uid="Divine.Panorama.PanoramaPanel.TriggerClass(System.String)">
+  TriggerClass(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerClass(string className)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_UpdateFocusInContext_" data-uid="Divine.Panorama.PanoramaPanel.UpdateFocusInContext*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_UpdateFocusInContext" data-uid="Divine.Panorama.PanoramaPanel.UpdateFocusInContext">
+  UpdateFocusInContext()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateFocusInContext()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Panorama_PanoramaPanel_WriteCompositionLayerPng_" data-uid="Divine.Panorama.PanoramaPanel.WriteCompositionLayerPng*"></a>
+
+  <h3 id="Divine_Panorama_PanoramaPanel_WriteCompositionLayerPng_System_String_" data-uid="Divine.Panorama.PanoramaPanel.WriteCompositionLayerPng(System.String)">
+  WriteCompositionLayerPng(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteCompositionLayerPng(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Panorama/PanoramaPanel.cs/#L5" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

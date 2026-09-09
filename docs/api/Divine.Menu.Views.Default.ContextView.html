@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ContextView | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ContextView | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineEcosystem/Divine/new/main/apiSpec/new?filename=Divine_Menu_Views_Default_ContextView.md&amp;value=---%0Auid%3A%20Divine.Menu.Views.Default.ContextView%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Menu.Views.Default.ContextView">
+
+
+
+  <h1 id="Divine_Menu_Views_Default_ContextView" data-uid="Divine.Menu.Views.Default.ContextView" class="text-break">
+Class ContextView  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Menu.html">Menu</a>.<a class="xref" href="Divine.Menu.Views.html">Views</a>.<a class="xref" href="Divine.Menu.Views.Default.html">Default</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ContextView : MenuView, IContextView, IMenuView, IExpanderView, ITextView, IView</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.BaseView.html">BaseView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.View.html">View</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.TextView.html">TextView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html">ExpanderView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.MenuView.html">MenuView</a></div>
+      <div><span class="xref">ContextView</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Divine.Menu.Views.IContextView.html">IContextView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.IMenuView.html">IMenuView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.IExpanderView.html">IExpanderView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.ITextView.html">ITextView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.IView.html">IView</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Divine.Menu.Views.Default.MainView.html">MainView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.MiniView.html">MiniView</a></div>
+      <div><a class="xref" href="Divine.Menu.Views.Default.TooltipView.html">TooltipView</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_UnderChildRectangleCheck">MenuView.UnderChildRectangleCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_Views">MenuView.Views</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_ElementsWidth">MenuView.ElementsWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnDrawSpecial">MenuView.OnDrawSpecial()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnDrawChild">MenuView.OnDrawChild()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnDrawAfterChild">MenuView.OnDrawAfterChild()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnShowMiniMenu_Divine_Menu_Items_MiniMenu_">MenuView.OnShowMiniMenu(MiniMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnSideForward">MenuView.OnSideForward()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnSideReset">MenuView.OnSideReset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnContextShow">MenuView.OnContextShow()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnContextHide">MenuView.OnContextHide()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnExpand">MenuView.OnExpand()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnCollapse">MenuView.OnCollapse()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_GetSideAnimation">MenuView.GetSideAnimation()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnCalculateImageRectangle">MenuView.OnCalculateImageRectangle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnCalculateDisplayTextRectangle">MenuView.OnCalculateDisplayTextRectangle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.MenuView.html#Divine_Menu_Views_Default_MenuView_OnCalculateChildSize">MenuView.OnCalculateChildSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_IsExpanded">ExpanderView.IsExpanded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_Scroll">ExpanderView.Scroll</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_ChildSize">ExpanderView.ChildSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_ChildRectangle">ExpanderView.ChildRectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_ArrowRectangle">ExpanderView.ArrowRectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnDrawStroke">ExpanderView.OnDrawStroke()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnDrawArrow">ExpanderView.OnDrawArrow()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnDrawChildBackground">ExpanderView.OnDrawChildBackground()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnDrawChildEmptyText">ExpanderView.OnDrawChildEmptyText()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnMouseKeyDown_System_Boolean_System_Numerics_Vector2_">ExpanderView.OnMouseKeyDown(bool, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnMouseKeyUp_System_Boolean_System_Numerics_Vector2_">ExpanderView.OnMouseKeyUp(bool, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnMouseMove_System_Numerics_Vector2_">ExpanderView.OnMouseMove(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnMouseWheel_System_Boolean_System_Numerics_Vector2_">ExpanderView.OnMouseWheel(bool, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnShowTooltip">ExpanderView.OnShowTooltip()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnHoverAnimationEnd">ExpanderView.OnHoverAnimationEnd()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnDisable">ExpanderView.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.ExpanderView.html#Divine_Menu_Views_Default_ExpanderView_OnCalculateArrowRectangle">ExpanderView.OnCalculateArrowRectangle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_Linked">TextView.Linked</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_DisplayText">TextView.DisplayText</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_ElementsWidthWithDisplayText">TextView.ElementsWidthWithDisplayText</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_DisplayTextFontColor">TextView.DisplayTextFontColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_DisplayTextSize">TextView.DisplayTextSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_DisplayTextRectangle">TextView.DisplayTextRectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_OnRefreshSize">TextView.OnRefreshSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_OnDrawSpecialText">TextView.OnDrawSpecialText()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_OnDrawDisplayText">TextView.OnDrawDisplayText()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_OnCalculateDisplayTextSize">TextView.OnCalculateDisplayTextSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.TextView.html#Divine_Menu_Views_Default_TextView_OnCalculateSize">TextView.OnCalculateSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_Context">View.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_Parent">View.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_GeneralStyle">View.GeneralStyle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_Renderer">View.Renderer</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_ElementMarginTopBottom">View.ElementMarginTopBottom</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_TooltipPosition">View.TooltipPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnDrawBackground">View.OnDrawBackground()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnDrawHover">View.OnDrawHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnDrawImage">View.OnDrawImage()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnHoverStart">View.OnHoverStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnHoverEnd">View.OnHoverEnd()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnHoverAnimationStart">View.OnHoverAnimationStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnHideTooltip">View.OnHideTooltip()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_GetHoverValue">View.GetHoverValue()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_CreateMiniMenu_System_String_System_Numerics_Vector2_">View.CreateMiniMenu(string, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_RemoveMiniMenu">View.RemoveMiniMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnHideMiniMenu_Divine_Menu_Items_MiniMenu_">View.OnHideMiniMenu(MiniMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnCalculateExtraHeight">View.OnCalculateExtraHeight()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.Default.View.html#Divine_Menu_Views_Default_View_OnCalculateImageSize">View.OnCalculateImageSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Prev">BaseView.Prev</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Next">BaseView.Next</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsRoot">BaseView.IsRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_CanVisible">BaseView.CanVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsVisible">BaseView.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsDisabled">BaseView.IsDisabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsSearcherMark">BaseView.IsSearcherMark</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Flags">BaseView.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ContextStyle">BaseView.ContextStyle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ContextPosition">BaseView.ContextPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ImageKey">BaseView.ImageKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Tooltip">BaseView.Tooltip</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsSelected">BaseView.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_IsHovered">BaseView.IsHovered</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_SelectedView">BaseView.SelectedView</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ExtraHeight">BaseView.ExtraHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Rectangle">BaseView.Rectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ImageSize">BaseView.ImageSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ImageRectangle">BaseView.ImageRectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Position">BaseView.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Left">BaseView.Left</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Top">BaseView.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Right">BaseView.Right</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Bottom">BaseView.Bottom</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_TopLeft">BaseView.TopLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_TopRight">BaseView.TopRight</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_BottomLeft">BaseView.BottomLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_BottomRight">BaseView.BottomRight</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Size">BaseView.Size</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Width">BaseView.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Height">BaseView.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnRefresh_Divine_Menu_Views_BaseView_Divine_Menu_Views_BaseView_">BaseView.OnRefresh(BaseView, BaseView)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnDraw">BaseView.OnDraw()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnDrawStart">BaseView.OnDrawStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnDrawSpecialImage">BaseView.OnDrawSpecialImage()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnReset">BaseView.OnReset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_OnEnable">BaseView.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_Dispose">BaseView.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Menu.Views.BaseView.html#Divine_Menu_Views_BaseView_ToString">BaseView.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Menu_Views_Default_ContextView__ctor_" data-uid="Divine.Menu.Views.Default.ContextView.#ctor*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView__ctor_Divine_Menu_Items_MenuItem_Divine_Menu_Styles_IStyle_Divine_Menu_Styles_IGeneralStyle_Divine_Menu_Renderers_IMenuRenderer_" data-uid="Divine.Menu.Views.Default.ContextView.#ctor(Divine.Menu.Items.MenuItem,Divine.Menu.Styles.IStyle,Divine.Menu.Styles.IGeneralStyle,Divine.Menu.Renderers.IMenuRenderer)">
+  ContextView(MenuItem, IStyle, IGeneralStyle, IMenuRenderer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ContextView(MenuItem owner, IStyle style, IGeneralStyle generalStyle, IMenuRenderer menuRenderer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>owner</code> <a class="xref" href="Divine.Menu.Items.MenuItem.html">MenuItem</a></dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Divine.Menu.Styles.IStyle.html">IStyle</a></dt>
+    <dd></dd>
+    <dt><code>generalStyle</code> <a class="xref" href="Divine.Menu.Styles.IGeneralStyle.html">IGeneralStyle</a></dt>
+    <dd></dd>
+    <dt><code>menuRenderer</code> <a class="xref" href="Divine.Menu.Renderers.IMenuRenderer.html">IMenuRenderer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_Owner_" data-uid="Divine.Menu.Views.Default.ContextView.Owner*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_Owner" data-uid="Divine.Menu.Views.Default.ContextView.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MenuContext Owner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Items.MenuContext.html">MenuContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_ShowOpacityProgress_" data-uid="Divine.Menu.Views.Default.ContextView.ShowOpacityProgress*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_ShowOpacityProgress" data-uid="Divine.Menu.Views.Default.ContextView.ShowOpacityProgress">
+  ShowOpacityProgress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShowOpacityProgress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_Style_" data-uid="Divine.Menu.Views.Default.ContextView.Style*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_Style" data-uid="Divine.Menu.Views.Default.ContextView.Style">
+  Style
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContextStyle Style { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Menu.Styles.Default.ContextStyle.html">ContextStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_GetTotalRectangle_" data-uid="Divine.Menu.Views.Default.ContextView.GetTotalRectangle*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_GetTotalRectangle" data-uid="Divine.Menu.Views.Default.ContextView.GetTotalRectangle">
+  GetTotalRectangle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect GetTotalRectangle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnCalculateChildRectangle_" data-uid="Divine.Menu.Views.Default.ContextView.OnCalculateChildRectangle*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnCalculateChildRectangle" data-uid="Divine.Menu.Views.Default.ContextView.OnCalculateChildRectangle">
+  OnCalculateChildRectangle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Rect OnCalculateChildRectangle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs">Rect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnCalculateRectangle_" data-uid="Divine.Menu.Views.Default.ContextView.OnCalculateRectangle*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnCalculateRectangle" data-uid="Divine.Menu.Views.Default.ContextView.OnCalculateRectangle">
+  OnCalculateRectangle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override RoundedRect OnCalculateRectangle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Renderer.Numerics.RoundedRect.html">RoundedRect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnHide_" data-uid="Divine.Menu.Views.Default.ContextView.OnHide*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnHide" data-uid="Divine.Menu.Views.Default.ContextView.OnHide">
+  OnHide()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnHide()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnRefresh_" data-uid="Divine.Menu.Views.Default.ContextView.OnRefresh*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnRefresh" data-uid="Divine.Menu.Views.Default.ContextView.OnRefresh">
+  OnRefresh()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRefresh()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnSetPosition_" data-uid="Divine.Menu.Views.Default.ContextView.OnSetPosition*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnSetPosition" data-uid="Divine.Menu.Views.Default.ContextView.OnSetPosition">
+  OnSetPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSetPosition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Menu_Views_Default_ContextView_OnShow_" data-uid="Divine.Menu.Views.Default.ContextView.OnShow*"></a>
+
+  <h3 id="Divine_Menu_Views_Default_ContextView_OnShow" data-uid="Divine.Menu.Views.Default.ContextView.OnShow">
+  OnShow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnShow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/Menu/Views/Default/ContextView.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
