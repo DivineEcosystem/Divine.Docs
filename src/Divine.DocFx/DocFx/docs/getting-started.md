@@ -1,4 +1,4 @@
-# Getting Started
+﻿# Getting Started
 
 ## Local plugins
 
@@ -8,7 +8,7 @@ Follow these steps to create, add, build, and reload a local Divine plugin.
 
 Install the required development tools:
 
-- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
+- [.NET 11 SDK](https://dotnet.microsoft.com/download/dotnet/11.0)
 - [Visual Studio 2022 or Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) with a .NET development workload, or [JetBrains Rider](https://www.jetbrains.com/rider/download/)
 
 ### Step 2. Create a plugin project
@@ -26,11 +26,12 @@ The project must include a `global.json` file:
 ```json
 {
   "sdk": {
-    "version": "10.0.400",
-    "rollForward": "disable"
+    "version": "11.0.100-rc.1.26425.128",
+    "rollForward": "patch",
+    "allowPrerelease": true
   },
   "msbuild-sdks": {
-    "Divine.Sdk": "1.6.0"
+    "Divine.Sdk": "1.9.0"
   }
 }
 ```
