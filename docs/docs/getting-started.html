@@ -92,7 +92,7 @@
 <h3 id="step-1-install-the-required-tools">Step 1. Install the required tools</h3>
 <p>Install the required development tools:</p>
 <ul>
-<li><a href="https://dotnet.microsoft.com/download/dotnet/10.0">.NET 10 SDK</a></li>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/11.0">.NET 11 SDK</a></li>
 <li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022 or Visual Studio 2026</a> with a .NET development workload, or <a href="https://www.jetbrains.com/rider/download/">JetBrains Rider</a></li>
 </ul>
 <h3 id="step-2-create-a-plugin-project">Step 2. Create a plugin project</h3>
@@ -103,11 +103,12 @@
 <p>The project must include a <code>global.json</code> file:</p>
 <pre><code class="lang-json">{
   &quot;sdk&quot;: {
-    &quot;version&quot;: &quot;10.0.400&quot;,
-    &quot;rollForward&quot;: &quot;disable&quot;
+    &quot;version&quot;: &quot;11.0.100-rc.1.26425.128&quot;,
+    &quot;rollForward&quot;: &quot;patch&quot;,
+    &quot;allowPrerelease&quot;: true
   },
   &quot;msbuild-sdks&quot;: {
-    &quot;Divine.Sdk&quot;: &quot;1.6.0&quot;
+    &quot;Divine.Sdk&quot;: &quot;1.9.0&quot;
   }
 }
 </code></pre>
