@@ -152,29 +152,31 @@ Class SymbolTableManager  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="Divine_SymbolTable_SymbolTableManager_GetTable_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTable*"></a>
+  <a id="Divine_SymbolTable_SymbolTableManager_Find_" data-uid="Divine.SymbolTable.SymbolTableManager.Find*"></a>
 
-  <h3 id="Divine_SymbolTable_SymbolTableManager_GetTable_Divine_SymbolTable_SymbolTableId_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTable(Divine.SymbolTable.SymbolTableId)">
-  GetTable(SymbolTableId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Divine_SymbolTable_SymbolTableManager_Find_Divine_SymbolTable_SymbolTableId_System_ReadOnlySpan_System_Byte__" data-uid="Divine.SymbolTable.SymbolTableManager.Find(Divine.SymbolTable.SymbolTableId,System.ReadOnlySpan{System.Byte})">
+  Find(SymbolTableId, ReadOnlySpan&lt;byte&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SymbolTable? GetTable(SymbolTableId id)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ushort Find(SymbolTableId id, ReadOnlySpan&lt;byte&gt; value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="Divine.SymbolTable.SymbolTableId.html">SymbolTableId</a></dt>
     <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Divine.SymbolTable.SymbolTable.html">SymbolTable</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,10 +190,48 @@ Class SymbolTableManager  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="Divine_SymbolTable_SymbolTableManager_GetTableRequired_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTableRequired*"></a>
+  <a id="Divine_SymbolTable_SymbolTableManager_Find_" data-uid="Divine.SymbolTable.SymbolTableManager.Find*"></a>
 
-  <h3 id="Divine_SymbolTable_SymbolTableManager_GetTableRequired_Divine_SymbolTable_SymbolTableId_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTableRequired(Divine.SymbolTable.SymbolTableId)">
-  GetTableRequired(SymbolTableId)
+  <h3 id="Divine_SymbolTable_SymbolTableManager_Find_Divine_SymbolTable_SymbolTableId_System_String_" data-uid="Divine.SymbolTable.SymbolTableManager.Find(Divine.SymbolTable.SymbolTableId,System.String)">
+  Find(SymbolTableId, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort Find(SymbolTableId id, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="Divine.SymbolTable.SymbolTableId.html">SymbolTableId</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_SymbolTable_SymbolTableManager_GetTable_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTable*"></a>
+
+  <h3 id="Divine_SymbolTable_SymbolTableManager_GetTable_Divine_SymbolTable_SymbolTableId_" data-uid="Divine.SymbolTable.SymbolTableManager.GetTable(Divine.SymbolTable.SymbolTableId)">
+  GetTable(SymbolTableId)
   <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -199,7 +239,7 @@ Class SymbolTableManager  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SymbolTable GetTableRequired(SymbolTableId id)</code></pre>
+    <pre><code class="lang-csharp hljs">public static SymbolTable GetTable(SymbolTableId id)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -211,6 +251,82 @@ Class SymbolTableManager  <a class="header-action link-secondary" title="View so
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Divine.SymbolTable.SymbolTable.html">SymbolTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_SymbolTable_SymbolTableManager_GetUtf8Value_" data-uid="Divine.SymbolTable.SymbolTableManager.GetUtf8Value*"></a>
+
+  <h3 id="Divine_SymbolTable_SymbolTableManager_GetUtf8Value_Divine_SymbolTable_SymbolTableId_System_UInt16_" data-uid="Divine.SymbolTable.SymbolTableManager.GetUtf8Value(Divine.SymbolTable.SymbolTableId,System.UInt16)">
+  GetUtf8Value(SymbolTableId, ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlySpan&lt;byte&gt; GetUtf8Value(SymbolTableId id, ushort symbol)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="Divine.SymbolTable.SymbolTableId.html">SymbolTableId</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_SymbolTable_SymbolTableManager_GetValue_" data-uid="Divine.SymbolTable.SymbolTableManager.GetValue*"></a>
+
+  <h3 id="Divine_SymbolTable_SymbolTableManager_GetValue_Divine_SymbolTable_SymbolTableId_System_UInt16_" data-uid="Divine.SymbolTable.SymbolTableManager.GetValue(Divine.SymbolTable.SymbolTableId,System.UInt16)">
+  GetValue(SymbolTableId, ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineEcosystem/Divine/blob/main/src/Divine/SymbolTable/SymbolTableManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetValue(SymbolTableId id, ushort symbol)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="Divine.SymbolTable.SymbolTableId.html">SymbolTableId</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
