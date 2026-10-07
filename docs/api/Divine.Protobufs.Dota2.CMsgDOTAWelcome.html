@@ -1,0 +1,2684 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgDOTAWelcome | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgDOTAWelcome | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome" class="text-break">
+Class CMsgDOTAWelcome  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgDOTAWelcome : IMessage&lt;CMsgDOTAWelcome&gt;, IEquatable&lt;CMsgDOTAWelcome&gt;, IDeepCloneable&lt;CMsgDOTAWelcome&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgDOTAWelcome</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome__ctor" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.#ctor">
+  CMsgDOTAWelcome()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTAWelcome()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome__ctor_Divine_Protobufs_Dota2_CMsgDOTAWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.#ctor(Divine.Protobufs.Dota2.CMsgDOTAWelcome)">
+  CMsgDOTAWelcome(CMsgDOTAWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTAWelcome(CMsgDOTAWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEventFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEventFieldNumber">
+  ActiveEventFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ActiveEventFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEventForDisplayFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEventForDisplayFieldNumber">
+  ActiveEventForDisplayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ActiveEventForDisplayFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_AdditionalUserMessageFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.AdditionalUserMessageFieldNumber">
+  AdditionalUserMessageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AdditionalUserMessageFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Allow3RdPartyMatchHistoryFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Allow3RdPartyMatchHistoryFieldNumber">
+  Allow3RdPartyMatchHistoryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Allow3RdPartyMatchHistoryFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CurrencyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CurrencyFieldNumber">
+  CurrencyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CurrencyFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CustomGameWhitelistVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CustomGameWhitelistVersionFieldNumber">
+  CustomGameWhitelistVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameWhitelistVersionFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_DisableGuildPersonaInfoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.DisableGuildPersonaInfoFieldNumber">
+  DisableGuildPersonaInfoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DisableGuildPersonaInfoFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessageBlocksFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessageBlocksFieldNumber">
+  ExtraMessageBlocksFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtraMessageBlocksFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessagesFieldNumber">
+  ExtraMessagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtraMessagesFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_GcSocacheFileVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.GcSocacheFileVersionFieldNumber">
+  GcSocacheFileVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GcSocacheFileVersionFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_IsPerfectWorldTestAccountFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.IsPerfectWorldTestAccountFieldNumber">
+  IsPerfectWorldTestAccountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsPerfectWorldTestAccountFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_LastIpAddressFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.LastIpAddressFieldNumber">
+  LastIpAddressFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastIpAddressFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MinimumRecentItemIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MinimumRecentItemIdFieldNumber">
+  MinimumRecentItemIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MinimumRecentItemIdFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_PartySearchFriendInvitesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.PartySearchFriendInvitesFieldNumber">
+  PartySearchFriendInvitesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartySearchFriendInvitesFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ProfilePrivateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ProfilePrivateFieldNumber">
+  ProfilePrivateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ProfilePrivateFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_RemainingPlaytimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.RemainingPlaytimeFieldNumber">
+  RemainingPlaytimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RemainingPlaytimeFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ShouldRequestPlayerOriginFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ShouldRequestPlayerOriginFieldNumber">
+  ShouldRequestPlayerOriginFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ShouldRequestPlayerOriginFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_StoreItemHashFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.StoreItemHashFieldNumber">
+  StoreItemHashFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StoreItemHashFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_TimeplayedconsecutivelyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.TimeplayedconsecutivelyFieldNumber">
+  TimeplayedconsecutivelyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimeplayedconsecutivelyFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEvent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEvent" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEvent">
+  ActiveEvent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EEvent ActiveEvent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.EEvent.html">EEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEventForDisplay_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEventForDisplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ActiveEventForDisplay" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ActiveEventForDisplay">
+  ActiveEventForDisplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EEvent ActiveEventForDisplay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.EEvent.html">EEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_AdditionalUserMessage_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.AdditionalUserMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_AdditionalUserMessage" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.AdditionalUserMessage">
+  AdditionalUserMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AdditionalUserMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Allow3RdPartyMatchHistory_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Allow3RdPartyMatchHistory*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Allow3RdPartyMatchHistory" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Allow3RdPartyMatchHistory">
+  Allow3RdPartyMatchHistory
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Allow3RdPartyMatchHistory { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Currency_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Currency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Currency" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Currency">
+  Currency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CustomGameWhitelistVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CustomGameWhitelistVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CustomGameWhitelistVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CustomGameWhitelistVersion">
+  CustomGameWhitelistVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomGameWhitelistVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_DisableGuildPersonaInfo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.DisableGuildPersonaInfo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_DisableGuildPersonaInfo" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.DisableGuildPersonaInfo">
+  DisableGuildPersonaInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisableGuildPersonaInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessageBlocks_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessageBlocks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessageBlocks" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessageBlocks">
+  ExtraMessageBlocks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CExtraMsgBlock&gt; ExtraMessageBlocks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CExtraMsgBlock.html">CExtraMsgBlock</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessages_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ExtraMessages" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ExtraMessages">
+  ExtraMessages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgDOTAWelcome.Types.CExtraMsg&gt; ExtraMessages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Types.CExtraMsg.html">CExtraMsg</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_GcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.GcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_GcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.GcSocacheFileVersion">
+  GcSocacheFileVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GcSocacheFileVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasActiveEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasActiveEvent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasActiveEvent" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasActiveEvent">
+  HasActiveEvent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActiveEvent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasActiveEventForDisplay_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasActiveEventForDisplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasActiveEventForDisplay" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasActiveEventForDisplay">
+  HasActiveEventForDisplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActiveEventForDisplay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasAdditionalUserMessage_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasAdditionalUserMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasAdditionalUserMessage" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasAdditionalUserMessage">
+  HasAdditionalUserMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAdditionalUserMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasAllow3RdPartyMatchHistory_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasAllow3RdPartyMatchHistory*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasAllow3RdPartyMatchHistory" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasAllow3RdPartyMatchHistory">
+  HasAllow3RdPartyMatchHistory
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAllow3RdPartyMatchHistory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasCurrency_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasCurrency" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasCurrency">
+  HasCurrency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCurrency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasCustomGameWhitelistVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasCustomGameWhitelistVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasCustomGameWhitelistVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasCustomGameWhitelistVersion">
+  HasCustomGameWhitelistVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomGameWhitelistVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasDisableGuildPersonaInfo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasDisableGuildPersonaInfo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasDisableGuildPersonaInfo" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasDisableGuildPersonaInfo">
+  HasDisableGuildPersonaInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDisableGuildPersonaInfo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasGcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasGcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasGcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasGcSocacheFileVersion">
+  HasGcSocacheFileVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGcSocacheFileVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasIsPerfectWorldTestAccount_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasIsPerfectWorldTestAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasIsPerfectWorldTestAccount" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasIsPerfectWorldTestAccount">
+  HasIsPerfectWorldTestAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsPerfectWorldTestAccount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasLastIpAddress_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasLastIpAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasLastIpAddress" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasLastIpAddress">
+  HasLastIpAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLastIpAddress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasMinimumRecentItemId_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasMinimumRecentItemId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasMinimumRecentItemId" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasMinimumRecentItemId">
+  HasMinimumRecentItemId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMinimumRecentItemId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasProfilePrivate_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasProfilePrivate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasProfilePrivate" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasProfilePrivate">
+  HasProfilePrivate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasProfilePrivate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasRemainingPlaytime_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasRemainingPlaytime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasRemainingPlaytime" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasRemainingPlaytime">
+  HasRemainingPlaytime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRemainingPlaytime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasShouldRequestPlayerOrigin_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasShouldRequestPlayerOrigin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasShouldRequestPlayerOrigin" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasShouldRequestPlayerOrigin">
+  HasShouldRequestPlayerOrigin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasShouldRequestPlayerOrigin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasStoreItemHash_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasStoreItemHash*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasStoreItemHash" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasStoreItemHash">
+  HasStoreItemHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStoreItemHash { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasTimeplayedconsecutively_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasTimeplayedconsecutively*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_HasTimeplayedconsecutively" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.HasTimeplayedconsecutively">
+  HasTimeplayedconsecutively
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimeplayedconsecutively { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_IsPerfectWorldTestAccount_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.IsPerfectWorldTestAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_IsPerfectWorldTestAccount" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.IsPerfectWorldTestAccount">
+  IsPerfectWorldTestAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPerfectWorldTestAccount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_LastIpAddress_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.LastIpAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_LastIpAddress" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.LastIpAddress">
+  LastIpAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LastIpAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MinimumRecentItemId_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MinimumRecentItemId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MinimumRecentItemId" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MinimumRecentItemId">
+  MinimumRecentItemId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong MinimumRecentItemId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Parser" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgDOTAWelcome&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_PartySearchFriendInvites_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.PartySearchFriendInvites*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_PartySearchFriendInvites" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.PartySearchFriendInvites">
+  PartySearchFriendInvites
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCToClientPartySearchInvites PartySearchFriendInvites { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPartySearchInvites.html">CMsgGCToClientPartySearchInvites</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ProfilePrivate_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ProfilePrivate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ProfilePrivate" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ProfilePrivate">
+  ProfilePrivate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProfilePrivate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_RemainingPlaytime_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.RemainingPlaytime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_RemainingPlaytime" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.RemainingPlaytime">
+  RemainingPlaytime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RemainingPlaytime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ShouldRequestPlayerOrigin_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ShouldRequestPlayerOrigin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ShouldRequestPlayerOrigin" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ShouldRequestPlayerOrigin">
+  ShouldRequestPlayerOrigin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldRequestPlayerOrigin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_StoreItemHash_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.StoreItemHash*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_StoreItemHash" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.StoreItemHash">
+  StoreItemHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint StoreItemHash { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Timeplayedconsecutively_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Timeplayedconsecutively*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Timeplayedconsecutively" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Timeplayedconsecutively">
+  Timeplayedconsecutively
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Timeplayedconsecutively { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearActiveEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearActiveEvent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearActiveEvent" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearActiveEvent">
+  ClearActiveEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActiveEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearActiveEventForDisplay_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearActiveEventForDisplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearActiveEventForDisplay" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearActiveEventForDisplay">
+  ClearActiveEventForDisplay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActiveEventForDisplay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearAdditionalUserMessage_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearAdditionalUserMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearAdditionalUserMessage" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearAdditionalUserMessage">
+  ClearAdditionalUserMessage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAdditionalUserMessage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearAllow3RdPartyMatchHistory_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearAllow3RdPartyMatchHistory*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearAllow3RdPartyMatchHistory" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearAllow3RdPartyMatchHistory">
+  ClearAllow3RdPartyMatchHistory()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAllow3RdPartyMatchHistory()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearCurrency_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearCurrency" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearCurrency">
+  ClearCurrency()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCurrency()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearCustomGameWhitelistVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearCustomGameWhitelistVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearCustomGameWhitelistVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearCustomGameWhitelistVersion">
+  ClearCustomGameWhitelistVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomGameWhitelistVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearDisableGuildPersonaInfo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearDisableGuildPersonaInfo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearDisableGuildPersonaInfo" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearDisableGuildPersonaInfo">
+  ClearDisableGuildPersonaInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDisableGuildPersonaInfo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearGcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearGcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearGcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearGcSocacheFileVersion">
+  ClearGcSocacheFileVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGcSocacheFileVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearIsPerfectWorldTestAccount_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearIsPerfectWorldTestAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearIsPerfectWorldTestAccount" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearIsPerfectWorldTestAccount">
+  ClearIsPerfectWorldTestAccount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsPerfectWorldTestAccount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearLastIpAddress_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearLastIpAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearLastIpAddress" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearLastIpAddress">
+  ClearLastIpAddress()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLastIpAddress()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearMinimumRecentItemId_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearMinimumRecentItemId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearMinimumRecentItemId" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearMinimumRecentItemId">
+  ClearMinimumRecentItemId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMinimumRecentItemId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearProfilePrivate_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearProfilePrivate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearProfilePrivate" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearProfilePrivate">
+  ClearProfilePrivate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearProfilePrivate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearRemainingPlaytime_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearRemainingPlaytime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearRemainingPlaytime" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearRemainingPlaytime">
+  ClearRemainingPlaytime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRemainingPlaytime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearShouldRequestPlayerOrigin_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearShouldRequestPlayerOrigin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearShouldRequestPlayerOrigin" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearShouldRequestPlayerOrigin">
+  ClearShouldRequestPlayerOrigin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearShouldRequestPlayerOrigin()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearStoreItemHash_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearStoreItemHash*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearStoreItemHash" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearStoreItemHash">
+  ClearStoreItemHash()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStoreItemHash()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearTimeplayedconsecutively_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearTimeplayedconsecutively*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ClearTimeplayedconsecutively" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ClearTimeplayedconsecutively">
+  ClearTimeplayedconsecutively()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimeplayedconsecutively()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Clone" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTAWelcome Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Equals_Divine_Protobufs_Dota2_CMsgDOTAWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Equals(Divine.Protobufs.Dota2.CMsgDOTAWelcome)">
+  Equals(CMsgDOTAWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgDOTAWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MergeFrom_Divine_Protobufs_Dota2_CMsgDOTAWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MergeFrom(Divine.Protobufs.Dota2.CMsgDOTAWelcome)">
+  MergeFrom(CMsgDOTAWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgDOTAWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAWelcome.html">CMsgDOTAWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_ToString" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTAWelcome_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDOTAWelcome.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

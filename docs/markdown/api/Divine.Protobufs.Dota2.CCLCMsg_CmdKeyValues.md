@@ -1,0 +1,216 @@
+# <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues"></a> Class CCLCMsg\_CmdKeyValues
+
+Namespace: [Divine.Protobufs.Dota2](Divine.Protobufs.Dota2.md)  
+Assembly: Divine.Protobufs.dll  
+
+```csharp
+public sealed class CCLCMsg_CmdKeyValues : IMessage<CCLCMsg_CmdKeyValues>, IEquatable<CCLCMsg_CmdKeyValues>, IDeepCloneable<CCLCMsg_CmdKeyValues>, IBufferMessage, IMessage
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)
+
+#### Implements
+
+IMessage<CCLCMsg\_CmdKeyValues\>, 
+[IEquatable<CCLCMsg\_CmdKeyValues\>](https://learn.microsoft.com/dotnet/api/system.iequatable\-1), 
+IDeepCloneable<CCLCMsg\_CmdKeyValues\>, 
+IBufferMessage, 
+IMessage
+
+#### Inherited Members
+
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode)
+
+#### Extension Methods
+
+[ObjectExtensions.Dump\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_Dump\_System\_Object\_System\_Boolean\_), 
+[ObjectExtensions.DumpToConsole\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToConsole\_System\_Object\_System\_Boolean\_), 
+[ObjectExtensions.DumpToLogDebug\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToLogDebug\_System\_Object\_System\_Boolean\_), 
+[EnumerableExtensions.In<CCLCMsg\_CmdKeyValues\>\(CCLCMsg\_CmdKeyValues, params CCLCMsg\_CmdKeyValues\[\]\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_In\_\_1\_\_\_0\_\_\_0\_\_\_)
+
+## Constructors
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues__ctor"></a> CCLCMsg\_CmdKeyValues\(\)
+
+```csharp
+public CCLCMsg_CmdKeyValues()
+```
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues__ctor_Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_"></a> CCLCMsg\_CmdKeyValues\(CCLCMsg\_CmdKeyValues\)
+
+```csharp
+public CCLCMsg_CmdKeyValues(CCLCMsg_CmdKeyValues other)
+```
+
+#### Parameters
+
+`other` [CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)
+
+## Fields
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_DataFieldNumber"></a> DataFieldNumber
+
+```csharp
+public const int DataFieldNumber = 1
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Properties
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Data"></a> Data
+
+```csharp
+public ByteString Data { get; set; }
+```
+
+#### Property Value
+
+ ByteString
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Descriptor"></a> Descriptor
+
+```csharp
+public static MessageDescriptor Descriptor { get; }
+```
+
+#### Property Value
+
+ MessageDescriptor
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_HasData"></a> HasData
+
+```csharp
+public bool HasData { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Parser"></a> Parser
+
+```csharp
+public static MessageParser<CCLCMsg_CmdKeyValues> Parser { get; }
+```
+
+#### Property Value
+
+ MessageParser<[CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)\>
+
+## Methods
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_CalculateSize"></a> CalculateSize\(\)
+
+```csharp
+public int CalculateSize()
+```
+
+#### Returns
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_ClearData"></a> ClearData\(\)
+
+```csharp
+public void ClearData()
+```
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Clone"></a> Clone\(\)
+
+```csharp
+public CCLCMsg_CmdKeyValues Clone()
+```
+
+#### Returns
+
+ [CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Equals_System_Object_"></a> Equals\(object\)
+
+```csharp
+public override bool Equals(object other)
+```
+
+#### Parameters
+
+`other` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_Equals_Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_"></a> Equals\(CCLCMsg\_CmdKeyValues\)
+
+```csharp
+public bool Equals(CCLCMsg_CmdKeyValues other)
+```
+
+#### Parameters
+
+`other` [CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_GetHashCode"></a> GetHashCode\(\)
+
+```csharp
+public override int GetHashCode()
+```
+
+#### Returns
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_MergeFrom_Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_"></a> MergeFrom\(CCLCMsg\_CmdKeyValues\)
+
+```csharp
+public void MergeFrom(CCLCMsg_CmdKeyValues other)
+```
+
+#### Parameters
+
+`other` [CCLCMsg\_CmdKeyValues](Divine.Protobufs.Dota2.CCLCMsg\_CmdKeyValues.md)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_MergeFrom_Google_Protobuf_CodedInputStream_"></a> MergeFrom\(CodedInputStream\)
+
+```csharp
+public void MergeFrom(CodedInputStream input)
+```
+
+#### Parameters
+
+`input` CodedInputStream
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_ToString"></a> ToString\(\)
+
+```csharp
+public override string ToString()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Divine_Protobufs_Dota2_CCLCMsg_CmdKeyValues_WriteTo_Google_Protobuf_CodedOutputStream_"></a> WriteTo\(CodedOutputStream\)
+
+```csharp
+public void WriteTo(CodedOutputStream output)
+```
+
+#### Parameters
+
+`output` CodedOutputStream
+

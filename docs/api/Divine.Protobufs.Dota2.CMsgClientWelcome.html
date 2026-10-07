@@ -1,0 +1,2216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgClientWelcome | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgClientWelcome | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgClientWelcome" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome" class="text-break">
+Class CMsgClientWelcome  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgClientWelcome : IMessage&lt;CMsgClientWelcome&gt;, IEquatable&lt;CMsgClientWelcome&gt;, IDeepCloneable&lt;CMsgClientWelcome&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgClientWelcome</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome__ctor" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.#ctor">
+  CMsgClientWelcome()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgClientWelcome()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome__ctor_Divine_Protobufs_Dota2_CMsgClientWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.#ctor(Divine.Protobufs.Dota2.CMsgClientWelcome)">
+  CMsgClientWelcome(CMsgClientWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgClientWelcome(CMsgClientWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_AdditionalWelcomeMsgsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.AdditionalWelcomeMsgsFieldNumber">
+  AdditionalWelcomeMsgsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AdditionalWelcomeMsgsFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_BalanceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.BalanceFieldNumber">
+  BalanceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BalanceFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_BalanceUrlFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.BalanceUrlFieldNumber">
+  BalanceUrlFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BalanceUrlFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_CurrencyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.CurrencyFieldNumber">
+  CurrencyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CurrencyFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameData2FieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameData2FieldNumber">
+  GameData2FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameData2FieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameDataFieldNumber">
+  GameDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameDataFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GcSocacheFileVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GcSocacheFileVersionFieldNumber">
+  GcSocacheFileVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GcSocacheFileVersionFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasAcceptedChinaSsaFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasAcceptedChinaSsaFieldNumber">
+  HasAcceptedChinaSsaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasAcceptedChinaSsaFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_IsBannedSteamChinaFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.IsBannedSteamChinaFieldNumber">
+  IsBannedSteamChinaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsBannedSteamChinaFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_LocationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.LocationFieldNumber">
+  LocationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LocationFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_OutofdateSubscribedCachesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.OutofdateSubscribedCachesFieldNumber">
+  OutofdateSubscribedCachesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OutofdateSubscribedCachesFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Rtime32GcWelcomeTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Rtime32GcWelcomeTimestampFieldNumber">
+  Rtime32GcWelcomeTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Rtime32GcWelcomeTimestampFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_SteamLearnServerInfoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.SteamLearnServerInfoFieldNumber">
+  SteamLearnServerInfoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SteamLearnServerInfoFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_TxnCountryCodeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.TxnCountryCodeFieldNumber">
+  TxnCountryCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TxnCountryCodeFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_UptodateSubscribedCachesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.UptodateSubscribedCachesFieldNumber">
+  UptodateSubscribedCachesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UptodateSubscribedCachesFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_VersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.VersionFieldNumber">
+  VersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VersionFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_AdditionalWelcomeMsgs_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.AdditionalWelcomeMsgs*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_AdditionalWelcomeMsgs" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.AdditionalWelcomeMsgs">
+  AdditionalWelcomeMsgs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CExtraMsgBlock AdditionalWelcomeMsgs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CExtraMsgBlock.html">CExtraMsgBlock</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Balance_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Balance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Balance" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Balance">
+  Balance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Balance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_BalanceUrl_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.BalanceUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_BalanceUrl" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.BalanceUrl">
+  BalanceUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BalanceUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Currency_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Currency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Currency" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Currency">
+  Currency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameData_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameData" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameData">
+  GameData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString GameData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameData2_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameData2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GameData2" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GameData2">
+  GameData2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString GameData2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_GcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GcSocacheFileVersion">
+  GcSocacheFileVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GcSocacheFileVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasAcceptedChinaSsa" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasAcceptedChinaSsa">
+  HasAcceptedChinaSsa
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAcceptedChinaSsa { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasBalance_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasBalance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasBalance" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasBalance">
+  HasBalance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBalance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasBalanceUrl_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasBalanceUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasBalanceUrl" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasBalanceUrl">
+  HasBalanceUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBalanceUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasCurrency_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasCurrency" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasCurrency">
+  HasCurrency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCurrency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGameData_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGameData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGameData" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGameData">
+  HasGameData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGameData2_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGameData2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGameData2" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGameData2">
+  HasGameData2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameData2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasGcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasGcSocacheFileVersion">
+  HasGcSocacheFileVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGcSocacheFileVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasHasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasHasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasHasAcceptedChinaSsa" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasHasAcceptedChinaSsa">
+  HasHasAcceptedChinaSsa
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasAcceptedChinaSsa { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasIsBannedSteamChina_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasIsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasIsBannedSteamChina" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasIsBannedSteamChina">
+  HasIsBannedSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsBannedSteamChina { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasRtime32GcWelcomeTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasRtime32GcWelcomeTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasRtime32GcWelcomeTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasRtime32GcWelcomeTimestamp">
+  HasRtime32GcWelcomeTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRtime32GcWelcomeTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasTxnCountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasTxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasTxnCountryCode" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasTxnCountryCode">
+  HasTxnCountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTxnCountryCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasVersion_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_HasVersion" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.HasVersion">
+  HasVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_IsBannedSteamChina_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.IsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_IsBannedSteamChina" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.IsBannedSteamChina">
+  IsBannedSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBannedSteamChina { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Location_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Location*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Location" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Location">
+  Location
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgClientWelcome.Types.Location Location { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.Types.Location.html">Location</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_OutofdateSubscribedCaches_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.OutofdateSubscribedCaches*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_OutofdateSubscribedCaches" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.OutofdateSubscribedCaches">
+  OutofdateSubscribedCaches
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgSOCacheSubscribed&gt; OutofdateSubscribedCaches { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSOCacheSubscribed.html">CMsgSOCacheSubscribed</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Parser" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgClientWelcome&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Rtime32GcWelcomeTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Rtime32GcWelcomeTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Rtime32GcWelcomeTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Rtime32GcWelcomeTimestamp">
+  Rtime32GcWelcomeTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Rtime32GcWelcomeTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_SteamLearnServerInfo_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.SteamLearnServerInfo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_SteamLearnServerInfo" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.SteamLearnServerInfo">
+  SteamLearnServerInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamLearnServerInfo SteamLearnServerInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnServerInfo.html">CMsgSteamLearnServerInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_TxnCountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.TxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_TxnCountryCode" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.TxnCountryCode">
+  TxnCountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TxnCountryCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_UptodateSubscribedCaches_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.UptodateSubscribedCaches*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_UptodateSubscribedCaches" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.UptodateSubscribedCaches">
+  UptodateSubscribedCaches
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgSOCacheSubscriptionCheck&gt; UptodateSubscribedCaches { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSOCacheSubscriptionCheck.html">CMsgSOCacheSubscriptionCheck</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Version_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Version*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Version" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Version">
+  Version
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearBalance_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearBalance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearBalance" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearBalance">
+  ClearBalance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBalance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearBalanceUrl_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearBalanceUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearBalanceUrl" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearBalanceUrl">
+  ClearBalanceUrl()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBalanceUrl()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearCurrency_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearCurrency" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearCurrency">
+  ClearCurrency()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCurrency()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGameData_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGameData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGameData" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGameData">
+  ClearGameData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGameData2_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGameData2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGameData2" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGameData2">
+  ClearGameData2()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameData2()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGcSocacheFileVersion_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGcSocacheFileVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearGcSocacheFileVersion" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearGcSocacheFileVersion">
+  ClearGcSocacheFileVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGcSocacheFileVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearHasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearHasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearHasAcceptedChinaSsa" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearHasAcceptedChinaSsa">
+  ClearHasAcceptedChinaSsa()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasAcceptedChinaSsa()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearIsBannedSteamChina_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearIsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearIsBannedSteamChina" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearIsBannedSteamChina">
+  ClearIsBannedSteamChina()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsBannedSteamChina()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearRtime32GcWelcomeTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearRtime32GcWelcomeTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearRtime32GcWelcomeTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearRtime32GcWelcomeTimestamp">
+  ClearRtime32GcWelcomeTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRtime32GcWelcomeTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearTxnCountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearTxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearTxnCountryCode" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearTxnCountryCode">
+  ClearTxnCountryCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTxnCountryCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearVersion_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ClearVersion" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ClearVersion">
+  ClearVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Clone" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgClientWelcome Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Equals_Divine_Protobufs_Dota2_CMsgClientWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Equals(Divine.Protobufs.Dota2.CMsgClientWelcome)">
+  Equals(CMsgClientWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgClientWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_MergeFrom_Divine_Protobufs_Dota2_CMsgClientWelcome_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.MergeFrom(Divine.Protobufs.Dota2.CMsgClientWelcome)">
+  MergeFrom(CMsgClientWelcome)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgClientWelcome other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgClientWelcome.html">CMsgClientWelcome</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_ToString" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgClientWelcome_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgClientWelcome_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgClientWelcome.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

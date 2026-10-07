@@ -1,0 +1,2745 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamDatagramConnectionClosed | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamDatagramConnectionClosed | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed" class="text-break">
+Class CMsgSteamDatagramConnectionClosed  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamDatagramConnectionClosed : IMessage&lt;CMsgSteamDatagramConnectionClosed&gt;, IEquatable&lt;CMsgSteamDatagramConnectionClosed&gt;, IDeepCloneable&lt;CMsgSteamDatagramConnectionClosed&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamDatagramConnectionClosed</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed__ctor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.#ctor">
+  CMsgSteamDatagramConnectionClosed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionClosed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed__ctor_Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.#ctor(Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed)">
+  CMsgSteamDatagramConnectionClosed(CMsgSteamDatagramConnectionClosed)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionClosed(CMsgSteamDatagramConnectionClosed other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_DebugFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.DebugFieldNumber">
+  DebugFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DebugFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRelayRoutingTokenFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRelayRoutingTokenFieldNumber">
+  ForwardTargetRelayRoutingTokenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ForwardTargetRelayRoutingTokenFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRevisionFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRevisionFieldNumber">
+  ForwardTargetRevisionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ForwardTargetRevisionFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromConnectionIdFieldNumber">
+  FromConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FromConnectionIdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromIdentityStringFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromIdentityStringFieldNumber">
+  FromIdentityStringFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FromIdentityStringFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromRelaySessionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromRelaySessionIdFieldNumber">
+  FromRelaySessionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FromRelaySessionIdFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromIdentityBinaryFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromIdentityBinaryFieldNumber">
+  LegacyFromIdentityBinaryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyFromIdentityBinaryFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromSteamIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromSteamIdFieldNumber">
+  LegacyFromSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyFromSteamIdFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyGameserverRelaySessionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyGameserverRelaySessionIdFieldNumber">
+  LegacyGameserverRelaySessionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyGameserverRelaySessionIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimarySessionFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimarySessionFieldNumber">
+  NotPrimarySessionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NotPrimarySessionFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimaryTransportFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimaryTransportFieldNumber">
+  NotPrimaryTransportFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NotPrimaryTransportFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_P2PRoutingSummaryFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.P2PRoutingSummaryFieldNumber">
+  P2PRoutingSummaryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int P2PRoutingSummaryFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityE2EFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityE2EFieldNumber">
+  QualityE2EFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int QualityE2EFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityRelayFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityRelayFieldNumber">
+  QualityRelayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int QualityRelayFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ReasonCodeFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ReasonCodeFieldNumber">
+  ReasonCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReasonCodeFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayModeFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayModeFieldNumber">
+  RelayModeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelayModeFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayOverrideActiveFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayOverrideActiveFieldNumber">
+  RelayOverrideActiveFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelayOverrideActiveFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RoutingSecretFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RoutingSecretFieldNumber">
+  RoutingSecretFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoutingSecretFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToConnectionIdFieldNumber">
+  ToConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ToConnectionIdFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToRelaySessionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToRelaySessionIdFieldNumber">
+  ToRelaySessionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ToRelaySessionIdFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Debug_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Debug*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Debug" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Debug">
+  Debug
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Debug { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRelayRoutingToken_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRelayRoutingToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRelayRoutingToken" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRelayRoutingToken">
+  ForwardTargetRelayRoutingToken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString ForwardTargetRelayRoutingToken { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ForwardTargetRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ForwardTargetRevision">
+  ForwardTargetRevision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ForwardTargetRevision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromConnectionId">
+  FromConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FromConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromIdentityString">
+  FromIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FromIdentityString { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_FromRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.FromRelaySessionId">
+  FromRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FromRelaySessionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasDebug_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasDebug*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasDebug" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasDebug">
+  HasDebug
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDebug { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasForwardTargetRelayRoutingToken_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasForwardTargetRelayRoutingToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasForwardTargetRelayRoutingToken" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasForwardTargetRelayRoutingToken">
+  HasForwardTargetRelayRoutingToken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasForwardTargetRelayRoutingToken { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasForwardTargetRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasForwardTargetRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasForwardTargetRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasForwardTargetRevision">
+  HasForwardTargetRevision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasForwardTargetRevision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromConnectionId">
+  HasFromConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFromConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromIdentityString">
+  HasFromIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFromIdentityString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasFromRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasFromRelaySessionId">
+  HasFromRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFromRelaySessionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasLegacyFromSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasLegacyFromSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasLegacyFromSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasLegacyFromSteamId">
+  HasLegacyFromSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyFromSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasLegacyGameserverRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasLegacyGameserverRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasLegacyGameserverRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasLegacyGameserverRelaySessionId">
+  HasLegacyGameserverRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyGameserverRelaySessionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasNotPrimarySession_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasNotPrimarySession*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasNotPrimarySession" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasNotPrimarySession">
+  HasNotPrimarySession
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNotPrimarySession { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasNotPrimaryTransport_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasNotPrimaryTransport*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasNotPrimaryTransport" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasNotPrimaryTransport">
+  HasNotPrimaryTransport
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNotPrimaryTransport { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasReasonCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasReasonCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasReasonCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasReasonCode">
+  HasReasonCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReasonCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRelayMode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRelayMode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRelayMode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRelayMode">
+  HasRelayMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelayMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRelayOverrideActive_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRelayOverrideActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRelayOverrideActive" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRelayOverrideActive">
+  HasRelayOverrideActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelayOverrideActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRoutingSecret_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRoutingSecret*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasRoutingSecret" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasRoutingSecret">
+  HasRoutingSecret
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRoutingSecret { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasToConnectionId">
+  HasToConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasToConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasToRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasToRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_HasToRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.HasToRelaySessionId">
+  HasToRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasToRelaySessionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromIdentityBinary">
+  LegacyFromIdentityBinary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingIdentityLegacyBinary LegacyFromIdentityBinary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingIdentityLegacyBinary.html">CMsgSteamNetworkingIdentityLegacyBinary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyFromSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyFromSteamId">
+  LegacyFromSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong LegacyFromSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyGameserverRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyGameserverRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_LegacyGameserverRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.LegacyGameserverRelaySessionId">
+  LegacyGameserverRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LegacyGameserverRelaySessionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimarySession_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimarySession*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimarySession" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimarySession">
+  NotPrimarySession
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NotPrimarySession { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimaryTransport_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimaryTransport*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_NotPrimaryTransport" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.NotPrimaryTransport">
+  NotPrimaryTransport
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NotPrimaryTransport { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_P2PRoutingSummary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.P2PRoutingSummary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_P2PRoutingSummary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.P2PRoutingSummary">
+  P2PRoutingSummary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramP2PRoutingSummary P2PRoutingSummary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramP2PRoutingSummary.html">CMsgSteamDatagramP2PRoutingSummary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Parser_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Parser" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamDatagramConnectionClosed&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityE2E_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityE2E*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityE2E" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityE2E">
+  QualityE2E
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality QualityE2E { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityRelay_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityRelay*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_QualityRelay" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.QualityRelay">
+  QualityRelay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality QualityRelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ReasonCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ReasonCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ReasonCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ReasonCode">
+  ReasonCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReasonCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayMode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayMode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayMode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayMode">
+  RelayMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionClosed.Types.ERelayMode RelayMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Types.ERelayMode.html">ERelayMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayOverrideActive_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayOverrideActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RelayOverrideActive" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RelayOverrideActive">
+  RelayOverrideActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RelayOverrideActive { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RoutingSecret_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RoutingSecret*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_RoutingSecret" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.RoutingSecret">
+  RoutingSecret
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RoutingSecret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToConnectionId">
+  ToConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ToConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToRelaySessionId">
+  ToRelaySessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ToRelaySessionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearDebug_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearDebug*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearDebug" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearDebug">
+  ClearDebug()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDebug()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearForwardTargetRelayRoutingToken_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearForwardTargetRelayRoutingToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearForwardTargetRelayRoutingToken" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearForwardTargetRelayRoutingToken">
+  ClearForwardTargetRelayRoutingToken()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearForwardTargetRelayRoutingToken()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearForwardTargetRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearForwardTargetRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearForwardTargetRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearForwardTargetRevision">
+  ClearForwardTargetRevision()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearForwardTargetRevision()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromConnectionId">
+  ClearFromConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFromConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromIdentityString">
+  ClearFromIdentityString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFromIdentityString()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearFromRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearFromRelaySessionId">
+  ClearFromRelaySessionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFromRelaySessionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearLegacyFromSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearLegacyFromSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearLegacyFromSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearLegacyFromSteamId">
+  ClearLegacyFromSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyFromSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearLegacyGameserverRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearLegacyGameserverRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearLegacyGameserverRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearLegacyGameserverRelaySessionId">
+  ClearLegacyGameserverRelaySessionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyGameserverRelaySessionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearNotPrimarySession_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearNotPrimarySession*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearNotPrimarySession" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearNotPrimarySession">
+  ClearNotPrimarySession()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNotPrimarySession()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearNotPrimaryTransport_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearNotPrimaryTransport*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearNotPrimaryTransport" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearNotPrimaryTransport">
+  ClearNotPrimaryTransport()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNotPrimaryTransport()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearReasonCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearReasonCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearReasonCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearReasonCode">
+  ClearReasonCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReasonCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRelayMode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRelayMode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRelayMode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRelayMode">
+  ClearRelayMode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelayMode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRelayOverrideActive_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRelayOverrideActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRelayOverrideActive" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRelayOverrideActive">
+  ClearRelayOverrideActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelayOverrideActive()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRoutingSecret_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRoutingSecret*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearRoutingSecret" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearRoutingSecret">
+  ClearRoutingSecret()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRoutingSecret()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearToConnectionId">
+  ClearToConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearToConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearToRelaySessionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearToRelaySessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ClearToRelaySessionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ClearToRelaySessionId">
+  ClearToRelaySessionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearToRelaySessionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Clone_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Clone" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionClosed Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Equals_Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Equals(Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed)">
+  Equals(CMsgSteamDatagramConnectionClosed)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamDatagramConnectionClosed other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_MergeFrom_Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.MergeFrom(Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed)">
+  MergeFrom(CMsgSteamDatagramConnectionClosed)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamDatagramConnectionClosed other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.html">CMsgSteamDatagramConnectionClosed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_ToString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramConnectionClosed_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

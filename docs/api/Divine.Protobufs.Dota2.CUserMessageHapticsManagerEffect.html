@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CUserMessageHapticsManagerEffect | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CUserMessageHapticsManagerEffect | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect" class="text-break">
+Class CUserMessageHapticsManagerEffect  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CUserMessageHapticsManagerEffect : IMessage&lt;CUserMessageHapticsManagerEffect&gt;, IEquatable&lt;CUserMessageHapticsManagerEffect&gt;, IDeepCloneable&lt;CUserMessageHapticsManagerEffect&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CUserMessageHapticsManagerEffect</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect__ctor" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.#ctor">
+  CUserMessageHapticsManagerEffect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessageHapticsManagerEffect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect__ctor_Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.#ctor(Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect)">
+  CUserMessageHapticsManagerEffect(CUserMessageHapticsManagerEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessageHapticsManagerEffect(CUserMessageHapticsManagerEffect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectNameHashCodeFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectNameHashCodeFieldNumber">
+  EffectNameHashCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EffectNameHashCodeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectScaleFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectScaleFieldNumber">
+  EffectScaleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EffectScaleFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HandIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HandIdFieldNumber">
+  HandIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HandIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Descriptor_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Descriptor" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectNameHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectNameHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectNameHashCode" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectNameHashCode">
+  EffectNameHashCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint EffectNameHashCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectScale_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_EffectScale" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.EffectScale">
+  EffectScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EffectScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HandId_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HandId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HandId" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HandId">
+  HandId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HandId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasEffectNameHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasEffectNameHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasEffectNameHashCode" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasEffectNameHashCode">
+  HasEffectNameHashCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEffectNameHashCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasEffectScale_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasEffectScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasEffectScale" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasEffectScale">
+  HasEffectScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEffectScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasHandId_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasHandId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_HasHandId" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.HasHandId">
+  HasHandId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHandId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Parser_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Parser" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CUserMessageHapticsManagerEffect&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_CalculateSize" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearEffectNameHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearEffectNameHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearEffectNameHashCode" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearEffectNameHashCode">
+  ClearEffectNameHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEffectNameHashCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearEffectScale_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearEffectScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearEffectScale" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearEffectScale">
+  ClearEffectScale()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEffectScale()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearHandId_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearHandId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ClearHandId" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ClearHandId">
+  ClearHandId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHandId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Clone_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Clone" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessageHapticsManagerEffect Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Equals_Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Equals(Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect)">
+  Equals(CUserMessageHapticsManagerEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CUserMessageHapticsManagerEffect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_GetHashCode" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_MergeFrom_Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.MergeFrom(Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect)">
+  MergeFrom(CUserMessageHapticsManagerEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CUserMessageHapticsManagerEffect other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.html">CUserMessageHapticsManagerEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ToString_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_ToString" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_WriteTo_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessageHapticsManagerEffect_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CUserMessageHapticsManagerEffect.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

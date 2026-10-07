@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgItemBattlerPlayerData | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgItemBattlerPlayerData | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData" class="text-break">
+Class CMsgItemBattlerPlayerData  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgItemBattlerPlayerData : IMessage&lt;CMsgItemBattlerPlayerData&gt;, IEquatable&lt;CMsgItemBattlerPlayerData&gt;, IDeepCloneable&lt;CMsgItemBattlerPlayerData&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgItemBattlerPlayerData</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData__ctor" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.#ctor">
+  CMsgItemBattlerPlayerData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgItemBattlerPlayerData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData__ctor_Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.#ctor(Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData)">
+  CMsgItemBattlerPlayerData(CMsgItemBattlerPlayerData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgItemBattlerPlayerData(CMsgItemBattlerPlayerData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_AbilitiesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.AbilitiesFieldNumber">
+  AbilitiesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbilitiesFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_AccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.AccountIdFieldNumber">
+  AccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BaseMaxHealthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BaseMaxHealthFieldNumber">
+  BaseMaxHealthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BaseMaxHealthFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BoardFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BoardFieldNumber">
+  BoardFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BoardFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BonusMaxHealthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BonusMaxHealthFieldNumber">
+  BonusMaxHealthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BonusMaxHealthFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ExperienceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ExperienceFieldNumber">
+  ExperienceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExperienceFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_GoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.GoldFieldNumber">
+  GoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GoldFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HeroIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HeroIdFieldNumber">
+  HeroIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_IncomeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.IncomeFieldNumber">
+  IncomeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IncomeFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_LevelFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.LevelFieldNumber">
+  LevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LevelFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_LossesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.LossesFieldNumber">
+  LossesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LossesFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MonsterIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MonsterIdFieldNumber">
+  MonsterIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MonsterIdFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_PrestigeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.PrestigeFieldNumber">
+  PrestigeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PrestigeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_SkillsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.SkillsFieldNumber">
+  SkillsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SkillsFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_WinsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.WinsFieldNumber">
+  WinsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WinsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Abilities_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Abilities*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Abilities" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Abilities">
+  Abilities
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgItemBattlerItemContainer Abilities { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerItemContainer.html">CMsgItemBattlerItemContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_AccountId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.AccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_AccountId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.AccountId">
+  AccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BaseMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BaseMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BaseMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BaseMaxHealth">
+  BaseMaxHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BaseMaxHealth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Board_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Board*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Board" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Board">
+  Board
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgItemBattlerItemContainer Board { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerItemContainer.html">CMsgItemBattlerItemContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BonusMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BonusMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_BonusMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.BonusMaxHealth">
+  BonusMaxHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BonusMaxHealth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Experience_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Experience*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Experience" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Experience">
+  Experience
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Experience { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Gold_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Gold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Gold" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Gold">
+  Gold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Gold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasAccountId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasAccountId">
+  HasAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasBaseMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasBaseMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasBaseMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasBaseMaxHealth">
+  HasBaseMaxHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBaseMaxHealth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasBonusMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasBonusMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasBonusMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasBonusMaxHealth">
+  HasBonusMaxHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBonusMaxHealth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasExperience_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasExperience*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasExperience" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasExperience">
+  HasExperience
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExperience { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasGold_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasGold" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasGold">
+  HasGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasHeroId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasHeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasHeroId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasHeroId">
+  HasHeroId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasIncome_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasIncome*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasIncome" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasIncome">
+  HasIncome
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIncome { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasLevel_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasLevel" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasLevel">
+  HasLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasLosses_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasLosses*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasLosses" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasLosses">
+  HasLosses
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLosses { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasMonsterId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasMonsterId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasMonsterId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasMonsterId">
+  HasMonsterId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMonsterId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasPrestige_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasPrestige*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasPrestige" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasPrestige">
+  HasPrestige
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPrestige { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasWins_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasWins*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HasWins" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HasWins">
+  HasWins
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWins { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HeroId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_HeroId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.HeroId">
+  HeroId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HeroId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Income_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Income*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Income" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Income">
+  Income
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Income { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Level_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Level*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Level" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Level">
+  Level
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Level { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Losses_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Losses*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Losses" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Losses">
+  Losses
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Losses { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MonsterId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MonsterId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MonsterId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MonsterId">
+  MonsterId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MonsterId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Parser" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgItemBattlerPlayerData&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Prestige_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Prestige*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Prestige" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Prestige">
+  Prestige
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Prestige { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Skills_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Skills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Skills" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Skills">
+  Skills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; Skills { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Wins_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Wins*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Wins" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Wins">
+  Wins
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Wins { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearAccountId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearAccountId">
+  ClearAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearBaseMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearBaseMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearBaseMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearBaseMaxHealth">
+  ClearBaseMaxHealth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBaseMaxHealth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearBonusMaxHealth_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearBonusMaxHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearBonusMaxHealth" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearBonusMaxHealth">
+  ClearBonusMaxHealth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBonusMaxHealth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearExperience_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearExperience*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearExperience" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearExperience">
+  ClearExperience()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExperience()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearGold_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearGold" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearGold">
+  ClearGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearHeroId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearHeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearHeroId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearHeroId">
+  ClearHeroId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearIncome_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearIncome*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearIncome" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearIncome">
+  ClearIncome()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIncome()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearLevel_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearLevel" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearLevel">
+  ClearLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearLosses_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearLosses*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearLosses" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearLosses">
+  ClearLosses()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLosses()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearMonsterId_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearMonsterId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearMonsterId" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearMonsterId">
+  ClearMonsterId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMonsterId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearPrestige_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearPrestige*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearPrestige" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearPrestige">
+  ClearPrestige()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPrestige()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearWins_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearWins*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ClearWins" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ClearWins">
+  ClearWins()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWins()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Clone" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgItemBattlerPlayerData Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Equals_Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Equals(Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData)">
+  Equals(CMsgItemBattlerPlayerData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgItemBattlerPlayerData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MergeFrom_Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MergeFrom(Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData)">
+  MergeFrom(CMsgItemBattlerPlayerData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgItemBattlerPlayerData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.html">CMsgItemBattlerPlayerData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_ToString" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgItemBattlerPlayerData_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgItemBattlerPlayerData.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

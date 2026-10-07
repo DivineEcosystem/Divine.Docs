@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamDatagramGameserverSessionRequest | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamDatagramGameserverSessionRequest | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest" class="text-break">
+Class CMsgSteamDatagramGameserverSessionRequest  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamDatagramGameserverSessionRequest : IMessage&lt;CMsgSteamDatagramGameserverSessionRequest&gt;, IEquatable&lt;CMsgSteamDatagramGameserverSessionRequest&gt;, IDeepCloneable&lt;CMsgSteamDatagramGameserverSessionRequest&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamDatagramGameserverSessionRequest</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest__ctor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.#ctor">
+  CMsgSteamDatagramGameserverSessionRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramGameserverSessionRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest__ctor_Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.#ctor(Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest)">
+  CMsgSteamDatagramGameserverSessionRequest(CMsgSteamDatagramGameserverSessionRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramGameserverSessionRequest(CMsgSteamDatagramGameserverSessionRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_BuildFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.BuildFieldNumber">
+  BuildFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BuildFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ChallengeFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ChallengeFieldNumber">
+  ChallengeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ChallengeFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ChallengeTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ChallengeTimeFieldNumber">
+  ChallengeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ChallengeTimeFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClientConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClientConnectionIdFieldNumber">
+  ClientConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientConnectionIdFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevClientCertFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevClientCertFieldNumber">
+  DevClientCertFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DevClientCertFieldNumber = 101</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevGameserverIdentityFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevGameserverIdentityFieldNumber">
+  DevGameserverIdentityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DevGameserverIdentityFieldNumber = 100</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_NetworkConfigVersionFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.NetworkConfigVersionFieldNumber">
+  NetworkConfigVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NetworkConfigVersionFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_PlatformFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.PlatformFieldNumber">
+  PlatformFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlatformFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ProtocolVersionFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ProtocolVersionFieldNumber">
+  ProtocolVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ProtocolVersionFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ServerConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ServerConnectionIdFieldNumber">
+  ServerConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerConnectionIdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_TicketFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.TicketFieldNumber">
+  TicketFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TicketFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Build_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Build*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Build" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Build">
+  Build
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Build { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Challenge_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Challenge*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Challenge" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Challenge">
+  Challenge
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Challenge { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ChallengeTime_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ChallengeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ChallengeTime" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ChallengeTime">
+  ChallengeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ChallengeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClientConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClientConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClientConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClientConnectionId">
+  ClientConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ClientConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevClientCert_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevClientCert*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevClientCert" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevClientCert">
+  DevClientCert
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramCertificateSigned DevClientCert { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramCertificateSigned.html">CMsgSteamDatagramCertificateSigned</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevGameserverIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevGameserverIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_DevGameserverIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.DevGameserverIdentity">
+  DevGameserverIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DevGameserverIdentity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasBuild_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasBuild*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasBuild" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasBuild">
+  HasBuild
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuild { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasChallenge_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasChallenge*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasChallenge" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasChallenge">
+  HasChallenge
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChallenge { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasChallengeTime_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasChallengeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasChallengeTime" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasChallengeTime">
+  HasChallengeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChallengeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasClientConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasClientConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasClientConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasClientConnectionId">
+  HasClientConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasDevGameserverIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasDevGameserverIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasDevGameserverIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasDevGameserverIdentity">
+  HasDevGameserverIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDevGameserverIdentity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasNetworkConfigVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasNetworkConfigVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasNetworkConfigVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasNetworkConfigVersion">
+  HasNetworkConfigVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNetworkConfigVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasPlatform_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasPlatform*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasPlatform" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasPlatform">
+  HasPlatform
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlatform { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasProtocolVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasProtocolVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasProtocolVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasProtocolVersion">
+  HasProtocolVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasProtocolVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasServerConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasServerConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasServerConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasServerConnectionId">
+  HasServerConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasTicket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_HasTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.HasTicket">
+  HasTicket
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTicket { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_NetworkConfigVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.NetworkConfigVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_NetworkConfigVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.NetworkConfigVersion">
+  NetworkConfigVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong NetworkConfigVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Parser_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Parser" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamDatagramGameserverSessionRequest&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Platform_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Platform*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Platform" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Platform">
+  Platform
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Platform { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ProtocolVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ProtocolVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ProtocolVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ProtocolVersion">
+  ProtocolVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ProtocolVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ServerConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ServerConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ServerConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ServerConnectionId">
+  ServerConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Ticket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Ticket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Ticket" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Ticket">
+  Ticket
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString Ticket { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearBuild_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearBuild*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearBuild" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearBuild">
+  ClearBuild()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBuild()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearChallenge_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearChallenge*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearChallenge" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearChallenge">
+  ClearChallenge()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearChallenge()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearChallengeTime_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearChallengeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearChallengeTime" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearChallengeTime">
+  ClearChallengeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearChallengeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearClientConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearClientConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearClientConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearClientConnectionId">
+  ClearClientConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearDevGameserverIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearDevGameserverIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearDevGameserverIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearDevGameserverIdentity">
+  ClearDevGameserverIdentity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDevGameserverIdentity()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearNetworkConfigVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearNetworkConfigVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearNetworkConfigVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearNetworkConfigVersion">
+  ClearNetworkConfigVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNetworkConfigVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearPlatform_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearPlatform*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearPlatform" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearPlatform">
+  ClearPlatform()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlatform()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearProtocolVersion_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearProtocolVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearProtocolVersion" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearProtocolVersion">
+  ClearProtocolVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearProtocolVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearServerConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearServerConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearServerConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearServerConnectionId">
+  ClearServerConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearTicket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ClearTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ClearTicket">
+  ClearTicket()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTicket()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Clone_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Clone" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramGameserverSessionRequest Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Equals_Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Equals(Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest)">
+  Equals(CMsgSteamDatagramGameserverSessionRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamDatagramGameserverSessionRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_MergeFrom_Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.MergeFrom(Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest)">
+  MergeFrom(CMsgSteamDatagramGameserverSessionRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamDatagramGameserverSessionRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.html">CMsgSteamDatagramGameserverSessionRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ToString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_ToString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramGameserverSessionRequest_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramGameserverSessionRequest.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

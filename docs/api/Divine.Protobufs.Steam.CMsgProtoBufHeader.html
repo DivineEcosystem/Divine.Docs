@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgProtoBufHeader | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgProtoBufHeader | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgProtoBufHeader" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader" class="text-break">
+Class CMsgProtoBufHeader  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgProtoBufHeader : IMessage&lt;CMsgProtoBufHeader&gt;, IEquatable&lt;CMsgProtoBufHeader&gt;, IDeepCloneable&lt;CMsgProtoBufHeader&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgProtoBufHeader</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader__ctor_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader__ctor" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.#ctor">
+  CMsgProtoBufHeader()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgProtoBufHeader()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader__ctor_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader__ctor_Divine_Protobufs_Steam_CMsgProtoBufHeader_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.#ctor(Divine.Protobufs.Steam.CMsgProtoBufHeader)">
+  CMsgProtoBufHeader(CMsgProtoBufHeader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgProtoBufHeader(CMsgProtoBufHeader other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSessionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSessionIdFieldNumber">
+  ClientSessionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientSessionIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSteamIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSteamIdFieldNumber">
+  ClientSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientSteamIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_EresultFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.EresultFieldNumber">
+  EresultFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EresultFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ErrorMessageFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ErrorMessageFieldNumber">
+  ErrorMessageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ErrorMessageFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcDirIndexSourceFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcDirIndexSourceFieldNumber">
+  GcDirIndexSourceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GcDirIndexSourceFieldNumber = 201</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcMsgSrcFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcMsgSrcFieldNumber">
+  GcMsgSrcFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GcMsgSrcFieldNumber = 200</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdSourceFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdSourceFieldNumber">
+  JobIdSourceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JobIdSourceFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdTargetFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdTargetFieldNumber">
+  JobIdTargetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int JobIdTargetFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_SourceAppIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.SourceAppIdFieldNumber">
+  SourceAppIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SourceAppIdFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_TargetJobNameFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.TargetJobNameFieldNumber">
+  TargetJobNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TargetJobNameFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSessionId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSessionId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSessionId">
+  ClientSessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ClientSessionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSteamId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClientSteamId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClientSteamId">
+  ClientSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ClientSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Eresult_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Eresult*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Eresult" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Eresult">
+  Eresult
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Eresult { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ErrorMessage_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ErrorMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ErrorMessage" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ErrorMessage">
+  ErrorMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ErrorMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcDirIndexSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcDirIndexSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcDirIndexSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcDirIndexSource">
+  GcDirIndexSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GcDirIndexSource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcMsgSrc_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcMsgSrc*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GcMsgSrc" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GcMsgSrc">
+  GcMsgSrc
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GCProtoBufMsgSrc GcMsgSrc { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.GCProtoBufMsgSrc.html">GCProtoBufMsgSrc</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasClientSessionId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasClientSessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasClientSessionId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasClientSessionId">
+  HasClientSessionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientSessionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasClientSteamId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasClientSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasClientSteamId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasClientSteamId">
+  HasClientSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasEresult_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasEresult*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasEresult" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasEresult">
+  HasEresult
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEresult { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasErrorMessage_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasErrorMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasErrorMessage" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasErrorMessage">
+  HasErrorMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasErrorMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasGcDirIndexSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasGcDirIndexSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasGcDirIndexSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasGcDirIndexSource">
+  HasGcDirIndexSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGcDirIndexSource { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasGcMsgSrc_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasGcMsgSrc*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasGcMsgSrc" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasGcMsgSrc">
+  HasGcMsgSrc
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGcMsgSrc { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasJobIdSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasJobIdSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasJobIdSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasJobIdSource">
+  HasJobIdSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJobIdSource { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasJobIdTarget_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasJobIdTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasJobIdTarget" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasJobIdTarget">
+  HasJobIdTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasJobIdTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasSourceAppId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasSourceAppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasSourceAppId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasSourceAppId">
+  HasSourceAppId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSourceAppId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasTargetJobName_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasTargetJobName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_HasTargetJobName" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.HasTargetJobName">
+  HasTargetJobName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTargetJobName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdSource">
+  JobIdSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong JobIdSource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdTarget_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_JobIdTarget" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.JobIdTarget">
+  JobIdTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong JobIdTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Parser_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Parser" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgProtoBufHeader&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_SourceAppId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.SourceAppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_SourceAppId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.SourceAppId">
+  SourceAppId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SourceAppId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_TargetJobName_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.TargetJobName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_TargetJobName" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.TargetJobName">
+  TargetJobName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TargetJobName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearClientSessionId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearClientSessionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearClientSessionId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearClientSessionId">
+  ClearClientSessionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientSessionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearClientSteamId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearClientSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearClientSteamId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearClientSteamId">
+  ClearClientSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearEresult_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearEresult*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearEresult" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearEresult">
+  ClearEresult()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEresult()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearErrorMessage_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearErrorMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearErrorMessage" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearErrorMessage">
+  ClearErrorMessage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearErrorMessage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearGcDirIndexSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearGcDirIndexSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearGcDirIndexSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearGcDirIndexSource">
+  ClearGcDirIndexSource()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGcDirIndexSource()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearGcMsgSrc_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearGcMsgSrc*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearGcMsgSrc" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearGcMsgSrc">
+  ClearGcMsgSrc()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGcMsgSrc()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearJobIdSource_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearJobIdSource*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearJobIdSource" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearJobIdSource">
+  ClearJobIdSource()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJobIdSource()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearJobIdTarget_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearJobIdTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearJobIdTarget" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearJobIdTarget">
+  ClearJobIdTarget()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearJobIdTarget()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearSourceAppId_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearSourceAppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearSourceAppId" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearSourceAppId">
+  ClearSourceAppId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSourceAppId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearTargetJobName_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearTargetJobName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ClearTargetJobName" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ClearTargetJobName">
+  ClearTargetJobName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTargetJobName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Clone_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Clone" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgProtoBufHeader Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Equals_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Equals_Divine_Protobufs_Steam_CMsgProtoBufHeader_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Equals(Divine.Protobufs.Steam.CMsgProtoBufHeader)">
+  Equals(CMsgProtoBufHeader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgProtoBufHeader other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Equals_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_MergeFrom_Divine_Protobufs_Steam_CMsgProtoBufHeader_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.MergeFrom(Divine.Protobufs.Steam.CMsgProtoBufHeader)">
+  MergeFrom(CMsgProtoBufHeader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgProtoBufHeader other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgProtoBufHeader.html">CMsgProtoBufHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ToString_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_ToString" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgProtoBufHeader_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgProtoBufHeader_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgProtoBufHeader.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

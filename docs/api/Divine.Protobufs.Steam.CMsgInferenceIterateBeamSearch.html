@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgInferenceIterateBeamSearch | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgInferenceIterateBeamSearch | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch" class="text-break">
+Class CMsgInferenceIterateBeamSearch  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgInferenceIterateBeamSearch : IMessage&lt;CMsgInferenceIterateBeamSearch&gt;, IEquatable&lt;CMsgInferenceIterateBeamSearch&gt;, IDeepCloneable&lt;CMsgInferenceIterateBeamSearch&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgInferenceIterateBeamSearch</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch__ctor_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch__ctor" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.#ctor">
+  CMsgInferenceIterateBeamSearch()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgInferenceIterateBeamSearch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch__ctor_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch__ctor_Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.#ctor(Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch)">
+  CMsgInferenceIterateBeamSearch(CMsgInferenceIterateBeamSearch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgInferenceIterateBeamSearch(CMsgInferenceIterateBeamSearch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamLengthFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamLengthFieldNumber">
+  BeamLengthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BeamLengthFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamWidthFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamWidthFieldNumber">
+  BeamWidthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BeamWidthFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemDecayFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemDecayFieldNumber">
+  ItemDecayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ItemDecayFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemScalarsFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemScalarsFieldNumber">
+  ItemScalarsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ItemScalarsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEndFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEndFieldNumber">
+  ItemSequenceEndFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ItemSequenceEndFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEndThresholdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEndThresholdFieldNumber">
+  ItemSequenceEndThresholdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ItemSequenceEndThresholdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_NextItemCountFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.NextItemCountFieldNumber">
+  NextItemCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NextItemCountFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_RepeatMultiplierFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.RepeatMultiplierFieldNumber">
+  RepeatMultiplierFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RepeatMultiplierFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamLength_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamLength*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamLength" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamLength">
+  BeamLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BeamLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamWidth_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamWidth*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_BeamWidth" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.BeamWidth">
+  BeamWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BeamWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasBeamLength_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasBeamLength*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasBeamLength" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasBeamLength">
+  HasBeamLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBeamLength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasBeamWidth_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasBeamWidth*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasBeamWidth" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasBeamWidth">
+  HasBeamWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBeamWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemDecay_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemDecay*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemDecay" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemDecay">
+  HasItemDecay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasItemDecay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemSequenceEnd_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemSequenceEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemSequenceEnd" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemSequenceEnd">
+  HasItemSequenceEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasItemSequenceEnd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemSequenceEndThreshold_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemSequenceEndThreshold*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasItemSequenceEndThreshold" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasItemSequenceEndThreshold">
+  HasItemSequenceEndThreshold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasItemSequenceEndThreshold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasNextItemCount_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasNextItemCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasNextItemCount" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasNextItemCount">
+  HasNextItemCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNextItemCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasRepeatMultiplier_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasRepeatMultiplier*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_HasRepeatMultiplier" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.HasRepeatMultiplier">
+  HasRepeatMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRepeatMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemDecay_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemDecay*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemDecay" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemDecay">
+  ItemDecay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ItemDecay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemScalars_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemScalars*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemScalars" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemScalars">
+  ItemScalars
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgInferenceIterateBeamSearch.Types.CustomItemScalar&gt; ItemScalars { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Types.CustomItemScalar.html">CustomItemScalar</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEnd_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEnd" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEnd">
+  ItemSequenceEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ItemSequenceEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEndThreshold_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEndThreshold*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ItemSequenceEndThreshold" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ItemSequenceEndThreshold">
+  ItemSequenceEndThreshold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ItemSequenceEndThreshold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_NextItemCount_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.NextItemCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_NextItemCount" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.NextItemCount">
+  NextItemCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NextItemCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Parser_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Parser" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgInferenceIterateBeamSearch&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_RepeatMultiplier_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.RepeatMultiplier*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_RepeatMultiplier" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.RepeatMultiplier">
+  RepeatMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RepeatMultiplier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearBeamLength_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearBeamLength*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearBeamLength" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearBeamLength">
+  ClearBeamLength()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBeamLength()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearBeamWidth_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearBeamWidth*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearBeamWidth" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearBeamWidth">
+  ClearBeamWidth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBeamWidth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemDecay_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemDecay*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemDecay" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemDecay">
+  ClearItemDecay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearItemDecay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemSequenceEnd_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemSequenceEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemSequenceEnd" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemSequenceEnd">
+  ClearItemSequenceEnd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearItemSequenceEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemSequenceEndThreshold_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemSequenceEndThreshold*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearItemSequenceEndThreshold" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearItemSequenceEndThreshold">
+  ClearItemSequenceEndThreshold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearItemSequenceEndThreshold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearNextItemCount_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearNextItemCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearNextItemCount" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearNextItemCount">
+  ClearNextItemCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNextItemCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearRepeatMultiplier_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearRepeatMultiplier*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ClearRepeatMultiplier" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ClearRepeatMultiplier">
+  ClearRepeatMultiplier()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRepeatMultiplier()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Clone_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Clone" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgInferenceIterateBeamSearch Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Equals_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Equals_Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Equals(Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch)">
+  Equals(CMsgInferenceIterateBeamSearch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgInferenceIterateBeamSearch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Equals_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_MergeFrom_Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.MergeFrom(Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch)">
+  MergeFrom(CMsgInferenceIterateBeamSearch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgInferenceIterateBeamSearch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.html">CMsgInferenceIterateBeamSearch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ToString_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_ToString" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgInferenceIterateBeamSearch_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

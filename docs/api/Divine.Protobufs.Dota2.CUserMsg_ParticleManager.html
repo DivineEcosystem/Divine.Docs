@@ -1,0 +1,3625 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CUserMsg_ParticleManager | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CUserMsg_ParticleManager | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager" class="text-break">
+Class CUserMsg_ParticleManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CUserMsg_ParticleManager : IExtendableMessage&lt;CUserMsg_ParticleManager&gt;, IMessage&lt;CUserMsg_ParticleManager&gt;, IEquatable&lt;CUserMsg_ParticleManager&gt;, IDeepCloneable&lt;CUserMsg_ParticleManager&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CUserMsg_ParticleManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IExtendableMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>&gt;</div>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager__ctor" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.#ctor">
+  CUserMsg_ParticleManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager__ctor_Divine_Protobufs_Dota2_CUserMsg_ParticleManager_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.#ctor(Divine.Protobufs.Dota2.CUserMsg_ParticleManager)">
+  CUserMsg_ParticleManager(CUserMsg_ParticleManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager(CUserMsg_ParticleManager other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddFanFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddFanFieldNumber">
+  AddFanFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AddFanFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddModellistOverrideElementFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddModellistOverrideElementFieldNumber">
+  AddModellistOverrideElementFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AddModellistOverrideElementFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ChangeControlPointAttachmentFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ChangeControlPointAttachmentFieldNumber">
+  ChangeControlPointAttachmentFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ChangeControlPointAttachmentFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearModellistOverrideFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearModellistOverrideFieldNumber">
+  ClearModellistOverrideFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClearModellistOverrideFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateParticleFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateParticleFieldNumber">
+  CreateParticleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreateParticleFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreatePhysicsSimFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreatePhysicsSimFieldNumber">
+  CreatePhysicsSimFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreatePhysicsSimFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateSmokeGridFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateSmokeGridFieldNumber">
+  CreateSmokeGridFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreateSmokeGridFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleFieldNumber">
+  DestroyParticleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DestroyParticleFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleInvolvingFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleInvolvingFieldNumber">
+  DestroyParticleInvolvingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DestroyParticleInvolvingFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleNamedFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleNamedFieldNumber">
+  DestroyParticleNamedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DestroyParticleNamedFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyPhysicsSimFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyPhysicsSimFieldNumber">
+  DestroyPhysicsSimFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DestroyPhysicsSimFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_FreezeParticleInvolvingFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.FreezeParticleInvolvingFieldNumber">
+  FreezeParticleInvolvingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FreezeParticleInvolvingFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_IndexFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.IndexFieldNumber">
+  IndexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IndexFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleCanFreezeFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleCanFreezeFieldNumber">
+  ParticleCanFreezeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticleCanFreezeFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleFreezeTransitionOverrideFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleFreezeTransitionOverrideFieldNumber">
+  ParticleFreezeTransitionOverrideFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticleFreezeTransitionOverrideFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleSkipToTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleSkipToTimeFieldNumber">
+  ParticleSkipToTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticleSkipToTimeFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ReleaseParticleIndexFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ReleaseParticleIndexFieldNumber">
+  ReleaseParticleIndexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReleaseParticleIndexFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_RemoveFanFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.RemoveFanFieldNumber">
+  RemoveFanFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RemoveFanFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointModelFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointModelFieldNumber">
+  SetControlPointModelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetControlPointModelFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointSnapshotFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointSnapshotFieldNumber">
+  SetControlPointSnapshotFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetControlPointSnapshotFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetMaterialOverrideFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetMaterialOverrideFieldNumber">
+  SetMaterialOverrideFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetMaterialOverrideFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetNamedValueContextFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetNamedValueContextFieldNumber">
+  SetNamedValueContextFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetNamedValueContextFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetOverrideTextureFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetOverrideTextureFieldNumber">
+  SetOverrideTextureFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetOverrideTextureFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleClusterGrowthFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleClusterGrowthFieldNumber">
+  SetParticleClusterGrowthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetParticleClusterGrowthFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleFowPropertiesFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleFowPropertiesFieldNumber">
+  SetParticleFowPropertiesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetParticleFowPropertiesFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleShouldCheckFowFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleShouldCheckFowFieldNumber">
+  SetParticleShouldCheckFowFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetParticleShouldCheckFowFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleTextFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleTextFieldNumber">
+  SetParticleTextFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetParticleTextFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectGenericFlagFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectGenericFlagFieldNumber">
+  SetSceneObjectGenericFlagFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetSceneObjectGenericFlagFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectTintAndDesatFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectTintAndDesatFieldNumber">
+  SetSceneObjectTintAndDesatFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetSceneObjectTintAndDesatFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetTextureAttributeFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetTextureAttributeFieldNumber">
+  SetTextureAttributeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetTextureAttributeFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetVdataFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetVdataFieldNumber">
+  SetVdataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SetVdataFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_TypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.TypeFieldNumber">
+  TypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateEntityPositionFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateEntityPositionFieldNumber">
+  UpdateEntityPositionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateEntityPositionFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateFanFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateFanFieldNumber">
+  UpdateFanFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateFanFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleEntFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleEntFieldNumber">
+  UpdateParticleEntFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleEntFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFallbackFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFallbackFieldNumber">
+  UpdateParticleFallbackFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleFallbackFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFieldNumber">
+  UpdateParticleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFwdFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFwdFieldNumber">
+  UpdateParticleFwdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleFwdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOffsetFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOffsetFieldNumber">
+  UpdateParticleOffsetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleOffsetFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOrientFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOrientFieldNumber">
+  UpdateParticleOrientFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleOrientFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleSetFrozenFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleSetFrozenFieldNumber">
+  UpdateParticleSetFrozenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleSetFrozenFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleShouldDrawFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleShouldDrawFieldNumber">
+  UpdateParticleShouldDrawFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleShouldDrawFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleTransformFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleTransformFieldNumber">
+  UpdateParticleTransformFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateParticleTransformFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddFan_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddFan*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddFan" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddFan">
+  AddFan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.AddFan AddFan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.AddFan.html">AddFan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddModellistOverrideElement_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddModellistOverrideElement*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_AddModellistOverrideElement" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.AddModellistOverrideElement">
+  AddModellistOverrideElement
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.AddModellistOverrideElement AddModellistOverrideElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.AddModellistOverrideElement.html">AddModellistOverrideElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ChangeControlPointAttachment_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ChangeControlPointAttachment*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ChangeControlPointAttachment" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ChangeControlPointAttachment">
+  ChangeControlPointAttachment
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ChangeControlPointAttachment ChangeControlPointAttachment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ChangeControlPointAttachment.html">ChangeControlPointAttachment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearModellistOverride_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearModellistOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearModellistOverride" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearModellistOverride">
+  ClearModellistOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ClearModellistOverride ClearModellistOverride { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ClearModellistOverride.html">ClearModellistOverride</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateParticle_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateParticle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateParticle" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateParticle">
+  CreateParticle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.CreateParticle CreateParticle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.CreateParticle.html">CreateParticle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreatePhysicsSim_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreatePhysicsSim*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreatePhysicsSim" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreatePhysicsSim">
+  CreatePhysicsSim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.CreatePhysicsSim CreatePhysicsSim { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.CreatePhysicsSim.html">CreatePhysicsSim</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateSmokeGrid_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateSmokeGrid*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CreateSmokeGrid" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CreateSmokeGrid">
+  CreateSmokeGrid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.CreateSmokeGrid CreateSmokeGrid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.CreateSmokeGrid.html">CreateSmokeGrid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Descriptor_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Descriptor" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticle_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticle" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticle">
+  DestroyParticle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.DestroyParticle DestroyParticle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.DestroyParticle.html">DestroyParticle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleInvolving_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleInvolving*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleInvolving" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleInvolving">
+  DestroyParticleInvolving
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.DestroyParticleInvolving DestroyParticleInvolving { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.DestroyParticleInvolving.html">DestroyParticleInvolving</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleNamed_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleNamed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyParticleNamed" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyParticleNamed">
+  DestroyParticleNamed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.DestroyParticleNamed DestroyParticleNamed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.DestroyParticleNamed.html">DestroyParticleNamed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyPhysicsSim_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyPhysicsSim*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_DestroyPhysicsSim" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.DestroyPhysicsSim">
+  DestroyPhysicsSim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.DestroyPhysicsSim DestroyPhysicsSim { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.DestroyPhysicsSim.html">DestroyPhysicsSim</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_FreezeParticleInvolving_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.FreezeParticleInvolving*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_FreezeParticleInvolving" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.FreezeParticleInvolving">
+  FreezeParticleInvolving
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.FreezeParticleInvolving FreezeParticleInvolving { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.FreezeParticleInvolving.html">FreezeParticleInvolving</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasIndex_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasIndex" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasIndex">
+  HasIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasType_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasType" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasType">
+  HasType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Index_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Index*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Index" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Index">
+  Index
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Index { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Parser_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Parser" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CUserMsg_ParticleManager&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleCanFreeze_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleCanFreeze*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleCanFreeze" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleCanFreeze">
+  ParticleCanFreeze
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ParticleCanFreeze ParticleCanFreeze { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ParticleCanFreeze.html">ParticleCanFreeze</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleFreezeTransitionOverride_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleFreezeTransitionOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleFreezeTransitionOverride" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleFreezeTransitionOverride">
+  ParticleFreezeTransitionOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ParticleFreezeTransitionOverride ParticleFreezeTransitionOverride { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ParticleFreezeTransitionOverride.html">ParticleFreezeTransitionOverride</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleSkipToTime_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleSkipToTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ParticleSkipToTime" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ParticleSkipToTime">
+  ParticleSkipToTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ParticleSkipToTime ParticleSkipToTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ParticleSkipToTime.html">ParticleSkipToTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ReleaseParticleIndex_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ReleaseParticleIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ReleaseParticleIndex" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ReleaseParticleIndex">
+  ReleaseParticleIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.ReleaseParticleIndex ReleaseParticleIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.ReleaseParticleIndex.html">ReleaseParticleIndex</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_RemoveFan_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.RemoveFan*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_RemoveFan" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.RemoveFan">
+  RemoveFan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.RemoveFan RemoveFan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.RemoveFan.html">RemoveFan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointModel_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointModel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointModel" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointModel">
+  SetControlPointModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetControlPointModel SetControlPointModel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetControlPointModel.html">SetControlPointModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointSnapshot_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointSnapshot*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointSnapshot" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetControlPointSnapshot">
+  SetControlPointSnapshot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetControlPointSnapshot SetControlPointSnapshot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetControlPointSnapshot.html">SetControlPointSnapshot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetMaterialOverride_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetMaterialOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetMaterialOverride" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetMaterialOverride">
+  SetMaterialOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetMaterialOverride SetMaterialOverride { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetMaterialOverride.html">SetMaterialOverride</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetNamedValueContext_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetNamedValueContext*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetNamedValueContext" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetNamedValueContext">
+  SetNamedValueContext
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetParticleNamedValueContext SetNamedValueContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetParticleNamedValueContext.html">SetParticleNamedValueContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetOverrideTexture_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetOverrideTexture*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetOverrideTexture" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetOverrideTexture">
+  SetOverrideTexture
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetOverrideTexture SetOverrideTexture { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetOverrideTexture.html">SetOverrideTexture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleClusterGrowth_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleClusterGrowth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleClusterGrowth" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleClusterGrowth">
+  SetParticleClusterGrowth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetParticleClusterGrowth SetParticleClusterGrowth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetParticleClusterGrowth.html">SetParticleClusterGrowth</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleFowProperties_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleFowProperties*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleFowProperties" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleFowProperties">
+  SetParticleFowProperties
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetParticleFoWProperties SetParticleFowProperties { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetParticleFoWProperties.html">SetParticleFoWProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleShouldCheckFow_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleShouldCheckFow*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleShouldCheckFow" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleShouldCheckFow">
+  SetParticleShouldCheckFow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetParticleShouldCheckFoW SetParticleShouldCheckFow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetParticleShouldCheckFoW.html">SetParticleShouldCheckFoW</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleText_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleText*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetParticleText" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetParticleText">
+  SetParticleText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetParticleText SetParticleText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetParticleText.html">SetParticleText</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectGenericFlag_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectGenericFlag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectGenericFlag" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectGenericFlag">
+  SetSceneObjectGenericFlag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetSceneObjectGenericFlag SetSceneObjectGenericFlag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetSceneObjectGenericFlag.html">SetSceneObjectGenericFlag</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectTintAndDesat_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectTintAndDesat*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetSceneObjectTintAndDesat" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetSceneObjectTintAndDesat">
+  SetSceneObjectTintAndDesat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetSceneObjectTintAndDesat SetSceneObjectTintAndDesat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetSceneObjectTintAndDesat.html">SetSceneObjectTintAndDesat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetTextureAttribute_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetTextureAttribute*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetTextureAttribute" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetTextureAttribute">
+  SetTextureAttribute
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetTextureAttribute SetTextureAttribute { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetTextureAttribute.html">SetTextureAttribute</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetVdata_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetVdata*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetVdata" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetVdata">
+  SetVdata
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.SetVData SetVdata { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.SetVData.html">SetVData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Type_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Type*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Type" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Type">
+  Type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PARTICLE_MESSAGE Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.PARTICLE_MESSAGE.html">PARTICLE_MESSAGE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateEntityPosition_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateEntityPosition*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateEntityPosition" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateEntityPosition">
+  UpdateEntityPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateEntityPosition UpdateEntityPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateEntityPosition.html">UpdateEntityPosition</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateFan_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateFan*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateFan" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateFan">
+  UpdateFan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateFan UpdateFan { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateFan.html">UpdateFan</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticle_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticle" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticle">
+  UpdateParticle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticle_OBSOLETE UpdateParticle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticle_OBSOLETE.html">UpdateParticle_OBSOLETE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleEnt_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleEnt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleEnt" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleEnt">
+  UpdateParticleEnt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleEnt UpdateParticleEnt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleEnt.html">UpdateParticleEnt</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFallback_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFallback*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFallback" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFallback">
+  UpdateParticleFallback
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleFallback UpdateParticleFallback { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleFallback.html">UpdateParticleFallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFwd_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFwd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleFwd" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleFwd">
+  UpdateParticleFwd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleFwd_OBSOLETE UpdateParticleFwd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleFwd_OBSOLETE.html">UpdateParticleFwd_OBSOLETE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOffset_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOffset" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOffset">
+  UpdateParticleOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleOffset UpdateParticleOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleOffset.html">UpdateParticleOffset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOrient_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOrient*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleOrient" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleOrient">
+  UpdateParticleOrient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleOrient_OBSOLETE UpdateParticleOrient { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleOrient_OBSOLETE.html">UpdateParticleOrient_OBSOLETE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleSetFrozen_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleSetFrozen*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleSetFrozen" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleSetFrozen">
+  UpdateParticleSetFrozen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleSetFrozen UpdateParticleSetFrozen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleSetFrozen.html">UpdateParticleSetFrozen</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleShouldDraw_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleShouldDraw*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleShouldDraw" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleShouldDraw">
+  UpdateParticleShouldDraw
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleShouldDraw UpdateParticleShouldDraw { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleShouldDraw.html">UpdateParticleShouldDraw</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleTransform_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleTransform*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_UpdateParticleTransform" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.UpdateParticleTransform">
+  UpdateParticleTransform
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager.Types.UpdateParticleTransform UpdateParticleTransform { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Types.UpdateParticleTransform.html">UpdateParticleTransform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_CalculateSize" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearExtension__1_Google_Protobuf_Extension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearExtension``1(Google.Protobuf.Extension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  ClearExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">Extension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearExtension__1_Google_Protobuf_RepeatedExtension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearExtension``1(Google.Protobuf.RepeatedExtension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  ClearExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">RepeatedExtension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearIndex_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearIndex" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearIndex">
+  ClearIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIndex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearType_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ClearType" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ClearType">
+  ClearType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Clone_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Clone" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMsg_ParticleManager Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Equals_Divine_Protobufs_Dota2_CUserMsg_ParticleManager_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Equals(Divine.Protobufs.Dota2.CUserMsg_ParticleManager)">
+  Equals(CUserMsg_ParticleManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CUserMsg_ParticleManager other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetExtension__1_Google_Protobuf_Extension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetExtension``1(Google.Protobuf.Extension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  GetExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue GetExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">Extension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TValue</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetExtension__1_Google_Protobuf_RepeatedExtension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetExtension``1(Google.Protobuf.RepeatedExtension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  GetExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;TValue&gt; GetExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">RepeatedExtension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetHashCode" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetOrInitializeExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetOrInitializeExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_GetOrInitializeExtension__1_Google_Protobuf_RepeatedExtension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.GetOrInitializeExtension``1(Google.Protobuf.RepeatedExtension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  GetOrInitializeExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;TValue&gt; GetOrInitializeExtension&lt;TValue&gt;(RepeatedExtension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">RepeatedExtension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_HasExtension__1_Google_Protobuf_Extension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0__" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.HasExtension``1(Google.Protobuf.Extension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0})">
+  HasExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt; extension)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">Extension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_MergeFrom_Divine_Protobufs_Dota2_CUserMsg_ParticleManager_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.MergeFrom(Divine.Protobufs.Dota2.CUserMsg_ParticleManager)">
+  MergeFrom(CUserMsg_ParticleManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CUserMsg_ParticleManager other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetExtension_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetExtension*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetExtension__1_Google_Protobuf_Extension_Divine_Protobufs_Dota2_CUserMsg_ParticleManager___0____0_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.SetExtension``1(Google.Protobuf.Extension{Divine.Protobufs.Dota2.CUserMsg_ParticleManager,``0},``0)">
+  SetExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt;, TValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetExtension&lt;TValue&gt;(Extension&lt;CUserMsg_ParticleManager, TValue&gt; extension, TValue value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extension</code> <span class="xref">Extension</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.html">CUserMsg_ParticleManager</a>, TValue&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TValue</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ToString_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_ToString" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_WriteTo_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CUserMsg_ParticleManager.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

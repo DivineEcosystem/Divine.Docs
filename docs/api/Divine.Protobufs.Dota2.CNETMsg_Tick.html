@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CNETMsg_Tick | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CNETMsg_Tick | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CNETMsg_Tick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick" class="text-break">
+Class CNETMsg_Tick  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CNETMsg_Tick : IMessage&lt;CNETMsg_Tick&gt;, IEquatable&lt;CNETMsg_Tick&gt;, IDeepCloneable&lt;CNETMsg_Tick&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CNETMsg_Tick</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick__ctor_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick__ctor" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.#ctor">
+  CNETMsg_Tick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CNETMsg_Tick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick__ctor_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick__ctor_Divine_Protobufs_Dota2_CNETMsg_Tick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.#ctor(Divine.Protobufs.Dota2.CNETMsg_Tick)">
+  CNETMsg_Tick(CNETMsg_Tick)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CNETMsg_Tick(CNETMsg_Tick other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTickFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTickFieldNumber">
+  ExpectedLongTickFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExpectedLongTickFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTickReasonFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTickReasonFieldNumber">
+  ExpectedLongTickReasonFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExpectedLongTickReasonFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HltvReplayFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HltvReplayFlagsFieldNumber">
+  HltvReplayFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HltvReplayFlagsFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtimeFieldNumber">
+  HostComputationtimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostComputationtimeFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtimeStdDeviationFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtimeStdDeviationFieldNumber">
+  HostComputationtimeStdDeviationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostComputationtimeStdDeviationFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameDroppedPctX10FieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameDroppedPctX10FieldNumber">
+  HostFrameDroppedPctX10FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostFrameDroppedPctX10FieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameIrregularArrivalPctX10FieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameIrregularArrivalPctX10FieldNumber">
+  HostFrameIrregularArrivalPctX10FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostFrameIrregularArrivalPctX10FieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostUnfilteredFrametimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostUnfilteredFrametimeFieldNumber">
+  HostUnfilteredFrametimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostUnfilteredFrametimeFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_LegacyHostLossFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.LegacyHostLossFieldNumber">
+  LegacyHostLossFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyHostLossFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_TickFieldNumber" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.TickFieldNumber">
+  TickFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TickFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Descriptor_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Descriptor" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTick">
+  ExpectedLongTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExpectedLongTick { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTickReason_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTickReason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ExpectedLongTickReason" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ExpectedLongTickReason">
+  ExpectedLongTickReason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ExpectedLongTickReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasExpectedLongTick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasExpectedLongTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasExpectedLongTick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasExpectedLongTick">
+  HasExpectedLongTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExpectedLongTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasExpectedLongTickReason_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasExpectedLongTickReason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasExpectedLongTickReason" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasExpectedLongTickReason">
+  HasExpectedLongTickReason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExpectedLongTickReason { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHltvReplayFlags_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHltvReplayFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHltvReplayFlags" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHltvReplayFlags">
+  HasHltvReplayFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHltvReplayFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostComputationtime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostComputationtime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostComputationtime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostComputationtime">
+  HasHostComputationtime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostComputationtime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostComputationtimeStdDeviation_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostComputationtimeStdDeviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostComputationtimeStdDeviation" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostComputationtimeStdDeviation">
+  HasHostComputationtimeStdDeviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostComputationtimeStdDeviation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostFrameDroppedPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostFrameDroppedPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostFrameDroppedPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostFrameDroppedPctX10">
+  HasHostFrameDroppedPctX10
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostFrameDroppedPctX10 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostFrameIrregularArrivalPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostFrameIrregularArrivalPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostFrameIrregularArrivalPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostFrameIrregularArrivalPctX10">
+  HasHostFrameIrregularArrivalPctX10
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostFrameIrregularArrivalPctX10 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostUnfilteredFrametime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostUnfilteredFrametime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasHostUnfilteredFrametime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasHostUnfilteredFrametime">
+  HasHostUnfilteredFrametime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostUnfilteredFrametime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasLegacyHostLoss_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasLegacyHostLoss*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasLegacyHostLoss" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasLegacyHostLoss">
+  HasLegacyHostLoss
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyHostLoss { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasTick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HasTick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HasTick">
+  HasTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HltvReplayFlags_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HltvReplayFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HltvReplayFlags" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HltvReplayFlags">
+  HltvReplayFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HltvReplayFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtime">
+  HostComputationtime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HostComputationtime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtimeStdDeviation_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtimeStdDeviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostComputationtimeStdDeviation" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostComputationtimeStdDeviation">
+  HostComputationtimeStdDeviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HostComputationtimeStdDeviation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameDroppedPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameDroppedPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameDroppedPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameDroppedPctX10">
+  HostFrameDroppedPctX10
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HostFrameDroppedPctX10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameIrregularArrivalPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameIrregularArrivalPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostFrameIrregularArrivalPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostFrameIrregularArrivalPctX10">
+  HostFrameIrregularArrivalPctX10
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HostFrameIrregularArrivalPctX10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostUnfilteredFrametime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostUnfilteredFrametime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_HostUnfilteredFrametime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.HostUnfilteredFrametime">
+  HostUnfilteredFrametime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HostUnfilteredFrametime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_LegacyHostLoss_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.LegacyHostLoss*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_LegacyHostLoss" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.LegacyHostLoss">
+  LegacyHostLoss
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LegacyHostLoss { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Parser_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Parser" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CNETMsg_Tick&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Tick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Tick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Tick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Tick">
+  Tick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Tick { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_CalculateSize" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearExpectedLongTick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearExpectedLongTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearExpectedLongTick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearExpectedLongTick">
+  ClearExpectedLongTick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExpectedLongTick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearExpectedLongTickReason_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearExpectedLongTickReason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearExpectedLongTickReason" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearExpectedLongTickReason">
+  ClearExpectedLongTickReason()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExpectedLongTickReason()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHltvReplayFlags_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHltvReplayFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHltvReplayFlags" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHltvReplayFlags">
+  ClearHltvReplayFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHltvReplayFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostComputationtime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostComputationtime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostComputationtime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostComputationtime">
+  ClearHostComputationtime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostComputationtime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostComputationtimeStdDeviation_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostComputationtimeStdDeviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostComputationtimeStdDeviation" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostComputationtimeStdDeviation">
+  ClearHostComputationtimeStdDeviation()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostComputationtimeStdDeviation()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostFrameDroppedPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostFrameDroppedPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostFrameDroppedPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostFrameDroppedPctX10">
+  ClearHostFrameDroppedPctX10()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostFrameDroppedPctX10()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostFrameIrregularArrivalPctX10_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostFrameIrregularArrivalPctX10*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostFrameIrregularArrivalPctX10" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostFrameIrregularArrivalPctX10">
+  ClearHostFrameIrregularArrivalPctX10()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostFrameIrregularArrivalPctX10()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostUnfilteredFrametime_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostUnfilteredFrametime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearHostUnfilteredFrametime" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearHostUnfilteredFrametime">
+  ClearHostUnfilteredFrametime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostUnfilteredFrametime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearLegacyHostLoss_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearLegacyHostLoss*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearLegacyHostLoss" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearLegacyHostLoss">
+  ClearLegacyHostLoss()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyHostLoss()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearTick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ClearTick" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ClearTick">
+  ClearTick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Clone_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Clone" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CNETMsg_Tick Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Equals_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Equals_Divine_Protobufs_Dota2_CNETMsg_Tick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Equals(Divine.Protobufs.Dota2.CNETMsg_Tick)">
+  Equals(CNETMsg_Tick)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CNETMsg_Tick other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_Equals_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_GetHashCode" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_MergeFrom_Divine_Protobufs_Dota2_CNETMsg_Tick_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.MergeFrom(Divine.Protobufs.Dota2.CNETMsg_Tick)">
+  MergeFrom(CNETMsg_Tick)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CNETMsg_Tick other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CNETMsg_Tick.html">CNETMsg_Tick</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_ToString_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_ToString" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CNETMsg_Tick_WriteTo_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CNETMsg_Tick_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CNETMsg_Tick.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

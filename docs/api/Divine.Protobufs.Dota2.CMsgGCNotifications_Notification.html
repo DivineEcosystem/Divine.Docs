@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgGCNotifications_Notification | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgGCNotifications_Notification | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification" class="text-break">
+Class CMsgGCNotifications_Notification  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgGCNotifications_Notification : IMessage&lt;CMsgGCNotifications_Notification&gt;, IEquatable&lt;CMsgGCNotifications_Notification&gt;, IDeepCloneable&lt;CMsgGCNotifications_Notification&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgGCNotifications_Notification</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification__ctor" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.#ctor">
+  CMsgGCNotifications_Notification()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCNotifications_Notification()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification__ctor_Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.#ctor(Divine.Protobufs.Dota2.CMsgGCNotifications_Notification)">
+  CMsgGCNotifications_Notification(CMsgGCNotifications_Notification)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCNotifications_Notification(CMsgGCNotifications_Notification other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_IdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.IdFieldNumber">
+  IdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_MessageFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.MessageFieldNumber">
+  MessageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MessageFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceAFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceAFieldNumber">
+  ReferenceAFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReferenceAFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceBFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceBFieldNumber">
+  ReferenceBFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReferenceBFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceCFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceCFieldNumber">
+  ReferenceCFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReferenceCFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_TimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.TimestampFieldNumber">
+  TimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_TypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.TypeFieldNumber">
+  TypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_UnreadFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.UnreadFieldNumber">
+  UnreadFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UnreadFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasId_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasId" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasId">
+  HasId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasMessage_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasMessage" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasMessage">
+  HasMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceA_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceA*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceA" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceA">
+  HasReferenceA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReferenceA { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceB_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceB*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceB" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceB">
+  HasReferenceB
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReferenceB { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceC_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceC*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasReferenceC" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasReferenceC">
+  HasReferenceC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReferenceC { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasTimestamp">
+  HasTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasType_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasType" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasType">
+  HasType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasUnread_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasUnread*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_HasUnread" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.HasUnread">
+  HasUnread
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUnread { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Id_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Id*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Id" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Id">
+  Id
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Message_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Message*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Message" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Message">
+  Message
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Parser" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgGCNotifications_Notification&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceA_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceA*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceA" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceA">
+  ReferenceA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReferenceA { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceB_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceB*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceB" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceB">
+  ReferenceB
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReferenceB { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceC_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceC*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ReferenceC" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ReferenceC">
+  ReferenceC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReferenceC { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Timestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Timestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Timestamp" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Timestamp">
+  Timestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Timestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Type_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Type*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Type" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Type">
+  Type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Unread_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Unread*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Unread" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Unread">
+  Unread
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Unread { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearId_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearId" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearId">
+  ClearId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearMessage_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearMessage" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearMessage">
+  ClearMessage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMessage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceA_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceA*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceA" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceA">
+  ClearReferenceA()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReferenceA()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceB_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceB*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceB" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceB">
+  ClearReferenceB()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReferenceB()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceC_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceC*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearReferenceC" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearReferenceC">
+  ClearReferenceC()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReferenceC()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearTimestamp">
+  ClearTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearType_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearType" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearType">
+  ClearType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearUnread_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearUnread*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ClearUnread" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ClearUnread">
+  ClearUnread()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUnread()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Clone" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCNotifications_Notification Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Equals_Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Equals(Divine.Protobufs.Dota2.CMsgGCNotifications_Notification)">
+  Equals(CMsgGCNotifications_Notification)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgGCNotifications_Notification other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_MergeFrom_Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.MergeFrom(Divine.Protobufs.Dota2.CMsgGCNotifications_Notification)">
+  MergeFrom(CMsgGCNotifications_Notification)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgGCNotifications_Notification other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.html">CMsgGCNotifications_Notification</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_ToString" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCNotifications_Notification_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGCNotifications_Notification.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

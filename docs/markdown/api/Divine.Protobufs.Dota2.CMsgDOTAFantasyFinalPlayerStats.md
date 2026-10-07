@@ -1,0 +1,200 @@
+# <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats"></a> Class CMsgDOTAFantasyFinalPlayerStats
+
+Namespace: [Divine.Protobufs.Dota2](Divine.Protobufs.Dota2.md)  
+Assembly: Divine.Protobufs.dll  
+
+```csharp
+public sealed class CMsgDOTAFantasyFinalPlayerStats : IMessage<CMsgDOTAFantasyFinalPlayerStats>, IEquatable<CMsgDOTAFantasyFinalPlayerStats>, IDeepCloneable<CMsgDOTAFantasyFinalPlayerStats>, IBufferMessage, IMessage
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)
+
+#### Implements
+
+IMessage<CMsgDOTAFantasyFinalPlayerStats\>, 
+[IEquatable<CMsgDOTAFantasyFinalPlayerStats\>](https://learn.microsoft.com/dotnet/api/system.iequatable\-1), 
+IDeepCloneable<CMsgDOTAFantasyFinalPlayerStats\>, 
+IBufferMessage, 
+IMessage
+
+#### Inherited Members
+
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode)
+
+#### Extension Methods
+
+[ObjectExtensions.Dump\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_Dump\_System\_Object\_System\_Boolean\_), 
+[ObjectExtensions.DumpToConsole\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToConsole\_System\_Object\_System\_Boolean\_), 
+[ObjectExtensions.DumpToLogDebug\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToLogDebug\_System\_Object\_System\_Boolean\_), 
+[EnumerableExtensions.In<CMsgDOTAFantasyFinalPlayerStats\>\(CMsgDOTAFantasyFinalPlayerStats, params CMsgDOTAFantasyFinalPlayerStats\[\]\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_In\_\_1\_\_\_0\_\_\_0\_\_\_)
+
+## Constructors
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats__ctor"></a> CMsgDOTAFantasyFinalPlayerStats\(\)
+
+```csharp
+public CMsgDOTAFantasyFinalPlayerStats()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats__ctor_Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_"></a> CMsgDOTAFantasyFinalPlayerStats\(CMsgDOTAFantasyFinalPlayerStats\)
+
+```csharp
+public CMsgDOTAFantasyFinalPlayerStats(CMsgDOTAFantasyFinalPlayerStats other)
+```
+
+#### Parameters
+
+`other` [CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)
+
+## Fields
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_StatsFieldNumber"></a> StatsFieldNumber
+
+```csharp
+public const int StatsFieldNumber = 2
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Properties
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Descriptor"></a> Descriptor
+
+```csharp
+public static MessageDescriptor Descriptor { get; }
+```
+
+#### Property Value
+
+ MessageDescriptor
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Parser"></a> Parser
+
+```csharp
+public static MessageParser<CMsgDOTAFantasyFinalPlayerStats> Parser { get; }
+```
+
+#### Property Value
+
+ MessageParser<[CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)\>
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Stats"></a> Stats
+
+```csharp
+public RepeatedField<CMsgDOTAFantasyPlayerStats> Stats { get; }
+```
+
+#### Property Value
+
+ RepeatedField<[CMsgDOTAFantasyPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyPlayerStats.md)\>
+
+## Methods
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_CalculateSize"></a> CalculateSize\(\)
+
+```csharp
+public int CalculateSize()
+```
+
+#### Returns
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Clone"></a> Clone\(\)
+
+```csharp
+public CMsgDOTAFantasyFinalPlayerStats Clone()
+```
+
+#### Returns
+
+ [CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Equals_System_Object_"></a> Equals\(object\)
+
+```csharp
+public override bool Equals(object other)
+```
+
+#### Parameters
+
+`other` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_Equals_Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_"></a> Equals\(CMsgDOTAFantasyFinalPlayerStats\)
+
+```csharp
+public bool Equals(CMsgDOTAFantasyFinalPlayerStats other)
+```
+
+#### Parameters
+
+`other` [CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_GetHashCode"></a> GetHashCode\(\)
+
+```csharp
+public override int GetHashCode()
+```
+
+#### Returns
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_MergeFrom_Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_"></a> MergeFrom\(CMsgDOTAFantasyFinalPlayerStats\)
+
+```csharp
+public void MergeFrom(CMsgDOTAFantasyFinalPlayerStats other)
+```
+
+#### Parameters
+
+`other` [CMsgDOTAFantasyFinalPlayerStats](Divine.Protobufs.Dota2.CMsgDOTAFantasyFinalPlayerStats.md)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_MergeFrom_Google_Protobuf_CodedInputStream_"></a> MergeFrom\(CodedInputStream\)
+
+```csharp
+public void MergeFrom(CodedInputStream input)
+```
+
+#### Parameters
+
+`input` CodedInputStream
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_ToString"></a> ToString\(\)
+
+```csharp
+public override string ToString()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDOTAFantasyFinalPlayerStats_WriteTo_Google_Protobuf_CodedOutputStream_"></a> WriteTo\(CodedOutputStream\)
+
+```csharp
+public void WriteTo(CodedOutputStream output)
+```
+
+#### Parameters
+
+`output` CodedOutputStream
+

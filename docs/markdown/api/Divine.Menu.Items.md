@@ -52,9 +52,9 @@
 
  [MenuToggleKey](Divine.Menu.Items.MenuToggleKey.md)
 
- [MenuToggler<T\>](Divine.Menu.Items.MenuToggler\-1.md)
-
  [MenuToggler](Divine.Menu.Items.MenuToggler.md)
+
+ [MenuToggler<T\>](Divine.Menu.Items.MenuToggler\-1.md)
 
  [MenuTogglerBase<T\>](Divine.Menu.Items.MenuTogglerBase\-1.md)
 

@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgVoiceAudio | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgVoiceAudio | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgVoiceAudio" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio" class="text-break">
+Class CMsgVoiceAudio  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgVoiceAudio : IMessage&lt;CMsgVoiceAudio&gt;, IEquatable&lt;CMsgVoiceAudio&gt;, IDeepCloneable&lt;CMsgVoiceAudio&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgVoiceAudio</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio__ctor" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.#ctor">
+  CMsgVoiceAudio()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVoiceAudio()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio__ctor_Divine_Protobufs_Dota2_CMsgVoiceAudio_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.#ctor(Divine.Protobufs.Dota2.CMsgVoiceAudio)">
+  CMsgVoiceAudio(CMsgVoiceAudio)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVoiceAudio(CMsgVoiceAudio other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_FormatFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.FormatFieldNumber">
+  FormatFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FormatFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_NumPacketsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.NumPacketsFieldNumber">
+  NumPacketsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumPacketsFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_PacketOffsetsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.PacketOffsetsFieldNumber">
+  PacketOffsetsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PacketOffsetsFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SampleRateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SampleRateFieldNumber">
+  SampleRateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SampleRateFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SectionNumberFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SectionNumberFieldNumber">
+  SectionNumberFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SectionNumberFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SequenceBytesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SequenceBytesFieldNumber">
+  SequenceBytesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SequenceBytesFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_UncompressedSampleOffsetFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.UncompressedSampleOffsetFieldNumber">
+  UncompressedSampleOffsetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UncompressedSampleOffsetFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceDataFieldNumber">
+  VoiceDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VoiceDataFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceLevelFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceLevelFieldNumber">
+  VoiceLevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VoiceLevelFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Format_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Format*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Format" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Format">
+  Format
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VoiceDataFormat_t Format { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.VoiceDataFormat_t.html">VoiceDataFormat_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasFormat_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasFormat*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasFormat" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasFormat">
+  HasFormat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFormat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasNumPackets_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasNumPackets*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasNumPackets" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasNumPackets">
+  HasNumPackets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNumPackets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSampleRate_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSampleRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSampleRate" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSampleRate">
+  HasSampleRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSampleRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSectionNumber_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSectionNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSectionNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSectionNumber">
+  HasSectionNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSectionNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSequenceBytes_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSequenceBytes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasSequenceBytes" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasSequenceBytes">
+  HasSequenceBytes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSequenceBytes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasUncompressedSampleOffset_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasUncompressedSampleOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasUncompressedSampleOffset" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasUncompressedSampleOffset">
+  HasUncompressedSampleOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUncompressedSampleOffset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasVoiceData_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasVoiceData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasVoiceData" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasVoiceData">
+  HasVoiceData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVoiceData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasVoiceLevel_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasVoiceLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_HasVoiceLevel" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.HasVoiceLevel">
+  HasVoiceLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVoiceLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_NumPackets_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.NumPackets*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_NumPackets" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.NumPackets">
+  NumPackets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NumPackets { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_PacketOffsets_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.PacketOffsets*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_PacketOffsets" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.PacketOffsets">
+  PacketOffsets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; PacketOffsets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Parser" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgVoiceAudio&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SampleRate_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SampleRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SampleRate" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SampleRate">
+  SampleRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SampleRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SectionNumber_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SectionNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SectionNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SectionNumber">
+  SectionNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SectionNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SequenceBytes_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SequenceBytes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_SequenceBytes" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.SequenceBytes">
+  SequenceBytes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SequenceBytes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_UncompressedSampleOffset_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.UncompressedSampleOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_UncompressedSampleOffset" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.UncompressedSampleOffset">
+  UncompressedSampleOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint UncompressedSampleOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceData_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceData" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceData">
+  VoiceData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString VoiceData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceLevel_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_VoiceLevel" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.VoiceLevel">
+  VoiceLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VoiceLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearFormat_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearFormat*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearFormat" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearFormat">
+  ClearFormat()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFormat()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearNumPackets_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearNumPackets*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearNumPackets" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearNumPackets">
+  ClearNumPackets()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNumPackets()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSampleRate_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSampleRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSampleRate" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSampleRate">
+  ClearSampleRate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSampleRate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSectionNumber_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSectionNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSectionNumber" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSectionNumber">
+  ClearSectionNumber()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSectionNumber()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSequenceBytes_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSequenceBytes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearSequenceBytes" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearSequenceBytes">
+  ClearSequenceBytes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSequenceBytes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearUncompressedSampleOffset_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearUncompressedSampleOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearUncompressedSampleOffset" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearUncompressedSampleOffset">
+  ClearUncompressedSampleOffset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUncompressedSampleOffset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearVoiceData_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearVoiceData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearVoiceData" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearVoiceData">
+  ClearVoiceData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearVoiceData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearVoiceLevel_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearVoiceLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ClearVoiceLevel" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ClearVoiceLevel">
+  ClearVoiceLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearVoiceLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Clone" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVoiceAudio Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Equals_Divine_Protobufs_Dota2_CMsgVoiceAudio_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Equals(Divine.Protobufs.Dota2.CMsgVoiceAudio)">
+  Equals(CMsgVoiceAudio)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgVoiceAudio other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_MergeFrom_Divine_Protobufs_Dota2_CMsgVoiceAudio_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.MergeFrom(Divine.Protobufs.Dota2.CMsgVoiceAudio)">
+  MergeFrom(CMsgVoiceAudio)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgVoiceAudio other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgVoiceAudio.html">CMsgVoiceAudio</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_ToString" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgVoiceAudio_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgVoiceAudio_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgVoiceAudio.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

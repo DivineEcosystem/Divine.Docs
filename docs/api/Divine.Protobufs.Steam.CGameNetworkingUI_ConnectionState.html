@@ -1,0 +1,3514 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CGameNetworkingUI_ConnectionState | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CGameNetworkingUI_ConnectionState | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState" class="text-break">
+Class CGameNetworkingUI_ConnectionState  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CGameNetworkingUI_ConnectionState : IMessage&lt;CGameNetworkingUI_ConnectionState&gt;, IEquatable&lt;CGameNetworkingUI_ConnectionState&gt;, IDeepCloneable&lt;CGameNetworkingUI_ConnectionState&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CGameNetworkingUI_ConnectionState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState__ctor_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState__ctor" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.#ctor">
+  CGameNetworkingUI_ConnectionState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGameNetworkingUI_ConnectionState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState__ctor_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState__ctor_Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.#ctor(Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState)">
+  CGameNetworkingUI_ConnectionState(CGameNetworkingUI_ConnectionState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGameNetworkingUI_ConnectionState(CGameNetworkingUI_ConnectionState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_AddressRemoteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.AddressRemoteFieldNumber">
+  AddressRemoteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AddressRemoteFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_AppidFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.AppidFieldNumber">
+  AppidFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AppidFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseMessageFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseMessageFieldNumber">
+  CloseMessageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CloseMessageFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseReasonFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseReasonFieldNumber">
+  CloseReasonFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CloseReasonFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseTimeFieldNumber">
+  CloseTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CloseTimeFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionIdLocalFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionIdLocalFieldNumber">
+  ConnectionIdLocalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectionIdLocalFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionKeyFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionKeyFieldNumber">
+  ConnectionKeyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectionKeyFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionStateFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionStateFieldNumber">
+  ConnectionStateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectionStateFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityLocalFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityLocalFieldNumber">
+  E2EQualityLocalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int E2EQualityLocalFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteFieldNumber">
+  E2EQualityRemoteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int E2EQualityRemoteFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteInstantaneousTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteInstantaneousTimeFieldNumber">
+  E2EQualityRemoteInstantaneousTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int E2EQualityRemoteInstantaneousTimeFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteLifetimeTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteLifetimeTimeFieldNumber">
+  E2EQualityRemoteLifetimeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int E2EQualityRemoteLifetimeTimeFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityLocalFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityLocalFieldNumber">
+  FrontQualityLocalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FrontQualityLocalFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteFieldNumber">
+  FrontQualityRemoteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FrontQualityRemoteFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteInstantaneousTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteInstantaneousTimeFieldNumber">
+  FrontQualityRemoteInstantaneousTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FrontQualityRemoteInstantaneousTimeFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteLifetimeTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteLifetimeTimeFieldNumber">
+  FrontQualityRemoteLifetimeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FrontQualityRemoteLifetimeTimeFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityLocalFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityLocalFieldNumber">
+  IdentityLocalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdentityLocalFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityRemoteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityRemoteFieldNumber">
+  IdentityRemoteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdentityRemoteFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_P2PRoutingFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.P2PRoutingFieldNumber">
+  P2PRoutingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int P2PRoutingFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingDefaultInternetRouteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingDefaultInternetRouteFieldNumber">
+  PingDefaultInternetRouteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PingDefaultInternetRouteFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingInteriorFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingInteriorFieldNumber">
+  PingInteriorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PingInteriorFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingRemoteFrontFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingRemoteFrontFieldNumber">
+  PingRemoteFrontFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PingRemoteFrontFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidLocalFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidLocalFieldNumber">
+  SdrpopidLocalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SdrpopidLocalFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidRemoteFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidRemoteFieldNumber">
+  SdrpopidRemoteFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SdrpopidRemoteFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StartTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StartTimeFieldNumber">
+  StartTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StartTimeFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StatusLocTokenFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StatusLocTokenFieldNumber">
+  StatusLocTokenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StatusLocTokenFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_TransportKindFieldNumber" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.TransportKindFieldNumber">
+  TransportKindFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TransportKindFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_AddressRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.AddressRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_AddressRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.AddressRemote">
+  AddressRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddressRemote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Appid_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Appid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Appid" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Appid">
+  Appid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Appid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseMessage_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseMessage" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseMessage">
+  CloseMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CloseMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseReason_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseReason*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseReason" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseReason">
+  CloseReason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CloseReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CloseTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CloseTime">
+  CloseTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CloseTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionIdLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionIdLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionIdLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionIdLocal">
+  ConnectionIdLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ConnectionIdLocal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionKey_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionKey*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionKey" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionKey">
+  ConnectionKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ConnectionKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionState*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ConnectionState" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ConnectionState">
+  ConnectionState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ConnectionState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Descriptor_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Descriptor" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityLocal">
+  E2EQualityLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality E2EQualityLocal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemote">
+  E2EQualityRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality E2EQualityRemote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteInstantaneousTime">
+  E2EQualityRemoteInstantaneousTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong E2EQualityRemoteInstantaneousTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_E2EQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.E2EQualityRemoteLifetimeTime">
+  E2EQualityRemoteLifetimeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong E2EQualityRemoteLifetimeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityLocal">
+  FrontQualityLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality FrontQualityLocal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemote">
+  FrontQualityRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramConnectionQuality FrontQualityRemote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramConnectionQuality.html">CMsgSteamDatagramConnectionQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteInstantaneousTime">
+  FrontQualityRemoteInstantaneousTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FrontQualityRemoteInstantaneousTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_FrontQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.FrontQualityRemoteLifetimeTime">
+  FrontQualityRemoteLifetimeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FrontQualityRemoteLifetimeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasAddressRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasAddressRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasAddressRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasAddressRemote">
+  HasAddressRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAddressRemote { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasAppid_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasAppid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasAppid" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasAppid">
+  HasAppid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAppid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseMessage_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseMessage" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseMessage">
+  HasCloseMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCloseMessage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseReason_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseReason*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseReason" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseReason">
+  HasCloseReason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCloseReason { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasCloseTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasCloseTime">
+  HasCloseTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCloseTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionIdLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionIdLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionIdLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionIdLocal">
+  HasConnectionIdLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConnectionIdLocal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionKey_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionKey*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionKey" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionKey">
+  HasConnectionKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConnectionKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionState*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasConnectionState" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasConnectionState">
+  HasConnectionState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConnectionState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasE2EQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasE2EQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasE2EQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasE2EQualityRemoteInstantaneousTime">
+  HasE2EQualityRemoteInstantaneousTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasE2EQualityRemoteInstantaneousTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasE2EQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasE2EQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasE2EQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasE2EQualityRemoteLifetimeTime">
+  HasE2EQualityRemoteLifetimeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasE2EQualityRemoteLifetimeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasFrontQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasFrontQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasFrontQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasFrontQualityRemoteInstantaneousTime">
+  HasFrontQualityRemoteInstantaneousTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFrontQualityRemoteInstantaneousTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasFrontQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasFrontQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasFrontQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasFrontQualityRemoteLifetimeTime">
+  HasFrontQualityRemoteLifetimeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFrontQualityRemoteLifetimeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasIdentityLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasIdentityLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasIdentityLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasIdentityLocal">
+  HasIdentityLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIdentityLocal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasIdentityRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasIdentityRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasIdentityRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasIdentityRemote">
+  HasIdentityRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIdentityRemote { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingDefaultInternetRoute_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingDefaultInternetRoute*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingDefaultInternetRoute" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingDefaultInternetRoute">
+  HasPingDefaultInternetRoute
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPingDefaultInternetRoute { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingInterior_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingInterior*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingInterior" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingInterior">
+  HasPingInterior
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPingInterior { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingRemoteFront_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingRemoteFront*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasPingRemoteFront" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasPingRemoteFront">
+  HasPingRemoteFront
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPingRemoteFront { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasSdrpopidLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasSdrpopidLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasSdrpopidLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasSdrpopidLocal">
+  HasSdrpopidLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSdrpopidLocal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasSdrpopidRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasSdrpopidRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasSdrpopidRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasSdrpopidRemote">
+  HasSdrpopidRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSdrpopidRemote { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasStartTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasStartTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasStartTime">
+  HasStartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasStatusLocToken_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasStatusLocToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasStatusLocToken" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasStatusLocToken">
+  HasStatusLocToken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStatusLocToken { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasTransportKind_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasTransportKind*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_HasTransportKind" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.HasTransportKind">
+  HasTransportKind
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTransportKind { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityLocal">
+  IdentityLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IdentityLocal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_IdentityRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.IdentityRemote">
+  IdentityRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IdentityRemote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_P2PRouting_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.P2PRouting*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_P2PRouting" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.P2PRouting">
+  P2PRouting
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramP2PRoutingSummary P2PRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramP2PRoutingSummary.html">CMsgSteamDatagramP2PRoutingSummary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Parser_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Parser" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CGameNetworkingUI_ConnectionState&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingDefaultInternetRoute_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingDefaultInternetRoute*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingDefaultInternetRoute" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingDefaultInternetRoute">
+  PingDefaultInternetRoute
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PingDefaultInternetRoute { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingInterior_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingInterior*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingInterior" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingInterior">
+  PingInterior
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PingInterior { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingRemoteFront_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingRemoteFront*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_PingRemoteFront" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.PingRemoteFront">
+  PingRemoteFront
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PingRemoteFront { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidLocal">
+  SdrpopidLocal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SdrpopidLocal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_SdrpopidRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.SdrpopidRemote">
+  SdrpopidRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SdrpopidRemote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StartTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StartTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StartTime">
+  StartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint StartTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StatusLocToken_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StatusLocToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_StatusLocToken" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.StatusLocToken">
+  StatusLocToken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StatusLocToken { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_TransportKind_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.TransportKind*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_TransportKind" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.TransportKind">
+  TransportKind
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TransportKind { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CalculateSize_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_CalculateSize" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearAddressRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearAddressRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearAddressRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearAddressRemote">
+  ClearAddressRemote()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAddressRemote()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearAppid_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearAppid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearAppid" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearAppid">
+  ClearAppid()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAppid()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseMessage_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseMessage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseMessage" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseMessage">
+  ClearCloseMessage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCloseMessage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseReason_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseReason*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseReason" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseReason">
+  ClearCloseReason()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCloseReason()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearCloseTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearCloseTime">
+  ClearCloseTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCloseTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionIdLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionIdLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionIdLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionIdLocal">
+  ClearConnectionIdLocal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearConnectionIdLocal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionKey_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionKey*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionKey" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionKey">
+  ClearConnectionKey()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearConnectionKey()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionState*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearConnectionState" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearConnectionState">
+  ClearConnectionState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearConnectionState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearE2EQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearE2EQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearE2EQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearE2EQualityRemoteInstantaneousTime">
+  ClearE2EQualityRemoteInstantaneousTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearE2EQualityRemoteInstantaneousTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearE2EQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearE2EQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearE2EQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearE2EQualityRemoteLifetimeTime">
+  ClearE2EQualityRemoteLifetimeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearE2EQualityRemoteLifetimeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearFrontQualityRemoteInstantaneousTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearFrontQualityRemoteInstantaneousTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearFrontQualityRemoteInstantaneousTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearFrontQualityRemoteInstantaneousTime">
+  ClearFrontQualityRemoteInstantaneousTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFrontQualityRemoteInstantaneousTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearFrontQualityRemoteLifetimeTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearFrontQualityRemoteLifetimeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearFrontQualityRemoteLifetimeTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearFrontQualityRemoteLifetimeTime">
+  ClearFrontQualityRemoteLifetimeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFrontQualityRemoteLifetimeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearIdentityLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearIdentityLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearIdentityLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearIdentityLocal">
+  ClearIdentityLocal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIdentityLocal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearIdentityRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearIdentityRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearIdentityRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearIdentityRemote">
+  ClearIdentityRemote()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIdentityRemote()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingDefaultInternetRoute_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingDefaultInternetRoute*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingDefaultInternetRoute" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingDefaultInternetRoute">
+  ClearPingDefaultInternetRoute()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPingDefaultInternetRoute()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingInterior_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingInterior*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingInterior" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingInterior">
+  ClearPingInterior()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPingInterior()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingRemoteFront_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingRemoteFront*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearPingRemoteFront" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearPingRemoteFront">
+  ClearPingRemoteFront()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPingRemoteFront()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearSdrpopidLocal_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearSdrpopidLocal*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearSdrpopidLocal" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearSdrpopidLocal">
+  ClearSdrpopidLocal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSdrpopidLocal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearSdrpopidRemote_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearSdrpopidRemote*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearSdrpopidRemote" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearSdrpopidRemote">
+  ClearSdrpopidRemote()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSdrpopidRemote()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearStartTime_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearStartTime" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearStartTime">
+  ClearStartTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStartTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearStatusLocToken_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearStatusLocToken*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearStatusLocToken" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearStatusLocToken">
+  ClearStatusLocToken()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStatusLocToken()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearTransportKind_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearTransportKind*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ClearTransportKind" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ClearTransportKind">
+  ClearTransportKind()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTransportKind()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Clone_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Clone" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGameNetworkingUI_ConnectionState Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Equals_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Equals_Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Equals(Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState)">
+  Equals(CGameNetworkingUI_ConnectionState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CGameNetworkingUI_ConnectionState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Equals_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_GetHashCode_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_GetHashCode" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_MergeFrom_Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.MergeFrom(Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState)">
+  MergeFrom(CGameNetworkingUI_ConnectionState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CGameNetworkingUI_ConnectionState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.html">CGameNetworkingUI_ConnectionState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ToString_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_ToString" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_WriteTo_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGameNetworkingUI_ConnectionState_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CGameNetworkingUI_ConnectionState.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

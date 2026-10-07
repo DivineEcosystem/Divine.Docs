@@ -1,0 +1,2916 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgStartFindingMatch | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgStartFindingMatch | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch" class="text-break">
+Class CMsgStartFindingMatch  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgStartFindingMatch : IMessage&lt;CMsgStartFindingMatch&gt;, IEquatable&lt;CMsgStartFindingMatch&gt;, IDeepCloneable&lt;CMsgStartFindingMatch&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgStartFindingMatch</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch__ctor" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.#ctor">
+  CMsgStartFindingMatch()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgStartFindingMatch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch__ctor_Divine_Protobufs_Dota2_CMsgStartFindingMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.#ctor(Divine.Protobufs.Dota2.CMsgStartFindingMatch)">
+  CMsgStartFindingMatch(CMsgStartFindingMatch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgStartFindingMatch(CMsgStartFindingMatch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotDifficultyMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotDifficultyMaskFieldNumber">
+  BotDifficultyMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BotDifficultyMaskFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotScriptIndexMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotScriptIndexMaskFieldNumber">
+  BotScriptIndexMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BotScriptIndexMaskFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClientVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClientVersionFieldNumber">
+  ClientVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientVersionFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.CustomGameDifficultyMaskFieldNumber">
+  CustomGameDifficultyMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameDifficultyMaskFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_DisableExperimentalGameplayFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.DisableExperimentalGameplayFieldNumber">
+  DisableExperimentalGameplayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DisableExperimentalGameplayFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageEnumFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageEnumFieldNumber">
+  GameLanguageEnumFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameLanguageEnumFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageNameFieldNumber">
+  GameLanguageNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameLanguageNameFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameModesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameModesFieldNumber">
+  GameModesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameModesFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HighPriorityDisabledFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HighPriorityDisabledFieldNumber">
+  HighPriorityDisabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HighPriorityDisabledFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_IsChallengeMatchFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.IsChallengeMatchFieldNumber">
+  IsChallengeMatchFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsChallengeMatchFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_KeyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.KeyFieldNumber">
+  KeyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int KeyFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_LaneSelectionFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.LaneSelectionFlagsFieldNumber">
+  LaneSelectionFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LaneSelectionFlagsFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MatchTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MatchTypeFieldNumber">
+  MatchTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchTypeFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MatchgroupsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MatchgroupsFieldNumber">
+  MatchgroupsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchgroupsFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MatchlanguagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MatchlanguagesFieldNumber">
+  MatchlanguagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchlanguagesFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_PingDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.PingDataFieldNumber">
+  PingDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PingDataFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_RegionSelectFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.RegionSelectFlagsFieldNumber">
+  RegionSelectFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RegionSelectFlagsFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SoloQueueFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SoloQueueFieldNumber">
+  SoloQueueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SoloQueueFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SteamClanAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SteamClanAccountIdFieldNumber">
+  SteamClanAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SteamClanAccountIdFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_TeamIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.TeamIdFieldNumber">
+  TeamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamIdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotDifficultyMask">
+  BotDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BotDifficultyMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_BotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.BotScriptIndexMask">
+  BotScriptIndexMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BotScriptIndexMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClientVersion">
+  ClientVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ClientVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.CustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.CustomGameDifficultyMask">
+  CustomGameDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomGameDifficultyMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_DisableExperimentalGameplay_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.DisableExperimentalGameplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_DisableExperimentalGameplay" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.DisableExperimentalGameplay">
+  DisableExperimentalGameplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisableExperimentalGameplay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageEnum_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageEnum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageEnum" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageEnum">
+  GameLanguageEnum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchLanguages GameLanguageEnum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.MatchLanguages.html">MatchLanguages</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageName_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameLanguageName" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameLanguageName">
+  GameLanguageName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GameLanguageName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameModes_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GameModes" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GameModes">
+  GameModes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GameModes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasBotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasBotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasBotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasBotDifficultyMask">
+  HasBotDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBotDifficultyMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasBotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasBotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasBotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasBotScriptIndexMask">
+  HasBotScriptIndexMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBotScriptIndexMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasClientVersion">
+  HasClientVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasCustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasCustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasCustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasCustomGameDifficultyMask">
+  HasCustomGameDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomGameDifficultyMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasDisableExperimentalGameplay_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasDisableExperimentalGameplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasDisableExperimentalGameplay" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasDisableExperimentalGameplay">
+  HasDisableExperimentalGameplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDisableExperimentalGameplay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameLanguageEnum_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameLanguageEnum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameLanguageEnum" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameLanguageEnum">
+  HasGameLanguageEnum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameLanguageEnum { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameLanguageName_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameLanguageName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameLanguageName" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameLanguageName">
+  HasGameLanguageName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameLanguageName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameModes_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasGameModes" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasGameModes">
+  HasGameModes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameModes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasHighPriorityDisabled_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasHighPriorityDisabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasHighPriorityDisabled" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasHighPriorityDisabled">
+  HasHighPriorityDisabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHighPriorityDisabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasIsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasIsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasIsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasIsChallengeMatch">
+  HasIsChallengeMatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsChallengeMatch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasKey_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasKey" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasKey">
+  HasKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasLaneSelectionFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasLaneSelectionFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasLaneSelectionFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasLaneSelectionFlags">
+  HasLaneSelectionFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLaneSelectionFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchType_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchType" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchType">
+  HasMatchType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchgroups_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchgroups" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchgroups">
+  HasMatchgroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchgroups { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchlanguages_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasMatchlanguages" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasMatchlanguages">
+  HasMatchlanguages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchlanguages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasRegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasRegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasRegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasRegionSelectFlags">
+  HasRegionSelectFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRegionSelectFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasSoloQueue_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasSoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasSoloQueue" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasSoloQueue">
+  HasSoloQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSoloQueue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasSteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasSteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasSteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasSteamClanAccountId">
+  HasSteamClanAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSteamClanAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasTeamId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasTeamId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HasTeamId">
+  HasTeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HighPriorityDisabled_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HighPriorityDisabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HighPriorityDisabled" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.HighPriorityDisabled">
+  HighPriorityDisabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HighPriorityDisabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_IsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.IsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_IsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.IsChallengeMatch">
+  IsChallengeMatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChallengeMatch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Key_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Key*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Key" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Key">
+  Key
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Key { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_LaneSelectionFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.LaneSelectionFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_LaneSelectionFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.LaneSelectionFlags">
+  LaneSelectionFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LaneSelectionFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MatchType_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MatchType" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MatchType">
+  MatchType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchType MatchType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.MatchType.html">MatchType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Matchgroups_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Matchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Matchgroups" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Matchgroups">
+  Matchgroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Matchgroups { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Matchlanguages_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Matchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Matchlanguages" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Matchlanguages">
+  Matchlanguages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Matchlanguages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Parser" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgStartFindingMatch&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_PingData_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.PingData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_PingData" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.PingData">
+  PingData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgClientPingData PingData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgClientPingData.html">CMsgClientPingData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_RegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.RegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_RegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.RegionSelectFlags">
+  RegionSelectFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RegionSelectFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SoloQueue_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SoloQueue" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SoloQueue">
+  SoloQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SoloQueue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_SteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.SteamClanAccountId">
+  SteamClanAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SteamClanAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_TeamId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.TeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_TeamId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.TeamId">
+  TeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TeamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearBotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearBotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearBotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearBotDifficultyMask">
+  ClearBotDifficultyMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBotDifficultyMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearBotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearBotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearBotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearBotScriptIndexMask">
+  ClearBotScriptIndexMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBotScriptIndexMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearClientVersion">
+  ClearClientVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearCustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearCustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearCustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearCustomGameDifficultyMask">
+  ClearCustomGameDifficultyMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomGameDifficultyMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearDisableExperimentalGameplay_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearDisableExperimentalGameplay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearDisableExperimentalGameplay" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearDisableExperimentalGameplay">
+  ClearDisableExperimentalGameplay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDisableExperimentalGameplay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameLanguageEnum_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameLanguageEnum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameLanguageEnum" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameLanguageEnum">
+  ClearGameLanguageEnum()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameLanguageEnum()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameLanguageName_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameLanguageName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameLanguageName" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameLanguageName">
+  ClearGameLanguageName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameLanguageName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameModes_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearGameModes" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearGameModes">
+  ClearGameModes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameModes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearHighPriorityDisabled_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearHighPriorityDisabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearHighPriorityDisabled" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearHighPriorityDisabled">
+  ClearHighPriorityDisabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHighPriorityDisabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearIsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearIsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearIsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearIsChallengeMatch">
+  ClearIsChallengeMatch()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsChallengeMatch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearKey_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearKey" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearKey">
+  ClearKey()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearKey()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearLaneSelectionFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearLaneSelectionFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearLaneSelectionFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearLaneSelectionFlags">
+  ClearLaneSelectionFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLaneSelectionFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchType_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchType" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchType">
+  ClearMatchType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchgroups_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchgroups" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchgroups">
+  ClearMatchgroups()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchgroups()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchlanguages_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearMatchlanguages" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearMatchlanguages">
+  ClearMatchlanguages()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchlanguages()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearRegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearRegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearRegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearRegionSelectFlags">
+  ClearRegionSelectFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRegionSelectFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearSoloQueue_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearSoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearSoloQueue" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearSoloQueue">
+  ClearSoloQueue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSoloQueue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearSteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearSteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearSteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearSteamClanAccountId">
+  ClearSteamClanAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSteamClanAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearTeamId_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearTeamId" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ClearTeamId">
+  ClearTeamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Clone" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgStartFindingMatch Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Equals_Divine_Protobufs_Dota2_CMsgStartFindingMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Equals(Divine.Protobufs.Dota2.CMsgStartFindingMatch)">
+  Equals(CMsgStartFindingMatch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgStartFindingMatch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MergeFrom_Divine_Protobufs_Dota2_CMsgStartFindingMatch_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MergeFrom(Divine.Protobufs.Dota2.CMsgStartFindingMatch)">
+  MergeFrom(CMsgStartFindingMatch)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgStartFindingMatch other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgStartFindingMatch.html">CMsgStartFindingMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ToString" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgStartFindingMatch.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

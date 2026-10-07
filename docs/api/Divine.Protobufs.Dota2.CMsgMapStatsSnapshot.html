@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgMapStatsSnapshot | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgMapStatsSnapshot | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot" class="text-break">
+Class CMsgMapStatsSnapshot  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgMapStatsSnapshot : IMessage&lt;CMsgMapStatsSnapshot&gt;, IEquatable&lt;CMsgMapStatsSnapshot&gt;, IDeepCloneable&lt;CMsgMapStatsSnapshot&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgMapStatsSnapshot</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot__ctor" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.#ctor">
+  CMsgMapStatsSnapshot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgMapStatsSnapshot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot__ctor_Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.#ctor(Divine.Protobufs.Dota2.CMsgMapStatsSnapshot)">
+  CMsgMapStatsSnapshot(CMsgMapStatsSnapshot)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgMapStatsSnapshot(CMsgMapStatsSnapshot other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_LotusesGainedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.LotusesGainedFieldNumber">
+  LotusesGainedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LotusesGainedFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_OutpostsCapturedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.OutpostsCapturedFieldNumber">
+  OutpostsCapturedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OutpostsCapturedFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_PortalsUsedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.PortalsUsedFieldNumber">
+  PortalsUsedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PortalsUsedFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsDayFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsDayFieldNumber">
+  RoshanKillsDayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoshanKillsDayFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsNightFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsNightFieldNumber">
+  RoshanKillsNightFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoshanKillsNightFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ShieldRunesGainedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ShieldRunesGainedFieldNumber">
+  ShieldRunesGainedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ShieldRunesGainedFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_TimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.TimestampFieldNumber">
+  TimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_TormentorKillsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.TormentorKillsFieldNumber">
+  TormentorKillsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TormentorKillsFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WatchersTakenFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WatchersTakenFieldNumber">
+  WatchersTakenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WatchersTakenFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WisdomRunesGainedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WisdomRunesGainedFieldNumber">
+  WisdomRunesGainedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WisdomRunesGainedFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasLotusesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasLotusesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasLotusesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasLotusesGained">
+  HasLotusesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLotusesGained { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasOutpostsCaptured_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasOutpostsCaptured*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasOutpostsCaptured" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasOutpostsCaptured">
+  HasOutpostsCaptured
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOutpostsCaptured { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasPortalsUsed_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasPortalsUsed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasPortalsUsed" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasPortalsUsed">
+  HasPortalsUsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPortalsUsed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasRoshanKillsDay_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasRoshanKillsDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasRoshanKillsDay" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasRoshanKillsDay">
+  HasRoshanKillsDay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRoshanKillsDay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasRoshanKillsNight_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasRoshanKillsNight*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasRoshanKillsNight" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasRoshanKillsNight">
+  HasRoshanKillsNight
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRoshanKillsNight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasShieldRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasShieldRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasShieldRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasShieldRunesGained">
+  HasShieldRunesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasShieldRunesGained { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasTimestamp">
+  HasTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasTormentorKills_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasTormentorKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasTormentorKills" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasTormentorKills">
+  HasTormentorKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTormentorKills { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasWatchersTaken_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasWatchersTaken*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasWatchersTaken" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasWatchersTaken">
+  HasWatchersTaken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWatchersTaken { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasWisdomRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasWisdomRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_HasWisdomRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.HasWisdomRunesGained">
+  HasWisdomRunesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWisdomRunesGained { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_LotusesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.LotusesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_LotusesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.LotusesGained">
+  LotusesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong LotusesGained { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_OutpostsCaptured_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.OutpostsCaptured*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_OutpostsCaptured" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.OutpostsCaptured">
+  OutpostsCaptured
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong OutpostsCaptured { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Parser" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgMapStatsSnapshot&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_PortalsUsed_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.PortalsUsed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_PortalsUsed" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.PortalsUsed">
+  PortalsUsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PortalsUsed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsDay_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsDay" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsDay">
+  RoshanKillsDay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RoshanKillsDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsNight_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsNight*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_RoshanKillsNight" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.RoshanKillsNight">
+  RoshanKillsNight
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RoshanKillsNight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ShieldRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ShieldRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ShieldRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ShieldRunesGained">
+  ShieldRunesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ShieldRunesGained { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Timestamp_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Timestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Timestamp" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Timestamp">
+  Timestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Timestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_TormentorKills_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.TormentorKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_TormentorKills" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.TormentorKills">
+  TormentorKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong TormentorKills { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WatchersTaken_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WatchersTaken*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WatchersTaken" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WatchersTaken">
+  WatchersTaken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong WatchersTaken { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WisdomRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WisdomRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WisdomRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WisdomRunesGained">
+  WisdomRunesGained
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong WisdomRunesGained { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearLotusesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearLotusesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearLotusesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearLotusesGained">
+  ClearLotusesGained()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLotusesGained()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearOutpostsCaptured_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearOutpostsCaptured*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearOutpostsCaptured" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearOutpostsCaptured">
+  ClearOutpostsCaptured()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOutpostsCaptured()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearPortalsUsed_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearPortalsUsed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearPortalsUsed" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearPortalsUsed">
+  ClearPortalsUsed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPortalsUsed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearRoshanKillsDay_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearRoshanKillsDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearRoshanKillsDay" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearRoshanKillsDay">
+  ClearRoshanKillsDay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRoshanKillsDay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearRoshanKillsNight_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearRoshanKillsNight*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearRoshanKillsNight" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearRoshanKillsNight">
+  ClearRoshanKillsNight()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRoshanKillsNight()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearShieldRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearShieldRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearShieldRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearShieldRunesGained">
+  ClearShieldRunesGained()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearShieldRunesGained()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearTimestamp">
+  ClearTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearTormentorKills_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearTormentorKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearTormentorKills" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearTormentorKills">
+  ClearTormentorKills()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTormentorKills()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearWatchersTaken_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearWatchersTaken*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearWatchersTaken" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearWatchersTaken">
+  ClearWatchersTaken()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWatchersTaken()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearWisdomRunesGained_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearWisdomRunesGained*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ClearWisdomRunesGained" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ClearWisdomRunesGained">
+  ClearWisdomRunesGained()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWisdomRunesGained()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Clone" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgMapStatsSnapshot Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Equals_Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Equals(Divine.Protobufs.Dota2.CMsgMapStatsSnapshot)">
+  Equals(CMsgMapStatsSnapshot)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgMapStatsSnapshot other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_MergeFrom_Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.MergeFrom(Divine.Protobufs.Dota2.CMsgMapStatsSnapshot)">
+  MergeFrom(CMsgMapStatsSnapshot)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgMapStatsSnapshot other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.html">CMsgMapStatsSnapshot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_ToString" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgMapStatsSnapshot_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgMapStatsSnapshot.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

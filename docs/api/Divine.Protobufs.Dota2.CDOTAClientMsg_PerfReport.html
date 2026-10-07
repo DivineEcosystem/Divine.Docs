@@ -1,0 +1,3209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CDOTAClientMsg_PerfReport | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CDOTAClientMsg_PerfReport | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport" class="text-break">
+Class CDOTAClientMsg_PerfReport  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CDOTAClientMsg_PerfReport : IMessage&lt;CDOTAClientMsg_PerfReport&gt;, IEquatable&lt;CDOTAClientMsg_PerfReport&gt;, IDeepCloneable&lt;CDOTAClientMsg_PerfReport&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CDOTAClientMsg_PerfReport</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport__ctor" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.#ctor">
+  CDOTAClientMsg_PerfReport()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAClientMsg_PerfReport()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport__ctor_Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.#ctor(Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport)">
+  CDOTAClientMsg_PerfReport(CDOTAClientMsg_PerfReport)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAClientMsg_PerfReport(CDOTAClientMsg_PerfReport other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientSimulateTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientSimulateTimeFieldNumber">
+  AverageClientSimulateTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageClientSimulateTimeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientTickTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientTickTimeFieldNumber">
+  AverageClientTickTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageClientTickTimeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageComputeTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageComputeTimeFieldNumber">
+  AverageComputeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageComputeTimeFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameTimeFieldNumber">
+  AverageFrameTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageFrameTimeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameUpdateTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameUpdateTimeFieldNumber">
+  AverageFrameUpdateTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageFrameUpdateTimeFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageIdleTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageIdleTimeFieldNumber">
+  AverageIdleTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageIdleTimeFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageInputProcessingTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageInputProcessingTimeFieldNumber">
+  AverageInputProcessingTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageInputProcessingTimeFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageMissedSnapshotRateFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageMissedSnapshotRateFieldNumber">
+  AverageMissedSnapshotRateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageMissedSnapshotRateFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageOutputTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageOutputTimeFieldNumber">
+  AverageOutputTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageOutputTimeFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageSwapTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageSwapTimeFieldNumber">
+  AverageSwapTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageSwapTimeFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageWaitForRenderingToCompleteTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageWaitForRenderingToCompleteTimeFieldNumber">
+  AverageWaitForRenderingToCompleteTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageWaitForRenderingToCompleteTimeFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientSimulateTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientSimulateTimeFieldNumber">
+  MaxClientSimulateTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxClientSimulateTimeFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientTickTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientTickTimeFieldNumber">
+  MaxClientTickTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxClientTickTimeFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxComputeTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxComputeTimeFieldNumber">
+  MaxComputeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxComputeTimeFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameTimeFieldNumber">
+  MaxFrameTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxFrameTimeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameUpdateTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameUpdateTimeFieldNumber">
+  MaxFrameUpdateTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxFrameUpdateTimeFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxIdleTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxIdleTimeFieldNumber">
+  MaxIdleTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxIdleTimeFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxInputProcessingTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxInputProcessingTimeFieldNumber">
+  MaxInputProcessingTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxInputProcessingTimeFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxMissedSnapshotRateFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxMissedSnapshotRateFieldNumber">
+  MaxMissedSnapshotRateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxMissedSnapshotRateFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxOutputTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxOutputTimeFieldNumber">
+  MaxOutputTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxOutputTimeFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxSwapTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxSwapTimeFieldNumber">
+  MaxSwapTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxSwapTimeFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxWaitForRenderingToCompleteTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxWaitForRenderingToCompleteTimeFieldNumber">
+  MaxWaitForRenderingToCompleteTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxWaitForRenderingToCompleteTimeFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientSimulateTime">
+  AverageClientSimulateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageClientSimulateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageClientTickTime">
+  AverageClientTickTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageClientTickTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageComputeTime">
+  AverageComputeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageComputeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameTime">
+  AverageFrameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageFrameTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageFrameUpdateTime">
+  AverageFrameUpdateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageFrameUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageIdleTime">
+  AverageIdleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageIdleTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageInputProcessingTime">
+  AverageInputProcessingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageInputProcessingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageMissedSnapshotRate">
+  AverageMissedSnapshotRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageMissedSnapshotRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageOutputTime">
+  AverageOutputTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageOutputTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageSwapTime">
+  AverageSwapTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageSwapTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_AverageWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.AverageWaitForRenderingToCompleteTime">
+  AverageWaitForRenderingToCompleteTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageWaitForRenderingToCompleteTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Descriptor_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Descriptor" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageClientSimulateTime">
+  HasAverageClientSimulateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageClientSimulateTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageClientTickTime">
+  HasAverageClientTickTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageClientTickTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageComputeTime">
+  HasAverageComputeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageComputeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageFrameTime">
+  HasAverageFrameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageFrameTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageFrameUpdateTime">
+  HasAverageFrameUpdateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageFrameUpdateTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageIdleTime">
+  HasAverageIdleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageIdleTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageInputProcessingTime">
+  HasAverageInputProcessingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageInputProcessingTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageMissedSnapshotRate">
+  HasAverageMissedSnapshotRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageMissedSnapshotRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageOutputTime">
+  HasAverageOutputTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageOutputTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageSwapTime">
+  HasAverageSwapTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageSwapTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasAverageWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasAverageWaitForRenderingToCompleteTime">
+  HasAverageWaitForRenderingToCompleteTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageWaitForRenderingToCompleteTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxClientSimulateTime">
+  HasMaxClientSimulateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxClientSimulateTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxClientTickTime">
+  HasMaxClientTickTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxClientTickTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxComputeTime">
+  HasMaxComputeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxComputeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxFrameTime">
+  HasMaxFrameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxFrameTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxFrameUpdateTime">
+  HasMaxFrameUpdateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxFrameUpdateTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxIdleTime">
+  HasMaxIdleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxIdleTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxInputProcessingTime">
+  HasMaxInputProcessingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxInputProcessingTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxMissedSnapshotRate">
+  HasMaxMissedSnapshotRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxMissedSnapshotRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxOutputTime">
+  HasMaxOutputTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxOutputTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxSwapTime">
+  HasMaxSwapTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxSwapTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_HasMaxWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.HasMaxWaitForRenderingToCompleteTime">
+  HasMaxWaitForRenderingToCompleteTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxWaitForRenderingToCompleteTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientSimulateTime">
+  MaxClientSimulateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxClientSimulateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxClientTickTime">
+  MaxClientTickTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxClientTickTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxComputeTime">
+  MaxComputeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxComputeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameTime">
+  MaxFrameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxFrameTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxFrameUpdateTime">
+  MaxFrameUpdateTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxFrameUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxIdleTime">
+  MaxIdleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxIdleTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxInputProcessingTime">
+  MaxInputProcessingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxInputProcessingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxMissedSnapshotRate">
+  MaxMissedSnapshotRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxMissedSnapshotRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxOutputTime">
+  MaxOutputTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxOutputTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxSwapTime">
+  MaxSwapTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxSwapTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MaxWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MaxWaitForRenderingToCompleteTime">
+  MaxWaitForRenderingToCompleteTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxWaitForRenderingToCompleteTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Parser_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Parser" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CDOTAClientMsg_PerfReport&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_CalculateSize" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageClientSimulateTime">
+  ClearAverageClientSimulateTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageClientSimulateTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageClientTickTime">
+  ClearAverageClientTickTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageClientTickTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageComputeTime">
+  ClearAverageComputeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageComputeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageFrameTime">
+  ClearAverageFrameTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageFrameTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageFrameUpdateTime">
+  ClearAverageFrameUpdateTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageFrameUpdateTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageIdleTime">
+  ClearAverageIdleTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageIdleTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageInputProcessingTime">
+  ClearAverageInputProcessingTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageInputProcessingTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageMissedSnapshotRate">
+  ClearAverageMissedSnapshotRate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageMissedSnapshotRate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageOutputTime">
+  ClearAverageOutputTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageOutputTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageSwapTime">
+  ClearAverageSwapTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageSwapTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearAverageWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearAverageWaitForRenderingToCompleteTime">
+  ClearAverageWaitForRenderingToCompleteTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageWaitForRenderingToCompleteTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxClientSimulateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxClientSimulateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxClientSimulateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxClientSimulateTime">
+  ClearMaxClientSimulateTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxClientSimulateTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxClientTickTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxClientTickTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxClientTickTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxClientTickTime">
+  ClearMaxClientTickTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxClientTickTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxComputeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxComputeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxComputeTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxComputeTime">
+  ClearMaxComputeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxComputeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxFrameTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxFrameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxFrameTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxFrameTime">
+  ClearMaxFrameTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxFrameTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxFrameUpdateTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxFrameUpdateTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxFrameUpdateTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxFrameUpdateTime">
+  ClearMaxFrameUpdateTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxFrameUpdateTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxIdleTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxIdleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxIdleTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxIdleTime">
+  ClearMaxIdleTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxIdleTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxInputProcessingTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxInputProcessingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxInputProcessingTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxInputProcessingTime">
+  ClearMaxInputProcessingTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxInputProcessingTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxMissedSnapshotRate_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxMissedSnapshotRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxMissedSnapshotRate" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxMissedSnapshotRate">
+  ClearMaxMissedSnapshotRate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxMissedSnapshotRate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxOutputTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxOutputTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxOutputTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxOutputTime">
+  ClearMaxOutputTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxOutputTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxSwapTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxSwapTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxSwapTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxSwapTime">
+  ClearMaxSwapTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxSwapTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxWaitForRenderingToCompleteTime_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxWaitForRenderingToCompleteTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ClearMaxWaitForRenderingToCompleteTime" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ClearMaxWaitForRenderingToCompleteTime">
+  ClearMaxWaitForRenderingToCompleteTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxWaitForRenderingToCompleteTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Clone_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Clone" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAClientMsg_PerfReport Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Equals_Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Equals(Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport)">
+  Equals(CDOTAClientMsg_PerfReport)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CDOTAClientMsg_PerfReport other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_GetHashCode" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MergeFrom_Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MergeFrom(Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport)">
+  MergeFrom(CDOTAClientMsg_PerfReport)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CDOTAClientMsg_PerfReport other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.html">CDOTAClientMsg_PerfReport</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ToString_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_ToString" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_WriteTo_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAClientMsg_PerfReport_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAClientMsg_PerfReport.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

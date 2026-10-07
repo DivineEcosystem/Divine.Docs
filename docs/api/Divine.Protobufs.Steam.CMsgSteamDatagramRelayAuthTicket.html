@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamDatagramRelayAuthTicket | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamDatagramRelayAuthTicket | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket" class="text-break">
+Class CMsgSteamDatagramRelayAuthTicket  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamDatagramRelayAuthTicket : IMessage&lt;CMsgSteamDatagramRelayAuthTicket&gt;, IEquatable&lt;CMsgSteamDatagramRelayAuthTicket&gt;, IDeepCloneable&lt;CMsgSteamDatagramRelayAuthTicket&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamDatagramRelayAuthTicket</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket__ctor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.#ctor">
+  CMsgSteamDatagramRelayAuthTicket()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramRelayAuthTicket()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket__ctor_Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.#ctor(Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket)">
+  CMsgSteamDatagramRelayAuthTicket(CMsgSteamDatagramRelayAuthTicket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramRelayAuthTicket(CMsgSteamDatagramRelayAuthTicket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AppIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AppIdFieldNumber">
+  AppIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AppIdFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedClientIdentityStringFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedClientIdentityStringFieldNumber">
+  AuthorizedClientIdentityStringFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AuthorizedClientIdentityStringFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedPublicIpFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedPublicIpFieldNumber">
+  AuthorizedPublicIpFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AuthorizedPublicIpFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ExtraFieldsFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ExtraFieldsFieldNumber">
+  ExtraFieldsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtraFieldsFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverAddressFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverAddressFieldNumber">
+  GameserverAddressFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameserverAddressFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverIdentityStringFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverIdentityStringFieldNumber">
+  GameserverIdentityStringFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameserverIdentityStringFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedClientIdentityBinaryFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedClientIdentityBinaryFieldNumber">
+  LegacyAuthorizedClientIdentityBinaryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyAuthorizedClientIdentityBinaryFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedSteamIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedSteamIdFieldNumber">
+  LegacyAuthorizedSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyAuthorizedSteamIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverIdentityBinaryFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverIdentityBinaryFieldNumber">
+  LegacyGameserverIdentityBinaryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyGameserverIdentityBinaryFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverPopIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverPopIdFieldNumber">
+  LegacyGameserverPopIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyGameserverPopIdFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverSteamIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverSteamIdFieldNumber">
+  LegacyGameserverSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyGameserverSteamIdFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_TimeExpiryFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.TimeExpiryFieldNumber">
+  TimeExpiryFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimeExpiryFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_VirtualPortFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.VirtualPortFieldNumber">
+  VirtualPortFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VirtualPortFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AppId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AppId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AppId">
+  AppId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AppId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedClientIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedClientIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedClientIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedClientIdentityString">
+  AuthorizedClientIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AuthorizedClientIdentityString { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedPublicIp_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedPublicIp*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_AuthorizedPublicIp" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.AuthorizedPublicIp">
+  AuthorizedPublicIp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AuthorizedPublicIp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ExtraFields_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ExtraFields*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ExtraFields" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ExtraFields">
+  ExtraFields
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgSteamDatagramRelayAuthTicket.Types.ExtraField&gt; ExtraFields { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.ExtraField.html">ExtraField</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverAddress_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverAddress" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverAddress">
+  GameserverAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString GameserverAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GameserverIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GameserverIdentityString">
+  GameserverIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GameserverIdentityString { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAppId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAppId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAppId">
+  HasAppId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAppId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAuthorizedClientIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAuthorizedClientIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAuthorizedClientIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAuthorizedClientIdentityString">
+  HasAuthorizedClientIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAuthorizedClientIdentityString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAuthorizedPublicIp_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAuthorizedPublicIp*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasAuthorizedPublicIp" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasAuthorizedPublicIp">
+  HasAuthorizedPublicIp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAuthorizedPublicIp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasGameserverAddress_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasGameserverAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasGameserverAddress" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasGameserverAddress">
+  HasGameserverAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameserverAddress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasGameserverIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasGameserverIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasGameserverIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasGameserverIdentityString">
+  HasGameserverIdentityString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameserverIdentityString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyAuthorizedClientIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyAuthorizedClientIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyAuthorizedClientIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyAuthorizedClientIdentityBinary">
+  HasLegacyAuthorizedClientIdentityBinary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyAuthorizedClientIdentityBinary { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyAuthorizedSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyAuthorizedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyAuthorizedSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyAuthorizedSteamId">
+  HasLegacyAuthorizedSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyAuthorizedSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverIdentityBinary">
+  HasLegacyGameserverIdentityBinary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyGameserverIdentityBinary { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverPopId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverPopId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverPopId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverPopId">
+  HasLegacyGameserverPopId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyGameserverPopId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasLegacyGameserverSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasLegacyGameserverSteamId">
+  HasLegacyGameserverSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyGameserverSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasTimeExpiry_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasTimeExpiry*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasTimeExpiry" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasTimeExpiry">
+  HasTimeExpiry
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimeExpiry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasVirtualPort_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasVirtualPort*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_HasVirtualPort" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.HasVirtualPort">
+  HasVirtualPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVirtualPort { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedClientIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedClientIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedClientIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedClientIdentityBinary">
+  LegacyAuthorizedClientIdentityBinary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString LegacyAuthorizedClientIdentityBinary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyAuthorizedSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyAuthorizedSteamId">
+  LegacyAuthorizedSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong LegacyAuthorizedSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverIdentityBinary">
+  LegacyGameserverIdentityBinary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString LegacyGameserverIdentityBinary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverPopId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverPopId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverPopId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverPopId">
+  LegacyGameserverPopId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LegacyGameserverPopId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_LegacyGameserverSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.LegacyGameserverSteamId">
+  LegacyGameserverSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong LegacyGameserverSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Parser_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Parser" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamDatagramRelayAuthTicket&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_TimeExpiry_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.TimeExpiry*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_TimeExpiry" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.TimeExpiry">
+  TimeExpiry
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TimeExpiry { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_VirtualPort_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.VirtualPort*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_VirtualPort" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.VirtualPort">
+  VirtualPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint VirtualPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAppId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAppId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAppId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAppId">
+  ClearAppId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAppId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAuthorizedClientIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAuthorizedClientIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAuthorizedClientIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAuthorizedClientIdentityString">
+  ClearAuthorizedClientIdentityString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAuthorizedClientIdentityString()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAuthorizedPublicIp_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAuthorizedPublicIp*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearAuthorizedPublicIp" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearAuthorizedPublicIp">
+  ClearAuthorizedPublicIp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAuthorizedPublicIp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearGameserverAddress_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearGameserverAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearGameserverAddress" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearGameserverAddress">
+  ClearGameserverAddress()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameserverAddress()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearGameserverIdentityString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearGameserverIdentityString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearGameserverIdentityString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearGameserverIdentityString">
+  ClearGameserverIdentityString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameserverIdentityString()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyAuthorizedClientIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyAuthorizedClientIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyAuthorizedClientIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyAuthorizedClientIdentityBinary">
+  ClearLegacyAuthorizedClientIdentityBinary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyAuthorizedClientIdentityBinary()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyAuthorizedSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyAuthorizedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyAuthorizedSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyAuthorizedSteamId">
+  ClearLegacyAuthorizedSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyAuthorizedSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverIdentityBinary_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverIdentityBinary*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverIdentityBinary" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverIdentityBinary">
+  ClearLegacyGameserverIdentityBinary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyGameserverIdentityBinary()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverPopId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverPopId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverPopId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverPopId">
+  ClearLegacyGameserverPopId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyGameserverPopId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverSteamId_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearLegacyGameserverSteamId" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearLegacyGameserverSteamId">
+  ClearLegacyGameserverSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyGameserverSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearTimeExpiry_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearTimeExpiry*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearTimeExpiry" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearTimeExpiry">
+  ClearTimeExpiry()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimeExpiry()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearVirtualPort_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearVirtualPort*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ClearVirtualPort" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ClearVirtualPort">
+  ClearVirtualPort()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearVirtualPort()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Clone_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Clone" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamDatagramRelayAuthTicket Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Equals_Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Equals(Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket)">
+  Equals(CMsgSteamDatagramRelayAuthTicket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamDatagramRelayAuthTicket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_MergeFrom_Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.MergeFrom(Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket)">
+  MergeFrom(CMsgSteamDatagramRelayAuthTicket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamDatagramRelayAuthTicket other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.html">CMsgSteamDatagramRelayAuthTicket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ToString_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_ToString" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamDatagramRelayAuthTicket_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

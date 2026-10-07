@@ -1,0 +1,3237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgGameMatchSignOut | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgGameMatchSignOut | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut" class="text-break">
+Class CMsgGameMatchSignOut  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgGameMatchSignOut : IMessage&lt;CMsgGameMatchSignOut&gt;, IEquatable&lt;CMsgGameMatchSignOut&gt;, IDeepCloneable&lt;CMsgGameMatchSignOut&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgGameMatchSignOut</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut__ctor" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.#ctor">
+  CMsgGameMatchSignOut()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameMatchSignOut()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut__ctor_Divine_Protobufs_Dota2_CMsgGameMatchSignOut_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.#ctor(Divine.Protobufs.Dota2.CMsgGameMatchSignOut)">
+  CMsgGameMatchSignOut(CMsgGameMatchSignOut)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameMatchSignOut(CMsgGameMatchSignOut other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AdditionalMsgsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AdditionalMsgsFieldNumber">
+  AdditionalMsgsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AdditionalMsgsFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AutomaticSurrenderFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AutomaticSurrenderFieldNumber">
+  AutomaticSurrenderFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AutomaticSurrenderFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AverageNetworthDeltaFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AverageNetworthDeltaFieldNumber">
+  AverageNetworthDeltaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageNetworthDeltaFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_BarracksStatusFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.BarracksStatusFieldNumber">
+  BarracksStatusFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BarracksStatusFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClusterFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClusterFieldNumber">
+  ClusterFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClusterFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_CustomGameDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.CustomGameDataFieldNumber">
+  CustomGameDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameDataFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_DateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.DateFieldNumber">
+  DateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DateFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_DurationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.DurationFieldNumber">
+  DurationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DurationFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventGameLeaderboardEntriesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventGameLeaderboardEntriesFieldNumber">
+  EventGameLeaderboardEntriesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EventGameLeaderboardEntriesFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventScoreFieldNumber">
+  EventScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EventScoreFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ExtraMessagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ExtraMessagesFieldNumber">
+  ExtraMessagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtraMessagesFieldNumber = 54</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FantasyStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FantasyStatsFieldNumber">
+  FantasyStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FantasyStatsFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FirstBloodTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FirstBloodTimeFieldNumber">
+  FirstBloodTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FirstBloodTimeFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GameplayStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GameplayStatsFieldNumber">
+  GameplayStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameplayStatsFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GoodGuysWinFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GoodGuysWinFieldNumber">
+  GoodGuysWinFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GoodGuysWinFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchFlagsFieldNumber">
+  MatchFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchFlagsFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchIdFieldNumber">
+  MatchIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchTrackedStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchTrackedStatsFieldNumber">
+  MatchTrackedStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchTrackedStatsFieldNumber = 58</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_NormalizedWinProbabilityDiffFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.NormalizedWinProbabilityDiffFieldNumber">
+  NormalizedWinProbabilityDiffFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NormalizedWinProbabilityDiffFieldNumber = 57</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PlayerStrangeCountAdjustmentsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PlayerStrangeCountAdjustmentsFieldNumber">
+  PlayerStrangeCountAdjustmentsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerStrangeCountAdjustmentsFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PoorNetworkConditionsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PoorNetworkConditionsFieldNumber">
+  PoorNetworkConditionsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PoorNetworkConditionsFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PreGameDurationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PreGameDurationFieldNumber">
+  PreGameDurationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PreGameDurationFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerAddrFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerAddrFieldNumber">
+  ServerAddrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerAddrFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerVersionFieldNumber">
+  ServerVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerVersionFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_SocialFeedEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.SocialFeedEventsFieldNumber">
+  SocialFeedEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SocialFeedEventsFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TeamScoresFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TeamScoresFieldNumber">
+  TeamScoresFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamScoresFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TeamsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TeamsFieldNumber">
+  TeamsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamsFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TowerStatusFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TowerStatusFieldNumber">
+  TowerStatusFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TowerStatusFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_WinningTeamFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.WinningTeamFieldNumber">
+  WinningTeamFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WinningTeamFieldNumber = 56</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AdditionalMsgs_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AdditionalMsgs*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AdditionalMsgs" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AdditionalMsgs">
+  AdditionalMsgs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgGameMatchSignOut.Types.CAdditionalSignoutMsg&gt; AdditionalMsgs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CAdditionalSignoutMsg.html">CAdditionalSignoutMsg</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AutomaticSurrender_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AutomaticSurrender*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AutomaticSurrender" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AutomaticSurrender">
+  AutomaticSurrender
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutomaticSurrender { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AverageNetworthDelta_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AverageNetworthDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_AverageNetworthDelta" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.AverageNetworthDelta">
+  AverageNetworthDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AverageNetworthDelta { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_BarracksStatus_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.BarracksStatus*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_BarracksStatus" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.BarracksStatus">
+  BarracksStatus
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; BarracksStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Cluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Cluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Cluster" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Cluster">
+  Cluster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Cluster { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_CustomGameData_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.CustomGameData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_CustomGameData" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.CustomGameData">
+  CustomGameData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameMatchSignOut.Types.CCustomGameData CustomGameData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CCustomGameData.html">CCustomGameData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Date_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Date*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Date" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Date">
+  Date
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Date { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Duration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Duration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Duration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Duration">
+  Duration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventGameLeaderboardEntries_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventGameLeaderboardEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventGameLeaderboardEntries" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventGameLeaderboardEntries">
+  EventGameLeaderboardEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgGameMatchSignOut.Types.EventGameLeaderboardEntry&gt; EventGameLeaderboardEntries { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.EventGameLeaderboardEntry.html">EventGameLeaderboardEntry</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventScore_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_EventScore" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.EventScore">
+  EventScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint EventScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ExtraMessages_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ExtraMessages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ExtraMessages" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ExtraMessages">
+  ExtraMessages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CExtraMsgBlock&gt; ExtraMessages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CExtraMsgBlock.html">CExtraMsgBlock</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FantasyStats_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FantasyStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FantasyStats" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FantasyStats">
+  FantasyStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgDOTAFantasyPlayerStats&gt; FantasyStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTAFantasyPlayerStats.html">CMsgDOTAFantasyPlayerStats</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FirstBloodTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FirstBloodTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_FirstBloodTime" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.FirstBloodTime">
+  FirstBloodTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FirstBloodTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GameplayStats_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GameplayStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GameplayStats" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GameplayStats">
+  GameplayStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSignOutGameplayStats GameplayStats { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgSignOutGameplayStats.html">CMsgSignOutGameplayStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GoodGuysWin_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GoodGuysWin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GoodGuysWin" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GoodGuysWin">
+  GoodGuysWin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GoodGuysWin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasAutomaticSurrender_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasAutomaticSurrender*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasAutomaticSurrender" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasAutomaticSurrender">
+  HasAutomaticSurrender
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAutomaticSurrender { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasAverageNetworthDelta_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasAverageNetworthDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasAverageNetworthDelta" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasAverageNetworthDelta">
+  HasAverageNetworthDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageNetworthDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasCluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasCluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasCluster" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasCluster">
+  HasCluster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCluster { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasDate_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasDate" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasDate">
+  HasDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasDuration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasDuration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasDuration">
+  HasDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDuration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasEventScore_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasEventScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasEventScore" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasEventScore">
+  HasEventScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEventScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasFirstBloodTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasFirstBloodTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasFirstBloodTime" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasFirstBloodTime">
+  HasFirstBloodTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFirstBloodTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasGoodGuysWin_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasGoodGuysWin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasGoodGuysWin" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasGoodGuysWin">
+  HasGoodGuysWin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGoodGuysWin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasMatchFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasMatchFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasMatchFlags" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasMatchFlags">
+  HasMatchFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasMatchId_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasMatchId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasMatchId" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasMatchId">
+  HasMatchId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasNormalizedWinProbabilityDiff_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasNormalizedWinProbabilityDiff*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasNormalizedWinProbabilityDiff" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasNormalizedWinProbabilityDiff">
+  HasNormalizedWinProbabilityDiff
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNormalizedWinProbabilityDiff { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasPreGameDuration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasPreGameDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasPreGameDuration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasPreGameDuration">
+  HasPreGameDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPreGameDuration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasServerAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasServerAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasServerAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasServerAddr">
+  HasServerAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerAddr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasServerVersion">
+  HasServerVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasWinningTeam_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasWinningTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_HasWinningTeam" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.HasWinningTeam">
+  HasWinningTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWinningTeam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchFlags" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchFlags">
+  MatchFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchId_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchId" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchId">
+  MatchId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong MatchId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchTrackedStats_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchTrackedStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MatchTrackedStats" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MatchTrackedStats">
+  MatchTrackedStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgTrackedStat&gt; MatchTrackedStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTrackedStat.html">CMsgTrackedStat</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_NormalizedWinProbabilityDiff_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.NormalizedWinProbabilityDiff*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_NormalizedWinProbabilityDiff" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.NormalizedWinProbabilityDiff">
+  NormalizedWinProbabilityDiff
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NormalizedWinProbabilityDiff { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Parser" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgGameMatchSignOut&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PlayerStrangeCountAdjustments_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PlayerStrangeCountAdjustments*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PlayerStrangeCountAdjustments" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PlayerStrangeCountAdjustments">
+  PlayerStrangeCountAdjustments
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgEconPlayerStrangeCountAdjustment&gt; PlayerStrangeCountAdjustments { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgEconPlayerStrangeCountAdjustment.html">CMsgEconPlayerStrangeCountAdjustment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PoorNetworkConditions_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PoorNetworkConditions*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PoorNetworkConditions" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PoorNetworkConditions">
+  PoorNetworkConditions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgPoorNetworkConditions PoorNetworkConditions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgPoorNetworkConditions.html">CMsgPoorNetworkConditions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PreGameDuration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PreGameDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_PreGameDuration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.PreGameDuration">
+  PreGameDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PreGameDuration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerAddr">
+  ServerAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ServerAddr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ServerVersion">
+  ServerVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_SocialFeedEvents_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.SocialFeedEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_SocialFeedEvents" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.SocialFeedEvents">
+  SocialFeedEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgGameMatchSignOut.Types.CSocialFeedMatchEvent&gt; SocialFeedEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CSocialFeedMatchEvent.html">CSocialFeedMatchEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TeamScores_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TeamScores*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TeamScores" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TeamScores">
+  TeamScores
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; TeamScores { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Teams_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Teams*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Teams" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Teams">
+  Teams
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgGameMatchSignOut.Types.CTeam&gt; Teams { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.html">CTeam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TowerStatus_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TowerStatus*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_TowerStatus" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.TowerStatus">
+  TowerStatus
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; TowerStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_WinningTeam_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.WinningTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_WinningTeam" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.WinningTeam">
+  WinningTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTA_GC_TEAM WinningTeam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTA_GC_TEAM.html">DOTA_GC_TEAM</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearAutomaticSurrender_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearAutomaticSurrender*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearAutomaticSurrender" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearAutomaticSurrender">
+  ClearAutomaticSurrender()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAutomaticSurrender()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearAverageNetworthDelta_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearAverageNetworthDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearAverageNetworthDelta" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearAverageNetworthDelta">
+  ClearAverageNetworthDelta()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageNetworthDelta()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearCluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearCluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearCluster" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearCluster">
+  ClearCluster()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCluster()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearDate_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearDate" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearDate">
+  ClearDate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearDuration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearDuration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearDuration">
+  ClearDuration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDuration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearEventScore_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearEventScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearEventScore" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearEventScore">
+  ClearEventScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEventScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearFirstBloodTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearFirstBloodTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearFirstBloodTime" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearFirstBloodTime">
+  ClearFirstBloodTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFirstBloodTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearGoodGuysWin_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearGoodGuysWin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearGoodGuysWin" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearGoodGuysWin">
+  ClearGoodGuysWin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGoodGuysWin()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearMatchFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearMatchFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearMatchFlags" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearMatchFlags">
+  ClearMatchFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearMatchId_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearMatchId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearMatchId" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearMatchId">
+  ClearMatchId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearNormalizedWinProbabilityDiff_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearNormalizedWinProbabilityDiff*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearNormalizedWinProbabilityDiff" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearNormalizedWinProbabilityDiff">
+  ClearNormalizedWinProbabilityDiff()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNormalizedWinProbabilityDiff()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearPreGameDuration_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearPreGameDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearPreGameDuration" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearPreGameDuration">
+  ClearPreGameDuration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPreGameDuration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearServerAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearServerAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearServerAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearServerAddr">
+  ClearServerAddr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerAddr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearServerVersion">
+  ClearServerVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearWinningTeam_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearWinningTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ClearWinningTeam" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ClearWinningTeam">
+  ClearWinningTeam()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWinningTeam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Clone" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameMatchSignOut Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Equals_Divine_Protobufs_Dota2_CMsgGameMatchSignOut_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Equals(Divine.Protobufs.Dota2.CMsgGameMatchSignOut)">
+  Equals(CMsgGameMatchSignOut)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgGameMatchSignOut other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MergeFrom_Divine_Protobufs_Dota2_CMsgGameMatchSignOut_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MergeFrom(Divine.Protobufs.Dota2.CMsgGameMatchSignOut)">
+  MergeFrom(CMsgGameMatchSignOut)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgGameMatchSignOut other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.html">CMsgGameMatchSignOut</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_ToString" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameMatchSignOut_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGameMatchSignOut.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

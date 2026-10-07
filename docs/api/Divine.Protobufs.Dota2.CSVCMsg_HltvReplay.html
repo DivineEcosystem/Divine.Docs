@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CSVCMsg_HltvReplay | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CSVCMsg_HltvReplay | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay" class="text-break">
+Class CSVCMsg_HltvReplay  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CSVCMsg_HltvReplay : IMessage&lt;CSVCMsg_HltvReplay&gt;, IEquatable&lt;CSVCMsg_HltvReplay&gt;, IDeepCloneable&lt;CSVCMsg_HltvReplay&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CSVCMsg_HltvReplay</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay__ctor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay__ctor" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.#ctor">
+  CSVCMsg_HltvReplay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_HltvReplay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay__ctor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay__ctor_Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.#ctor(Divine.Protobufs.Dota2.CSVCMsg_HltvReplay)">
+  CSVCMsg_HltvReplay(CSVCMsg_HltvReplay)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_HltvReplay(CSVCMsg_HltvReplay other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_DelayFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.DelayFieldNumber">
+  DelayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DelayFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_PrimaryTargetFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.PrimaryTargetFieldNumber">
+  PrimaryTargetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PrimaryTargetFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReasonFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReasonFieldNumber">
+  ReasonFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReasonFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownBeginFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownBeginFieldNumber">
+  ReplaySlowdownBeginFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReplaySlowdownBeginFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownEndFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownEndFieldNumber">
+  ReplaySlowdownEndFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReplaySlowdownEndFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownRateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownRateFieldNumber">
+  ReplaySlowdownRateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReplaySlowdownRateFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStartAtFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStartAtFieldNumber">
+  ReplayStartAtFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReplayStartAtFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStopAtFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStopAtFieldNumber">
+  ReplayStopAtFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReplayStopAtFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Delay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Delay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Delay" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Delay">
+  Delay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Delay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Descriptor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Descriptor" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasDelay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasDelay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasDelay" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasDelay">
+  HasDelay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDelay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasPrimaryTarget_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasPrimaryTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasPrimaryTarget" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasPrimaryTarget">
+  HasPrimaryTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPrimaryTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReason_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReason" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReason">
+  HasReason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReason { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownBegin_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownBegin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownBegin" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownBegin">
+  HasReplaySlowdownBegin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReplaySlowdownBegin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownEnd_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownEnd" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownEnd">
+  HasReplaySlowdownEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReplaySlowdownEnd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownRate_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplaySlowdownRate" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplaySlowdownRate">
+  HasReplaySlowdownRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReplaySlowdownRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplayStartAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplayStartAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplayStartAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplayStartAt">
+  HasReplayStartAt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReplayStartAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplayStopAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplayStopAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_HasReplayStopAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.HasReplayStopAt">
+  HasReplayStopAt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReplayStopAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Parser_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Parser" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CSVCMsg_HltvReplay&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_PrimaryTarget_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.PrimaryTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_PrimaryTarget" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.PrimaryTarget">
+  PrimaryTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PrimaryTarget { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Reason_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Reason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Reason" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Reason">
+  Reason
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Reason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownBegin_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownBegin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownBegin" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownBegin">
+  ReplaySlowdownBegin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReplaySlowdownBegin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownEnd_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownEnd" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownEnd">
+  ReplaySlowdownEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReplaySlowdownEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownRate_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplaySlowdownRate" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplaySlowdownRate">
+  ReplaySlowdownRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReplaySlowdownRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStartAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStartAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStartAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStartAt">
+  ReplayStartAt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReplayStartAt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStopAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStopAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ReplayStopAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ReplayStopAt">
+  ReplayStopAt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReplayStopAt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_CalculateSize" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearDelay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearDelay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearDelay" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearDelay">
+  ClearDelay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDelay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearPrimaryTarget_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearPrimaryTarget*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearPrimaryTarget" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearPrimaryTarget">
+  ClearPrimaryTarget()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPrimaryTarget()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReason_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReason*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReason" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReason">
+  ClearReason()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReason()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownBegin_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownBegin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownBegin" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownBegin">
+  ClearReplaySlowdownBegin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReplaySlowdownBegin()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownEnd_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownEnd" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownEnd">
+  ClearReplaySlowdownEnd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReplaySlowdownEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownRate_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownRate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplaySlowdownRate" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplaySlowdownRate">
+  ClearReplaySlowdownRate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReplaySlowdownRate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplayStartAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplayStartAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplayStartAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplayStartAt">
+  ClearReplayStartAt()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReplayStartAt()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplayStopAt_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplayStopAt*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ClearReplayStopAt" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ClearReplayStopAt">
+  ClearReplayStopAt()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReplayStopAt()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Clone_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Clone" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_HltvReplay Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Equals_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Equals_Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Equals(Divine.Protobufs.Dota2.CSVCMsg_HltvReplay)">
+  Equals(CSVCMsg_HltvReplay)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CSVCMsg_HltvReplay other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Equals_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_GetHashCode" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_MergeFrom_Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.MergeFrom(Divine.Protobufs.Dota2.CSVCMsg_HltvReplay)">
+  MergeFrom(CSVCMsg_HltvReplay)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CSVCMsg_HltvReplay other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.html">CSVCMsg_HltvReplay</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ToString_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_ToString" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_WriteTo_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_HltvReplay_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_HltvReplay.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

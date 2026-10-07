@@ -1,0 +1,5577 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CDOTAModifierBuffTableEntry | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CDOTAModifierBuffTableEntry | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry" class="text-break">
+Class CDOTAModifierBuffTableEntry  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CDOTAModifierBuffTableEntry : IMessage&lt;CDOTAModifierBuffTableEntry&gt;, IEquatable&lt;CDOTAModifierBuffTableEntry&gt;, IDeepCloneable&lt;CDOTAModifierBuffTableEntry&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CDOTAModifierBuffTableEntry</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry__ctor" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.#ctor">
+  CDOTAModifierBuffTableEntry()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAModifierBuffTableEntry()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry__ctor_Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.#ctor(Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry)">
+  CDOTAModifierBuffTableEntry(CDOTAModifierBuffTableEntry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAModifierBuffTableEntry(CDOTAModifierBuffTableEntry other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AbilityFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AbilityFieldNumber">
+  AbilityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbilityFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AbilityLevelFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AbilityLevelFieldNumber">
+  AbilityLevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbilityLevelFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ActiveFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ActiveFieldNumber">
+  ActiveFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ActiveFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ActivityFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ActivityFieldNumber">
+  ActivityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ActivityFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ArmorFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ArmorFieldNumber">
+  ArmorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ArmorFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AttackSpeedFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AttackSpeedFieldNumber">
+  AttackSpeedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AttackSpeedFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraFieldNumber">
+  AuraFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AuraFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraOwnerFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraOwnerFieldNumber">
+  AuraOwnerFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AuraOwnerFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraWithinRangeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraWithinRangeFieldNumber">
+  AuraWithinRangeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AuraWithinRangeFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusAllStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusAllStatsFieldNumber">
+  BonusAllStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BonusAllStatsFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusHealthFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusHealthFieldNumber">
+  BonusHealthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BonusHealthFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusManaFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusManaFieldNumber">
+  BonusManaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BonusManaFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CasterFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CasterFieldNumber">
+  CasterFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CasterFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ChannelTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ChannelTimeFieldNumber">
+  ChannelTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ChannelTimeFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CreationTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CreationTimeFieldNumber">
+  CreationTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreationTimeFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomEntityFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomEntityFieldNumber">
+  CustomEntityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomEntityFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomFloatValuesFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomFloatValuesFieldNumber">
+  CustomFloatValuesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomFloatValuesFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomIntValuesFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomIntValuesFieldNumber">
+  CustomIntValuesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomIntValuesFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DamageFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DamageFieldNumber">
+  DamageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DamageFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdAbilityIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdAbilityIdFieldNumber">
+  DdAbilityIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DdAbilityIdFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdModifierIndexFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdModifierIndexFieldNumber">
+  DdModifierIndexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DdModifierIndexFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DurationFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DurationFieldNumber">
+  DurationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DurationFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EntryTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.EntryTypeFieldNumber">
+  EntryTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EntryTypeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_FadeTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.FadeTimeFieldNumber">
+  FadeTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FadeTimeFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasScepterFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasScepterFieldNumber">
+  HasScepterFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasScepterFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasShardFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasShardFieldNumber">
+  HasShardFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasShardFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopAppearFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopAppearFieldNumber">
+  HeroLoopAppearFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroLoopAppearFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopDisappearFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopDisappearFieldNumber">
+  HeroLoopDisappearFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroLoopDisappearFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_IllusionLabelFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.IllusionLabelFieldNumber">
+  IllusionLabelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IllusionLabelFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_IndexFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.IndexFieldNumber">
+  IndexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IndexFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_LuaNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.LuaNameFieldNumber">
+  LuaNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LuaNameFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ModifierClassFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ModifierClassFieldNumber">
+  ModifierClassFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ModifierClassFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MoveSlowFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MoveSlowFieldNumber">
+  MoveSlowFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MoveSlowFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MovementSpeedFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MovementSpeedFieldNumber">
+  MovementSpeedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MovementSpeedFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ParentFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ParentFieldNumber">
+  ParentFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParentFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PlayerIdsFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PlayerIdsFieldNumber">
+  PlayerIdsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerIdsFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopAppearFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopAppearFieldNumber">
+  PortalLoopAppearFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PortalLoopAppearFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopDisappearFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopDisappearFieldNumber">
+  PortalLoopDisappearFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PortalLoopDisappearFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_RangeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.RangeFieldNumber">
+  RangeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RangeFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_SerialNumFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.SerialNumFieldNumber">
+  SerialNumFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SerialNumFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_StackCountFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.StackCountFieldNumber">
+  StackCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StackCountFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_SubtleFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.SubtleFieldNumber">
+  SubtleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SubtleFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VEndFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VEndFieldNumber">
+  VEndFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VEndFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VStartFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VStartFieldNumber">
+  VStartFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VStartFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Ability_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Ability*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Ability" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Ability">
+  Ability
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Ability { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AbilityLevel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AbilityLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AbilityLevel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AbilityLevel">
+  AbilityLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AbilityLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Active_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Active*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Active" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Active">
+  Active
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Active { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Activity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Activity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Activity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Activity">
+  Activity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Activity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Armor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Armor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Armor" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Armor">
+  Armor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Armor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AttackSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AttackSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AttackSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AttackSpeed">
+  AttackSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AttackSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Aura_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Aura*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Aura" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Aura">
+  Aura
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Aura { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraOwner_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraOwner*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraOwner" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraOwner">
+  AuraOwner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AuraOwner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraWithinRange_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraWithinRange*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_AuraWithinRange" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.AuraWithinRange">
+  AuraWithinRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AuraWithinRange { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusAllStats_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusAllStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusAllStats" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusAllStats">
+  BonusAllStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BonusAllStats { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusHealth_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusHealth" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusHealth">
+  BonusHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BonusHealth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusMana_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusMana*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_BonusMana" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.BonusMana">
+  BonusMana
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BonusMana { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Caster_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Caster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Caster" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Caster">
+  Caster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Caster { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ChannelTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ChannelTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ChannelTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ChannelTime">
+  ChannelTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChannelTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CreationTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CreationTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CreationTime">
+  CreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CreationTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomEntity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomEntity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomEntity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomEntity">
+  CustomEntity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomEntity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomFloatValues_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomFloatValues*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomFloatValues" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomFloatValues">
+  CustomFloatValues
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;float&gt; CustomFloatValues { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomIntValues_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomIntValues*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CustomIntValues" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CustomIntValues">
+  CustomIntValues
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;int&gt; CustomIntValues { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Damage_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Damage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Damage" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Damage">
+  Damage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Damage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdAbilityId_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdAbilityId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdAbilityId" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdAbilityId">
+  DdAbilityId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DdAbilityId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdModifierIndex_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdModifierIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_DdModifierIndex" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.DdModifierIndex">
+  DdModifierIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DdModifierIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Descriptor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Descriptor" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Duration_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Duration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Duration" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Duration">
+  Duration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EntryType_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.EntryType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EntryType" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.EntryType">
+  EntryType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTA_MODIFIER_ENTRY_TYPE EntryType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTA_MODIFIER_ENTRY_TYPE.html">DOTA_MODIFIER_ENTRY_TYPE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_FadeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.FadeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_FadeTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.FadeTime">
+  FadeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FadeTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAbility_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAbility*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAbility" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAbility">
+  HasAbility
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAbility { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAbilityLevel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAbilityLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAbilityLevel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAbilityLevel">
+  HasAbilityLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAbilityLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasActive_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasActive*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasActive" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasActive">
+  HasActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasActivity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasActivity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasActivity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasActivity">
+  HasActivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActivity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasArmor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasArmor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasArmor" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasArmor">
+  HasArmor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasArmor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAttackSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAttackSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAttackSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAttackSpeed">
+  HasAttackSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAttackSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAura_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAura*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAura" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAura">
+  HasAura
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAura { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAuraOwner_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAuraOwner*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAuraOwner" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAuraOwner">
+  HasAuraOwner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAuraOwner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAuraWithinRange_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAuraWithinRange*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasAuraWithinRange" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasAuraWithinRange">
+  HasAuraWithinRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAuraWithinRange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusAllStats_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusAllStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusAllStats" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusAllStats">
+  HasBonusAllStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBonusAllStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusHealth_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusHealth" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusHealth">
+  HasBonusHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBonusHealth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusMana_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusMana*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasBonusMana" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasBonusMana">
+  HasBonusMana
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBonusMana { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCaster_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCaster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCaster" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCaster">
+  HasCaster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCaster { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasChannelTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasChannelTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasChannelTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasChannelTime">
+  HasChannelTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChannelTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCreationTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCreationTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCreationTime">
+  HasCreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreationTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCustomEntity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCustomEntity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasCustomEntity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasCustomEntity">
+  HasCustomEntity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomEntity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDamage_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDamage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDamage" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDamage">
+  HasDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDdAbilityId_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDdAbilityId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDdAbilityId" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDdAbilityId">
+  HasDdAbilityId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDdAbilityId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDdModifierIndex_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDdModifierIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDdModifierIndex" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDdModifierIndex">
+  HasDdModifierIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDdModifierIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDuration_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasDuration" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasDuration">
+  HasDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDuration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasEntryType_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasEntryType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasEntryType" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasEntryType">
+  HasEntryType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEntryType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasFadeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasFadeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasFadeTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasFadeTime">
+  HasFadeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFadeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHasScepter_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHasScepter*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHasScepter" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHasScepter">
+  HasHasScepter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasScepter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHasShard_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHasShard*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHasShard" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHasShard">
+  HasHasShard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasShard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHeroLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHeroLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHeroLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHeroLoopAppear">
+  HasHeroLoopAppear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroLoopAppear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHeroLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHeroLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasHeroLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasHeroLoopDisappear">
+  HasHeroLoopDisappear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroLoopDisappear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasIllusionLabel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasIllusionLabel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasIllusionLabel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasIllusionLabel">
+  HasIllusionLabel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIllusionLabel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasIndex_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasIndex" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasIndex">
+  HasIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasLuaName_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasLuaName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasLuaName" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasLuaName">
+  HasLuaName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLuaName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasModifierClass_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasModifierClass*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasModifierClass" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasModifierClass">
+  HasModifierClass
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasModifierClass { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasMoveSlow_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasMoveSlow*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasMoveSlow" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasMoveSlow">
+  HasMoveSlow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMoveSlow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasMovementSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasMovementSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasMovementSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasMovementSpeed">
+  HasMovementSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMovementSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasParent_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasParent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasParent" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasParent">
+  HasParent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasParent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPlayerIds_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPlayerIds*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPlayerIds" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPlayerIds">
+  HasPlayerIds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerIds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPortalLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPortalLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPortalLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPortalLoopAppear">
+  HasPortalLoopAppear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPortalLoopAppear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPortalLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPortalLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasPortalLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasPortalLoopDisappear">
+  HasPortalLoopDisappear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPortalLoopDisappear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasRange_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasRange*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasRange" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasRange">
+  HasRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasScepter_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasScepter*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasScepter" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasScepter">
+  HasScepter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasScepter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasSerialNum_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasSerialNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasSerialNum" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasSerialNum">
+  HasSerialNum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSerialNum { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasShard_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasShard*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasShard" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasShard">
+  HasShard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasShard { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasStackCount_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasStackCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasStackCount" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasStackCount">
+  HasStackCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStackCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasSubtle_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasSubtle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasSubtle" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HasSubtle">
+  HasSubtle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSubtle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopAppear">
+  HeroLoopAppear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HeroLoopAppear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HeroLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.HeroLoopDisappear">
+  HeroLoopDisappear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HeroLoopDisappear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_IllusionLabel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.IllusionLabel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_IllusionLabel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.IllusionLabel">
+  IllusionLabel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IllusionLabel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Index_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Index*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Index" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Index">
+  Index
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_LuaName_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.LuaName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_LuaName" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.LuaName">
+  LuaName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LuaName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ModifierClass_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ModifierClass*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ModifierClass" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ModifierClass">
+  ModifierClass
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ModifierClass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MoveSlow_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MoveSlow*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MoveSlow" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MoveSlow">
+  MoveSlow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MoveSlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MovementSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MovementSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MovementSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MovementSpeed">
+  MovementSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MovementSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Parent_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Parent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Parent" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Parent">
+  Parent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Parent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Parser_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Parser" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CDOTAModifierBuffTableEntry&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PlayerIds_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PlayerIds*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PlayerIds" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PlayerIds">
+  PlayerIds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PlayerIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopAppear">
+  PortalLoopAppear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PortalLoopAppear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_PortalLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.PortalLoopDisappear">
+  PortalLoopDisappear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PortalLoopDisappear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Range_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Range*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Range" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Range">
+  Range
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Range { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_SerialNum_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.SerialNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_SerialNum" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.SerialNum">
+  SerialNum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SerialNum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_StackCount_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.StackCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_StackCount" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.StackCount">
+  StackCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int StackCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Subtle_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Subtle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Subtle" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Subtle">
+  Subtle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Subtle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VEnd_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VEnd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VEnd" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VEnd">
+  VEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector VEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VStart_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VStart*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_VStart" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.VStart">
+  VStart
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector VStart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_CalculateSize" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAbility_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAbility*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAbility" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAbility">
+  ClearAbility()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAbility()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAbilityLevel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAbilityLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAbilityLevel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAbilityLevel">
+  ClearAbilityLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAbilityLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearActive_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearActive*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearActive" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearActive">
+  ClearActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActive()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearActivity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearActivity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearActivity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearActivity">
+  ClearActivity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActivity()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearArmor_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearArmor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearArmor" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearArmor">
+  ClearArmor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearArmor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAttackSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAttackSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAttackSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAttackSpeed">
+  ClearAttackSpeed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAttackSpeed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAura_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAura*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAura" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAura">
+  ClearAura()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAura()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAuraOwner_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAuraOwner*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAuraOwner" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAuraOwner">
+  ClearAuraOwner()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAuraOwner()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAuraWithinRange_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAuraWithinRange*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearAuraWithinRange" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearAuraWithinRange">
+  ClearAuraWithinRange()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAuraWithinRange()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusAllStats_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusAllStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusAllStats" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusAllStats">
+  ClearBonusAllStats()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBonusAllStats()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusHealth_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusHealth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusHealth" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusHealth">
+  ClearBonusHealth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBonusHealth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusMana_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusMana*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearBonusMana" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearBonusMana">
+  ClearBonusMana()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBonusMana()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCaster_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCaster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCaster" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCaster">
+  ClearCaster()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCaster()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearChannelTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearChannelTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearChannelTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearChannelTime">
+  ClearChannelTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearChannelTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCreationTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCreationTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCreationTime">
+  ClearCreationTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreationTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCustomEntity_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCustomEntity*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearCustomEntity" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearCustomEntity">
+  ClearCustomEntity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomEntity()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDamage_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDamage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDamage" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDamage">
+  ClearDamage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDamage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDdAbilityId_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDdAbilityId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDdAbilityId" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDdAbilityId">
+  ClearDdAbilityId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDdAbilityId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDdModifierIndex_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDdModifierIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDdModifierIndex" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDdModifierIndex">
+  ClearDdModifierIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDdModifierIndex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDuration_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearDuration" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearDuration">
+  ClearDuration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDuration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearEntryType_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearEntryType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearEntryType" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearEntryType">
+  ClearEntryType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEntryType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearFadeTime_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearFadeTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearFadeTime" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearFadeTime">
+  ClearFadeTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFadeTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHasScepter_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHasScepter*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHasScepter" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHasScepter">
+  ClearHasScepter()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasScepter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHasShard_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHasShard*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHasShard" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHasShard">
+  ClearHasShard()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasShard()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHeroLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHeroLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHeroLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHeroLoopAppear">
+  ClearHeroLoopAppear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroLoopAppear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHeroLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHeroLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearHeroLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearHeroLoopDisappear">
+  ClearHeroLoopDisappear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroLoopDisappear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearIllusionLabel_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearIllusionLabel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearIllusionLabel" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearIllusionLabel">
+  ClearIllusionLabel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIllusionLabel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearIndex_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearIndex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearIndex" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearIndex">
+  ClearIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIndex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearLuaName_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearLuaName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearLuaName" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearLuaName">
+  ClearLuaName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLuaName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearModifierClass_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearModifierClass*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearModifierClass" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearModifierClass">
+  ClearModifierClass()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearModifierClass()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearMoveSlow_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearMoveSlow*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearMoveSlow" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearMoveSlow">
+  ClearMoveSlow()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMoveSlow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearMovementSpeed_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearMovementSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearMovementSpeed" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearMovementSpeed">
+  ClearMovementSpeed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMovementSpeed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearParent_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearParent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearParent" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearParent">
+  ClearParent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearParent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPlayerIds_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPlayerIds*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPlayerIds" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPlayerIds">
+  ClearPlayerIds()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerIds()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPortalLoopAppear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPortalLoopAppear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPortalLoopAppear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPortalLoopAppear">
+  ClearPortalLoopAppear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPortalLoopAppear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPortalLoopDisappear_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPortalLoopDisappear*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearPortalLoopDisappear" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearPortalLoopDisappear">
+  ClearPortalLoopDisappear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPortalLoopDisappear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearRange_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearRange*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearRange" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearRange">
+  ClearRange()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRange()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearSerialNum_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearSerialNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearSerialNum" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearSerialNum">
+  ClearSerialNum()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSerialNum()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearStackCount_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearStackCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearStackCount" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearStackCount">
+  ClearStackCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStackCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearSubtle_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearSubtle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearSubtle" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ClearSubtle">
+  ClearSubtle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSubtle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Clone_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Clone" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAModifierBuffTableEntry Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Equals_Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Equals(Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry)">
+  Equals(CDOTAModifierBuffTableEntry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CDOTAModifierBuffTableEntry other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_GetHashCode" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MergeFrom_Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MergeFrom(Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry)">
+  MergeFrom(CDOTAModifierBuffTableEntry)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CDOTAModifierBuffTableEntry other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.html">CDOTAModifierBuffTableEntry</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ToString_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ToString" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_WriteTo_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAModifierBuffTableEntry.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

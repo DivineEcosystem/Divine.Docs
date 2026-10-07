@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgBotGameCreate | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgBotGameCreate | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgBotGameCreate" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate" class="text-break">
+Class CMsgBotGameCreate  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgBotGameCreate : IMessage&lt;CMsgBotGameCreate&gt;, IEquatable&lt;CMsgBotGameCreate&gt;, IDeepCloneable&lt;CMsgBotGameCreate&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgBotGameCreate</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate__ctor" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.#ctor">
+  CMsgBotGameCreate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotGameCreate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate__ctor_Divine_Protobufs_Dota2_CMsgBotGameCreate_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.#ctor(Divine.Protobufs.Dota2.CMsgBotGameCreate)">
+  CMsgBotGameCreate(CMsgBotGameCreate)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotGameCreate(CMsgBotGameCreate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClientVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClientVersionFieldNumber">
+  ClientVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientVersionFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyDireFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyDireFieldNumber">
+  DifficultyDireFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DifficultyDireFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyRadiantFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyRadiantFieldNumber">
+  DifficultyRadiantFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DifficultyRadiantFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_GameModeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.GameModeFieldNumber">
+  GameModeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameModeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_SearchKeyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.SearchKeyFieldNumber">
+  SearchKeyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SearchKeyFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_TeamFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.TeamFieldNumber">
+  TeamFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClientVersion">
+  ClientVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ClientVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyDire_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyDire*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyDire" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyDire">
+  DifficultyDire
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTABotDifficulty DifficultyDire { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTABotDifficulty.html">DOTABotDifficulty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyRadiant_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyRadiant*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_DifficultyRadiant" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.DifficultyRadiant">
+  DifficultyRadiant
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTABotDifficulty DifficultyRadiant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTABotDifficulty.html">DOTABotDifficulty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_GameMode_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.GameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_GameMode" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.GameMode">
+  GameMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GameMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasClientVersion">
+  HasClientVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasDifficultyDire_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasDifficultyDire*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasDifficultyDire" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasDifficultyDire">
+  HasDifficultyDire
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDifficultyDire { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasDifficultyRadiant_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasDifficultyRadiant*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasDifficultyRadiant" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasDifficultyRadiant">
+  HasDifficultyRadiant
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDifficultyRadiant { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasGameMode_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasGameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasGameMode" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasGameMode">
+  HasGameMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasSearchKey_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasSearchKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasSearchKey" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasSearchKey">
+  HasSearchKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSearchKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasTeam_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_HasTeam" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.HasTeam">
+  HasTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Parser" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgBotGameCreate&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_SearchKey_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.SearchKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_SearchKey" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.SearchKey">
+  SearchKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SearchKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Team_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Team*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Team" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Team">
+  Team
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTA_GC_TEAM Team { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTA_GC_TEAM.html">DOTA_GC_TEAM</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearClientVersion_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearClientVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearClientVersion" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearClientVersion">
+  ClearClientVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearDifficultyDire_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearDifficultyDire*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearDifficultyDire" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearDifficultyDire">
+  ClearDifficultyDire()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDifficultyDire()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearDifficultyRadiant_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearDifficultyRadiant*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearDifficultyRadiant" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearDifficultyRadiant">
+  ClearDifficultyRadiant()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDifficultyRadiant()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearGameMode_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearGameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearGameMode" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearGameMode">
+  ClearGameMode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameMode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearSearchKey_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearSearchKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearSearchKey" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearSearchKey">
+  ClearSearchKey()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSearchKey()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearTeam_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ClearTeam" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ClearTeam">
+  ClearTeam()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Clone" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotGameCreate Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Equals_Divine_Protobufs_Dota2_CMsgBotGameCreate_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Equals(Divine.Protobufs.Dota2.CMsgBotGameCreate)">
+  Equals(CMsgBotGameCreate)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgBotGameCreate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_MergeFrom_Divine_Protobufs_Dota2_CMsgBotGameCreate_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.MergeFrom(Divine.Protobufs.Dota2.CMsgBotGameCreate)">
+  MergeFrom(CMsgBotGameCreate)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgBotGameCreate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotGameCreate.html">CMsgBotGameCreate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_ToString" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotGameCreate_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotGameCreate_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgBotGameCreate.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

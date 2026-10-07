@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CGCMsgSQLStatsResponse | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CGCMsgSQLStatsResponse | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse" class="text-break">
+Class CGCMsgSQLStatsResponse  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CGCMsgSQLStatsResponse : IMessage&lt;CGCMsgSQLStatsResponse&gt;, IEquatable&lt;CGCMsgSQLStatsResponse&gt;, IDeepCloneable&lt;CGCMsgSQLStatsResponse&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CGCMsgSQLStatsResponse</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse__ctor_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse__ctor" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.#ctor">
+  CGCMsgSQLStatsResponse()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCMsgSQLStatsResponse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse__ctor_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse__ctor_Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.#ctor(Divine.Protobufs.Steam.CGCMsgSQLStatsResponse)">
+  CGCMsgSQLStatsResponse(CGCMsgSQLStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCMsgSQLStatsResponse(CGCMsgSQLStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_DeadlockRetriesFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.DeadlockRetriesFieldNumber">
+  DeadlockRetriesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeadlockRetriesFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ErrorsFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ErrorsFieldNumber">
+  ErrorsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ErrorsFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_NonPreparedStatementsExecutedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.NonPreparedStatementsExecutedFieldNumber">
+  NonPreparedStatementsExecutedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NonPreparedStatementsExecutedFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsSubmittedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsSubmittedFieldNumber">
+  OperationsSubmittedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OperationsSubmittedFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsTimedOutInQueueFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsTimedOutInQueueFieldNumber">
+  OperationsTimedOutInQueueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OperationsTimedOutInQueueFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_PreparedStatementsExecutedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.PreparedStatementsExecutedFieldNumber">
+  PreparedStatementsExecutedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PreparedStatementsExecutedFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsActiveFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsActiveFieldNumber">
+  ThreadsActiveFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ThreadsActiveFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsConnectedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsConnectedFieldNumber">
+  ThreadsConnectedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ThreadsConnectedFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsFieldNumber" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsFieldNumber">
+  ThreadsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ThreadsFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_DeadlockRetries_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.DeadlockRetries*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_DeadlockRetries" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.DeadlockRetries">
+  DeadlockRetries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint DeadlockRetries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Descriptor_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Descriptor" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Errors_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Errors*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Errors" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Errors">
+  Errors
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Errors { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasDeadlockRetries_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasDeadlockRetries*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasDeadlockRetries" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasDeadlockRetries">
+  HasDeadlockRetries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeadlockRetries { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasErrors_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasErrors*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasErrors" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasErrors">
+  HasErrors
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasErrors { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasNonPreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasNonPreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasNonPreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasNonPreparedStatementsExecuted">
+  HasNonPreparedStatementsExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNonPreparedStatementsExecuted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasOperationsSubmitted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasOperationsSubmitted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasOperationsSubmitted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasOperationsSubmitted">
+  HasOperationsSubmitted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOperationsSubmitted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasOperationsTimedOutInQueue_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasOperationsTimedOutInQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasOperationsTimedOutInQueue" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasOperationsTimedOutInQueue">
+  HasOperationsTimedOutInQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOperationsTimedOutInQueue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasPreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasPreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasPreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasPreparedStatementsExecuted">
+  HasPreparedStatementsExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPreparedStatementsExecuted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreads_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreads*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreads" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreads">
+  HasThreads
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasThreads { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreadsActive_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreadsActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreadsActive" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreadsActive">
+  HasThreadsActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasThreadsActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreadsConnected_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreadsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_HasThreadsConnected" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.HasThreadsConnected">
+  HasThreadsConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasThreadsConnected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_NonPreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.NonPreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_NonPreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.NonPreparedStatementsExecuted">
+  NonPreparedStatementsExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NonPreparedStatementsExecuted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsSubmitted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsSubmitted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsSubmitted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsSubmitted">
+  OperationsSubmitted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint OperationsSubmitted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsTimedOutInQueue_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsTimedOutInQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_OperationsTimedOutInQueue" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.OperationsTimedOutInQueue">
+  OperationsTimedOutInQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint OperationsTimedOutInQueue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Parser_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Parser" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CGCMsgSQLStatsResponse&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_PreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.PreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_PreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.PreparedStatementsExecuted">
+  PreparedStatementsExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PreparedStatementsExecuted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Threads_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Threads*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Threads" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Threads">
+  Threads
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Threads { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsActive_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsActive" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsActive">
+  ThreadsActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ThreadsActive { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsConnected_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ThreadsConnected" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ThreadsConnected">
+  ThreadsConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ThreadsConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_CalculateSize_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_CalculateSize" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearDeadlockRetries_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearDeadlockRetries*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearDeadlockRetries" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearDeadlockRetries">
+  ClearDeadlockRetries()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeadlockRetries()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearErrors_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearErrors*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearErrors" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearErrors">
+  ClearErrors()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearErrors()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearNonPreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearNonPreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearNonPreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearNonPreparedStatementsExecuted">
+  ClearNonPreparedStatementsExecuted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNonPreparedStatementsExecuted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearOperationsSubmitted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearOperationsSubmitted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearOperationsSubmitted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearOperationsSubmitted">
+  ClearOperationsSubmitted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOperationsSubmitted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearOperationsTimedOutInQueue_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearOperationsTimedOutInQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearOperationsTimedOutInQueue" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearOperationsTimedOutInQueue">
+  ClearOperationsTimedOutInQueue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOperationsTimedOutInQueue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearPreparedStatementsExecuted_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearPreparedStatementsExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearPreparedStatementsExecuted" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearPreparedStatementsExecuted">
+  ClearPreparedStatementsExecuted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPreparedStatementsExecuted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreads_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreads*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreads" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreads">
+  ClearThreads()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearThreads()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreadsActive_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreadsActive*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreadsActive" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreadsActive">
+  ClearThreadsActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearThreadsActive()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreadsConnected_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreadsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ClearThreadsConnected" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ClearThreadsConnected">
+  ClearThreadsConnected()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearThreadsConnected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Clone_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Clone" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCMsgSQLStatsResponse Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Equals_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Equals_Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Equals(Divine.Protobufs.Steam.CGCMsgSQLStatsResponse)">
+  Equals(CGCMsgSQLStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CGCMsgSQLStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Equals_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_GetHashCode_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_GetHashCode" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_MergeFrom_Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.MergeFrom(Divine.Protobufs.Steam.CGCMsgSQLStatsResponse)">
+  MergeFrom(CGCMsgSQLStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CGCMsgSQLStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.html">CGCMsgSQLStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ToString_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_ToString" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_WriteTo_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCMsgSQLStatsResponse_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CGCMsgSQLStatsResponse.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

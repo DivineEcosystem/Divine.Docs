@@ -1,0 +1,2029 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgTEBaseBeam | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgTEBaseBeam | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam" class="text-break">
+Class CMsgTEBaseBeam  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgTEBaseBeam : IMessage&lt;CMsgTEBaseBeam&gt;, IEquatable&lt;CMsgTEBaseBeam&gt;, IDeepCloneable&lt;CMsgTEBaseBeam&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgTEBaseBeam</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam__ctor" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.#ctor">
+  CMsgTEBaseBeam()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEBaseBeam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam__ctor_Divine_Protobufs_Dota2_CMsgTEBaseBeam_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.#ctor(Divine.Protobufs.Dota2.CMsgTEBaseBeam)">
+  CMsgTEBaseBeam(CMsgTEBaseBeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEBaseBeam(CMsgTEBaseBeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_AmplitudeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.AmplitudeFieldNumber">
+  AmplitudeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AmplitudeFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ColorFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ColorFieldNumber">
+  ColorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ColorFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_EndwidthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.EndwidthFieldNumber">
+  EndwidthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EndwidthFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_FadelengthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.FadelengthFieldNumber">
+  FadelengthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FadelengthFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_FlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.FlagsFieldNumber">
+  FlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FlagsFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_FramerateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.FramerateFieldNumber">
+  FramerateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FramerateFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HaloindexFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HaloindexFieldNumber">
+  HaloindexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HaloindexFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_LifeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.LifeFieldNumber">
+  LifeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LifeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ModelindexFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ModelindexFieldNumber">
+  ModelindexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ModelindexFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_SpeedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.SpeedFieldNumber">
+  SpeedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SpeedFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_StartframeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.StartframeFieldNumber">
+  StartframeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StartframeFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_WidthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.WidthFieldNumber">
+  WidthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WidthFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Amplitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Amplitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Amplitude" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Amplitude">
+  Amplitude
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Amplitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Color_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Color*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Color" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Color">
+  Color
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Color { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Endwidth_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Endwidth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Endwidth" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Endwidth">
+  Endwidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Endwidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Fadelength_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Fadelength*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Fadelength" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Fadelength">
+  Fadelength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Fadelength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Flags_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Flags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Flags" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Flags">
+  Flags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Flags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Framerate_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Framerate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Framerate" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Framerate">
+  Framerate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Framerate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Haloindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Haloindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Haloindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Haloindex">
+  Haloindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Haloindex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasAmplitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasAmplitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasAmplitude" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasAmplitude">
+  HasAmplitude
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAmplitude { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasColor_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasColor" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasColor">
+  HasColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasEndwidth_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasEndwidth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasEndwidth" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasEndwidth">
+  HasEndwidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEndwidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFadelength_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFadelength*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFadelength" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFadelength">
+  HasFadelength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFadelength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFlags_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFlags" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFlags">
+  HasFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFramerate_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFramerate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasFramerate" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasFramerate">
+  HasFramerate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFramerate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasHaloindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasHaloindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasHaloindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasHaloindex">
+  HasHaloindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHaloindex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasLife_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasLife*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasLife" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasLife">
+  HasLife
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLife { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasModelindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasModelindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasModelindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasModelindex">
+  HasModelindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasModelindex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasSpeed_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasSpeed" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasSpeed">
+  HasSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasStartframe_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasStartframe*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasStartframe" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasStartframe">
+  HasStartframe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasStartframe { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasWidth_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasWidth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_HasWidth" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.HasWidth">
+  HasWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Life_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Life*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Life" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Life">
+  Life
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Life { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Modelindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Modelindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Modelindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Modelindex">
+  Modelindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Modelindex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Parser" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgTEBaseBeam&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Speed_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Speed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Speed" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Speed">
+  Speed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Speed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Startframe_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Startframe*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Startframe" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Startframe">
+  Startframe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Startframe { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Width_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Width*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Width" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Width">
+  Width
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearAmplitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearAmplitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearAmplitude" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearAmplitude">
+  ClearAmplitude()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAmplitude()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearColor_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearColor" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearColor">
+  ClearColor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearColor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearEndwidth_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearEndwidth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearEndwidth" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearEndwidth">
+  ClearEndwidth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEndwidth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFadelength_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFadelength*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFadelength" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFadelength">
+  ClearFadelength()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFadelength()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFlags_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFlags" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFlags">
+  ClearFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFramerate_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFramerate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearFramerate" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearFramerate">
+  ClearFramerate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFramerate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearHaloindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearHaloindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearHaloindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearHaloindex">
+  ClearHaloindex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHaloindex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearLife_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearLife*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearLife" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearLife">
+  ClearLife()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLife()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearModelindex_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearModelindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearModelindex" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearModelindex">
+  ClearModelindex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearModelindex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearSpeed_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearSpeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearSpeed" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearSpeed">
+  ClearSpeed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSpeed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearStartframe_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearStartframe*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearStartframe" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearStartframe">
+  ClearStartframe()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearStartframe()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearWidth_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearWidth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ClearWidth" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ClearWidth">
+  ClearWidth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWidth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Clone" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEBaseBeam Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Equals_Divine_Protobufs_Dota2_CMsgTEBaseBeam_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Equals(Divine.Protobufs.Dota2.CMsgTEBaseBeam)">
+  Equals(CMsgTEBaseBeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgTEBaseBeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_MergeFrom_Divine_Protobufs_Dota2_CMsgTEBaseBeam_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.MergeFrom(Divine.Protobufs.Dota2.CMsgTEBaseBeam)">
+  MergeFrom(CMsgTEBaseBeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgTEBaseBeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEBaseBeam.html">CMsgTEBaseBeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_ToString" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEBaseBeam_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgTEBaseBeam.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

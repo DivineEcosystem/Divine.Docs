@@ -1,0 +1,3270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgGCToClientPlayerStatsResponse | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgGCToClientPlayerStatsResponse | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse" class="text-break">
+Class CMsgGCToClientPlayerStatsResponse  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgGCToClientPlayerStatsResponse : IMessage&lt;CMsgGCToClientPlayerStatsResponse&gt;, IEquatable&lt;CMsgGCToClientPlayerStatsResponse&gt;, IDeepCloneable&lt;CMsgGCToClientPlayerStatsResponse&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgGCToClientPlayerStatsResponse</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse__ctor" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.#ctor">
+  CMsgGCToClientPlayerStatsResponse()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCToClientPlayerStatsResponse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse__ctor_Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.#ctor(Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse)">
+  CMsgGCToClientPlayerStatsResponse(CMsgGCToClientPlayerStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCToClientPlayerStatsResponse(CMsgGCToClientPlayerStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AccountIdFieldNumber">
+  AccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AegisesSnatchedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AegisesSnatchedFieldNumber">
+  AegisesSnatchedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AegisesSnatchedFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CheesesEatenFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CheesesEatenFieldNumber">
+  CheesesEatenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CheesesEatenFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CouriersKilledFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CouriersKilledFieldNumber">
+  CouriersKilledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CouriersKilledFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CreepsStackedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CreepsStackedFieldNumber">
+  CreepsStackedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreepsStackedFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FarmScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FarmScoreFieldNumber">
+  FarmScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FarmScoreFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FightScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FightScoreFieldNumber">
+  FightScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FightScoreFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodClaimedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodClaimedFieldNumber">
+  FirstBloodClaimedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FirstBloodClaimedFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodGivenFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodGivenFieldNumber">
+  FirstBloodGivenFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FirstBloodGivenFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MatchCountFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MatchCountFieldNumber">
+  MatchCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchCountFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanDamageFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanDamageFieldNumber">
+  MeanDamageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanDamageFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanGpmFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanGpmFieldNumber">
+  MeanGpmFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanGpmFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanHealsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanHealsFieldNumber">
+  MeanHealsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanHealsFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanLasthitsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanLasthitsFieldNumber">
+  MeanLasthitsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanLasthitsFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanNetworthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanNetworthFieldNumber">
+  MeanNetworthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanNetworthFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanXppmFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanXppmFieldNumber">
+  MeanXppmFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MeanXppmFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PlayerStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PlayerStatsFieldNumber">
+  PlayerStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerStatsFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PushScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PushScoreFieldNumber">
+  PushScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PushScoreFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_RampagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.RampagesFieldNumber">
+  RampagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RampagesFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_RapiersPurchasedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.RapiersPurchasedFieldNumber">
+  RapiersPurchasedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RapiersPurchasedFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_SupportScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.SupportScoreFieldNumber">
+  SupportScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SupportScoreFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_TripleKillsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.TripleKillsFieldNumber">
+  TripleKillsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TripleKillsFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_VersatilityScoreFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.VersatilityScoreFieldNumber">
+  VersatilityScoreFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VersatilityScoreFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AccountId_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AccountId" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AccountId">
+  AccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AegisesSnatched_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AegisesSnatched*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_AegisesSnatched" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.AegisesSnatched">
+  AegisesSnatched
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AegisesSnatched { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CheesesEaten_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CheesesEaten*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CheesesEaten" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CheesesEaten">
+  CheesesEaten
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CheesesEaten { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CouriersKilled_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CouriersKilled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CouriersKilled" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CouriersKilled">
+  CouriersKilled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CouriersKilled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CreepsStacked_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CreepsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CreepsStacked" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CreepsStacked">
+  CreepsStacked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CreepsStacked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FarmScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FarmScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FarmScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FarmScore">
+  FarmScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FarmScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FightScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FightScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FightScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FightScore">
+  FightScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FightScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodClaimed_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodClaimed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodClaimed" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodClaimed">
+  FirstBloodClaimed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FirstBloodClaimed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodGiven_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodGiven*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_FirstBloodGiven" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.FirstBloodGiven">
+  FirstBloodGiven
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FirstBloodGiven { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasAccountId" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasAccountId">
+  HasAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasAegisesSnatched_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasAegisesSnatched*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasAegisesSnatched" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasAegisesSnatched">
+  HasAegisesSnatched
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAegisesSnatched { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCheesesEaten_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCheesesEaten*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCheesesEaten" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCheesesEaten">
+  HasCheesesEaten
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCheesesEaten { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCouriersKilled_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCouriersKilled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCouriersKilled" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCouriersKilled">
+  HasCouriersKilled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCouriersKilled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCreepsStacked_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCreepsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasCreepsStacked" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasCreepsStacked">
+  HasCreepsStacked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreepsStacked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFarmScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFarmScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFarmScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFarmScore">
+  HasFarmScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFarmScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFightScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFightScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFightScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFightScore">
+  HasFightScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFightScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFirstBloodClaimed_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFirstBloodClaimed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFirstBloodClaimed" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFirstBloodClaimed">
+  HasFirstBloodClaimed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFirstBloodClaimed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFirstBloodGiven_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFirstBloodGiven*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasFirstBloodGiven" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasFirstBloodGiven">
+  HasFirstBloodGiven
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFirstBloodGiven { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMatchCount_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMatchCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMatchCount" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMatchCount">
+  HasMatchCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanDamage_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanDamage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanDamage" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanDamage">
+  HasMeanDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanGpm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanGpm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanGpm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanGpm">
+  HasMeanGpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanGpm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanHeals_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanHeals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanHeals" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanHeals">
+  HasMeanHeals
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanHeals { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanLasthits_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanLasthits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanLasthits" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanLasthits">
+  HasMeanLasthits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanLasthits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanNetworth_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanNetworth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanNetworth" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanNetworth">
+  HasMeanNetworth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanNetworth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanXppm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanXppm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasMeanXppm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasMeanXppm">
+  HasMeanXppm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMeanXppm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasPushScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasPushScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasPushScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasPushScore">
+  HasPushScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPushScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasRampages_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasRampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasRampages" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasRampages">
+  HasRampages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRampages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasRapiersPurchased_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasRapiersPurchased*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasRapiersPurchased" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasRapiersPurchased">
+  HasRapiersPurchased
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRapiersPurchased { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasSupportScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasSupportScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasSupportScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasSupportScore">
+  HasSupportScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSupportScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasTripleKills_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasTripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasTripleKills" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasTripleKills">
+  HasTripleKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTripleKills { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasVersatilityScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasVersatilityScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_HasVersatilityScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.HasVersatilityScore">
+  HasVersatilityScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasVersatilityScore { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MatchCount_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MatchCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MatchCount" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MatchCount">
+  MatchCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanDamage_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanDamage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanDamage" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanDamage">
+  MeanDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanDamage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanGpm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanGpm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanGpm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanGpm">
+  MeanGpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanGpm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanHeals_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanHeals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanHeals" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanHeals">
+  MeanHeals
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanHeals { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanLasthits_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanLasthits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanLasthits" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanLasthits">
+  MeanLasthits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanLasthits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanNetworth_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanNetworth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanNetworth" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanNetworth">
+  MeanNetworth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanNetworth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanXppm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanXppm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MeanXppm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MeanXppm">
+  MeanXppm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MeanXppm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Parser" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgGCToClientPlayerStatsResponse&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PlayerStats_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PlayerStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PlayerStats" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PlayerStats">
+  PlayerStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;float&gt; PlayerStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PushScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PushScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_PushScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.PushScore">
+  PushScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PushScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Rampages_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Rampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Rampages" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Rampages">
+  Rampages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Rampages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_RapiersPurchased_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.RapiersPurchased*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_RapiersPurchased" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.RapiersPurchased">
+  RapiersPurchased
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RapiersPurchased { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_SupportScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.SupportScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_SupportScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.SupportScore">
+  SupportScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SupportScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_TripleKills_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.TripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_TripleKills" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.TripleKills">
+  TripleKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TripleKills { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_VersatilityScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.VersatilityScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_VersatilityScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.VersatilityScore">
+  VersatilityScore
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VersatilityScore { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearAccountId_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearAccountId" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearAccountId">
+  ClearAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearAegisesSnatched_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearAegisesSnatched*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearAegisesSnatched" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearAegisesSnatched">
+  ClearAegisesSnatched()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAegisesSnatched()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCheesesEaten_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCheesesEaten*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCheesesEaten" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCheesesEaten">
+  ClearCheesesEaten()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCheesesEaten()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCouriersKilled_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCouriersKilled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCouriersKilled" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCouriersKilled">
+  ClearCouriersKilled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCouriersKilled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCreepsStacked_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCreepsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearCreepsStacked" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearCreepsStacked">
+  ClearCreepsStacked()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreepsStacked()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFarmScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFarmScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFarmScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFarmScore">
+  ClearFarmScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFarmScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFightScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFightScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFightScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFightScore">
+  ClearFightScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFightScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFirstBloodClaimed_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFirstBloodClaimed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFirstBloodClaimed" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFirstBloodClaimed">
+  ClearFirstBloodClaimed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFirstBloodClaimed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFirstBloodGiven_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFirstBloodGiven*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearFirstBloodGiven" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearFirstBloodGiven">
+  ClearFirstBloodGiven()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFirstBloodGiven()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMatchCount_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMatchCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMatchCount" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMatchCount">
+  ClearMatchCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanDamage_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanDamage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanDamage" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanDamage">
+  ClearMeanDamage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanDamage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanGpm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanGpm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanGpm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanGpm">
+  ClearMeanGpm()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanGpm()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanHeals_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanHeals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanHeals" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanHeals">
+  ClearMeanHeals()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanHeals()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanLasthits_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanLasthits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanLasthits" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanLasthits">
+  ClearMeanLasthits()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanLasthits()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanNetworth_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanNetworth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanNetworth" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanNetworth">
+  ClearMeanNetworth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanNetworth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanXppm_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanXppm*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearMeanXppm" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearMeanXppm">
+  ClearMeanXppm()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMeanXppm()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearPushScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearPushScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearPushScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearPushScore">
+  ClearPushScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPushScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearRampages_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearRampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearRampages" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearRampages">
+  ClearRampages()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRampages()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearRapiersPurchased_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearRapiersPurchased*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearRapiersPurchased" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearRapiersPurchased">
+  ClearRapiersPurchased()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRapiersPurchased()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearSupportScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearSupportScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearSupportScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearSupportScore">
+  ClearSupportScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSupportScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearTripleKills_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearTripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearTripleKills" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearTripleKills">
+  ClearTripleKills()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTripleKills()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearVersatilityScore_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearVersatilityScore*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ClearVersatilityScore" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ClearVersatilityScore">
+  ClearVersatilityScore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearVersatilityScore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Clone" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGCToClientPlayerStatsResponse Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Equals_Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Equals(Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse)">
+  Equals(CMsgGCToClientPlayerStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgGCToClientPlayerStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MergeFrom_Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MergeFrom(Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse)">
+  MergeFrom(CMsgGCToClientPlayerStatsResponse)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgGCToClientPlayerStatsResponse other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.html">CMsgGCToClientPlayerStatsResponse</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_ToString" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGCToClientPlayerStatsResponse_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGCToClientPlayerStatsResponse.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

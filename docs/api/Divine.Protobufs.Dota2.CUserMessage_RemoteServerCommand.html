@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CUserMessage_RemoteServerCommand | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CUserMessage_RemoteServerCommand | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand" class="text-break">
+Class CUserMessage_RemoteServerCommand  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CUserMessage_RemoteServerCommand : IMessage&lt;CUserMessage_RemoteServerCommand&gt;, IEquatable&lt;CUserMessage_RemoteServerCommand&gt;, IDeepCloneable&lt;CUserMessage_RemoteServerCommand&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CUserMessage_RemoteServerCommand</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand__ctor" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.#ctor">
+  CUserMessage_RemoteServerCommand()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessage_RemoteServerCommand()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand__ctor_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand__ctor_Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.#ctor(Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand)">
+  CUserMessage_RemoteServerCommand(CUserMessage_RemoteServerCommand)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessage_RemoteServerCommand(CUserMessage_RemoteServerCommand other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandArgsFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandArgsFieldNumber">
+  CommandArgsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CommandArgsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandStrFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandStrFieldNumber">
+  CommandStrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CommandStrFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ConvarFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ConvarFieldNumber">
+  ConvarFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConvarFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_EcommandFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.EcommandFieldNumber">
+  EcommandFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EcommandFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ValueFieldNumber" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ValueFieldNumber">
+  ValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ValueFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandArgs_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandArgs*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandArgs" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandArgs">
+  CommandArgs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CommandArgs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandStr_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandStr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CommandStr" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CommandStr">
+  CommandStr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CommandStr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Convar_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Convar*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Convar" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Convar">
+  Convar
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Convar { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Descriptor_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Descriptor" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Ecommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Ecommand*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Ecommand" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Ecommand">
+  Ecommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessage_RemoteServerCommand.Types.ECommand Ecommand { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Types.ECommand.html">ECommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasCommandArgs_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasCommandArgs*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasCommandArgs" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasCommandArgs">
+  HasCommandArgs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCommandArgs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasCommandStr_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasCommandStr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasCommandStr" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasCommandStr">
+  HasCommandStr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCommandStr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasConvar_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasConvar*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasConvar" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasConvar">
+  HasConvar
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConvar { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasEcommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasEcommand*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasEcommand" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasEcommand">
+  HasEcommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEcommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasValue_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_HasValue" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.HasValue">
+  HasValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Parser_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Parser" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CUserMessage_RemoteServerCommand&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Value_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Value*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Value" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Value">
+  Value
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_CalculateSize" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearCommandArgs_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearCommandArgs*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearCommandArgs" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearCommandArgs">
+  ClearCommandArgs()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCommandArgs()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearCommandStr_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearCommandStr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearCommandStr" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearCommandStr">
+  ClearCommandStr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCommandStr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearConvar_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearConvar*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearConvar" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearConvar">
+  ClearConvar()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearConvar()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearEcommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearEcommand*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearEcommand" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearEcommand">
+  ClearEcommand()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEcommand()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearValue_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ClearValue" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ClearValue">
+  ClearValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Clone_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Clone" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CUserMessage_RemoteServerCommand Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Equals_Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Equals(Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand)">
+  Equals(CUserMessage_RemoteServerCommand)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CUserMessage_RemoteServerCommand other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Equals_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_GetHashCode" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_MergeFrom_Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.MergeFrom(Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand)">
+  MergeFrom(CUserMessage_RemoteServerCommand)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CUserMessage_RemoteServerCommand other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.html">CUserMessage_RemoteServerCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ToString_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_ToString" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_WriteTo_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CUserMessage_RemoteServerCommand_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CUserMessage_RemoteServerCommand.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

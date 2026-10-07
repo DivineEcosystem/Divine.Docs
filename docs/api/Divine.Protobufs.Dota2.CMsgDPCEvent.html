@@ -1,0 +1,2269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgDPCEvent | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgDPCEvent | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgDPCEvent" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent" class="text-break">
+Class CMsgDPCEvent  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgDPCEvent : IMessage&lt;CMsgDPCEvent&gt;, IEquatable&lt;CMsgDPCEvent&gt;, IDeepCloneable&lt;CMsgDPCEvent&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgDPCEvent</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent__ctor" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.#ctor">
+  CMsgDPCEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent__ctor_Divine_Protobufs_Dota2_CMsgDPCEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.#ctor(Divine.Protobufs.Dota2.CMsgDPCEvent)">
+  CMsgDPCEvent(CMsgDPCEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent(CMsgDPCEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventFieldNumber">
+  EventFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EventFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventNameFieldNumber">
+  EventNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EventNameFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventTypeFieldNumber">
+  EventTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EventTypeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventCompletedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventCompletedFieldNumber">
+  IsEventCompletedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsEventCompletedFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventUpcomingFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventUpcomingFieldNumber">
+  IsEventUpcomingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsEventUpcomingFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsFantasyEnabledFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsFantasyEnabledFieldNumber">
+  IsFantasyEnabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsFantasyEnabledFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_LeaguesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.LeaguesFieldNumber">
+  LeaguesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LeaguesFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastLeagueIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastLeagueIdFieldNumber">
+  MulticastLeagueIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MulticastLeagueIdFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastStreamsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastStreamsFieldNumber">
+  MulticastStreamsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MulticastStreamsFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_RegistrationPeriodFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.RegistrationPeriodFieldNumber">
+  RegistrationPeriodFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RegistrationPeriodFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampAddLockFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampAddLockFieldNumber">
+  TimestampAddLockFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampAddLockFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentDeadlineFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentDeadlineFieldNumber">
+  TimestampContentDeadlineFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampContentDeadlineFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentReviewDeadlineFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentReviewDeadlineFieldNumber">
+  TimestampContentReviewDeadlineFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampContentReviewDeadlineFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampDropLockFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampDropLockFieldNumber">
+  TimestampDropLockFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampDropLockFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TourFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TourFieldNumber">
+  TourFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Event_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Event*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Event" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Event">
+  Event
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent.Types.ELeagueEvent Event { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.ELeagueEvent.html">ELeagueEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventName_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventName" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventName">
+  EventName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EventName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventType_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_EventType" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.EventType">
+  EventType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent.Types.ELeagueEventType EventType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.ELeagueEventType.html">ELeagueEventType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEvent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEvent" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEvent">
+  HasEvent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEvent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEventName_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEventName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEventName" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEventName">
+  HasEventName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEventName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEventType_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEventType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasEventType" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasEventType">
+  HasEventType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEventType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsEventCompleted_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsEventCompleted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsEventCompleted" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsEventCompleted">
+  HasIsEventCompleted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsEventCompleted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsEventUpcoming_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsEventUpcoming*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsEventUpcoming" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsEventUpcoming">
+  HasIsEventUpcoming
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsEventUpcoming { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsFantasyEnabled_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsFantasyEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasIsFantasyEnabled" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasIsFantasyEnabled">
+  HasIsFantasyEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsFantasyEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasMulticastLeagueId_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasMulticastLeagueId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasMulticastLeagueId" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasMulticastLeagueId">
+  HasMulticastLeagueId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMulticastLeagueId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasRegistrationPeriod_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasRegistrationPeriod*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasRegistrationPeriod" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasRegistrationPeriod">
+  HasRegistrationPeriod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRegistrationPeriod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampAddLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampAddLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampAddLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampAddLock">
+  HasTimestampAddLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestampAddLock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampContentDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampContentDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampContentDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampContentDeadline">
+  HasTimestampContentDeadline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestampContentDeadline { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampContentReviewDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampContentReviewDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampContentReviewDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampContentReviewDeadline">
+  HasTimestampContentReviewDeadline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestampContentReviewDeadline { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampDropLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampDropLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTimestampDropLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTimestampDropLock">
+  HasTimestampDropLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimestampDropLock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTour_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTour*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_HasTour" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.HasTour">
+  HasTour
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTour { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventCompleted_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventCompleted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventCompleted" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventCompleted">
+  IsEventCompleted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEventCompleted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventUpcoming_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventUpcoming*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsEventUpcoming" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsEventUpcoming">
+  IsEventUpcoming
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEventUpcoming { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsFantasyEnabled_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsFantasyEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_IsFantasyEnabled" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.IsFantasyEnabled">
+  IsFantasyEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFantasyEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Leagues_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Leagues*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Leagues" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Leagues">
+  Leagues
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgDPCEvent.Types.League&gt; Leagues { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.League.html">League</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastLeagueId_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastLeagueId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastLeagueId" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastLeagueId">
+  MulticastLeagueId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MulticastLeagueId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastStreams_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastStreams*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MulticastStreams" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MulticastStreams">
+  MulticastStreams
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;uint&gt; MulticastStreams { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Parser" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgDPCEvent&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_RegistrationPeriod_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.RegistrationPeriod*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_RegistrationPeriod" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.RegistrationPeriod">
+  RegistrationPeriod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RegistrationPeriod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampAddLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampAddLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampAddLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampAddLock">
+  TimestampAddLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TimestampAddLock { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentDeadline">
+  TimestampContentDeadline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TimestampContentDeadline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentReviewDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentReviewDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampContentReviewDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampContentReviewDeadline">
+  TimestampContentReviewDeadline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TimestampContentReviewDeadline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampDropLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampDropLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_TimestampDropLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.TimestampDropLock">
+  TimestampDropLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TimestampDropLock { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Tour_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Tour*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Tour" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Tour">
+  Tour
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent.Types.ETour Tour { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.Types.ETour.html">ETour</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEvent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEvent" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEvent">
+  ClearEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEventName_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEventName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEventName" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEventName">
+  ClearEventName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEventName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEventType_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEventType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearEventType" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearEventType">
+  ClearEventType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEventType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsEventCompleted_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsEventCompleted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsEventCompleted" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsEventCompleted">
+  ClearIsEventCompleted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsEventCompleted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsEventUpcoming_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsEventUpcoming*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsEventUpcoming" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsEventUpcoming">
+  ClearIsEventUpcoming()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsEventUpcoming()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsFantasyEnabled_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsFantasyEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearIsFantasyEnabled" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearIsFantasyEnabled">
+  ClearIsFantasyEnabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsFantasyEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearMulticastLeagueId_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearMulticastLeagueId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearMulticastLeagueId" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearMulticastLeagueId">
+  ClearMulticastLeagueId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMulticastLeagueId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearRegistrationPeriod_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearRegistrationPeriod*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearRegistrationPeriod" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearRegistrationPeriod">
+  ClearRegistrationPeriod()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRegistrationPeriod()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampAddLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampAddLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampAddLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampAddLock">
+  ClearTimestampAddLock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestampAddLock()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampContentDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampContentDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampContentDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampContentDeadline">
+  ClearTimestampContentDeadline()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestampContentDeadline()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampContentReviewDeadline_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampContentReviewDeadline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampContentReviewDeadline" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampContentReviewDeadline">
+  ClearTimestampContentReviewDeadline()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestampContentReviewDeadline()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampDropLock_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampDropLock*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTimestampDropLock" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTimestampDropLock">
+  ClearTimestampDropLock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimestampDropLock()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTour_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTour*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ClearTour" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ClearTour">
+  ClearTour()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTour()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Clone" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDPCEvent Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Equals_Divine_Protobufs_Dota2_CMsgDPCEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Equals(Divine.Protobufs.Dota2.CMsgDPCEvent)">
+  Equals(CMsgDPCEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgDPCEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MergeFrom_Divine_Protobufs_Dota2_CMsgDPCEvent_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MergeFrom(Divine.Protobufs.Dota2.CMsgDPCEvent)">
+  MergeFrom(CMsgDPCEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgDPCEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDPCEvent.html">CMsgDPCEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_ToString" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDPCEvent_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDPCEvent_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDPCEvent.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

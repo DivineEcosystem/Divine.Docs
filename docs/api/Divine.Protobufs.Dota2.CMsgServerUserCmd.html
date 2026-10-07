@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgServerUserCmd | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgServerUserCmd | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgServerUserCmd" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd" class="text-break">
+Class CMsgServerUserCmd  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgServerUserCmd : IMessage&lt;CMsgServerUserCmd&gt;, IEquatable&lt;CMsgServerUserCmd&gt;, IDeepCloneable&lt;CMsgServerUserCmd&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgServerUserCmd</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd__ctor" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.#ctor">
+  CMsgServerUserCmd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgServerUserCmd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd__ctor_Divine_Protobufs_Dota2_CMsgServerUserCmd_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.#ctor(Divine.Protobufs.Dota2.CMsgServerUserCmd)">
+  CMsgServerUserCmd(CMsgServerUserCmd)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgServerUserCmd(CMsgServerUserCmd other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClientTickFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClientTickFieldNumber">
+  ClientTickFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientTickFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_CmdNumberFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.CmdNumberFieldNumber">
+  CmdNumberFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CmdNumberFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DataFieldNumber">
+  DataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DataFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaDataFieldNumber">
+  DeltaDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeltaDataFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaProcessedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaProcessedFieldNumber">
+  DeltaProcessedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeltaProcessedFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_PlayerSlotFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.PlayerSlotFieldNumber">
+  PlayerSlotFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerSlotFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ServerTickExecutedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ServerTickExecutedFieldNumber">
+  ServerTickExecutedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerTickExecutedFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClientTick_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClientTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClientTick" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClientTick">
+  ClientTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ClientTick { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_CmdNumber_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.CmdNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_CmdNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.CmdNumber">
+  CmdNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CmdNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Data_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Data*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Data" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Data">
+  Data
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString Data { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaData_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaData" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaData">
+  DeltaData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString DeltaData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaProcessed_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaProcessed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_DeltaProcessed" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.DeltaProcessed">
+  DeltaProcessed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DeltaProcessed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasClientTick_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasClientTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasClientTick" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasClientTick">
+  HasClientTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClientTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasCmdNumber_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasCmdNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasCmdNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasCmdNumber">
+  HasCmdNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCmdNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasData_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasData" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasData">
+  HasData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasDeltaData_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasDeltaData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasDeltaData" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasDeltaData">
+  HasDeltaData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeltaData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasDeltaProcessed_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasDeltaProcessed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasDeltaProcessed" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasDeltaProcessed">
+  HasDeltaProcessed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeltaProcessed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasPlayerSlot_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasPlayerSlot*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasPlayerSlot" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasPlayerSlot">
+  HasPlayerSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasServerTickExecuted_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasServerTickExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_HasServerTickExecuted" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.HasServerTickExecuted">
+  HasServerTickExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerTickExecuted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Parser" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgServerUserCmd&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_PlayerSlot_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.PlayerSlot*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_PlayerSlot" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.PlayerSlot">
+  PlayerSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlayerSlot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ServerTickExecuted_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ServerTickExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ServerTickExecuted" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ServerTickExecuted">
+  ServerTickExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ServerTickExecuted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearClientTick_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearClientTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearClientTick" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearClientTick">
+  ClearClientTick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearClientTick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearCmdNumber_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearCmdNumber*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearCmdNumber" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearCmdNumber">
+  ClearCmdNumber()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCmdNumber()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearData_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearData" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearData">
+  ClearData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearDeltaData_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearDeltaData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearDeltaData" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearDeltaData">
+  ClearDeltaData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeltaData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearDeltaProcessed_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearDeltaProcessed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearDeltaProcessed" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearDeltaProcessed">
+  ClearDeltaProcessed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeltaProcessed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearPlayerSlot_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearPlayerSlot*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearPlayerSlot" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearPlayerSlot">
+  ClearPlayerSlot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerSlot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearServerTickExecuted_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearServerTickExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ClearServerTickExecuted" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ClearServerTickExecuted">
+  ClearServerTickExecuted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerTickExecuted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Clone" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgServerUserCmd Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Equals_Divine_Protobufs_Dota2_CMsgServerUserCmd_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Equals(Divine.Protobufs.Dota2.CMsgServerUserCmd)">
+  Equals(CMsgServerUserCmd)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgServerUserCmd other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_MergeFrom_Divine_Protobufs_Dota2_CMsgServerUserCmd_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.MergeFrom(Divine.Protobufs.Dota2.CMsgServerUserCmd)">
+  MergeFrom(CMsgServerUserCmd)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgServerUserCmd other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgServerUserCmd.html">CMsgServerUserCmd</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_ToString" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgServerUserCmd_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgServerUserCmd_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgServerUserCmd.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

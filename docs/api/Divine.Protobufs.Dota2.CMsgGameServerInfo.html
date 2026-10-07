@@ -1,0 +1,3681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgGameServerInfo | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgGameServerInfo | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgGameServerInfo" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo" class="text-break">
+Class CMsgGameServerInfo  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgGameServerInfo : IMessage&lt;CMsgGameServerInfo&gt;, IEquatable&lt;CMsgGameServerInfo&gt;, IDeepCloneable&lt;CMsgGameServerInfo&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgGameServerInfo</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo__ctor" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.#ctor">
+  CMsgGameServerInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameServerInfo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo__ctor_Divine_Protobufs_Dota2_CMsgGameServerInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.#ctor(Divine.Protobufs.Dota2.CMsgGameServerInfo)">
+  CMsgGameServerInfo(CMsgGameServerInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameServerInfo(CMsgGameServerInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AllowCustomGamesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AllowCustomGamesFieldNumber">
+  AllowCustomGamesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AllowCustomGamesFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AssignedServerTvPortFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AssignedServerTvPortFieldNumber">
+  AssignedServerTvPortFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AssignedServerTvPortFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_BuildVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.BuildVersionFieldNumber">
+  BuildVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BuildVersionFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_DevForceServerTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.DevForceServerTypeFieldNumber">
+  DevForceServerTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DevForceServerTypeFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_LegacyServerSteamdatagramAddressFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.LegacyServerSteamdatagramAddressFieldNumber">
+  LegacyServerSteamdatagramAddressFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyServerSteamdatagramAddressFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ParentRelayCountFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ParentRelayCountFieldNumber">
+  ParentRelayCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParentRelayCountFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayClientsConnectedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayClientsConnectedFieldNumber">
+  RelayClientsConnectedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelayClientsConnectedFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaySlotsMaxFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaySlotsMaxFieldNumber">
+  RelaySlotsMaxFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelaySlotsMaxFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayedGameServerSteamIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayedGameServerSteamIdFieldNumber">
+  RelayedGameServerSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelayedGameServerSteamIdFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaysConnectedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaysConnectedFieldNumber">
+  RelaysConnectedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RelaysConnectedFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerClusterFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerClusterFieldNumber">
+  ServerClusterFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerClusterFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerGameTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerGameTimeFieldNumber">
+  ServerGameTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerGameTimeFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerHibernationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerHibernationFieldNumber">
+  ServerHibernationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerHibernationFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerKeyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerKeyFieldNumber">
+  ServerKeyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerKeyFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerLoadavgFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerLoadavgFieldNumber">
+  ServerLoadavgFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerLoadavgFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPortFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPortFieldNumber">
+  ServerPortFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerPortFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPrivateIpAddrFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPrivateIpAddrFieldNumber">
+  ServerPrivateIpAddrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerPrivateIpAddrFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPublicIpAddrFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPublicIpAddrFieldNumber">
+  ServerPublicIpAddrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerPublicIpAddrFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRegionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRegionFieldNumber">
+  ServerRegionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerRegionFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRelayConnectedSteamIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRelayConnectedSteamIdFieldNumber">
+  ServerRelayConnectedSteamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerRelayConnectedSteamIdFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvBroadcastTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvBroadcastTimeFieldNumber">
+  ServerTvBroadcastTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerTvBroadcastTimeFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvPortFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvPortFieldNumber">
+  ServerTvPortFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerTvPortFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTypeFieldNumber">
+  ServerTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerTypeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerVersionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerVersionFieldNumber">
+  ServerVersionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerVersionFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_SrcdsInstanceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.SrcdsInstanceFieldNumber">
+  SrcdsInstanceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SrcdsInstanceFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_TvSecretCodeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.TvSecretCodeFieldNumber">
+  TvSecretCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TvSecretCodeFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AllowCustomGames_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AllowCustomGames*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AllowCustomGames" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AllowCustomGames">
+  AllowCustomGames
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameServerInfo.Types.CustomGames AllowCustomGames { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.CustomGames.html">CustomGames</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AssignedServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AssignedServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_AssignedServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.AssignedServerTvPort">
+  AssignedServerTvPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AssignedServerTvPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_BuildVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.BuildVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_BuildVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.BuildVersion">
+  BuildVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BuildVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_DevForceServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.DevForceServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_DevForceServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.DevForceServerType">
+  DevForceServerType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DevForceServerType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasAllowCustomGames_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasAllowCustomGames*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasAllowCustomGames" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasAllowCustomGames">
+  HasAllowCustomGames
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAllowCustomGames { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasAssignedServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasAssignedServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasAssignedServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasAssignedServerTvPort">
+  HasAssignedServerTvPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAssignedServerTvPort { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasBuildVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasBuildVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasBuildVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasBuildVersion">
+  HasBuildVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuildVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasDevForceServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasDevForceServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasDevForceServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasDevForceServerType">
+  HasDevForceServerType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDevForceServerType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasLegacyServerSteamdatagramAddress_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasLegacyServerSteamdatagramAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasLegacyServerSteamdatagramAddress" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasLegacyServerSteamdatagramAddress">
+  HasLegacyServerSteamdatagramAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyServerSteamdatagramAddress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasParentRelayCount_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasParentRelayCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasParentRelayCount" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasParentRelayCount">
+  HasParentRelayCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasParentRelayCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelayClientsConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelayClientsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelayClientsConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelayClientsConnected">
+  HasRelayClientsConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelayClientsConnected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelaySlotsMax_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelaySlotsMax*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelaySlotsMax" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelaySlotsMax">
+  HasRelaySlotsMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelaySlotsMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelayedGameServerSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelayedGameServerSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelayedGameServerSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelayedGameServerSteamId">
+  HasRelayedGameServerSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelayedGameServerSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelaysConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelaysConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasRelaysConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasRelaysConnected">
+  HasRelaysConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRelaysConnected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerCluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerCluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerCluster" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerCluster">
+  HasServerCluster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerCluster { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerGameTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerGameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerGameTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerGameTime">
+  HasServerGameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerGameTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerHibernation_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerHibernation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerHibernation" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerHibernation">
+  HasServerHibernation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerHibernation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerKey_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerKey" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerKey">
+  HasServerKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerLoadavg_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerLoadavg*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerLoadavg" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerLoadavg">
+  HasServerLoadavg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerLoadavg { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPort">
+  HasServerPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerPort { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPrivateIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPrivateIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPrivateIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPrivateIpAddr">
+  HasServerPrivateIpAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerPrivateIpAddr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPublicIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPublicIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerPublicIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerPublicIpAddr">
+  HasServerPublicIpAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerPublicIpAddr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerRegion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerRegion">
+  HasServerRegion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerRegion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerRelayConnectedSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerRelayConnectedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerRelayConnectedSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerRelayConnectedSteamId">
+  HasServerRelayConnectedSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerRelayConnectedSteamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerTvBroadcastTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerTvBroadcastTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerTvBroadcastTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerTvBroadcastTime">
+  HasServerTvBroadcastTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerTvBroadcastTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerTvPort">
+  HasServerTvPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerTvPort { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerType">
+  HasServerType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasServerVersion">
+  HasServerVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasSrcdsInstance_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasSrcdsInstance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasSrcdsInstance" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasSrcdsInstance">
+  HasSrcdsInstance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSrcdsInstance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasTvSecretCode_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasTvSecretCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_HasTvSecretCode" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.HasTvSecretCode">
+  HasTvSecretCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTvSecretCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_LegacyServerSteamdatagramAddress_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.LegacyServerSteamdatagramAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_LegacyServerSteamdatagramAddress" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.LegacyServerSteamdatagramAddress">
+  LegacyServerSteamdatagramAddress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString LegacyServerSteamdatagramAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ParentRelayCount_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ParentRelayCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ParentRelayCount" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ParentRelayCount">
+  ParentRelayCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ParentRelayCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Parser" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgGameServerInfo&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayClientsConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayClientsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayClientsConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayClientsConnected">
+  RelayClientsConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RelayClientsConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaySlotsMax_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaySlotsMax*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaySlotsMax" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaySlotsMax">
+  RelaySlotsMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RelaySlotsMax { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayedGameServerSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayedGameServerSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelayedGameServerSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelayedGameServerSteamId">
+  RelayedGameServerSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RelayedGameServerSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaysConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaysConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_RelaysConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.RelaysConnected">
+  RelaysConnected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RelaysConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerCluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerCluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerCluster" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerCluster">
+  ServerCluster
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerCluster { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerGameTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerGameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerGameTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerGameTime">
+  ServerGameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ServerGameTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerHibernation_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerHibernation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerHibernation" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerHibernation">
+  ServerHibernation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ServerHibernation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerKey_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerKey" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerKey">
+  ServerKey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ServerKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerLoadavg_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerLoadavg*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerLoadavg" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerLoadavg">
+  ServerLoadavg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ServerLoadavg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPort">
+  ServerPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPrivateIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPrivateIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPrivateIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPrivateIpAddr">
+  ServerPrivateIpAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerPrivateIpAddr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPublicIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPublicIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerPublicIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerPublicIpAddr">
+  ServerPublicIpAddr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerPublicIpAddr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRegion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRegion">
+  ServerRegion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerRegion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRelayConnectedSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRelayConnectedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerRelayConnectedSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerRelayConnectedSteamId">
+  ServerRelayConnectedSteamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ServerRelayConnectedSteamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvBroadcastTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvBroadcastTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvBroadcastTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvBroadcastTime">
+  ServerTvBroadcastTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ServerTvBroadcastTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerTvPort">
+  ServerTvPort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerTvPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerType">
+  ServerType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameServerInfo.Types.ServerType ServerType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.ServerType.html">ServerType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ServerVersion">
+  ServerVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_SrcdsInstance_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.SrcdsInstance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_SrcdsInstance" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.SrcdsInstance">
+  SrcdsInstance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SrcdsInstance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_TvSecretCode_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.TvSecretCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_TvSecretCode" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.TvSecretCode">
+  TvSecretCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong TvSecretCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearAllowCustomGames_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearAllowCustomGames*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearAllowCustomGames" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearAllowCustomGames">
+  ClearAllowCustomGames()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAllowCustomGames()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearAssignedServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearAssignedServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearAssignedServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearAssignedServerTvPort">
+  ClearAssignedServerTvPort()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAssignedServerTvPort()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearBuildVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearBuildVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearBuildVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearBuildVersion">
+  ClearBuildVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBuildVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearDevForceServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearDevForceServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearDevForceServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearDevForceServerType">
+  ClearDevForceServerType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDevForceServerType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearLegacyServerSteamdatagramAddress_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearLegacyServerSteamdatagramAddress*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearLegacyServerSteamdatagramAddress" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearLegacyServerSteamdatagramAddress">
+  ClearLegacyServerSteamdatagramAddress()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyServerSteamdatagramAddress()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearParentRelayCount_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearParentRelayCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearParentRelayCount" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearParentRelayCount">
+  ClearParentRelayCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearParentRelayCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelayClientsConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelayClientsConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelayClientsConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelayClientsConnected">
+  ClearRelayClientsConnected()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelayClientsConnected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelaySlotsMax_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelaySlotsMax*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelaySlotsMax" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelaySlotsMax">
+  ClearRelaySlotsMax()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelaySlotsMax()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelayedGameServerSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelayedGameServerSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelayedGameServerSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelayedGameServerSteamId">
+  ClearRelayedGameServerSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelayedGameServerSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelaysConnected_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelaysConnected*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearRelaysConnected" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearRelaysConnected">
+  ClearRelaysConnected()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRelaysConnected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerCluster_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerCluster*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerCluster" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerCluster">
+  ClearServerCluster()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerCluster()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerGameTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerGameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerGameTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerGameTime">
+  ClearServerGameTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerGameTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerHibernation_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerHibernation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerHibernation" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerHibernation">
+  ClearServerHibernation()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerHibernation()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerKey_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerKey*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerKey" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerKey">
+  ClearServerKey()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerKey()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerLoadavg_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerLoadavg*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerLoadavg" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerLoadavg">
+  ClearServerLoadavg()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerLoadavg()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPort">
+  ClearServerPort()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerPort()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPrivateIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPrivateIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPrivateIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPrivateIpAddr">
+  ClearServerPrivateIpAddr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerPrivateIpAddr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPublicIpAddr_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPublicIpAddr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerPublicIpAddr" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerPublicIpAddr">
+  ClearServerPublicIpAddr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerPublicIpAddr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerRegion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerRegion">
+  ClearServerRegion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerRegion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerRelayConnectedSteamId_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerRelayConnectedSteamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerRelayConnectedSteamId" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerRelayConnectedSteamId">
+  ClearServerRelayConnectedSteamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerRelayConnectedSteamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerTvBroadcastTime_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerTvBroadcastTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerTvBroadcastTime" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerTvBroadcastTime">
+  ClearServerTvBroadcastTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerTvBroadcastTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerTvPort_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerTvPort*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerTvPort" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerTvPort">
+  ClearServerTvPort()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerTvPort()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerType_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerType" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerType">
+  ClearServerType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerVersion_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerVersion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearServerVersion" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearServerVersion">
+  ClearServerVersion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerVersion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearSrcdsInstance_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearSrcdsInstance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearSrcdsInstance" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearSrcdsInstance">
+  ClearSrcdsInstance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSrcdsInstance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearTvSecretCode_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearTvSecretCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ClearTvSecretCode" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ClearTvSecretCode">
+  ClearTvSecretCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTvSecretCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Clone" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGameServerInfo Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Equals_Divine_Protobufs_Dota2_CMsgGameServerInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Equals(Divine.Protobufs.Dota2.CMsgGameServerInfo)">
+  Equals(CMsgGameServerInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgGameServerInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_MergeFrom_Divine_Protobufs_Dota2_CMsgGameServerInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.MergeFrom(Divine.Protobufs.Dota2.CMsgGameServerInfo)">
+  MergeFrom(CMsgGameServerInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgGameServerInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGameServerInfo.html">CMsgGameServerInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_ToString" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGameServerInfo_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGameServerInfo_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGameServerInfo.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

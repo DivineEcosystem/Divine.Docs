@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgAccountGuildEventData | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgAccountGuildEventData | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData" class="text-break">
+Class CMsgAccountGuildEventData  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgAccountGuildEventData : IMessage&lt;CMsgAccountGuildEventData&gt;, IEquatable&lt;CMsgAccountGuildEventData&gt;, IDeepCloneable&lt;CMsgAccountGuildEventData&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgAccountGuildEventData</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData__ctor" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.#ctor">
+  CMsgAccountGuildEventData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgAccountGuildEventData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData__ctor_Divine_Protobufs_Dota2_CMsgAccountGuildEventData_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.#ctor(Divine.Protobufs.Dota2.CMsgAccountGuildEventData)">
+  CMsgAccountGuildEventData(CMsgAccountGuildEventData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgAccountGuildEventData(CMsgAccountGuildEventData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ChallengesRefreshTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ChallengesRefreshTimestampFieldNumber">
+  ChallengesRefreshTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ChallengesRefreshTimestampFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_CompletedChallengeCountFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.CompletedChallengeCountFieldNumber">
+  CompletedChallengeCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CompletedChallengeCountFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractSlotsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractSlotsFieldNumber">
+  ContractSlotsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ContractSlotsFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractsRefreshedTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractsRefreshedTimestampFieldNumber">
+  ContractsRefreshedTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ContractsRefreshedTimestampFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildCurrentPercentileFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildCurrentPercentileFieldNumber">
+  GuildCurrentPercentileFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildCurrentPercentileFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildPointsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildPointsFieldNumber">
+  GuildPointsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildPointsFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyLastTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyLastTimestampFieldNumber">
+  GuildWeeklyLastTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildWeeklyLastTimestampFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyPercentileFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyPercentileFieldNumber">
+  GuildWeeklyPercentileFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildWeeklyPercentileFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_LastWeeklyClaimTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.LastWeeklyClaimTimeFieldNumber">
+  LastWeeklyClaimTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastWeeklyClaimTimeFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ChallengesRefreshTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ChallengesRefreshTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ChallengesRefreshTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ChallengesRefreshTimestamp">
+  ChallengesRefreshTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ChallengesRefreshTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_CompletedChallengeCount_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.CompletedChallengeCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_CompletedChallengeCount" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.CompletedChallengeCount">
+  CompletedChallengeCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CompletedChallengeCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractSlots_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractSlots*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractSlots" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractSlots">
+  ContractSlots
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgGuildContractSlot&gt; ContractSlots { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildContractSlot.html">CMsgGuildContractSlot</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractsRefreshedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractsRefreshedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ContractsRefreshedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ContractsRefreshedTimestamp">
+  ContractsRefreshedTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ContractsRefreshedTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildCurrentPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildCurrentPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildCurrentPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildCurrentPercentile">
+  GuildCurrentPercentile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildCurrentPercentile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildPoints_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildPoints*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildPoints" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildPoints">
+  GuildPoints
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildPoints { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyLastTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyLastTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyLastTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyLastTimestamp">
+  GuildWeeklyLastTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildWeeklyLastTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GuildWeeklyPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GuildWeeklyPercentile">
+  GuildWeeklyPercentile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildWeeklyPercentile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasChallengesRefreshTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasChallengesRefreshTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasChallengesRefreshTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasChallengesRefreshTimestamp">
+  HasChallengesRefreshTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChallengesRefreshTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasCompletedChallengeCount_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasCompletedChallengeCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasCompletedChallengeCount" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasCompletedChallengeCount">
+  HasCompletedChallengeCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCompletedChallengeCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasContractsRefreshedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasContractsRefreshedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasContractsRefreshedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasContractsRefreshedTimestamp">
+  HasContractsRefreshedTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasContractsRefreshedTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildCurrentPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildCurrentPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildCurrentPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildCurrentPercentile">
+  HasGuildCurrentPercentile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildCurrentPercentile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildPoints_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildPoints*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildPoints" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildPoints">
+  HasGuildPoints
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildPoints { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildWeeklyLastTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildWeeklyLastTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildWeeklyLastTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildWeeklyLastTimestamp">
+  HasGuildWeeklyLastTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildWeeklyLastTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildWeeklyPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildWeeklyPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasGuildWeeklyPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasGuildWeeklyPercentile">
+  HasGuildWeeklyPercentile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildWeeklyPercentile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasLastWeeklyClaimTime_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasLastWeeklyClaimTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_HasLastWeeklyClaimTime" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.HasLastWeeklyClaimTime">
+  HasLastWeeklyClaimTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLastWeeklyClaimTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_LastWeeklyClaimTime_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.LastWeeklyClaimTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_LastWeeklyClaimTime" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.LastWeeklyClaimTime">
+  LastWeeklyClaimTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LastWeeklyClaimTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Parser" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgAccountGuildEventData&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearChallengesRefreshTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearChallengesRefreshTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearChallengesRefreshTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearChallengesRefreshTimestamp">
+  ClearChallengesRefreshTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearChallengesRefreshTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearCompletedChallengeCount_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearCompletedChallengeCount*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearCompletedChallengeCount" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearCompletedChallengeCount">
+  ClearCompletedChallengeCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCompletedChallengeCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearContractsRefreshedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearContractsRefreshedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearContractsRefreshedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearContractsRefreshedTimestamp">
+  ClearContractsRefreshedTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearContractsRefreshedTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildCurrentPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildCurrentPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildCurrentPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildCurrentPercentile">
+  ClearGuildCurrentPercentile()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildCurrentPercentile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildPoints_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildPoints*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildPoints" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildPoints">
+  ClearGuildPoints()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildPoints()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildWeeklyLastTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildWeeklyLastTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildWeeklyLastTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildWeeklyLastTimestamp">
+  ClearGuildWeeklyLastTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildWeeklyLastTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildWeeklyPercentile_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildWeeklyPercentile*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearGuildWeeklyPercentile" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearGuildWeeklyPercentile">
+  ClearGuildWeeklyPercentile()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildWeeklyPercentile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearLastWeeklyClaimTime_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearLastWeeklyClaimTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ClearLastWeeklyClaimTime" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ClearLastWeeklyClaimTime">
+  ClearLastWeeklyClaimTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLastWeeklyClaimTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Clone" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgAccountGuildEventData Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Equals_Divine_Protobufs_Dota2_CMsgAccountGuildEventData_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Equals(Divine.Protobufs.Dota2.CMsgAccountGuildEventData)">
+  Equals(CMsgAccountGuildEventData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgAccountGuildEventData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_MergeFrom_Divine_Protobufs_Dota2_CMsgAccountGuildEventData_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.MergeFrom(Divine.Protobufs.Dota2.CMsgAccountGuildEventData)">
+  MergeFrom(CMsgAccountGuildEventData)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgAccountGuildEventData other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.html">CMsgAccountGuildEventData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_ToString" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgAccountGuildEventData_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgAccountGuildEventData.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

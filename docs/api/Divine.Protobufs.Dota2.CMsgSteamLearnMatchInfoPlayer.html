@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamLearnMatchInfoPlayer | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamLearnMatchInfoPlayer | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer" class="text-break">
+Class CMsgSteamLearnMatchInfoPlayer  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamLearnMatchInfoPlayer : IMessage&lt;CMsgSteamLearnMatchInfoPlayer&gt;, IEquatable&lt;CMsgSteamLearnMatchInfoPlayer&gt;, IDeepCloneable&lt;CMsgSteamLearnMatchInfoPlayer&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamLearnMatchInfoPlayer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer__ctor" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.#ctor">
+  CMsgSteamLearnMatchInfoPlayer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamLearnMatchInfoPlayer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer__ctor_Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.#ctor(Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer)">
+  CMsgSteamLearnMatchInfoPlayer(CMsgSteamLearnMatchInfoPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamLearnMatchInfoPlayer(CMsgSteamLearnMatchInfoPlayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_AverageMmrFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.AverageMmrFieldNumber">
+  AverageMmrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AverageMmrFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_DurationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.DurationFieldNumber">
+  DurationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DurationFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_GameModeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.GameModeFieldNumber">
+  GameModeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameModeFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_LobbyTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.LobbyTypeFieldNumber">
+  LobbyTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LobbyTypeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_PlayerMmrFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.PlayerMmrFieldNumber">
+  PlayerMmrFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayerMmrFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_TeamWonFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.TeamWonFieldNumber">
+  TeamWonFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamWonFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_AverageMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.AverageMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_AverageMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.AverageMmr">
+  AverageMmr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AverageMmr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Duration_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Duration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Duration" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Duration">
+  Duration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_GameMode_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.GameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_GameMode" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.GameMode">
+  GameMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GameMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasAverageMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasAverageMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasAverageMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasAverageMmr">
+  HasAverageMmr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAverageMmr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasDuration_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasDuration" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasDuration">
+  HasDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDuration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasGameMode_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasGameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasGameMode" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasGameMode">
+  HasGameMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasLobbyType_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasLobbyType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasLobbyType" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasLobbyType">
+  HasLobbyType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLobbyType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasPlayerMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasPlayerMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasPlayerMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasPlayerMmr">
+  HasPlayerMmr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerMmr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasTeamWon_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasTeamWon*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_HasTeamWon" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.HasTeamWon">
+  HasTeamWon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamWon { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_LobbyType_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.LobbyType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_LobbyType" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.LobbyType">
+  LobbyType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LobbyType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Parser" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamLearnMatchInfoPlayer&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_PlayerMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.PlayerMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_PlayerMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.PlayerMmr">
+  PlayerMmr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PlayerMmr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_TeamWon_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.TeamWon*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_TeamWon" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.TeamWon">
+  TeamWon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TeamWon { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearAverageMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearAverageMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearAverageMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearAverageMmr">
+  ClearAverageMmr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAverageMmr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearDuration_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearDuration*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearDuration" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearDuration">
+  ClearDuration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDuration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearGameMode_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearGameMode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearGameMode" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearGameMode">
+  ClearGameMode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameMode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearLobbyType_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearLobbyType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearLobbyType" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearLobbyType">
+  ClearLobbyType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLobbyType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearPlayerMmr_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearPlayerMmr*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearPlayerMmr" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearPlayerMmr">
+  ClearPlayerMmr()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerMmr()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearTeamWon_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearTeamWon*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ClearTeamWon" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ClearTeamWon">
+  ClearTeamWon()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamWon()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Clone" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamLearnMatchInfoPlayer Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Equals_Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Equals(Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer)">
+  Equals(CMsgSteamLearnMatchInfoPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamLearnMatchInfoPlayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_MergeFrom_Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.MergeFrom(Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer)">
+  MergeFrom(CMsgSteamLearnMatchInfoPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamLearnMatchInfoPlayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.html">CMsgSteamLearnMatchInfoPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_ToString" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchInfoPlayer_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoPlayer.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

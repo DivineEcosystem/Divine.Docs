@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgHttpRequest | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgHttpRequest | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgHttpRequest">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgHttpRequest" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest" class="text-break">
+Class CMsgHttpRequest  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgHttpRequest : IMessage&lt;CMsgHttpRequest&gt;, IEquatable&lt;CMsgHttpRequest&gt;, IDeepCloneable&lt;CMsgHttpRequest&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgHttpRequest</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest__ctor_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest__ctor" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.#ctor">
+  CMsgHttpRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgHttpRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest__ctor_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest__ctor_Divine_Protobufs_Steam_CMsgHttpRequest_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.#ctor(Divine.Protobufs.Steam.CMsgHttpRequest)">
+  CMsgHttpRequest(CMsgHttpRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgHttpRequest(CMsgHttpRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_AbsoluteTimeoutFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.AbsoluteTimeoutFieldNumber">
+  AbsoluteTimeoutFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbsoluteTimeoutFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_BodyFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.BodyFieldNumber">
+  BodyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BodyFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_GetParamsFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.GetParamsFieldNumber">
+  GetParamsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GetParamsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HeadersFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HeadersFieldNumber">
+  HeadersFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeadersFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HostnameFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HostnameFieldNumber">
+  HostnameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostnameFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_PostParamsFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.PostParamsFieldNumber">
+  PostParamsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PostParamsFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_RequestMethodFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.RequestMethodFieldNumber">
+  RequestMethodFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RequestMethodFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_UrlFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.UrlFieldNumber">
+  UrlFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UrlFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_UseHttpsFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.UseHttpsFieldNumber">
+  UseHttpsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UseHttpsFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_AbsoluteTimeout_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.AbsoluteTimeout*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_AbsoluteTimeout" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.AbsoluteTimeout">
+  AbsoluteTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AbsoluteTimeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Body_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Body*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Body" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Body">
+  Body
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString Body { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_GetParams_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.GetParams*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_GetParams" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.GetParams">
+  GetParams
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgHttpRequest.Types.QueryParam&gt; GetParams { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.QueryParam.html">QueryParam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasAbsoluteTimeout_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasAbsoluteTimeout*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasAbsoluteTimeout" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasAbsoluteTimeout">
+  HasAbsoluteTimeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAbsoluteTimeout { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasBody_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasBody*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasBody" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasBody">
+  HasBody
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBody { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasHostname_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasHostname*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasHostname" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasHostname">
+  HasHostname
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostname { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasRequestMethod_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasRequestMethod*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasRequestMethod" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasRequestMethod">
+  HasRequestMethod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRequestMethod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasUrl_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasUrl" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasUrl">
+  HasUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_HasUseHttps_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasUseHttps*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_HasUseHttps" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.HasUseHttps">
+  HasUseHttps
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUseHttps { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Headers_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Headers*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Headers" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Headers">
+  Headers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgHttpRequest.Types.RequestHeader&gt; Headers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.RequestHeader.html">RequestHeader</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Hostname_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Hostname*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Hostname" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Hostname">
+  Hostname
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Hostname { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Parser_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Parser" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgHttpRequest&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_PostParams_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.PostParams*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_PostParams" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.PostParams">
+  PostParams
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgHttpRequest.Types.QueryParam&gt; PostParams { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.Types.QueryParam.html">QueryParam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_RequestMethod_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.RequestMethod*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_RequestMethod" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.RequestMethod">
+  RequestMethod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RequestMethod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Url_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Url*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Url" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Url">
+  Url
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Url { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_UseHttps_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.UseHttps*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_UseHttps" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.UseHttps">
+  UseHttps
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseHttps { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearAbsoluteTimeout_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearAbsoluteTimeout*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearAbsoluteTimeout" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearAbsoluteTimeout">
+  ClearAbsoluteTimeout()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAbsoluteTimeout()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearBody_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearBody*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearBody" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearBody">
+  ClearBody()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBody()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearHostname_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearHostname*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearHostname" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearHostname">
+  ClearHostname()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostname()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearRequestMethod_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearRequestMethod*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearRequestMethod" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearRequestMethod">
+  ClearRequestMethod()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRequestMethod()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearUrl_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearUrl" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearUrl">
+  ClearUrl()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUrl()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearUseHttps_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearUseHttps*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ClearUseHttps" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ClearUseHttps">
+  ClearUseHttps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUseHttps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Clone_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Clone" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgHttpRequest Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Equals_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Equals_Divine_Protobufs_Steam_CMsgHttpRequest_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Equals(Divine.Protobufs.Steam.CMsgHttpRequest)">
+  Equals(CMsgHttpRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgHttpRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_Equals_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_MergeFrom_Divine_Protobufs_Steam_CMsgHttpRequest_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.MergeFrom(Divine.Protobufs.Steam.CMsgHttpRequest)">
+  MergeFrom(CMsgHttpRequest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgHttpRequest other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgHttpRequest.html">CMsgHttpRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_ToString_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_ToString" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgHttpRequest_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgHttpRequest_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgHttpRequest.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgTEExplosion | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgTEExplosion | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgTEExplosion" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion" class="text-break">
+Class CMsgTEExplosion  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgTEExplosion : IMessage&lt;CMsgTEExplosion&gt;, IEquatable&lt;CMsgTEExplosion&gt;, IDeepCloneable&lt;CMsgTEExplosion&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgTEExplosion</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion__ctor" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.#ctor">
+  CMsgTEExplosion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEExplosion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion__ctor_Divine_Protobufs_Dota2_CMsgTEExplosion_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.#ctor(Divine.Protobufs.Dota2.CMsgTEExplosion)">
+  CMsgTEExplosion(CMsgTEExplosion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEExplosion(CMsgTEExplosion other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_AffectRagdollsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.AffectRagdollsFieldNumber">
+  AffectRagdollsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AffectRagdollsFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_CreateDebrisFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.CreateDebrisFieldNumber">
+  CreateDebrisFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreateDebrisFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisOriginFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisOriginFieldNumber">
+  DebrisOriginFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DebrisOriginFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisSurfacepropFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisSurfacepropFieldNumber">
+  DebrisSurfacepropFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DebrisSurfacepropFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionTypeFieldNumber">
+  ExplosionTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExplosionTypeFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionTypeNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionTypeNameFieldNumber">
+  ExplosionTypeNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExplosionTypeNameFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_FlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.FlagsFieldNumber">
+  FlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FlagsFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_MagnitudeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.MagnitudeFieldNumber">
+  MagnitudeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MagnitudeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_NormalFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.NormalFieldNumber">
+  NormalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NormalFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_OriginFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.OriginFieldNumber">
+  OriginFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OriginFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_RadiusFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.RadiusFieldNumber">
+  RadiusFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RadiusFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_SoundNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.SoundNameFieldNumber">
+  SoundNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SoundNameFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_AffectRagdolls_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.AffectRagdolls*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_AffectRagdolls" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.AffectRagdolls">
+  AffectRagdolls
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AffectRagdolls { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_CreateDebris_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.CreateDebris*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_CreateDebris" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.CreateDebris">
+  CreateDebris
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreateDebris { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisOrigin_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisOrigin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisOrigin" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisOrigin">
+  DebrisOrigin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector DebrisOrigin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisSurfaceprop_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisSurfaceprop*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_DebrisSurfaceprop" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.DebrisSurfaceprop">
+  DebrisSurfaceprop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint DebrisSurfaceprop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionType_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionType" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionType">
+  ExplosionType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExplosionType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionTypeName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionTypeName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ExplosionTypeName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ExplosionTypeName">
+  ExplosionTypeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExplosionTypeName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Flags_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Flags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Flags" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Flags">
+  Flags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Flags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasAffectRagdolls_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasAffectRagdolls*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasAffectRagdolls" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasAffectRagdolls">
+  HasAffectRagdolls
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAffectRagdolls { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasCreateDebris_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasCreateDebris*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasCreateDebris" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasCreateDebris">
+  HasCreateDebris
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreateDebris { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasDebrisSurfaceprop_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasDebrisSurfaceprop*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasDebrisSurfaceprop" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasDebrisSurfaceprop">
+  HasDebrisSurfaceprop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDebrisSurfaceprop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasExplosionType_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasExplosionType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasExplosionType" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasExplosionType">
+  HasExplosionType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExplosionType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasExplosionTypeName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasExplosionTypeName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasExplosionTypeName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasExplosionTypeName">
+  HasExplosionTypeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExplosionTypeName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasFlags_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasFlags" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasFlags">
+  HasFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasMagnitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasMagnitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasMagnitude" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasMagnitude">
+  HasMagnitude
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMagnitude { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasRadius_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasRadius*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasRadius" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasRadius">
+  HasRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasSoundName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasSoundName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_HasSoundName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.HasSoundName">
+  HasSoundName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSoundName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Magnitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Magnitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Magnitude" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Magnitude">
+  Magnitude
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Magnitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Normal_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Normal*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Normal" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Normal">
+  Normal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector Normal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Origin_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Origin*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Origin" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Origin">
+  Origin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector Origin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Parser" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgTEExplosion&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Radius_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Radius*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Radius" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Radius">
+  Radius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Radius { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_SoundName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.SoundName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_SoundName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.SoundName">
+  SoundName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SoundName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearAffectRagdolls_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearAffectRagdolls*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearAffectRagdolls" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearAffectRagdolls">
+  ClearAffectRagdolls()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAffectRagdolls()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearCreateDebris_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearCreateDebris*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearCreateDebris" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearCreateDebris">
+  ClearCreateDebris()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreateDebris()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearDebrisSurfaceprop_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearDebrisSurfaceprop*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearDebrisSurfaceprop" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearDebrisSurfaceprop">
+  ClearDebrisSurfaceprop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDebrisSurfaceprop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearExplosionType_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearExplosionType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearExplosionType" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearExplosionType">
+  ClearExplosionType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExplosionType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearExplosionTypeName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearExplosionTypeName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearExplosionTypeName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearExplosionTypeName">
+  ClearExplosionTypeName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExplosionTypeName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearFlags_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearFlags" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearFlags">
+  ClearFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearMagnitude_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearMagnitude*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearMagnitude" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearMagnitude">
+  ClearMagnitude()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMagnitude()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearRadius_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearRadius*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearRadius" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearRadius">
+  ClearRadius()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRadius()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearSoundName_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearSoundName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ClearSoundName" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ClearSoundName">
+  ClearSoundName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSoundName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Clone" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgTEExplosion Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Equals_Divine_Protobufs_Dota2_CMsgTEExplosion_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Equals(Divine.Protobufs.Dota2.CMsgTEExplosion)">
+  Equals(CMsgTEExplosion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgTEExplosion other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_MergeFrom_Divine_Protobufs_Dota2_CMsgTEExplosion_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.MergeFrom(Divine.Protobufs.Dota2.CMsgTEExplosion)">
+  MergeFrom(CMsgTEExplosion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgTEExplosion other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgTEExplosion.html">CMsgTEExplosion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_ToString" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgTEExplosion_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgTEExplosion_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgTEExplosion.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

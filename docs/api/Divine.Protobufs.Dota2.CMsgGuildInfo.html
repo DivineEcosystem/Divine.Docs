@@ -1,0 +1,2619 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgGuildInfo | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgGuildInfo | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgGuildInfo" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo" class="text-break">
+Class CMsgGuildInfo  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgGuildInfo : IMessage&lt;CMsgGuildInfo&gt;, IEquatable&lt;CMsgGuildInfo&gt;, IDeepCloneable&lt;CMsgGuildInfo&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgGuildInfo</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo__ctor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.#ctor">
+  CMsgGuildInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGuildInfo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo__ctor_Divine_Protobufs_Dota2_CMsgGuildInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.#ctor(Divine.Protobufs.Dota2.CMsgGuildInfo)">
+  CMsgGuildInfo(CMsgGuildInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGuildInfo(CMsgGuildInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_CreatedTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.CreatedTimestampFieldNumber">
+  CreatedTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreatedTimestampFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_DefaultChatChannelIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.DefaultChatChannelIdFieldNumber">
+  DefaultChatChannelIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultChatChannelIdFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildChatGroupIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildChatGroupIdFieldNumber">
+  GuildChatGroupIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildChatGroupIdFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildDescriptionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildDescriptionFieldNumber">
+  GuildDescriptionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildDescriptionFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildFlagsFieldNumber">
+  GuildFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildFlagsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLanguageFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLanguageFieldNumber">
+  GuildLanguageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildLanguageFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLogoFieldNumber">
+  GuildLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildLogoFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotdFieldNumber">
+  GuildMotdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildMotdFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotdTimestampFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotdTimestampFieldNumber">
+  GuildMotdTimestampFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildMotdTimestampFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildNameFieldNumber">
+  GuildNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildNameFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPatternFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPatternFieldNumber">
+  GuildPatternFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildPatternFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPrimaryColorFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPrimaryColorFieldNumber">
+  GuildPrimaryColorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildPrimaryColorFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRefreshTimeOffsetFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRefreshTimeOffsetFieldNumber">
+  GuildRefreshTimeOffsetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildRefreshTimeOffsetFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRegionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRegionFieldNumber">
+  GuildRegionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildRegionFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRequiredRankTierFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRequiredRankTierFieldNumber">
+  GuildRequiredRankTierFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildRequiredRankTierFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildSecondaryColorFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildSecondaryColorFieldNumber">
+  GuildSecondaryColorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildSecondaryColorFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildTagFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildTagFieldNumber">
+  GuildTagFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GuildTagFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_CreatedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.CreatedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_CreatedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.CreatedTimestamp">
+  CreatedTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CreatedTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_DefaultChatChannelId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.DefaultChatChannelId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_DefaultChatChannelId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.DefaultChatChannelId">
+  DefaultChatChannelId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong DefaultChatChannelId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildChatGroupId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildChatGroupId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildChatGroupId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildChatGroupId">
+  GuildChatGroupId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong GuildChatGroupId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildDescription_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildDescription*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildDescription" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildDescription">
+  GuildDescription
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildDescription { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildFlags" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildFlags">
+  GuildFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLanguage_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLanguage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLanguage" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLanguage">
+  GuildLanguage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildLanguage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLogo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildLogo" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildLogo">
+  GuildLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong GuildLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotd_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotd" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotd">
+  GuildMotd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildMotd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotdTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotdTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildMotdTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildMotdTimestamp">
+  GuildMotdTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildMotdTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildName_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildName" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildName">
+  GuildName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPattern_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPattern*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPattern" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPattern">
+  GuildPattern
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildPattern { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPrimaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPrimaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildPrimaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildPrimaryColor">
+  GuildPrimaryColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildPrimaryColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRefreshTimeOffset_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRefreshTimeOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRefreshTimeOffset" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRefreshTimeOffset">
+  GuildRefreshTimeOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildRefreshTimeOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRegion" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRegion">
+  GuildRegion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildRegion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRequiredRankTier_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRequiredRankTier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildRequiredRankTier" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildRequiredRankTier">
+  GuildRequiredRankTier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildRequiredRankTier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildSecondaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildSecondaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildSecondaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildSecondaryColor">
+  GuildSecondaryColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GuildSecondaryColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildTag_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildTag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GuildTag" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GuildTag">
+  GuildTag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildTag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasCreatedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasCreatedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasCreatedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasCreatedTimestamp">
+  HasCreatedTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreatedTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasDefaultChatChannelId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasDefaultChatChannelId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasDefaultChatChannelId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasDefaultChatChannelId">
+  HasDefaultChatChannelId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDefaultChatChannelId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildChatGroupId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildChatGroupId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildChatGroupId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildChatGroupId">
+  HasGuildChatGroupId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildChatGroupId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildDescription_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildDescription*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildDescription" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildDescription">
+  HasGuildDescription
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildFlags" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildFlags">
+  HasGuildFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildLanguage_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildLanguage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildLanguage" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildLanguage">
+  HasGuildLanguage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildLanguage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildLogo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildLogo" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildLogo">
+  HasGuildLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildMotd_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildMotd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildMotd" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildMotd">
+  HasGuildMotd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildMotd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildMotdTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildMotdTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildMotdTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildMotdTimestamp">
+  HasGuildMotdTimestamp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildMotdTimestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildName_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildName" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildName">
+  HasGuildName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildPattern_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildPattern*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildPattern" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildPattern">
+  HasGuildPattern
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildPattern { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildPrimaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildPrimaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildPrimaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildPrimaryColor">
+  HasGuildPrimaryColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildPrimaryColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRefreshTimeOffset_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRefreshTimeOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRefreshTimeOffset" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRefreshTimeOffset">
+  HasGuildRefreshTimeOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildRefreshTimeOffset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRegion" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRegion">
+  HasGuildRegion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildRegion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRequiredRankTier_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRequiredRankTier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildRequiredRankTier" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildRequiredRankTier">
+  HasGuildRequiredRankTier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildRequiredRankTier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildSecondaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildSecondaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildSecondaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildSecondaryColor">
+  HasGuildSecondaryColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildSecondaryColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildTag_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildTag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_HasGuildTag" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.HasGuildTag">
+  HasGuildTag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGuildTag { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_Parser" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgGuildInfo&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearCreatedTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearCreatedTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearCreatedTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearCreatedTimestamp">
+  ClearCreatedTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreatedTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearDefaultChatChannelId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearDefaultChatChannelId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearDefaultChatChannelId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearDefaultChatChannelId">
+  ClearDefaultChatChannelId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDefaultChatChannelId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildChatGroupId_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildChatGroupId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildChatGroupId" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildChatGroupId">
+  ClearGuildChatGroupId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildChatGroupId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildDescription_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildDescription*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildDescription" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildDescription">
+  ClearGuildDescription()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildDescription()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildFlags_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildFlags" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildFlags">
+  ClearGuildFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildLanguage_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildLanguage*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildLanguage" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildLanguage">
+  ClearGuildLanguage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildLanguage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildLogo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildLogo" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildLogo">
+  ClearGuildLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildMotd_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildMotd*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildMotd" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildMotd">
+  ClearGuildMotd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildMotd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildMotdTimestamp_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildMotdTimestamp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildMotdTimestamp" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildMotdTimestamp">
+  ClearGuildMotdTimestamp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildMotdTimestamp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildName_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildName" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildName">
+  ClearGuildName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildPattern_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildPattern*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildPattern" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildPattern">
+  ClearGuildPattern()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildPattern()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildPrimaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildPrimaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildPrimaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildPrimaryColor">
+  ClearGuildPrimaryColor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildPrimaryColor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRefreshTimeOffset_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRefreshTimeOffset*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRefreshTimeOffset" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRefreshTimeOffset">
+  ClearGuildRefreshTimeOffset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildRefreshTimeOffset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRegion_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRegion*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRegion" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRegion">
+  ClearGuildRegion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildRegion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRequiredRankTier_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRequiredRankTier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildRequiredRankTier" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildRequiredRankTier">
+  ClearGuildRequiredRankTier()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildRequiredRankTier()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildSecondaryColor_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildSecondaryColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildSecondaryColor" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildSecondaryColor">
+  ClearGuildSecondaryColor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildSecondaryColor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildTag_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildTag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ClearGuildTag" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ClearGuildTag">
+  ClearGuildTag()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGuildTag()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_Clone" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgGuildInfo Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_Equals_Divine_Protobufs_Dota2_CMsgGuildInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Equals(Divine.Protobufs.Dota2.CMsgGuildInfo)">
+  Equals(CMsgGuildInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgGuildInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_MergeFrom_Divine_Protobufs_Dota2_CMsgGuildInfo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.MergeFrom(Divine.Protobufs.Dota2.CMsgGuildInfo)">
+  MergeFrom(CMsgGuildInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgGuildInfo other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgGuildInfo.html">CMsgGuildInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_ToString" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgGuildInfo_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgGuildInfo_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgGuildInfo.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

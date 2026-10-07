@@ -1,0 +1,2098 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgPlaceDecalEvent | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgPlaceDecalEvent | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent" class="text-break">
+Class CMsgPlaceDecalEvent  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgPlaceDecalEvent : IMessage&lt;CMsgPlaceDecalEvent&gt;, IEquatable&lt;CMsgPlaceDecalEvent&gt;, IDeepCloneable&lt;CMsgPlaceDecalEvent&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgPlaceDecalEvent</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent__ctor" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.#ctor">
+  CMsgPlaceDecalEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgPlaceDecalEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent__ctor_Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.#ctor(Divine.Protobufs.Dota2.CMsgPlaceDecalEvent)">
+  CMsgPlaceDecalEvent(CMsgPlaceDecalEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgPlaceDecalEvent(CMsgPlaceDecalEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_BoneindexFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.BoneindexFieldNumber">
+  BoneindexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BoneindexFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ColorFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ColorFieldNumber">
+  ColorFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ColorFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_DecalGroupNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.DecalGroupNameFieldNumber">
+  DecalGroupNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DecalGroupNameFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_EntityhandleFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.EntityhandleFieldNumber">
+  EntityhandleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EntityhandleFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_FlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.FlagsFieldNumber">
+  FlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FlagsFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MaterialIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MaterialIdFieldNumber">
+  MaterialIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaterialIdFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_NormalFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.NormalFieldNumber">
+  NormalFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NormalFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_NormalObjectspaceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.NormalObjectspaceFieldNumber">
+  NormalObjectspaceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NormalObjectspaceFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_PositionFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.PositionFieldNumber">
+  PositionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PositionFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_PositionObjectspaceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.PositionObjectspaceFieldNumber">
+  PositionObjectspaceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PositionObjectspaceFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_RandomSeedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.RandomSeedFieldNumber">
+  RandomSeedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RandomSeedFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SaxisFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SaxisFieldNumber">
+  SaxisFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SaxisFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SequenceNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SequenceNameFieldNumber">
+  SequenceNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SequenceNameFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SizeOverrideFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SizeOverrideFieldNumber">
+  SizeOverrideFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SizeOverrideFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_TriangleindexFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.TriangleindexFieldNumber">
+  TriangleindexFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TriangleindexFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Boneindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Boneindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Boneindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Boneindex">
+  Boneindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Boneindex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Color_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Color*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Color" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Color">
+  Color
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Color { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_DecalGroupName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.DecalGroupName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_DecalGroupName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.DecalGroupName">
+  DecalGroupName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint DecalGroupName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Entityhandle_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Entityhandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Entityhandle" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Entityhandle">
+  Entityhandle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Entityhandle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Flags_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Flags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Flags" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Flags">
+  Flags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Flags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasBoneindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasBoneindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasBoneindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasBoneindex">
+  HasBoneindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBoneindex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasColor_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasColor" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasColor">
+  HasColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasDecalGroupName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasDecalGroupName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasDecalGroupName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasDecalGroupName">
+  HasDecalGroupName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDecalGroupName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasEntityhandle_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasEntityhandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasEntityhandle" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasEntityhandle">
+  HasEntityhandle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEntityhandle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasFlags_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasFlags" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasFlags">
+  HasFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasMaterialId_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasMaterialId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasMaterialId" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasMaterialId">
+  HasMaterialId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaterialId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasRandomSeed_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasRandomSeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasRandomSeed" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasRandomSeed">
+  HasRandomSeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRandomSeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasSequenceName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasSequenceName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasSequenceName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasSequenceName">
+  HasSequenceName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSequenceName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasSizeOverride_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasSizeOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasSizeOverride" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasSizeOverride">
+  HasSizeOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSizeOverride { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasTriangleindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasTriangleindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_HasTriangleindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.HasTriangleindex">
+  HasTriangleindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTriangleindex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MaterialId_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MaterialId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MaterialId" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MaterialId">
+  MaterialId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong MaterialId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Normal_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Normal*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Normal" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Normal">
+  Normal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector Normal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_NormalObjectspace_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.NormalObjectspace*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_NormalObjectspace" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.NormalObjectspace">
+  NormalObjectspace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector NormalObjectspace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Parser" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgPlaceDecalEvent&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Position_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Position*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Position" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Position">
+  Position
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector Position { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_PositionObjectspace_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.PositionObjectspace*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_PositionObjectspace" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.PositionObjectspace">
+  PositionObjectspace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector PositionObjectspace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_RandomSeed_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.RandomSeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_RandomSeed" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.RandomSeed">
+  RandomSeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RandomSeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Saxis_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Saxis*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Saxis" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Saxis">
+  Saxis
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgVector Saxis { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgVector.html">CMsgVector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SequenceName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SequenceName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SequenceName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SequenceName">
+  SequenceName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SequenceName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SizeOverride_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SizeOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_SizeOverride" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.SizeOverride">
+  SizeOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SizeOverride { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Triangleindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Triangleindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Triangleindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Triangleindex">
+  Triangleindex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Triangleindex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearBoneindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearBoneindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearBoneindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearBoneindex">
+  ClearBoneindex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBoneindex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearColor_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearColor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearColor" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearColor">
+  ClearColor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearColor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearDecalGroupName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearDecalGroupName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearDecalGroupName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearDecalGroupName">
+  ClearDecalGroupName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDecalGroupName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearEntityhandle_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearEntityhandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearEntityhandle" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearEntityhandle">
+  ClearEntityhandle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEntityhandle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearFlags_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearFlags" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearFlags">
+  ClearFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearMaterialId_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearMaterialId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearMaterialId" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearMaterialId">
+  ClearMaterialId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaterialId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearRandomSeed_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearRandomSeed*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearRandomSeed" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearRandomSeed">
+  ClearRandomSeed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRandomSeed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearSequenceName_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearSequenceName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearSequenceName" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearSequenceName">
+  ClearSequenceName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSequenceName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearSizeOverride_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearSizeOverride*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearSizeOverride" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearSizeOverride">
+  ClearSizeOverride()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSizeOverride()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearTriangleindex_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearTriangleindex*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ClearTriangleindex" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ClearTriangleindex">
+  ClearTriangleindex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTriangleindex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Clone" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgPlaceDecalEvent Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Equals_Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Equals(Divine.Protobufs.Dota2.CMsgPlaceDecalEvent)">
+  Equals(CMsgPlaceDecalEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgPlaceDecalEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MergeFrom_Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MergeFrom(Divine.Protobufs.Dota2.CMsgPlaceDecalEvent)">
+  MergeFrom(CMsgPlaceDecalEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgPlaceDecalEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.html">CMsgPlaceDecalEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_ToString" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgPlaceDecalEvent_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgPlaceDecalEvent.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

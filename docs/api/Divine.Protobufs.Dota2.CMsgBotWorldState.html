@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgBotWorldState | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgBotWorldState | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgBotWorldState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState" class="text-break">
+Class CMsgBotWorldState  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgBotWorldState : IMessage&lt;CMsgBotWorldState&gt;, IEquatable&lt;CMsgBotWorldState&gt;, IDeepCloneable&lt;CMsgBotWorldState&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgBotWorldState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState__ctor" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.#ctor">
+  CMsgBotWorldState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotWorldState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState__ctor_Divine_Protobufs_Dota2_CMsgBotWorldState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.#ctor(Divine.Protobufs.Dota2.CMsgBotWorldState)">
+  CMsgBotWorldState(CMsgBotWorldState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotWorldState(CMsgBotWorldState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_AbilityEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AbilityEventsFieldNumber">
+  AbilityEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbilityEventsFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_AvoidanceZonesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AvoidanceZonesFieldNumber">
+  AvoidanceZonesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AvoidanceZonesFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_CourierKilledEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CourierKilledEventsFieldNumber">
+  CourierKilledEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CourierKilledEventsFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_CouriersFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CouriersFieldNumber">
+  CouriersFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CouriersFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DamageEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DamageEventsFieldNumber">
+  DamageEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DamageEventsFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DotaTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DotaTimeFieldNumber">
+  DotaTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DotaTimeFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItemsDeltasFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItemsDeltasFieldNumber">
+  DroppedItemsDeltasFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DroppedItemsDeltasFieldNumber = 112</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItemsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItemsFieldNumber">
+  DroppedItemsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DroppedItemsFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameStateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameStateFieldNumber">
+  GameStateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameStateFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameTimeFieldNumber">
+  GameTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameTimeFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldownEnemyFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldownEnemyFieldNumber">
+  GlyphCooldownEnemyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GlyphCooldownEnemyFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldownFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldownFieldNumber">
+  GlyphCooldownFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GlyphCooldownFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HeroPickStateFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HeroPickStateFieldNumber">
+  HeroPickStateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroPickStateFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_IncomingTeleportsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.IncomingTeleportsFieldNumber">
+  IncomingTeleportsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IncomingTeleportsFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_LinearProjectilesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.LinearProjectilesFieldNumber">
+  LinearProjectilesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LinearProjectilesFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_PlayersFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.PlayersFieldNumber">
+  PlayersFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PlayersFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RoshanKilledEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RoshanKilledEventsFieldNumber">
+  RoshanKilledEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoshanKilledEventsFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfosDeltasFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfosDeltasFieldNumber">
+  RuneInfosDeltasFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RuneInfosDeltasFieldNumber = 113</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfosFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfosFieldNumber">
+  RuneInfosFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RuneInfosFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TeamIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TeamIdFieldNumber">
+  TeamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TimeOfDayFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TimeOfDayFieldNumber">
+  TimeOfDayFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimeOfDayFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TreeEventsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TreeEventsFieldNumber">
+  TreeEventsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TreeEventsFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_UnitsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.UnitsFieldNumber">
+  UnitsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UnitsFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_AbilityEvents_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AbilityEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_AbilityEvents" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AbilityEvents">
+  AbilityEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.EventAbility&gt; AbilityEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.EventAbility.html">EventAbility</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_AvoidanceZones_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AvoidanceZones*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_AvoidanceZones" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.AvoidanceZones">
+  AvoidanceZones
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.AvoidanceZone&gt; AvoidanceZones { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.AvoidanceZone.html">AvoidanceZone</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_CourierKilledEvents_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CourierKilledEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_CourierKilledEvents" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CourierKilledEvents">
+  CourierKilledEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.EventCourierKilled&gt; CourierKilledEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.EventCourierKilled.html">EventCourierKilled</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Couriers_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Couriers*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Couriers" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Couriers">
+  Couriers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.Courier&gt; Couriers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.Courier.html">Courier</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_DamageEvents_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DamageEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DamageEvents" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DamageEvents">
+  DamageEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.EventDamage&gt; DamageEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.EventDamage.html">EventDamage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_DotaTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DotaTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DotaTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DotaTime">
+  DotaTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DotaTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItems_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItems*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItems" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItems">
+  DroppedItems
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.DroppedItem&gt; DroppedItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.DroppedItem.html">DroppedItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItemsDeltas_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItemsDeltas*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_DroppedItemsDeltas" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.DroppedItemsDeltas">
+  DroppedItemsDeltas
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;int&gt; DroppedItemsDeltas { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameState">
+  GameState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GameState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GameTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GameTime">
+  GameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GameTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldown_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldown*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldown" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldown">
+  GlyphCooldown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GlyphCooldown { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldownEnemy_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldownEnemy*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GlyphCooldownEnemy" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GlyphCooldownEnemy">
+  GlyphCooldownEnemy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GlyphCooldownEnemy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasDotaTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasDotaTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasDotaTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasDotaTime">
+  HasDotaTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDotaTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGameState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGameState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGameState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGameState">
+  HasGameState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGameTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGameTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGameTime">
+  HasGameTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGlyphCooldown_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGlyphCooldown*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGlyphCooldown" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGlyphCooldown">
+  HasGlyphCooldown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGlyphCooldown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGlyphCooldownEnemy_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGlyphCooldownEnemy*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasGlyphCooldownEnemy" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasGlyphCooldownEnemy">
+  HasGlyphCooldownEnemy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGlyphCooldownEnemy { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasHeroPickState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasHeroPickState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasHeroPickState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasHeroPickState">
+  HasHeroPickState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroPickState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasTeamId_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasTeamId" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasTeamId">
+  HasTeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasTimeOfDay_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasTimeOfDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HasTimeOfDay" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HasTimeOfDay">
+  HasTimeOfDay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTimeOfDay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_HeroPickState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HeroPickState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_HeroPickState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.HeroPickState">
+  HeroPickState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HeroPickState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_IncomingTeleports_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.IncomingTeleports*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_IncomingTeleports" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.IncomingTeleports">
+  IncomingTeleports
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.TeleportInfo&gt; IncomingTeleports { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.TeleportInfo.html">TeleportInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_LinearProjectiles_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.LinearProjectiles*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_LinearProjectiles" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.LinearProjectiles">
+  LinearProjectiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.LinearProjectile&gt; LinearProjectiles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.LinearProjectile.html">LinearProjectile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Parser" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgBotWorldState&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Players_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Players*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Players" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Players">
+  Players
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.Player&gt; Players { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_RoshanKilledEvents_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RoshanKilledEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RoshanKilledEvents" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RoshanKilledEvents">
+  RoshanKilledEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.EventRoshanKilled&gt; RoshanKilledEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.EventRoshanKilled.html">EventRoshanKilled</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfos_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfos*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfos" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfos">
+  RuneInfos
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.RuneInfo&gt; RuneInfos { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.RuneInfo.html">RuneInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfosDeltas_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfosDeltas*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_RuneInfosDeltas" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.RuneInfosDeltas">
+  RuneInfosDeltas
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;int&gt; RuneInfosDeltas { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_TeamId_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TeamId" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TeamId">
+  TeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TeamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_TimeOfDay_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TimeOfDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TimeOfDay" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TimeOfDay">
+  TimeOfDay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TimeOfDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_TreeEvents_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TreeEvents*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_TreeEvents" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.TreeEvents">
+  TreeEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.EventTree&gt; TreeEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.EventTree.html">EventTree</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Units_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Units*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Units" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Units">
+  Units
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgBotWorldState.Types.Unit&gt; Units { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.Types.Unit.html">Unit</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearDotaTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearDotaTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearDotaTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearDotaTime">
+  ClearDotaTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDotaTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGameState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGameState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGameState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGameState">
+  ClearGameState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGameTime_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGameTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGameTime" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGameTime">
+  ClearGameTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGlyphCooldown_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGlyphCooldown*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGlyphCooldown" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGlyphCooldown">
+  ClearGlyphCooldown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGlyphCooldown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGlyphCooldownEnemy_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGlyphCooldownEnemy*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearGlyphCooldownEnemy" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearGlyphCooldownEnemy">
+  ClearGlyphCooldownEnemy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGlyphCooldownEnemy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearHeroPickState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearHeroPickState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearHeroPickState" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearHeroPickState">
+  ClearHeroPickState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroPickState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearTeamId_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearTeamId" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearTeamId">
+  ClearTeamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearTimeOfDay_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearTimeOfDay*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ClearTimeOfDay" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ClearTimeOfDay">
+  ClearTimeOfDay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimeOfDay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Clone" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgBotWorldState Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Equals_Divine_Protobufs_Dota2_CMsgBotWorldState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Equals(Divine.Protobufs.Dota2.CMsgBotWorldState)">
+  Equals(CMsgBotWorldState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgBotWorldState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_MergeFrom_Divine_Protobufs_Dota2_CMsgBotWorldState_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.MergeFrom(Divine.Protobufs.Dota2.CMsgBotWorldState)">
+  MergeFrom(CMsgBotWorldState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgBotWorldState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgBotWorldState.html">CMsgBotWorldState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_ToString" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgBotWorldState_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgBotWorldState_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgBotWorldState.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

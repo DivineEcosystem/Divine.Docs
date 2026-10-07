@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamLearnMatchStateV5.Types.PlayerState | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamLearnMatchStateV5.Types.PlayerState | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState" class="text-break">
+Class CMsgSteamLearnMatchStateV5.Types.PlayerState  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamLearnMatchStateV5.Types.PlayerState : IMessage&lt;CMsgSteamLearnMatchStateV5.Types.PlayerState&gt;, IEquatable&lt;CMsgSteamLearnMatchStateV5.Types.PlayerState&gt;, IDeepCloneable&lt;CMsgSteamLearnMatchStateV5.Types.PlayerState&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamLearnMatchStateV5.Types.PlayerState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState__ctor" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.#ctor">
+  PlayerState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState__ctor_Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.#ctor(Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState)">
+  PlayerState(PlayerState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerState(CMsgSteamLearnMatchStateV5.Types.PlayerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_DeathsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.DeathsFieldNumber">
+  DeathsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeathsFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_DistanceFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.DistanceFieldNumber">
+  DistanceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DistanceFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasAegisFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasAegisFieldNumber">
+  HasAegisFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasAegisFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasBuybackFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasBuybackFieldNumber">
+  HasBuybackFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasBuybackFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasRapierFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasRapierFieldNumber">
+  HasRapierFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasRapierFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroFacetFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroFacetFieldNumber">
+  HeroFacetFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroFacetFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroIdFieldNumber">
+  HeroIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_LevelFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.LevelFieldNumber">
+  LevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LevelFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_NetWorthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.NetWorthFieldNumber">
+  NetWorthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NetWorthFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_RespawnTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.RespawnTimeFieldNumber">
+  RespawnTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RespawnTimeFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Deaths_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Deaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Deaths" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Deaths">
+  Deaths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Deaths { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Distance_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Distance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Distance" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Distance">
+  Distance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Distance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasAegis_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasAegis*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasAegis" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasAegis">
+  HasAegis
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAegis { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasBuyback_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasBuyback*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasBuyback" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasBuyback">
+  HasBuyback
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuyback { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasDeaths_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasDeaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasDeaths" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasDeaths">
+  HasDeaths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeaths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasDistance_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasDistance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasDistance" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasDistance">
+  HasDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasAegis_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasAegis*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasAegis" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasAegis">
+  HasHasAegis
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasAegis { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasBuyback_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasBuyback*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasBuyback" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasBuyback">
+  HasHasBuyback
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasBuyback { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasRapier_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasRapier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHasRapier" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHasRapier">
+  HasHasRapier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasRapier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHeroFacet_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHeroFacet*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHeroFacet" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHeroFacet">
+  HasHeroFacet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroFacet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHeroId_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasHeroId" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasHeroId">
+  HasHeroId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasLevel_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasLevel" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasLevel">
+  HasLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasNetWorth_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasNetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasNetWorth" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasNetWorth">
+  HasNetWorth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNetWorth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasRapier_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasRapier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasRapier" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasRapier">
+  HasRapier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRapier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasRespawnTime_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasRespawnTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HasRespawnTime" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HasRespawnTime">
+  HasRespawnTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRespawnTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroFacet_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroFacet*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroFacet" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroFacet">
+  HeroFacet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HeroFacet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroId_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_HeroId" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.HeroId">
+  HeroId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HeroId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Level_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Level*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Level" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Level">
+  Level
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Level { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_NetWorth_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.NetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_NetWorth" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.NetWorth">
+  NetWorth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NetWorth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Parser" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamLearnMatchStateV5.Types.PlayerState&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_RespawnTime_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.RespawnTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_RespawnTime" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.RespawnTime">
+  RespawnTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RespawnTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearDeaths_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearDeaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearDeaths" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearDeaths">
+  ClearDeaths()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeaths()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearDistance_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearDistance*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearDistance" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearDistance">
+  ClearDistance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDistance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasAegis_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasAegis*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasAegis" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasAegis">
+  ClearHasAegis()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasAegis()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasBuyback_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasBuyback*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasBuyback" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasBuyback">
+  ClearHasBuyback()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasBuyback()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasRapier_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasRapier*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHasRapier" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHasRapier">
+  ClearHasRapier()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasRapier()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHeroFacet_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHeroFacet*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHeroFacet" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHeroFacet">
+  ClearHeroFacet()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroFacet()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHeroId_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHeroId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearHeroId" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearHeroId">
+  ClearHeroId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearLevel_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearLevel" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearLevel">
+  ClearLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearNetWorth_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearNetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearNetWorth" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearNetWorth">
+  ClearNetWorth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNetWorth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearRespawnTime_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearRespawnTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ClearRespawnTime" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ClearRespawnTime">
+  ClearRespawnTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRespawnTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Clone" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamLearnMatchStateV5.Types.PlayerState Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Equals_Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Equals(Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState)">
+  Equals(PlayerState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamLearnMatchStateV5.Types.PlayerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_MergeFrom_Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.MergeFrom(Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState)">
+  MergeFrom(PlayerState)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamLearnMatchStateV5.Types.PlayerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.html">CMsgSteamLearnMatchStateV5</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.html">PlayerState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_ToString" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgSteamLearnMatchStateV5_Types_PlayerState_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.PlayerState.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

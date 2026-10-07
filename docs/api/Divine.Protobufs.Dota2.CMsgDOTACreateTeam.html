@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgDOTACreateTeam | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgDOTACreateTeam | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam" class="text-break">
+Class CMsgDOTACreateTeam  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgDOTACreateTeam : IMessage&lt;CMsgDOTACreateTeam&gt;, IEquatable&lt;CMsgDOTACreateTeam&gt;, IDeepCloneable&lt;CMsgDOTACreateTeam&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgDOTACreateTeam</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam__ctor" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.#ctor">
+  CMsgDOTACreateTeam()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTACreateTeam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam__ctor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam__ctor_Divine_Protobufs_Dota2_CMsgDOTACreateTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.#ctor(Divine.Protobufs.Dota2.CMsgDOTACreateTeam)">
+  CMsgDOTACreateTeam(CMsgDOTACreateTeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTACreateTeam(CMsgDOTACreateTeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_AbbreviationFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.AbbreviationFieldNumber">
+  AbbreviationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AbbreviationFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BannerLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BannerLogoFieldNumber">
+  BannerLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BannerLogoFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BaseLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BaseLogoFieldNumber">
+  BaseLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BaseLogoFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_CountryCodeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.CountryCodeFieldNumber">
+  CountryCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CountryCodeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_LogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.LogoFieldNumber">
+  LogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LogoFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_NameFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.NameFieldNumber">
+  NameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NameFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_PickupTeamFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.PickupTeamFieldNumber">
+  PickupTeamFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PickupTeamFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_SponsorLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.SponsorLogoFieldNumber">
+  SponsorLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SponsorLogoFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_TagFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.TagFieldNumber">
+  TagFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TagFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_UrlFieldNumber" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.UrlFieldNumber">
+  UrlFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UrlFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Abbreviation_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Abbreviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Abbreviation" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Abbreviation">
+  Abbreviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Abbreviation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BannerLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BannerLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BannerLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BannerLogo">
+  BannerLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong BannerLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BaseLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_BaseLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.BaseLogo">
+  BaseLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong BaseLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_CountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.CountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_CountryCode" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.CountryCode">
+  CountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CountryCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Descriptor" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasAbbreviation_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasAbbreviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasAbbreviation" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasAbbreviation">
+  HasAbbreviation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAbbreviation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasBannerLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasBannerLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasBannerLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasBannerLogo">
+  HasBannerLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBannerLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasBaseLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasBaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasBaseLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasBaseLogo">
+  HasBaseLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBaseLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasCountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasCountryCode" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasCountryCode">
+  HasCountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCountryCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasLogo">
+  HasLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasName_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasName" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasName">
+  HasName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasPickupTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasPickupTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasPickupTeam" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasPickupTeam">
+  HasPickupTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPickupTeam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasSponsorLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasSponsorLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasSponsorLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasSponsorLogo">
+  HasSponsorLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSponsorLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasTag_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasTag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasTag" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasTag">
+  HasTag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTag { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasUrl_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_HasUrl" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.HasUrl">
+  HasUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Logo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Logo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Logo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Logo">
+  Logo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Logo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Name_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Name*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Name" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Parser_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Parser" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgDOTACreateTeam&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_PickupTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.PickupTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_PickupTeam" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.PickupTeam">
+  PickupTeam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PickupTeam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_SponsorLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.SponsorLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_SponsorLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.SponsorLogo">
+  SponsorLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong SponsorLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Tag_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Tag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Tag" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Tag">
+  Tag
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Tag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Url_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Url*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Url" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Url">
+  Url
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Url { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearAbbreviation_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearAbbreviation*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearAbbreviation" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearAbbreviation">
+  ClearAbbreviation()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAbbreviation()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearBannerLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearBannerLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearBannerLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearBannerLogo">
+  ClearBannerLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBannerLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearBaseLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearBaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearBaseLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearBaseLogo">
+  ClearBaseLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBaseLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearCountryCode_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearCountryCode" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearCountryCode">
+  ClearCountryCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCountryCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearLogo">
+  ClearLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearName_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearName" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearName">
+  ClearName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearPickupTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearPickupTeam*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearPickupTeam" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearPickupTeam">
+  ClearPickupTeam()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPickupTeam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearSponsorLogo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearSponsorLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearSponsorLogo" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearSponsorLogo">
+  ClearSponsorLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSponsorLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearTag_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearTag*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearTag" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearTag">
+  ClearTag()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTag()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearUrl_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearUrl*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ClearUrl" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ClearUrl">
+  ClearUrl()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUrl()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Clone_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Clone" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgDOTACreateTeam Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Equals_Divine_Protobufs_Dota2_CMsgDOTACreateTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Equals(Divine.Protobufs.Dota2.CMsgDOTACreateTeam)">
+  Equals(CMsgDOTACreateTeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgDOTACreateTeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Equals_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_MergeFrom_Divine_Protobufs_Dota2_CMsgDOTACreateTeam_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.MergeFrom(Divine.Protobufs.Dota2.CMsgDOTACreateTeam)">
+  MergeFrom(CMsgDOTACreateTeam)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgDOTACreateTeam other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.html">CMsgDOTACreateTeam</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ToString_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_ToString" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMsgDOTACreateTeam_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMsgDOTACreateTeam.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

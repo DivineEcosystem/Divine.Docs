@@ -1,0 +1,4979 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CGCSystemMsg_GetAccountDetails_Response | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CGCSystemMsg_GetAccountDetails_Response | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response" class="text-break">
+Class CGCSystemMsg_GetAccountDetails_Response  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CGCSystemMsg_GetAccountDetails_Response : IMessage&lt;CGCSystemMsg_GetAccountDetails_Response&gt;, IEquatable&lt;CGCSystemMsg_GetAccountDetails_Response&gt;, IDeepCloneable&lt;CGCSystemMsg_GetAccountDetails_Response&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CGCSystemMsg_GetAccountDetails_Response</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response__ctor_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response__ctor" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.#ctor">
+  CGCSystemMsg_GetAccountDetails_Response()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCSystemMsg_GetAccountDetails_Response()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response__ctor_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response__ctor_Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.#ctor(Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response)">
+  CGCSystemMsg_GetAccountDetails_Response(CGCSystemMsg_GetAccountDetails_Response)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCSystemMsg_GetAccountDetails_Response(CGCSystemMsg_GetAccountDetails_Response other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountCreationTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountCreationTimeFieldNumber">
+  AccountCreationTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountCreationTimeFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountNameFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountNameFieldNumber">
+  AccountNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountNameFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountidFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountidFieldNumber">
+  AccountidFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountidFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_CurrencyFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.CurrencyFieldNumber">
+  CurrencyFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CurrencyFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_EresultDeprecatedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.EresultDeprecatedFieldNumber">
+  EresultDeprecatedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EresultDeprecatedFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FreeTrialExpirationFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FreeTrialExpirationFieldNumber">
+  FreeTrialExpirationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FreeTrialExpirationFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FriendCountFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FriendCountFieldNumber">
+  FriendCountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FriendCountFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAcceptedChinaSsaFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAcceptedChinaSsaFieldNumber">
+  HasAcceptedChinaSsaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasAcceptedChinaSsaFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsAccountLockedDownFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsAccountLockedDownFieldNumber">
+  IsAccountLockedDownFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsAccountLockedDownFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsBannedSteamChinaFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsBannedSteamChinaFieldNumber">
+  IsBannedSteamChinaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsBannedSteamChinaFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCommunityBannedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCommunityBannedFieldNumber">
+  IsCommunityBannedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsCommunityBannedFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCyberCafeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCyberCafeFieldNumber">
+  IsCyberCafeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsCyberCafeFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsFreeTrialAccountFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsFreeTrialAccountFieldNumber">
+  IsFreeTrialAccountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsFreeTrialAccountFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsInventoryPublicFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsInventoryPublicFieldNumber">
+  IsInventoryPublicFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsInventoryPublicFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLimitedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLimitedFieldNumber">
+  IsLimitedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsLimitedFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLowViolenceFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLowViolenceFieldNumber">
+  IsLowViolenceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsLowViolenceFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneIdentifyingFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneIdentifyingFieldNumber">
+  IsPhoneIdentifyingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsPhoneIdentifyingFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneVerifiedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneVerifiedFieldNumber">
+  IsPhoneVerifiedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsPhoneVerifiedFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfileCreatedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfileCreatedFieldNumber">
+  IsProfileCreatedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsProfileCreatedFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfilePublicFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfilePublicFieldNumber">
+  IsProfilePublicFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsProfilePublicFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSchoolAccountFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSchoolAccountFieldNumber">
+  IsSchoolAccountFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsSchoolAccountFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSteamguardEnabledFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSteamguardEnabledFieldNumber">
+  IsSteamguardEnabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsSteamguardEnabledFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSubscribedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSubscribedFieldNumber">
+  IsSubscribedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsSubscribedFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTradeBannedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTradeBannedFieldNumber">
+  IsTradeBannedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsTradeBannedFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTwoFactorAuthEnabledFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTwoFactorAuthEnabledFieldNumber">
+  IsTwoFactorAuthEnabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsTwoFactorAuthEnabledFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsVacBannedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsVacBannedFieldNumber">
+  IsVacBannedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsVacBannedFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PackageFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PackageFieldNumber">
+  PackageFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PackageFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PersonaNameFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PersonaNameFieldNumber">
+  PersonaNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PersonaNameFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneIdFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneIdFieldNumber">
+  PhoneIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhoneIdFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneVerificationTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneVerificationTimeFieldNumber">
+  PhoneVerificationTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PhoneVerificationTimeFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtBirthDateFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtBirthDateFieldNumber">
+  RtBirthDateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RtBirthDateFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtIdentityLinkedFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtIdentityLinkedFieldNumber">
+  RtIdentityLinkedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RtIdentityLinkedFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SteamLevelFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SteamLevelFieldNumber">
+  SteamLevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SteamLevelFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SuspensionEndTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SuspensionEndTimeFieldNumber">
+  SuspensionEndTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SuspensionEndTimeFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TradeBanExpirationFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TradeBanExpirationFieldNumber">
+  TradeBanExpirationFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TradeBanExpirationFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TwoFactorEnabledTimeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TwoFactorEnabledTimeFieldNumber">
+  TwoFactorEnabledTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TwoFactorEnabledTimeFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TxnCountryCodeFieldNumber" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TxnCountryCodeFieldNumber">
+  TxnCountryCodeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TxnCountryCodeFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountCreationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountCreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountCreationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountCreationTime">
+  AccountCreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AccountCreationTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_AccountName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.AccountName">
+  AccountName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Accountid_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Accountid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Accountid" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Accountid">
+  Accountid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Accountid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Currency_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Currency*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Currency" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Currency">
+  Currency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Descriptor_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Descriptor" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_EresultDeprecated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.EresultDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_EresultDeprecated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.EresultDeprecated">
+  EresultDeprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint EresultDeprecated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FreeTrialExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FreeTrialExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FreeTrialExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FreeTrialExpiration">
+  FreeTrialExpiration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FreeTrialExpiration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FriendCount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FriendCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_FriendCount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.FriendCount">
+  FriendCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FriendCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAcceptedChinaSsa" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAcceptedChinaSsa">
+  HasAcceptedChinaSsa
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAcceptedChinaSsa { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountCreationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountCreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountCreationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountCreationTime">
+  HasAccountCreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountCreationTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountName">
+  HasAccountName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountid_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasAccountid" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasAccountid">
+  HasAccountid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasCurrency_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasCurrency" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasCurrency">
+  HasCurrency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCurrency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasEresultDeprecated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasEresultDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasEresultDeprecated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasEresultDeprecated">
+  HasEresultDeprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEresultDeprecated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasFreeTrialExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasFreeTrialExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasFreeTrialExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasFreeTrialExpiration">
+  HasFreeTrialExpiration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFreeTrialExpiration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasFriendCount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasFriendCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasFriendCount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasFriendCount">
+  HasFriendCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFriendCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasHasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasHasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasHasAcceptedChinaSsa" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasHasAcceptedChinaSsa">
+  HasHasAcceptedChinaSsa
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasAcceptedChinaSsa { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsAccountLockedDown_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsAccountLockedDown*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsAccountLockedDown" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsAccountLockedDown">
+  HasIsAccountLockedDown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsAccountLockedDown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsBannedSteamChina_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsBannedSteamChina" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsBannedSteamChina">
+  HasIsBannedSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsBannedSteamChina { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsCommunityBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsCommunityBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsCommunityBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsCommunityBanned">
+  HasIsCommunityBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsCommunityBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsCyberCafe_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsCyberCafe*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsCyberCafe" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsCyberCafe">
+  HasIsCyberCafe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsCyberCafe { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsFreeTrialAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsFreeTrialAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsFreeTrialAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsFreeTrialAccount">
+  HasIsFreeTrialAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsFreeTrialAccount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsInventoryPublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsInventoryPublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsInventoryPublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsInventoryPublic">
+  HasIsInventoryPublic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsInventoryPublic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsLimited_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsLimited*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsLimited" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsLimited">
+  HasIsLimited
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsLimited { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsLowViolence_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsLowViolence*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsLowViolence" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsLowViolence">
+  HasIsLowViolence
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsLowViolence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsPhoneIdentifying_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsPhoneIdentifying*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsPhoneIdentifying" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsPhoneIdentifying">
+  HasIsPhoneIdentifying
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsPhoneIdentifying { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsPhoneVerified_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsPhoneVerified*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsPhoneVerified" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsPhoneVerified">
+  HasIsPhoneVerified
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsPhoneVerified { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsProfileCreated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsProfileCreated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsProfileCreated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsProfileCreated">
+  HasIsProfileCreated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsProfileCreated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsProfilePublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsProfilePublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsProfilePublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsProfilePublic">
+  HasIsProfilePublic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsProfilePublic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSchoolAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSchoolAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSchoolAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSchoolAccount">
+  HasIsSchoolAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsSchoolAccount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSteamguardEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSteamguardEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSteamguardEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSteamguardEnabled">
+  HasIsSteamguardEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsSteamguardEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSubscribed_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSubscribed*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsSubscribed" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsSubscribed">
+  HasIsSubscribed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsSubscribed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsTradeBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsTradeBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsTradeBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsTradeBanned">
+  HasIsTradeBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsTradeBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsTwoFactorAuthEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsTwoFactorAuthEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsTwoFactorAuthEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsTwoFactorAuthEnabled">
+  HasIsTwoFactorAuthEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsTwoFactorAuthEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsVacBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsVacBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasIsVacBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasIsVacBanned">
+  HasIsVacBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsVacBanned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPackage_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPackage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPackage" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPackage">
+  HasPackage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPackage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPersonaName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPersonaName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPersonaName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPersonaName">
+  HasPersonaName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPersonaName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPhoneId_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPhoneId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPhoneId" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPhoneId">
+  HasPhoneId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhoneId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPhoneVerificationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPhoneVerificationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasPhoneVerificationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasPhoneVerificationTime">
+  HasPhoneVerificationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPhoneVerificationTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasRtBirthDate_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasRtBirthDate*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasRtBirthDate" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasRtBirthDate">
+  HasRtBirthDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRtBirthDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasRtIdentityLinked_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasRtIdentityLinked*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasRtIdentityLinked" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasRtIdentityLinked">
+  HasRtIdentityLinked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRtIdentityLinked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasSteamLevel_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasSteamLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasSteamLevel" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasSteamLevel">
+  HasSteamLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSteamLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasSuspensionEndTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasSuspensionEndTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasSuspensionEndTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasSuspensionEndTime">
+  HasSuspensionEndTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSuspensionEndTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTradeBanExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTradeBanExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTradeBanExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTradeBanExpiration">
+  HasTradeBanExpiration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTradeBanExpiration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTwoFactorEnabledTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTwoFactorEnabledTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTwoFactorEnabledTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTwoFactorEnabledTime">
+  HasTwoFactorEnabledTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTwoFactorEnabledTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTxnCountryCode_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_HasTxnCountryCode" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.HasTxnCountryCode">
+  HasTxnCountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTxnCountryCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsAccountLockedDown_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsAccountLockedDown*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsAccountLockedDown" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsAccountLockedDown">
+  IsAccountLockedDown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAccountLockedDown { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsBannedSteamChina_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsBannedSteamChina" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsBannedSteamChina">
+  IsBannedSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBannedSteamChina { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCommunityBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCommunityBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCommunityBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCommunityBanned">
+  IsCommunityBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCommunityBanned { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCyberCafe_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCyberCafe*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsCyberCafe" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsCyberCafe">
+  IsCyberCafe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCyberCafe { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsFreeTrialAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsFreeTrialAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsFreeTrialAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsFreeTrialAccount">
+  IsFreeTrialAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFreeTrialAccount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsInventoryPublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsInventoryPublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsInventoryPublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsInventoryPublic">
+  IsInventoryPublic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInventoryPublic { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLimited_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLimited*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLimited" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLimited">
+  IsLimited
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLimited { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLowViolence_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLowViolence*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsLowViolence" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsLowViolence">
+  IsLowViolence
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLowViolence { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneIdentifying_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneIdentifying*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneIdentifying" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneIdentifying">
+  IsPhoneIdentifying
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPhoneIdentifying { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneVerified_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneVerified*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsPhoneVerified" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsPhoneVerified">
+  IsPhoneVerified
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPhoneVerified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfileCreated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfileCreated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfileCreated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfileCreated">
+  IsProfileCreated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProfileCreated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfilePublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfilePublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsProfilePublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsProfilePublic">
+  IsProfilePublic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProfilePublic { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSchoolAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSchoolAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSchoolAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSchoolAccount">
+  IsSchoolAccount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSchoolAccount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSteamguardEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSteamguardEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSteamguardEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSteamguardEnabled">
+  IsSteamguardEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSteamguardEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSubscribed_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSubscribed*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsSubscribed" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsSubscribed">
+  IsSubscribed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSubscribed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTradeBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTradeBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTradeBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTradeBanned">
+  IsTradeBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTradeBanned { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTwoFactorAuthEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTwoFactorAuthEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsTwoFactorAuthEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsTwoFactorAuthEnabled">
+  IsTwoFactorAuthEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTwoFactorAuthEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsVacBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsVacBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_IsVacBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.IsVacBanned">
+  IsVacBanned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVacBanned { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Package_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Package*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Package" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Package">
+  Package
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Package { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Parser_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Parser" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CGCSystemMsg_GetAccountDetails_Response&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PersonaName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PersonaName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PersonaName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PersonaName">
+  PersonaName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PersonaName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneId_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneId" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneId">
+  PhoneId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PhoneId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneVerificationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneVerificationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_PhoneVerificationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.PhoneVerificationTime">
+  PhoneVerificationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PhoneVerificationTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtBirthDate_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtBirthDate*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtBirthDate" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtBirthDate">
+  RtBirthDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RtBirthDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtIdentityLinked_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtIdentityLinked*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_RtIdentityLinked" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.RtIdentityLinked">
+  RtIdentityLinked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RtIdentityLinked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SteamLevel_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SteamLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SteamLevel" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SteamLevel">
+  SteamLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SteamLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SuspensionEndTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SuspensionEndTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_SuspensionEndTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.SuspensionEndTime">
+  SuspensionEndTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SuspensionEndTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TradeBanExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TradeBanExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TradeBanExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TradeBanExpiration">
+  TradeBanExpiration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TradeBanExpiration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TwoFactorEnabledTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TwoFactorEnabledTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TwoFactorEnabledTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TwoFactorEnabledTime">
+  TwoFactorEnabledTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TwoFactorEnabledTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TxnCountryCode_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_TxnCountryCode" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.TxnCountryCode">
+  TxnCountryCode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TxnCountryCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_CalculateSize_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_CalculateSize" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountCreationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountCreationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountCreationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountCreationTime">
+  ClearAccountCreationTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountCreationTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountName">
+  ClearAccountName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountid_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountid*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearAccountid" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearAccountid">
+  ClearAccountid()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountid()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearCurrency_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearCurrency*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearCurrency" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearCurrency">
+  ClearCurrency()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCurrency()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearEresultDeprecated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearEresultDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearEresultDeprecated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearEresultDeprecated">
+  ClearEresultDeprecated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEresultDeprecated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearFreeTrialExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearFreeTrialExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearFreeTrialExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearFreeTrialExpiration">
+  ClearFreeTrialExpiration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFreeTrialExpiration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearFriendCount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearFriendCount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearFriendCount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearFriendCount">
+  ClearFriendCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFriendCount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearHasAcceptedChinaSsa_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearHasAcceptedChinaSsa*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearHasAcceptedChinaSsa" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearHasAcceptedChinaSsa">
+  ClearHasAcceptedChinaSsa()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasAcceptedChinaSsa()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsAccountLockedDown_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsAccountLockedDown*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsAccountLockedDown" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsAccountLockedDown">
+  ClearIsAccountLockedDown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsAccountLockedDown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsBannedSteamChina_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsBannedSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsBannedSteamChina" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsBannedSteamChina">
+  ClearIsBannedSteamChina()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsBannedSteamChina()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsCommunityBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsCommunityBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsCommunityBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsCommunityBanned">
+  ClearIsCommunityBanned()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsCommunityBanned()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsCyberCafe_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsCyberCafe*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsCyberCafe" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsCyberCafe">
+  ClearIsCyberCafe()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsCyberCafe()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsFreeTrialAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsFreeTrialAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsFreeTrialAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsFreeTrialAccount">
+  ClearIsFreeTrialAccount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsFreeTrialAccount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsInventoryPublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsInventoryPublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsInventoryPublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsInventoryPublic">
+  ClearIsInventoryPublic()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsInventoryPublic()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsLimited_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsLimited*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsLimited" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsLimited">
+  ClearIsLimited()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsLimited()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsLowViolence_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsLowViolence*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsLowViolence" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsLowViolence">
+  ClearIsLowViolence()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsLowViolence()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsPhoneIdentifying_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsPhoneIdentifying*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsPhoneIdentifying" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsPhoneIdentifying">
+  ClearIsPhoneIdentifying()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsPhoneIdentifying()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsPhoneVerified_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsPhoneVerified*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsPhoneVerified" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsPhoneVerified">
+  ClearIsPhoneVerified()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsPhoneVerified()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsProfileCreated_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsProfileCreated*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsProfileCreated" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsProfileCreated">
+  ClearIsProfileCreated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsProfileCreated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsProfilePublic_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsProfilePublic*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsProfilePublic" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsProfilePublic">
+  ClearIsProfilePublic()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsProfilePublic()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSchoolAccount_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSchoolAccount*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSchoolAccount" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSchoolAccount">
+  ClearIsSchoolAccount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsSchoolAccount()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSteamguardEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSteamguardEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSteamguardEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSteamguardEnabled">
+  ClearIsSteamguardEnabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsSteamguardEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSubscribed_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSubscribed*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsSubscribed" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsSubscribed">
+  ClearIsSubscribed()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsSubscribed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsTradeBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsTradeBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsTradeBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsTradeBanned">
+  ClearIsTradeBanned()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsTradeBanned()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsTwoFactorAuthEnabled_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsTwoFactorAuthEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsTwoFactorAuthEnabled" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsTwoFactorAuthEnabled">
+  ClearIsTwoFactorAuthEnabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsTwoFactorAuthEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsVacBanned_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsVacBanned*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearIsVacBanned" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearIsVacBanned">
+  ClearIsVacBanned()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsVacBanned()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPackage_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPackage*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPackage" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPackage">
+  ClearPackage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPackage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPersonaName_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPersonaName*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPersonaName" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPersonaName">
+  ClearPersonaName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPersonaName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPhoneId_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPhoneId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPhoneId" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPhoneId">
+  ClearPhoneId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhoneId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPhoneVerificationTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPhoneVerificationTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearPhoneVerificationTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearPhoneVerificationTime">
+  ClearPhoneVerificationTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPhoneVerificationTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearRtBirthDate_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearRtBirthDate*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearRtBirthDate" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearRtBirthDate">
+  ClearRtBirthDate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRtBirthDate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearRtIdentityLinked_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearRtIdentityLinked*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearRtIdentityLinked" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearRtIdentityLinked">
+  ClearRtIdentityLinked()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRtIdentityLinked()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearSteamLevel_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearSteamLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearSteamLevel" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearSteamLevel">
+  ClearSteamLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSteamLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearSuspensionEndTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearSuspensionEndTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearSuspensionEndTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearSuspensionEndTime">
+  ClearSuspensionEndTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSuspensionEndTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTradeBanExpiration_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTradeBanExpiration*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTradeBanExpiration" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTradeBanExpiration">
+  ClearTradeBanExpiration()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTradeBanExpiration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTwoFactorEnabledTime_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTwoFactorEnabledTime*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTwoFactorEnabledTime" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTwoFactorEnabledTime">
+  ClearTwoFactorEnabledTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTwoFactorEnabledTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTxnCountryCode_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTxnCountryCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ClearTxnCountryCode" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ClearTxnCountryCode">
+  ClearTxnCountryCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTxnCountryCode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Clone_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Clone" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CGCSystemMsg_GetAccountDetails_Response Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Equals_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Equals_Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Equals(Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response)">
+  Equals(CGCSystemMsg_GetAccountDetails_Response)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CGCSystemMsg_GetAccountDetails_Response other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Equals_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_GetHashCode_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_GetHashCode" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_MergeFrom_Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.MergeFrom(Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response)">
+  MergeFrom(CGCSystemMsg_GetAccountDetails_Response)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CGCSystemMsg_GetAccountDetails_Response other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.html">CGCSystemMsg_GetAccountDetails_Response</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_MergeFrom_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ToString_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_ToString" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_WriteTo_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CGCSystemMsg_GetAccountDetails_Response_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CGCSystemMsg_GetAccountDetails_Response.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

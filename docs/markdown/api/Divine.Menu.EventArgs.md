@@ -44,7 +44,7 @@
 
  [TogglerKeyValueEventArgs<T\>](Divine.Menu.EventArgs.TogglerKeyValueEventArgs\-1.md)
 
- [TogglerPriorityChangedEventArgs](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs.md)
-
  [TogglerPriorityChangedEventArgs<T\>](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs\-1.md)
+
+ [TogglerPriorityChangedEventArgs](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs.md)
 

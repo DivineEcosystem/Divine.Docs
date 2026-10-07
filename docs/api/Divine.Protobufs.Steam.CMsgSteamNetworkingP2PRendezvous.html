@@ -1,0 +1,2098 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMsgSteamNetworkingP2PRendezvous | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMsgSteamNetworkingP2PRendezvous | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous">
+
+
+
+  <h1 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous" class="text-break">
+Class CMsgSteamNetworkingP2PRendezvous  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Steam.html">Steam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMsgSteamNetworkingP2PRendezvous : IMessage&lt;CMsgSteamNetworkingP2PRendezvous&gt;, IEquatable&lt;CMsgSteamNetworkingP2PRendezvous&gt;, IDeepCloneable&lt;CMsgSteamNetworkingP2PRendezvous&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMsgSteamNetworkingP2PRendezvous</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous__ctor" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.#ctor">
+  CMsgSteamNetworkingP2PRendezvous()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous__ctor_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous__ctor_Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.#ctor(Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous)">
+  CMsgSteamNetworkingP2PRendezvous(CMsgSteamNetworkingP2PRendezvous)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous(CMsgSteamNetworkingP2PRendezvous other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckPeerRoutesRevisionFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckPeerRoutesRevisionFieldNumber">
+  AckPeerRoutesRevisionFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AckPeerRoutesRevisionFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckReliableMsgFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckReliableMsgFieldNumber">
+  AckReliableMsgFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AckReliableMsgFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ApplicationMessagesFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ApplicationMessagesFieldNumber">
+  ApplicationMessagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ApplicationMessagesFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectOkFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectOkFieldNumber">
+  ConnectOkFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectOkFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectRequestFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectRequestFieldNumber">
+  ConnectRequestFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectRequestFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectionClosedFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectionClosedFieldNumber">
+  ConnectionClosedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ConnectionClosedFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FirstReliableMsgFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FirstReliableMsgFieldNumber">
+  FirstReliableMsgFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FirstReliableMsgFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromConnectionIdFieldNumber">
+  FromConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FromConnectionIdFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromIdentityFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromIdentityFieldNumber">
+  FromIdentityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FromIdentityFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HostedServerTicketFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HostedServerTicketFieldNumber">
+  HostedServerTicketFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HostedServerTicketFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_IceEnabledFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.IceEnabledFieldNumber">
+  IceEnabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IceEnabledFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ReliableMessagesFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ReliableMessagesFieldNumber">
+  ReliableMessagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReliableMessagesFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_SdrRoutesFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.SdrRoutesFieldNumber">
+  SdrRoutesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SdrRoutesFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToConnectionIdFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToConnectionIdFieldNumber">
+  ToConnectionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ToConnectionIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToIdentityFieldNumber" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToIdentityFieldNumber">
+  ToIdentityFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ToIdentityFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckPeerRoutesRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckPeerRoutesRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckPeerRoutesRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckPeerRoutesRevision">
+  AckPeerRoutesRevision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AckPeerRoutesRevision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_AckReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.AckReliableMsg">
+  AckReliableMsg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AckReliableMsg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ApplicationMessages_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ApplicationMessages*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ApplicationMessages" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ApplicationMessages">
+  ApplicationMessages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgSteamNetworkingP2PRendezvous.Types.ApplicationMessage&gt; ApplicationMessages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.ApplicationMessage.html">ApplicationMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectOk_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectOk*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectOk" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectOk">
+  ConnectOk
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous.Types.ConnectOK ConnectOk { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.ConnectOK.html">ConnectOK</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectRequest_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectRequest*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectRequest" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectRequest">
+  ConnectRequest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous.Types.ConnectRequest ConnectRequest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.ConnectRequest.html">ConnectRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectionClosed_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectionClosed*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ConnectionClosed" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ConnectionClosed">
+  ConnectionClosed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous.Types.ConnectionClosed ConnectionClosed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.ConnectionClosed.html">ConnectionClosed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Descriptor_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Descriptor" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FirstReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FirstReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FirstReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FirstReliableMsg">
+  FirstReliableMsg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FirstReliableMsg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromConnectionId">
+  FromConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint FromConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_FromIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.FromIdentity">
+  FromIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FromIdentity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasAckPeerRoutesRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasAckPeerRoutesRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasAckPeerRoutesRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasAckPeerRoutesRevision">
+  HasAckPeerRoutesRevision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAckPeerRoutesRevision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasAckReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasAckReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasAckReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasAckReliableMsg">
+  HasAckReliableMsg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAckReliableMsg { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFirstReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFirstReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFirstReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFirstReliableMsg">
+  HasFirstReliableMsg
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFirstReliableMsg { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFromConnectionId">
+  HasFromConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFromConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFromIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFromIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasFromIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasFromIdentity">
+  HasFromIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFromIdentity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasHostedServerTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasHostedServerTicket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasHostedServerTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasHostedServerTicket">
+  HasHostedServerTicket
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHostedServerTicket { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasIceEnabled_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasIceEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasIceEnabled" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasIceEnabled">
+  HasIceEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIceEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasSdrRoutes_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasSdrRoutes*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasSdrRoutes" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasSdrRoutes">
+  HasSdrRoutes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSdrRoutes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasToConnectionId">
+  HasToConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasToConnectionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasToIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasToIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HasToIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HasToIdentity">
+  HasToIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasToIdentity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HostedServerTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HostedServerTicket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_HostedServerTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.HostedServerTicket">
+  HostedServerTicket
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString HostedServerTicket { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_IceEnabled_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.IceEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_IceEnabled" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.IceEnabled">
+  IceEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IceEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Parser_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Parser" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMsgSteamNetworkingP2PRendezvous&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ReliableMessages_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ReliableMessages*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ReliableMessages" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ReliableMessages">
+  ReliableMessages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMsgSteamNetworkingP2PRendezvous.Types.ReliableMessage&gt; ReliableMessages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.ReliableMessage.html">ReliableMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_SdrRoutes_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.SdrRoutes*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_SdrRoutes" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.SdrRoutes">
+  SdrRoutes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString SdrRoutes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToConnectionId">
+  ToConnectionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ToConnectionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToIdentity">
+  ToIdentity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToIdentity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_CalculateSize_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_CalculateSize" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearAckPeerRoutesRevision_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearAckPeerRoutesRevision*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearAckPeerRoutesRevision" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearAckPeerRoutesRevision">
+  ClearAckPeerRoutesRevision()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAckPeerRoutesRevision()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearAckReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearAckReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearAckReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearAckReliableMsg">
+  ClearAckReliableMsg()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAckReliableMsg()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFirstReliableMsg_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFirstReliableMsg*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFirstReliableMsg" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFirstReliableMsg">
+  ClearFirstReliableMsg()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFirstReliableMsg()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFromConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFromConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFromConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFromConnectionId">
+  ClearFromConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFromConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFromIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFromIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearFromIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearFromIdentity">
+  ClearFromIdentity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFromIdentity()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearHostedServerTicket_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearHostedServerTicket*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearHostedServerTicket" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearHostedServerTicket">
+  ClearHostedServerTicket()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHostedServerTicket()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearIceEnabled_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearIceEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearIceEnabled" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearIceEnabled">
+  ClearIceEnabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIceEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearSdrRoutes_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearSdrRoutes*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearSdrRoutes" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearSdrRoutes">
+  ClearSdrRoutes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSdrRoutes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearToConnectionId_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearToConnectionId*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearToConnectionId" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearToConnectionId">
+  ClearToConnectionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearToConnectionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearToIdentity_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearToIdentity*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ClearToIdentity" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ClearToIdentity">
+  ClearToIdentity()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearToIdentity()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Clone_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Clone" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgSteamNetworkingP2PRendezvous Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Equals_Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Equals(Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous)">
+  Equals(CMsgSteamNetworkingP2PRendezvous)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMsgSteamNetworkingP2PRendezvous other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Equals_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_Equals_System_Object_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_GetHashCode_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_GetHashCode" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_MergeFrom_Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.MergeFrom(Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous)">
+  MergeFrom(CMsgSteamNetworkingP2PRendezvous)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMsgSteamNetworkingP2PRendezvous other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.html">CMsgSteamNetworkingP2PRendezvous</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_MergeFrom_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToString_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_ToString" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_WriteTo_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Steam_CMsgSteamNetworkingP2PRendezvous_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+# <a id="Divine_Protobufs_Dota2_EPlayerCoachMatchFlag"></a> Enum EPlayerCoachMatchFlag
+
+Namespace: [Divine.Protobufs.Dota2](Divine.Protobufs.Dota2.md)  
+Assembly: Divine.Protobufs.dll  
+
+```csharp
+public enum EPlayerCoachMatchFlag
+```
+
+#### Extension Methods
+
+[EnumerableExtensions.ClearFlags<EPlayerCoachMatchFlag\>\(EPlayerCoachMatchFlag, EPlayerCoachMatchFlag\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_ClearFlags\_\_1\_\_\_0\_\_\_0\_), 
+[EnumerableExtensions.GetFlagDescription<EPlayerCoachMatchFlag\>\(EPlayerCoachMatchFlag\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_GetFlagDescription\_\_1\_\_\_0\_), 
+[EnumerableExtensions.GetFlags<EPlayerCoachMatchFlag\>\(EPlayerCoachMatchFlag\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_GetFlags\_\_1\_\_\_0\_), 
+[EnumerableExtensions.In<EPlayerCoachMatchFlag\>\(EPlayerCoachMatchFlag, params EPlayerCoachMatchFlag\[\]\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_In\_\_1\_\_\_0\_\_\_0\_\_\_), 
+[EnumerableExtensions.SetFlags<EPlayerCoachMatchFlag\>\(EPlayerCoachMatchFlag, EPlayerCoachMatchFlag, bool\)](Divine.Extensions.EnumerableExtensions.md\#Divine\_Extensions\_EnumerableExtensions\_SetFlags\_\_1\_\_\_0\_\_\_0\_System\_Boolean\_)
+
+## Fields
+
+`KEplayerCoachMatchFlagEligibleForRewards = 1` 
+
+`KEplayerCoachMatchFlagPrivateCoach = 2` 
+

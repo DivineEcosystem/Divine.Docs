@@ -1,0 +1,5040 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CMatchPlayerTimedStats | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CMatchPlayerTimedStats | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats" class="text-break">
+Class CMatchPlayerTimedStats  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CMatchPlayerTimedStats : IMessage&lt;CMatchPlayerTimedStats&gt;, IEquatable&lt;CMatchPlayerTimedStats&gt;, IDeepCloneable&lt;CMatchPlayerTimedStats&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CMatchPlayerTimedStats</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats__ctor_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats__ctor" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.#ctor">
+  CMatchPlayerTimedStats()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMatchPlayerTimedStats()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats__ctor_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats__ctor_Divine_Protobufs_Dota2_CMatchPlayerTimedStats_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.#ctor(Divine.Protobufs.Dota2.CMatchPlayerTimedStats)">
+  CMatchPlayerTimedStats(CMatchPlayerTimedStats)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMatchPlayerTimedStats(CMatchPlayerTimedStats other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_AssistsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.AssistsFieldNumber">
+  AssistsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AssistsFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BountyRuneGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BountyRuneGoldFieldNumber">
+  BountyRuneGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BountyRuneGoldFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BuildingGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BuildingGoldFieldNumber">
+  BuildingGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BuildingGoldFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CampsStackedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CampsStackedFieldNumber">
+  CampsStackedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CampsStackedFieldNumber = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ComebackGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ComebackGoldFieldNumber">
+  ComebackGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ComebackGoldFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CourierGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CourierGoldFieldNumber">
+  CourierGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CourierGoldFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepDenyGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepDenyGoldFieldNumber">
+  CreepDenyGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreepDenyGoldFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepKillGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepKillGoldFieldNumber">
+  CreepKillGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CreepKillGoldFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CustomStatsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CustomStatsFieldNumber">
+  CustomStatsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomStatsFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_DeathsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.DeathsFieldNumber">
+  DeathsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeathsFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_DeniesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.DeniesFieldNumber">
+  DeniesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeniesFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Experimental2GoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Experimental2GoldFieldNumber">
+  Experimental2GoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Experimental2GoldFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ExperimentalGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ExperimentalGoldFieldNumber">
+  ExperimentalGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExperimentalGoldFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_GoldLossPreventedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.GoldLossPreventedFieldNumber">
+  GoldLossPreventedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GoldLossPreventedFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HeroKillGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HeroKillGoldFieldNumber">
+  HeroKillGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeroKillGoldFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_IncomeGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.IncomeGoldFieldNumber">
+  IncomeGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IncomeGoldFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ItemValueFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ItemValueFieldNumber">
+  ItemValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ItemValueFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_KillsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.KillsFieldNumber">
+  KillsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int KillsFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_LastHitsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.LastHitsFieldNumber">
+  LastHitsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastHitsFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NetWorthFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NetWorthFieldNumber">
+  NetWorthFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NetWorthFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NeutralGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NeutralGoldFieldNumber">
+  NeutralGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NeutralGoldFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ObserverWardsDewardedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ObserverWardsDewardedFieldNumber">
+  ObserverWardsDewardedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ObserverWardsDewardedFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_OtherGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.OtherGoldFieldNumber">
+  OtherGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OtherGoldFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RampagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RampagesFieldNumber">
+  RampagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RampagesFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RangeCreepUpgradeGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RangeCreepUpgradeGoldFieldNumber">
+  RangeCreepUpgradeGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RangeCreepUpgradeGoldFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ReliableGoldEarnedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ReliableGoldEarnedFieldNumber">
+  ReliableGoldEarnedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReliableGoldEarnedFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RoshanGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RoshanGoldFieldNumber">
+  RoshanGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoshanGoldFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SummonKillGoldFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SummonKillGoldFieldNumber">
+  SummonKillGoldFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SummonKillGoldFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SupportGoldSpentFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SupportGoldSpentFieldNumber">
+  SupportGoldSpentFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SupportGoldSpentFieldNumber = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TimeFieldNumber">
+  TimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased1FieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased1FieldNumber">
+  TpScrollsPurchased1FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TpScrollsPurchased1FieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased2FieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased2FieldNumber">
+  TpScrollsPurchased2FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TpScrollsPurchased2FieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased3FieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased3FieldNumber">
+  TpScrollsPurchased3FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TpScrollsPurchased3FieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased4FieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased4FieldNumber">
+  TpScrollsPurchased4FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TpScrollsPurchased4FieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased5FieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased5FieldNumber">
+  TpScrollsPurchased5FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TpScrollsPurchased5FieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TripleKillsFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TripleKillsFieldNumber">
+  TripleKillsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TripleKillsFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_WardsPlacedFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.WardsPlacedFieldNumber">
+  WardsPlacedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WardsPlacedFieldNumber = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_XpFieldNumber" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.XpFieldNumber">
+  XpFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int XpFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Assists_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Assists*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Assists" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Assists">
+  Assists
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Assists { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BountyRuneGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BountyRuneGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BountyRuneGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BountyRuneGold">
+  BountyRuneGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BountyRuneGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BuildingGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BuildingGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_BuildingGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.BuildingGold">
+  BuildingGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BuildingGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CampsStacked_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CampsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CampsStacked" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CampsStacked">
+  CampsStacked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CampsStacked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ComebackGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ComebackGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ComebackGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ComebackGold">
+  ComebackGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ComebackGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CourierGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CourierGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CourierGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CourierGold">
+  CourierGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CourierGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepDenyGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepDenyGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepDenyGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepDenyGold">
+  CreepDenyGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CreepDenyGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CreepKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CreepKillGold">
+  CreepKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CreepKillGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CustomStats_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CustomStats*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CustomStats" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CustomStats">
+  CustomStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CMatchPlayerTimedCustomStat&gt; CustomStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedCustomStat.html">CMatchPlayerTimedCustomStat</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Deaths_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Deaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Deaths" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Deaths">
+  Deaths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Deaths { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Denies_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Denies*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Denies" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Denies">
+  Denies
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Denies { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Descriptor_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Descriptor" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Experimental2Gold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Experimental2Gold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Experimental2Gold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Experimental2Gold">
+  Experimental2Gold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Experimental2Gold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ExperimentalGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ExperimentalGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ExperimentalGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ExperimentalGold">
+  ExperimentalGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExperimentalGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_GoldLossPrevented_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.GoldLossPrevented*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_GoldLossPrevented" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.GoldLossPrevented">
+  GoldLossPrevented
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GoldLossPrevented { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasAssists_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasAssists*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasAssists" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasAssists">
+  HasAssists
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAssists { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasBountyRuneGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasBountyRuneGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasBountyRuneGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasBountyRuneGold">
+  HasBountyRuneGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBountyRuneGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasBuildingGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasBuildingGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasBuildingGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasBuildingGold">
+  HasBuildingGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuildingGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCampsStacked_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCampsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCampsStacked" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCampsStacked">
+  HasCampsStacked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCampsStacked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasComebackGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasComebackGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasComebackGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasComebackGold">
+  HasComebackGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasComebackGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCourierGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCourierGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCourierGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCourierGold">
+  HasCourierGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCourierGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCreepDenyGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCreepDenyGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCreepDenyGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCreepDenyGold">
+  HasCreepDenyGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreepDenyGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCreepKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCreepKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasCreepKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasCreepKillGold">
+  HasCreepKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCreepKillGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasDeaths_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasDeaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasDeaths" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasDeaths">
+  HasDeaths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeaths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasDenies_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasDenies*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasDenies" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasDenies">
+  HasDenies
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDenies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasExperimental2Gold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasExperimental2Gold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasExperimental2Gold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasExperimental2Gold">
+  HasExperimental2Gold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExperimental2Gold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasExperimentalGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasExperimentalGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasExperimentalGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasExperimentalGold">
+  HasExperimentalGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExperimentalGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasGoldLossPrevented_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasGoldLossPrevented*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasGoldLossPrevented" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasGoldLossPrevented">
+  HasGoldLossPrevented
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGoldLossPrevented { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasHeroKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasHeroKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasHeroKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasHeroKillGold">
+  HasHeroKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHeroKillGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasIncomeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasIncomeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasIncomeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasIncomeGold">
+  HasIncomeGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIncomeGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasItemValue_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasItemValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasItemValue" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasItemValue">
+  HasItemValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasItemValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasKills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasKills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasKills">
+  HasKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasKills { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasLastHits_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasLastHits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasLastHits" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasLastHits">
+  HasLastHits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLastHits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasNetWorth_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasNetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasNetWorth" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasNetWorth">
+  HasNetWorth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNetWorth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasNeutralGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasNeutralGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasNeutralGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasNeutralGold">
+  HasNeutralGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasNeutralGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasObserverWardsDewarded_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasObserverWardsDewarded*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasObserverWardsDewarded" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasObserverWardsDewarded">
+  HasObserverWardsDewarded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasObserverWardsDewarded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasOtherGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasOtherGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasOtherGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasOtherGold">
+  HasOtherGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOtherGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRampages_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRampages" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRampages">
+  HasRampages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRampages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRangeCreepUpgradeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRangeCreepUpgradeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRangeCreepUpgradeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRangeCreepUpgradeGold">
+  HasRangeCreepUpgradeGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRangeCreepUpgradeGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasReliableGoldEarned_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasReliableGoldEarned*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasReliableGoldEarned" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasReliableGoldEarned">
+  HasReliableGoldEarned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasReliableGoldEarned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRoshanGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRoshanGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasRoshanGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasRoshanGold">
+  HasRoshanGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRoshanGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasSummonKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasSummonKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasSummonKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasSummonKillGold">
+  HasSummonKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSummonKillGold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasSupportGoldSpent_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasSupportGoldSpent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasSupportGoldSpent" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasSupportGoldSpent">
+  HasSupportGoldSpent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSupportGoldSpent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTime_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTime" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTime">
+  HasTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased1_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased1" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased1">
+  HasTpScrollsPurchased1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTpScrollsPurchased1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased2_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased2" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased2">
+  HasTpScrollsPurchased2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTpScrollsPurchased2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased3_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased3" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased3">
+  HasTpScrollsPurchased3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTpScrollsPurchased3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased4_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased4" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased4">
+  HasTpScrollsPurchased4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTpScrollsPurchased4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased5_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTpScrollsPurchased5" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTpScrollsPurchased5">
+  HasTpScrollsPurchased5
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTpScrollsPurchased5 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTripleKills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasTripleKills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasTripleKills">
+  HasTripleKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTripleKills { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasWardsPlaced_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasWardsPlaced*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasWardsPlaced" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasWardsPlaced">
+  HasWardsPlaced
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWardsPlaced { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasXp_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasXp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HasXp" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HasXp">
+  HasXp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasXp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HeroKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HeroKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_HeroKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.HeroKillGold">
+  HeroKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HeroKillGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_IncomeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.IncomeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_IncomeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.IncomeGold">
+  IncomeGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint IncomeGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ItemValue_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ItemValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ItemValue" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ItemValue">
+  ItemValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ItemValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Kills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Kills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Kills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Kills">
+  Kills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Kills { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_LastHits_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.LastHits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_LastHits" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.LastHits">
+  LastHits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LastHits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NetWorth_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NetWorth" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NetWorth">
+  NetWorth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NetWorth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NeutralGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NeutralGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_NeutralGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.NeutralGold">
+  NeutralGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint NeutralGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ObserverWardsDewarded_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ObserverWardsDewarded*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ObserverWardsDewarded" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ObserverWardsDewarded">
+  ObserverWardsDewarded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ObserverWardsDewarded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_OtherGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.OtherGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_OtherGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.OtherGold">
+  OtherGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint OtherGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Parser_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Parser" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CMatchPlayerTimedStats&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Rampages_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Rampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Rampages" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Rampages">
+  Rampages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Rampages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RangeCreepUpgradeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RangeCreepUpgradeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RangeCreepUpgradeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RangeCreepUpgradeGold">
+  RangeCreepUpgradeGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RangeCreepUpgradeGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ReliableGoldEarned_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ReliableGoldEarned*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ReliableGoldEarned" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ReliableGoldEarned">
+  ReliableGoldEarned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ReliableGoldEarned { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RoshanGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RoshanGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_RoshanGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.RoshanGold">
+  RoshanGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RoshanGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SummonKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SummonKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SummonKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SummonKillGold">
+  SummonKillGold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SummonKillGold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SupportGoldSpent_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SupportGoldSpent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_SupportGoldSpent" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.SupportGoldSpent">
+  SupportGoldSpent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SupportGoldSpent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Time_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Time*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Time" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Time">
+  Time
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Time { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased1_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased1" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased1">
+  TpScrollsPurchased1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TpScrollsPurchased1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased2_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased2" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased2">
+  TpScrollsPurchased2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TpScrollsPurchased2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased3_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased3" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased3">
+  TpScrollsPurchased3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TpScrollsPurchased3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased4_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased4" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased4">
+  TpScrollsPurchased4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TpScrollsPurchased4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased5_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TpScrollsPurchased5" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TpScrollsPurchased5">
+  TpScrollsPurchased5
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TpScrollsPurchased5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TripleKills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_TripleKills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.TripleKills">
+  TripleKills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TripleKills { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_WardsPlaced_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.WardsPlaced*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_WardsPlaced" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.WardsPlaced">
+  WardsPlaced
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint WardsPlaced { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Xp_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Xp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Xp" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Xp">
+  Xp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Xp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_CalculateSize" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearAssists_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearAssists*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearAssists" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearAssists">
+  ClearAssists()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAssists()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearBountyRuneGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearBountyRuneGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearBountyRuneGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearBountyRuneGold">
+  ClearBountyRuneGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBountyRuneGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearBuildingGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearBuildingGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearBuildingGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearBuildingGold">
+  ClearBuildingGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBuildingGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCampsStacked_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCampsStacked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCampsStacked" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCampsStacked">
+  ClearCampsStacked()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCampsStacked()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearComebackGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearComebackGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearComebackGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearComebackGold">
+  ClearComebackGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearComebackGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCourierGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCourierGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCourierGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCourierGold">
+  ClearCourierGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCourierGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCreepDenyGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCreepDenyGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCreepDenyGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCreepDenyGold">
+  ClearCreepDenyGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreepDenyGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCreepKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCreepKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearCreepKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearCreepKillGold">
+  ClearCreepKillGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCreepKillGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearDeaths_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearDeaths*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearDeaths" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearDeaths">
+  ClearDeaths()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeaths()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearDenies_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearDenies*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearDenies" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearDenies">
+  ClearDenies()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDenies()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearExperimental2Gold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearExperimental2Gold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearExperimental2Gold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearExperimental2Gold">
+  ClearExperimental2Gold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExperimental2Gold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearExperimentalGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearExperimentalGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearExperimentalGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearExperimentalGold">
+  ClearExperimentalGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExperimentalGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearGoldLossPrevented_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearGoldLossPrevented*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearGoldLossPrevented" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearGoldLossPrevented">
+  ClearGoldLossPrevented()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGoldLossPrevented()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearHeroKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearHeroKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearHeroKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearHeroKillGold">
+  ClearHeroKillGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHeroKillGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearIncomeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearIncomeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearIncomeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearIncomeGold">
+  ClearIncomeGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIncomeGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearItemValue_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearItemValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearItemValue" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearItemValue">
+  ClearItemValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearItemValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearKills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearKills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearKills">
+  ClearKills()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearKills()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearLastHits_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearLastHits*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearLastHits" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearLastHits">
+  ClearLastHits()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLastHits()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearNetWorth_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearNetWorth*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearNetWorth" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearNetWorth">
+  ClearNetWorth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNetWorth()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearNeutralGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearNeutralGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearNeutralGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearNeutralGold">
+  ClearNeutralGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearNeutralGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearObserverWardsDewarded_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearObserverWardsDewarded*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearObserverWardsDewarded" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearObserverWardsDewarded">
+  ClearObserverWardsDewarded()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearObserverWardsDewarded()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearOtherGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearOtherGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearOtherGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearOtherGold">
+  ClearOtherGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOtherGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRampages_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRampages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRampages" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRampages">
+  ClearRampages()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRampages()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRangeCreepUpgradeGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRangeCreepUpgradeGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRangeCreepUpgradeGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRangeCreepUpgradeGold">
+  ClearRangeCreepUpgradeGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRangeCreepUpgradeGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearReliableGoldEarned_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearReliableGoldEarned*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearReliableGoldEarned" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearReliableGoldEarned">
+  ClearReliableGoldEarned()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearReliableGoldEarned()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRoshanGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRoshanGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearRoshanGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearRoshanGold">
+  ClearRoshanGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRoshanGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearSummonKillGold_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearSummonKillGold*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearSummonKillGold" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearSummonKillGold">
+  ClearSummonKillGold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSummonKillGold()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearSupportGoldSpent_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearSupportGoldSpent*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearSupportGoldSpent" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearSupportGoldSpent">
+  ClearSupportGoldSpent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSupportGoldSpent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTime_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTime" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTime">
+  ClearTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased1_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased1" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased1">
+  ClearTpScrollsPurchased1()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTpScrollsPurchased1()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased2_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased2" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased2">
+  ClearTpScrollsPurchased2()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTpScrollsPurchased2()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased3_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased3" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased3">
+  ClearTpScrollsPurchased3()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTpScrollsPurchased3()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased4_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased4" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased4">
+  ClearTpScrollsPurchased4()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTpScrollsPurchased4()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased5_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTpScrollsPurchased5" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTpScrollsPurchased5">
+  ClearTpScrollsPurchased5()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTpScrollsPurchased5()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTripleKills_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTripleKills*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearTripleKills" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearTripleKills">
+  ClearTripleKills()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTripleKills()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearWardsPlaced_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearWardsPlaced*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearWardsPlaced" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearWardsPlaced">
+  ClearWardsPlaced()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWardsPlaced()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearXp_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearXp*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ClearXp" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ClearXp">
+  ClearXp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearXp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Clone_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Clone" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMatchPlayerTimedStats Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Equals_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Equals_Divine_Protobufs_Dota2_CMatchPlayerTimedStats_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Equals(Divine.Protobufs.Dota2.CMatchPlayerTimedStats)">
+  Equals(CMatchPlayerTimedStats)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CMatchPlayerTimedStats other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Equals_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_GetHashCode" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_MergeFrom_Divine_Protobufs_Dota2_CMatchPlayerTimedStats_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.MergeFrom(Divine.Protobufs.Dota2.CMatchPlayerTimedStats)">
+  MergeFrom(CMatchPlayerTimedStats)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CMatchPlayerTimedStats other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.html">CMatchPlayerTimedStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ToString_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_ToString" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_WriteTo_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CMatchPlayerTimedStats_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CMatchPlayerTimedStats.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

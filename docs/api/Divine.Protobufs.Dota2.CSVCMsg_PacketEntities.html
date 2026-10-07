@@ -1,0 +1,2981 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CSVCMsg_PacketEntities | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CSVCMsg_PacketEntities | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities" class="text-break">
+Class CSVCMsg_PacketEntities  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CSVCMsg_PacketEntities : IMessage&lt;CSVCMsg_PacketEntities&gt;, IEquatable&lt;CSVCMsg_PacketEntities&gt;, IDeepCloneable&lt;CSVCMsg_PacketEntities&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CSVCMsg_PacketEntities</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities__ctor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities__ctor" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.#ctor">
+  CSVCMsg_PacketEntities()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_PacketEntities()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities__ctor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities__ctor_Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.#ctor(Divine.Protobufs.Dota2.CSVCMsg_PacketEntities)">
+  CSVCMsg_PacketEntities(CSVCMsg_PacketEntities)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_PacketEntities(CSVCMsg_PacketEntities other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ActiveSpawngroupHandleFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ActiveSpawngroupHandleFieldNumber">
+  ActiveSpawngroupHandleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ActiveSpawngroupHandleFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_AlternateBaselinesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.AlternateBaselinesFieldNumber">
+  AlternateBaselinesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AlternateBaselinesFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_BaselineFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.BaselineFieldNumber">
+  BaselineFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BaselineFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CmdRecvStatusFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CmdRecvStatusFieldNumber">
+  CmdRecvStatusFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CmdRecvStatusFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqDiscardedCommandTicksFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqDiscardedCommandTicksFieldNumber">
+  CqDiscardedCommandTicksFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CqDiscardedCommandTicksFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqStarvedCommandTicksFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqStarvedCommandTicksFieldNumber">
+  CqStarvedCommandTicksFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CqStarvedCommandTicksFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DeltaFromFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DeltaFromFieldNumber">
+  DeltaFromFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DeltaFromFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DevPaddingFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DevPaddingFieldNumber">
+  DevPaddingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DevPaddingFieldNumber = 999</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_EntityDataFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.EntityDataFieldNumber">
+  EntityDataFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EntityDataFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasPvsVisBitsDeprecatedFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasPvsVisBitsDeprecatedFieldNumber">
+  HasPvsVisBitsDeprecatedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HasPvsVisBitsDeprecatedFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberExecutedFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberExecutedFieldNumber">
+  LastCmdNumberExecutedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastCmdNumberExecutedFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberRecvDeltaFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberRecvDeltaFieldNumber">
+  LastCmdNumberRecvDeltaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastCmdNumberRecvDeltaFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LegacyIsDeltaFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LegacyIsDeltaFieldNumber">
+  LegacyIsDeltaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LegacyIsDeltaFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxEntriesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxEntriesFieldNumber">
+  MaxEntriesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxEntriesFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxSpawngroupCreationsequenceFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxSpawngroupCreationsequenceFieldNumber">
+  MaxSpawngroupCreationsequenceFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxSpawngroupCreationsequenceFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_NonTransmittedEntitiesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.NonTransmittedEntitiesFieldNumber">
+  NonTransmittedEntitiesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NonTransmittedEntitiesFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_OutofpvsEntityUpdatesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.OutofpvsEntityUpdatesFieldNumber">
+  OutofpvsEntityUpdatesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OutofpvsEntityUpdatesFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_PendingFullFrameFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.PendingFullFrameFieldNumber">
+  PendingFullFrameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PendingFullFrameFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_SerializedEntitiesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.SerializedEntitiesFieldNumber">
+  SerializedEntitiesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SerializedEntitiesFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ServerTickFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ServerTickFieldNumber">
+  ServerTickFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ServerTickFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdateBaselineFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdateBaselineFieldNumber">
+  UpdateBaselineFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdateBaselineFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdatedEntriesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdatedEntriesFieldNumber">
+  UpdatedEntriesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int UpdatedEntriesFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ActiveSpawngroupHandle_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ActiveSpawngroupHandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ActiveSpawngroupHandle" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ActiveSpawngroupHandle">
+  ActiveSpawngroupHandle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ActiveSpawngroupHandle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_AlternateBaselines_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.AlternateBaselines*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_AlternateBaselines" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.AlternateBaselines">
+  AlternateBaselines
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CSVCMsg_PacketEntities.Types.alternate_baseline_t&gt; AlternateBaselines { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.alternate_baseline_t.html">alternate_baseline_t</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Baseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Baseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Baseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Baseline">
+  Baseline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Baseline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CmdRecvStatus_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CmdRecvStatus*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CmdRecvStatus" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CmdRecvStatus">
+  CmdRecvStatus
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;int&gt; CmdRecvStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqDiscardedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqDiscardedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqDiscardedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqDiscardedCommandTicks">
+  CqDiscardedCommandTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CqDiscardedCommandTicks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqStarvedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqStarvedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CqStarvedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CqStarvedCommandTicks">
+  CqStarvedCommandTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CqStarvedCommandTicks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DeltaFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DeltaFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DeltaFrom" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DeltaFrom">
+  DeltaFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DeltaFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Descriptor_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Descriptor" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DevPadding_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DevPadding*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_DevPadding" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.DevPadding">
+  DevPadding
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString DevPadding { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_EntityData_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.EntityData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_EntityData" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.EntityData">
+  EntityData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString EntityData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasActiveSpawngroupHandle_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasActiveSpawngroupHandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasActiveSpawngroupHandle" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasActiveSpawngroupHandle">
+  HasActiveSpawngroupHandle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActiveSpawngroupHandle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasBaseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasBaseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasBaseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasBaseline">
+  HasBaseline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBaseline { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasCqDiscardedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasCqDiscardedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasCqDiscardedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasCqDiscardedCommandTicks">
+  HasCqDiscardedCommandTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCqDiscardedCommandTicks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasCqStarvedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasCqStarvedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasCqStarvedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasCqStarvedCommandTicks">
+  HasCqStarvedCommandTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCqStarvedCommandTicks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasDeltaFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasDeltaFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasDeltaFrom" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasDeltaFrom">
+  HasDeltaFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDeltaFrom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasDevPadding_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasDevPadding*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasDevPadding" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasDevPadding">
+  HasDevPadding
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDevPadding { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasEntityData_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasEntityData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasEntityData" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasEntityData">
+  HasEntityData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEntityData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasHasPvsVisBitsDeprecated_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasHasPvsVisBitsDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasHasPvsVisBitsDeprecated" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasHasPvsVisBitsDeprecated">
+  HasHasPvsVisBitsDeprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHasPvsVisBitsDeprecated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLastCmdNumberExecuted_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLastCmdNumberExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLastCmdNumberExecuted" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLastCmdNumberExecuted">
+  HasLastCmdNumberExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLastCmdNumberExecuted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLastCmdNumberRecvDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLastCmdNumberRecvDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLastCmdNumberRecvDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLastCmdNumberRecvDelta">
+  HasLastCmdNumberRecvDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLastCmdNumberRecvDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLegacyIsDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLegacyIsDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasLegacyIsDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasLegacyIsDelta">
+  HasLegacyIsDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLegacyIsDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasMaxEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasMaxEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasMaxEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasMaxEntries">
+  HasMaxEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxEntries { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasMaxSpawngroupCreationsequence_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasMaxSpawngroupCreationsequence*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasMaxSpawngroupCreationsequence" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasMaxSpawngroupCreationsequence">
+  HasMaxSpawngroupCreationsequence
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMaxSpawngroupCreationsequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasPendingFullFrame_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasPendingFullFrame*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasPendingFullFrame" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasPendingFullFrame">
+  HasPendingFullFrame
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPendingFullFrame { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasPvsVisBitsDeprecated_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasPvsVisBitsDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasPvsVisBitsDeprecated" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasPvsVisBitsDeprecated">
+  HasPvsVisBitsDeprecated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint HasPvsVisBitsDeprecated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasSerializedEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasSerializedEntities*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasSerializedEntities" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasSerializedEntities">
+  HasSerializedEntities
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSerializedEntities { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasServerTick_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasServerTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasServerTick" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasServerTick">
+  HasServerTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasServerTick { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasUpdateBaseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasUpdateBaseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasUpdateBaseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasUpdateBaseline">
+  HasUpdateBaseline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUpdateBaseline { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasUpdatedEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasUpdatedEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_HasUpdatedEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.HasUpdatedEntries">
+  HasUpdatedEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasUpdatedEntries { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberExecuted_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberExecuted" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberExecuted">
+  LastCmdNumberExecuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LastCmdNumberExecuted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberRecvDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberRecvDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LastCmdNumberRecvDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LastCmdNumberRecvDelta">
+  LastCmdNumberRecvDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LastCmdNumberRecvDelta { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LegacyIsDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LegacyIsDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_LegacyIsDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.LegacyIsDelta">
+  LegacyIsDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LegacyIsDelta { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxEntries">
+  MaxEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxEntries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxSpawngroupCreationsequence_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxSpawngroupCreationsequence*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MaxSpawngroupCreationsequence" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MaxSpawngroupCreationsequence">
+  MaxSpawngroupCreationsequence
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MaxSpawngroupCreationsequence { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_NonTransmittedEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.NonTransmittedEntities*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_NonTransmittedEntities" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.NonTransmittedEntities">
+  NonTransmittedEntities
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_PacketEntities.Types.non_transmitted_entities_t NonTransmittedEntities { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.non_transmitted_entities_t.html">non_transmitted_entities_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_OutofpvsEntityUpdates_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.OutofpvsEntityUpdates*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_OutofpvsEntityUpdates" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.OutofpvsEntityUpdates">
+  OutofpvsEntityUpdates
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_PacketEntities.Types.outofpvs_entity_updates_t OutofpvsEntityUpdates { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Types.outofpvs_entity_updates_t.html">outofpvs_entity_updates_t</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Parser_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Parser" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CSVCMsg_PacketEntities&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_PendingFullFrame_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.PendingFullFrame*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_PendingFullFrame" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.PendingFullFrame">
+  PendingFullFrame
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PendingFullFrame { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_SerializedEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.SerializedEntities*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_SerializedEntities" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.SerializedEntities">
+  SerializedEntities
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ByteString SerializedEntities { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ByteString</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ServerTick_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ServerTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ServerTick" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ServerTick">
+  ServerTick
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ServerTick { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdateBaseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdateBaseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdateBaseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdateBaseline">
+  UpdateBaseline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateBaseline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdatedEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdatedEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_UpdatedEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.UpdatedEntries">
+  UpdatedEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UpdatedEntries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_CalculateSize" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearActiveSpawngroupHandle_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearActiveSpawngroupHandle*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearActiveSpawngroupHandle" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearActiveSpawngroupHandle">
+  ClearActiveSpawngroupHandle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActiveSpawngroupHandle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearBaseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearBaseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearBaseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearBaseline">
+  ClearBaseline()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBaseline()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearCqDiscardedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearCqDiscardedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearCqDiscardedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearCqDiscardedCommandTicks">
+  ClearCqDiscardedCommandTicks()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCqDiscardedCommandTicks()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearCqStarvedCommandTicks_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearCqStarvedCommandTicks*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearCqStarvedCommandTicks" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearCqStarvedCommandTicks">
+  ClearCqStarvedCommandTicks()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCqStarvedCommandTicks()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearDeltaFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearDeltaFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearDeltaFrom" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearDeltaFrom">
+  ClearDeltaFrom()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDeltaFrom()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearDevPadding_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearDevPadding*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearDevPadding" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearDevPadding">
+  ClearDevPadding()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDevPadding()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearEntityData_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearEntityData*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearEntityData" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearEntityData">
+  ClearEntityData()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEntityData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearHasPvsVisBitsDeprecated_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearHasPvsVisBitsDeprecated*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearHasPvsVisBitsDeprecated" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearHasPvsVisBitsDeprecated">
+  ClearHasPvsVisBitsDeprecated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHasPvsVisBitsDeprecated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLastCmdNumberExecuted_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLastCmdNumberExecuted*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLastCmdNumberExecuted" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLastCmdNumberExecuted">
+  ClearLastCmdNumberExecuted()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLastCmdNumberExecuted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLastCmdNumberRecvDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLastCmdNumberRecvDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLastCmdNumberRecvDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLastCmdNumberRecvDelta">
+  ClearLastCmdNumberRecvDelta()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLastCmdNumberRecvDelta()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLegacyIsDelta_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLegacyIsDelta*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearLegacyIsDelta" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearLegacyIsDelta">
+  ClearLegacyIsDelta()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLegacyIsDelta()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearMaxEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearMaxEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearMaxEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearMaxEntries">
+  ClearMaxEntries()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxEntries()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearMaxSpawngroupCreationsequence_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearMaxSpawngroupCreationsequence*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearMaxSpawngroupCreationsequence" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearMaxSpawngroupCreationsequence">
+  ClearMaxSpawngroupCreationsequence()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMaxSpawngroupCreationsequence()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearPendingFullFrame_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearPendingFullFrame*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearPendingFullFrame" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearPendingFullFrame">
+  ClearPendingFullFrame()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPendingFullFrame()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearSerializedEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearSerializedEntities*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearSerializedEntities" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearSerializedEntities">
+  ClearSerializedEntities()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSerializedEntities()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearServerTick_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearServerTick*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearServerTick" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearServerTick">
+  ClearServerTick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearServerTick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearUpdateBaseline_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearUpdateBaseline*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearUpdateBaseline" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearUpdateBaseline">
+  ClearUpdateBaseline()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUpdateBaseline()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearUpdatedEntries_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearUpdatedEntries*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ClearUpdatedEntries" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ClearUpdatedEntries">
+  ClearUpdatedEntries()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearUpdatedEntries()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Clone_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Clone" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSVCMsg_PacketEntities Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Equals_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Equals_Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Equals(Divine.Protobufs.Dota2.CSVCMsg_PacketEntities)">
+  Equals(CSVCMsg_PacketEntities)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CSVCMsg_PacketEntities other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Equals_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_GetHashCode" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MergeFrom_Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MergeFrom(Divine.Protobufs.Dota2.CSVCMsg_PacketEntities)">
+  MergeFrom(CSVCMsg_PacketEntities)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CSVCMsg_PacketEntities other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.html">CSVCMsg_PacketEntities</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ToString_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_ToString" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_WriteTo_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSVCMsg_PacketEntities_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CSVCMsg_PacketEntities.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

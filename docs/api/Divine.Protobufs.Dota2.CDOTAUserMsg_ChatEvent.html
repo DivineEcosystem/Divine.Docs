@@ -1,0 +1,1911 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CDOTAUserMsg_ChatEvent | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CDOTAUserMsg_ChatEvent | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent" class="text-break">
+Class CDOTAUserMsg_ChatEvent  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CDOTAUserMsg_ChatEvent : IMessage&lt;CDOTAUserMsg_ChatEvent&gt;, IEquatable&lt;CDOTAUserMsg_ChatEvent&gt;, IDeepCloneable&lt;CDOTAUserMsg_ChatEvent&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CDOTAUserMsg_ChatEvent</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent__ctor" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.#ctor">
+  CDOTAUserMsg_ChatEvent()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAUserMsg_ChatEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent__ctor_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent__ctor_Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.#ctor(Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent)">
+  CDOTAUserMsg_ChatEvent(CDOTAUserMsg_ChatEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAUserMsg_ChatEvent(CDOTAUserMsg_ChatEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid1FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid1FieldNumber">
+  Playerid1FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid1FieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid2FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid2FieldNumber">
+  Playerid2FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid2FieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid3FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid3FieldNumber">
+  Playerid3FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid3FieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid4FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid4FieldNumber">
+  Playerid4FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid4FieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid5FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid5FieldNumber">
+  Playerid5FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid5FieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid6FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid6FieldNumber">
+  Playerid6FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Playerid6FieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_TimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.TimeFieldNumber">
+  TimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimeFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_TypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.TypeFieldNumber">
+  TypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value2FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value2FieldNumber">
+  Value2FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Value2FieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value3FieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value3FieldNumber">
+  Value3FieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Value3FieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ValueFieldNumber" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ValueFieldNumber">
+  ValueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ValueFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Descriptor_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Descriptor" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid1_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid1" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid1">
+  HasPlayerid1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid2">
+  HasPlayerid2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid3">
+  HasPlayerid3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid4_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid4" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid4">
+  HasPlayerid4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid5_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid5" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid5">
+  HasPlayerid5
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid5 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid6_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid6*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasPlayerid6" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasPlayerid6">
+  HasPlayerid6
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPlayerid6 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasTime_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasTime" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasTime">
+  HasTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasType_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasType" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasType">
+  HasType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue">
+  HasValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue2">
+  HasValue2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValue2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_HasValue3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.HasValue3">
+  HasValue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Parser_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Parser" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CDOTAUserMsg_ChatEvent&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid1_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid1" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid1">
+  Playerid1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid2">
+  Playerid2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid3">
+  Playerid3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid4_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid4" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid4">
+  Playerid4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid5_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid5" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid5">
+  Playerid5
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid6_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid6*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Playerid6" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Playerid6">
+  Playerid6
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Playerid6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Time_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Time*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Time" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Time">
+  Time
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Time { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Type_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Type*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Type" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Type">
+  Type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTA_CHAT_MESSAGE Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.DOTA_CHAT_MESSAGE.html">DOTA_CHAT_MESSAGE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value">
+  Value
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value2">
+  Value2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Value2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Value3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Value3">
+  Value3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Value3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_CalculateSize" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid1_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid1*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid1" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid1">
+  ClearPlayerid1()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid1()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid2">
+  ClearPlayerid2()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid2()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid3">
+  ClearPlayerid3()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid3()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid4_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid4*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid4" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid4">
+  ClearPlayerid4()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid4()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid5_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid5*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid5" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid5">
+  ClearPlayerid5()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid5()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid6_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid6*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearPlayerid6" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearPlayerid6">
+  ClearPlayerid6()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPlayerid6()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearTime_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearTime" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearTime">
+  ClearTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearType_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearType" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearType">
+  ClearType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue">
+  ClearValue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearValue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue2_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue2*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue2" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue2">
+  ClearValue2()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearValue2()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue3_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue3*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ClearValue3" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ClearValue3">
+  ClearValue3()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearValue3()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Clone_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Clone" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CDOTAUserMsg_ChatEvent Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Equals_Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Equals(Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent)">
+  Equals(CDOTAUserMsg_ChatEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CDOTAUserMsg_ChatEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Equals_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_GetHashCode" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_MergeFrom_Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.MergeFrom(Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent)">
+  MergeFrom(CDOTAUserMsg_ChatEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CDOTAUserMsg_ChatEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.html">CDOTAUserMsg_ChatEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ToString_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_ToString" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_WriteTo_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CDOTAUserMsg_ChatEvent_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CDOTAUserMsg_ChatEvent.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,6936 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CSODOTAParty | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CSODOTAParty | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Protobufs.Dota2.CSODOTAParty">
+
+
+
+  <h1 id="Divine_Protobufs_Dota2_CSODOTAParty" data-uid="Divine.Protobufs.Dota2.CSODOTAParty" class="text-break">
+Class CSODOTAParty  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Protobufs.html">Protobufs</a>.<a class="xref" href="Divine.Protobufs.Dota2.html">Dota2</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.Protobufs.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CSODOTAParty : IMessage&lt;CSODOTAParty&gt;, IEquatable&lt;CSODOTAParty&gt;, IDeepCloneable&lt;CSODOTAParty&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CSODOTAParty</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, params T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_Dump_System_Object_System_Boolean_">ObjectExtensions.Dump(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToConsole_System_Object_System_Boolean_">ObjectExtensions.DumpToConsole(object?, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.ObjectExtensions.html#Divine_Extensions_ObjectExtensions_DumpToLogDebug_System_Object_System_Boolean_">ObjectExtensions.DumpToLogDebug(object?, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty__ctor_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty__ctor" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.#ctor">
+  CSODOTAParty()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSODOTAParty()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty__ctor_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.#ctor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty__ctor_Divine_Protobufs_Dota2_CSODOTAParty_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.#ctor(Divine.Protobufs.Dota2.CSODOTAParty)">
+  CSODOTAParty(CSODOTAParty)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSODOTAParty(CSODOTAParty other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AccountFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AccountFlagsFieldNumber">
+  AccountFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccountFlagsFieldNumber = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptNumFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptNumFieldNumber">
+  AttemptNumFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AttemptNumFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptStartTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptStartTimeFieldNumber">
+  AttemptStartTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AttemptStartTimeFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BehaviorScoreLikertScaleFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BehaviorScoreLikertScaleFieldNumber">
+  BehaviorScoreLikertScaleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BehaviorScoreLikertScaleFieldNumber = 77</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BotDifficultyMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotDifficultyMaskFieldNumber">
+  BotDifficultyMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BotDifficultyMaskFieldNumber = 72</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BotScriptIndexMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotScriptIndexMaskFieldNumber">
+  BotScriptIndexMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BotScriptIndexMaskFieldNumber = 73</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ContainsRequiredPlaytesterFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ContainsRequiredPlaytesterFieldNumber">
+  ContainsRequiredPlaytesterFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ContainsRequiredPlaytesterFieldNumber = 78</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyMaskFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDifficultyMaskFieldNumber">
+  CustomGameDifficultyMaskFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameDifficultyMaskFieldNumber = 70</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledAccountIdFieldNumber">
+  CustomGameDisabledAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameDisabledAccountIdFieldNumber = 64</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledUntilDateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledUntilDateFieldNumber">
+  CustomGameDisabledUntilDateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CustomGameDisabledUntilDateFieldNumber = 63</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_EffectiveStartedMatchmakingTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.EffectiveStartedMatchmakingTimeFieldNumber">
+  EffectiveStartedMatchmakingTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EffectiveStartedMatchmakingTimeFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ExclusiveTournamentIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ExclusiveTournamentIdFieldNumber">
+  ExclusiveTournamentIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExclusiveTournamentIdFieldNumber = 45</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_GameModesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.GameModesFieldNumber">
+  GameModesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GameModesFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HighPriorityStateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HighPriorityStateFieldNumber">
+  HighPriorityStateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HighPriorityStateFieldNumber = 68</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_IsChallengeMatchFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsChallengeMatchFieldNumber">
+  IsChallengeMatchFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsChallengeMatchFieldNumber = 65</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_IsSteamChinaFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsSteamChinaFieldNumber">
+  IsSteamChinaFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IsSteamChinaFieldNumber = 71</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LaneSelectionsEnabledFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LaneSelectionsEnabledFieldNumber">
+  LaneSelectionsEnabledFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LaneSelectionsEnabledFieldNumber = 69</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LeaderIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LeaderIdFieldNumber">
+  LeaderIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LeaderIdFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityAccountIdFieldNumber">
+  LowPriorityAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LowPriorityAccountIdFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityGamesRemainingFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityGamesRemainingFieldNumber">
+  LowPriorityGamesRemainingFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LowPriorityGamesRemainingFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledAccountIdFieldNumber">
+  MatchDisabledAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchDisabledAccountIdFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledUntilDateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledUntilDateFieldNumber">
+  MatchDisabledUntilDateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchDisabledUntilDateFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchTypeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchTypeFieldNumber">
+  MatchTypeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchTypeFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchgroupsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchgroupsFieldNumber">
+  MatchgroupsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchgroupsFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchlanguagesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchlanguagesFieldNumber">
+  MatchlanguagesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchlanguagesFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingFlagsFieldNumber">
+  MatchmakingFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchmakingFlagsFieldNumber = 67</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingMaxRangeMinutesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingMaxRangeMinutesFieldNumber">
+  MatchmakingMaxRangeMinutesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MatchmakingMaxRangeMinutesFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MemberIdsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MemberIdsFieldNumber">
+  MemberIdsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MemberIdsFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MembersFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MembersFieldNumber">
+  MembersFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MembersFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_OpenForJoinRequestsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.OpenForJoinRequestsFieldNumber">
+  OpenForJoinRequestsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int OpenForJoinRequestsFieldNumber = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderMatchGroupsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderMatchGroupsFieldNumber">
+  PartyBuilderMatchGroupsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartyBuilderMatchGroupsFieldNumber = 57</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderSlotsToFillFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderSlotsToFillFieldNumber">
+  PartyBuilderSlotsToFillFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartyBuilderSlotsToFillFieldNumber = 56</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderStartTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderStartTimeFieldNumber">
+  PartyBuilderStartTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartyBuilderStartTimeFieldNumber = 58</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyIdFieldNumber">
+  PartyIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartyIdFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartySearchBeaconActiveFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartySearchBeaconActiveFieldNumber">
+  PartySearchBeaconActiveFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PartySearchBeaconActiveFieldNumber = 66</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RankSpreadLikertScaleFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RankSpreadLikertScaleFieldNumber">
+  RankSpreadLikertScaleFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RankSpreadLikertScaleFieldNumber = 76</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RawStartedMatchmakingTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RawStartedMatchmakingTimeFieldNumber">
+  RawStartedMatchmakingTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RawStartedMatchmakingTimeFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ReadyCheckFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ReadyCheckFieldNumber">
+  ReadyCheckFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReadyCheckFieldNumber = 62</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RecvInvitesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RecvInvitesFieldNumber">
+  RecvInvitesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RecvInvitesFieldNumber = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RegionSelectFlagsFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RegionSelectFlagsFieldNumber">
+  RegionSelectFlagsFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RegionSelectFlagsFieldNumber = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRankedAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRankedAccountIdFieldNumber">
+  RestrictedFromRankedAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RestrictedFromRankedAccountIdFieldNumber = 75</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRankedFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRankedFieldNumber">
+  RestrictedFromRankedFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RestrictedFromRankedFieldNumber = 74</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SentInvitesFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SentInvitesFieldNumber">
+  SentInvitesFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SentInvitesFieldNumber = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SoloQueueFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SoloQueueFieldNumber">
+  SoloQueueFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SoloQueueFieldNumber = 59</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_StateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.StateFieldNumber">
+  StateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StateFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SteamClanAccountIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SteamClanAccountIdFieldNumber">
+  SteamClanAccountIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SteamClanAccountIdFieldNumber = 61</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamBaseLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamBaseLogoFieldNumber">
+  TeamBaseLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamBaseLogoFieldNumber = 53</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamIdFieldNumber">
+  TeamIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamIdFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamNameFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamNameFieldNumber">
+  TeamNameFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamNameFieldNumber = 51</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamUiLogoFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamUiLogoFieldNumber">
+  TeamUiLogoFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TeamUiLogoFieldNumber = 52</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyBracketRoundFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyBracketRoundFieldNumber">
+  TourneyBracketRoundFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneyBracketRoundFieldNumber = 50</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyDivisionIdFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyDivisionIdFieldNumber">
+  TourneyDivisionIdFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneyDivisionIdFieldNumber = 47</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineStateFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineStateFieldNumber">
+  TourneyQueueDeadlineStateFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneyQueueDeadlineStateFieldNumber = 55</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineTimeFieldNumber">
+  TourneyQueueDeadlineTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneyQueueDeadlineTimeFieldNumber = 54</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyScheduleTimeFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyScheduleTimeFieldNumber">
+  TourneyScheduleTimeFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneyScheduleTimeFieldNumber = 48</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneySkillLevelFieldNumber" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneySkillLevelFieldNumber">
+  TourneySkillLevelFieldNumber
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TourneySkillLevelFieldNumber = 49</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_AccountFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AccountFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AccountFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AccountFlags">
+  AccountFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AccountFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptNum_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptNum" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptNum">
+  AttemptNum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AttemptNum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_AttemptStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.AttemptStartTime">
+  AttemptStartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint AttemptStartTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_BehaviorScoreLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BehaviorScoreLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BehaviorScoreLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BehaviorScoreLikertScale">
+  BehaviorScoreLikertScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BehaviorScoreLikertScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_BotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotDifficultyMask">
+  BotDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BotDifficultyMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_BotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_BotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.BotScriptIndexMask">
+  BotScriptIndexMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint BotScriptIndexMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ContainsRequiredPlaytester_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ContainsRequiredPlaytester*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ContainsRequiredPlaytester" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ContainsRequiredPlaytester">
+  ContainsRequiredPlaytester
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsRequiredPlaytester { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDifficultyMask">
+  CustomGameDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomGameDifficultyMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledAccountId">
+  CustomGameDisabledAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomGameDisabledAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CustomGameDisabledUntilDate">
+  CustomGameDisabledUntilDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint CustomGameDisabledUntilDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Descriptor_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Descriptor*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Descriptor" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Descriptor">
+  Descriptor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_EffectiveStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.EffectiveStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_EffectiveStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.EffectiveStartedMatchmakingTime">
+  EffectiveStartedMatchmakingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint EffectiveStartedMatchmakingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ExclusiveTournamentId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ExclusiveTournamentId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ExclusiveTournamentId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ExclusiveTournamentId">
+  ExclusiveTournamentId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExclusiveTournamentId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_GameModes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.GameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_GameModes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.GameModes">
+  GameModes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GameModes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasAccountFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAccountFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasAccountFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAccountFlags">
+  HasAccountFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAccountFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasAttemptNum_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAttemptNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasAttemptNum" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAttemptNum">
+  HasAttemptNum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAttemptNum { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasAttemptStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAttemptStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasAttemptStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasAttemptStartTime">
+  HasAttemptStartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAttemptStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasBehaviorScoreLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBehaviorScoreLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasBehaviorScoreLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBehaviorScoreLikertScale">
+  HasBehaviorScoreLikertScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBehaviorScoreLikertScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasBotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasBotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBotDifficultyMask">
+  HasBotDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBotDifficultyMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasBotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasBotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasBotScriptIndexMask">
+  HasBotScriptIndexMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBotScriptIndexMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasContainsRequiredPlaytester_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasContainsRequiredPlaytester*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasContainsRequiredPlaytester" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasContainsRequiredPlaytester">
+  HasContainsRequiredPlaytester
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasContainsRequiredPlaytester { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDifficultyMask">
+  HasCustomGameDifficultyMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomGameDifficultyMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDisabledAccountId">
+  HasCustomGameDisabledAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomGameDisabledAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasCustomGameDisabledUntilDate">
+  HasCustomGameDisabledUntilDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCustomGameDisabledUntilDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasEffectiveStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasEffectiveStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasEffectiveStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasEffectiveStartedMatchmakingTime">
+  HasEffectiveStartedMatchmakingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEffectiveStartedMatchmakingTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasExclusiveTournamentId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasExclusiveTournamentId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasExclusiveTournamentId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasExclusiveTournamentId">
+  HasExclusiveTournamentId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExclusiveTournamentId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasGameModes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasGameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasGameModes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasGameModes">
+  HasGameModes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGameModes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasHighPriorityState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasHighPriorityState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasHighPriorityState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasHighPriorityState">
+  HasHighPriorityState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasHighPriorityState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasIsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasIsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasIsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasIsChallengeMatch">
+  HasIsChallengeMatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsChallengeMatch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasIsSteamChina_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasIsSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasIsSteamChina" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasIsSteamChina">
+  HasIsSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasIsSteamChina { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasLaneSelectionsEnabled_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLaneSelectionsEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasLaneSelectionsEnabled" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLaneSelectionsEnabled">
+  HasLaneSelectionsEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLaneSelectionsEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasLeaderId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLeaderId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasLeaderId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLeaderId">
+  HasLeaderId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLeaderId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasLowPriorityAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLowPriorityAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasLowPriorityAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLowPriorityAccountId">
+  HasLowPriorityAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLowPriorityAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasLowPriorityGamesRemaining_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLowPriorityGamesRemaining*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasLowPriorityGamesRemaining" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasLowPriorityGamesRemaining">
+  HasLowPriorityGamesRemaining
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLowPriorityGamesRemaining { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchDisabledAccountId">
+  HasMatchDisabledAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchDisabledAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchDisabledUntilDate">
+  HasMatchDisabledUntilDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchDisabledUntilDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchType_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchType" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchType">
+  HasMatchType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchgroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchgroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchgroups">
+  HasMatchgroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchgroups { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchlanguages_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchlanguages" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchlanguages">
+  HasMatchlanguages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchlanguages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchmakingFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchmakingFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchmakingFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchmakingFlags">
+  HasMatchmakingFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchmakingFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchmakingMaxRangeMinutes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchmakingMaxRangeMinutes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasMatchmakingMaxRangeMinutes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasMatchmakingMaxRangeMinutes">
+  HasMatchmakingMaxRangeMinutes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMatchmakingMaxRangeMinutes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasOpenForJoinRequests_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasOpenForJoinRequests*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasOpenForJoinRequests" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasOpenForJoinRequests">
+  HasOpenForJoinRequests
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOpenForJoinRequests { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderMatchGroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderMatchGroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderMatchGroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderMatchGroups">
+  HasPartyBuilderMatchGroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPartyBuilderMatchGroups { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderSlotsToFill_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderSlotsToFill*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderSlotsToFill" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderSlotsToFill">
+  HasPartyBuilderSlotsToFill
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPartyBuilderSlotsToFill { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyBuilderStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyBuilderStartTime">
+  HasPartyBuilderStartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPartyBuilderStartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartyId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartyId">
+  HasPartyId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPartyId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartySearchBeaconActive_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartySearchBeaconActive*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasPartySearchBeaconActive" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasPartySearchBeaconActive">
+  HasPartySearchBeaconActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPartySearchBeaconActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasRankSpreadLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRankSpreadLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasRankSpreadLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRankSpreadLikertScale">
+  HasRankSpreadLikertScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRankSpreadLikertScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasRawStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRawStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasRawStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRawStartedMatchmakingTime">
+  HasRawStartedMatchmakingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRawStartedMatchmakingTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasRegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasRegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRegionSelectFlags">
+  HasRegionSelectFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRegionSelectFlags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasRestrictedFromRanked_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRestrictedFromRanked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasRestrictedFromRanked" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRestrictedFromRanked">
+  HasRestrictedFromRanked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRestrictedFromRanked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasRestrictedFromRankedAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRestrictedFromRankedAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasRestrictedFromRankedAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasRestrictedFromRankedAccountId">
+  HasRestrictedFromRankedAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasRestrictedFromRankedAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasSoloQueue_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasSoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasSoloQueue" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasSoloQueue">
+  HasSoloQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSoloQueue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasState">
+  HasState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasSteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasSteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasSteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasSteamClanAccountId">
+  HasSteamClanAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSteamClanAccountId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamBaseLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamBaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamBaseLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamBaseLogo">
+  HasTeamBaseLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamBaseLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamId">
+  HasTeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamName_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamName" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamName">
+  HasTeamName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamUiLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamUiLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTeamUiLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTeamUiLogo">
+  HasTeamUiLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTeamUiLogo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyBracketRound_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyBracketRound*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyBracketRound" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyBracketRound">
+  HasTourneyBracketRound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneyBracketRound { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyDivisionId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyDivisionId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyDivisionId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyDivisionId">
+  HasTourneyDivisionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneyDivisionId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyQueueDeadlineState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyQueueDeadlineState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyQueueDeadlineState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyQueueDeadlineState">
+  HasTourneyQueueDeadlineState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneyQueueDeadlineState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyQueueDeadlineTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyQueueDeadlineTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyQueueDeadlineTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyQueueDeadlineTime">
+  HasTourneyQueueDeadlineTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneyQueueDeadlineTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyScheduleTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyScheduleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneyScheduleTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneyScheduleTime">
+  HasTourneyScheduleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneyScheduleTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneySkillLevel_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneySkillLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HasTourneySkillLevel" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HasTourneySkillLevel">
+  HasTourneySkillLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTourneySkillLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_HighPriorityState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HighPriorityState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_HighPriorityState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.HighPriorityState">
+  HighPriorityState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EHighPriorityMMState HighPriorityState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.EHighPriorityMMState.html">EHighPriorityMMState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_IsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_IsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsChallengeMatch">
+  IsChallengeMatch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChallengeMatch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_IsSteamChina_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_IsSteamChina" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.IsSteamChina">
+  IsSteamChina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSteamChina { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_LaneSelectionsEnabled_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LaneSelectionsEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LaneSelectionsEnabled" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LaneSelectionsEnabled">
+  LaneSelectionsEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LaneSelectionsEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_LeaderId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LeaderId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LeaderId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LeaderId">
+  LeaderId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong LeaderId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityAccountId">
+  LowPriorityAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LowPriorityAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityGamesRemaining_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityGamesRemaining*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_LowPriorityGamesRemaining" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.LowPriorityGamesRemaining">
+  LowPriorityGamesRemaining
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint LowPriorityGamesRemaining { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledAccountId">
+  MatchDisabledAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchDisabledAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchDisabledUntilDate">
+  MatchDisabledUntilDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchDisabledUntilDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MatchType_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchType" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchType">
+  MatchType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchType MatchType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.MatchType.html">MatchType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Matchgroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Matchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Matchgroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Matchgroups">
+  Matchgroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Matchgroups { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Matchlanguages_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Matchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Matchlanguages" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Matchlanguages">
+  Matchlanguages
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Matchlanguages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingFlags">
+  MatchmakingFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchmakingFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingMaxRangeMinutes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingMaxRangeMinutes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MatchmakingMaxRangeMinutes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MatchmakingMaxRangeMinutes">
+  MatchmakingMaxRangeMinutes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint MatchmakingMaxRangeMinutes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MemberIds_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MemberIds*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MemberIds" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MemberIds">
+  MemberIds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;ulong&gt; MemberIds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Members_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Members*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Members" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Members">
+  Members
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CSODOTAPartyMember&gt; Members { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAPartyMember.html">CSODOTAPartyMember</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_OpenForJoinRequests_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.OpenForJoinRequests*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_OpenForJoinRequests" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.OpenForJoinRequests">
+  OpenForJoinRequests
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OpenForJoinRequests { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Parser_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Parser*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Parser" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Parser">
+  Parser
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;CSODOTAParty&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderMatchGroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderMatchGroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderMatchGroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderMatchGroups">
+  PartyBuilderMatchGroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PartyBuilderMatchGroups { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderSlotsToFill_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderSlotsToFill*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderSlotsToFill" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderSlotsToFill">
+  PartyBuilderSlotsToFill
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PartyBuilderSlotsToFill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyBuilderStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyBuilderStartTime">
+  PartyBuilderStartTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint PartyBuilderStartTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_PartyId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartyId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartyId">
+  PartyId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PartyId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_PartySearchBeaconActive_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartySearchBeaconActive*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_PartySearchBeaconActive" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.PartySearchBeaconActive">
+  PartySearchBeaconActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PartySearchBeaconActive { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RankSpreadLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RankSpreadLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RankSpreadLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RankSpreadLikertScale">
+  RankSpreadLikertScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RankSpreadLikertScale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RawStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RawStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RawStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RawStartedMatchmakingTime">
+  RawStartedMatchmakingTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RawStartedMatchmakingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ReadyCheck_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ReadyCheck*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ReadyCheck" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ReadyCheck">
+  ReadyCheck
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CMsgReadyCheckStatus ReadyCheck { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CMsgReadyCheckStatus.html">CMsgReadyCheckStatus</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RecvInvites_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RecvInvites*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RecvInvites" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RecvInvites">
+  RecvInvites
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CSODOTAPartyInvite&gt; RecvInvites { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAPartyInvite.html">CSODOTAPartyInvite</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RegionSelectFlags">
+  RegionSelectFlags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RegionSelectFlags { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRanked_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRanked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRanked" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRanked">
+  RestrictedFromRanked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RestrictedFromRanked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRankedAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRankedAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_RestrictedFromRankedAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.RestrictedFromRankedAccountId">
+  RestrictedFromRankedAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RestrictedFromRankedAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_SentInvites_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SentInvites*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SentInvites" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SentInvites">
+  SentInvites
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepeatedField&lt;CSODOTAPartyInvite&gt; SentInvites { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RepeatedField</span>&lt;<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAPartyInvite.html">CSODOTAPartyInvite</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_SoloQueue_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SoloQueue" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SoloQueue">
+  SoloQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SoloQueue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_State_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.State*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_State" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.State">
+  State
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSODOTAParty.Types.State State { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.Types.html">Types</a>.<a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.Types.State.html">State</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_SteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_SteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.SteamClanAccountId">
+  SteamClanAccountId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint SteamClanAccountId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TeamBaseLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamBaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamBaseLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamBaseLogo">
+  TeamBaseLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong TeamBaseLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TeamId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamId">
+  TeamId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TeamId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TeamName_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamName" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamName">
+  TeamName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TeamName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TeamUiLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamUiLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TeamUiLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TeamUiLogo">
+  TeamUiLogo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong TeamUiLogo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyBracketRound_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyBracketRound*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyBracketRound" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyBracketRound">
+  TourneyBracketRound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TourneyBracketRound { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyDivisionId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyDivisionId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyDivisionId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyDivisionId">
+  TourneyDivisionId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TourneyDivisionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineState">
+  TourneyQueueDeadlineState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ETourneyQueueDeadlineState TourneyQueueDeadlineState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.ETourneyQueueDeadlineState.html">ETourneyQueueDeadlineState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyQueueDeadlineTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyQueueDeadlineTime">
+  TourneyQueueDeadlineTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TourneyQueueDeadlineTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyScheduleTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyScheduleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneyScheduleTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneyScheduleTime">
+  TourneyScheduleTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TourneyScheduleTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_TourneySkillLevel_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneySkillLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_TourneySkillLevel" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.TourneySkillLevel">
+  TourneySkillLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint TourneySkillLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_CalculateSize_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CalculateSize*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_CalculateSize" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.CalculateSize">
+  CalculateSize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAccountFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAccountFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAccountFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAccountFlags">
+  ClearAccountFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAccountFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAttemptNum_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAttemptNum*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAttemptNum" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAttemptNum">
+  ClearAttemptNum()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAttemptNum()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAttemptStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAttemptStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearAttemptStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearAttemptStartTime">
+  ClearAttemptStartTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAttemptStartTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBehaviorScoreLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBehaviorScoreLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBehaviorScoreLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBehaviorScoreLikertScale">
+  ClearBehaviorScoreLikertScale()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBehaviorScoreLikertScale()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBotDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBotDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBotDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBotDifficultyMask">
+  ClearBotDifficultyMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBotDifficultyMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBotScriptIndexMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBotScriptIndexMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearBotScriptIndexMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearBotScriptIndexMask">
+  ClearBotScriptIndexMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearBotScriptIndexMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearContainsRequiredPlaytester_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearContainsRequiredPlaytester*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearContainsRequiredPlaytester" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearContainsRequiredPlaytester">
+  ClearContainsRequiredPlaytester()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearContainsRequiredPlaytester()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDifficultyMask_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDifficultyMask*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDifficultyMask" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDifficultyMask">
+  ClearCustomGameDifficultyMask()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomGameDifficultyMask()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDisabledAccountId">
+  ClearCustomGameDisabledAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomGameDisabledAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearCustomGameDisabledUntilDate">
+  ClearCustomGameDisabledUntilDate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCustomGameDisabledUntilDate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearEffectiveStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearEffectiveStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearEffectiveStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearEffectiveStartedMatchmakingTime">
+  ClearEffectiveStartedMatchmakingTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearEffectiveStartedMatchmakingTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearExclusiveTournamentId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearExclusiveTournamentId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearExclusiveTournamentId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearExclusiveTournamentId">
+  ClearExclusiveTournamentId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearExclusiveTournamentId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearGameModes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearGameModes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearGameModes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearGameModes">
+  ClearGameModes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameModes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearHighPriorityState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearHighPriorityState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearHighPriorityState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearHighPriorityState">
+  ClearHighPriorityState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearHighPriorityState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearIsChallengeMatch_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearIsChallengeMatch*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearIsChallengeMatch" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearIsChallengeMatch">
+  ClearIsChallengeMatch()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsChallengeMatch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearIsSteamChina_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearIsSteamChina*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearIsSteamChina" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearIsSteamChina">
+  ClearIsSteamChina()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearIsSteamChina()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLaneSelectionsEnabled_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLaneSelectionsEnabled*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLaneSelectionsEnabled" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLaneSelectionsEnabled">
+  ClearLaneSelectionsEnabled()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLaneSelectionsEnabled()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLeaderId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLeaderId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLeaderId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLeaderId">
+  ClearLeaderId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLeaderId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLowPriorityAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLowPriorityAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLowPriorityAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLowPriorityAccountId">
+  ClearLowPriorityAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLowPriorityAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLowPriorityGamesRemaining_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLowPriorityGamesRemaining*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearLowPriorityGamesRemaining" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearLowPriorityGamesRemaining">
+  ClearLowPriorityGamesRemaining()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearLowPriorityGamesRemaining()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchDisabledAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchDisabledAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchDisabledAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchDisabledAccountId">
+  ClearMatchDisabledAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchDisabledAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchDisabledUntilDate_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchDisabledUntilDate*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchDisabledUntilDate" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchDisabledUntilDate">
+  ClearMatchDisabledUntilDate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchDisabledUntilDate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchType_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchType*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchType" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchType">
+  ClearMatchType()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchgroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchgroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchgroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchgroups">
+  ClearMatchgroups()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchgroups()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchlanguages_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchlanguages*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchlanguages" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchlanguages">
+  ClearMatchlanguages()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchlanguages()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchmakingFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchmakingFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchmakingFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchmakingFlags">
+  ClearMatchmakingFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchmakingFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchmakingMaxRangeMinutes_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchmakingMaxRangeMinutes*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearMatchmakingMaxRangeMinutes" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearMatchmakingMaxRangeMinutes">
+  ClearMatchmakingMaxRangeMinutes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearMatchmakingMaxRangeMinutes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearOpenForJoinRequests_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearOpenForJoinRequests*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearOpenForJoinRequests" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearOpenForJoinRequests">
+  ClearOpenForJoinRequests()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearOpenForJoinRequests()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderMatchGroups_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderMatchGroups*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderMatchGroups" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderMatchGroups">
+  ClearPartyBuilderMatchGroups()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPartyBuilderMatchGroups()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderSlotsToFill_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderSlotsToFill*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderSlotsToFill" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderSlotsToFill">
+  ClearPartyBuilderSlotsToFill()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPartyBuilderSlotsToFill()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderStartTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderStartTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyBuilderStartTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyBuilderStartTime">
+  ClearPartyBuilderStartTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPartyBuilderStartTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartyId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartyId">
+  ClearPartyId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPartyId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartySearchBeaconActive_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartySearchBeaconActive*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearPartySearchBeaconActive" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearPartySearchBeaconActive">
+  ClearPartySearchBeaconActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearPartySearchBeaconActive()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRankSpreadLikertScale_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRankSpreadLikertScale*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRankSpreadLikertScale" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRankSpreadLikertScale">
+  ClearRankSpreadLikertScale()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRankSpreadLikertScale()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRawStartedMatchmakingTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRawStartedMatchmakingTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRawStartedMatchmakingTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRawStartedMatchmakingTime">
+  ClearRawStartedMatchmakingTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRawStartedMatchmakingTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRegionSelectFlags_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRegionSelectFlags*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRegionSelectFlags" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRegionSelectFlags">
+  ClearRegionSelectFlags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRegionSelectFlags()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRestrictedFromRanked_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRestrictedFromRanked*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRestrictedFromRanked" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRestrictedFromRanked">
+  ClearRestrictedFromRanked()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRestrictedFromRanked()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRestrictedFromRankedAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRestrictedFromRankedAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearRestrictedFromRankedAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearRestrictedFromRankedAccountId">
+  ClearRestrictedFromRankedAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearRestrictedFromRankedAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearSoloQueue_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearSoloQueue*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearSoloQueue" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearSoloQueue">
+  ClearSoloQueue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSoloQueue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearState">
+  ClearState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearSteamClanAccountId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearSteamClanAccountId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearSteamClanAccountId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearSteamClanAccountId">
+  ClearSteamClanAccountId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSteamClanAccountId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamBaseLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamBaseLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamBaseLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamBaseLogo">
+  ClearTeamBaseLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamBaseLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamId">
+  ClearTeamId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamName_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamName*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamName" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamName">
+  ClearTeamName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamName()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamUiLogo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamUiLogo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTeamUiLogo" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTeamUiLogo">
+  ClearTeamUiLogo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTeamUiLogo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyBracketRound_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyBracketRound*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyBracketRound" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyBracketRound">
+  ClearTourneyBracketRound()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneyBracketRound()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyDivisionId_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyDivisionId*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyDivisionId" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyDivisionId">
+  ClearTourneyDivisionId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneyDivisionId()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyQueueDeadlineState_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyQueueDeadlineState*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyQueueDeadlineState" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyQueueDeadlineState">
+  ClearTourneyQueueDeadlineState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneyQueueDeadlineState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyQueueDeadlineTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyQueueDeadlineTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyQueueDeadlineTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyQueueDeadlineTime">
+  ClearTourneyQueueDeadlineTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneyQueueDeadlineTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyScheduleTime_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyScheduleTime*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneyScheduleTime" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneyScheduleTime">
+  ClearTourneyScheduleTime()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneyScheduleTime()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneySkillLevel_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneySkillLevel*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ClearTourneySkillLevel" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ClearTourneySkillLevel">
+  ClearTourneySkillLevel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTourneySkillLevel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Clone_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Clone*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Clone" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Clone">
+  Clone()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSODOTAParty Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Equals_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Equals_Divine_Protobufs_Dota2_CSODOTAParty_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Equals(Divine.Protobufs.Dota2.CSODOTAParty)">
+  Equals(CSODOTAParty)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CSODOTAParty other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_Equals_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Equals*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_Equals_System_Object_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_GetHashCode_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.GetHashCode*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_GetHashCode" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MergeFrom_Divine_Protobufs_Dota2_CSODOTAParty_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MergeFrom(Divine.Protobufs.Dota2.CSODOTAParty)">
+  MergeFrom(CSODOTAParty)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CSODOTAParty other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Divine.Protobufs.Dota2.CSODOTAParty.html">CSODOTAParty</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_MergeFrom_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MergeFrom*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_ToString_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ToString*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_ToString" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Protobufs_Dota2_CSODOTAParty_WriteTo_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.WriteTo*"></a>
+
+  <h3 id="Divine_Protobufs_Dota2_CSODOTAParty_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="Divine.Protobufs.Dota2.CSODOTAParty.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
