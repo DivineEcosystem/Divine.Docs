@@ -1,8 +1,6 @@
 using Docfx;
 using Docfx.Common;
 using Docfx.Dotnet;
-using System.Text.Json.Nodes;
-using System.Diagnostics;
 
 namespace Divine.DocFx;
 
@@ -22,8 +20,6 @@ internal static class Bootstrap
             var systemRoot = GetRequiredDirectory("DIVINE_SYSTEM_ROOT");
             config = config.Replace("{{DIVINE_SYSTEM_ROOT}}", systemRoot, StringComparison.Ordinal)
                            .Replace("{{DIVINE_DOCS_ROOT}}", docsRoot, StringComparison.Ordinal);
-            config = ConfigureStandaloneRepository(config, systemRoot);
-            await RestoreStandaloneProjects(config, systemRoot);
             await File.WriteAllTextAsync(generatedConfigPath, config);
 
             DeleteDirectory(Path.Combine(docsRoot, "_generated"));
@@ -63,90 +59,6 @@ internal static class Bootstrap
             {
                 File.Delete(generatedConfigPath);
             }
-        }
-    }
-
-    private static string ConfigureStandaloneRepository(string config, string systemRoot)
-    {
-        if (!File.Exists(Path.Combine(systemRoot, "src", "Divine", "Divine.csproj")))
-        {
-            return config;
-        }
-
-        var appRoot = Environment.GetEnvironmentVariable("DIVINE_APP_ROOT");
-        if (string.IsNullOrWhiteSpace(appRoot))
-        {
-            var clientConfig = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Divine", "Divine.Client.json");
-            if (File.Exists(clientConfig))
-            {
-                appRoot = JsonNode.Parse(File.ReadAllText(clientConfig))?["BaseDirectory"]?.GetValue<string>();
-            }
-        }
-
-        if (string.IsNullOrWhiteSpace(appRoot)
-            || !File.Exists(Path.Combine(appRoot, "References", "Divine.Common.dll")))
-        {
-            throw new InvalidOperationException("Standalone Divine documentation requires an installed Divine runtime. Set DIVINE_APP_ROOT to the directory containing References/Divine.Common.dll.");
-        }
-
-        appRoot = Path.GetFullPath(appRoot).Replace('\\', '/').TrimEnd('/');
-        var document = JsonNode.Parse(config)!;
-        foreach (var metadata in document["metadata"]!.AsArray())
-        {
-            if (metadata!["references"] is { } references)
-            {
-                metadata["src"] = new JsonObject
-                {
-                    ["src"] = appRoot + "/References/",
-                    ["files"] = new JsonArray("Divine.Common.dll")
-                };
-                references[0]!["src"] = appRoot + "/Dependencies/";
-                continue;
-            }
-
-            metadata!["src"] = new JsonObject
-            {
-                ["src"] = systemRoot,
-                ["files"] = new JsonArray(
-                    "src/Divine/Divine.csproj",
-                    "src/Divine.Extensions/Divine.Extensions.csproj")
-            };
-            metadata["properties"]!["AppBasePath"] = appRoot + "/";
-            metadata["properties"]!["IsInternal"] = "false";
-            metadata["properties"]!["SolutionName"] = "Divine";
-            metadata["properties"]!["UseDivineFrameworkDependencies"] = "true";
-            metadata["properties"]!["UseDivineDependencies"] = "true";
-            metadata["properties"]!["UseDivineProtobufs"] = "true";
-            metadata["noRestore"] = true;
-        }
-
-        Console.WriteLine($"Generating API documentation from standalone repository {systemRoot} using runtime {appRoot}.");
-        return document.ToJsonString();
-    }
-
-    private static async Task RestoreStandaloneProjects(string config, string systemRoot)
-    {
-        var project = Path.Combine(systemRoot, "src", "Divine", "Divine.csproj");
-        if (!File.Exists(project))
-        {
-            return;
-        }
-
-        // DocFX's implicit restore does not forward the metadata MSBuild properties.
-        var startInfo = new ProcessStartInfo("dotnet") { UseShellExecute = false };
-        startInfo.ArgumentList.Add("restore");
-        startInfo.ArgumentList.Add(project);
-        foreach (var property in JsonNode.Parse(config)!["metadata"]![0]!["properties"]!.AsObject())
-        {
-            startInfo.ArgumentList.Add($"-p:{property.Key}={property.Value!.GetValue<string>()}");
-        }
-
-        using var process = Process.Start(startInfo)
-            ?? throw new InvalidOperationException("Could not start dotnet restore.");
-        await process.WaitForExitAsync();
-        if (process.ExitCode != 0)
-        {
-            throw new InvalidOperationException($"Divine API project restore failed with exit code {process.ExitCode}.");
         }
     }
 

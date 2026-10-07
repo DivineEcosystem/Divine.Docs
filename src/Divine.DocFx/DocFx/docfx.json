@@ -6,7 +6,8 @@
         "src": "{{DIVINE_SYSTEM_ROOT}}/",
         "files": [
           "src/Divine/src/Divine/*.csproj",
-          "src/Divine/src/Divine.Extensions/*.csproj"
+          "src/Divine/src/Divine.Extensions/*.csproj",
+          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
         ]
       },
       "properties": {
@@ -17,15 +18,7 @@
         "TargetFramework": "net11.0"
       },
       "outputFormat": "mref",
-      "dest": "_generated/api"
-    },
-    {
-      "src": {
-        "src": "{{DIVINE_SYSTEM_ROOT}}/",
-        "files": [
-          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
-        ]
-      },
+      "dest": "_generated/api",
       "references": [
         {
           "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/Divine.Dependencies/Release/",
@@ -43,16 +36,15 @@
             "DistributedLock.Core.dll"
           ]
         }
-      ],
-      "outputFormat": "mref",
-      "dest": "_generated/api/common"
+      ]
     },
     {
       "src": {
         "src": "{{DIVINE_SYSTEM_ROOT}}/",
         "files": [
           "src/Divine/src/Divine/*.csproj",
-          "src/Divine/src/Divine.Extensions/*.csproj"
+          "src/Divine/src/Divine.Extensions/*.csproj",
+          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
         ]
       },
       "properties": {
@@ -63,15 +55,7 @@
         "TargetFramework": "net11.0"
       },
       "outputFormat": "markdown",
-      "dest": "_generated/markdown"
-    },
-    {
-      "src": {
-        "src": "{{DIVINE_SYSTEM_ROOT}}/",
-        "files": [
-          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
-        ]
-      },
+      "dest": "_generated/markdown",
       "references": [
         {
           "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/Divine.Dependencies/Release/",
@@ -89,9 +73,7 @@
             "DistributedLock.Core.dll"
           ]
         }
-      ],
-      "outputFormat": "markdown",
-      "dest": "_generated/markdown/common"
+      ]
     }
   ],
   "build": {
