@@ -2,32 +2,30 @@
   "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
   "metadata": [
     {
-      "src": [
-        {
-          "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/",
-          "files": [
-            "Divine.Common/Release/Divine.Common.dll"
-          ]
-        },
-        {
-          "src": "{{DIVINE_SYSTEM_ROOT}}/src/",
-          "files": [
-            "Divine/src/Divine/*.csproj",
-            "Divine/src/Divine.Extensions/*.csproj"
-          ],
-          "outputFormat": "mref",
-          "output": "obj/api"
-        },
-        {
-          "src": "{{DIVINE_SYSTEM_ROOT}}/src/",
-          "files": [
-            "Divine/src/Divine/*.csproj",
-            "Divine/src/Divine.Extensions/*.csproj"
-          ],
-          "outputFormat": "markdown",
-          "output": "obj/markdown"
-        }
-      ],
+      "src": {
+        "src": "{{DIVINE_SYSTEM_ROOT}}/",
+        "files": [
+          "src/Divine/src/Divine/*.csproj",
+          "src/Divine/src/Divine.Extensions/*.csproj"
+        ]
+      },
+      "properties": {
+        "AppBasePath": "{{DIVINE_SYSTEM_ROOT}}/artifacts/Release/",
+        "IsInternal": "true",
+        "SolutionDir": "{{DIVINE_SYSTEM_ROOT}}/",
+        "SolutionName": "Divine.System",
+        "TargetFramework": "net11.0"
+      },
+      "outputFormat": "mref",
+      "dest": "_generated/api"
+    },
+    {
+      "src": {
+        "src": "{{DIVINE_SYSTEM_ROOT}}/",
+        "files": [
+          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
+        ]
+      },
       "references": [
         {
           "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/Divine.Dependencies/Release/",
@@ -46,6 +44,17 @@
           ]
         }
       ],
+      "outputFormat": "mref",
+      "dest": "_generated/api/common"
+    },
+    {
+      "src": {
+        "src": "{{DIVINE_SYSTEM_ROOT}}/",
+        "files": [
+          "src/Divine/src/Divine/*.csproj",
+          "src/Divine/src/Divine.Extensions/*.csproj"
+        ]
+      },
       "properties": {
         "AppBasePath": "{{DIVINE_SYSTEM_ROOT}}/artifacts/Release/",
         "IsInternal": "true",
@@ -53,7 +62,36 @@
         "SolutionName": "Divine.System",
         "TargetFramework": "net11.0"
       },
-      "dest": "_generated"
+      "outputFormat": "markdown",
+      "dest": "_generated/markdown"
+    },
+    {
+      "src": {
+        "src": "{{DIVINE_SYSTEM_ROOT}}/",
+        "files": [
+          "artifacts/bin/Divine.Common/Release/Divine.Common.dll"
+        ]
+      },
+      "references": [
+        {
+          "src": "{{DIVINE_SYSTEM_ROOT}}/artifacts/bin/Divine.Dependencies/Release/",
+          "files": [
+            "System.CommandLine.dll",
+            "CommunityToolkit.Mvvm.dll",
+            "DistributedLock.FileSystem.dll",
+            "Refit.dll",
+            "Karambolo.Extensions.Logging.File.dll",
+            "CircularBuffer.dll",
+            "Reloaded.Memory.dll",
+            "System.Interactive.dll",
+            "Refit.HttpClientFactory.dll",
+            "Humanizer.dll",
+            "DistributedLock.Core.dll"
+          ]
+        }
+      ],
+      "outputFormat": "markdown",
+      "dest": "_generated/markdown/common"
     }
   ],
   "build": {
@@ -63,12 +101,17 @@
         "files": "**/*.{md,yml}"
       },
       {
-        "src": "_generated/",
+        "src": "_generated/api/",
         "files": "**/*.yml",
         "dest": "api"
       }
     ],
     "resource": [
+      {
+        "src": "_generated/markdown/",
+        "files": "**/*.md",
+        "dest": "markdown/api"
+      },
       {
         "src": "src/Divine.DocFx/DocFx/",
         "files": "images/**"
