@@ -2,9 +2,9 @@
 
 ### Classes
 
- [CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.AltAddress](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.AltAddress.md)
-
  [CMsgSteamDatagramRouterPingReply.Types.AltAddress](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.AltAddress.md)
+
+ [CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.AltAddress](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.AltAddress.md)
 
  [CPublishedFile\_GetUserFiles\_Response.Types.App](Divine.Protobufs.Steam.CPublishedFile\_GetUserFiles\_Response.Types.App.md)
 
@@ -486,17 +486,17 @@
 
  [CMsgSteamDatagramP2PSessionRequestBody.Types.EncryptedData](Divine.Protobufs.Steam.CMsgSteamDatagramP2PSessionRequestBody.Types.EncryptedData.md)
 
- [CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.Entry](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.Entry.md)
-
- [CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.Entry](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.Entry.md)
+ [CMsgGCMsgMasterSetWebAPIRouting.Types.Entry](Divine.Protobufs.Steam.CMsgGCMsgMasterSetWebAPIRouting.Types.Entry.md)
 
  [CMsgGCMsgMasterSetClientMsgRouting.Types.Entry](Divine.Protobufs.Steam.CMsgGCMsgMasterSetClientMsgRouting.Types.Entry.md)
 
- [CMsgGCMsgMasterSetWebAPIRouting.Types.Entry](Divine.Protobufs.Steam.CMsgGCMsgMasterSetWebAPIRouting.Types.Entry.md)
+ [CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.Entry](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.Entry.md)
 
- [CMsgSteamDatagramRelayAuthTicket.Types.ExtraField](Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.ExtraField.md)
+ [CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.Entry](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.Entry.md)
 
  [CMsgGCHUpdateSession.Types.ExtraField](Divine.Protobufs.Steam.CMsgGCHUpdateSession.Types.ExtraField.md)
+
+ [CMsgSteamDatagramRelayAuthTicket.Types.ExtraField](Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.ExtraField.md)
 
  [CPlayer\_GetFriendsGameplayInfo\_Response.Types.FriendsGameplayInfo](Divine.Protobufs.Steam.CPlayer\_GetFriendsGameplayInfo\_Response.Types.FriendsGameplayInfo.md)
 
@@ -616,107 +616,107 @@
 
  [PublishedFileDetails.Types.Tag](Divine.Protobufs.Steam.PublishedFileDetails.Types.Tag.md)
 
- [CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.md)
-
- [CMsgAMSendEmail.Types](Divine.Protobufs.Steam.CMsgAMSendEmail.Types.md)
-
- [CMsgGCMsgMasterSetWebAPIRouting.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetWebAPIRouting.Types.md)
-
- [CMsgInferenceIterateBeamSearch.Types](Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Types.md)
-
- [CMsgGCGetPersonaNames\_Response.Types](Divine.Protobufs.Steam.CMsgGCGetPersonaNames\_Response.Types.md)
-
- [CMsgNotificationOfSuspiciousActivity.Types](Divine.Protobufs.Steam.CMsgNotificationOfSuspiciousActivity.Types.md)
-
- [CMsgSteamDatagramConnectionStatsServerToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsServerToRouter.Types.md)
-
- [CMsgGCMsgMasterSetDirectory.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetDirectory.Types.md)
-
- [CMsgSteamDatagramCertificate.Types](Divine.Protobufs.Steam.CMsgSteamDatagramCertificate.Types.md)
-
- [CMsgGCMsgMasterSetClientMsgRouting.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetClientMsgRouting.Types.md)
-
- [CMsgGCMsgSetOptions.Types](Divine.Protobufs.Steam.CMsgGCMsgSetOptions.Types.md)
-
- [CPlayer\_GetNicknameList\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetNicknameList\_Response.Types.md)
-
- [CMsgSteamDatagramClientPingSampleReply.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.md)
-
- [CMsgSteamDatagramConnectionStatsRouterToClient.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToClient.Types.md)
-
- [CMsgSteamDatagramClientPingSampleReply.Types.POP.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.md)
-
- [CPublishedFile\_GetUserFiles\_Response.Types](Divine.Protobufs.Steam.CPublishedFile\_GetUserFiles\_Response.Types.md)
-
- [CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.md)
-
- [CMsgGCHUpdateSession.Types](Divine.Protobufs.Steam.CMsgGCHUpdateSession.Types.md)
-
- [CMsgSteamDatagramClientSwitchedPrimary.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientSwitchedPrimary.Types.md)
-
- [CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.md)
-
- [CWorkshop\_GetSpecialPayments\_Response.Types](Divine.Protobufs.Steam.CWorkshop\_GetSpecialPayments\_Response.Types.md)
-
- [CMsgSteamDatagramConnectionStatsClientToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsClientToRouter.Types.md)
-
- [CMsgSteamDatagramConnectionStatsRouterToServer.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToServer.Types.md)
-
- [CMsgGCHAppCheersGetAllowedTypesResponse.Types](Divine.Protobufs.Steam.CMsgGCHAppCheersGetAllowedTypesResponse.Types.md)
-
- [CMsgSteamDatagramP2PRoutes.Types](Divine.Protobufs.Steam.CMsgSteamDatagramP2PRoutes.Types.md)
-
- [CMsgGCReportMetrics.Types](Divine.Protobufs.Steam.CMsgGCReportMetrics.Types.md)
-
- [CMsgSteamLearn\_InferenceBackend\_Response.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceBackend\_Response.Types.md)
+ [CGCMsgMemCachedSet.Types](Divine.Protobufs.Steam.CGCMsgMemCachedSet.Types.md)
 
  [CMsgGCHAppCheersReceived.Types](Divine.Protobufs.Steam.CMsgGCHAppCheersReceived.Types.md)
 
- [CMsgSteamLearn\_InferenceMetadata\_Response.Types.KMeans.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.KMeans.Types.md)
+ [PublishedFileDetails.Types](Divine.Protobufs.Steam.PublishedFileDetails.Types.md)
 
- [CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.md)
+ [CMsgGCHAppCheersGetAllowedTypesResponse.Types](Divine.Protobufs.Steam.CMsgGCHAppCheersGetAllowedTypesResponse.Types.md)
 
- [CMsgSteamLearnAccessTokens.Types](Divine.Protobufs.Steam.CMsgSteamLearnAccessTokens.Types.md)
+ [CPublishedFile\_GetUserFiles\_Response.Types](Divine.Protobufs.Steam.CPublishedFile\_GetUserFiles\_Response.Types.md)
 
- [CMsgSteamDatagramConnectionClosed.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Types.md)
+ [CMsgGCGetPersonaNames\_Response.Types](Divine.Protobufs.Steam.CMsgGCGetPersonaNames\_Response.Types.md)
 
- [CMsgSteamDatagramSessionCryptInfo.Types](Divine.Protobufs.Steam.CMsgSteamDatagramSessionCryptInfo.Types.md)
+ [CWorkshop\_GetSpecialPayments\_Response.Types](Divine.Protobufs.Steam.CWorkshop\_GetSpecialPayments\_Response.Types.md)
 
- [CMsgSteamNetworkingP2PRendezvous.Types](Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.md)
+ [CMsgAMSendEmail.Types](Divine.Protobufs.Steam.CMsgAMSendEmail.Types.md)
 
- [CGCMsgMemCachedSet.Types](Divine.Protobufs.Steam.CGCMsgMemCachedSet.Types.md)
-
- [CMsgSteamSockets\_UDP\_Stats.Types](Divine.Protobufs.Steam.CMsgSteamSockets\_UDP\_Stats.Types.md)
-
- [CMsgSteamDatagramRouterPingReply.Types.AltAddress.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.AltAddress.Types.md)
-
- [CGCMsgMemCachedGetResponse.Types](Divine.Protobufs.Steam.CGCMsgMemCachedGetResponse.Types.md)
-
- [CMsgHttpRequest.Types](Divine.Protobufs.Steam.CMsgHttpRequest.Types.md)
-
- [CMsgHttpResponse.Types](Divine.Protobufs.Steam.CMsgHttpResponse.Types.md)
-
- [CPlayer\_GetFriendsGameplayInfo\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetFriendsGameplayInfo\_Response.Types.md)
-
- [CMsgGCRoutingInfo.Types](Divine.Protobufs.Steam.CMsgGCRoutingInfo.Types.md)
-
- [CMsgSteamDatagramRouterPingReply.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.md)
-
- [CPlayer\_GetGameBadgeLevels\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetGameBadgeLevels\_Response.Types.md)
-
- [CMsgICERendezvous.Types](Divine.Protobufs.Steam.CMsgICERendezvous.Types.md)
-
- [CMsgSteamDatagramRelayAuthTicket.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.md)
-
- [CPlayer\_GetLastPlayedTimes\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetLastPlayedTimes\_Response.Types.md)
-
- [CMsgGCReportMetrics.Types.MetricEntry.Types](Divine.Protobufs.Steam.CMsgGCReportMetrics.Types.MetricEntry.Types.md)
-
- [CMsgSteamDatagramP2PSessionRequestBody.Types](Divine.Protobufs.Steam.CMsgSteamDatagramP2PSessionRequestBody.Types.md)
+ [CMsgGCHUpdateSession.Types](Divine.Protobufs.Steam.CMsgGCHUpdateSession.Types.md)
 
  [CMsgSteamLearn\_InferenceMetadata\_Response.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.md)
 
- [PublishedFileDetails.Types](Divine.Protobufs.Steam.PublishedFileDetails.Types.md)
+ [CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.md)
+
+ [CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.md)
+
+ [CMsgSteamDatagramConnectionStatsClientToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsClientToRouter.Types.md)
+
+ [CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.CompactTable.Types.md)
+
+ [CMsgSteamLearn\_InferenceMetadata\_Response.Types.KMeans.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.KMeans.Types.md)
+
+ [CMsgSteamDatagramConnectionClosed.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionClosed.Types.md)
+
+ [CMsgSteamDatagramConnectionStatsRouterToClient.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToClient.Types.md)
+
+ [CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceMetadata\_Response.Types.SequenceTable.Types.md)
+
+ [CMsgSteamDatagramClientPingSampleReply.Types.POP.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.POP.Types.md)
+
+ [CMsgSteamDatagramClientPingSampleReply.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientPingSampleReply.Types.md)
+
+ [CMsgSteamDatagramClientSwitchedPrimary.Types](Divine.Protobufs.Steam.CMsgSteamDatagramClientSwitchedPrimary.Types.md)
+
+ [CMsgSteamLearn\_InferenceBackend\_Response.Types](Divine.Protobufs.Steam.CMsgSteamLearn\_InferenceBackend\_Response.Types.md)
+
+ [CMsgSteamDatagramP2PSessionRequestBody.Types](Divine.Protobufs.Steam.CMsgSteamDatagramP2PSessionRequestBody.Types.md)
+
+ [CMsgSteamDatagramRelayAuthTicket.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRelayAuthTicket.Types.md)
+
+ [CMsgSteamDatagramRouterPingReply.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.md)
+
+ [CMsgSteamDatagramRouterPingReply.Types.AltAddress.Types](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.AltAddress.Types.md)
+
+ [CMsgSteamDatagramSessionCryptInfo.Types](Divine.Protobufs.Steam.CMsgSteamDatagramSessionCryptInfo.Types.md)
+
+ [CMsgSteamDatagramConnectionStatsServerToRouter.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsServerToRouter.Types.md)
+
+ [CMsgSteamDatagramConnectionStatsRouterToServer.Types](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToServer.Types.md)
+
+ [CMsgSteamDatagramCertificate.Types](Divine.Protobufs.Steam.CMsgSteamDatagramCertificate.Types.md)
+
+ [CMsgGCReportMetrics.Types](Divine.Protobufs.Steam.CMsgGCReportMetrics.Types.md)
+
+ [CMsgGCMsgSetOptions.Types](Divine.Protobufs.Steam.CMsgGCMsgSetOptions.Types.md)
+
+ [CMsgGCMsgMasterSetWebAPIRouting.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetWebAPIRouting.Types.md)
+
+ [CMsgGCMsgMasterSetDirectory.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetDirectory.Types.md)
+
+ [CPlayer\_GetGameBadgeLevels\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetGameBadgeLevels\_Response.Types.md)
+
+ [CMsgGCMsgMasterSetClientMsgRouting.Types](Divine.Protobufs.Steam.CMsgGCMsgMasterSetClientMsgRouting.Types.md)
+
+ [CPlayer\_GetLastPlayedTimes\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetLastPlayedTimes\_Response.Types.md)
+
+ [CMsgSteamDatagramP2PRoutes.Types](Divine.Protobufs.Steam.CMsgSteamDatagramP2PRoutes.Types.md)
+
+ [CPlayer\_GetNicknameList\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetNicknameList\_Response.Types.md)
+
+ [CPlayer\_GetFriendsGameplayInfo\_Response.Types](Divine.Protobufs.Steam.CPlayer\_GetFriendsGameplayInfo\_Response.Types.md)
+
+ [CMsgGCReportMetrics.Types.MetricEntry.Types](Divine.Protobufs.Steam.CMsgGCReportMetrics.Types.MetricEntry.Types.md)
+
+ [CMsgSteamSockets\_UDP\_Stats.Types](Divine.Protobufs.Steam.CMsgSteamSockets\_UDP\_Stats.Types.md)
+
+ [CMsgSteamLearnAccessTokens.Types](Divine.Protobufs.Steam.CMsgSteamLearnAccessTokens.Types.md)
+
+ [CMsgNotificationOfSuspiciousActivity.Types](Divine.Protobufs.Steam.CMsgNotificationOfSuspiciousActivity.Types.md)
+
+ [CMsgInferenceIterateBeamSearch.Types](Divine.Protobufs.Steam.CMsgInferenceIterateBeamSearch.Types.md)
+
+ [CMsgICERendezvous.Types](Divine.Protobufs.Steam.CMsgICERendezvous.Types.md)
+
+ [CMsgHttpResponse.Types](Divine.Protobufs.Steam.CMsgHttpResponse.Types.md)
+
+ [CMsgHttpRequest.Types](Divine.Protobufs.Steam.CMsgHttpRequest.Types.md)
+
+ [CMsgGCRoutingInfo.Types](Divine.Protobufs.Steam.CMsgGCRoutingInfo.Types.md)
+
+ [CMsgSteamNetworkingP2PRendezvous.Types](Divine.Protobufs.Steam.CMsgSteamNetworkingP2PRendezvous.Types.md)
+
+ [CGCMsgMemCachedGetResponse.Types](Divine.Protobufs.Steam.CGCMsgMemCachedGetResponse.Types.md)
 
  [CGCMsgMemCachedGetResponse.Types.ValueTag](Divine.Protobufs.Steam.CGCMsgMemCachedGetResponse.Types.ValueTag.md)
 
@@ -726,9 +726,9 @@
 
  [EGCPlatform](Divine.Protobufs.Steam.EGCPlatform.md)
 
- [CMsgSteamDatagramCertificate.Types.EKeyType](Divine.Protobufs.Steam.CMsgSteamDatagramCertificate.Types.EKeyType.md)
-
  [CMsgSteamDatagramSessionCryptInfo.Types.EKeyType](Divine.Protobufs.Steam.CMsgSteamDatagramSessionCryptInfo.Types.EKeyType.md)
+
+ [CMsgSteamDatagramCertificate.Types.EKeyType](Divine.Protobufs.Steam.CMsgSteamDatagramCertificate.Types.EKeyType.md)
 
  [ENotificationSetting](Divine.Protobufs.Steam.ENotificationSetting.md)
 
@@ -758,19 +758,19 @@
 
  [CMsgSteamSockets\_UDP\_Stats.Types.Flags](Divine.Protobufs.Steam.CMsgSteamSockets\_UDP\_Stats.Types.Flags.md)
 
+ [CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.Flags.md)
+
+ [CMsgSteamDatagramRouterPingReply.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.Flags.md)
+
  [CMsgSteamDatagramConnectionStatsServerToRouter.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsServerToRouter.Types.Flags.md)
 
  [CMsgSteamDatagramConnectionStatsClientToRouter.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsClientToRouter.Types.Flags.md)
 
- [CMsgSteamDatagramRouterPingReply.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramRouterPingReply.Types.Flags.md)
-
- [CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PRouterToClient.Types.Flags.md)
-
- [CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.Flags.md)
-
  [CMsgSteamDatagramConnectionStatsRouterToServer.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToServer.Types.Flags.md)
 
  [CMsgSteamDatagramConnectionStatsRouterToClient.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsRouterToClient.Types.Flags.md)
+
+ [CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.Flags](Divine.Protobufs.Steam.CMsgSteamDatagramConnectionStatsP2PClientToRouter.Types.Flags.md)
 
  [GCProtoBufMsgSrc](Divine.Protobufs.Steam.GCProtoBufMsgSrc.md)
 

@@ -30,6 +30,16 @@ public static class HudManager
 
 ## Properties
 
+### <a id="Divine_Hud_HudManager_ExtraLargeMinimap"></a> ExtraLargeMinimap
+
+```csharp
+public static int ExtraLargeMinimap { get; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Hud_HudManager_GlyphButton"></a> GlyphButton
 
 ```csharp
@@ -39,16 +49,6 @@ public static Rect GlyphButton { get; }
 #### Property Value
 
  [Rect](https://github.com/amerkoleci/Vortice.Mathematics/blob/main/src/Vortice.Mathematics/Rect.cs)
-
-### <a id="Divine_Hud_HudManager_IsExtraLargeMinimap"></a> IsExtraLargeMinimap
-
-```csharp
-public static bool IsExtraLargeMinimap { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Divine_Hud_HudManager_IsFlipped"></a> IsFlipped
 
