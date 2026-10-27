@@ -103,12 +103,12 @@ public static bool IsSpecialUser { get; }
 ### <a id="Divine_Service_DivineService_Plugins"></a> Plugins
 
 ```csharp
-public static string Plugins { get; }
+public static Plugin[] Plugins { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ Plugin\[\]
 
 ### <a id="Divine_Service_DivineService_UserName"></a> UserName
 

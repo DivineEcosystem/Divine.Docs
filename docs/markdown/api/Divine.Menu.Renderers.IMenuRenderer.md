@@ -151,7 +151,7 @@ void DrawText(string text, Rect rect, Color color, float fontSize, FontFlags fon
 ### <a id="Divine_Menu_Renderers_IMenuRenderer_GetTextMetrics_System_String_Vortice_Mathematics_Size_System_Single_Divine_Renderer_FontWeight_"></a> GetTextMetrics\(string, Size, float, FontWeight\)
 
 ```csharp
-TextMetrics GetTextMetrics(string text, Size size, float fontSize, FontWeight fontWeight = FontWeight.Bold)
+DWRITE_TEXT_METRICS GetTextMetrics(string text, Size size, float fontSize, FontWeight fontWeight = FontWeight.Bold)
 ```
 
 #### Parameters
@@ -166,7 +166,7 @@ TextMetrics GetTextMetrics(string text, Size size, float fontSize, FontWeight fo
 
 #### Returns
 
- TextMetrics
+ DWRITE\_TEXT\_METRICS
 
 ### <a id="Divine_Menu_Renderers_IMenuRenderer_Initialize_Divine_Menu_Styles_IGeneralStyle_Divine_Menu_Styles_StyleDebugger_Divine_Menu_Items_MenuContext_"></a> Initialize\(IGeneralStyle, StyleDebugger, MenuContext\)
 

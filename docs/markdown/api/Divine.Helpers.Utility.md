@@ -28,18 +28,6 @@ public static class Utility
 [ObjectExtensions.DumpToConsole\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToConsole\_System\_Object\_System\_Boolean\_), 
 [ObjectExtensions.DumpToLogDebug\(object?, bool\)](Divine.Extensions.ObjectExtensions.md\#Divine\_Extensions\_ObjectExtensions\_DumpToLogDebug\_System\_Object\_System\_Boolean\_)
 
-## Properties
-
-### <a id="Divine_Helpers_Utility_IsValidAppName"></a> IsValidAppName
-
-```csharp
-public static bool IsValidAppName { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ## Methods
 
 ### <a id="Divine_Helpers_Utility_ClearDirectory_System_String_"></a> ClearDirectory\(string\)
@@ -61,16 +49,6 @@ public static void CreateDirectoryEveryoneAccess(string directory)
 #### Parameters
 
 `directory` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Divine_Helpers_Utility_GetAppDirectory"></a> GetAppDirectory\(\)
-
-```csharp
-public static string GetAppDirectory()
-```
-
-#### Returns
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Divine_Helpers_Utility_GetBufferHash_System_Byte___"></a> GetBufferHash\(byte\[\]\)
 

@@ -54,6 +54,16 @@ public string Client { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Divine_IO_FileService_ClientInstaller"></a> ClientInstaller
+
+```csharp
+public string ClientInstaller { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Divine_IO_FileService_Common"></a> Common
 
 ```csharp

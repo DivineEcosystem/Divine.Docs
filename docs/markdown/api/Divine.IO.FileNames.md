@@ -40,6 +40,16 @@ public const string Client = "Divine.Client.exe"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Divine_IO_FileNames_ClientInstaller"></a> ClientInstaller
+
+```csharp
+public const string ClientInstaller = "Divine.Client.Installer.exe"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Divine_IO_FileNames_Common"></a> Common
 
 ```csharp

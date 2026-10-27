@@ -34,6 +34,16 @@ public sealed class SoundPlayer : IDisposable
 
 ## Properties
 
+### <a id="Divine_Media_SoundPlayer_Audio2"></a> Audio2
+
+```csharp
+public static IXAudio2* Audio2 { get; }
+```
+
+#### Property Value
+
+ IXAudio2\*
+
 ### <a id="Divine_Media_SoundPlayer_MasteringVoice"></a> MasteringVoice
 
 ```csharp
@@ -43,16 +53,6 @@ public static IXAudio2MasteringVoice* MasteringVoice { get; }
 #### Property Value
 
  IXAudio2MasteringVoice\*
-
-### <a id="Divine_Media_SoundPlayer_XAudio2"></a> XAudio2
-
-```csharp
-public static IXAudio2* XAudio2 { get; }
-```
-
-#### Property Value
-
- IXAudio2\*
 
 ## Methods
 
@@ -90,7 +90,7 @@ public static void Play(SoundData soundData, float volume = 1)
 
 `volume` [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### <a id="Divine_Media_SoundPlayer_Play_Vortice_Win32_Media_Audio_XAudio2_IXAudio2SourceVoice__Divine_Media_SoundData_System_Single_"></a> Play\(IXAudio2SourceVoice\*, SoundData, float\)
+### <a id="Divine_Media_SoundPlayer_Play_Vortice_Win32_Media_Audio_IXAudio2SourceVoice__Divine_Media_SoundData_System_Single_"></a> Play\(IXAudio2SourceVoice\*, SoundData, float\)
 
 ```csharp
 public static void Play(IXAudio2SourceVoice* sourceVoice, SoundData soundData, float volume = 1)

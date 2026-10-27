@@ -28,9 +28,9 @@
 
  [MenuValueEventArgs<T\>](Divine.Menu.EventArgs.MenuValueEventArgs\-1.md)
 
- [SelectorChangedEventArgs<T\>](Divine.Menu.EventArgs.SelectorChangedEventArgs\-1.md)
-
  [SelectorChangedEventArgs](Divine.Menu.EventArgs.SelectorChangedEventArgs.md)
+
+ [SelectorChangedEventArgs<T\>](Divine.Menu.EventArgs.SelectorChangedEventArgs\-1.md)
 
  [SliderChangedEventArgs](Divine.Menu.EventArgs.SliderChangedEventArgs.md)
 
@@ -44,7 +44,7 @@
 
  [TogglerKeyValueEventArgs<T\>](Divine.Menu.EventArgs.TogglerKeyValueEventArgs\-1.md)
 
- [TogglerPriorityChangedEventArgs](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs.md)
-
  [TogglerPriorityChangedEventArgs<T\>](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs\-1.md)
+
+ [TogglerPriorityChangedEventArgs](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs.md)
 

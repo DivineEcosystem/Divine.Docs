@@ -8,9 +8,9 @@
 
  [DIReverseAttribute](Divine.SourceGenerator.DIReverseAttribute.md)
 
- [ExportAttribute<T\>](Divine.SourceGenerator.ExportAttribute\-1.md)
-
  [ExportAttribute](Divine.SourceGenerator.ExportAttribute.md)
+
+ [ExportAttribute<T\>](Divine.SourceGenerator.ExportAttribute\-1.md)
 
  [ImportAttribute](Divine.SourceGenerator.ImportAttribute.md)
 

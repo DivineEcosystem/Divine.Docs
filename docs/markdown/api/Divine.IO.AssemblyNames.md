@@ -40,6 +40,26 @@ public const string Client = "Divine.Client"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Divine_IO_AssemblyNames_ClientCore"></a> ClientCore
+
+```csharp
+public const string ClientCore = "Divine.Client.Core"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Divine_IO_AssemblyNames_ClientInstaller"></a> ClientInstaller
+
+```csharp
+public const string ClientInstaller = "Divine.Client.Installer"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Divine_IO_AssemblyNames_Common"></a> Common
 
 ```csharp
