@@ -44,7 +44,7 @@
 
  [StringExtensions.Utf8BufferAction](Divine.Extensions.StringExtensions.Utf8BufferAction.md)
 
- [StringExtensions.Utf8BufferFunc<TState, TResult\>](Divine.Extensions.StringExtensions.Utf8BufferFunc\-2.md)
-
  [StringExtensions.Utf8BufferFunc<TResult\>](Divine.Extensions.StringExtensions.Utf8BufferFunc\-1.md)
+
+ [StringExtensions.Utf8BufferFunc<TState, TResult\>](Divine.Extensions.StringExtensions.Utf8BufferFunc\-2.md)
 

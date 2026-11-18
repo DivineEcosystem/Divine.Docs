@@ -12,9 +12,9 @@
 
  [MenuTogglerItem](Divine.Menu.Components.MenuTogglerItem.md)
 
- [MenuTogglerValue](Divine.Menu.Components.MenuTogglerValue.md)
-
  [MenuTogglerValue<T\>](Divine.Menu.Components.MenuTogglerValue\-1.md)
+
+ [MenuTogglerValue](Divine.Menu.Components.MenuTogglerValue.md)
 
  [MenuValue<TKey, TValue\>](Divine.Menu.Components.MenuValue\-2.md)
 
@@ -24,9 +24,9 @@
 
  [MenuName](Divine.Menu.Components.MenuName.md)
 
- [MenuSelectorValues<T\>](Divine.Menu.Components.MenuSelectorValues\-1.md)
-
  [MenuSelectorValues](Divine.Menu.Components.MenuSelectorValues.md)
+
+ [MenuSelectorValues<T\>](Divine.Menu.Components.MenuSelectorValues\-1.md)
 
  [MenuTogglerAbilities](Divine.Menu.Components.MenuTogglerAbilities.md)
 

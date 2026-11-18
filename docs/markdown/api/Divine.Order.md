@@ -8,6 +8,8 @@
 
 ### Classes
 
+ [HumanizerInput](Divine.Order.HumanizerInput.md)
+
  [OrderManager](Divine.Order.OrderManager.md)
 
 ### Delegates
