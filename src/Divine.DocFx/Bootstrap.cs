@@ -17,8 +17,8 @@ internal static class Bootstrap
             generatedConfigPath = Path.Combine(docsRoot, "docfx.generated.json");
 
             var config = await File.ReadAllTextAsync(configPath);
-            var systemRoot = GetRequiredDirectory("DIVINE_SYSTEM_ROOT");
-            config = config.Replace("{{DIVINE_SYSTEM_ROOT}}", systemRoot, StringComparison.Ordinal)
+            var platformRoot = GetRequiredDirectory("DIVINE_PLATFORM_ROOT");
+            config = config.Replace("{{DIVINE_PLATFORM_ROOT}}", platformRoot, StringComparison.Ordinal)
                            .Replace("{{DIVINE_DOCS_ROOT}}", docsRoot, StringComparison.Ordinal);
             await File.WriteAllTextAsync(generatedConfigPath, config);
 
@@ -36,7 +36,7 @@ internal static class Bootstrap
             if (!Directory.Exists(apiMarkdown)
                 || !Directory.EnumerateFiles(apiMarkdown, "*.md", SearchOption.AllDirectories).Any())
             {
-                throw new InvalidOperationException("No API Markdown was generated. Check DIVINE_SYSTEM_ROOT and the metadata source paths in docfx.json.");
+                throw new InvalidOperationException("No API Markdown was generated. Check DIVINE_PLATFORM_ROOT and the metadata source paths in docfx.json.");
             }
 
             await Docset.Build(generatedConfigPath);

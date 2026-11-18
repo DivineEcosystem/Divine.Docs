@@ -2,7 +2,7 @@
 
 The DocFX source project for [docs.divine.wtf](https://docs.divine.wtf/).
 
-Set `DIVINE_SYSTEM_ROOT` and `DIVINE_DOCS_ROOT` to the corresponding local repositories, then run:
+Set `DIVINE_PLATFORM_ROOT` and `DIVINE_DOCS_ROOT` to the corresponding local repositories, then run:
 
 ```powershell
 dotnet run --project src/Divine.DocFx/Divine.DocFx.csproj -c Release
