@@ -68,6 +68,8 @@ public enum OrderType
 
 `Hold = 10` 
 
+`InteractWithTarget = 43` 
+
 `MoveItem = 19` 
 
 `MovePosition = 1` 
