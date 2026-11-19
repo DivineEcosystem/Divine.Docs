@@ -1021,14 +1021,6 @@ public enum EDOTAGCMsg
 
 `KEmsgDestroyLobbyResponse = 8247` 
 
-`KEmsgDevDeleteEventActions = 8365` 
-
-`KEmsgDevDeleteEventActionsResponse = 8366` 
-
-`KEmsgDevGrantEventAction = 8321` 
-
-`KEmsgDevGrantEventActionResponse = 8322` 
-
 `KEmsgDotaawardEventPoints = 7384` 
 
 `KEmsgDotachatGetMemberCount = 8048` 
@@ -1393,8 +1385,6 @@ public enum EDOTAGCMsg
 
 `KEmsgGctoClientChatRegionsEnabled = 8067` 
 
-`KEmsgGctoClientClaimEventActionUsingItemCompleted = 8328` 
-
 `KEmsgGctoClientClaimSwagResponse = 7691` 
 
 `KEmsgGctoClientCoachTeammateRatingsChanged = 8343` 
@@ -1596,14 +1586,6 @@ public enum EDOTAGCMsg
 `KEmsgGctoGcgetCustomGameTickets = 7573` 
 
 `KEmsgGctoGcgetCustomGameTicketsResponse = 7574` 
-
-`KEmsgGctoGcgetEventActionScore = 8742` 
-
-`KEmsgGctoGcgetEventActionScoreResponse = 8743` 
-
-`KEmsgGctoGcgetEventParticipation = 8115` 
-
-`KEmsgGctoGcgetEventParticipationResponse = 8116` 
 
 `KEmsgGctoGcgetFavoriteTeam = 8230` 
 

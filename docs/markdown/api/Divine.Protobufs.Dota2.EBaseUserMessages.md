@@ -43,6 +43,8 @@ public enum EBaseUserMessages
 
 `UmDllStatusResponse = 159` 
 
+`UmEntitySpawnGroupChanged = 171` 
+
 `UmExtraUserData = 164` 
 
 `UmFade = 106` 

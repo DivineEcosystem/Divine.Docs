@@ -2,9 +2,9 @@
 
 ### Classes
 
- [MenuSelectorValue](Divine.Menu.Components.MenuSelectorValue.md)
-
  [MenuSelectorValue<T\>](Divine.Menu.Components.MenuSelectorValue\-1.md)
+
+ [MenuSelectorValue](Divine.Menu.Components.MenuSelectorValue.md)
 
  [MenuTogglerAbility](Divine.Menu.Components.MenuTogglerAbility.md)
 
@@ -24,9 +24,9 @@
 
  [MenuName](Divine.Menu.Components.MenuName.md)
 
- [MenuSelectorValues](Divine.Menu.Components.MenuSelectorValues.md)
-
  [MenuSelectorValues<T\>](Divine.Menu.Components.MenuSelectorValues\-1.md)
+
+ [MenuSelectorValues](Divine.Menu.Components.MenuSelectorValues.md)
 
  [MenuTogglerAbilities](Divine.Menu.Components.MenuTogglerAbilities.md)
 

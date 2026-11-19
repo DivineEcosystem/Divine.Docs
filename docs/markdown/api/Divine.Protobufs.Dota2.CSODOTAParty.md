@@ -126,6 +126,16 @@ public const int ContainsRequiredPlaytesterFieldNumber = 78
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyLevelFieldNumber"></a> CustomGameDifficultyLevelFieldNumber
+
+```csharp
+public const int CustomGameDifficultyLevelFieldNumber = 79
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyMaskFieldNumber"></a> CustomGameDifficultyMaskFieldNumber
 
 ```csharp
@@ -688,6 +698,16 @@ public bool ContainsRequiredPlaytester { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyLevel"></a> CustomGameDifficultyLevel
+
+```csharp
+public uint CustomGameDifficultyLevel { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 ### <a id="Divine_Protobufs_Dota2_CSODOTAParty_CustomGameDifficultyMask"></a> CustomGameDifficultyMask
 
 ```csharp
@@ -822,6 +842,16 @@ public bool HasBotScriptIndexMask { get; }
 
 ```csharp
 public bool HasContainsRequiredPlaytester { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CSODOTAParty_HasCustomGameDifficultyLevel"></a> HasCustomGameDifficultyLevel
+
+```csharp
+public bool HasCustomGameDifficultyLevel { get; }
 ```
 
 #### Property Value
@@ -1760,6 +1790,12 @@ public void ClearBotScriptIndexMask()
 
 ```csharp
 public void ClearContainsRequiredPlaytester()
+```
+
+### <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDifficultyLevel"></a> ClearCustomGameDifficultyLevel\(\)
+
+```csharp
+public void ClearCustomGameDifficultyLevel()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CSODOTAParty_ClearCustomGameDifficultyMask"></a> ClearCustomGameDifficultyMask\(\)

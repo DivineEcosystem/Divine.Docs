@@ -76,6 +76,16 @@ public const int PropGroupNameFieldNumber = 1
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_ReuseExistingSimsFieldNumber"></a> ReuseExistingSimsFieldNumber
+
+```csharp
+public const int ReuseExistingSimsFieldNumber = 4
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_UseHighQualitySimulationFieldNumber"></a> UseHighQualitySimulationFieldNumber
 
 ```csharp
@@ -112,6 +122,16 @@ public bool HasMaxParticleCount { get; }
 
 ```csharp
 public bool HasPropGroupName { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_HasReuseExistingSims"></a> HasReuseExistingSims
+
+```csharp
+public bool HasReuseExistingSims { get; }
 ```
 
 #### Property Value
@@ -158,6 +178,16 @@ public string PropGroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_ReuseExistingSims"></a> ReuseExistingSims
+
+```csharp
+public bool ReuseExistingSims { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_UseHighQualitySimulation"></a> UseHighQualitySimulation
 
 ```csharp
@@ -190,6 +220,12 @@ public void ClearMaxParticleCount()
 
 ```csharp
 public void ClearPropGroupName()
+```
+
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_ClearReuseExistingSims"></a> ClearReuseExistingSims\(\)
+
+```csharp
+public void ClearReuseExistingSims()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_Types_CreatePhysicsSim_ClearUseHighQualitySimulation"></a> ClearUseHighQualitySimulation\(\)

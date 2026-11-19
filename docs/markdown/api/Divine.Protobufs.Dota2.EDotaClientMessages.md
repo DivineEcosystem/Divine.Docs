@@ -43,6 +43,8 @@ public enum EDotaClientMessages
 
 `DotaCmBeginLastHitChallenge = 318` 
 
+`DotaCmBrewmasterAssignScepterItem = 835` 
+
 `DotaCmBroadcasterUsingAssistedCameraOperator = 329` 
 
 `DotaCmBroadcasterUsingCamerman = 328` 

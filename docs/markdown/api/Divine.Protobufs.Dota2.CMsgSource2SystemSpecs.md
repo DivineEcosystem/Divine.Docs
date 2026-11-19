@@ -106,6 +106,36 @@ public const int CpuModelFieldNumber = 3
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumEfficiencyFieldNumber"></a> CpuNumEfficiencyFieldNumber
+
+```csharp
+public const int CpuNumEfficiencyFieldNumber = 7
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumLogicalFieldNumber"></a> CpuNumLogicalFieldNumber
+
+```csharp
+public const int CpuNumLogicalFieldNumber = 5
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumPerformanceFieldNumber"></a> CpuNumPerformanceFieldNumber
+
+```csharp
+public const int CpuNumPerformanceFieldNumber = 6
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumPhysicalFieldNumber"></a> CpuNumPhysicalFieldNumber
 
 ```csharp
@@ -196,6 +226,16 @@ public const int RamPhysicalTotalMbFieldNumber = 21
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ThreadPoolWorkersFieldNumber"></a> ThreadPoolWorkersFieldNumber
+
+```csharp
+public const int ThreadPoolWorkersFieldNumber = 61
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ## Properties
 
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_BackbufferHeight"></a> BackbufferHeight
@@ -242,6 +282,36 @@ public string CpuId { get; set; }
 
 ```csharp
 public uint CpuModel { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumEfficiency"></a> CpuNumEfficiency
+
+```csharp
+public uint CpuNumEfficiency { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumLogical"></a> CpuNumLogical
+
+```csharp
+public uint CpuNumLogical { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_CpuNumPerformance"></a> CpuNumPerformance
+
+```csharp
+public uint CpuNumPerformance { get; set; }
 ```
 
 #### Property Value
@@ -388,6 +458,36 @@ public bool HasCpuModel { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_HasCpuNumEfficiency"></a> HasCpuNumEfficiency
+
+```csharp
+public bool HasCpuNumEfficiency { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_HasCpuNumLogical"></a> HasCpuNumLogical
+
+```csharp
+public bool HasCpuNumLogical { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_HasCpuNumPerformance"></a> HasCpuNumPerformance
+
+```csharp
+public bool HasCpuNumPerformance { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_HasCpuNumPhysical"></a> HasCpuNumPhysical
 
 ```csharp
@@ -478,6 +578,16 @@ public bool HasRamPhysicalTotalMb { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_HasThreadPoolWorkers"></a> HasThreadPoolWorkers
+
+```csharp
+public bool HasThreadPoolWorkers { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_Parser"></a> Parser
 
 ```csharp
@@ -492,6 +602,16 @@ public static MessageParser<CMsgSource2SystemSpecs> Parser { get; }
 
 ```csharp
 public uint RamPhysicalTotalMb { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ThreadPoolWorkers"></a> ThreadPoolWorkers
+
+```csharp
+public uint ThreadPoolWorkers { get; set; }
 ```
 
 #### Property Value
@@ -538,6 +658,24 @@ public void ClearCpuId()
 
 ```csharp
 public void ClearCpuModel()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ClearCpuNumEfficiency"></a> ClearCpuNumEfficiency\(\)
+
+```csharp
+public void ClearCpuNumEfficiency()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ClearCpuNumLogical"></a> ClearCpuNumLogical\(\)
+
+```csharp
+public void ClearCpuNumLogical()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ClearCpuNumPerformance"></a> ClearCpuNumPerformance\(\)
+
+```csharp
+public void ClearCpuNumPerformance()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ClearCpuNumPhysical"></a> ClearCpuNumPhysical\(\)
@@ -592,6 +730,12 @@ public void ClearGpuVendorId()
 
 ```csharp
 public void ClearRamPhysicalTotalMb()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_ClearThreadPoolWorkers"></a> ClearThreadPoolWorkers\(\)
+
+```csharp
+public void ClearThreadPoolWorkers()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CMsgSource2SystemSpecs_Clone"></a> Clone\(\)

@@ -86,6 +86,16 @@ public const int ClientVersionFieldNumber = 3
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyLevelFieldNumber"></a> CustomGameDifficultyLevelFieldNumber
+
+```csharp
+public const int CustomGameDifficultyLevelFieldNumber = 24
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyMaskFieldNumber"></a> CustomGameDifficultyMaskFieldNumber
 
 ```csharp
@@ -288,6 +298,16 @@ public uint ClientVersion { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
+### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyLevel"></a> CustomGameDifficultyLevel
+
+```csharp
+public uint CustomGameDifficultyLevel { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_CustomGameDifficultyMask"></a> CustomGameDifficultyMask
 
 ```csharp
@@ -372,6 +392,16 @@ public bool HasBotScriptIndexMask { get; }
 
 ```csharp
 public bool HasClientVersion { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_HasCustomGameDifficultyLevel"></a> HasCustomGameDifficultyLevel
+
+```csharp
+public bool HasCustomGameDifficultyLevel { get; }
 ```
 
 #### Property Value
@@ -696,6 +726,12 @@ public void ClearBotScriptIndexMask()
 
 ```csharp
 public void ClearClientVersion()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearCustomGameDifficultyLevel"></a> ClearCustomGameDifficultyLevel\(\)
+
+```csharp
+public void ClearCustomGameDifficultyLevel()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CMsgStartFindingMatch_ClearCustomGameDifficultyMask"></a> ClearCustomGameDifficultyMask\(\)

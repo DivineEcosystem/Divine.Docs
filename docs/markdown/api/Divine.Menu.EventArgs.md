@@ -38,13 +38,13 @@
 
  [ToggleKeyChangedEventArgs](Divine.Menu.EventArgs.ToggleKeyChangedEventArgs.md)
 
- [TogglerChangedEventArgs](Divine.Menu.EventArgs.TogglerChangedEventArgs.md)
-
  [TogglerChangedEventArgs<T\>](Divine.Menu.EventArgs.TogglerChangedEventArgs\-1.md)
+
+ [TogglerChangedEventArgs](Divine.Menu.EventArgs.TogglerChangedEventArgs.md)
 
  [TogglerKeyValueEventArgs<T\>](Divine.Menu.EventArgs.TogglerKeyValueEventArgs\-1.md)
 
- [TogglerPriorityChangedEventArgs<T\>](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs\-1.md)
-
  [TogglerPriorityChangedEventArgs](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs.md)
+
+ [TogglerPriorityChangedEventArgs<T\>](Divine.Menu.EventArgs.TogglerPriorityChangedEventArgs\-1.md)
 

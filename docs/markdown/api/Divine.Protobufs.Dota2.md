@@ -12,29 +12,29 @@
 
  [CMsgDOTARealtimeGameStats.Types.AbilityList](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.AbilityList.md)
 
- [CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.Account](Divine.Protobufs.Dota2.CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.Account.md)
-
  [CMsgLookupMultipleAccountNamesResponse.Types.Account](Divine.Protobufs.Dota2.CMsgLookupMultipleAccountNamesResponse.Types.Account.md)
+
+ [CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.Account](Divine.Protobufs.Dota2.CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.Account.md)
 
  [CMsgLobbyEventPoints.Types.AccountPoints](Divine.Protobufs.Dota2.CMsgLobbyEventPoints.Types.AccountPoints.md)
 
  [CMsgLobbyFeaturedGamemodeProgress.Types.AccountProgress](Divine.Protobufs.Dota2.CMsgLobbyFeaturedGamemodeProgress.Types.AccountProgress.md)
 
- [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Achievements.md)
+ [CMsgGCToClientBattlePassRollup\_TI8.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.Achievements.md)
 
  [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Achievements.md)
 
- [CMsgGCToClientBattlePassRollup\_TI8.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.Achievements.md)
+ [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Achievements.md)
+
+ [CMsgGCToClientBattlePassRollup\_International2016.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Achievements.md)
 
  [CMsgGCToClientBattlePassRollup\_TI7.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.Achievements.md)
 
- [CMsgGCToClientBattlePassRollup\_International2016.Types.Achievements](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Achievements.md)
+ [CMsgDOTAGetEventPointsResponse.Types.Action](Divine.Protobufs.Dota2.CMsgDOTAGetEventPointsResponse.Types.Action.md)
 
  [CMsgDOTABotDebugInfo.Types.Bot.Types.Action](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.Bot.Types.Action.md)
 
  [CMsgGetTeamAuditInformation.Types.Action](Divine.Protobufs.Dota2.CMsgGetTeamAuditInformation.Types.Action.md)
-
- [CMsgDOTAGetEventPointsResponse.Types.Action](Divine.Protobufs.Dota2.CMsgDOTAGetEventPointsResponse.Types.Action.md)
 
  [CDOTAMatchMetadata.Types.Team.Types.ActionGrant](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.ActionGrant.md)
 
@@ -80,9 +80,9 @@
 
  [CDotaMsgStructuredTooltipProperties.Types.AttributeValueValue](Divine.Protobufs.Dota2.CDotaMsgStructuredTooltipProperties.Types.AttributeValueValue.md)
 
- [CMsgDOTATeamInfo.Types.AuditEntry](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.AuditEntry.md)
-
  [CMsgDOTAPlayerInfo.Types.AuditEntry](Divine.Protobufs.Dota2.CMsgDOTAPlayerInfo.Types.AuditEntry.md)
+
+ [CMsgDOTATeamInfo.Types.AuditEntry](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.AuditEntry.md)
 
  [CMsgTeamFanContentAutographStatus.Types.AutographStatus](Divine.Protobufs.Dota2.CMsgTeamFanContentAutographStatus.Types.AutographStatus.md)
 
@@ -94,13 +94,13 @@
 
  [BaseGcmessagesReflection](Divine.Protobufs.Dota2.BaseGcmessagesReflection.md)
 
- [CMsgGCToClientBattlePassRollup\_Winter2017.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.BattleCup.md)
-
- [CMsgGCToClientBattlePassRollup\_International2016.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.BattleCup.md)
+ [CMsgGCToClientBattlePassRollup\_TI7.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.BattleCup.md)
 
  [CMsgGCToClientBattlePassRollup\_Fall2016.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.BattleCup.md)
 
- [CMsgGCToClientBattlePassRollup\_TI7.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.BattleCup.md)
+ [CMsgGCToClientBattlePassRollup\_Winter2017.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.BattleCup.md)
+
+ [CMsgGCToClientBattlePassRollup\_International2016.Types.BattleCup](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.BattleCup.md)
 
  [CMsgUnderDraftData.Types.BenchSlot](Divine.Protobufs.Dota2.CMsgUnderDraftData.Types.BenchSlot.md)
 
@@ -110,9 +110,9 @@
 
  [CMsgSignOutBounties.Types.Bounty](Divine.Protobufs.Dota2.CMsgSignOutBounties.Types.Bounty.md)
 
- [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Bracket](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Bracket.md)
-
  [CMsgGCToClientBattlePassRollup\_International2016.Types.Bracket](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Bracket.md)
+
+ [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Bracket](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Bracket.md)
 
  [CMsgGCToClientBattlePassRollup\_TI7.Types.Bracket](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.Bracket.md)
 
@@ -128,19 +128,19 @@
 
  [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.md)
 
- [CMsgDotaScenario.Types.Building](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Building.md)
-
  [CDOTAMatchPrivateMetadata.Types.Team.Types.Building](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Building.md)
 
- [CMsgDOTARealtimeGameStatsTerse.Types.BuildingDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.BuildingDetails.md)
+ [CMsgDotaScenario.Types.Building](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Building.md)
 
  [CMsgDOTARealtimeGameStats.Types.BuildingDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.BuildingDetails.md)
 
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.ByHeroTarget](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.ByHeroTarget.md)
+ [CMsgDOTARealtimeGameStatsTerse.Types.BuildingDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.BuildingDetails.md)
 
  [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types.ByHeroTarget](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types.ByHeroTarget.md)
 
  [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types.ByHeroTarget](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types.ByHeroTarget.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.ByHeroTarget](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.ByHeroTarget.md)
 
  [C2S\_CONNECT\_Message](Divine.Protobufs.Dota2.C2S\_CONNECT\_Message.md)
 
@@ -162,9 +162,9 @@
 
  [CMsgDOTAFantasyCardList.Types.Card](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardList.Types.Card.md)
 
- [CMsgDOTAFantasyCardList.Types.CardBonus](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardList.Types.CardBonus.md)
-
  [CMsgDOTAFantasyCardLineup.Types.CardBonus](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardLineup.Types.CardBonus.md)
+
+ [CMsgDOTAFantasyCardList.Types.CardBonus](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardList.Types.CardBonus.md)
 
  [CMsgClientToGCSetProfileCardSlots.Types.CardSlot](Divine.Protobufs.Dota2.CMsgClientToGCSetProfileCardSlots.Types.CardSlot.md)
 
@@ -315,6 +315,8 @@
  [CDOTAClientMsg\_AutoCourierExecute](Divine.Protobufs.Dota2.CDOTAClientMsg\_AutoCourierExecute.md)
 
  [CDOTAClientMsg\_BeginLastHitChallenge](Divine.Protobufs.Dota2.CDOTAClientMsg\_BeginLastHitChallenge.md)
+
+ [CDOTAClientMsg\_BrewmasterAssignScepterItem](Divine.Protobufs.Dota2.CDOTAClientMsg\_BrewmasterAssignScepterItem.md)
 
  [CDOTAClientMsg\_BroadcasterUsingAssistedCameraOperator](Divine.Protobufs.Dota2.CDOTAClientMsg\_BroadcasterUsingAssistedCameraOperator.md)
 
@@ -934,9 +936,9 @@
 
  [CEntityMsg](Divine.Protobufs.Dota2.CEntityMsg.md)
 
- [CSODOTALobby.Types.CExtraMsg](Divine.Protobufs.Dota2.CSODOTALobby.Types.CExtraMsg.md)
-
  [CMsgDOTAWelcome.Types.CExtraMsg](Divine.Protobufs.Dota2.CMsgDOTAWelcome.Types.CExtraMsg.md)
+
+ [CSODOTALobby.Types.CExtraMsg](Divine.Protobufs.Dota2.CSODOTALobby.Types.CExtraMsg.md)
 
  [CExtraMsgBlock](Divine.Protobufs.Dota2.CExtraMsgBlock.md)
 
@@ -960,11 +962,11 @@
 
  [CGCToGCMsgRoutedReply](Divine.Protobufs.Dota2.CGCToGCMsgRoutedReply.md)
 
- [CMsgClientToGCGetQuestProgressResponse.Types.Challenge](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.Challenge.md)
+ [CMsgGCToClientQuestProgressUpdated.Types.Challenge](Divine.Protobufs.Dota2.CMsgGCToClientQuestProgressUpdated.Types.Challenge.md)
 
  [CMsgSignOutUpdatePlayerChallenge.Types.Challenge](Divine.Protobufs.Dota2.CMsgSignOutUpdatePlayerChallenge.Types.Challenge.md)
 
- [CMsgGCToClientQuestProgressUpdated.Types.Challenge](Divine.Protobufs.Dota2.CMsgGCToClientQuestProgressUpdated.Types.Challenge.md)
+ [CMsgClientToGCGetQuestProgressResponse.Types.Challenge](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.Challenge.md)
 
  [CMsgSignOutGuildChallengeProgress.Types.ChallengeProgress](Divine.Protobufs.Dota2.CMsgSignOutGuildChallengeProgress.Types.ChallengeProgress.md)
 
@@ -1360,10 +1362,6 @@
 
  [CMsgClientToGCDeleteStickerbookPageResponse](Divine.Protobufs.Dota2.CMsgClientToGCDeleteStickerbookPageResponse.md)
 
- [CMsgClientToGCDevDeleteEventActions](Divine.Protobufs.Dota2.CMsgClientToGCDevDeleteEventActions.md)
-
- [CMsgClientToGCDevDeleteEventActionsResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevDeleteEventActionsResponse.md)
-
  [CMsgClientToGCDevGrantEventAction](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventAction.md)
 
  [CMsgClientToGCDevGrantEventActionResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventActionResponse.md)
@@ -1375,6 +1373,10 @@
  [CMsgClientToGCDevReloadEventSchema](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchema.md)
 
  [CMsgClientToGCDevReloadEventSchemaResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchemaResponse.md)
+
+ [CMsgClientToGCDevResetEventActions](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventActions.md)
+
+ [CMsgClientToGCDevResetEventActionsResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventActionsResponse.md)
 
  [CMsgClientToGCDevResetEventState](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventState.md)
 
@@ -2184,13 +2186,7 @@
 
  [CMsgCustomGameWhitelistForEdit](Divine.Protobufs.Dota2.CMsgCustomGameWhitelistForEdit.md)
 
- [CMsgDevDeleteEventActions](Divine.Protobufs.Dota2.CMsgDevDeleteEventActions.md)
-
- [CMsgDevDeleteEventActionsResponse](Divine.Protobufs.Dota2.CMsgDevDeleteEventActionsResponse.md)
-
- [CMsgDevGrantEventAction](Divine.Protobufs.Dota2.CMsgDevGrantEventAction.md)
-
- [CMsgDevGrantEventActionResponse](Divine.Protobufs.Dota2.CMsgDevGrantEventActionResponse.md)
+ [CMsgDeleteItem](Divine.Protobufs.Dota2.CMsgDeleteItem.md)
 
  [CMsgDevModifyCodexAction](Divine.Protobufs.Dota2.CMsgDevModifyCodexAction.md)
 
@@ -2590,6 +2586,8 @@
 
  [CMsgEventActionData](Divine.Protobufs.Dota2.CMsgEventActionData.md)
 
+ [CMsgEventActionGrantLootListRewardData](Divine.Protobufs.Dota2.CMsgEventActionGrantLootListRewardData.md)
+
  [CMsgEventActionGrantResult](Divine.Protobufs.Dota2.CMsgEventActionGrantResult.md)
 
  [CMsgEventGoals](Divine.Protobufs.Dota2.CMsgEventGoals.md)
@@ -2697,6 +2695,8 @@
  [CMsgGCGetPlayerCardItemInfo](Divine.Protobufs.Dota2.CMsgGCGetPlayerCardItemInfo.md)
 
  [CMsgGCGetPlayerCardItemInfoResponse](Divine.Protobufs.Dota2.CMsgGCGetPlayerCardItemInfoResponse.md)
+
+ [CMsgGCGiftedItems](Divine.Protobufs.Dota2.CMsgGCGiftedItems.md)
 
  [CMsgGCItemEditorReleaseReservation](Divine.Protobufs.Dota2.CMsgGCItemEditorReleaseReservation.md)
 
@@ -2807,8 +2807,6 @@
  [CMsgGCToClientCavernCrawlMapPathCompleted](Divine.Protobufs.Dota2.CMsgGCToClientCavernCrawlMapPathCompleted.md)
 
  [CMsgGCToClientCavernCrawlMapUpdated](Divine.Protobufs.Dota2.CMsgGCToClientCavernCrawlMapUpdated.md)
-
- [CMsgGCToClientClaimEventActionUsingItemCompleted](Divine.Protobufs.Dota2.CMsgGCToClientClaimEventActionUsingItemCompleted.md)
 
  [CMsgGCToClientCoachTeammateRatingsChanged](Divine.Protobufs.Dota2.CMsgGCToClientCoachTeammateRatingsChanged.md)
 
@@ -3098,6 +3096,8 @@
 
  [CMsgGCUpdateSubGCSessionInfo](Divine.Protobufs.Dota2.CMsgGCUpdateSubGCSessionInfo.md)
 
+ [CMsgGCUseItemResponse](Divine.Protobufs.Dota2.CMsgGCUseItemResponse.md)
+
  [CMsgGCWatchDownloadedReplay](Divine.Protobufs.Dota2.CMsgGCWatchDownloadedReplay.md)
 
  [CMsgGenericResult](Divine.Protobufs.Dota2.CMsgGenericResult.md)
@@ -3297,6 +3297,8 @@
  [CMsgMonsterHunterMaterialQuantity](Divine.Protobufs.Dota2.CMsgMonsterHunterMaterialQuantity.md)
 
  [CMsgMonsterHunterUserData](Divine.Protobufs.Dota2.CMsgMonsterHunterUserData.md)
+
+ [CMsgMoveWorldDecalsEvent](Divine.Protobufs.Dota2.CMsgMoveWorldDecalsEvent.md)
 
  [CMsgNeutralItemStats](Divine.Protobufs.Dota2.CMsgNeutralItemStats.md)
 
@@ -3958,9 +3960,9 @@
 
  [CP2P\_VRAvatarPosition.Types.COrientation](Divine.Protobufs.Dota2.CP2P\_VRAvatarPosition.Types.COrientation.md)
 
- [CWorkshop\_GetPackageDailyRevenue\_Response.Types.CountryDailyRevenue](Divine.Protobufs.Dota2.CWorkshop\_GetPackageDailyRevenue\_Response.Types.CountryDailyRevenue.md)
-
  [CWorkshop\_GetItemDailyRevenue\_Response.Types.CountryDailyRevenue](Divine.Protobufs.Dota2.CWorkshop\_GetItemDailyRevenue\_Response.Types.CountryDailyRevenue.md)
+
+ [CWorkshop\_GetPackageDailyRevenue\_Response.Types.CountryDailyRevenue](Divine.Protobufs.Dota2.CWorkshop\_GetPackageDailyRevenue\_Response.Types.CountryDailyRevenue.md)
 
  [CMsgClientToGCGetEventCouponResponse.Types.Coupon](Divine.Protobufs.Dota2.CMsgClientToGCGetEventCouponResponse.Types.Coupon.md)
 
@@ -3982,9 +3984,9 @@
 
  [CPeer2PeerNetmessagesReflection](Divine.Protobufs.Dota2.CPeer2PeerNetmessagesReflection.md)
 
- [CMsgSignOutGameplayStats.Types.CPlayer](Divine.Protobufs.Dota2.CMsgSignOutGameplayStats.Types.CPlayer.md)
-
  [CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer.md)
+
+ [CMsgSignOutGameplayStats.Types.CPlayer](Divine.Protobufs.Dota2.CMsgSignOutGameplayStats.Types.CPlayer.md)
 
  [CGameInfo.Types.CDotaGameInfo.Types.CPlayerInfo](Divine.Protobufs.Dota2.CGameInfo.Types.CDotaGameInfo.Types.CPlayerInfo.md)
 
@@ -4242,6 +4244,8 @@
 
  [CUserMessageDesiredTimescale](Divine.Protobufs.Dota2.CUserMessageDesiredTimescale.md)
 
+ [CUserMessageEntitySpawnGroupChanged](Divine.Protobufs.Dota2.CUserMessageEntitySpawnGroupChanged.md)
+
  [CUserMessageFade](Divine.Protobufs.Dota2.CUserMessageFade.md)
 
  [CUserMessageGameTitle](Divine.Protobufs.Dota2.CUserMessageGameTitle.md)
@@ -4308,9 +4312,9 @@
 
  [CMsgGCToClientCustomGamesFriendsPlayedResponse.Types.CustomGame](Divine.Protobufs.Dota2.CMsgGCToClientCustomGamesFriendsPlayedResponse.Types.CustomGame.md)
 
- [CMsgDOTAMatch.Types.CustomGameData](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.CustomGameData.md)
-
  [CMsgDOTAMatch.Types.Player.Types.CustomGameData](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.Player.Types.CustomGameData.md)
+
+ [CMsgDOTAMatch.Types.CustomGameData](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.CustomGameData.md)
 
  [CMsg\_CVars.Types.CVar](Divine.Protobufs.Dota2.CMsg\_CVars.Types.CVar.md)
 
@@ -4342,27 +4346,27 @@
 
  [CMsgDotaScenario.Types.DamageStatsByType](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.DamageStatsByType.md)
 
+ [CMsgShowcaseItem\_Trophy.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Trophy.Types.Data.md)
+
+ [CMsgShowcaseBackground.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseBackground.Types.Data.md)
+
  [CMsgShowcaseItem\_Emoticon.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Emoticon.Types.Data.md)
-
- [CMsgShowcaseItem\_EconItem.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_EconItem.Types.Data.md)
-
- [CMsgShowcaseItem\_ChatWheel.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_ChatWheel.Types.Data.md)
-
- [CMsgShowcaseItem\_HeroIcon.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_HeroIcon.Types.Data.md)
 
  [CMsgShowcaseItem\_Hero.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Hero.Types.Data.md)
 
- [CMsgShowcaseItem\_Trophy.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Trophy.Types.Data.md)
-
- [CMsgShowcaseItem\_SpiderGraph.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_SpiderGraph.Types.Data.md)
-
- [CMsgShowcaseItem\_Stat.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Stat.Types.Data.md)
-
- [CMsgShowcaseItem\_UserFeed.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_UserFeed.Types.Data.md)
+ [CMsgShowcaseItem\_HeroIcon.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_HeroIcon.Types.Data.md)
 
  [CMsgShowcaseItem\_PlayerMatch.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_PlayerMatch.Types.Data.md)
 
- [CMsgShowcaseBackground.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseBackground.Types.Data.md)
+ [CMsgShowcaseItem\_ChatWheel.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_ChatWheel.Types.Data.md)
+
+ [CMsgShowcaseItem\_SpiderGraph.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_SpiderGraph.Types.Data.md)
+
+ [CMsgShowcaseItem\_EconItem.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_EconItem.Types.Data.md)
+
+ [CMsgShowcaseItem\_UserFeed.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_UserFeed.Types.Data.md)
+
+ [CMsgShowcaseItem\_Stat.Types.Data](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Stat.Types.Data.md)
 
  [CDOTAUserMsg\_PauseMinigameData.Types.DataBit](Divine.Protobufs.Dota2.CDOTAUserMsg\_PauseMinigameData.Types.DataBit.md)
 
@@ -4382,9 +4386,9 @@
 
  [CUserMsg\_ParticleManager.Types.DestroyPhysicsSim](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.DestroyPhysicsSim.md)
 
- [CUserMessageRequestDiagnostic.Types.Diagnostic](Divine.Protobufs.Dota2.CUserMessageRequestDiagnostic.Types.Diagnostic.md)
-
  [CUserMessage\_Diagnostic\_Response.Types.Diagnostic](Divine.Protobufs.Dota2.CUserMessage\_Diagnostic\_Response.Types.Diagnostic.md)
+
+ [CUserMessageRequestDiagnostic.Types.Diagnostic](Divine.Protobufs.Dota2.CUserMessageRequestDiagnostic.Types.Diagnostic.md)
 
  [CMsgDOTAChatMessage.Types.DiceRoll](Divine.Protobufs.Dota2.CMsgDOTAChatMessage.Types.DiceRoll.md)
 
@@ -4522,6 +4526,8 @@
 
  [CMsgGameMatchSignOut.Types.EventGameLeaderboardEntry](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.EventGameLeaderboardEntry.md)
 
+ [CSODOTAPartyMember.Types.EventGameLevel](Divine.Protobufs.Dota2.CSODOTAPartyMember.Types.EventGameLevel.md)
+
  [EventGcmessagesClientReflection](Divine.Protobufs.Dota2.EventGcmessagesClientReflection.md)
 
  [EventGcmessagesCommonReflection](Divine.Protobufs.Dota2.EventGcmessagesCommonReflection.md)
@@ -4548,13 +4554,13 @@
 
  [CDOTAUserMsg\_UnitEvent.Types.FadeGesture](Divine.Protobufs.Dota2.CDOTAUserMsg\_UnitEvent.Types.FadeGesture.md)
 
- [CMsgGCToClientBattlePassRollup\_International2016.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.FantasyChallenge.md)
-
- [CMsgGCToClientBattlePassRollup\_TI7.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.FantasyChallenge.md)
+ [CMsgGCToClientBattlePassRollup\_Fall2016.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.FantasyChallenge.md)
 
  [CMsgGCToClientBattlePassRollup\_TI8.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.FantasyChallenge.md)
 
- [CMsgGCToClientBattlePassRollup\_Fall2016.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.FantasyChallenge.md)
+ [CMsgGCToClientBattlePassRollup\_TI7.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.FantasyChallenge.md)
+
+ [CMsgGCToClientBattlePassRollup\_International2016.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.FantasyChallenge.md)
 
  [CMsgGCToClientBattlePassRollup\_Winter2017.Types.FantasyChallenge](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.FantasyChallenge.md)
 
@@ -4600,11 +4606,11 @@
 
  [CMsgDOTAClaimEventActionData.Types.GrantItemGiftData](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionData.Types.GrantItemGiftData.md)
 
- [CMsgDOTARealtimeGameStats.Types.GraphData](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.GraphData.md)
-
  [CMsgHeroGlobalDataResponse.Types.GraphData](Divine.Protobufs.Dota2.CMsgHeroGlobalDataResponse.Types.GraphData.md)
 
  [CMsgDOTARealtimeGameStatsTerse.Types.GraphData](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.GraphData.md)
+
+ [CMsgDOTARealtimeGameStats.Types.GraphData](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.GraphData.md)
 
  [CDOTAMatchMetadata.Types.GuildChallengeProgress](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.GuildChallengeProgress.md)
 
@@ -4614,15 +4620,15 @@
 
  [CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types.HealingReductionRecord](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types.HealingReductionRecord.md)
 
- [CMsgGCGetHeroStandingsResponse.Types.Hero](Divine.Protobufs.Dota2.CMsgGCGetHeroStandingsResponse.Types.Hero.md)
-
  [CMsgDotaScenario.Types.Hero](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Hero.md)
 
  [CMsgDOTAProfileCard.Types.Slot.Types.Hero](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.Hero.md)
 
- [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.HeroAbility](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.HeroAbility.md)
+ [CMsgGCGetHeroStandingsResponse.Types.Hero](Divine.Protobufs.Dota2.CMsgGCGetHeroStandingsResponse.Types.Hero.md)
 
  [CMsgDotaScenario.Types.HeroAbility](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.HeroAbility.md)
+
+ [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.HeroAbility](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.HeroAbility.md)
 
  [CMsgLobbyPlayerPlusSubscriptionData.Types.HeroBadge](Divine.Protobufs.Dota2.CMsgLobbyPlayerPlusSubscriptionData.Types.HeroBadge.md)
 
@@ -4676,23 +4682,23 @@
 
  [CDOTAMatchMetadata.Types.Team.Types.InventorySnapshot](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.InventorySnapshot.md)
 
- [CMsgDOTAProfileCard.Types.Slot.Types.Item](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.Item.md)
+ [CMsgClientToGCCreateStaticRecipe.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipe.Types.Item.md)
 
  [CMsgClientToGCUnlockCrateResponse.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCUnlockCrateResponse.Types.Item.md)
 
  [CMsgDotaScenario.Types.Item](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Item.md)
 
- [CMsgClientToGCRecycleMultipleItems.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCRecycleMultipleItems.Types.Item.md)
-
- [CMsgProcessTransactionOrder.Types.Item](Divine.Protobufs.Dota2.CMsgProcessTransactionOrder.Types.Item.md)
-
  [CMsgClientToGCPurchaseChargeCostItems.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItems.Types.Item.md)
 
- [CMsgClientToGCCreateStaticRecipe.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipe.Types.Item.md)
+ [CMsgDOTAProfileCard.Types.Slot.Types.Item](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.Item.md)
 
  [CMsgFightingGame\_GameData\_CharacterSelect.Types.Item](Divine.Protobufs.Dota2.CMsgFightingGame\_GameData\_CharacterSelect.Types.Item.md)
 
  [CMsgGCToGCGrantAccountRolledItems.Types.Item](Divine.Protobufs.Dota2.CMsgGCToGCGrantAccountRolledItems.Types.Item.md)
+
+ [CMsgProcessTransactionOrder.Types.Item](Divine.Protobufs.Dota2.CMsgProcessTransactionOrder.Types.Item.md)
+
+ [CMsgClientToGCRecycleMultipleItems.Types.Item](Divine.Protobufs.Dota2.CMsgClientToGCRecycleMultipleItems.Types.Item.md)
 
  [CMsgGameDataItemAbilityList.Types.ItemAbilityInfo](Divine.Protobufs.Dota2.CMsgGameDataItemAbilityList.Types.ItemAbilityInfo.md)
 
@@ -4718,13 +4724,13 @@
 
  [CMsgGCToGCFlushSteamInventoryCache.Types.Key](Divine.Protobufs.Dota2.CMsgGCToGCFlushSteamInventoryCache.Types.Key.md)
 
- [CSVCMsg\_GameEvent.Types.key\_t](Divine.Protobufs.Dota2.CSVCMsg\_GameEvent.Types.key\_t.md)
-
- [CMsgSource1LegacyGameEvent.Types.key\_t](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEvent.Types.key\_t.md)
-
  [CMsgSource1LegacyGameEventList.Types.key\_t](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEventList.Types.key\_t.md)
 
  [CSVCMsg\_GameEventList.Types.key\_t](Divine.Protobufs.Dota2.CSVCMsg\_GameEventList.Types.key\_t.md)
+
+ [CMsgSource1LegacyGameEvent.Types.key\_t](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEvent.Types.key\_t.md)
+
+ [CSVCMsg\_GameEvent.Types.key\_t](Divine.Protobufs.Dota2.CSVCMsg\_GameEvent.Types.key\_t.md)
 
  [CMsgClientToGCIntegrityStatus.Types.keyvalue](Divine.Protobufs.Dota2.CMsgClientToGCIntegrityStatus.Types.keyvalue.md)
 
@@ -4742,13 +4748,13 @@
 
  [CMsgClientToGCUpdateComicBookStats.Types.LanguageStats](Divine.Protobufs.Dota2.CMsgClientToGCUpdateComicBookStats.Types.LanguageStats.md)
 
- [CMsgLeagueWatchedGames.Types.League](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.League.md)
-
- [CMsgDOTADPCSearchResults.Types.League](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.League.md)
-
  [CMsgDOTAFantasyCardLineup.Types.League](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardLineup.Types.League.md)
 
  [CMsgDPCEvent.Types.League](Divine.Protobufs.Dota2.CMsgDPCEvent.Types.League.md)
+
+ [CMsgDOTADPCSearchResults.Types.League](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.League.md)
+
+ [CMsgLeagueWatchedGames.Types.League](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.League.md)
 
  [CMsgDOTAFantasyDPCLeagueStatus.Types.LeagueInfo](Divine.Protobufs.Dota2.CMsgDOTAFantasyDPCLeagueStatus.Types.LeagueInfo.md)
 
@@ -4760,9 +4766,9 @@
 
  [CMsgBotWorldState.Types.LinearProjectile](Divine.Protobufs.Dota2.CMsgBotWorldState.Types.LinearProjectile.md)
 
- [CMsgDOTASeries.Types.LiveGame](Divine.Protobufs.Dota2.CMsgDOTASeries.Types.LiveGame.md)
-
  [CMsgDOTALeagueLiveGames.Types.LiveGame](Divine.Protobufs.Dota2.CMsgDOTALeagueLiveGames.Types.LiveGame.md)
+
+ [CMsgDOTASeries.Types.LiveGame](Divine.Protobufs.Dota2.CMsgDOTASeries.Types.LiveGame.md)
 
  [CSODOTALobbyInvite.Types.LobbyMember](Divine.Protobufs.Dota2.CSODOTALobbyInvite.Types.LobbyMember.md)
 
@@ -4796,9 +4802,9 @@
 
  [CMsgDOTARealtimeGameStatsTerse.Types.MatchDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.MatchDetails.md)
 
- [CMsgDOTALeagueNode.Types.MatchDetails](Divine.Protobufs.Dota2.CMsgDOTALeagueNode.Types.MatchDetails.md)
-
  [CMsgDOTARealtimeGameStats.Types.MatchDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.MatchDetails.md)
+
+ [CMsgDOTALeagueNode.Types.MatchDetails](Divine.Protobufs.Dota2.CMsgDOTALeagueNode.Types.MatchDetails.md)
 
  [CMsgProfileResponse.Types.MatchInfo](Divine.Protobufs.Dota2.CMsgProfileResponse.Types.MatchInfo.md)
 
@@ -4808,9 +4814,9 @@
 
  [CMsgItemAges.Types.MaxItemIDTimestamp](Divine.Protobufs.Dota2.CMsgItemAges.Types.MaxItemIDTimestamp.md)
 
- [CMsgDOTATeamInfo.Types.Member](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.Member.md)
-
  [CMsgDOTAPartyRichPresence.Types.Member](Divine.Protobufs.Dota2.CMsgDOTAPartyRichPresence.Types.Member.md)
+
+ [CMsgDOTATeamInfo.Types.Member](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.Member.md)
 
  [CMsgDOTAChatGetUserListResponse.Types.Member](Divine.Protobufs.Dota2.CMsgDOTAChatGetUserListResponse.Types.Member.md)
 
@@ -4820,9 +4826,9 @@
 
  [CMsgDOTABotDebugInfo.Types.Bot.Types.Mode](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.Bot.Types.Mode.md)
 
- [CMsgDotaScenario.Types.Modifier](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Modifier.md)
-
  [CMsgBotWorldState.Types.Modifier](Divine.Protobufs.Dota2.CMsgBotWorldState.Types.Modifier.md)
+
+ [CMsgDotaScenario.Types.Modifier](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Modifier.md)
 
  [CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData.md)
 
@@ -4856,9 +4862,9 @@
 
  [NetworksystemProtomessagesReflection](Divine.Protobufs.Dota2.NetworksystemProtomessagesReflection.md)
 
- [CDOTAMatchMetadata.Types.Team.Types.Player.Types.NeutralItem](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.Types.NeutralItem.md)
-
  [CMsgNeutralItemStats.Types.NeutralItem](Divine.Protobufs.Dota2.CMsgNeutralItemStats.Types.NeutralItem.md)
+
+ [CDOTAMatchMetadata.Types.Team.Types.Player.Types.NeutralItem](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.Types.NeutralItem.md)
 
  [CMsgDOTATournament.Types.Node](Divine.Protobufs.Dota2.CMsgDOTATournament.Types.Node.md)
 
@@ -4894,75 +4900,75 @@
 
  [CMsgDPCEvent.Types.PhaseInfo](Divine.Protobufs.Dota2.CMsgDPCEvent.Types.PhaseInfo.md)
 
- [CMsgDOTARealtimeGameStats.Types.PickBanDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.PickBanDetails.md)
-
  [CMsgDOTARealtimeGameStatsTerse.Types.PickBanDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.PickBanDetails.md)
+
+ [CMsgDOTARealtimeGameStats.Types.PickBanDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.PickBanDetails.md)
 
  [CMsgSignOutCommunicationSummary.Types.PlayerCommunication.Types.PingDetail](Divine.Protobufs.Dota2.CMsgSignOutCommunicationSummary.Types.PlayerCommunication.Types.PingDetail.md)
 
  [CMsgAdditionalLobbyStartupAccountData.Types.PingWheelMessageRange](Divine.Protobufs.Dota2.CMsgAdditionalLobbyStartupAccountData.Types.PingWheelMessageRange.md)
 
- [CMsgOverworldMatchRewards.Types.Player](Divine.Protobufs.Dota2.CMsgOverworldMatchRewards.Types.Player.md)
-
- [CMsgServerToGCGetGuildContractsResponse.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCGetGuildContractsResponse.Types.Player.md)
-
- [CMsgSignOutXPCoins.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutXPCoins.Types.Player.md)
+ [CMsgDOTAMatch.Types.Player](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.Player.md)
 
  [CMsgSignOutMVPStats.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutMVPStats.Types.Player.md)
 
- [CMsgServerNetworkStats.Types.Player](Divine.Protobufs.Dota2.CMsgServerNetworkStats.Types.Player.md)
-
- [CMsgSignOutMapStats.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutMapStats.Types.Player.md)
-
- [CMsgSignOutMonsterHunter.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutMonsterHunter.Types.Player.md)
-
- [CMsgSteamLearnMatchInfoTeam.Types.Player](Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoTeam.Types.Player.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.md)
-
- [CMsgDOTAMatchMinimal.Types.Player](Divine.Protobufs.Dota2.CMsgDOTAMatchMinimal.Types.Player.md)
-
- [CMsgDOTAMatch.Types.Player](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.Player.md)
-
- [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.md)
-
- [CDOTASaveGame.Types.Player](Divine.Protobufs.Dota2.CDOTASaveGame.Types.Player.md)
-
- [CMsgConnectedPlayers.Types.Player](Divine.Protobufs.Dota2.CMsgConnectedPlayers.Types.Player.md)
-
- [CMsgDOTADPCSearchResults.Types.Player](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.Player.md)
-
- [CSourceTVGameSmall.Types.Player](Divine.Protobufs.Dota2.CSourceTVGameSmall.Types.Player.md)
-
  [CMsgSignOutOverworld.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutOverworld.Types.Player.md)
-
- [CMsgServerToGCMatchConnectionStats.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCMatchConnectionStats.Types.Player.md)
-
- [CMsgMonsterHunterMatchRewards.Types.Player](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.Player.md)
-
- [CDOTAMatchMetadata.Types.Team.Types.Player](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.md)
-
- [CMsgSpendWager.Types.Player](Divine.Protobufs.Dota2.CMsgSpendWager.Types.Player.md)
 
  [CMsgSignOutCraftworks.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutCraftworks.Types.Player.md)
 
- [CMsgServerToGCGetStickerHeroesResponse.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCGetStickerHeroesResponse.Types.Player.md)
+ [CMsgOverworldMatchRewards.Types.Player](Divine.Protobufs.Dota2.CMsgOverworldMatchRewards.Types.Player.md)
+
+ [CDOTAMatchMetadata.Types.Team.Types.Player](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.md)
+
+ [CMsgSteamLearnMatchInfoTeam.Types.Player](Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoTeam.Types.Player.md)
+
+ [CMsgSpendWager.Types.Player](Divine.Protobufs.Dota2.CMsgSpendWager.Types.Player.md)
+
+ [CMsgConnectedPlayers.Types.Player](Divine.Protobufs.Dota2.CMsgConnectedPlayers.Types.Player.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.md)
 
  [CMsgPoorNetworkConditions.Types.Player](Divine.Protobufs.Dota2.CMsgPoorNetworkConditions.Types.Player.md)
 
- [CMsgDOTALeague.Types.Player](Divine.Protobufs.Dota2.CMsgDOTALeague.Types.Player.md)
+ [CMsgServerToGCMatchConnectionStats.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCMatchConnectionStats.Types.Player.md)
+
+ [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.md)
 
  [CMsgBotWorldState.Types.Player](Divine.Protobufs.Dota2.CMsgBotWorldState.Types.Player.md)
+
+ [CMsgSignOutXPCoins.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutXPCoins.Types.Player.md)
+
+ [CMsgSignOutMapStats.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutMapStats.Types.Player.md)
+
+ [CMsgServerToGCGetStickerHeroesResponse.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCGetStickerHeroesResponse.Types.Player.md)
+
+ [CMsgServerToGCGetGuildContractsResponse.Types.Player](Divine.Protobufs.Dota2.CMsgServerToGCGetGuildContractsResponse.Types.Player.md)
+
+ [CMsgMonsterHunterMatchRewards.Types.Player](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.Player.md)
+
+ [CMsgDOTAMatchMinimal.Types.Player](Divine.Protobufs.Dota2.CMsgDOTAMatchMinimal.Types.Player.md)
+
+ [CDOTASaveGame.Types.Player](Divine.Protobufs.Dota2.CDOTASaveGame.Types.Player.md)
+
+ [CMsgSignOutMonsterHunter.Types.Player](Divine.Protobufs.Dota2.CMsgSignOutMonsterHunter.Types.Player.md)
+
+ [CMsgDOTALeague.Types.Player](Divine.Protobufs.Dota2.CMsgDOTALeague.Types.Player.md)
+
+ [CMsgServerNetworkStats.Types.Player](Divine.Protobufs.Dota2.CMsgServerNetworkStats.Types.Player.md)
+
+ [CSourceTVGameSmall.Types.Player](Divine.Protobufs.Dota2.CSourceTVGameSmall.Types.Player.md)
+
+ [CMsgDOTADPCSearchResults.Types.Player](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.Player.md)
 
  [CMsgMatchDiretideCandy.Types.PlayerCandy](Divine.Protobufs.Dota2.CMsgMatchDiretideCandy.Types.PlayerCandy.md)
 
  [CMsgGCToClientBattlePassRollup\_International2016.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.PlayerCard.md)
 
+ [CMsgGCToClientBattlePassRollup\_TI8.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.PlayerCard.md)
+
  [CMsgGCToClientBattlePassRollup\_Fall2016.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.PlayerCard.md)
 
  [CMsgGCToClientBattlePassRollup\_TI7.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.PlayerCard.md)
-
- [CMsgGCToClientBattlePassRollup\_TI8.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.PlayerCard.md)
 
  [CMsgGCToClientBattlePassRollup\_Winter2017.Types.PlayerCard](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.PlayerCard.md)
 
@@ -5006,15 +5012,15 @@
 
  [CDOTAUserMsg\_StatsHeroPositionInfo.Types.PositionPair](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsHeroPositionInfo.Types.PositionPair.md)
 
+ [CMsgServerToGCCompendiumChosenInGamePredictions.Types.Prediction](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumChosenInGamePredictions.Types.Prediction.md)
+
  [CMsgClientToGCSelectCompendiumInGamePrediction.Types.Prediction](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePrediction.Types.Prediction.md)
 
  [CMsgDOTASeasonPredictions.Types.Prediction](Divine.Protobufs.Dota2.CMsgDOTASeasonPredictions.Types.Prediction.md)
 
- [CDotaMsg\_PredictionResult.Types.Prediction](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.Prediction.md)
-
  [CMsgPredictionRankings.Types.Prediction](Divine.Protobufs.Dota2.CMsgPredictionRankings.Types.Prediction.md)
 
- [CMsgServerToGCCompendiumChosenInGamePredictions.Types.Prediction](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumChosenInGamePredictions.Types.Prediction.md)
+ [CDotaMsg\_PredictionResult.Types.Prediction](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.Prediction.md)
 
  [PredictionEventsReflection](Divine.Protobufs.Dota2.PredictionEventsReflection.md)
 
@@ -5028,11 +5034,11 @@
 
  [CMsgGCToClientBattlePassRollup\_TI8.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.Predictions.md)
 
- [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Predictions.md)
-
  [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Predictions.md)
 
  [CMsgGCToClientBattlePassRollup\_TI7.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.Predictions.md)
+
+ [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Predictions.md)
 
  [CMsgGCToClientBattlePassRollup\_International2016.Types.Predictions](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Predictions.md)
 
@@ -5064,17 +5070,17 @@
 
  [CMsgInGamePrediction.Types.QueryKeyValues](Divine.Protobufs.Dota2.CMsgInGamePrediction.Types.QueryKeyValues.md)
 
- [CMsgClientToGCGetQuestProgressResponse.Types.Quest](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.Quest.md)
-
  [CMsgOverworldEncounterTokenQuestData.Types.Quest](Divine.Protobufs.Dota2.CMsgOverworldEncounterTokenQuestData.Types.Quest.md)
 
- [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Questlines.md)
-
- [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Questlines.md)
+ [CMsgClientToGCGetQuestProgressResponse.Types.Quest](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.Quest.md)
 
  [CMsgGCToClientBattlePassRollup\_International2016.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Questlines.md)
 
+ [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Questlines.md)
+
  [CMsgGCToClientBattlePassRollup\_TI7.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.Questlines.md)
+
+ [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Questlines](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Questlines.md)
 
  [CMsgGCGetHeroTimedStatsResponse.Types.RankChunkedStats](Divine.Protobufs.Dota2.CMsgGCGetHeroTimedStatsResponse.Types.RankChunkedStats.md)
 
@@ -5100,17 +5106,17 @@
 
  [CMsgSDOAssert.Types.Request](Divine.Protobufs.Dota2.CMsgSDOAssert.Types.Request.md)
 
- [CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.Result](Divine.Protobufs.Dota2.CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.Result.md)
-
  [CMsgDOTADPCTeamResults.Types.Result](Divine.Protobufs.Dota2.CMsgDOTADPCTeamResults.Types.Result.md)
+
+ [CMsgDOTALeagueNodeResults.Types.Result](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeResults.Types.Result.md)
 
  [CMsgDOTADPCLeagueResults.Types.Result](Divine.Protobufs.Dota2.CMsgDOTADPCLeagueResults.Types.Result.md)
 
- [CMsgGCToClientVerifyFavoritePlayersResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientVerifyFavoritePlayersResponse.Types.Result.md)
+ [CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.Result](Divine.Protobufs.Dota2.CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.Result.md)
 
  [CMsgPredictionResults.Types.Result](Divine.Protobufs.Dota2.CMsgPredictionResults.Types.Result.md)
 
- [CMsgDOTALeagueNodeResults.Types.Result](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeResults.Types.Result.md)
+ [CMsgGCToClientVerifyFavoritePlayersResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientVerifyFavoritePlayersResponse.Types.Result.md)
 
  [CMsgPredictionResults.Types.ResultBreakdown](Divine.Protobufs.Dota2.CMsgPredictionResults.Types.ResultBreakdown.md)
 
@@ -5130,11 +5136,13 @@
 
  [CSVCMsg\_SendTable.Types.sendprop\_t](Divine.Protobufs.Dota2.CSVCMsg\_SendTable.Types.sendprop\_t.md)
 
- [CMsgLeagueWatchedGames.Types.Series](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.Series.md)
-
  [CMsgDOTARequestMatchesResponse.Types.Series](Divine.Protobufs.Dota2.CMsgDOTARequestMatchesResponse.Types.Series.md)
 
+ [CMsgLeagueWatchedGames.Types.Series](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.Series.md)
+
  [CMsgDOTALeague.Types.SeriesInfo](Divine.Protobufs.Dota2.CMsgDOTALeague.Types.SeriesInfo.md)
+
+ [CUserMsg\_ParticleManager.Types.SetControlPointClientSnapshot](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.SetControlPointClientSnapshot.md)
 
  [CUserMsg\_ParticleManager.Types.SetControlPointModel](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.SetControlPointModel.md)
 
@@ -5236,27 +5244,27 @@
 
  [CMsgDOTADPCSearchResults.Types.Team](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.Team.md)
 
- [CDOTAMatchPrivateMetadata.Types.Team](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.md)
-
  [CMsgDOTATournament.Types.Team](Divine.Protobufs.Dota2.CMsgDOTATournament.Types.Team.md)
+
+ [CMsgDotaScenario.Types.Team](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Team.md)
 
  [CDOTAMatchMetadata.Types.Team](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.md)
 
  [CMsgDOTAProfileCard.Types.Slot.Types.Team](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.Team.md)
 
+ [CMsgSpectatorLobbyGameDetails.Types.Team](Divine.Protobufs.Dota2.CMsgSpectatorLobbyGameDetails.Types.Team.md)
+
  [CMsgDOTALiveScoreboardUpdate.Types.Team](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.md)
 
- [CMsgDotaScenario.Types.Team](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.Team.md)
-
- [CMsgSpectatorLobbyGameDetails.Types.Team](Divine.Protobufs.Dota2.CMsgSpectatorLobbyGameDetails.Types.Team.md)
+ [CDOTAMatchPrivateMetadata.Types.Team](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.md)
 
  [CMsgDOTATournamentStateChange.Types.TeamChange](Divine.Protobufs.Dota2.CMsgDOTATournamentStateChange.Types.TeamChange.md)
 
  [CMsgClientToGCFantasyCraftingGenerateTablets.Types.TeamChoice](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTablets.Types.TeamChoice.md)
 
- [CMsgDOTARealtimeGameStats.Types.TeamDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.TeamDetails.md)
-
  [CMsgDOTARealtimeGameStatsTerse.Types.TeamDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.TeamDetails.md)
+
+ [CMsgDOTARealtimeGameStats.Types.TeamDetails](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.TeamDetails.md)
 
  [CMsgDOTASeries.Types.TeamInfo](Divine.Protobufs.Dota2.CMsgDOTASeries.Types.TeamInfo.md)
 
@@ -5320,277 +5328,255 @@
 
  [CMsgSerializedSOCache.Types.TypeCache](Divine.Protobufs.Dota2.CMsgSerializedSOCache.Types.TypeCache.md)
 
- [CP2P\_VRAvatarPosition.Types](Divine.Protobufs.Dota2.CP2P\_VRAvatarPosition.Types.md)
+ [CDOTAMatchPrivateMetadata.Types.Team.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.md)
+
+ [CDOTAUserMsg\_UnitEvent.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_UnitEvent.Types.md)
+
+ [CDOTAUserMsg\_AllStarEvent.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_AllStarEvent.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.md)
+
+ [CDOTAUserMsg\_CourierKilledAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_CourierKilledAlert.Types.md)
 
  [CDOTAUserMsg\_GiveItem.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_GiveItem.Types.md)
 
- [CDemoClassInfo.Types](Divine.Protobufs.Dota2.CDemoClassInfo.Types.md)
-
- [CDOTAClientMsg\_QuickBuyAction.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_QuickBuyAction.Types.md)
-
- [CMsgDOTAMatch.Types](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.md)
-
- [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.md)
-
- [CUIFontFilePackagePB.Types](Divine.Protobufs.Dota2.CUIFontFilePackagePB.Types.md)
-
- [CMsgGCToClientBattlePassRollup\_Winter2017.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.md)
-
- [CMsgGCToClientGetFavoritePlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientGetFavoritePlayersResponse.Types.md)
-
- [CMsgDOTALiveScoreboardUpdate.Types.Team.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.md)
-
- [CMsgGCUpdateSubGCSessionInfo.Types](Divine.Protobufs.Dota2.CMsgGCUpdateSubGCSessionInfo.Types.md)
-
- [CUserMessage\_RemoteServerCommand.Types](Divine.Protobufs.Dota2.CUserMessage\_RemoteServerCommand.Types.md)
-
- [CMsgGCToClientBattlePassRollup\_TI8.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.md)
-
- [CMsgGCGetPlayerCardItemInfoResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetPlayerCardItemInfoResponse.Types.md)
-
- [CMsgSteamLearnPlayerTimedStats.Types](Divine.Protobufs.Dota2.CMsgSteamLearnPlayerTimedStats.Types.md)
-
  [CDOTAUserMsg\_GuildChallenge\_Progress.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_GuildChallenge\_Progress.Types.md)
 
- [CMsgDOTALiveScoreboardUpdate.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.md)
+ [CDOTAUserMsg\_MadstoneAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MadstoneAlert.Types.md)
 
- [CMsgActivatePlusFreeTrialResponse.Types](Divine.Protobufs.Dota2.CMsgActivatePlusFreeTrialResponse.Types.md)
+ [CDOTAUserMsg\_MiniKillCamInfo.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MiniKillCamInfo.Types.md)
 
- [CMsgDOTAMatchMinimal.Types](Divine.Protobufs.Dota2.CMsgDOTAMatchMinimal.Types.md)
+ [CGCToGCMsgMasterAck.Types](Divine.Protobufs.Dota2.CGCToGCMsgMasterAck.Types.md)
 
- [CDOTAClientMsg\_UnitsAutoAttackMode.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_UnitsAutoAttackMode.Types.md)
+ [CGameInfo.Types.CDotaGameInfo.Types](Divine.Protobufs.Dota2.CGameInfo.Types.CDotaGameInfo.Types.md)
 
- [CMsgWatchGameResponse.Types](Divine.Protobufs.Dota2.CMsgWatchGameResponse.Types.md)
+ [CGameInfo.Types](Divine.Protobufs.Dota2.CGameInfo.Types.md)
 
- [CUserMessage\_UtilMsg\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_UtilMsg\_Response.Types.md)
+ [CDOTAUserMsg\_MiniKillCamInfo.Types.Attacker.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MiniKillCamInfo.Types.Attacker.Types.md)
 
- [CMsgGameServerInfo.Types](Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.md)
+ [CDOTASaveGame.Types](Divine.Protobufs.Dota2.CDOTASaveGame.Types.md)
 
- [CP2P\_Voice.Types](Divine.Protobufs.Dota2.CP2P\_Voice.Types.md)
+ [CDOTAUserMsg\_MonsterHunter\_HuntAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MonsterHunter\_HuntAlert.Types.md)
+
+ [CDOTAResponseQuerySerialized.Types.Fact.Types](Divine.Protobufs.Dota2.CDOTAResponseQuerySerialized.Types.Fact.Types.md)
+
+ [CDOTAUserMsg\_PauseMinigameData.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_PauseMinigameData.Types.md)
+
+ [CDOTAResponseQuerySerialized.Types](Divine.Protobufs.Dota2.CDOTAResponseQuerySerialized.Types.md)
+
+ [CDOTAReplayDownloadInfo.Types](Divine.Protobufs.Dota2.CDOTAReplayDownloadInfo.Types.md)
+
+ [CDOTAUserMsg\_StatsHeroPositionInfo.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsHeroPositionInfo.Types.md)
+
+ [CDotaMsgStructuredTooltipProperties.Types](Divine.Protobufs.Dota2.CDotaMsgStructuredTooltipProperties.Types.md)
+
+ [CDotaMsg\_PredictionResult.Types.Prediction.Types](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.Prediction.Types.md)
+
+ [CDotaMsg\_PredictionResult.Types](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.md)
+
+ [CDOTASaveGame.Types.SaveInstance.Types](Divine.Protobufs.Dota2.CDOTASaveGame.Types.SaveInstance.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.md)
+
+ [CDOTAUserMsg\_StatsMatchDetails.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsMatchDetails.Types.md)
+
+ [CDOTAUserMsg\_StatsTeamMinuteDetails.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsTeamMinuteDetails.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types.md)
 
  [CMvpData.Types.MvpDatum.Types.MvpAccolade.Types](Divine.Protobufs.Dota2.CMvpData.Types.MvpDatum.Types.MvpAccolade.Types.md)
 
- [CMsgGCToServerLobbyHeroBanRates.Types](Divine.Protobufs.Dota2.CMsgGCToServerLobbyHeroBanRates.Types.md)
+ [CDOTAMatchMetadata.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.Types.md)
 
- [CMsgGCGetHeroStatsHistoryResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroStatsHistoryResponse.Types.md)
+ [CGCToGCMsgMasterStartupComplete.Types](Divine.Protobufs.Dota2.CGCToGCMsgMasterStartupComplete.Types.md)
 
- [CMsgDOTAMatch.Types.Player.Types](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.Player.Types.md)
+ [CDemoClassInfo.Types](Divine.Protobufs.Dota2.CDemoClassInfo.Types.md)
 
- [CWorkshop\_GetPackageDailyRevenue\_Response.Types](Divine.Protobufs.Dota2.CWorkshop\_GetPackageDailyRevenue\_Response.Types.md)
-
- [CBidirMsg\_PredictionEvent.Types](Divine.Protobufs.Dota2.CBidirMsg\_PredictionEvent.Types.md)
-
- [CCandyShopDev.Types](Divine.Protobufs.Dota2.CCandyShopDev.Types.md)
-
- [CMsgDOTALeagueMessages.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueMessages.Types.md)
-
- [CMsgGCToClientGetFilteredPlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientGetFilteredPlayersResponse.Types.md)
-
- [CDOTAClientMsg\_SuggestItemPreference.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_SuggestItemPreference.Types.md)
-
- [CMsgGCGetHeroTimedStatsResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroTimedStatsResponse.Types.md)
-
- [CMsgGCGetHeroStandingsResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroStandingsResponse.Types.md)
-
- [CWorkshop\_PopulateItemDescriptions\_Request.Types](Divine.Protobufs.Dota2.CWorkshop\_PopulateItemDescriptions\_Request.Types.md)
-
- [CSVCMsg\_SendTable.Types](Divine.Protobufs.Dota2.CSVCMsg\_SendTable.Types.md)
-
- [CMsgGCToClientCurrencyPricePoints.Types](Divine.Protobufs.Dota2.CMsgGCToClientCurrencyPricePoints.Types.md)
-
- [CUserMessage\_DllStatus.Types](Divine.Protobufs.Dota2.CUserMessage\_DllStatus.Types.md)
+ [CDemoRecovery.Types](Divine.Protobufs.Dota2.CDemoRecovery.Types.md)
 
  [CDemoStringTables.Types](Divine.Protobufs.Dota2.CDemoStringTables.Types.md)
 
- [CUserMessage\_Diagnostic\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_Diagnostic\_Response.Types.md)
+ [CDOTABroadcastMsg\_LANLobbyReply.Types](Divine.Protobufs.Dota2.CDOTABroadcastMsg\_LANLobbyReply.Types.md)
 
- [CMsgDOTALeagueNode.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNode.Types.md)
+ [CDOTAClientMsg\_DemoHero.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_DemoHero.Types.md)
 
- [CSVCMsg\_Sounds.Types](Divine.Protobufs.Dota2.CSVCMsg\_Sounds.Types.md)
+ [CCandyShopDev.Types](Divine.Protobufs.Dota2.CCandyShopDev.Types.md)
 
- [CMsgGCToClientBattlePassRollupListResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollupListResponse.Types.md)
+ [CDOTAClientMsg\_SuggestItemPreference.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_SuggestItemPreference.Types.md)
 
- [CMsgGCToClientBattlePassRollup\_Fall2016.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.md)
+ [CDOTAClientMsg\_UnitsAutoAttackMode.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_UnitsAutoAttackMode.Types.md)
 
- [CMsgGCToClientBattlePassRollup\_TI7.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.md)
+ [CDOTAMatchMetadata.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.md)
 
- [CMsgDOTALeagueNodeGroup.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeGroup.Types.md)
+ [CDOTAMatchMetadata.Types.GuildChallengeProgress.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.GuildChallengeProgress.Types.md)
 
- [CSVCMsgList\_GameEvents.Types](Divine.Protobufs.Dota2.CSVCMsgList\_GameEvents.Types.md)
+ [CDOTAMatchMetadata.Types.Team.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.md)
 
- [CDemoRecovery.Types](Divine.Protobufs.Dota2.CDemoRecovery.Types.md)
+ [CDOTAMatchMetadata.Types.Team.Types.KillInfo.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.KillInfo.Types.md)
+
+ [CDOTAClientMsg\_QuickBuyAction.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_QuickBuyAction.Types.md)
+
+ [CDOTAMatchPrivateMetadata.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.md)
+
+ [CBidirMsg\_PredictionEvent.Types](Divine.Protobufs.Dota2.CBidirMsg\_PredictionEvent.Types.md)
+
+ [CMsg\_CVars.Types](Divine.Protobufs.Dota2.CMsg\_CVars.Types.md)
+
+ [CMsgClientToGCLeavePrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCLeavePrivateCoachingSessionResponse.Types.md)
+
+ [CMsgAddItemToSocketResponse.Types](Divine.Protobufs.Dota2.CMsgAddItemToSocketResponse.Types.md)
+
+ [CMsgGCToClientMapStatsResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientMapStatsResponse.Types.md)
+
+ [CMsgGCToClientManageFavoritesResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientManageFavoritesResponse.Types.md)
+
+ [CMsgGCToClientJoinPartyFromBeaconResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientJoinPartyFromBeaconResponse.Types.md)
+
+ [CMsgGCToClientInFlightChargesUpdated.Types](Divine.Protobufs.Dota2.CMsgGCToClientInFlightChargesUpdated.Types.md)
+
+ [CMsgGCToClientGetFilteredPlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientGetFilteredPlayersResponse.Types.md)
+
+ [CUserMsg\_ParticleManager.Types.SetParticleNamedValueContext.Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.SetParticleNamedValueContext.Types.md)
+
+ [CMsgGCToClientGetFavoritePlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientGetFavoritePlayersResponse.Types.md)
+
+ [CMsgGCToClientCustomGamesFriendsPlayedResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientCustomGamesFriendsPlayedResponse.Types.md)
+
+ [CMsgGCToClientCurrencyPricePoints.Types](Divine.Protobufs.Dota2.CMsgGCToClientCurrencyPricePoints.Types.md)
 
  [CMsgGCToClientCollectorsCacheAvailableDataResponse.Types.Vote.Types](Divine.Protobufs.Dota2.CMsgGCToClientCollectorsCacheAvailableDataResponse.Types.Vote.Types.md)
 
  [CMsgGCToClientCollectorsCacheAvailableDataResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientCollectorsCacheAvailableDataResponse.Types.md)
 
- [CMsgGCToClientBattlePassRollup\_International2016.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.md)
-
- [CDOTAReplayDownloadInfo.Types](Divine.Protobufs.Dota2.CDOTAReplayDownloadInfo.Types.md)
-
- [CDOTAResponseQuerySerialized.Types](Divine.Protobufs.Dota2.CDOTAResponseQuerySerialized.Types.md)
+ [CWorkshop\_GetItemDailyRevenue\_Response.Types](Divine.Protobufs.Dota2.CWorkshop\_GetItemDailyRevenue\_Response.Types.md)
 
  [CMsgGCToClientCavernCrawlMapPathCompleted.Types](Divine.Protobufs.Dota2.CMsgGCToClientCavernCrawlMapPathCompleted.Types.md)
 
- [CDOTAResponseQuerySerialized.Types.Fact.Types](Divine.Protobufs.Dota2.CDOTAResponseQuerySerialized.Types.Fact.Types.md)
+ [CMsgGCToClientPrivateChatResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientPrivateChatResponse.Types.md)
 
- [CMsgGCToClientCustomGamesFriendsPlayedResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientCustomGamesFriendsPlayedResponse.Types.md)
+ [CMsgGCToClientBattlePassRollupListResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollupListResponse.Types.md)
 
- [CDOTABroadcastMsg\_LANLobbyReply.Types](Divine.Protobufs.Dota2.CDOTABroadcastMsg\_LANLobbyReply.Types.md)
+ [CWorkshop\_PopulateItemDescriptions\_Request.Types](Divine.Protobufs.Dota2.CWorkshop\_PopulateItemDescriptions\_Request.Types.md)
 
- [CGCToGCMsgMasterStartupComplete.Types](Divine.Protobufs.Dota2.CGCToGCMsgMasterStartupComplete.Types.md)
-
- [CMsgGetTeamAuditInformation.Types](Divine.Protobufs.Dota2.CMsgGetTeamAuditInformation.Types.md)
-
- [CDOTAUserMsg\_CourierKilledAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_CourierKilledAlert.Types.md)
-
- [CMsgGCNotificationsUpdate.Types](Divine.Protobufs.Dota2.CMsgGCNotificationsUpdate.Types.md)
-
- [CDOTAUserMsg\_AllStarEvent.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_AllStarEvent.Types.md)
-
- [CMsgGCPlayerInfoSubmitResponse.Types](Divine.Protobufs.Dota2.CMsgGCPlayerInfoSubmitResponse.Types.md)
-
- [CMsg\_CVars.Types](Divine.Protobufs.Dota2.CMsg\_CVars.Types.md)
-
- [CMsgGCRankedPlayerInfoSubmitResponse.Types](Divine.Protobufs.Dota2.CMsgGCRankedPlayerInfoSubmitResponse.Types.md)
-
- [CMsgGCRequestStoreSalesDataResponse.Types](Divine.Protobufs.Dota2.CMsgGCRequestStoreSalesDataResponse.Types.md)
-
- [CUserMessage\_NotifyResponseFound.Types](Divine.Protobufs.Dota2.CUserMessage\_NotifyResponseFound.Types.md)
-
- [CDOTASaveGame.Types.SaveInstance.Types](Divine.Protobufs.Dota2.CDOTASaveGame.Types.SaveInstance.Types.md)
-
- [CUserMessage\_Inventory\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_Inventory\_Response.Types.md)
-
- [CMsgDOTALeagueNodeResults.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeResults.Types.md)
-
- [CSVCMsg\_PacketEntities.Types](Divine.Protobufs.Dota2.CSVCMsg\_PacketEntities.Types.md)
+ [CMsgGCToClientBattlePassRollup\_Winter2017.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.md)
 
  [CWorkshop\_SetItemPaymentRules\_Request.Types](Divine.Protobufs.Dota2.CWorkshop\_SetItemPaymentRules\_Request.Types.md)
 
- [CDOTAClientMsg\_DemoHero.Types](Divine.Protobufs.Dota2.CDOTAClientMsg\_DemoHero.Types.md)
+ [CMsgGCToClientBattlePassRollup\_TI8.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI8.Types.md)
 
- [CDOTASaveGame.Types](Divine.Protobufs.Dota2.CDOTASaveGame.Types.md)
+ [CMsgGCToClientBattlePassRollup\_TI7.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_TI7.Types.md)
+
+ [CMsgGCToClientBattlePassRollup\_International2016.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.md)
+
+ [CMsgGCToClientBattlePassRollup\_Fall2016.Types](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.md)
 
  [CMsgGCRerollPlayerChallengeResponse.Types](Divine.Protobufs.Dota2.CMsgGCRerollPlayerChallengeResponse.Types.md)
 
- [CMsgDOTALeaveTeamResponse.Types](Divine.Protobufs.Dota2.CMsgDOTALeaveTeamResponse.Types.md)
+ [CMsgGCRequestStoreSalesDataResponse.Types](Divine.Protobufs.Dota2.CMsgGCRequestStoreSalesDataResponse.Types.md)
 
- [CMsgGameMatchSignoutResponse.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignoutResponse.Types.md)
+ [CMsgGCRankedPlayerInfoSubmitResponse.Types](Divine.Protobufs.Dota2.CMsgGCRankedPlayerInfoSubmitResponse.Types.md)
+
+ [CMsgGCPlayerInfoSubmitResponse.Types](Divine.Protobufs.Dota2.CMsgGCPlayerInfoSubmitResponse.Types.md)
+
+ [CMsgGCNotificationsUpdate.Types](Divine.Protobufs.Dota2.CMsgGCNotificationsUpdate.Types.md)
+
+ [CMsgGCGetPlayerCardItemInfoResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetPlayerCardItemInfoResponse.Types.md)
+
+ [CWorkshop\_GetPackageDailyRevenue\_Response.Types](Divine.Protobufs.Dota2.CWorkshop\_GetPackageDailyRevenue\_Response.Types.md)
+
+ [CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.md)
+
+ [CMsgGCToClientQuestProgressUpdated.Types](Divine.Protobufs.Dota2.CMsgGCToClientQuestProgressUpdated.Types.md)
+
+ [CMsgGCToClientRankResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRankResponse.Types.md)
+
+ [CMsgLookupMultipleAccountNamesResponse.Types](Divine.Protobufs.Dota2.CMsgLookupMultipleAccountNamesResponse.Types.md)
+
+ [CMsgLobbyPlayerPlusSubscriptionData.Types](Divine.Protobufs.Dota2.CMsgLobbyPlayerPlusSubscriptionData.Types.md)
+
+ [CMsgLobbyFeaturedGamemodeProgress.Types](Divine.Protobufs.Dota2.CMsgLobbyFeaturedGamemodeProgress.Types.md)
+
+ [CMsgLobbyEventPoints.Types](Divine.Protobufs.Dota2.CMsgLobbyEventPoints.Types.md)
+
+ [CMsgLeagueWatchedGames.Types](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.md)
+
+ [CUserMessageRemoteServerResponse.Types](Divine.Protobufs.Dota2.CUserMessageRemoteServerResponse.Types.md)
+
+ [CUserMessageRequestDiagnostic.Types](Divine.Protobufs.Dota2.CUserMessageRequestDiagnostic.Types.md)
+
+ [CMsgItemAges.Types](Divine.Protobufs.Dota2.CMsgItemAges.Types.md)
+
+ [CMsgInGamePrediction.Types](Divine.Protobufs.Dota2.CMsgInGamePrediction.Types.md)
+
+ [CMsgHeroGlobalDataResponse.Types](Divine.Protobufs.Dota2.CMsgHeroGlobalDataResponse.Types.md)
+
+ [CMsgHeroGlobalDataHeroesAlliesAndEnemies.Types](Divine.Protobufs.Dota2.CMsgHeroGlobalDataHeroesAlliesAndEnemies.Types.md)
+
+ [CMsgGuildSummary.Types](Divine.Protobufs.Dota2.CMsgGuildSummary.Types.md)
+
+ [CMsgGetTeamAuditInformation.Types](Divine.Protobufs.Dota2.CMsgGetTeamAuditInformation.Types.md)
+
+ [CMsgGCUpdateSubGCSessionInfo.Types](Divine.Protobufs.Dota2.CMsgGCUpdateSubGCSessionInfo.Types.md)
+
+ [CMsgGCToServerLobbyHeroBanRates.Types](Divine.Protobufs.Dota2.CMsgGCToServerLobbyHeroBanRates.Types.md)
+
+ [CMsgGCToServerCheerData.Types](Divine.Protobufs.Dota2.CMsgGCToServerCheerData.Types.md)
+
+ [CMsgGCToGCSOCacheSubscribe.Types](Divine.Protobufs.Dota2.CMsgGCToGCSOCacheSubscribe.Types.md)
+
+ [CMsgGCToGCGrantAccountRolledItems.Types.Item.Types](Divine.Protobufs.Dota2.CMsgGCToGCGrantAccountRolledItems.Types.Item.Types.md)
+
+ [CMsgGCToGCGrantAccountRolledItems.Types](Divine.Protobufs.Dota2.CMsgGCToGCGrantAccountRolledItems.Types.md)
+
+ [CMsgGCToGCFlushSteamInventoryCache.Types](Divine.Protobufs.Dota2.CMsgGCToGCFlushSteamInventoryCache.Types.md)
+
+ [CMsgGCToGCConsoleOutput.Types](Divine.Protobufs.Dota2.CMsgGCToGCConsoleOutput.Types.md)
+
+ [CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types](Divine.Protobufs.Dota2.CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.md)
+
+ [CMsgGCToClientVerifyFavoritePlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientVerifyFavoritePlayersResponse.Types.md)
+
+ [CMsgGCToClientUploadMatchClipResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientUploadMatchClipResponse.Types.md)
 
  [CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types.md)
+
+ [CUserMsg\_ParticleManager.Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.md)
+
+ [CMsgGCToClientRequestActiveBeaconPartiesResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.md)
 
  [CMsgGCToClientRemoveFilteredPlayerResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRemoveFilteredPlayerResponse.Types.md)
 
  [CMsgGCToClientRecordContestVoteResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRecordContestVoteResponse.Types.md)
 
- [CMsgDOTAWelcome.Types](Divine.Protobufs.Dota2.CMsgDOTAWelcome.Types.md)
+ [CMsgGCGetHeroTimedStatsResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroTimedStatsResponse.Types.md)
 
- [CMsgDOTASelectionPriorityChoiceResponse.Types](Divine.Protobufs.Dota2.CMsgDOTASelectionPriorityChoiceResponse.Types.md)
+ [CMsgGCGetHeroStatsHistoryResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroStatsHistoryResponse.Types.md)
 
- [CDOTAMatchMetadata.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.Player.Types.md)
+ [CMsgGCGetHeroStandingsResponse.Types](Divine.Protobufs.Dota2.CMsgGCGetHeroStandingsResponse.Types.md)
 
- [CMsgDOTASeasonPredictions.Types.Prediction.Types](Divine.Protobufs.Dota2.CMsgDOTASeasonPredictions.Types.Prediction.Types.md)
-
- [CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types](Divine.Protobufs.Dota2.CMsgGCtoGCAssociatedExploiterAccountInfoResponse.Types.md)
-
- [CMsgDPCEvent.Types](Divine.Protobufs.Dota2.CMsgDPCEvent.Types.md)
-
- [CMsgDOTASeasonPredictions.Types](Divine.Protobufs.Dota2.CMsgDOTASeasonPredictions.Types.md)
-
- [CUserMessageRemoteServerResponse.Types](Divine.Protobufs.Dota2.CUserMessageRemoteServerResponse.Types.md)
-
- [CUserMsg\_ParticleManager.Types.SetParticleNamedValueContext.Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.SetParticleNamedValueContext.Types.md)
-
- [CMsgSteamLearnWardPlacement.Types](Divine.Protobufs.Dota2.CMsgSteamLearnWardPlacement.Types.md)
-
- [CMsgDOTAWeekendTourneyPlayerHistory.Types](Divine.Protobufs.Dota2.CMsgDOTAWeekendTourneyPlayerHistory.Types.md)
-
- [CMsgGCToClientRankResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRankResponse.Types.md)
-
- [CGameInfo.Types](Divine.Protobufs.Dota2.CGameInfo.Types.md)
-
- [CMsgDraftTrivia.Types](Divine.Protobufs.Dota2.CMsgDraftTrivia.Types.md)
-
- [CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.md)
-
- [CDOTAUserMsg\_PauseMinigameData.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_PauseMinigameData.Types.md)
-
- [CMsgGCToGCConsoleOutput.Types](Divine.Protobufs.Dota2.CMsgGCToGCConsoleOutput.Types.md)
-
- [CMsgGCToClientPrivateChatResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientPrivateChatResponse.Types.md)
-
- [CMsgGCToGCFlushSteamInventoryCache.Types](Divine.Protobufs.Dota2.CMsgGCToGCFlushSteamInventoryCache.Types.md)
-
- [CMsgDotaScenario.Types](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.md)
-
- [CMsgEconPlayerStrangeCountAdjustment.Types](Divine.Protobufs.Dota2.CMsgEconPlayerStrangeCountAdjustment.Types.md)
-
- [CMsgEventGoals.Types](Divine.Protobufs.Dota2.CMsgEventGoals.Types.md)
-
- [CMsgEventTipsSummaryResponse.Types](Divine.Protobufs.Dota2.CMsgEventTipsSummaryResponse.Types.md)
+ [CMsgGameServerInfo.Types](Divine.Protobufs.Dota2.CMsgGameServerInfo.Types.md)
 
  [CMsgDOTARequestMatchesResponse.Types](Divine.Protobufs.Dota2.CMsgDOTARequestMatchesResponse.Types.md)
 
- [CMsgGCToClientQuestProgressUpdated.Types](Divine.Protobufs.Dota2.CMsgGCToClientQuestProgressUpdated.Types.md)
-
- [CMsgGCToGCGrantAccountRolledItems.Types](Divine.Protobufs.Dota2.CMsgGCToGCGrantAccountRolledItems.Types.md)
-
- [CMvpData.Types](Divine.Protobufs.Dota2.CMvpData.Types.md)
-
- [CMsgDOTASeries.Types](Divine.Protobufs.Dota2.CMsgDOTASeries.Types.md)
-
- [CDOTAMatchMetadata.Types.Team.Types.KillInfo.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.KillInfo.Types.md)
-
- [CDOTAUserMsg\_StatsHeroPositionInfo.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsHeroPositionInfo.Types.md)
-
- [CDOTAUserMsg\_StatsMatchDetails.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsMatchDetails.Types.md)
-
- [CMsgDOTATeamInfo.Types](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.md)
-
- [CDOTAUserMsg\_StatsTeamMinuteDetails.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_StatsTeamMinuteDetails.Types.md)
-
- [CMsgGCToClientUploadMatchClipResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientUploadMatchClipResponse.Types.md)
-
- [CMsgDOTASubmitPlayerReportResponseV2.Types](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponseV2.Types.md)
-
- [CMsgDOTASubmitPlayerReportResponse.Types](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponse.Types.md)
-
- [CDOTAUserMsg\_UnitEvent.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_UnitEvent.Types.md)
-
- [CMsgDOTATournament.Types](Divine.Protobufs.Dota2.CMsgDOTATournament.Types.md)
-
- [CMsgTalentContentStatus.Types](Divine.Protobufs.Dota2.CMsgTalentContentStatus.Types.md)
-
- [CMsgGCToClientRequestActiveBeaconPartiesResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.md)
-
- [CSVCMsg\_GameEvent.Types](Divine.Protobufs.Dota2.CSVCMsg\_GameEvent.Types.md)
-
- [CSVCMsg\_GameEventList.Types](Divine.Protobufs.Dota2.CSVCMsg\_GameEventList.Types.md)
-
- [CDotaMsg\_PredictionResult.Types.Prediction.Types](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.Prediction.Types.md)
-
- [CMsgGCToClientVerifyFavoritePlayersResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientVerifyFavoritePlayersResponse.Types.md)
-
- [CMsgDOTATransferTeamAdminResponse.Types](Divine.Protobufs.Dota2.CMsgDOTATransferTeamAdminResponse.Types.md)
-
- [CMsgDOTALeagueLiveGames.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueLiveGames.Types.md)
-
- [CUserMessageRequestDiagnostic.Types](Divine.Protobufs.Dota2.CUserMessageRequestDiagnostic.Types.md)
-
- [CMsgDOTAUnanchorPhoneNumberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAUnanchorPhoneNumberResponse.Types.md)
-
- [CMsgDOTAWeekendTourneyParticipationDetails.Types](Divine.Protobufs.Dota2.CMsgDOTAWeekendTourneyParticipationDetails.Types.md)
-
- [CMsgDOTATournamentStateChange.Types](Divine.Protobufs.Dota2.CMsgDOTATournamentStateChange.Types.md)
-
- [CMsgGCToGCGrantAccountRolledItems.Types.Item.Types](Divine.Protobufs.Dota2.CMsgGCToGCGrantAccountRolledItems.Types.Item.Types.md)
-
  [CMsgDOTARequestChatChannelListResponse.Types](Divine.Protobufs.Dota2.CMsgDOTARequestChatChannelListResponse.Types.md)
 
- [CMsgDOTAProfileCard.Types.Slot.Types](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.md)
+ [CMsgDOTARedeemItemResponse.Types](Divine.Protobufs.Dota2.CMsgDOTARedeemItemResponse.Types.md)
 
- [CUserMessageCameraTransition.Types](Divine.Protobufs.Dota2.CUserMessageCameraTransition.Types.md)
+ [CMsgDOTARealtimeGameStatsTerse.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.md)
+
+ [CMsgDOTARealtimeGameStats.Types.GraphData.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.GraphData.Types.md)
+
+ [CMsgDOTARealtimeGameStats.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.md)
+
+ [CMsgDOTAProfileTickets.Types](Divine.Protobufs.Dota2.CMsgDOTAProfileTickets.Types.md)
+
+ [CMsgDOTAProfileCard.Types.Slot.Types](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.Slot.Types.md)
 
  [CMsgDOTAProfileCard.Types](Divine.Protobufs.Dota2.CMsgDOTAProfileCard.Types.md)
 
@@ -5598,759 +5584,679 @@
 
  [CMsgDOTAPlayerInfo.Types](Divine.Protobufs.Dota2.CMsgDOTAPlayerInfo.Types.md)
 
- [CMsgTeamFanContentStatus.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentStatus.Types.md)
-
- [CMsgGameMatchSignOut.Types.CTeam.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.Types.md)
-
- [CDOTAMatchMetadata.Types.GuildChallengeProgress.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.GuildChallengeProgress.Types.md)
-
- [CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer.Types.md)
-
- [CMsgGameMatchSignOut.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.md)
-
- [CMsgSteamLearnServerInfo.Types](Divine.Protobufs.Dota2.CMsgSteamLearnServerInfo.Types.md)
-
- [CP2P\_FightingGame\_GameData.Types](Divine.Protobufs.Dota2.CP2P\_FightingGame\_GameData.Types.md)
-
- [CGameInfo.Types.CDotaGameInfo.Types](Divine.Protobufs.Dota2.CGameInfo.Types.CDotaGameInfo.Types.md)
+ [CMsgDOTAPartyRichPresence.Types](Divine.Protobufs.Dota2.CMsgDOTAPartyRichPresence.Types.md)
 
  [CMsgDOTAMutationList.Types](Divine.Protobufs.Dota2.CMsgDOTAMutationList.Types.md)
 
- [CWorkshop\_GetItemDailyRevenue\_Response.Types](Divine.Protobufs.Dota2.CWorkshop\_GetItemDailyRevenue\_Response.Types.md)
-
- [CMsgGCToServerCheerData.Types](Divine.Protobufs.Dota2.CMsgGCToServerCheerData.Types.md)
-
- [CUserMsg\_ParticleManager.Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.md)
-
- [CMsgGCToClientInFlightChargesUpdated.Types](Divine.Protobufs.Dota2.CMsgGCToClientInFlightChargesUpdated.Types.md)
-
  [CMsgDOTAMatchVotes.Types](Divine.Protobufs.Dota2.CMsgDOTAMatchVotes.Types.md)
 
- [CGCToGCMsgMasterAck.Types](Divine.Protobufs.Dota2.CGCToGCMsgMasterAck.Types.md)
+ [CMsgDOTAMatchMinimal.Types](Divine.Protobufs.Dota2.CMsgDOTAMatchMinimal.Types.md)
 
- [CDOTAMatchMetadata.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.md)
+ [CMsgDOTAMatch.Types.Player.Types](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.Player.Types.md)
 
- [CMsgDOTAPartyRichPresence.Types](Divine.Protobufs.Dota2.CMsgDOTAPartyRichPresence.Types.md)
+ [CMsgDOTAMatch.Types](Divine.Protobufs.Dota2.CMsgDOTAMatch.Types.md)
 
- [CMsgGCToClientJoinPartyFromBeaconResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientJoinPartyFromBeaconResponse.Types.md)
+ [CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.Player.Types.md)
 
- [CMsgWeekendTourneySchedule.Types](Divine.Protobufs.Dota2.CMsgWeekendTourneySchedule.Types.md)
+ [CMsgDOTALiveScoreboardUpdate.Types.Team.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.Team.Types.md)
 
- [CMsgExtractGemsResponse.Types](Divine.Protobufs.Dota2.CMsgExtractGemsResponse.Types.md)
+ [CMsgDOTALiveScoreboardUpdate.Types](Divine.Protobufs.Dota2.CMsgDOTALiveScoreboardUpdate.Types.md)
 
- [CMsgFightingGame\_GameData\_CharacterSelect.Types](Divine.Protobufs.Dota2.CMsgFightingGame\_GameData\_CharacterSelect.Types.md)
+ [CMsgDOTALeaveTeamResponse.Types](Divine.Protobufs.Dota2.CMsgDOTALeaveTeamResponse.Types.md)
 
- [CMsgFightingGame\_GameData\_Fighting.Types](Divine.Protobufs.Dota2.CMsgFightingGame\_GameData\_Fighting.Types.md)
+ [CMsgDOTALeagueNodeResults.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeResults.Types.md)
 
- [CDOTAUserMsg\_MonsterHunter\_HuntAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MonsterHunter\_HuntAlert.Types.md)
+ [CMsgDOTALeagueNodeGroup.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNodeGroup.Types.md)
 
- [CMsgDOTARedeemItemResponse.Types](Divine.Protobufs.Dota2.CMsgDOTARedeemItemResponse.Types.md)
+ [CMsgDOTALeagueNode.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueNode.Types.md)
 
- [CDOTAUserMsg\_MiniKillCamInfo.Types.Attacker.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MiniKillCamInfo.Types.Attacker.Types.md)
+ [CMsgDOTALeagueMessages.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueMessages.Types.md)
 
- [CMsgTeamFanContentAssetStatusResponse.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentAssetStatusResponse.Types.md)
+ [CMsgDOTALeagueLiveGames.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueLiveGames.Types.md)
 
- [CDOTAUserMsg\_MiniKillCamInfo.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MiniKillCamInfo.Types.md)
+ [CMsgDOTALeagueAvailableLobbyNodes.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueAvailableLobbyNodes.Types.md)
 
- [CMsgTeamFanContentAutographStatus.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentAutographStatus.Types.md)
+ [CMsgDOTALeague.Types](Divine.Protobufs.Dota2.CMsgDOTALeague.Types.md)
 
- [CMsgFindGuildByTagResponse.Types](Divine.Protobufs.Dota2.CMsgFindGuildByTagResponse.Types.md)
+ [CMsgDOTALeaderboards.Types](Divine.Protobufs.Dota2.CMsgDOTALeaderboards.Types.md)
 
- [CDOTAUserMsg\_MadstoneAlert.Types](Divine.Protobufs.Dota2.CDOTAUserMsg\_MadstoneAlert.Types.md)
+ [CMsgDotaScenario.Types](Divine.Protobufs.Dota2.CMsgDotaScenario.Types.md)
 
- [CMsgGameDataHero.Types](Divine.Protobufs.Dota2.CMsgGameDataHero.Types.md)
+ [CMsgMatchConsumableUsage.Types](Divine.Protobufs.Dota2.CMsgMatchConsumableUsage.Types.md)
 
- [CDOTAMatchMetadata.Types.Team.Types](Divine.Protobufs.Dota2.CDOTAMatchMetadata.Types.Team.Types.md)
+ [CMsgDOTASeasonPredictions.Types](Divine.Protobufs.Dota2.CMsgDOTASeasonPredictions.Types.md)
 
- [CMsgDOTARealtimeGameStatsTerse.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStatsTerse.Types.md)
+ [CMsgDOTASelectionPriorityChoiceResponse.Types](Divine.Protobufs.Dota2.CMsgDOTASelectionPriorityChoiceResponse.Types.md)
 
- [CMsgGameDataHeroList.Types](Divine.Protobufs.Dota2.CMsgGameDataHeroList.Types.md)
+ [CMsgGameMatchSignoutResponse.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignoutResponse.Types.md)
 
- [CMsgGameDataItemAbilityList.Types](Divine.Protobufs.Dota2.CMsgGameDataItemAbilityList.Types.md)
+ [CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.Types.CPlayer.Types.md)
 
- [CMsgGCToClientMapStatsResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientMapStatsResponse.Types.md)
+ [CMsgGameMatchSignOut.Types.CTeam.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.CTeam.Types.md)
 
- [CMsgDOTARealtimeGameStats.Types.GraphData.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.GraphData.Types.md)
+ [CMsgGameMatchSignOut.Types](Divine.Protobufs.Dota2.CMsgGameMatchSignOut.Types.md)
 
  [CMsgGameDataItemAbilityList.Types.ItemAbilityInfo.Types](Divine.Protobufs.Dota2.CMsgGameDataItemAbilityList.Types.ItemAbilityInfo.Types.md)
 
- [CMsgDOTARealtimeGameStats.Types](Divine.Protobufs.Dota2.CMsgDOTARealtimeGameStats.Types.md)
+ [CMsgGameDataItemAbilityList.Types](Divine.Protobufs.Dota2.CMsgGameDataItemAbilityList.Types.md)
 
- [CMsgGCToGCSOCacheSubscribe.Types](Divine.Protobufs.Dota2.CMsgGCToGCSOCacheSubscribe.Types.md)
+ [CMsgGameDataHeroList.Types](Divine.Protobufs.Dota2.CMsgGameDataHeroList.Types.md)
 
- [CMsgGCToClientManageFavoritesResponse.Types](Divine.Protobufs.Dota2.CMsgGCToClientManageFavoritesResponse.Types.md)
+ [CMsgGameDataHero.Types](Divine.Protobufs.Dota2.CMsgGameDataHero.Types.md)
 
- [CMsgDOTAProfileTickets.Types](Divine.Protobufs.Dota2.CMsgDOTAProfileTickets.Types.md)
+ [CMsgFindGuildByTagResponse.Types](Divine.Protobufs.Dota2.CMsgFindGuildByTagResponse.Types.md)
 
- [CMsgSignOutCommunityGoalProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutCommunityGoalProgress.Types.md)
+ [CMsgFightingGame\_GameData\_Fighting.Types](Divine.Protobufs.Dota2.CMsgFightingGame\_GameData\_Fighting.Types.md)
 
- [CDotaMsgStructuredTooltipProperties.Types](Divine.Protobufs.Dota2.CDotaMsgStructuredTooltipProperties.Types.md)
+ [CMsgFightingGame\_GameData\_CharacterSelect.Types](Divine.Protobufs.Dota2.CMsgFightingGame\_GameData\_CharacterSelect.Types.md)
 
- [CMsgSteamLearnMatchStateV5.Types](Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.md)
+ [CMsgExtractGemsResponse.Types](Divine.Protobufs.Dota2.CMsgExtractGemsResponse.Types.md)
 
- [CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.md)
+ [CMsgEventTipsSummaryResponse.Types](Divine.Protobufs.Dota2.CMsgEventTipsSummaryResponse.Types.md)
 
- [CMsgSignOutXPCoins.Types](Divine.Protobufs.Dota2.CMsgSignOutXPCoins.Types.md)
+ [CMsgEventGoals.Types](Divine.Protobufs.Dota2.CMsgEventGoals.Types.md)
 
- [CMsgClientToGCCandyShopRerollRewardsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopRerollRewardsResponse.Types.md)
+ [CMsgDraftTrivia.Types](Divine.Protobufs.Dota2.CMsgDraftTrivia.Types.md)
 
- [CMsgClientToGCCandyShopPurchaseRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopPurchaseRewardResponse.Types.md)
+ [ProtoFlattenedSerializerField\_t.Types](Divine.Protobufs.Dota2.ProtoFlattenedSerializerField\_t.Types.md)
 
- [CMsgSOCacheSubscribed.Types](Divine.Protobufs.Dota2.CMsgSOCacheSubscribed.Types.md)
+ [VersusScene\_PlayActivity.Types](Divine.Protobufs.Dota2.VersusScene\_PlayActivity.Types.md)
 
- [CMsgClientToGCOverworldDevGrantTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantTokensResponse.Types.md)
+ [CMsgDPCEvent.Types](Divine.Protobufs.Dota2.CMsgDPCEvent.Types.md)
 
- [CMsgResetStrangeGemCountResponse.Types](Divine.Protobufs.Dota2.CMsgResetStrangeGemCountResponse.Types.md)
+ [CMsgDOTAWelcome.Types](Divine.Protobufs.Dota2.CMsgDOTAWelcome.Types.md)
 
- [CMsgClientToGCCandyShopOpenBagsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopOpenBagsResponse.Types.md)
+ [CMsgDOTAWeekendTourneyPlayerHistory.Types](Divine.Protobufs.Dota2.CMsgDOTAWeekendTourneyPlayerHistory.Types.md)
 
- [CMsgClientToGCOverworldDevResetAllResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetAllResponse.Types.md)
+ [CMsgDOTAWeekendTourneyParticipationDetails.Types](Divine.Protobufs.Dota2.CMsgDOTAWeekendTourneyParticipationDetails.Types.md)
 
- [CMsgClientToGCOverworldDevResetNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetNodeResponse.Types.md)
+ [CMsgDOTAUnanchorPhoneNumberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAUnanchorPhoneNumberResponse.Types.md)
 
- [CMsgClientToGCOverworldDevSetFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevSetFortuneResponse.Types.md)
+ [CMsgDOTATransferTeamAdminResponse.Types](Divine.Protobufs.Dota2.CMsgDOTATransferTeamAdminResponse.Types.md)
 
- [CMsgRequestCrateItemsResponse.Types](Divine.Protobufs.Dota2.CMsgRequestCrateItemsResponse.Types.md)
+ [CMsgDOTATournamentStateChange.Types](Divine.Protobufs.Dota2.CMsgDOTATournamentStateChange.Types.md)
 
- [CMsgClientToGCOverworldFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldFeedbackResponse.Types.md)
+ [CMsgDOTATournament.Types](Divine.Protobufs.Dota2.CMsgDOTATournament.Types.md)
 
- [CMsgClientToGCOverworldGetDynamicImageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetDynamicImageResponse.Types.md)
+ [CMsgDOTATeamInfo.Types](Divine.Protobufs.Dota2.CMsgDOTATeamInfo.Types.md)
 
- [CMsgRequestCrateEscalationLevelResponse.Types](Divine.Protobufs.Dota2.CMsgRequestCrateEscalationLevelResponse.Types.md)
+ [CMsgDOTASubmitPlayerReportResponseV2.Types](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponseV2.Types.md)
 
- [CMsgClientToGCOverworldGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetUserDataResponse.Types.md)
+ [CMsgDOTASubmitPlayerReportResponse.Types](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponse.Types.md)
 
- [CMsgRedeemCodeResponse.Types](Divine.Protobufs.Dota2.CMsgRedeemCodeResponse.Types.md)
+ [CMsgDOTASeries.Types](Divine.Protobufs.Dota2.CMsgDOTASeries.Types.md)
 
- [CMsgClientToGCCandyShopGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopGetUserDataResponse.Types.md)
+ [CMsgActivatePlusFreeTrialResponse.Types](Divine.Protobufs.Dota2.CMsgActivatePlusFreeTrialResponse.Types.md)
 
- [CMsgClientToGCOverworldGiftTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGiftTokensResponse.Types.md)
+ [CMsgMatchDiretideCandy.Types](Divine.Protobufs.Dota2.CMsgMatchDiretideCandy.Types.md)
 
- [CMsgClientToGCOverworldMinigameActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMinigameActionResponse.Types.md)
+ [CMsgMatchEventActionGrants.Types](Divine.Protobufs.Dota2.CMsgMatchEventActionGrants.Types.md)
 
- [CMsgClientToGCOverworldMoveToNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMoveToNodeResponse.Types.md)
+ [CMsgMatchTips.Types](Divine.Protobufs.Dota2.CMsgMatchTips.Types.md)
 
- [CMsgClientToGCOverworldRequestFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestFortuneResponse.Types.md)
-
- [CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types.md)
-
- [CMsgClientToGCCavernCrawlClaimRoomResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlClaimRoomResponse.Types.md)
-
- [CMsgClientToGCOverworldTradeTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldTradeTokensResponse.Types.md)
-
- [CMsgClientToGCOverworldDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearInventoryResponse.Types.md)
-
- [CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.md)
-
- [CMsgServerToGCCavernCrawlIsHeroActiveResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCCavernCrawlIsHeroActiveResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.md)
-
- [CMsgSignOutMVPStats.Types](Divine.Protobufs.Dota2.CMsgSignOutMVPStats.Types.md)
-
- [CMsgServerNetworkStats.Types](Divine.Protobufs.Dota2.CMsgServerNetworkStats.Types.md)
-
- [CMsgClientToGCNameItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCNameItemResponse.Types.md)
-
- [CMsgClientToGCOpenPlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOpenPlayerCardPackResponse.Types.md)
-
- [CMsgClientToGCOrderStickerbookTeamPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOrderStickerbookTeamPageResponse.Types.md)
-
- [CMsgSerializedSOCache.Types.Cache.Types](Divine.Protobufs.Dota2.CMsgSerializedSOCache.Types.Cache.Types.md)
-
- [CMsgClientToGCOverworldClaimEncounterRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.md)
-
- [CMsgSerializedSOCache.Types](Divine.Protobufs.Dota2.CMsgSerializedSOCache.Types.md)
-
- [CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.md)
-
- [CMsgSearchForOpenGuildsResponse.Types](Divine.Protobufs.Dota2.CMsgSearchForOpenGuildsResponse.Types.md)
-
- [CMsgClientToGCOverworldClaimFortuneRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.md)
-
- [CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.md)
-
- [CMsgSignOutMVPStats.Types.Player.Types](Divine.Protobufs.Dota2.CMsgSignOutMVPStats.Types.Player.Types.md)
-
- [CMsgSignOutOverworld.Types](Divine.Protobufs.Dota2.CMsgSignOutOverworld.Types.md)
-
- [CMsgSDOAssert.Types](Divine.Protobufs.Dota2.CMsgSDOAssert.Types.md)
-
- [CMsgClientToGCOverworldCompletePathResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldCompletePathResponse.Types.md)
-
- [CMsgClientToGCCavernCrawlRequestMapStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.md)
+ [CSODOTAGameAccountClient.Types](Divine.Protobufs.Dota2.CSODOTAGameAccountClient.Types.md)
 
  [CMsgSignOutTextMuteInfo.Types](Divine.Protobufs.Dota2.CMsgSignOutTextMuteInfo.Types.md)
 
- [CMsgSignOutUpdatePlayerChallenge.Types](Divine.Protobufs.Dota2.CMsgSignOutUpdatePlayerChallenge.Types.md)
+ [CMsgSignOutOverworld.Types](Divine.Protobufs.Dota2.CMsgSignOutOverworld.Types.md)
 
- [CMsgClientToGCOverworldDevClearFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearFortuneResponse.Types.md)
+ [CSODOTALobby.Types](Divine.Protobufs.Dota2.CSODOTALobby.Types.md)
 
- [CMsgClientToGCCandyShopDoVariableExchangeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.md)
+ [CMsgSignOutMVPStats.Types.Player.Types](Divine.Protobufs.Dota2.CMsgSignOutMVPStats.Types.Player.Types.md)
 
- [CMsgReadyCheckStatus.Types](Divine.Protobufs.Dota2.CMsgReadyCheckStatus.Types.md)
+ [CSODOTALobbyInvite.Types](Divine.Protobufs.Dota2.CSODOTALobbyInvite.Types.md)
 
- [CMsgClientToGCOverworldVisitEncounterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldVisitEncounterResponse.Types.md)
+ [CMsgSignOutMVPStats.Types](Divine.Protobufs.Dota2.CMsgSignOutMVPStats.Types.md)
 
- [CMsgSocialFeedResponse.Types](Divine.Protobufs.Dota2.CMsgSocialFeedResponse.Types.md)
+ [CMsgSignOutMonsterHunter.Types](Divine.Protobufs.Dota2.CMsgSignOutMonsterHunter.Types.md)
 
- [CMsgPredictionResults.Types](Divine.Protobufs.Dota2.CMsgPredictionResults.Types.md)
+ [CSODOTAParty.Types](Divine.Protobufs.Dota2.CSODOTAParty.Types.md)
 
- [CMsgClientToGCReportGuildContentResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContentResponse.Types.md)
+ [CMsgSignOutMapStats.Types](Divine.Protobufs.Dota2.CMsgSignOutMapStats.Types.md)
 
- [CMsgClientToGCBingoGetStatsDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetStatsDataResponse.Types.md)
+ [CSODOTAPartyInvite.Types](Divine.Protobufs.Dota2.CSODOTAPartyInvite.Types.md)
 
- [CMsgClientToGCBingoDevRerollCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevRerollCardResponse.Types.md)
+ [CSODOTAPartyMember.Types](Divine.Protobufs.Dota2.CSODOTAPartyMember.Types.md)
 
- [CMsgSOMultipleObjects.Types](Divine.Protobufs.Dota2.CMsgSOMultipleObjects.Types.md)
+ [CMsgSignOutGuildContractProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutGuildContractProgress.Types.md)
 
- [CMsgPredictionRankings.Types](Divine.Protobufs.Dota2.CMsgPredictionRankings.Types.md)
-
- [CMsgClientToGCRequestAccountGuildEventDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildEventDataResponse.Types.md)
-
- [CMsgClientToGCBingoDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevClearInventoryResponse.Types.md)
-
- [CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.md)
-
- [CMsgClientToGCRequestActiveGuildChallengeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildChallengeResponse.Types.md)
-
- [CMsgClientToGCRequestActiveGuildContractsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildContractsResponse.Types.md)
-
- [CMsgPracticeLobbySetDetails.Types](Divine.Protobufs.Dota2.CMsgPracticeLobbySetDetails.Types.md)
-
- [CMsgClientToGCRequestContestVotesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestContestVotesResponse.Types.md)
-
- [CMsgClientToGCRequestEventPointLogResponseV2.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestEventPointLogResponseV2.Types.md)
-
- [CMsgClientToGCBingoDevAddTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevAddTokensResponse.Types.md)
-
- [CMsgPracticeLobbyListResponseEntry.Types](Divine.Protobufs.Dota2.CMsgPracticeLobbyListResponseEntry.Types.md)
-
- [CMsgClientToGCBingoClaimRowResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoClaimRowResponse.Types.md)
-
- [CMsgClientToGCBatchGetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBatchGetPlayerCardRosterResponse.Types.md)
-
- [CMsgClientToGCRequestGuildDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildDataResponse.Types.md)
-
- [CMsgClientToGCRequestGuildEventMembersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildEventMembersResponse.Types.md)
-
- [CMsgClientToGCRequestGuildFeedResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildFeedResponse.Types.md)
-
- [CMsgClientToGCReportGuildContent.Types](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContent.Types.md)
-
- [CMsgClientToGCRemoveItemAttributeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRemoveItemAttributeResponse.Types.md)
-
- [CMsgClientToGCRemoveGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRemoveGuildRoleResponse.Types.md)
-
- [CMsgClientToGCRecyclePlayerCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecyclePlayerCardResponse.Types.md)
-
- [CMsgClientToGCPackBundleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPackBundleResponse.Types.md)
-
- [CMsgQuickJoinCustomLobby.Types](Divine.Protobufs.Dota2.CMsgQuickJoinCustomLobby.Types.md)
-
- [CMsgClientToGCPlaceCollectionStickersRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersRequest.Types.md)
-
- [CMsgClientToGCPlaceCollectionStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersResponse.Types.md)
-
- [CMsgPurchaseItemWithEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgPurchaseItemWithEventPointsResponse.Types.md)
-
- [CMsgClientToGCCandyShopDoExchangeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoExchangeResponse.Types.md)
-
- [CMsgClientToGCPlaceStickersRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersRequest.Types.md)
-
- [CMsgClientToGCPlaceStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersResponse.Types.md)
-
- [CMsgClientToGCCancelInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCancelInviteToGuildResponse.Types.md)
-
- [CMsgClientToGCBingoShuffleCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoShuffleCardResponse.Types.md)
-
- [CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGetUserDataResponse.Types.md)
-
- [CMsgClientToGCBingoModifySquareResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquareResponse.Types.md)
-
- [CMsgSocialFeedCommentsResponse.Types](Divine.Protobufs.Dota2.CMsgSocialFeedCommentsResponse.Types.md)
-
- [CMsgClientToGCPurchaseChargeCostItems.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItems.Types.md)
-
- [CMsgProfileUpdateResponse.Types](Divine.Protobufs.Dota2.CMsgProfileUpdateResponse.Types.md)
-
- [CMsgClientToGCPurchaseChargeCostItemsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItemsResponse.Types.md)
-
- [CMsgProfileResponse.Types](Divine.Protobufs.Dota2.CMsgProfileResponse.Types.md)
-
- [CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.md)
-
- [CMsgClientToGCRecalibrateMMRResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecalibrateMMRResponse.Types.md)
-
- [CMsgProcessTransactionOrder.Types](Divine.Protobufs.Dota2.CMsgProcessTransactionOrder.Types.md)
-
- [CMsgClientToGCBingoModifySquare.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquare.Types.md)
-
- [CMsgClientToGCBingoGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetUserDataResponse.Types.md)
-
- [CMsgClientToGCRecycleMultipleItems.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecycleMultipleItems.Types.md)
-
- [CMsgPullTabsData.Types](Divine.Protobufs.Dota2.CMsgPullTabsData.Types.md)
-
- [CMsgClientToGCRequestGuildMembershipResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildMembershipResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterFeedbackResponse.Types.md)
-
- [CMsgServerToGCCompendiumChosenInGamePredictions.Types](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumChosenInGamePredictions.Types.md)
-
- [CMsgClientToGCFantasyCraftingGetDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGetDataResponse.Types.md)
-
- [CMsgClientToGCFantasyCraftingPerformOperationResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.md)
-
- [CMsgShowcaseItem\_PlayerMatch.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_PlayerMatch.Types.md)
-
- [CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.md)
-
- [CMsgShowcaseItem\_HeroIcon.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_HeroIcon.Types.md)
-
- [CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.md)
-
- [CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.md)
-
- [CMsgShowcaseItem\_Hero.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Hero.Types.md)
-
- [CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.md)
-
- [CMsgClientToGCFantasyCraftingSelectTeamResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.md)
-
- [CMsgShowcaseItem\_Emoticon.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Emoticon.Types.md)
-
- [CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.md)
-
- [CMsgClientToGCFightingGameAnswerChallengeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameAnswerChallengeResponse.Types.md)
-
- [CMsgShowcaseItem\_EconItem.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_EconItem.Types.md)
-
- [CMsgClientToGCFightingGameChallengeFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameChallengeFriendResponse.Types.md)
-
- [CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.md)
-
- [CMsgShowcaseItem\_ChatWheel.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_ChatWheel.Types.md)
+ [CMsgSignOutGuildChallengeProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutGuildChallengeProgress.Types.md)
 
  [CMsgSignOutGameplayStats.Types](Divine.Protobufs.Dota2.CMsgSignOutGameplayStats.Types.md)
 
- [CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.md)
+ [CMsgSignOutCraftworks.Types](Divine.Protobufs.Dota2.CMsgSignOutCraftworks.Types.md)
 
- [CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.md)
-
- [CMsgClientToGCGetDPCFavoritesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetDPCFavoritesResponse.Types.md)
-
- [CMsgShowcaseBackground.Types](Divine.Protobufs.Dota2.CMsgShowcaseBackground.Types.md)
-
- [CMsgClientToGCGetEventCouponResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetEventCouponResponse.Types.md)
-
- [CMsgShowcaseItem\_SpiderGraph.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_SpiderGraph.Types.md)
-
- [CMsgClientToGCGetEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetEventPointsResponse.Types.md)
-
- [CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.md)
-
- [CMsgClientToGCFantasyCraftingGenerateTablets.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTablets.Types.md)
+ [CMsgSignOutCommunityGoalProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutCommunityGoalProgress.Types.md)
 
  [CMsgSignOutCommunicationSummary.Types.PlayerCommunication.Types](Divine.Protobufs.Dota2.CMsgSignOutCommunicationSummary.Types.PlayerCommunication.Types.md)
 
- [CMsgClientToGCCraftworksGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksGetUserDataResponse.Types.md)
-
  [CMsgSignOutCommunicationSummary.Types](Divine.Protobufs.Dota2.CMsgSignOutCommunicationSummary.Types.md)
-
- [CMsgClientToGCCreatePlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreatePlayerCardPackResponse.Types.md)
-
- [CMsgClientToGCCreateStaticRecipe.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipe.Types.md)
 
  [CMsgSignOutBounties.Types](Divine.Protobufs.Dota2.CMsgSignOutBounties.Types.md)
 
- [CMsgClientToGCCreateStaticRecipeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipeResponse.Types.md)
-
- [CMsgSignOutCraftworks.Types](Divine.Protobufs.Dota2.CMsgSignOutCraftworks.Types.md)
-
- [CMsgClientToGCCreateStickerbookPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStickerbookPageResponse.Types.md)
-
- [CMsgClientToGCCreateTeamPlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.md)
-
- [CMsgClientToGCDeclineInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDeclineInviteToGuildResponse.Types.md)
-
- [CMsgClientToGCCraftworksDevModifyComponentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksDevModifyComponentsResponse.Types.md)
-
- [CMsgClientToGCDeleteStickerbookPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDeleteStickerbookPageResponse.Types.md)
-
- [CMsgClientToGCDevDeleteEventActionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevDeleteEventActionsResponse.Types.md)
-
- [CMsgClientToGCDevGrantEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventActionResponse.Types.md)
-
- [CMsgClientToGCDevGrantEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventPointsResponse.Types.md)
-
- [CMsgClientToGCDevReloadEventSchemaResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchemaResponse.Types.md)
-
  [CMsgShowcaseItem\_UserFeed.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_UserFeed.Types.md)
-
- [CMsgClientToGCCraftworksDevModifyComponents.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksDevModifyComponents.Types.md)
-
- [CMsgClientToGCDevResetEventStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventStateResponse.Types.md)
-
- [CMsgClientToGCDotaLabsFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDotaLabsFeedbackResponse.Types.md)
 
  [CMsgShowcaseItem\_Trophy.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Trophy.Types.md)
 
- [CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.md)
-
  [CMsgShowcaseItem\_Stat.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Stat.Types.md)
 
- [CMsgClientToGCGetGiftPermissionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetGiftPermissionsResponse.Types.md)
+ [CMsgShowcaseItem\_SpiderGraph.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_SpiderGraph.Types.md)
+
+ [CMsgShowcaseItem\_PlayerMatch.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_PlayerMatch.Types.md)
+
+ [CSource2Metrics\_FetchMapData\_Response.Types](Divine.Protobufs.Dota2.CSource2Metrics\_FetchMapData\_Response.Types.md)
+
+ [CMsgShowcaseItem\_HeroIcon.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_HeroIcon.Types.md)
+
+ [CMsgShowcaseItem\_Hero.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Hero.Types.md)
+
+ [CSource2Metrics\_MatchPerfSummary\_Notification.Types](Divine.Protobufs.Dota2.CSource2Metrics\_MatchPerfSummary\_Notification.Types.md)
+
+ [CMsgSignOutUpdatePlayerChallenge.Types](Divine.Protobufs.Dota2.CMsgSignOutUpdatePlayerChallenge.Types.md)
+
+ [CMsgShowcaseItem\_Emoticon.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_Emoticon.Types.md)
+
+ [CMsgSignOutXPCoins.Types](Divine.Protobufs.Dota2.CMsgSignOutXPCoins.Types.md)
+
+ [CSerializedCombatLog.Types](Divine.Protobufs.Dota2.CSerializedCombatLog.Types.md)
+
+ [CMvpData.Types.MvpDatum.Types](Divine.Protobufs.Dota2.CMvpData.Types.MvpDatum.Types.md)
+
+ [CMvpData.Types](Divine.Protobufs.Dota2.CMvpData.Types.md)
+
+ [CMsgWeekendTourneySchedule.Types](Divine.Protobufs.Dota2.CMsgWeekendTourneySchedule.Types.md)
+
+ [CMsgWatchGameResponse.Types](Divine.Protobufs.Dota2.CMsgWatchGameResponse.Types.md)
+
+ [CMsgUnderDraftData.Types](Divine.Protobufs.Dota2.CMsgUnderDraftData.Types.md)
+
+ [CMsgTeamFanContentStatus.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentStatus.Types.md)
+
+ [CMsgTeamFanContentAutographStatus.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentAutographStatus.Types.md)
+
+ [CMsgTeamFanContentAssetStatusResponse.Types](Divine.Protobufs.Dota2.CMsgTeamFanContentAssetStatusResponse.Types.md)
+
+ [CP2P\_FightingGame\_GameData.Types](Divine.Protobufs.Dota2.CP2P\_FightingGame\_GameData.Types.md)
+
+ [CMsgTalentContentStatus.Types](Divine.Protobufs.Dota2.CMsgTalentContentStatus.Types.md)
+
+ [CMsgSteamLearnWardPlacement.Types](Divine.Protobufs.Dota2.CMsgSteamLearnWardPlacement.Types.md)
+
+ [CP2P\_Voice.Types](Divine.Protobufs.Dota2.CP2P\_Voice.Types.md)
+
+ [CMsgSteamLearnServerInfo.Types](Divine.Protobufs.Dota2.CMsgSteamLearnServerInfo.Types.md)
+
+ [CP2P\_VRAvatarPosition.Types](Divine.Protobufs.Dota2.CP2P\_VRAvatarPosition.Types.md)
+
+ [CMsgSteamLearnPlayerTimedStats.Types](Divine.Protobufs.Dota2.CMsgSteamLearnPlayerTimedStats.Types.md)
+
+ [CMsgSteamLearnMatchStateV5.Types](Divine.Protobufs.Dota2.CMsgSteamLearnMatchStateV5.Types.md)
+
+ [CMsgSteamLearnMatchInfoTeam.Types](Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoTeam.Types.md)
+
+ [CMsgSpendWager.Types](Divine.Protobufs.Dota2.CMsgSpendWager.Types.md)
+
+ [CMsgSpectatorLobbyListResponse.Types](Divine.Protobufs.Dota2.CMsgSpectatorLobbyListResponse.Types.md)
+
+ [CMsgSpectatorLobbyGameDetails.Types](Divine.Protobufs.Dota2.CMsgSpectatorLobbyGameDetails.Types.md)
+
+ [CMsgSpectateFriendGameResponse.Types](Divine.Protobufs.Dota2.CMsgSpectateFriendGameResponse.Types.md)
+
+ [CMsgSource2PlayStatsPackedRecordList.Types](Divine.Protobufs.Dota2.CMsgSource2PlayStatsPackedRecordList.Types.md)
+
+ [CMsgSource2FramePerfSample.Types](Divine.Protobufs.Dota2.CMsgSource2FramePerfSample.Types.md)
+
+ [CMsgSource1LegacyGameEventList.Types](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEventList.Types.md)
+
+ [CMsgSource1LegacyGameEvent.Types](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEvent.Types.md)
+
+ [CMsgSOMultipleObjects.Types](Divine.Protobufs.Dota2.CMsgSOMultipleObjects.Types.md)
+
+ [CMsgSocialFeedResponse.Types](Divine.Protobufs.Dota2.CMsgSocialFeedResponse.Types.md)
+
+ [CMsgSocialFeedCommentsResponse.Types](Divine.Protobufs.Dota2.CMsgSocialFeedCommentsResponse.Types.md)
+
+ [CMsgSOCacheSubscribed.Types](Divine.Protobufs.Dota2.CMsgSOCacheSubscribed.Types.md)
+
+ [CSerializedCombatLog.Types.Dictionary.Types](Divine.Protobufs.Dota2.CSerializedCombatLog.Types.Dictionary.Types.md)
+
+ [CMsgDOTAKickTeamMemberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAKickTeamMemberResponse.Types.md)
+
+ [CMsgShowcaseItem\_EconItem.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_EconItem.Types.md)
+
+ [CSourceTVGameSmall.Types](Divine.Protobufs.Dota2.CSourceTVGameSmall.Types.md)
+
+ [CMsgPullTabsData.Types](Divine.Protobufs.Dota2.CMsgPullTabsData.Types.md)
+
+ [CMsgProfileUpdateResponse.Types](Divine.Protobufs.Dota2.CMsgProfileUpdateResponse.Types.md)
+
+ [CMsgProfileResponse.Types](Divine.Protobufs.Dota2.CMsgProfileResponse.Types.md)
+
+ [CMsgProcessTransactionOrder.Types](Divine.Protobufs.Dota2.CMsgProcessTransactionOrder.Types.md)
+
+ [CSVCMsgList\_GameEvents.Types](Divine.Protobufs.Dota2.CSVCMsgList\_GameEvents.Types.md)
+
+ [CUIFontFilePackagePB.Types](Divine.Protobufs.Dota2.CUIFontFilePackagePB.Types.md)
+
+ [CMsgPredictionResults.Types](Divine.Protobufs.Dota2.CMsgPredictionResults.Types.md)
+
+ [CMsgPredictionRankings.Types](Divine.Protobufs.Dota2.CMsgPredictionRankings.Types.md)
+
+ [CUserMessage\_Diagnostic\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_Diagnostic\_Response.Types.md)
+
+ [CMsgPracticeLobbySetDetails.Types](Divine.Protobufs.Dota2.CMsgPracticeLobbySetDetails.Types.md)
+
+ [CMsgPracticeLobbyListResponseEntry.Types](Divine.Protobufs.Dota2.CMsgPracticeLobbyListResponseEntry.Types.md)
+
+ [CUserMessage\_DllStatus.Types](Divine.Protobufs.Dota2.CUserMessage\_DllStatus.Types.md)
+
+ [CMsgPoorNetworkConditions.Types](Divine.Protobufs.Dota2.CMsgPoorNetworkConditions.Types.md)
+
+ [CMsgPlayerConductScorecard.Types](Divine.Protobufs.Dota2.CMsgPlayerConductScorecard.Types.md)
+
+ [CUserMessage\_Inventory\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_Inventory\_Response.Types.md)
+
+ [CMsgPlayerCard.Types](Divine.Protobufs.Dota2.CMsgPlayerCard.Types.md)
+
+ [CUserMessage\_NotifyResponseFound.Types](Divine.Protobufs.Dota2.CUserMessage\_NotifyResponseFound.Types.md)
+
+ [CMsgOverworldMatchRewards.Types](Divine.Protobufs.Dota2.CMsgOverworldMatchRewards.Types.md)
+
+ [CMsgOverworldFortune.Types](Divine.Protobufs.Dota2.CMsgOverworldFortune.Types.md)
+
+ [CUserMessage\_RemoteServerCommand.Types](Divine.Protobufs.Dota2.CUserMessage\_RemoteServerCommand.Types.md)
+
+ [CMsgOverworldEncounterTokenTreasureData.Types](Divine.Protobufs.Dota2.CMsgOverworldEncounterTokenTreasureData.Types.md)
+
+ [CMsgOverworldEncounterTokenQuestData.Types](Divine.Protobufs.Dota2.CMsgOverworldEncounterTokenQuestData.Types.md)
+
+ [CUserMessage\_UtilMsg\_Response.Types](Divine.Protobufs.Dota2.CUserMessage\_UtilMsg\_Response.Types.md)
+
+ [CMsgNeutralItemStats.Types](Divine.Protobufs.Dota2.CMsgNeutralItemStats.Types.md)
+
+ [CMsgMonsterHunterMatchRewards.Types.Player.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.Player.Types.md)
+
+ [CMsgMonsterHunterMatchRewards.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.md)
+
+ [CMsgMonsterHunterInvestigationGameState.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterInvestigationGameState.Types.md)
+
+ [CUserMessageCameraTransition.Types](Divine.Protobufs.Dota2.CUserMessageCameraTransition.Types.md)
+
+ [CMsgMonsterHunterCodexUpdateData.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterCodexUpdateData.Types.md)
+
+ [CMsgPurchaseItemWithEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgPurchaseItemWithEventPointsResponse.Types.md)
+
+ [CMsgShowcaseItem\_ChatWheel.Types](Divine.Protobufs.Dota2.CMsgShowcaseItem\_ChatWheel.Types.md)
+
+ [CMsgQuickJoinCustomLobby.Types](Divine.Protobufs.Dota2.CMsgQuickJoinCustomLobby.Types.md)
+
+ [CSVCMsg\_Sounds.Types](Divine.Protobufs.Dota2.CSVCMsg\_Sounds.Types.md)
+
+ [CMsgShowcaseBackground.Types](Divine.Protobufs.Dota2.CMsgShowcaseBackground.Types.md)
 
  [CMsgShowcase.Types](Divine.Protobufs.Dota2.CMsgShowcase.Types.md)
 
  [CMsgSetTalentContentResponse.Types](Divine.Protobufs.Dota2.CMsgSetTalentContentResponse.Types.md)
 
- [CMsgClientToGCClaimEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCClaimEventActionResponse.Types.md)
+ [CMsgSetItemPositions.Types](Divine.Protobufs.Dota2.CMsgSetItemPositions.Types.md)
 
- [CMsgServerToGCMatchConnectionStats.Types](Divine.Protobufs.Dota2.CMsgServerToGCMatchConnectionStats.Types.md)
+ [CSVCMsg\_ClassInfo.Types](Divine.Protobufs.Dota2.CSVCMsg\_ClassInfo.Types.md)
 
- [CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.md)
+ [CMsgServerToGCVictoryPredictions.Types](Divine.Protobufs.Dota2.CMsgServerToGCVictoryPredictions.Types.md)
 
- [CMsgClientToGCKickGuildMemberResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCKickGuildMemberResponse.Types.md)
+ [CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.md)
 
- [CMsgServerToGCKillSummaries.Types](Divine.Protobufs.Dota2.CMsgServerToGCKillSummaries.Types.md)
-
- [CMsgClientToGCLeaveGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCLeaveGuildResponse.Types.md)
-
- [CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.md)
-
- [CMsgServerToGCGetStickerHeroesResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCGetStickerHeroesResponse.Types.md)
-
- [CMsgClientToGCLeavePrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCLeavePrivateCoachingSessionResponse.Types.md)
-
- [CMsgClientToGCManageFavorites.Types](Divine.Protobufs.Dota2.CMsgClientToGCManageFavorites.Types.md)
-
- [CMsgSignOutMapStats.Types](Divine.Protobufs.Dota2.CMsgSignOutMapStats.Types.md)
-
- [CMsgClientToGCModifyGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCModifyGuildRoleResponse.Types.md)
-
- [CMsgServerToGCGetGuildContractsResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCGetGuildContractsResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterClaimRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimRewardResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.md)
-
- [CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.md)
-
- [CMsgServerToGCCompendiumInGamePredictionResults.Types](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumInGamePredictionResults.Types.md)
-
- [CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types.md)
-
- [CMsgSignOutMonsterHunter.Types](Divine.Protobufs.Dota2.CMsgSignOutMonsterHunter.Types.md)
-
- [CMsgClientToGCJoinGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCJoinGuildResponse.Types.md)
-
- [CMsgClientToGCItemBattlerGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGetUserDataResponse.Types.md)
-
- [CMsgClientToGCItemBattlerGameActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGameActionResponse.Types.md)
+ [CMsgServerToGCRequestBatchPlayerResourcesResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.md)
 
  [CMsgServerToGCPlayerChallengeHistory.Types](Divine.Protobufs.Dota2.CMsgServerToGCPlayerChallengeHistory.Types.md)
 
- [CMsgClientToGCGetHeroStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetHeroStickersResponse.Types.md)
+ [CMsgServerToGCMatchConnectionStats.Types](Divine.Protobufs.Dota2.CMsgServerToGCMatchConnectionStats.Types.md)
 
- [CMsgClientToGCGetInFlightItemChargesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetInFlightItemChargesResponse.Types.md)
+ [CMsgServerToGCKillSummaries.Types](Divine.Protobufs.Dota2.CMsgServerToGCKillSummaries.Types.md)
 
- [CMsgSetItemPositions.Types](Divine.Protobufs.Dota2.CMsgSetItemPositions.Types.md)
+ [CSVCMsg\_GameEvent.Types](Divine.Protobufs.Dota2.CSVCMsg\_GameEvent.Types.md)
 
- [CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.md)
+ [CMsgServerToGCGetStickerHeroesResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCGetStickerHeroesResponse.Types.md)
 
- [CMsgClientToGCGetOWMatchDetailsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetOWMatchDetailsResponse.Types.md)
+ [CSVCMsg\_GameEventList.Types](Divine.Protobufs.Dota2.CSVCMsg\_GameEventList.Types.md)
 
- [CMsgClientToGCGetPeriodicResourceResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetPeriodicResourceResponse.Types.md)
+ [CMsgServerToGCGetGuildContractsResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCGetGuildContractsResponse.Types.md)
 
- [CMsgClientToGCGetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetPlayerCardRosterResponse.Types.md)
+ [CMsgServerToGCCompendiumInGamePredictionResults.Types](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumInGamePredictionResults.Types.md)
+
+ [CMsgServerToGCCompendiumChosenInGamePredictions.Types](Divine.Protobufs.Dota2.CMsgServerToGCCompendiumChosenInGamePredictions.Types.md)
+
+ [CMsgServerToGCCavernCrawlIsHeroActiveResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCCavernCrawlIsHeroActiveResponse.Types.md)
+
+ [CMsgServerNetworkStats.Types](Divine.Protobufs.Dota2.CMsgServerNetworkStats.Types.md)
+
+ [CSVCMsg\_PacketEntities.Types](Divine.Protobufs.Dota2.CSVCMsg\_PacketEntities.Types.md)
+
+ [CMsgSerializedSOCache.Types.Cache.Types](Divine.Protobufs.Dota2.CMsgSerializedSOCache.Types.Cache.Types.md)
+
+ [CMsgSerializedSOCache.Types](Divine.Protobufs.Dota2.CMsgSerializedSOCache.Types.md)
+
+ [CMsgSearchForOpenGuildsResponse.Types](Divine.Protobufs.Dota2.CMsgSearchForOpenGuildsResponse.Types.md)
+
+ [CSVCMsg\_SendTable.Types](Divine.Protobufs.Dota2.CSVCMsg\_SendTable.Types.md)
+
+ [CMsgSDOAssert.Types](Divine.Protobufs.Dota2.CMsgSDOAssert.Types.md)
+
+ [CMsgResetStrangeGemCountResponse.Types](Divine.Protobufs.Dota2.CMsgResetStrangeGemCountResponse.Types.md)
+
+ [CMsgRequestCrateItemsResponse.Types](Divine.Protobufs.Dota2.CMsgRequestCrateItemsResponse.Types.md)
+
+ [CMsgRequestCrateEscalationLevelResponse.Types](Divine.Protobufs.Dota2.CMsgRequestCrateEscalationLevelResponse.Types.md)
+
+ [CMsgRedeemCodeResponse.Types](Divine.Protobufs.Dota2.CMsgRedeemCodeResponse.Types.md)
+
+ [CMsgReadyCheckStatus.Types](Divine.Protobufs.Dota2.CMsgReadyCheckStatus.Types.md)
+
+ [CMsgDOTAJoinChatChannelResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAJoinChatChannelResponse.Types.md)
+
+ [CMsgDOTASeasonPredictions.Types.Prediction.Types](Divine.Protobufs.Dota2.CMsgDOTASeasonPredictions.Types.Prediction.Types.md)
+
+ [CMsgEconPlayerStrangeCountAdjustment.Types](Divine.Protobufs.Dota2.CMsgEconPlayerStrangeCountAdjustment.Types.md)
+
+ [CMsgClientToGCOverworldDevClearFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearFortuneResponse.Types.md)
+
+ [CMsgClientToGCOverworldCompletePathResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldCompletePathResponse.Types.md)
+
+ [CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.md)
+
+ [CMsgClientToGCOverworldClaimFortuneRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.md)
+
+ [CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.md)
+
+ [CMsgClientToGCOverworldClaimEncounterRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.md)
+
+ [CMsgClientToGCOrderStickerbookTeamPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOrderStickerbookTeamPageResponse.Types.md)
+
+ [CMsgClientToGCOpenPlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOpenPlayerCardPackResponse.Types.md)
+
+ [CMsgClientToGCNameItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCNameItemResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterFeedbackResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterDevResetAllResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevResetAllResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.md)
+
+ [CMsgClientToGCCancelInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCancelInviteToGuildResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterClaimRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimRewardResponse.Types.md)
+
+ [CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.md)
+
+ [CMsgClientToGCModifyGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCModifyGuildRoleResponse.Types.md)
+
+ [CMsgClientToGCCandyShopDoExchangeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoExchangeResponse.Types.md)
+
+ [CMsgClientToGCCandyShopDoVariableExchangeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.md)
+
+ [CMsgClientToGCManageFavorites.Types](Divine.Protobufs.Dota2.CMsgClientToGCManageFavorites.Types.md)
+
+ [CMsgClientToGCLeaveGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCLeaveGuildResponse.Types.md)
+
+ [CMsgClientToGCCandyShopGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearInventoryResponse.Types.md)
+
+ [CMsgClientToGCCandyShopOpenBagsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopOpenBagsResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevResetAllResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetAllResponse.Types.md)
+
+ [CMsgClientToGCRemoveGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRemoveGuildRoleResponse.Types.md)
+
+ [CMsgClientToGCRecyclePlayerCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecyclePlayerCardResponse.Types.md)
+
+ [CMsgClientToGCBingoModifySquare.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquare.Types.md)
+
+ [CMsgClientToGCRecycleMultipleItems.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecycleMultipleItems.Types.md)
+
+ [CMsgClientToGCRecalibrateMMRResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRecalibrateMMRResponse.Types.md)
+
+ [CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.md)
+
+ [CMsgClientToGCClaimEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCClaimEventActionResponse.Types.md)
+
+ [CMsgClientToGCPurchaseChargeCostItems.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItems.Types.md)
+
+ [CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.md)
+
+ [CMsgClientToGCPlaceStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersResponse.Types.md)
+
+ [CMsgClientToGCPlaceStickersRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersRequest.Types.md)
+
+ [CMsgClientToGCPlaceCollectionStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersResponse.Types.md)
+
+ [CMsgClientToGCPlaceCollectionStickersRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersRequest.Types.md)
+
+ [CMsgClientToGCPackBundleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPackBundleResponse.Types.md)
+
+ [CMsgClientToGCOverworldVisitEncounterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldVisitEncounterResponse.Types.md)
+
+ [CMsgClientToGCOverworldTradeTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldTradeTokensResponse.Types.md)
+
+ [CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types.md)
+
+ [CMsgClientToGCOverworldRequestFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestFortuneResponse.Types.md)
+
+ [CMsgClientToGCOverworldMoveToNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMoveToNodeResponse.Types.md)
+
+ [CMsgClientToGCOverworldMinigameActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMinigameActionResponse.Types.md)
+
+ [CMsgClientToGCOverworldGiftTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGiftTokensResponse.Types.md)
+
+ [CMsgClientToGCOverworldGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCBingoModifySquareResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquareResponse.Types.md)
+
+ [CMsgClientToGCOverworldGetDynamicImageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetDynamicImageResponse.Types.md)
+
+ [CMsgClientToGCOverworldFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldFeedbackResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevSetFortuneResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevSetFortuneResponse.Types.md)
+
+ [CMsgClientToGCBingoShuffleCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoShuffleCardResponse.Types.md)
+
+ [CMsgDOTAGetPlayerMatchHistoryResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGetPlayerMatchHistoryResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevResetNodeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetNodeResponse.Types.md)
+
+ [CMsgClientToGCOverworldDevGrantTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantTokensResponse.Types.md)
+
+ [CMsgClientToGCKickGuildMemberResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCKickGuildMemberResponse.Types.md)
+
+ [CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.md)
+
+ [CMsgClientToGCJoinGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCJoinGuildResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingGenerateTablets.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTablets.Types.md)
+
+ [CMsgClientToGCCavernCrawlClaimRoomResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlClaimRoomResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.md)
+
+ [CMsgClientToGCDotaLabsFeedbackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDotaLabsFeedbackResponse.Types.md)
+
+ [CMsgClientToGCDevResetEventStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventStateResponse.Types.md)
+
+ [CMsgClientToGCDevResetEventActionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventActionsResponse.Types.md)
+
+ [CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.md)
+
+ [CMsgClientToGCDevReloadEventSchemaResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchemaResponse.Types.md)
+
+ [CMsgClientToGCCavernCrawlRequestMapStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.md)
+
+ [CMsgClientToGCDevGrantEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventPointsResponse.Types.md)
+
+ [CMsgClientToGCDevGrantEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventActionResponse.Types.md)
+
+ [CMsgClientToGCDeleteStickerbookPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDeleteStickerbookPageResponse.Types.md)
+
+ [CMsgClientToGCDeclineInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDeclineInviteToGuildResponse.Types.md)
+
+ [CMsgClientToGCCreateTeamPlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.md)
+
+ [CMsgClientToGCCreateStickerbookPageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStickerbookPageResponse.Types.md)
+
+ [CMsgClientToGCCreateStaticRecipeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipeResponse.Types.md)
+
+ [CMsgClientToGCCreateStaticRecipe.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipe.Types.md)
+
+ [CMsgClientToGCCreatePlayerCardPackResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreatePlayerCardPackResponse.Types.md)
+
+ [CMsgClientToGCCreateGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateGuildResponse.Types.md)
+
+ [CMsgClientToGCCraftworksGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCCraftworksDevModifyComponentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksDevModifyComponentsResponse.Types.md)
+
+ [CMsgClientToGCCraftworksDevModifyComponents.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksDevModifyComponents.Types.md)
 
  [CMsgClientToGCCraftworksCraftRecipeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksCraftRecipeResponse.Types.md)
 
  [CMsgClientToGCConvertEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCConvertEventPointsResponse.Types.md)
 
- [CMsgServerToGCVictoryPredictions.Types](Divine.Protobufs.Dota2.CMsgServerToGCVictoryPredictions.Types.md)
-
- [CMsgClientToGCGetQuestProgressResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.md)
-
- [CMsgClientToGCMonsterHunterDevResetAllResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevResetAllResponse.Types.md)
-
  [CMsgClientToGCCoachFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCoachFriendResponse.Types.md)
-
- [CMsgClientToGCGetTrophyListResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetTrophyListResponse.Types.md)
-
- [CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.md)
-
- [CMsgClientToGCIntegrityStatus.Types](Divine.Protobufs.Dota2.CMsgClientToGCIntegrityStatus.Types.md)
-
- [CMsgSignOutGuildChallengeProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutGuildChallengeProgress.Types.md)
 
  [CMsgClientToGCClaimSwagResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCClaimSwagResponse.Types.md)
 
- [CMsgServerToGCRequestBatchPlayerResourcesResponse.Types](Divine.Protobufs.Dota2.CMsgServerToGCRequestBatchPlayerResourcesResponse.Types.md)
-
- [CMsgClientToGCInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCInviteToGuildResponse.Types.md)
-
  [CMsgClientToGCClaimLeaderboardRewardsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCClaimLeaderboardRewardsResponse.Types.md)
 
- [CMsgClientToGCItemBattlerDevGrantItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerDevGrantItemResponse.Types.md)
+ [CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingGetDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGetDataResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingPerformOperationResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.md)
+
+ [CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.md)
+
+ [CMsgClientToGCItemBattlerGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCItemBattlerGameActionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGameActionResponse.Types.md)
 
  [CMsgClientToGCItemBattlerGameAction.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGameAction.Types.md)
 
- [CMsgSignOutGuildContractProgress.Types](Divine.Protobufs.Dota2.CMsgSignOutGuildContractProgress.Types.md)
+ [CMsgClientToGCItemBattlerDevGrantItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerDevGrantItemResponse.Types.md)
+
+ [CMsgClientToGCInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCInviteToGuildResponse.Types.md)
+
+ [CMsgClientToGCIntegrityStatus.Types](Divine.Protobufs.Dota2.CMsgClientToGCIntegrityStatus.Types.md)
+
+ [CMsgClientToGCGetTrophyListResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetTrophyListResponse.Types.md)
 
  [CMsgClientToGCGetStickerbookResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetStickerbookResponse.Types.md)
 
- [CMsgClientToGCRequestPlayerCoachMatchesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.md)
+ [CMsgClientToGCGetQuestProgressResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetQuestProgressResponse.Types.md)
 
- [CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.md)
+ [CMsgClientToGCGetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetPlayerCardRosterResponse.Types.md)
 
- [CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.md)
+ [CMsgClientToGCGetPeriodicResourceResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetPeriodicResourceResponse.Types.md)
 
- [CMsgDOTAChatGetUserListResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAChatGetUserListResponse.Types.md)
+ [CMsgClientToGCGetOWMatchDetailsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetOWMatchDetailsResponse.Types.md)
 
- [CMsgLookupMultipleAccountNamesResponse.Types](Divine.Protobufs.Dota2.CMsgLookupMultipleAccountNamesResponse.Types.md)
+ [CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.md)
 
- [CMsgDOTAChatMessage.Types](Divine.Protobufs.Dota2.CMsgDOTAChatMessage.Types.md)
+ [CMsgClientToGCCandyShopPurchaseRewardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopPurchaseRewardResponse.Types.md)
 
- [CMsgClientToGCAcceptInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAcceptInviteToGuildResponse.Types.md)
+ [CMsgClientToGCRemoveItemAttributeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRemoveItemAttributeResponse.Types.md)
 
- [CMsgDOTAChatRegionsEnabled.Types](Divine.Protobufs.Dota2.CMsgDOTAChatRegionsEnabled.Types.md)
+ [CMsgClientToGCGetInFlightItemChargesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetInFlightItemChargesResponse.Types.md)
 
- [CMsgSource2PlayStatsPackedRecordList.Types](Divine.Protobufs.Dota2.CMsgSource2PlayStatsPackedRecordList.Types.md)
+ [CMsgClientToGCGetGiftPermissionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetGiftPermissionsResponse.Types.md)
 
- [CMsgDOTAClaimEventActionData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionData.Types.md)
+ [CMsgClientToGCGetEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetEventPointsResponse.Types.md)
 
- [CMsgLobbyPlayerPlusSubscriptionData.Types](Divine.Protobufs.Dota2.CMsgLobbyPlayerPlusSubscriptionData.Types.md)
+ [CMsgClientToGCCandyShopRerollRewardsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopRerollRewardsResponse.Types.md)
 
- [CMsgDOTAClaimEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.md)
+ [CMsgClientToGCGetEventCouponResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetEventCouponResponse.Types.md)
 
- [CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData.Types.md)
+ [CMsgClientToGCGetDPCFavoritesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetDPCFavoritesResponse.Types.md)
 
- [CMsgUnderDraftData.Types](Divine.Protobufs.Dota2.CMsgUnderDraftData.Types.md)
+ [CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.md)
 
- [CMsgLobbyFeaturedGamemodeProgress.Types](Divine.Protobufs.Dota2.CMsgLobbyFeaturedGamemodeProgress.Types.md)
+ [CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.md)
 
- [CMsgLobbyEventPoints.Types](Divine.Protobufs.Dota2.CMsgLobbyEventPoints.Types.md)
+ [CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.md)
 
- [CMsgDOTAClaimEventActionResponse.Types.OverworldTokenRewardData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.OverworldTokenRewardData.Types.md)
+ [CMsgClientToGCFightingGameChallengeFriendResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameChallengeFriendResponse.Types.md)
 
- [CMsgDOTAClaimGatedEventResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimGatedEventResponse.Types.md)
+ [CMsgClientToGCFightingGameAnswerChallengeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameAnswerChallengeResponse.Types.md)
 
- [CMsgDOTAClientToGCQuickStatsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClientToGCQuickStatsResponse.Types.md)
+ [CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.md)
 
- [CMsgDOTACreateTeamResponse.Types](Divine.Protobufs.Dota2.CMsgDOTACreateTeamResponse.Types.md)
+ [CMsgClientToGCFantasyCraftingSelectTeamResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.md)
 
- [CMsgDOTADestroyLobbyResponse.Types](Divine.Protobufs.Dota2.CMsgDOTADestroyLobbyResponse.Types.md)
+ [CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.md)
 
- [CMsgDOTADPCFeed.Types](Divine.Protobufs.Dota2.CMsgDOTADPCFeed.Types.md)
+ [CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.md)
 
- [CMsgDOTADPCLeagueResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCLeagueResults.Types.md)
+ [CMsgClientToGCGetHeroStickersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCGetHeroStickersResponse.Types.md)
 
- [CMsgLeagueWatchedGames.Types](Divine.Protobufs.Dota2.CMsgLeagueWatchedGames.Types.md)
+ [CMsgClientToGCReportGuildContent.Types](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContent.Types.md)
 
- [CMsgDOTADPCProfileInfo.Types](Divine.Protobufs.Dota2.CMsgDOTADPCProfileInfo.Types.md)
+ [CMsgClientToGCPurchaseChargeCostItemsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItemsResponse.Types.md)
 
- [CMsgChatToxicityToxicPlayerMatchesReport.Types](Divine.Protobufs.Dota2.CMsgChatToxicityToxicPlayerMatchesReport.Types.md)
-
- [CMsgDOTADPCSearchResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.md)
-
- [CMsgDOTABotDebugInfo.Types.Bot.Types](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.Bot.Types.md)
-
- [CMsgSource2FramePerfSample.Types](Divine.Protobufs.Dota2.CMsgSource2FramePerfSample.Types.md)
-
- [CMsgClientToGCUpdatePartyBeacon.Types](Divine.Protobufs.Dota2.CMsgClientToGCUpdatePartyBeacon.Types.md)
-
- [CMsgClientToGCVoteForArcanaResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCVoteForArcanaResponse.Types.md)
-
- [CMsgMonsterHunterMatchRewards.Types.Player.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.Player.Types.md)
-
- [ProtoFlattenedSerializerField\_t.Types](Divine.Protobufs.Dota2.ProtoFlattenedSerializerField\_t.Types.md)
-
- [CMsgMonsterHunterMatchRewards.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterMatchRewards.Types.md)
-
- [CMsgClientWelcome.Types](Divine.Protobufs.Dota2.CMsgClientWelcome.Types.md)
-
- [CMsgMonsterHunterInvestigationGameState.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterInvestigationGameState.Types.md)
-
- [CMsgConnectedPlayers.Types](Divine.Protobufs.Dota2.CMsgConnectedPlayers.Types.md)
-
- [CMsgSource1LegacyGameEventList.Types](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEventList.Types.md)
-
- [CMsgClientToGCAddPlayerToGuildChatResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAddPlayerToGuildChatResponse.Types.md)
-
- [CMsgMatchConsumableUsage.Types](Divine.Protobufs.Dota2.CMsgMatchConsumableUsage.Types.md)
-
- [CMsgMonsterHunterCodexUpdateData.Types](Divine.Protobufs.Dota2.CMsgMonsterHunterCodexUpdateData.Types.md)
-
- [CMsgMatchTips.Types](Divine.Protobufs.Dota2.CMsgMatchTips.Types.md)
-
- [CMsgClientToGCRequestPlayerCoachMatchResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchResponse.Types.md)
+ [CMsgClientToGCRequestAccountGuildEventDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildEventDataResponse.Types.md)
 
  [CMsgDevNewItemRequestResponse.Types](Divine.Protobufs.Dota2.CMsgDevNewItemRequestResponse.Types.md)
 
- [CMsgClientToGCAddGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAddGuildRoleResponse.Types.md)
-
- [CMsgMatchEventActionGrants.Types](Divine.Protobufs.Dota2.CMsgMatchEventActionGrants.Types.md)
-
- [CMsgDOTAAnchorPhoneNumberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAAnchorPhoneNumberResponse.Types.md)
-
- [CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.md)
-
- [CMsgDOTAAwardEventPoints.Types](Divine.Protobufs.Dota2.CMsgDOTAAwardEventPoints.Types.md)
-
- [CMsgMatchDiretideCandy.Types](Divine.Protobufs.Dota2.CMsgMatchDiretideCandy.Types.md)
-
- [CMsgDOTABotDebugInfo.Types](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.md)
-
- [CMsgCustomGameWhitelistForEdit.Types](Divine.Protobufs.Dota2.CMsgCustomGameWhitelistForEdit.Types.md)
-
- [CMsgDOTADPCSeasonResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCSeasonResults.Types.md)
-
- [CMsgDOTADPCTeamFavoriteRankings.Types](Divine.Protobufs.Dota2.CMsgDOTADPCTeamFavoriteRankings.Types.md)
-
- [CMsgDOTADPCTeamResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCTeamResults.Types.md)
-
- [CDotaMsg\_PredictionResult.Types](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.md)
-
- [CMsgHeroGlobalDataHeroesAlliesAndEnemies.Types](Divine.Protobufs.Dota2.CMsgHeroGlobalDataHeroesAlliesAndEnemies.Types.md)
-
- [CSVCMsg\_ClassInfo.Types](Divine.Protobufs.Dota2.CSVCMsg\_ClassInfo.Types.md)
-
- [CMsgDOTALeague.Types](Divine.Protobufs.Dota2.CMsgDOTALeague.Types.md)
-
- [CSODOTALobby.Types](Divine.Protobufs.Dota2.CSODOTALobby.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.ContributionsCombatSegment.Types.md)
-
- [CMsgGuildSummary.Types](Divine.Protobufs.Dota2.CMsgGuildSummary.Types.md)
-
- [CMsgDOTALeagueAvailableLobbyNodes.Types](Divine.Protobufs.Dota2.CMsgDOTALeagueAvailableLobbyNodes.Types.md)
-
- [CMsgDOTALeaderboards.Types](Divine.Protobufs.Dota2.CMsgDOTALeaderboards.Types.md)
-
- [CSODOTAGameAccountClient.Types](Divine.Protobufs.Dota2.CSODOTAGameAccountClient.Types.md)
-
- [CSerializedCombatLog.Types.Dictionary.Types](Divine.Protobufs.Dota2.CSerializedCombatLog.Types.Dictionary.Types.md)
-
- [CSerializedCombatLog.Types](Divine.Protobufs.Dota2.CSerializedCombatLog.Types.md)
-
- [CMsgClientToGCCreateGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCreateGuildResponse.Types.md)
-
- [CMsgApplyRemoteConVars.Types](Divine.Protobufs.Dota2.CMsgApplyRemoteConVars.Types.md)
-
- [CMsgAddSocketResponse.Types](Divine.Protobufs.Dota2.CMsgAddSocketResponse.Types.md)
-
- [CMsgAdditionalLobbyStartupAccountData.Types](Divine.Protobufs.Dota2.CMsgAdditionalLobbyStartupAccountData.Types.md)
-
- [CMsgSteamLearnMatchInfoTeam.Types](Divine.Protobufs.Dota2.CMsgSteamLearnMatchInfoTeam.Types.md)
-
- [CMsgAddItemToSocketResponse.Types](Divine.Protobufs.Dota2.CMsgAddItemToSocketResponse.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.md)
-
- [CMsgDOTAKickTeamMemberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAKickTeamMemberResponse.Types.md)
-
- [CSODOTALobbyInvite.Types](Divine.Protobufs.Dota2.CSODOTALobbyInvite.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.md)
-
- [CMsgDOTAEditTeamDetailsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAEditTeamDetailsResponse.Types.md)
-
- [CMsgDOTAFantasyCardLineup.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardLineup.Types.md)
-
- [CMsgSpectateFriendGameResponse.Types](Divine.Protobufs.Dota2.CMsgSpectateFriendGameResponse.Types.md)
-
- [CMsgDOTAFantasyCardList.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardList.Types.md)
-
- [CMsgItemAges.Types](Divine.Protobufs.Dota2.CMsgItemAges.Types.md)
-
- [CMsgDotaFantasyCraftingDataCache.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingDataCache.Types.md)
-
- [CMsgDotaFantasyCraftingTabletPeriodData.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingTabletPeriodData.Types.md)
-
- [CMsgDotaFantasyCraftingUserData.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingUserData.Types.md)
-
- [CMsgDOTAFantasyDPCLeagueStatus.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyDPCLeagueStatus.Types.md)
-
- [CMsgSpectatorLobbyGameDetails.Types](Divine.Protobufs.Dota2.CMsgSpectatorLobbyGameDetails.Types.md)
-
- [CMsgInGamePrediction.Types](Divine.Protobufs.Dota2.CMsgInGamePrediction.Types.md)
-
- [CMsgDOTAGameAutographRewardResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGameAutographRewardResponse.Types.md)
-
- [CMsgDOTAGetEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGetEventPointsResponse.Types.md)
-
- [CMsgDOTAGetPlayerMatchHistoryResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGetPlayerMatchHistoryResponse.Types.md)
-
- [CMsgDOTAJoinChatChannelResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAJoinChatChannelResponse.Types.md)
-
- [CMsgHeroGlobalDataResponse.Types](Divine.Protobufs.Dota2.CMsgHeroGlobalDataResponse.Types.md)
-
- [CMsgSpectatorLobbyListResponse.Types](Divine.Protobufs.Dota2.CMsgSpectatorLobbyListResponse.Types.md)
-
- [CMsgSpendWager.Types](Divine.Protobufs.Dota2.CMsgSpendWager.Types.md)
+ [CMsgDevModifyCodexAction.Types](Divine.Protobufs.Dota2.CMsgDevModifyCodexAction.Types.md)
 
  [CMsgBotWorldState.Types](Divine.Protobufs.Dota2.CMsgBotWorldState.Types.md)
 
- [CSODOTAPartyInvite.Types](Divine.Protobufs.Dota2.CSODOTAPartyInvite.Types.md)
+ [CMsgCustomGameWhitelistForEdit.Types](Divine.Protobufs.Dota2.CMsgCustomGameWhitelistForEdit.Types.md)
 
- [CSODOTAParty.Types](Divine.Protobufs.Dota2.CSODOTAParty.Types.md)
+ [CMsgConnectedPlayers.Types](Divine.Protobufs.Dota2.CMsgConnectedPlayers.Types.md)
 
- [CMsgAvailablePredictions.Types](Divine.Protobufs.Dota2.CMsgAvailablePredictions.Types.md)
+ [CMsgClientWelcome.Types](Divine.Protobufs.Dota2.CMsgClientWelcome.Types.md)
 
- [CMsgArcanaVotes.Types](Divine.Protobufs.Dota2.CMsgArcanaVotes.Types.md)
+ [CMsgClientToGCVoteForArcanaResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCVoteForArcanaResponse.Types.md)
 
- [CMsgNeutralItemStats.Types](Divine.Protobufs.Dota2.CMsgNeutralItemStats.Types.md)
+ [CMsgClientToGCUpdatePartyBeacon.Types](Divine.Protobufs.Dota2.CMsgClientToGCUpdatePartyBeacon.Types.md)
 
  [CMsgClientToGCUpdateComicBookStats.Types](Divine.Protobufs.Dota2.CMsgClientToGCUpdateComicBookStats.Types.md)
 
- [CMsgDevModifyCodexAction.Types](Divine.Protobufs.Dota2.CMsgDevModifyCodexAction.Types.md)
+ [CMsgClientToGCUnpackBundleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCUnpackBundleResponse.Types.md)
 
  [CMsgClientToGCUnlockItemStyleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCUnlockItemStyleResponse.Types.md)
 
- [CMsgClientToGCUnpackBundleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCUnpackBundleResponse.Types.md)
+ [CMsgClientToGCUnlockCrateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCUnlockCrateResponse.Types.md)
 
- [CMsgClientToGCSetFavoritePageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetFavoritePageResponse.Types.md)
+ [CMsgClientToGCTeammateStatsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCTeammateStatsResponse.Types.md)
 
- [CMsgClientToGCSetGuildInfoResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildInfoResponse.Types.md)
+ [CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.md)
 
- [CMsgPlayerCard.Types](Divine.Protobufs.Dota2.CMsgPlayerCard.Types.md)
+ [CMsgChatToxicityToxicPlayerMatchesReport.Types](Divine.Protobufs.Dota2.CMsgChatToxicityToxicPlayerMatchesReport.Types.md)
 
- [CMsgClientToGCSetGuildMemberRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildMemberRoleResponse.Types.md)
+ [CMsgClientToGCAcceptInviteToGuildResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAcceptInviteToGuildResponse.Types.md)
 
- [CMsgClientToGCSetGuildRoleOrderResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildRoleOrderResponse.Types.md)
-
- [CMsgClientToGCSetHeroStickerResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetHeroStickerResponse.Types.md)
-
- [CSource2Metrics\_MatchPerfSummary\_Notification.Types](Divine.Protobufs.Dota2.CSource2Metrics\_MatchPerfSummary\_Notification.Types.md)
-
- [CMsgClientToGCBatchGetPlayerCardRosterRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCBatchGetPlayerCardRosterRequest.Types.md)
-
- [CMsgClientToGCSetItemStyleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetItemStyleResponse.Types.md)
-
- [CMsgClientToGCSetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetPlayerCardRosterResponse.Types.md)
-
- [CMsgClientToGCSetProfileCardSlots.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetProfileCardSlots.Types.md)
-
- [CMsgClientToGCShowcaseAdminExonerateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminExonerateResponse.Types.md)
-
- [CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types.md)
+ [CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.md)
 
  [CMsgClientToGCShowcaseAdminGetReportsRollupResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminGetReportsRollupResponse.Types.md)
 
@@ -6358,91 +6264,195 @@
 
  [CMsgClientToGCShowcaseAdminLockAccountResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminLockAccountResponse.Types.md)
 
- [CMsgClientToGCShowcaseAdminResetResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminResetResponse.Types.md)
+ [CMsgClientToGCReportGuildContentResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContentResponse.Types.md)
 
  [CMsgClientToGCShowcaseGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseGetUserDataResponse.Types.md)
 
- [CMsgPlayerConductScorecard.Types](Divine.Protobufs.Dota2.CMsgPlayerConductScorecard.Types.md)
-
- [CMsgClientToGCSetEventActiveSeasonIDResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetEventActiveSeasonIDResponse.Types.md)
-
- [CMsgClientToGCSetDPCFavoriteStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetDPCFavoriteStateResponse.Types.md)
-
- [CMsgSource1LegacyGameEvent.Types](Divine.Protobufs.Dota2.CMsgSource1LegacyGameEvent.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.BuffRecord.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.md)
-
- [CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.md)
-
- [CMsgClientToGCRequestPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.md)
-
- [CMsgClientToGCRequestReporterUpdatesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestReporterUpdatesResponse.Types.md)
-
- [CMsgPoorNetworkConditions.Types](Divine.Protobufs.Dota2.CMsgPoorNetworkConditions.Types.md)
-
- [CMsgClientToGCRespondToCoachFriendRequestResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRespondToCoachFriendRequestResponse.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.md)
-
- [CMsgClientToGCRoadToTIGetActiveQuestResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.md)
-
  [CMsgClientToGCShowcaseModerationApplyModerationResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseModerationApplyModerationResponse.Types.md)
 
- [CMsgClientToGCRoadToTIGetQuestsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetQuestsResponse.Types.md)
-
- [VersusScene\_PlayActivity.Types](Divine.Protobufs.Dota2.VersusScene\_PlayActivity.Types.md)
-
- [CMsgClientToGCAggregateMetrics.Types](Divine.Protobufs.Dota2.CMsgClientToGCAggregateMetrics.Types.md)
-
- [CSource2Metrics\_FetchMapData\_Response.Types](Divine.Protobufs.Dota2.CSource2Metrics\_FetchMapData\_Response.Types.md)
-
- [CMvpData.Types.MvpDatum.Types](Divine.Protobufs.Dota2.CMvpData.Types.MvpDatum.Types.md)
-
- [CMsgClientToGCRoadToTIUseItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIUseItemResponse.Types.md)
-
- [CMsgClientToGCSelectCompendiumInGamePrediction.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePrediction.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.HealingByAbility.Types.md)
-
- [CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types.md)
-
- [CMsgClientToGCSelectGuildContractResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectGuildContractResponse.Types.md)
-
- [CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types](Divine.Protobufs.Dota2.CDOTAMatchPrivateMetadata.Types.Team.Types.Player.Types.CombatSegment.Types.DamageByAbility.Types.md)
+ [CMsgAvailablePredictions.Types](Divine.Protobufs.Dota2.CMsgAvailablePredictions.Types.md)
 
  [CMsgClientToGCShowcaseModerationGetQueueResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseModerationGetQueueResponse.Types.md)
-
- [CMsgClientToGCShowcaseAdminConvictResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminConvictResponse.Types.md)
-
- [CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types.md)
-
- [CMsgClientToGCUnlockCrateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCUnlockCrateResponse.Types.md)
 
  [CMsgClientToGCShowcaseSubmitReportResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseSubmitReportResponse.Types.md)
 
  [CMsgClientToGCSubmitCoachTeammateRatingResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitCoachTeammateRatingResponse.Types.md)
 
- [CMsgOverworldEncounterTokenQuestData.Types](Divine.Protobufs.Dota2.CMsgOverworldEncounterTokenQuestData.Types.md)
+ [CMsgClientToGCSubmitOWConvictionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitOWConvictionResponse.Types.md)
+
+ [CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types.md)
 
  [CMsgClientToGCSubmitPrivateCoachingSessionRatingResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitPrivateCoachingSessionRatingResponse.Types.md)
 
- [CMsgOverworldEncounterTokenTreasureData.Types](Divine.Protobufs.Dota2.CMsgOverworldEncounterTokenTreasureData.Types.md)
-
- [CMsgClientToGCSubmitOWConvictionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSubmitOWConvictionResponse.Types.md)
-
- [CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.md)
-
- [CSourceTVGameSmall.Types](Divine.Protobufs.Dota2.CSourceTVGameSmall.Types.md)
-
- [CMsgClientToGCTeammateStatsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCTeammateStatsResponse.Types.md)
-
- [CMsgOverworldFortune.Types](Divine.Protobufs.Dota2.CMsgOverworldFortune.Types.md)
-
- [CMsgOverworldMatchRewards.Types](Divine.Protobufs.Dota2.CMsgOverworldMatchRewards.Types.md)
+ [CMsgClientToGCAddGuildRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAddGuildRoleResponse.Types.md)
 
  [CMsgClientToGCShowcaseSetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseSetUserDataResponse.Types.md)
+
+ [CMsgDOTAAnchorPhoneNumberResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAAnchorPhoneNumberResponse.Types.md)
+
+ [CMsgDOTAAwardEventPoints.Types](Divine.Protobufs.Dota2.CMsgDOTAAwardEventPoints.Types.md)
+
+ [CMsgDOTABotDebugInfo.Types](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.md)
+
+ [CMsgDOTADPCSeasonResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCSeasonResults.Types.md)
+
+ [CMsgDOTADPCTeamFavoriteRankings.Types](Divine.Protobufs.Dota2.CMsgDOTADPCTeamFavoriteRankings.Types.md)
+
+ [CMsgDOTADPCTeamResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCTeamResults.Types.md)
+
+ [CMsgDOTAEditTeamDetailsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAEditTeamDetailsResponse.Types.md)
+
+ [CMsgDOTAFantasyCardLineup.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardLineup.Types.md)
+
+ [CMsgDOTAFantasyCardList.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyCardList.Types.md)
+
+ [CMsgDOTADPCSearchResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCSearchResults.Types.md)
+
+ [CMsgAddSocketResponse.Types](Divine.Protobufs.Dota2.CMsgAddSocketResponse.Types.md)
+
+ [CMsgDotaFantasyCraftingTabletPeriodData.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingTabletPeriodData.Types.md)
+
+ [CMsgDotaFantasyCraftingUserData.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingUserData.Types.md)
+
+ [CMsgDOTAFantasyDPCLeagueStatus.Types](Divine.Protobufs.Dota2.CMsgDOTAFantasyDPCLeagueStatus.Types.md)
+
+ [CMsgDOTAGameAutographRewardResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGameAutographRewardResponse.Types.md)
+
+ [CMsgDOTAGetEventPointsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAGetEventPointsResponse.Types.md)
+
+ [CMsgAdditionalLobbyStartupAccountData.Types](Divine.Protobufs.Dota2.CMsgAdditionalLobbyStartupAccountData.Types.md)
+
+ [CMsgDotaFantasyCraftingDataCache.Types](Divine.Protobufs.Dota2.CMsgDotaFantasyCraftingDataCache.Types.md)
+
+ [CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types.md)
+
+ [CMsgApplyRemoteConVars.Types](Divine.Protobufs.Dota2.CMsgApplyRemoteConVars.Types.md)
+
+ [CMsgDOTADPCLeagueResults.Types](Divine.Protobufs.Dota2.CMsgDOTADPCLeagueResults.Types.md)
+
+ [CMsgDOTABotDebugInfo.Types.Bot.Types](Divine.Protobufs.Dota2.CMsgDOTABotDebugInfo.Types.Bot.Types.md)
+
+ [CMsgDOTAChatGetUserListResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAChatGetUserListResponse.Types.md)
+
+ [CMsgDOTAChatMessage.Types](Divine.Protobufs.Dota2.CMsgDOTAChatMessage.Types.md)
+
+ [CMsgDOTAChatRegionsEnabled.Types](Divine.Protobufs.Dota2.CMsgDOTAChatRegionsEnabled.Types.md)
+
+ [CMsgDOTAClaimEventActionData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionData.Types.md)
+
+ [CMsgDOTAClaimEventActionResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.md)
+
+ [CMsgDOTADPCProfileInfo.Types](Divine.Protobufs.Dota2.CMsgDOTADPCProfileInfo.Types.md)
+
+ [CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.MonsterHunterMaterialRewardData.Types.md)
+
+ [CMsgDOTAClaimGatedEventResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimGatedEventResponse.Types.md)
+
+ [CMsgDOTAClientToGCQuickStatsResponse.Types](Divine.Protobufs.Dota2.CMsgDOTAClientToGCQuickStatsResponse.Types.md)
+
+ [CMsgDOTACreateTeamResponse.Types](Divine.Protobufs.Dota2.CMsgDOTACreateTeamResponse.Types.md)
+
+ [CMsgArcanaVotes.Types](Divine.Protobufs.Dota2.CMsgArcanaVotes.Types.md)
+
+ [CMsgDOTADestroyLobbyResponse.Types](Divine.Protobufs.Dota2.CMsgDOTADestroyLobbyResponse.Types.md)
+
+ [CMsgDOTADPCFeed.Types](Divine.Protobufs.Dota2.CMsgDOTADPCFeed.Types.md)
+
+ [CMsgDOTAClaimEventActionResponse.Types.OverworldTokenRewardData.Types](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.OverworldTokenRewardData.Types.md)
+
+ [CMsgClientToGCShowcaseAdminExonerateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminExonerateResponse.Types.md)
+
+ [CMsgClientToGCShowcaseAdminResetResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminResetResponse.Types.md)
+
+ [CMsgClientToGCSetProfileCardSlots.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetProfileCardSlots.Types.md)
+
+ [CMsgClientToGCBingoClaimRowResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoClaimRowResponse.Types.md)
+
+ [CMsgClientToGCBingoDevAddTokensResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevAddTokensResponse.Types.md)
+
+ [CMsgClientToGCRoadToTIGetQuestsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetQuestsResponse.Types.md)
+
+ [CMsgClientToGCRoadToTIGetActiveQuestResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.md)
+
+ [CMsgClientToGCRespondToCoachFriendRequestResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRespondToCoachFriendRequestResponse.Types.md)
+
+ [CMsgClientToGCRequestReporterUpdatesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestReporterUpdatesResponse.Types.md)
+
+ [CMsgClientToGCShowcaseAdminConvictResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminConvictResponse.Types.md)
+
+ [CMsgClientToGCBingoDevClearInventoryResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevClearInventoryResponse.Types.md)
+
+ [CMsgClientToGCRequestPrivateCoachingSessionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.md)
+
+ [CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.md)
+
+ [CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.md)
+
+ [CMsgClientToGCRequestPlayerCoachMatchResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchResponse.Types.md)
+
+ [CMsgClientToGCBatchGetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBatchGetPlayerCardRosterResponse.Types.md)
+
+ [CMsgClientToGCBingoDevRerollCardResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevRerollCardResponse.Types.md)
+
+ [CMsgClientToGCRequestGuildMembershipResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildMembershipResponse.Types.md)
+
+ [CMsgClientToGCBingoGetStatsDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetStatsDataResponse.Types.md)
+
+ [CMsgClientToGCRequestGuildFeedResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildFeedResponse.Types.md)
+
+ [CMsgClientToGCRequestGuildEventMembersResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildEventMembersResponse.Types.md)
+
+ [CMsgClientToGCRequestGuildDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildDataResponse.Types.md)
+
+ [CMsgClientToGCRequestEventPointLogResponseV2.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestEventPointLogResponseV2.Types.md)
+
+ [CMsgClientToGCRequestContestVotesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestContestVotesResponse.Types.md)
+
+ [CMsgClientToGCRequestActiveGuildContractsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildContractsResponse.Types.md)
+
+ [CMsgClientToGCRequestActiveGuildChallengeResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildChallengeResponse.Types.md)
+
+ [CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.md)
+
+ [CMsgClientToGCBingoGetUserDataResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetUserDataResponse.Types.md)
+
+ [CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.md)
+
+ [CMsgClientToGCRequestPlayerCoachMatchesResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.md)
+
+ [CMsgClientToGCRoadToTIUseItemResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIUseItemResponse.Types.md)
+
+ [CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.md)
+
+ [CMsgClientToGCSelectCompendiumInGamePrediction.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePrediction.Types.md)
+
+ [CMsgClientToGCBatchGetPlayerCardRosterRequest.Types](Divine.Protobufs.Dota2.CMsgClientToGCBatchGetPlayerCardRosterRequest.Types.md)
+
+ [CMsgClientToGCSetGuildInfoResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildInfoResponse.Types.md)
+
+ [CMsgClientToGCSetDPCFavoriteStateResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetDPCFavoriteStateResponse.Types.md)
+
+ [CMsgClientToGCSelectGuildContractResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectGuildContractResponse.Types.md)
+
+ [CMsgClientToGCSetEventActiveSeasonIDResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetEventActiveSeasonIDResponse.Types.md)
+
+ [CMsgClientToGCSetGuildRoleOrderResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildRoleOrderResponse.Types.md)
+
+ [CMsgClientToGCAddPlayerToGuildChatResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCAddPlayerToGuildChatResponse.Types.md)
+
+ [CMsgClientToGCSetHeroStickerResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetHeroStickerResponse.Types.md)
+
+ [CMsgClientToGCSetItemStyleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetItemStyleResponse.Types.md)
+
+ [CMsgClientToGCSetGuildMemberRoleResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildMemberRoleResponse.Types.md)
+
+ [CMsgClientToGCAggregateMetrics.Types](Divine.Protobufs.Dota2.CMsgClientToGCAggregateMetrics.Types.md)
+
+ [CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types.md)
+
+ [CMsgClientToGCSetPlayerCardRosterResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetPlayerCardRosterResponse.Types.md)
+
+ [CMsgClientToGCSetFavoritePageResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCSetFavoritePageResponse.Types.md)
 
  [UifontfileFormatReflection](Divine.Protobufs.Dota2.UifontfileFormatReflection.md)
 
@@ -6502,9 +6512,9 @@
 
  [CMsgGCToClientBattlePassRollup\_International2016.Types.Wagering](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_International2016.Types.Wagering.md)
 
- [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Wagering](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Wagering.md)
-
  [CMsgGCToClientBattlePassRollup\_Fall2016.Types.Wagering](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Fall2016.Types.Wagering.md)
+
+ [CMsgGCToClientBattlePassRollup\_Winter2017.Types.Wagering](Divine.Protobufs.Dota2.CMsgGCToClientBattlePassRollup\_Winter2017.Types.Wagering.md)
 
  [CMsgHeroGlobalDataResponse.Types.WeekData](Divine.Protobufs.Dota2.CMsgHeroGlobalDataResponse.Types.WeekData.md)
 
@@ -6677,8 +6687,6 @@
  [ECustomGameWhitelistState](Divine.Protobufs.Dota2.ECustomGameWhitelistState.md)
 
  [EDemoCommands](Divine.Protobufs.Dota2.EDemoCommands.md)
-
- [EDevEventRequestResult](Divine.Protobufs.Dota2.EDevEventRequestResult.md)
 
  [EDotaBroadcastMessages](Divine.Protobufs.Dota2.EDotaBroadcastMessages.md)
 
@@ -6902,29 +6910,141 @@
 
  [CMsgInGamePrediction.Types.EResolutionType\_t](Divine.Protobufs.Dota2.CMsgInGamePrediction.Types.EResolutionType\_t.md)
 
- [CMsgClientToGCFightingGameChallengeFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameChallengeFriendResponse.Types.EResponse.md)
+ [CMsgClientToGCKickGuildMemberResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCKickGuildMemberResponse.Types.EResponse.md)
 
- [CMsgClientToGCSubmitCoachTeammateRatingResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSubmitCoachTeammateRatingResponse.Types.EResponse.md)
+ [CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.EResponse.md)
 
- [CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.EResponse.md)
+ [CMsgClientToGCShowcaseAdminExonerateResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminExonerateResponse.Types.EResponse.md)
 
- [CMsgClientToGCShowcaseSetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseSetUserDataResponse.Types.EResponse.md)
+ [CMsgClientToGCBingoClaimRowResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoClaimRowResponse.Types.EResponse.md)
+
+ [CMsgClientToGCAddPlayerToGuildChatResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAddPlayerToGuildChatResponse.Types.EResponse.md)
+
+ [CMsgClientToGCAddGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAddGuildRoleResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestActiveGuildChallengeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildChallengeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.EResponse.md)
+
+ [CMsgClientToGCAcceptInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAcceptInviteToGuildResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestActiveGuildContractsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildContractsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestContestVotesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestContestVotesResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestGuildDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestGuildEventMembersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildEventMembersResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestGuildFeedResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildFeedResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestGuildMembershipResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildMembershipResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestPlayerCoachMatchResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoDevAddTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevAddTokensResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestAccountGuildEventDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildEventDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCandyShopRerollRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopRerollRewardsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCandyShopPurchaseRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopPurchaseRewardResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCandyShopOpenBagsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopOpenBagsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCPlaceStickersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCandyShopDoExchangeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoExchangeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCancelInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCancelInviteToGuildResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoShuffleCardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoShuffleCardResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoModifySquareResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquareResponse.Types.EResponse.md)
+
+ [CMsgClientToGCPurchaseChargeCostItemsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItemsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRecalibrateMMRResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRecalibrateMMRResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRemoveGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRemoveGuildRoleResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetUserDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCReportGuildContentResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContentResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoGetStatsDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetStatsDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoDevRerollCardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevRerollCardResponse.Types.EResponse.md)
+
+ [CMsgClientToGCBingoDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevClearInventoryResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRequestReporterUpdatesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestReporterUpdatesResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRespondToCoachFriendRequestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRespondToCoachFriendRequestResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.EResponse.md)
 
  [CMsgClientToGCSubmitOWConvictionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSubmitOWConvictionResponse.Types.EResponse.md)
 
  [CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSubmitPlayerMatchSurveyResponse.Types.EResponse.md)
 
- [CMsgDevNewItemRequestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgDevNewItemRequestResponse.Types.EResponse.md)
-
  [CMsgClientToGCSubmitPrivateCoachingSessionRatingResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSubmitPrivateCoachingSessionRatingResponse.Types.EResponse.md)
 
- [CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.EResponse.md)
+ [CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSurvivorsGameTelemetryDataResponse.Types.EResponse.md)
+
+ [CMsgDevNewItemRequestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgDevNewItemRequestResponse.Types.EResponse.md)
+
+ [CCandyShopDev.Types.EResponse](Divine.Protobufs.Dota2.CCandyShopDev.Types.EResponse.md)
+
+ [CMsgFindGuildByTagResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgFindGuildByTagResponse.Types.EResponse.md)
+
+ [CMsgGCGetHeroStatsHistoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCGetHeroStatsHistoryResponse.Types.EResponse.md)
+
+ [CMsgGCToClientGetFavoritePlayersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientGetFavoritePlayersResponse.Types.EResponse.md)
+
+ [CMsgGCToClientJoinPartyFromBeaconResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientJoinPartyFromBeaconResponse.Types.EResponse.md)
+
+ [CMsgGCToClientManageFavoritesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientManageFavoritesResponse.Types.EResponse.md)
+
+ [CMsgGCToClientMapStatsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientMapStatsResponse.Types.EResponse.md)
+
+ [CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.EResponse.md)
+
+ [CMsgGCToClientUploadMatchClipResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientUploadMatchClipResponse.Types.EResponse.md)
+
+ [CMsgProfileResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgProfileResponse.Types.EResponse.md)
+
+ [CMsgSearchForOpenGuildsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgSearchForOpenGuildsResponse.Types.EResponse.md)
+
+ [CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCSubmitCoachTeammateRatingResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSubmitCoachTeammateRatingResponse.Types.EResponse.md)
 
  [CMsgClientToGCShowcaseSubmitReportResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseSubmitReportResponse.Types.EResponse.md)
 
- [CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAcceptPrivateCoachingSessionResponse.Types.EResponse.md)
+ [CMsgClientToGCShowcaseSetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseSetUserDataResponse.Types.EResponse.md)
 
- [CMsgClientToGCFightingGameAnswerChallengeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameAnswerChallengeResponse.Types.EResponse.md)
+ [CMsgClientToGCShowcaseModerationGetQueueResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseModerationGetQueueResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRoadToTIGetQuestsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetQuestsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCRoadToTIUseItemResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIUseItemResponse.Types.EResponse.md)
 
  [CMsgClientToGCSelectGuildContractResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSelectGuildContractResponse.Types.EResponse.md)
 
@@ -6938,13 +7058,11 @@
 
  [CMsgClientToGCSetGuildMemberRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildMemberRoleResponse.Types.EResponse.md)
 
+ [CMsgClientToGCPlaceCollectionStickersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersResponse.Types.EResponse.md)
+
  [CMsgClientToGCSetGuildRoleOrderResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSetGuildRoleOrderResponse.Types.EResponse.md)
 
- [CMsgClientToGCSetHeroStickerResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSetHeroStickerResponse.Types.EResponse.md)
-
  [CMsgClientToGCShowcaseAdminConvictResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminConvictResponse.Types.EResponse.md)
-
- [CMsgClientToGCShowcaseAdminExonerateResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminExonerateResponse.Types.EResponse.md)
 
  [CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseAdminGetReportsRollupListResponse.Types.EResponse.md)
 
@@ -6960,319 +7078,209 @@
 
  [CMsgClientToGCShowcaseModerationApplyModerationResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseModerationApplyModerationResponse.Types.EResponse.md)
 
- [CMsgClientToGCShowcaseModerationGetQueueResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCShowcaseModerationGetQueueResponse.Types.EResponse.md)
+ [CMsgClientToGCSetHeroStickerResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCSetHeroStickerResponse.Types.EResponse.md)
 
- [CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.EResponse.md)
+ [CMsgClientToGCClaimEventActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimEventActionResponse.Types.EResponse.md)
 
- [CMsgGCToClientManageFavoritesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientManageFavoritesResponse.Types.EResponse.md)
+ [CMsgClientToGCCandyShopGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopGetUserDataResponse.Types.EResponse.md)
 
- [CMsgFindGuildByTagResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgFindGuildByTagResponse.Types.EResponse.md)
+ [CMsgClientToGCOverworldVisitEncounterResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldVisitEncounterResponse.Types.EResponse.md)
 
- [CMsgClientToGCBingoDevRerollCardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevRerollCardResponse.Types.EResponse.md)
-
- [CMsgClientToGCDevGrantEventPointsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventPointsResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevClearInventoryResponse.Types.EResponse.md)
-
- [CMsgClientToGCDevReloadEventSchemaResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchemaResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoDevAddTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoDevAddTokensResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoClaimRowResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoClaimRowResponse.Types.EResponse.md)
-
- [CMsgClientToGCAddPlayerToGuildChatResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAddPlayerToGuildChatResponse.Types.EResponse.md)
-
- [CMsgClientToGCAddGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAddGuildRoleResponse.Types.EResponse.md)
-
- [CMsgClientToGCAcceptInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCAcceptInviteToGuildResponse.Types.EResponse.md)
-
- [CMsgClientToGCDevResetEventStateResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventStateResponse.Types.EResponse.md)
-
- [CMsgClientToGCDotaLabsFeedbackResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDotaLabsFeedbackResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingGetDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGetDataResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.EResponse.md)
-
- [CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse.md)
-
- [CMsgSearchForOpenGuildsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgSearchForOpenGuildsResponse.Types.EResponse.md)
-
- [CMsgProfileResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgProfileResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.EResponse.md)
-
- [CMsgGCToClientUploadMatchClipResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientUploadMatchClipResponse.Types.EResponse.md)
-
- [CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientRequestActiveBeaconPartiesResponse.Types.EResponse.md)
-
- [CMsgGCToClientMapStatsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientMapStatsResponse.Types.EResponse.md)
-
- [CMsgClientToGCRoadToTIUseItemResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIUseItemResponse.Types.EResponse.md)
-
- [CMsgGCToClientJoinPartyFromBeaconResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientJoinPartyFromBeaconResponse.Types.EResponse.md)
-
- [CMsgGCToClientGetFavoritePlayersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCToClientGetFavoritePlayersResponse.Types.EResponse.md)
-
- [CMsgGCGetHeroStatsHistoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgGCGetHeroStatsHistoryResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.EResponse.md)
-
- [CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.EResponse.md)
-
- [CMsgClientToGCRoadToTIGetQuestsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetQuestsResponse.Types.EResponse.md)
-
- [CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRoadToTIGetActiveQuestResponse.Types.EResponse.md)
-
- [CMsgClientToGCRespondToCoachFriendRequestResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRespondToCoachFriendRequestResponse.Types.EResponse.md)
-
- [CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.EResponse.md)
-
- [CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.EResponse.md)
-
- [CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.EResponse.md)
-
- [CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.EResponse.md)
+ [CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.EResponse.md)
 
  [CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.Types.EResponse.md)
+
+ [CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.EResponse.md)
+
+ [CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.Types.EResponse.md)
 
  [CMsgClientToGCMonsterHunterDevResetAllResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevResetAllResponse.Types.EResponse.md)
 
  [CMsgClientToGCMonsterHunterFeedbackResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterFeedbackResponse.Types.EResponse.md)
 
- [CMsgClientToGCMonsterHunterClaimRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimRewardResponse.Types.EResponse.md)
-
  [CMsgClientToGCMonsterHunterGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGetUserDataResponse.Types.EResponse.md)
 
- [CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.EResponse.md)
-
- [CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.EResponse.md)
-
- [CMsgClientToGCOrderStickerbookTeamPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOrderStickerbookTeamPageResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.EResponse.md)
+ [CMsgClientToGCFightingGameChallengeFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameChallengeFriendResponse.Types.EResponse.md)
 
  [CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterGiftMaterialsResponse.Types.EResponse.md)
 
- [CMsgClientToGCOverworldCompletePathResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldCompletePathResponse.Types.EResponse.md)
+ [CMsgClientToGCFightingGameAnswerChallengeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFightingGameAnswerChallengeResponse.Types.EResponse.md)
 
- [CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.EResponse.md)
+ [CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGcFantasyCraftingUpgradeTabletsResponse.Types.EResponse.md)
 
- [CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.Types.EResponse.md)
+ [CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectTeamResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectPlayerResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse.Types.EResponse.md)
+
+ [CMsgClientToGCClaimLeaderboardRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimLeaderboardRewardsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterTradeMaterialsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.Types.EResponse.md)
+
+ [CMsgClientToGCGetDPCFavoritesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetDPCFavoritesResponse.Types.EResponse.md)
+
+ [CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.Types.EResponse.md)
 
  [CMsgClientToGCGetEventPointsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetEventPointsResponse.Types.EResponse.md)
 
  [CMsgClientToGCGetHeroStickersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetHeroStickersResponse.Types.EResponse.md)
 
- [CMsgClientToGCGetInFlightItemChargesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetInFlightItemChargesResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetOWMatchDetailsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetOWMatchDetailsResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetPeriodicResourceResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetPeriodicResourceResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetStickerbookResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetStickerbookResponse.Types.EResponse.md)
-
- [CMsgClientToGCModifyGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCModifyGuildRoleResponse.Types.EResponse.md)
-
- [CMsgClientToGCInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCInviteToGuildResponse.Types.EResponse.md)
-
- [CMsgClientToGCItemBattlerGameActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGameActionResponse.Types.EResponse.md)
-
- [CMsgClientToGCItemBattlerGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGetUserDataResponse.Types.EResponse.md)
+ [CMsgClientToGCLeaveGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCLeaveGuildResponse.Types.EResponse.md)
 
  [CMsgClientToGCJoinGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCJoinGuildResponse.Types.EResponse.md)
 
- [CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.Types.EResponse.md)
-
- [CMsgClientToGCKickGuildMemberResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCKickGuildMemberResponse.Types.EResponse.md)
-
- [CMsgClientToGCLeaveGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCLeaveGuildResponse.Types.EResponse.md)
-
  [CMsgClientToGCLeavePrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCLeavePrivateCoachingSessionResponse.Types.EResponse.md)
+
+ [CMsgClientToGCItemBattlerGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGetUserDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCItemBattlerGameActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerGameActionResponse.Types.EResponse.md)
 
  [CMsgClientToGCItemBattlerDevGrantItemResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCItemBattlerDevGrantItemResponse.Types.EResponse.md)
 
- [CMsgClientToGCBingoGetStatsDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetStatsDataResponse.Types.EResponse.md)
+ [CMsgClientToGCInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCInviteToGuildResponse.Types.EResponse.md)
 
- [CMsgClientToGCOverworldDevClearFortuneResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearFortuneResponse.Types.EResponse.md)
+ [CMsgClientToGCGetStickerbookResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetStickerbookResponse.Types.EResponse.md)
 
- [CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.EResponse.md)
+ [CMsgClientToGCOrderStickerbookTeamPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOrderStickerbookTeamPageResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestAccountGuildEventDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildEventDataResponse.Types.EResponse.md)
+ [CMsgClientToGCGetPeriodicResourceResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetPeriodicResourceResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimCodexRewardResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestAccountGuildPersonaInfoResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterClaimRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimRewardResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestActiveGuildChallengeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildChallengeResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimSetRewardResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestActiveGuildContractsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestActiveGuildContractsResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestContestVotesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestContestVotesResponse.Types.EResponse.md)
+ [CMsgClientToGCGetOWMatchDetailsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetOWMatchDetailsResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestGuildDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildDataResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterDevClearInventoryResponse.Types.EResponse.md)
 
- [CMsgClientToGCReportGuildContentResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCReportGuildContentResponse.Types.EResponse.md)
+ [CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetLimitedItemPurchaseQuantityResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestGuildEventMembersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildEventMembersResponse.Types.EResponse.md)
+ [CMsgClientToGCGetInFlightItemChargesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetInFlightItemChargesResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestGuildMembershipResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildMembershipResponse.Types.EResponse.md)
+ [CMsgClientToGCModifyGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCModifyGuildRoleResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchesResponse.Types.EResponse.md)
+ [CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimEncounterRewardResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestPlayerCoachMatchResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerCoachMatchResponse.Types.EResponse.md)
+ [CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.Types.EResponse.md)
 
- [CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerHeroRecentAccomplishmentsResponse.Types.EResponse.md)
-
- [CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.Types.EResponse.md)
-
- [CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestPrivateCoachingSessionResponse.Types.EResponse.md)
-
- [CMsgClientToGCRequestReporterUpdatesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestReporterUpdatesResponse.Types.EResponse.md)
-
- [CMsgClientToGCRequestGuildFeedResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRequestGuildFeedResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearInventoryResponse.Types.EResponse.md)
-
- [CMsgClientToGCRemoveGuildRoleResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRemoveGuildRoleResponse.Types.EResponse.md)
-
- [CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseLabyrinthBlessingsResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldDevGrantTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantTokensResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldDevResetAllResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetAllResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldDevResetNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetNodeResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldDevSetFortuneResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevSetFortuneResponse.Types.EResponse.md)
+ [CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingPerformOperationResponse.Types.EResponse.md)
 
  [CMsgClientToGCOverworldFeedbackResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldFeedbackResponse.Types.EResponse.md)
 
- [CMsgClientToGCOverworldGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetUserDataResponse.Types.EResponse.md)
+ [CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingRerollOptionsResponse.Types.EResponse.md)
 
  [CMsgClientToGCOverworldGiftTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGiftTokensResponse.Types.EResponse.md)
 
- [CMsgClientToGCRecalibrateMMRResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCRecalibrateMMRResponse.Types.EResponse.md)
-
  [CMsgClientToGCOverworldMinigameActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMinigameActionResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDeclineInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDeclineInviteToGuildResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldMoveToNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMoveToNodeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCreateStickerbookPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCreateStickerbookPageResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCreateStaticRecipeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipeResponse.Types.EResponse.md)
 
  [CMsgClientToGCOverworldRequestFortuneResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestFortuneResponse.Types.EResponse.md)
 
  [CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.Types.EResponse.md)
 
- [CMsgClientToGCOverworldTradeTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldTradeTokensResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldVisitEncounterResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldVisitEncounterResponse.Types.EResponse.md)
-
- [CMsgClientToGCPlaceCollectionStickersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPlaceCollectionStickersResponse.Types.EResponse.md)
-
- [CMsgClientToGCPlaceStickersResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPlaceStickersResponse.Types.EResponse.md)
-
- [CMsgClientToGCPurchaseChargeCostItemsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCPurchaseChargeCostItemsResponse.Types.EResponse.md)
-
- [CMsgClientToGCOverworldMoveToNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldMoveToNodeResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoGetUserDataResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.Types.EResponse.md)
-
- [CMsgClientToGCCreateStaticRecipeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCreateStaticRecipeResponse.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopGetUserDataResponse.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopOpenBagsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopOpenBagsResponse.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopDoExchangeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoExchangeResponse.Types.EResponse.md)
-
- [CMsgClientToGCCancelInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCancelInviteToGuildResponse.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopPurchaseRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopPurchaseRewardResponse.Types.EResponse.md)
-
- [CMsgClientToGCGetDPCFavoritesResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCGetDPCFavoritesResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoShuffleCardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoShuffleCardResponse.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopRerollRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopRerollRewardsResponse.Types.EResponse.md)
-
- [CMsgClientToGCBingoModifySquareResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCBingoModifySquareResponse.Types.EResponse.md)
-
- [CMsgClientToGCClaimEventActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimEventActionResponse.Types.EResponse.md)
-
- [CMsgClientToGCCreateStickerbookPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCreateStickerbookPageResponse.Types.EResponse.md)
-
- [CMsgClientToGCClaimLeaderboardRewardsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimLeaderboardRewardsResponse.Types.EResponse.md)
-
- [CMsgClientToGCClaimSwagResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimSwagResponse.Types.EResponse.md)
-
- [CCandyShopDev.Types.EResponse](Divine.Protobufs.Dota2.CCandyShopDev.Types.EResponse.md)
-
- [CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCandyShopDoVariableExchangeResponse.Types.EResponse.md)
-
- [CMsgClientToGCCraftworksCraftRecipeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksCraftRecipeResponse.Types.EResponse.md)
-
- [CMsgClientToGCDeclineInviteToGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDeclineInviteToGuildResponse.Types.EResponse.md)
-
- [CMsgClientToGCDeleteStickerbookPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDeleteStickerbookPageResponse.Types.EResponse.md)
-
  [CMsgClientToGCCreateGuildResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCreateGuildResponse.Types.EResponse.md)
 
- [CMsgClientToGCDevDeleteEventActionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevDeleteEventActionsResponse.Types.EResponse.md)
-
- [CMsgClientToGCCoachFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCoachFriendResponse.Types.EResponse.md)
+ [CMsgClientToGCOverworldTradeTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldTradeTokensResponse.Types.EResponse.md)
 
  [CMsgClientToGCCraftworksGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksGetUserDataResponse.Types.EResponse.md)
 
- [CMsgClientToGCDevGrantEventActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventActionResponse.Types.EResponse.md)
-
  [CMsgClientToGCCraftworksDevModifyComponentsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksDevModifyComponentsResponse.Types.EResponse.md)
 
+ [CMsgClientToGCCraftworksCraftRecipeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCraftworksCraftRecipeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCCoachFriendResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCCoachFriendResponse.Types.EResponse.md)
+
+ [CMsgClientToGCClaimSwagResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCClaimSwagResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevSetFortuneResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevSetFortuneResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevResetNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetNodeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldGetUserDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldGetUserDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDevGrantEventActionResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventActionResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGenerateTabletsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingDevModifyTabletResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldCompletePathResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldCompletePathResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDeleteStickerbookPageResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDeleteStickerbookPageResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDotaLabsFeedbackResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDotaLabsFeedbackResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDevResetEventStateResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventStateResponse.Types.EResponse.md)
+
+ [CMsgClientToGCFantasyCraftingGetDataResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCFantasyCraftingGetDataResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneRewardResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDevResetEventActionsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevResetEventActionsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDevReloadEventSchemaResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevReloadEventSchemaResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevClearInventoryResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearInventoryResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevGrantTokensResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevGrantTokensResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevResetAllResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevResetAllResponse.Types.EResponse.md)
+
+ [CMsgClientToGCDevGrantEventPointsResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCDevGrantEventPointsResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.Types.EResponse.md)
+
+ [CMsgClientToGCOverworldDevClearFortuneResponse.Types.EResponse](Divine.Protobufs.Dota2.CMsgClientToGCOverworldDevClearFortuneResponse.Types.EResponse.md)
+
+ [CMsgRequestCrateEscalationLevelResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgRequestCrateEscalationLevelResponse.Types.EResult.md)
+
  [CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgClientToGCSelectCompendiumInGamePredictionResponse.Types.EResult.md)
-
- [CMsgGCRerollPlayerChallengeResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCRerollPlayerChallengeResponse.Types.EResult.md)
-
- [CMsgDOTASubmitPlayerReportResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponse.Types.EResult.md)
-
- [CMsgDOTASubmitPlayerReportResponseV2.Types.EResult](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponseV2.Types.EResult.md)
-
- [CMsgGCNotificationsUpdate.Types.EResult](Divine.Protobufs.Dota2.CMsgGCNotificationsUpdate.Types.EResult.md)
 
  [CMsgSetTalentContentResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgSetTalentContentResponse.Types.EResult.md)
 
  [CMsgRequestCrateItemsResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgRequestCrateItemsResponse.Types.EResult.md)
 
- [CMsgRequestCrateEscalationLevelResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgRequestCrateEscalationLevelResponse.Types.EResult.md)
-
  [CMsgGCPlayerInfoSubmitResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCPlayerInfoSubmitResponse.Types.EResult.md)
 
  [CMsgGCRankedPlayerInfoSubmitResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCRankedPlayerInfoSubmitResponse.Types.EResult.md)
 
- [CMsgGCToClientRecordContestVoteResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCToClientRecordContestVoteResponse.Types.EResult.md)
+ [CMsgGCNotificationsUpdate.Types.EResult](Divine.Protobufs.Dota2.CMsgGCNotificationsUpdate.Types.EResult.md)
 
- [CMsgTeamFanContentAssetStatusResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgTeamFanContentAssetStatusResponse.Types.EResult.md)
+ [CMsgDOTASubmitPlayerReportResponseV2.Types.EResult](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponseV2.Types.EResult.md)
+
+ [CMsgDOTASubmitPlayerReportResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgDOTASubmitPlayerReportResponse.Types.EResult.md)
 
  [CDotaMsg\_PredictionResult.Types.Prediction.Types.EResult](Divine.Protobufs.Dota2.CDotaMsg\_PredictionResult.Types.Prediction.Types.EResult.md)
 
+ [CMsgGCRerollPlayerChallengeResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCRerollPlayerChallengeResponse.Types.EResult.md)
+
+ [CMsgTeamFanContentAssetStatusResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgTeamFanContentAssetStatusResponse.Types.EResult.md)
+
+ [CMsgGCToClientRecordContestVoteResponse.Types.EResult](Divine.Protobufs.Dota2.CMsgGCToClientRecordContestVoteResponse.Types.EResult.md)
+
  [CMsgRedeemCodeResponse.Types.EResultCode](Divine.Protobufs.Dota2.CMsgRedeemCodeResponse.Types.EResultCode.md)
 
- [CMsgDOTARedeemItemResponse.Types.EResultCode](Divine.Protobufs.Dota2.CMsgDOTARedeemItemResponse.Types.EResultCode.md)
-
  [CMsgGCToClientRankResponse.Types.EResultCode](Divine.Protobufs.Dota2.CMsgGCToClientRankResponse.Types.EResultCode.md)
+
+ [CMsgDOTARedeemItemResponse.Types.EResultCode](Divine.Protobufs.Dota2.CMsgDOTARedeemItemResponse.Types.EResultCode.md)
 
  [eRollType](Divine.Protobufs.Dota2.eRollType.md)
 
@@ -7426,83 +7434,83 @@
 
  [RequestPause\_t](Divine.Protobufs.Dota2.RequestPause\_t.md)
 
- [CMsgClientToGCOpenPlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCOpenPlayerCardPackResponse.Types.Result.md)
-
- [CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.Result.md)
-
- [CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.Result.md)
-
- [CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.Result.md)
-
- [CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.Result.md)
-
- [CMsgClientToGCCavernCrawlClaimRoomResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlClaimRoomResponse.Types.Result.md)
-
- [CMsgClientToGCSetPlayerCardRosterResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCSetPlayerCardRosterResponse.Types.Result.md)
-
- [CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.Result.md)
-
- [CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.Result.md)
-
- [CMsgClientToGCCreatePlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCreatePlayerCardPackResponse.Types.Result.md)
-
- [CMsgClientToGCGetPlayerCardRosterResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCGetPlayerCardRosterResponse.Types.Result.md)
-
- [CMsgClientToGCRecyclePlayerCardResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCRecyclePlayerCardResponse.Types.Result.md)
-
- [CMsgSocialFeedResponse.Types.Result](Divine.Protobufs.Dota2.CMsgSocialFeedResponse.Types.Result.md)
-
- [CMsgDOTAAnchorPhoneNumberResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAAnchorPhoneNumberResponse.Types.Result.md)
-
- [CMsgSocialFeedCommentsResponse.Types.Result](Divine.Protobufs.Dota2.CMsgSocialFeedCommentsResponse.Types.Result.md)
-
- [CMsgPurchaseItemWithEventPointsResponse.Types.Result](Divine.Protobufs.Dota2.CMsgPurchaseItemWithEventPointsResponse.Types.Result.md)
-
- [CMsgProfileUpdateResponse.Types.Result](Divine.Protobufs.Dota2.CMsgProfileUpdateResponse.Types.Result.md)
-
- [CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types.Result.md)
-
- [CMsgGCToClientRemoveFilteredPlayerResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientRemoveFilteredPlayerResponse.Types.Result.md)
-
- [CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.Result.md)
-
  [CMsgGCToClientPrivateChatResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientPrivateChatResponse.Types.Result.md)
-
- [CMsgClientToGCVoteForArcanaResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCVoteForArcanaResponse.Types.Result.md)
-
- [CMsgGCToClientGetFilteredPlayersResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientGetFilteredPlayersResponse.Types.Result.md)
-
- [CMsgActivatePlusFreeTrialResponse.Types.Result](Divine.Protobufs.Dota2.CMsgActivatePlusFreeTrialResponse.Types.Result.md)
-
- [CMsgDOTAGameAutographRewardResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAGameAutographRewardResponse.Types.Result.md)
-
- [CMsgDOTACreateTeamResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTACreateTeamResponse.Types.Result.md)
 
  [CMsgDOTADestroyLobbyResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTADestroyLobbyResponse.Types.Result.md)
 
+ [CMsgDOTACreateTeamResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTACreateTeamResponse.Types.Result.md)
+
+ [CMsgDOTAAnchorPhoneNumberResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAAnchorPhoneNumberResponse.Types.Result.md)
+
+ [CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCPlayerCardSpecificPurchaseResponse.Types.Result.md)
+
+ [CMsgClientToGCVoteForArcanaResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCVoteForArcanaResponse.Types.Result.md)
+
+ [CMsgClientToGCSetPlayerCardRosterResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCSetPlayerCardRosterResponse.Types.Result.md)
+
+ [CMsgClientToGCRecyclePlayerCardResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCRecyclePlayerCardResponse.Types.Result.md)
+
+ [CMsgPurchaseItemWithEventPointsResponse.Types.Result](Divine.Protobufs.Dota2.CMsgPurchaseItemWithEventPointsResponse.Types.Result.md)
+
+ [CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCreateTeamPlayerCardPackResponse.Types.Result.md)
+
+ [CMsgSocialFeedResponse.Types.Result](Divine.Protobufs.Dota2.CMsgSocialFeedResponse.Types.Result.md)
+
+ [CMsgClientToGCCreatePlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCreatePlayerCardPackResponse.Types.Result.md)
+
  [CMsgDOTAEditTeamDetailsResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAEditTeamDetailsResponse.Types.Result.md)
 
- [CMsgDOTAUnanchorPhoneNumberResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAUnanchorPhoneNumberResponse.Types.Result.md)
-
  [CMsgDOTAJoinChatChannelResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAJoinChatChannelResponse.Types.Result.md)
+
+ [CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientPurchaseFilteredPlayerSlotResponse.Types.Result.md)
+
+ [CMsgProfileUpdateResponse.Types.Result](Divine.Protobufs.Dota2.CMsgProfileUpdateResponse.Types.Result.md)
 
  [CMsgDOTAKickTeamMemberResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAKickTeamMemberResponse.Types.Result.md)
 
  [CMsgDOTALeaveTeamResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTALeaveTeamResponse.Types.Result.md)
 
+ [CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientUpdateFilteredPlayerNoteResponse.Types.Result.md)
+
+ [CMsgClientToGCOpenPlayerCardPackResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCOpenPlayerCardPackResponse.Types.Result.md)
+
  [CMsgDOTASelectionPriorityChoiceResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTASelectionPriorityChoiceResponse.Types.Result.md)
+
+ [CMsgClientToGCGetPlayerCardRosterResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCGetPlayerCardRosterResponse.Types.Result.md)
 
  [CMsgDOTATransferTeamAdminResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTATransferTeamAdminResponse.Types.Result.md)
 
+ [CMsgDOTAUnanchorPhoneNumberResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAUnanchorPhoneNumberResponse.Types.Result.md)
+
+ [CMsgGCToClientRemoveFilteredPlayerResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientRemoveFilteredPlayerResponse.Types.Result.md)
+
+ [CMsgGCToClientGetFilteredPlayersResponse.Types.Result](Divine.Protobufs.Dota2.CMsgGCToClientGetFilteredPlayersResponse.Types.Result.md)
+
+ [CMsgDOTAGameAutographRewardResponse.Types.Result](Divine.Protobufs.Dota2.CMsgDOTAGameAutographRewardResponse.Types.Result.md)
+
+ [CMsgSocialFeedCommentsResponse.Types.Result](Divine.Protobufs.Dota2.CMsgSocialFeedCommentsResponse.Types.Result.md)
+
  [CMsgClientToGCBatchGetPlayerCardRosterResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCBatchGetPlayerCardRosterResponse.Types.Result.md)
 
- [CMsgClientToGCGetEventCouponResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgClientToGCGetEventCouponResponse.Types.ResultCode.md)
+ [CMsgActivatePlusFreeTrialResponse.Types.Result](Divine.Protobufs.Dota2.CMsgActivatePlusFreeTrialResponse.Types.Result.md)
+
+ [CMsgClientToGCCavernCrawlClaimRoomResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlClaimRoomResponse.Types.Result.md)
+
+ [CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlGetClaimedRoomCountResponse.Types.Result.md)
+
+ [CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlRequestMapStateResponse.Types.Result.md)
+
+ [CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnPathResponse.Types.Result.md)
+
+ [CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.Result](Divine.Protobufs.Dota2.CMsgClientToGCCavernCrawlUseItemOnRoomResponse.Types.Result.md)
 
  [CMsgDOTAClaimGatedEventResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgDOTAClaimGatedEventResponse.Types.ResultCode.md)
 
+ [CMsgClientToGCConvertEventPointsResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgClientToGCConvertEventPointsResponse.Types.ResultCode.md)
+
  [CMsgDOTAClaimEventActionResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgDOTAClaimEventActionResponse.Types.ResultCode.md)
 
- [CMsgClientToGCConvertEventPointsResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgClientToGCConvertEventPointsResponse.Types.ResultCode.md)
+ [CMsgClientToGCGetEventCouponResponse.Types.ResultCode](Divine.Protobufs.Dota2.CMsgClientToGCGetEventCouponResponse.Types.ResultCode.md)
 
  [CMsgClientToGCMonsterHunterClaimReward.RewardTypeOneofCase](Divine.Protobufs.Dota2.CMsgClientToGCMonsterHunterClaimReward.RewardTypeOneofCase.md)
 
@@ -7514,9 +7522,9 @@
 
  [SpawnGroupFlags\_t](Divine.Protobufs.Dota2.SpawnGroupFlags\_t.md)
 
- [CSODOTALobby.Types.State](Divine.Protobufs.Dota2.CSODOTALobby.Types.State.md)
-
  [CSODOTAParty.Types.State](Divine.Protobufs.Dota2.CSODOTAParty.Types.State.md)
+
+ [CSODOTALobby.Types.State](Divine.Protobufs.Dota2.CSODOTALobby.Types.State.md)
 
  [CP2P\_FightingGame\_GameData.StateDataOneofCase](Divine.Protobufs.Dota2.CP2P\_FightingGame\_GameData.StateDataOneofCase.md)
 

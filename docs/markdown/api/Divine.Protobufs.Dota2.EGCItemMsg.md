@@ -115,6 +115,8 @@ public enum EGCItemMsg
 
 `KEmsgGcdelete = 1004` 
 
+`KEmsgGcdeleteItem = 1040` 
+
 `KEmsgGcdevNewItemRequest = 2001` 
 
 `KEmsgGcdevNewItemRequestResponse = 2002` 
