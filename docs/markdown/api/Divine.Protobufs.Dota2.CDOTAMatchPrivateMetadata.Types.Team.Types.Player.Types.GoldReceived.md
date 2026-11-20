@@ -106,6 +106,16 @@ public const int HeroesFieldNumber = 2
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_MidasFieldNumber"></a> MidasFieldNumber
+
+```csharp
+public const int MidasFieldNumber = 10
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_OtherFieldNumber"></a> OtherFieldNumber
 
 ```csharp
@@ -248,6 +258,16 @@ public bool HasHeroes { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_HasMidas"></a> HasMidas
+
+```csharp
+public bool HasMidas { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_HasOther"></a> HasOther
 
 ```csharp
@@ -292,6 +312,16 @@ public bool HasWards { get; }
 
 ```csharp
 public uint Heroes { get; set; }
+```
+
+#### Property Value
+
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_Midas"></a> Midas
+
+```csharp
+public uint Midas { get; set; }
 ```
 
 #### Property Value
@@ -388,6 +418,12 @@ public void ClearCreep()
 
 ```csharp
 public void ClearHeroes()
+```
+
+### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_ClearMidas"></a> ClearMidas\(\)
+
+```csharp
+public void ClearMidas()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CDOTAMatchPrivateMetadata_Types_Team_Types_Player_Types_GoldReceived_ClearOther"></a> ClearOther\(\)

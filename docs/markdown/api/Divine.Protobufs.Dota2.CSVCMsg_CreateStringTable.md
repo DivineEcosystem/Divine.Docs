@@ -106,16 +106,6 @@ public const int StringDataFieldNumber = 7
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_UncompressedSizeFieldNumber"></a> UncompressedSizeFieldNumber
-
-```csharp
-public const int UncompressedSizeFieldNumber = 8
-```
-
-#### Field Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 ### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_UserDataFixedSizeFieldNumber"></a> UserDataFixedSizeFieldNumber
 
 ```csharp
@@ -238,16 +228,6 @@ public bool HasStringData { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_HasUncompressedSize"></a> HasUncompressedSize
-
-```csharp
-public bool HasUncompressedSize { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_HasUserDataFixedSize"></a> HasUserDataFixedSize
 
 ```csharp
@@ -327,16 +307,6 @@ public ByteString StringData { get; set; }
 #### Property Value
 
  ByteString
-
-### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_UncompressedSize"></a> UncompressedSize
-
-```csharp
-public int UncompressedSize { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_UserDataFixedSize"></a> UserDataFixedSize
 
@@ -418,12 +388,6 @@ public void ClearNumEntries()
 
 ```csharp
 public void ClearStringData()
-```
-
-### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_ClearUncompressedSize"></a> ClearUncompressedSize\(\)
-
-```csharp
-public void ClearUncompressedSize()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CSVCMsg_CreateStringTable_ClearUserDataFixedSize"></a> ClearUserDataFixedSize\(\)

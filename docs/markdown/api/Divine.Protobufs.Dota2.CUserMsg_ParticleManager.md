@@ -237,6 +237,16 @@ public const int RemoveFanFieldNumber = 42
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointClientSnapshotFieldNumber"></a> SetControlPointClientSnapshotFieldNumber
+
+```csharp
+public const int SetControlPointClientSnapshotFieldNumber = 45
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointModelFieldNumber"></a> SetControlPointModelFieldNumber
 
 ```csharp
@@ -708,6 +718,16 @@ public CUserMsg_ParticleManager.Types.RemoveFan RemoveFan { get; set; }
 #### Property Value
 
  [CUserMsg\_ParticleManager](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.md).[Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.md).[RemoveFan](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.RemoveFan.md)
+
+### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointClientSnapshot"></a> SetControlPointClientSnapshot
+
+```csharp
+public CUserMsg_ParticleManager.Types.SetControlPointClientSnapshot SetControlPointClientSnapshot { get; set; }
+```
+
+#### Property Value
+
+ [CUserMsg\_ParticleManager](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.md).[Types](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.md).[SetControlPointClientSnapshot](Divine.Protobufs.Dota2.CUserMsg\_ParticleManager.Types.SetControlPointClientSnapshot.md)
 
 ### <a id="Divine_Protobufs_Dota2_CUserMsg_ParticleManager_SetControlPointModel"></a> SetControlPointModel
 

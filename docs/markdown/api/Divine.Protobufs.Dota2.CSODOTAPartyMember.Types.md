@@ -1,16 +1,16 @@
-# <a id="Divine_Protobufs_Dota2_CMsgClientToGCDevDeleteEventActionsResponse_Types"></a> Class CMsgClientToGCDevDeleteEventActionsResponse.Types
+# <a id="Divine_Protobufs_Dota2_CSODOTAPartyMember_Types"></a> Class CSODOTAPartyMember.Types
 
 Namespace: [Divine.Protobufs.Dota2](Divine.Protobufs.Dota2.md)  
 Assembly: Divine.Protobufs.dll  
 
 ```csharp
-public static class CMsgClientToGCDevDeleteEventActionsResponse.Types
+public static class CSODOTAPartyMember.Types
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[CMsgClientToGCDevDeleteEventActionsResponse.Types](Divine.Protobufs.Dota2.CMsgClientToGCDevDeleteEventActionsResponse.Types.md)
+[CSODOTAPartyMember.Types](Divine.Protobufs.Dota2.CSODOTAPartyMember.Types.md)
 
 #### Inherited Members
 

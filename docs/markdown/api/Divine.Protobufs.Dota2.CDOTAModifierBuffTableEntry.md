@@ -276,6 +276,16 @@ public const int DurationFieldNumber = 9
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EffectivenessFieldNumber"></a> EffectivenessFieldNumber
+
+```csharp
+public const int EffectivenessFieldNumber = 45
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EntryTypeFieldNumber"></a> EntryTypeFieldNumber
 
 ```csharp
@@ -728,6 +738,16 @@ public float Duration { get; set; }
 
  [float](https://learn.microsoft.com/dotnet/api/system.single)
 
+### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_Effectiveness"></a> Effectiveness
+
+```csharp
+public float Effectiveness { get; set; }
+```
+
+#### Property Value
+
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
+
 ### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_EntryType"></a> EntryType
 
 ```csharp
@@ -942,6 +962,16 @@ public bool HasDdModifierIndex { get; }
 
 ```csharp
 public bool HasDuration { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_HasEffectiveness"></a> HasEffectiveness
+
+```csharp
+public bool HasEffectiveness { get; }
 ```
 
 #### Property Value
@@ -1488,6 +1518,12 @@ public void ClearDdModifierIndex()
 
 ```csharp
 public void ClearDuration()
+```
+
+### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearEffectiveness"></a> ClearEffectiveness\(\)
+
+```csharp
+public void ClearEffectiveness()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CDOTAModifierBuffTableEntry_ClearEntryType"></a> ClearEntryType\(\)

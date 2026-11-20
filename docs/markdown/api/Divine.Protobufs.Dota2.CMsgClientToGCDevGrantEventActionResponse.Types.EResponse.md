@@ -19,9 +19,17 @@ public enum CMsgClientToGCDevGrantEventActionResponse.Types.EResponse
 
 `KEDisabled = 3` 
 
+`KEGrantFailed = 8` 
+
 `KEInternalError = 0` 
 
+`KEInvalidAccount = 7` 
+
+`KEInvalidEvent = 6` 
+
 `KENotAllowed = 5` 
+
+`KENotGranted = 9` 
 
 `KESuccess = 1` 
 

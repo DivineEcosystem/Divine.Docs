@@ -19,8 +19,6 @@ public enum CMsgDOTAClaimEventActionResponse.Types.ResultCode
 
 `AlreadyClaimed = 7` 
 
-`AsyncRewards = 14` 
-
 `EventNotActive = 2` 
 
 `EventNotOwned = 10` 

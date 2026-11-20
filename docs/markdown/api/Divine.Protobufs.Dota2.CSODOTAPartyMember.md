@@ -66,6 +66,16 @@ public const int BannedHeroIdsFieldNumber = 17
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CSODOTAPartyMember_EventGameLevelsFieldNumber"></a> EventGameLevelsFieldNumber
+
+```csharp
+public const int EventGameLevelsFieldNumber = 18
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CSODOTAPartyMember_HasHpResourceFieldNumber"></a> HasHpResourceFieldNumber
 
 ```csharp
@@ -227,6 +237,16 @@ public static MessageDescriptor Descriptor { get; }
 #### Property Value
 
  MessageDescriptor
+
+### <a id="Divine_Protobufs_Dota2_CSODOTAPartyMember_EventGameLevels"></a> EventGameLevels
+
+```csharp
+public RepeatedField<CSODOTAPartyMember.Types.EventGameLevel> EventGameLevels { get; }
+```
+
+#### Property Value
+
+ RepeatedField<[CSODOTAPartyMember](Divine.Protobufs.Dota2.CSODOTAPartyMember.md).[Types](Divine.Protobufs.Dota2.CSODOTAPartyMember.Types.md).[EventGameLevel](Divine.Protobufs.Dota2.CSODOTAPartyMember.Types.EventGameLevel.md)\>
 
 ### <a id="Divine_Protobufs_Dota2_CSODOTAPartyMember_HasHasHpResource"></a> HasHasHpResource
 

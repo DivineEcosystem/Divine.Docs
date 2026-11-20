@@ -233,6 +233,8 @@ public enum ENetworkDisconnectionReason
 
 `NetworkDisconnectSteamDropped = 16` 
 
+`NetworkDisconnectSteamGroupmembership = 86` 
+
 `NetworkDisconnectSteamInuse = 7` 
 
 `NetworkDisconnectSteamLoggedInElsewhere = 14` 

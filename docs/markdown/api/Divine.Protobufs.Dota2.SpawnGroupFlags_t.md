@@ -23,6 +23,8 @@ public enum SpawnGroupFlags_t
 
 `SpawnGroupCreateNewSceneWorld = 256` 
 
+`SpawnGroupDontSaveRestore = 512` 
+
 `SpawnGroupDontSpawnEntities = 2` 
 
 `SpawnGroupIsInitialSpawnGroup = 8` 

@@ -456,6 +456,16 @@ public const int LastHitStreakFieldNumber = 31
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_MidasGoldFieldNumber"></a> MidasGoldFieldNumber
+
+```csharp
+public const int MidasGoldFieldNumber = 160
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_MissCountFieldNumber"></a> MissCountFieldNumber
 
 ```csharp
@@ -1418,6 +1428,16 @@ public bool HasLastHitStreak { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_HasMidasGold"></a> HasMidasGold
+
+```csharp
+public bool HasMidasGold { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_HasMissCount"></a> HasMissCount
 
 ```csharp
@@ -1812,6 +1832,16 @@ public int LastHits { get; set; }
 
 ```csharp
 public int LastHitStreak { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_MidasGold"></a> MidasGold
+
+```csharp
+public int MidasGold { get; set; }
 ```
 
 #### Property Value
@@ -2360,6 +2390,12 @@ public void ClearLastHits()
 
 ```csharp
 public void ClearLastHitStreak()
+```
+
+### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_ClearMidasGold"></a> ClearMidasGold\(\)
+
+```csharp
+public void ClearMidasGold()
 ```
 
 ### <a id="Divine_Protobufs_Dota2_CMsgDotaScenario_Types_Hero_ClearMissCount"></a> ClearMissCount\(\)

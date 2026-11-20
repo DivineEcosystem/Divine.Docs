@@ -44,6 +44,8 @@ public enum AbilityId
 
 `ability_scout_bonuses = 4201` 
 
+`ability_stone_of_recall = 1885` 
+
 `ability_xp_fountain = 283` 
 
 `abyssal_underling_archer_aoe = 1411` 
@@ -230,6 +232,10 @@ public enum AbilityId
 
 `beastmaster_summon_razorback = 7230` 
 
+`beastmaster_summon_thunderhide = 1894` 
+
+`beastmaster_thunderhide_drum = 1895` 
+
 `beastmaster_wild_axes = 5168` 
 
 `berserker_troll_break = 889` 
@@ -310,6 +316,12 @@ public enum AbilityId
 
 `brewmaster_primal_split_cancel = 537` 
 
+`brewmaster_primal_split_earth_brewling = 1896` 
+
+`brewmaster_primal_split_fire_brewling = 1898` 
+
+`brewmaster_primal_split_storm_brewling = 1897` 
+
 `brewmaster_storm_cyclone = 5409` 
 
 `brewmaster_storm_dispel_magic = 5408` 
@@ -376,6 +388,12 @@ public enum AbilityId
 
 `centaur_work_horse = 1135` 
 
+`chaos_knight_armageddon = 1910` 
+
+`chaos_knight_armageddons_flank = 1899` 
+
+`chaos_knight_armageddons_flank_end = 1900` 
+
 `chaos_knight_chaos_bolt = 5426` 
 
 `chaos_knight_chaos_strike = 5428` 
@@ -389,6 +407,8 @@ public enum AbilityId
 `chaos_knight_reality_rift = 5427` 
 
 `chaos_knight_reins_of_chaos = 1353` 
+
+`chen_anoint = 1909` 
 
 `chen_divine_favor = 7306` 
 
@@ -566,6 +586,8 @@ public enum AbilityId
 
 `dazzle_shallow_grave = 5234` 
 
+`dazzle_through_the_realm = 1930` 
+
 `dazzle_weave = 5236` 
 
 `death_prophet_carrion_swarm = 5090` 
@@ -687,6 +709,10 @@ public enum AbilityId
 `earthshaker_slugger = 1494` 
 
 `earthshaker_spirit_cairn = 1448` 
+
+`eimermole_miners_aura = 1890` 
+
+`eimermole_miners_slam = 1891` 
 
 `elder_titan_ancestral_spirit = 1392` 
 
@@ -1106,9 +1132,15 @@ public enum AbilityId
 
 `item_ballista = 367` 
 
+`item_balmhook = 1917` 
+
 `item_basher = 143` 
 
 `item_belt_of_strength = 17` 
+
+`item_berserkers_hood = 1881` 
+
+`item_berserkers_sabatons = 1953` 
 
 `item_bfury = 145` 
 
@@ -1132,6 +1164,8 @@ public enum AbilityId
 
 `item_blood_grenade = 1123` 
 
+`item_bloodslinger = 1942` 
+
 `item_bloodstone = 121` 
 
 `item_bloodthorn = 250` 
@@ -1152,6 +1186,8 @@ public enum AbilityId
 
 `item_branches = 16` 
 
+`item_brick = 1916` 
+
 `item_broadsword = 3` 
 
 `item_broom_handle = 355` 
@@ -1161,6 +1197,8 @@ public enum AbilityId
 `item_bullwhip = 680` 
 
 `item_butterfly = 139` 
+
+`item_caduceus = 1955` 
 
 `item_caster_rapier = 1801` 
 
@@ -1177,6 +1215,8 @@ public enum AbilityId
 `item_circlet = 20` 
 
 `item_clarity = 38` 
+
+`item_claszian_timepiece = 1884` 
 
 `item_claymore = 5` 
 
@@ -1227,8 +1267,6 @@ public enum AbilityId
 `item_demonicon = 370` 
 
 `item_desolator = 168` 
-
-`item_desolator_2 = 292` 
 
 `item_devastator = 1806` 
 
@@ -1436,6 +1474,8 @@ public enum AbilityId
 
 `item_helm_of_the_dominator = 164` 
 
+`item_helm_of_the_hivemind = 1911` 
+
 `item_helm_of_the_overlord = 635` 
 
 `item_helm_of_the_undying = 327` 
@@ -1445,6 +1485,10 @@ public enum AbilityId
 `item_hood_of_defiance = 131` 
 
 `item_horizon = 312` 
+
+`item_horn_of_battle = 1950` 
+
+`item_horn_of_battle_greater = 1951` 
 
 `item_hurricane_pike = 263` 
 
@@ -1559,6 +1603,8 @@ public enum AbilityId
 `item_nether_shawl = 357` 
 
 `item_ninja_gear = 362` 
+
+`item_nothl_sigil = 1883` 
 
 `item_null_talisman = 77` 
 
@@ -1686,11 +1732,15 @@ public enum AbilityId
 
 `item_recipe_basher = 142` 
 
+`item_recipe_berserkers_sabatons = 1952` 
+
 `item_recipe_bfury = 144` 
 
 `item_recipe_black_king_bar = 115` 
 
 `item_recipe_blade_mail = 126` 
+
+`item_recipe_bloodslinger = 1941` 
 
 `item_recipe_bloodstone = 120` 
 
@@ -1703,6 +1753,8 @@ public enum AbilityId
 `item_recipe_buckler = 85` 
 
 `item_recipe_butterfly = 138` 
+
+`item_recipe_caduceus = 1954` 
 
 `item_recipe_consecrated_wraps = 1853` 
 
@@ -1854,11 +1906,11 @@ public enum AbilityId
 
 `item_recipe_refresher = 109` 
 
-`item_recipe_revenants_brooch = 910` 
-
 `item_recipe_ring_of_aquila = 211` 
 
 `item_recipe_ring_of_basilius = 87` 
+
+`item_recipe_ristuls_devotion = 1943` 
 
 `item_recipe_rod_of_atos = 205` 
 
@@ -1876,6 +1928,8 @@ public enum AbilityId
 
 `item_recipe_skadi = 159` 
 
+`item_recipe_skypiercer = 1947` 
+
 `item_recipe_solar_crest = 227` 
 
 `item_recipe_soul_booster = 128` 
@@ -1887,6 +1941,8 @@ public enum AbilityId
 `item_recipe_sphere = 122` 
 
 `item_recipe_spirit_vessel = 266` 
+
+`item_recipe_starforge = 1945` 
 
 `item_recipe_swift_blink = 607` 
 
@@ -1924,6 +1980,8 @@ public enum AbilityId
 
 `item_recipe_yasha_and_kaya = 274` 
 
+`item_red_ledger = 1880` 
+
 `item_refresher = 110` 
 
 `item_refresher_shard = 260` 
@@ -1949,6 +2007,8 @@ public enum AbilityId
 `item_ring_of_tarrasque = 279` 
 
 `item_rippers_lash = 1600` 
+
+`item_ristuls_devotion = 1944` 
 
 `item_river_painter = 1021` 
 
@@ -2004,6 +2064,8 @@ public enum AbilityId
 
 `item_skadi = 160` 
 
+`item_skypiercer = 1948` 
+
 `item_slippers = 14` 
 
 `item_smoke_of_deceit = 188` 
@@ -2036,11 +2098,17 @@ public enum AbilityId
 
 `item_staff_of_wizardry = 23` 
 
+`item_starforge = 1946` 
+
+`item_stone_of_recall = 1949` 
+
 `item_stonefeather_satchel = 1861` 
 
 `item_stormcrafter = 585` 
 
 `item_stout_shield = 182` 
+
+`item_stygian_desolator = 292` 
 
 `item_super_blink = 1029` 
 
@@ -2115,6 +2183,8 @@ public enum AbilityId
 `item_vanguard = 125` 
 
 `item_veil_of_discord = 190` 
+
+`item_vile_phial = 1882` 
 
 `item_vindicators_axe = 2096` 
 
@@ -2412,6 +2482,8 @@ public enum AbilityId
 
 `lone_druid_spirit_bear_spirit_link = 1683` 
 
+`lone_druid_spirit_bear_summon_druid = 1888` 
+
 `lone_druid_spirit_link = 7309` 
 
 `lone_druid_true_form = 5415` 
@@ -2437,6 +2509,8 @@ public enum AbilityId
 `lycan_feral_impulse = 5397` 
 
 `lycan_howl = 5396` 
+
+`lycan_pack_hunter = 1921` 
 
 `lycan_shapeshift = 5398` 
 
@@ -2513,8 +2587,6 @@ public enum AbilityId
 `meepo_divided_we_stand = 5433` 
 
 `meepo_earthbind = 5430` 
-
-`meepo_fling = 1761` 
 
 `meepo_fling_release = 1762` 
 
@@ -2610,6 +2682,8 @@ public enum AbilityId
 
 `morphling_waveform = 5052` 
 
+`mud_golem_hurl_big_boulder = 1889` 
+
 `mud_golem_hurl_boulder = 5670` 
 
 `mud_golem_rock_destroy = 5667` 
@@ -2686,6 +2760,8 @@ public enum AbilityId
 
 `necronomicon_warrior_sight = 5201` 
 
+`neutral_gold_upgrade_ability = 1887` 
+
 `neutral_spell_immunity = 5303` 
 
 `neutral_upgrade = 896` 
@@ -2732,6 +2808,8 @@ public enum AbilityId
 
 `nyx_assassin_nyxth_sense = 1365` 
 
+`nyx_assassin_scarab_metabolism = 1901` 
+
 `nyx_assassin_spiked_carapace = 5464` 
 
 `nyx_assassin_unburrow = 5673` 
@@ -2752,6 +2830,8 @@ public enum AbilityId
 
 `obsidian_destroyer_sanity_eclipse = 5394` 
 
+`odobenus_blight = 1926` 
+
 `ogre_bruiser_ogre_smash = 885` 
 
 `ogre_magi_bloodlust = 5440` 
@@ -2771,6 +2851,10 @@ public enum AbilityId
 `ogre_magi_smash = 648` 
 
 `ogre_magi_unrefined_fireblast = 5466` 
+
+`ogre_seal_flop = 1892` 
+
+`ogre_seal_pup_disapproval_aura = 1893` 
 
 `omniknight_angelic_flight = 552` 
 
@@ -2939,6 +3023,8 @@ public enum AbilityId
 `queenofpain_sonic_wave = 5176` 
 
 `queenofpain_succubus = 1277` 
+
+`radigull_eggstremism = 1933` 
 
 `rattletrap_armor_power = 1295` 
 
@@ -4214,9 +4300,9 @@ public enum AbilityId
 
 `special_bonus_unique_ancient_apparition_8 = 973` 
 
-`special_bonus_unique_ancient_apparition_cold_feet_distance = 1820` 
+`special_bonus_unique_ancient_apparition_bone_chill = 1904` 
 
-`special_bonus_unique_ancient_apparition_cold_feet_dps = 1819` 
+`special_bonus_unique_ancient_apparition_cold_feet_distance = 1820` 
 
 `special_bonus_unique_ancient_apparition_ice_vortex_duration = 1141` 
 
@@ -4226,13 +4312,15 @@ public enum AbilityId
 
 `special_bonus_unique_antimage_3 = 6606` 
 
-`special_bonus_unique_antimage_5 = 6800` 
+`special_bonus_unique_antimage_4 = 6607` 
 
-`special_bonus_unique_antimage_6 = 665` 
+`special_bonus_unique_antimage_5 = 6800` 
 
 `special_bonus_unique_antimage_8 = 735` 
 
-`special_bonus_unique_antimage_manavoid_aoe = 966` 
+`special_bonus_unique_antimage_counterspell_reflect_duration = 1935` 
+
+`special_bonus_unique_antimage_mana_break_damage = 1936` 
 
 `special_bonus_unique_arc_warden = 6287` 
 
@@ -4428,7 +4516,7 @@ public enum AbilityId
 
 `special_bonus_unique_clinkz_8 = 495` 
 
-`special_bonus_unique_clinkz_9 = 554` 
+`special_bonus_unique_clinkz_skeletons = 1923` 
 
 `special_bonus_unique_clockwerk = 5977` 
 
@@ -4439,6 +4527,8 @@ public enum AbilityId
 `special_bonus_unique_clockwerk_4 = 7028` 
 
 `special_bonus_unique_clockwerk_5 = 502` 
+
+`special_bonus_unique_clockwerk_battery_assault_duration = 1925` 
 
 `special_bonus_unique_clockwerk_hookshot_damage = 8290` 
 
@@ -4465,8 +4555,6 @@ public enum AbilityId
 `special_bonus_unique_dark_seer_2 = 6365` 
 
 `special_bonus_unique_dark_seer_3 = 6624` 
-
-`special_bonus_unique_dark_seer_5 = 420` 
 
 `special_bonus_unique_dark_seer_6 = 513` 
 
@@ -4516,21 +4604,27 @@ public enum AbilityId
 
 `special_bonus_unique_dazzle_5 = 789` 
 
-`special_bonus_unique_dazzle_nothl_projection_duration = 1613` 
+`special_bonus_unique_dazzle_nothl_projection_cooldown = 1919` 
 
 `special_bonus_unique_dazzle_poison_touch_attack_range_bonus = 1018` 
 
+`special_bonus_unique_dazzle_poison_touch_undispellable = 1918` 
+
+`special_bonus_unique_dazzle_shadow_wave_cast_range = 8255` 
+
 `special_bonus_unique_dazzle_shallow_grave_cooldown = 1552` 
+
+`special_bonus_unique_dazzle_shallow_grave_duration = 1934` 
 
 `special_bonus_unique_death_prophet = 6191` 
 
 `special_bonus_unique_death_prophet_2 = 6367` 
 
-`special_bonus_unique_death_prophet_3 = 6628` 
+`special_bonus_unique_death_prophet_4 = 6805` 
 
 `special_bonus_unique_death_prophet_5 = 698` 
 
-`special_bonus_unique_death_prophet_exorcism_duration_on_kill = 1810` 
+`special_bonus_unique_death_prophet_crypt_swarm_damage = 1284` 
 
 `special_bonus_unique_death_prophet_silence_aoe = 1458` 
 
@@ -4714,6 +4808,8 @@ public enum AbilityId
 
 `special_bonus_unique_furion_8 = 1620` 
 
+`special_bonus_unique_furion_force_of_nature_treants = 1920` 
+
 `special_bonus_unique_furion_teleportation_barrier = 1300` 
 
 `special_bonus_unique_grimstroke_1 = 8001` 
@@ -4738,11 +4834,11 @@ public enum AbilityId
 
 `special_bonus_unique_gyrocopter_3 = 6652` 
 
+`special_bonus_unique_gyrocopter_4 = 6653` 
+
 `special_bonus_unique_gyrocopter_5 = 6654` 
 
 `special_bonus_unique_gyrocopter_6 = 7141` 
-
-`special_bonus_unique_gyrocopter_flak_cannon_bonus_damage = 1012` 
 
 `special_bonus_unique_gyrocopter_homing_missile_damage = 1332` 
 
@@ -4801,8 +4897,6 @@ public enum AbilityId
 `special_bonus_unique_jakiro_7 = 542` 
 
 `special_bonus_unique_jakiro_dualbreath_cooldown = 303` 
-
-`special_bonus_unique_juggernaut = 6105` 
 
 `special_bonus_unique_juggernaut_2 = 6662` 
 
@@ -4892,15 +4986,15 @@ public enum AbilityId
 
 `special_bonus_unique_legion_commander_6 = 463` 
 
-`special_bonus_unique_legion_commander_7 = 880` 
-
-`special_bonus_unique_legion_commander_9 = 1113` 
-
 `special_bonus_unique_legion_commander_duel_duration = 1838` 
 
 `special_bonus_unique_legion_commander_duel_refresh_on_victory = 1839` 
 
+`special_bonus_unique_legion_commander_moment_of_courage_crit = 1932` 
+
 `special_bonus_unique_legion_commander_outfight_them_armor = 1837` 
+
+`special_bonus_unique_legion_commander_overwhelming_odds_attack_speed = 1939` 
 
 `special_bonus_unique_leshrac_1 = 6063` 
 
@@ -5070,11 +5164,11 @@ public enum AbilityId
 
 `special_bonus_unique_mars_arena_of_blood_hp_regen = 1417` 
 
+`special_bonus_unique_mars_bulwark_damage_reduction = 884` 
+
 `special_bonus_unique_mars_gods_rebuke_extra_crit = 6756` 
 
 `special_bonus_unique_mars_rebuke_cooldown = 545` 
-
-`special_bonus_unique_mars_rebuke_radius = 1020` 
 
 `special_bonus_unique_mars_spear_bonus_damage = 6759` 
 
@@ -5088,9 +5182,9 @@ public enum AbilityId
 
 `special_bonus_unique_medusa_8 = 1345` 
 
-`special_bonus_unique_medusa_gorgons_grasp_radius = 1561` 
+`special_bonus_unique_medusa_gorgons_grasp_duration = 1906` 
 
-`special_bonus_unique_medusa_gorgons_grasp_volleys = 1574` 
+`special_bonus_unique_medusa_gorgons_grasp_radius = 1561` 
 
 `special_bonus_unique_medusa_snake_damage = 1376` 
 
@@ -5146,8 +5240,6 @@ public enum AbilityId
 
 `special_bonus_unique_morphling_waveform_cooldown = 6383` 
 
-`special_bonus_unique_muerta_calling_hp_regen = 1438` 
-
 `special_bonus_unique_muerta_dead_shot_charges = 5755` 
 
 `special_bonus_unique_muerta_dead_shot_range = 5757` 
@@ -5158,17 +5250,19 @@ public enum AbilityId
 
 `special_bonus_unique_muerta_the_calling_num_revenants = 5758` 
 
+`special_bonus_unique_muerta_the_calling_slow = 1931` 
+
 `special_bonus_unique_naga_siren = 6205` 
 
 `special_bonus_unique_naga_siren_2 = 6398` 
-
-`special_bonus_unique_naga_siren_3 = 6701` 
 
 `special_bonus_unique_naga_siren_4 = 7029` 
 
 `special_bonus_unique_naga_siren_5 = 601` 
 
 `special_bonus_unique_naga_siren_6 = 761` 
+
+`special_bonus_unique_naga_siren_eelskin_evasion = 1938` 
 
 `special_bonus_unique_naga_siren_reel_in_speed = 1557` 
 
@@ -5190,13 +5284,13 @@ public enum AbilityId
 
 `special_bonus_unique_nevermore_3 = 6875` 
 
-`special_bonus_unique_nevermore_4 = 6876` 
-
 `special_bonus_unique_nevermore_6 = 815` 
 
 `special_bonus_unique_nevermore_7 = 999` 
 
 `special_bonus_unique_nevermore_frenzy_castspeed = 1217` 
+
+`special_bonus_unique_nevermore_frenzy_heal_per_soul = 1922` 
 
 `special_bonus_unique_nevermore_frenzy_max_collection_count = 1789` 
 
@@ -5216,8 +5310,6 @@ public enum AbilityId
 
 `special_bonus_unique_night_stalker_hunter_status_resist = 1048` 
 
-`special_bonus_unique_nyx = 6130` 
-
 `special_bonus_unique_nyx_2 = 6399` 
 
 `special_bonus_unique_nyx_3 = 6814` 
@@ -5225,6 +5317,8 @@ public enum AbilityId
 `special_bonus_unique_nyx_4 = 402` 
 
 `special_bonus_unique_nyx_6 = 891` 
+
+`special_bonus_unique_nyx_assassin_scarab_metabolism = 1905` 
 
 `special_bonus_unique_nyx_jolt_cooldown = 1368` 
 
@@ -5560,6 +5654,8 @@ public enum AbilityId
 
 `special_bonus_unique_skywrath_concussive_shot_slow = 1480` 
 
+`special_bonus_unique_skywrath_scion_shield_barrier = 1927` 
+
 `special_bonus_unique_slardar = 6211` 
 
 `special_bonus_unique_slardar_2 = 6889` 
@@ -5594,8 +5690,6 @@ public enum AbilityId
 
 `special_bonus_unique_snapfire_2 = 6487` 
 
-`special_bonus_unique_snapfire_3 = 6489` 
-
 `special_bonus_unique_snapfire_5 = 6479` 
 
 `special_bonus_unique_snapfire_6 = 382` 
@@ -5604,7 +5698,7 @@ public enum AbilityId
 
 `special_bonus_unique_snapfire_8 = 500` 
 
-`special_bonus_unique_snapfire_firesnap_cookie_additional_charge = 1628` 
+`special_bonus_unique_snapfire_scatterblast_knockback = 1907` 
 
 `special_bonus_unique_sniper_1 = 6305` 
 
@@ -5678,11 +5772,11 @@ public enum AbilityId
 
 `special_bonus_unique_techies_2 = 6552` 
 
-`special_bonus_unique_techies_3 = 6997` 
-
 `special_bonus_unique_techies_4 = 6998` 
 
 `special_bonus_unique_techies_5 = 412` 
+
+`special_bonus_unique_techies_6 = 1940` 
 
 `special_bonus_unique_techies_tazer_duration = 1841` 
 
@@ -5886,11 +5980,11 @@ public enum AbilityId
 
 `special_bonus_unique_venomancer_3 = 6979` 
 
-`special_bonus_unique_venomancer_4 = 6980` 
-
 `special_bonus_unique_venomancer_5 = 6981` 
 
 `special_bonus_unique_venomancer_8 = 811` 
+
+`special_bonus_unique_venomancer_plague_damage = 1902` 
 
 `special_bonus_unique_venomancer_plague_spread = 1799` 
 
@@ -5956,7 +6050,7 @@ public enum AbilityId
 
 `special_bonus_unique_warlock_fatal_bonds_count = 1703` 
 
-`special_bonus_unique_warlock_upheaval_aoe = 1038` 
+`special_bonus_unique_warlock_shadow_word_damage = 1928` 
 
 `special_bonus_unique_weaver_1 = 6200` 
 
@@ -5971,6 +6065,8 @@ public enum AbilityId
 `special_bonus_unique_weaver_6 = 796` 
 
 `special_bonus_unique_weaver_shukuchi_movespeed = 1817` 
+
+`special_bonus_unique_weaver_threads_of_fate_damage = 1929` 
 
 `special_bonus_unique_windranger_2 = 6413` 
 
@@ -6089,6 +6185,8 @@ public enum AbilityId
 `spirit_breaker_nether_strike = 5356` 
 
 `spirit_breaker_planar_pocket = 987` 
+
+`stone_of_recall_teleport = 1886` 
 
 `storm_spirit_ball_lightning = 5101` 
 
@@ -6300,6 +6398,8 @@ public enum AbilityId
 
 `twin_gate_portal_warp = 8873` 
 
+`undying_bite = 1913` 
+
 `undying_ceaseless_dirge = 1360` 
 
 `undying_decay = 5442` 
@@ -6435,6 +6535,8 @@ public enum AbilityId
 `weaver_threads_of_fate = 1754` 
 
 `weaver_time_lapse = 5292` 
+
+`weaver_time_lapse_ally = 1915` 
 
 `windrunner_easy_breezy = 1239` 
 

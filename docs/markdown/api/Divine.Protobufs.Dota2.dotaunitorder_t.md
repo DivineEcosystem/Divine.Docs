@@ -63,6 +63,8 @@ public enum dotaunitorder_t
 
 `DotaUnitOrderHoldPosition = 10` 
 
+`DotaUnitOrderInteractWithTarget = 43` 
+
 `DotaUnitOrderMoveItem = 19` 
 
 `DotaUnitOrderMoveRelative = 39` 

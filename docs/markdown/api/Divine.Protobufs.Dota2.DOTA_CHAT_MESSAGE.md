@@ -121,6 +121,8 @@ public enum DOTA_CHAT_MESSAGE
 
 `ChatMessageHoldoutWallFinished = 59` 
 
+`ChatMessageHornOfBattleUsed = 128` 
+
 `ChatMessageInformational = 52` 
 
 `ChatMessageInthebag = 24` 

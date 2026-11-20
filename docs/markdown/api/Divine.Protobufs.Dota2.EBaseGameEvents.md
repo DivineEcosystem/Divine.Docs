@@ -27,6 +27,8 @@ public enum EBaseGameEvents
 
 `GeClothStiffenAnimEvent = 213` 
 
+`GeMoveWorldDecalsEvent = 215` 
+
 `GePlaceDecalEvent = 201` 
 
 `GeSosSetLibraryStackFields = 211` 

@@ -21,10 +21,6 @@ public enum EGCEventClientMessages
 
 `KEmsgClientToGcclaimEventActionResponse = 15021` 
 
-`KEmsgClientToGcdevDeleteEventActions = 15011` 
-
-`KEmsgClientToGcdevDeleteEventActionsResponse = 15012` 
-
 `KEmsgClientToGcdevGrantEventAction = 15009` 
 
 `KEmsgClientToGcdevGrantEventActionResponse = 15010` 
@@ -36,6 +32,10 @@ public enum EGCEventClientMessages
 `KEmsgClientToGcdevReloadEventSchema = 15005` 
 
 `KEmsgClientToGcdevReloadEventSchemaResponse = 15006` 
+
+`KEmsgClientToGcdevResetEventActions = 15011` 
+
+`KEmsgClientToGcdevResetEventActionsResponse = 15012` 
 
 `KEmsgClientToGcdevResetEventState = 15007` 
 

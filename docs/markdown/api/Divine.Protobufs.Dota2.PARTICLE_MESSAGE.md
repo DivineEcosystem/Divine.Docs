@@ -55,6 +55,8 @@ public enum PARTICLE_MESSAGE
 
 `GameParticleManagerEventSetClusterGrowth = 38` 
 
+`GameParticleManagerEventSetControlPointClientSnapshot = 42` 
+
 `GameParticleManagerEventSetControlPointModel = 18` 
 
 `GameParticleManagerEventSetControlPointSnapshot = 19` 

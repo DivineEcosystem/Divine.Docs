@@ -17,11 +17,31 @@ public enum CMsgClientToGCClaimEventActionResponse.Types.EResponse
 
 ## Fields
 
+`KEAlreadyClaimed = 12` 
+
 `KEDisabled = 3` 
+
+`KEEventNotActive = 8` 
+
+`KEEventNotOwned = 9` 
+
+`KEInsufficientLevel = 10` 
+
+`KEInsufficientPoints = 11` 
 
 `KEInternalError = 0` 
 
+`KEInvalidAction = 6` 
+
+`KEInvalidEvent = 7` 
+
+`KEInvalidItem = 15` 
+
+`KEInvalidScoreMode = 13` 
+
 `KENotAllowed = 5` 
+
+`KERequiresSubscription = 14` 
 
 `KESuccess = 1` 
 

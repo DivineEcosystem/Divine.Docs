@@ -34,9 +34,9 @@
 
  [MenuSearcher](Divine.Menu.Items.MenuSearcher.md)
 
- [MenuSelector<T\>](Divine.Menu.Items.MenuSelector\-1.md)
-
  [MenuSelector](Divine.Menu.Items.MenuSelector.md)
+
+ [MenuSelector<T\>](Divine.Menu.Items.MenuSelector\-1.md)
 
  [MenuSelectorBase<T\>](Divine.Menu.Items.MenuSelectorBase\-1.md)
 
