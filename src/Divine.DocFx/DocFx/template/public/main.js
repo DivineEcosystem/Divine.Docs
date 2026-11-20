@@ -7,7 +7,7 @@ export default {
     },
     {
       icon: 'markdown',
-      href: 'https://github.com/DivineEcosystem/Divine.Docs/tree/main/docs/markdown',
+      href: 'https://github.com/DivineEcosystem/Divine.Docs/blob/main/docs/markdown/index.md',
       title: 'API Markdown'
     }
   ]
