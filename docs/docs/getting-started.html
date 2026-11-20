@@ -88,53 +88,29 @@
 <h1 id="getting-started">Getting Started</h1>
 
 <h2 id="local-plugins">Local plugins</h2>
-<p>Follow these steps to create, add, build, and reload a local Divine plugin.</p>
-<h3 id="step-1-install-the-required-tools">Step 1. Install the required tools</h3>
-<p>Install the required development tools:</p>
-<ul>
-<li><a href="https://dotnet.microsoft.com/download/dotnet/11.0">.NET 11 SDK</a></li>
-<li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022 or Visual Studio 2026</a> with a .NET development workload, or <a href="https://www.jetbrains.com/rider/download/">JetBrains Rider</a></li>
-</ul>
-<h3 id="step-2-create-a-plugin-project">Step 2. Create a plugin project</h3>
-<p>Use the sample plugin project template from GitHub:</p>
-<p><a href="https://github.com/DivinePlugins/Samples">DivinePlugins/Samples</a></p>
-<p>Clone the repository and open the solution or project <code>.csproj</code> in Visual Studio or Rider.</p>
-<h3 id="step-3-check-the-project-files">Step 3. Check the project files</h3>
-<p>The project must include a <code>global.json</code> file:</p>
-<pre><code class="lang-json">{
-  &quot;sdk&quot;: {
-    &quot;version&quot;: &quot;11.0.100-rc.1.26425.128&quot;,
-    &quot;rollForward&quot;: &quot;patch&quot;,
-    &quot;allowPrerelease&quot;: true
-  },
-  &quot;msbuild-sdks&quot;: {
-    &quot;Divine.Sdk&quot;: &quot;1.9.0&quot;
-  }
-}
+<p>If you already have a built plugin DLL, you can add it directly in the Divine desktop client. This guide uses <code>O9K.AIO.dll</code> as an example.</p>
+<h3 id="1-choose-a-plugin-profile">1. Choose a plugin profile</h3>
+<p>Open <strong>Divine</strong> and select <strong>Plugins</strong> in the left sidebar. Click the name of the profile where you want to add the plugin, such as <strong>Default</strong>. The right pane shows the plugins in that profile.</p>
+<p>In the top bar, click <strong>⋯</strong> and choose <strong>Add local plugin</strong>.</p>
+<p><img src="../images/local-plugins-add.png" alt="The Plugins page with the selected profile, the three-dot menu, and Add local plugin highlighted"></p>
+<h3 id="2-select-the-plugin-dll">2. Select the plugin DLL</h3>
+<p>In the file picker, browse to the output folder, select <strong>O9K.AIO.dll</strong>, and click <strong>Open</strong>. You can also paste the full path into the <strong>File name</strong> field. Here is an example path to the Debug build.</p>
+<pre><code class="lang-text">D:\GitHub.DivineCommunity\O9K\artifacts\bin\O9K.AIO\Debug\O9K.AIO.dll
 </code></pre>
-<p>The plugin <code>.csproj</code> file must use <code>Divine.Sdk</code>:</p>
-<pre><code class="lang-xml">&lt;Project Sdk=&quot;Divine.Sdk&quot; /&gt;
-</code></pre>
-<h3 id="step-4-add-the-plugin-in-divine">Step 4. Add the plugin in Divine</h3>
-<p>Open the local plugins page:</p>
-<p><a href="https://divine.wtf/local-plugins">https://divine.wtf/local-plugins</a></p>
-<p>Fill in the form:</p>
-<ul>
-<li><code>Plugin name</code>: the plugin name shown in the local plugins list.</li>
-<li><code>Path to .csproj file</code>: the full path to the plugin <code>.csproj</code> file.</li>
-</ul>
-<p><img src="../images/local-plugins-add.png" alt="Add local plugin form"></p>
-<p>Click <code>Add</code>.</p>
-<h3 id="step-5-enable-the-plugin">Step 5. Enable the plugin</h3>
-<p>After the plugin is added, it appears in the local plugins list.</p>
-<p>Click the plugin status button so it shows <code>Enabled</code>.</p>
-<p><img src="../images/local-plugins-enable.png" alt="Enabled local plugin"></p>
-<h3 id="step-6-build-the-plugin">Step 6. Build the plugin</h3>
-<p>Build the plugin project in Visual Studio or Rider.</p>
-<p>Wait until the build finishes successfully.</p>
-<h3 id="step-7-reload-the-plugin-in-game">Step 7. Reload the plugin in game</h3>
-<p>After the build succeeds, go back to the game and press <code>F5</code> to reload local plugins.</p>
-<p>If the plugin is enabled and the build output is valid, Divine loads the updated plugin build.</p>
+<p><img src="../images/local-plugins-select-dll.png" alt="The O9K Debug output folder with O9K.AIO.dll selected"></p>
+<p>If your checkout is elsewhere or you built a different configuration, use the path to your own build. If the file is missing, build the plugin first and then select the DLL from the build output.</p>
+<h3 id="3-check-that-the-plugin-is-enabled">3. Check that the plugin is enabled</h3>
+<p>Look for the <strong>O9K.AIO</strong> row that shows <strong>Local plugin</strong> in the <strong>Author</strong> column. Check that the profile switch on the left and the switch at the far right of the local plugin row are both on. If you also have the store version, its name may appear crossed out while the local build is active.</p>
+<p>If you cannot find the local row, check that you are viewing the profile you selected before opening the file picker.</p>
+<p><img src="../images/local-plugins-enable.png" alt="The enabled O9K.AIO row with Local plugin in the Author column"></p>
+<h3 id="4-load-an-updated-build">4. Load an updated build</h3>
+<p>If you rebuild the plugin, leave the updated DLL at the same path so Divine can find it. When Divine is already running in the game, return to the game and press <strong>F5</strong> to reload local plugins if you use the default reload key. If the new build is in a different folder, add that DLL from the client and check which build is enabled in your profile.</p>
+<h2 id="build-a-plugin-from-source">Build a plugin from source</h2>
+<ol>
+<li>Install the <a href="https://dotnet.microsoft.com/download/dotnet/11.0">.NET 11 SDK</a> and an IDE. Use <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a> with a .NET development workload or <a href="https://www.jetbrains.com/rider/download/">JetBrains Rider</a>.</li>
+<li>Clone <a href="https://github.com/DivinePlugins/Samples">DivinePlugins/Samples</a> and open the solution or project. Use the sample's <code>global.json</code> to select the .NET SDK and pin the <code>Divine.Sdk</code> version. The plugin project declares <code>&lt;Project Sdk=&quot;Divine.Sdk&quot; /&gt;</code>.</li>
+<li>Build the project in your IDE and add its output DLL using the steps above. You can also select the plugin's <code>.csproj</code> in <strong>Add local plugin</strong> and let Divine build the project for you.</li>
+</ol>
 
 </article>
 
